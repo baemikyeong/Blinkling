@@ -7,10 +7,9 @@
     android:layout_below="@+id/tool_bar"
     tools:context="com.example.hyemin.blinkling.BookshelfFragment">
 
-    <RelativeLayout
+    <ImageView
+        android:id="@+id/imageView3"
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
-
-    </RelativeLayout>
-
+        android:layout_height="match_parent"
+        app:srcCompat="@mipmap/shelf" />
 </FrameLayout>
