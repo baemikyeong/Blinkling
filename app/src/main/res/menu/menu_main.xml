@@ -3,14 +3,14 @@
     <item
         android:id="@+id/miCompose"
         android:icon="@drawable/notebook_add"
-        app:showAsAction="ifRoom"
+        app:showAsAction="always"
         android:title="C">
     </item>
 
     <item
         android:id="@+id/miProfile"
         android:icon="@drawable/notebook_setting"
-        app:showAsAction="ifRoom"
+        app:showAsAction="always"
         android:title="P">
     </item>
 </menu>
