@@ -1,6 +1,62 @@
 [
     {
-        "merged": "/Users/dayeon/Blinkling/app/build/intermediates/res/merged/debug/drawable-hdpi/ic_action_name.png",
-        "source": "/Users/dayeon/Blinkling/app/src/main/res/drawable-hdpi/ic_action_name.png"
+        "merged": "/Users/mac/Downloads/Blinkling/C:\\Users\\Hyemin\\Documents\\Blinkling\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_account_circle_black_24dp.png",
+        "source": "/Users/mac/Downloads/Blinkling/C:\\Users\\Hyemin\\Documents\\Blinkling\\Blinkling\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_account_circle_black_24dp.png"
+    },
+    {
+        "merged": "/Users/mac/Downloads/Blinkling/C:\\Users\\Hyemin\\Documents\\Blinkling\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_import_contacts_black_book_24dp.png",
+        "source": "/Users/mac/Downloads/Blinkling/C:\\Users\\Hyemin\\Documents\\Blinkling\\Blinkling\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_import_contacts_black_book_24dp.png"
+    },
+    {
+        "merged": "/Users/mac/Downloads/Blinkling/C:\\Users\\Hyemin\\Documents\\Blinkling\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\bookshlef1.png",
+        "source": "/Users/mac/Downloads/Blinkling/C:\\Users\\Hyemin\\Documents\\Blinkling\\Blinkling\\app\\src\\main\\res\\drawable-hdpi\\bookshlef1.png"
+    },
+    {
+        "merged": "/Users/mac/Downloads/Blinkling/app/build/intermediates/res/merged/debug/drawable-hdpi/bookshlef1.png",
+        "source": "/Users/mac/Downloads/Blinkling/app/src/main/res/drawable-hdpi/bookshlef1.png"
+    },
+    {
+        "merged": "/Users/mac/Downloads/Blinkling/C:\\Users\\Hyemin\\Documents\\Blinkling\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\bookshlef3.png",
+        "source": "/Users/mac/Downloads/Blinkling/C:\\Users\\Hyemin\\Documents\\Blinkling\\Blinkling\\app\\src\\main\\res\\drawable-hdpi\\bookshlef3.png"
+    },
+    {
+        "merged": "/Users/mac/Downloads/Blinkling/C:\\Users\\Hyemin\\Documents\\Blinkling\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_people_black_24dp.png",
+        "source": "/Users/mac/Downloads/Blinkling/C:\\Users\\Hyemin\\Documents\\Blinkling\\Blinkling\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_people_black_24dp.png"
+    },
+    {
+        "merged": "/Users/mac/Downloads/Blinkling/C:\\Users\\dayeon\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\bookshlef3.png",
+        "source": "/Users/mac/Downloads/Blinkling/C:\\Users\\dayeon\\Blinkling\\app\\src\\main\\res\\drawable-hdpi\\bookshlef3.png"
+    },
+    {
+        "merged": "/Users/mac/Downloads/Blinkling/app/build/intermediates/res/merged/debug/drawable-hdpi/bookshelf2.png",
+        "source": "/Users/mac/Downloads/Blinkling/app/src/main/res/drawable-hdpi/bookshelf2.png"
+    },
+    {
+        "merged": "/Users/mac/Downloads/Blinkling/app/build/intermediates/res/merged/debug/drawable-hdpi/bookshlef3.png",
+        "source": "/Users/mac/Downloads/Blinkling/app/src/main/res/drawable-hdpi/bookshlef3.png"
+    },
+    {
+        "merged": "/Users/mac/Downloads/Blinkling/C:\\Users\\dayeon\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\bookshlef1.png",
+        "source": "/Users/mac/Downloads/Blinkling/C:\\Users\\dayeon\\Blinkling\\app\\src\\main\\res\\drawable-hdpi\\bookshlef1.png"
+    },
+    {
+        "merged": "/Users/mac/Downloads/Blinkling/C:\\Users\\Hyemin\\Documents\\Blinkling\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_home_black_24dp.png",
+        "source": "/Users/mac/Downloads/Blinkling/C:\\Users\\Hyemin\\Documents\\Blinkling\\Blinkling\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_home_black_24dp.png"
+    },
+    {
+        "merged": "/Users/mac/Downloads/Blinkling/C:\\Users\\Hyemin\\Documents\\Blinkling\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_dashboard_black_24dp.png",
+        "source": "/Users/mac/Downloads/Blinkling/C:\\Users\\Hyemin\\Documents\\Blinkling\\Blinkling\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_dashboard_black_24dp.png"
+    },
+    {
+        "merged": "/Users/mac/Downloads/Blinkling/C:\\Users\\Hyemin\\Documents\\Blinkling\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_notifications_black_24dp.png",
+        "source": "/Users/mac/Downloads/Blinkling/C:\\Users\\Hyemin\\Documents\\Blinkling\\Blinkling\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_notifications_black_24dp.png"
+    },
+    {
+        "merged": "/Users/mac/Downloads/Blinkling/C:\\Users\\dayeon\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\bookshelf2.png",
+        "source": "/Users/mac/Downloads/Blinkling/C:\\Users\\dayeon\\Blinkling\\app\\src\\main\\res\\drawable-hdpi\\bookshelf2.png"
+    },
+    {
+        "merged": "/Users/mac/Downloads/Blinkling/C:\\Users\\Hyemin\\Documents\\Blinkling\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\bookshelf2.png",
+        "source": "/Users/mac/Downloads/Blinkling/C:\\Users\\Hyemin\\Documents\\Blinkling\\Blinkling\\app\\src\\main\\res\\drawable-hdpi\\bookshelf2.png"
     }
 ]

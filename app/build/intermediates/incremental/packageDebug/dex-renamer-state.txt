@@ -1,7 +1,4 @@
-#Thu Jul 06 14:47:47 KST 2017
-base.0=/Users/dayeon/Blinkling/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_bd63f8ffc14f3ccaaa257a2a35a23424c052848e
-renamed.1=classes.dex
-renamed.0=classes2.dex
-file.1=/Users/dayeon/Blinkling/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_c00b3cb394267bf7ae0e21ec809e7480801bd689/classes.dex
-base.1=/Users/dayeon/Blinkling/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_c00b3cb394267bf7ae0e21ec809e7480801bd689
-file.0=/Users/dayeon/Blinkling/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_bd63f8ffc14f3ccaaa257a2a35a23424c052848e/classes.dex
+#Tue Jul 11 12:00:11 KST 2017
+base.0=/Users/mac/Downloads/Blinkling/app/build/intermediates/transforms/dex/debug/folders/1000/1f/main
+renamed.0=classes.dex
+file.0=/Users/mac/Downloads/Blinkling/app/build/intermediates/transforms/dex/debug/folders/1000/1f/main/classes.dex

@@ -1,34 +1,98 @@
 [
     {
-        "merged": "/Users/dayeon/Blinkling/app/build/intermediates/res/merged/debug/drawable-v21/abc_edit_text_material.xml",
-        "source": "/Users/dayeon/.android/build-cache/08f0b85e835f6a143412367b800bd932d6600384/output/res/drawable-v21/abc_edit_text_material.xml"
+        "merged": "/Users/mac/Downloads/Blinkling/app/build/intermediates/res/merged/debug/drawable-v21/notification_action_background.xml",
+        "source": "/Users/mac/.android/build-cache/913d8db17f1c25b6ee67b77b63f40d3096bd505a/output/res/drawable-v21/notification_action_background.xml"
     },
     {
-        "merged": "/Users/dayeon/Blinkling/app/build/intermediates/res/merged/debug/drawable-v21/avd_show_password.xml",
-        "source": "/Users/dayeon/.android/build-cache/d7955f365574be11571c6d760671cfed3e81f806/output/res/drawable-v21/avd_show_password.xml"
+        "merged": "/Users/mac/Downloads/Blinkling/app/build/intermediates/res/merged/debug/drawable-v21/avd_hide_password.xml",
+        "source": "/Users/mac/.android/build-cache/2357a626681079792d0b0f8329e66fe5b38ee637/output/res/drawable-v21/avd_hide_password.xml"
     },
     {
-        "merged": "/Users/dayeon/Blinkling/app/build/intermediates/res/merged/debug/drawable-v21/design_bottom_navigation_item_background.xml",
-        "source": "/Users/dayeon/.android/build-cache/d7955f365574be11571c6d760671cfed3e81f806/output/res/drawable-v21/design_bottom_navigation_item_background.xml"
+        "merged": "/Users/mac/Downloads/Blinkling/C:\\Users\\dayeon\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\abc_action_bar_item_background_material.xml",
+        "source": "/Users/mac/Downloads/Blinkling/C:\\Users\\dayeon\\.android\\build-cache\\08f0b85e835f6a143412367b800bd932d6600384\\output\\res\\drawable-v21\\abc_action_bar_item_background_material.xml"
     },
     {
-        "merged": "/Users/dayeon/Blinkling/app/build/intermediates/res/merged/debug/drawable-v21/avd_hide_password.xml",
-        "source": "/Users/dayeon/.android/build-cache/d7955f365574be11571c6d760671cfed3e81f806/output/res/drawable-v21/avd_hide_password.xml"
+        "merged": "/Users/mac/Downloads/Blinkling/C:\\Users\\Hyemin\\Documents\\Blinkling\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\design_password_eye.xml",
+        "source": "/Users/mac/Downloads/Blinkling/C:\\Users\\Hyemin\\.android\\build-cache\\245ad94b3d5bca11ed899deb510616098046a633\\output\\res\\drawable-v21\\design_password_eye.xml"
     },
     {
-        "merged": "/Users/dayeon/Blinkling/app/build/intermediates/res/merged/debug/drawable-v21/design_password_eye.xml",
-        "source": "/Users/dayeon/.android/build-cache/d7955f365574be11571c6d760671cfed3e81f806/output/res/drawable-v21/design_password_eye.xml"
+        "merged": "/Users/mac/Downloads/Blinkling/C:\\Users\\Hyemin\\Documents\\Blinkling\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\avd_hide_password.xml",
+        "source": "/Users/mac/Downloads/Blinkling/C:\\Users\\Hyemin\\.android\\build-cache\\245ad94b3d5bca11ed899deb510616098046a633\\output\\res\\drawable-v21\\avd_hide_password.xml"
     },
     {
-        "merged": "/Users/dayeon/Blinkling/app/build/intermediates/res/merged/debug/drawable-v21/notification_action_background.xml",
-        "source": "/Users/dayeon/.android/build-cache/08f0b85e835f6a143412367b800bd932d6600384/output/res/drawable-v21/notification_action_background.xml"
+        "merged": "/Users/mac/Downloads/Blinkling/C:\\Users\\dayeon\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\abc_btn_colored_material.xml",
+        "source": "/Users/mac/Downloads/Blinkling/C:\\Users\\dayeon\\.android\\build-cache\\08f0b85e835f6a143412367b800bd932d6600384\\output\\res\\drawable-v21\\abc_btn_colored_material.xml"
     },
     {
-        "merged": "/Users/dayeon/Blinkling/app/build/intermediates/res/merged/debug/drawable-v21/abc_action_bar_item_background_material.xml",
-        "source": "/Users/dayeon/.android/build-cache/08f0b85e835f6a143412367b800bd932d6600384/output/res/drawable-v21/abc_action_bar_item_background_material.xml"
+        "merged": "/Users/mac/Downloads/Blinkling/app/build/intermediates/res/merged/debug/drawable-v21/abc_edit_text_material.xml",
+        "source": "/Users/mac/.android/build-cache/913d8db17f1c25b6ee67b77b63f40d3096bd505a/output/res/drawable-v21/abc_edit_text_material.xml"
     },
     {
-        "merged": "/Users/dayeon/Blinkling/app/build/intermediates/res/merged/debug/drawable-v21/abc_btn_colored_material.xml",
-        "source": "/Users/dayeon/.android/build-cache/08f0b85e835f6a143412367b800bd932d6600384/output/res/drawable-v21/abc_btn_colored_material.xml"
+        "merged": "/Users/mac/Downloads/Blinkling/C:\\Users\\Hyemin\\Documents\\Blinkling\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\avd_show_password.xml",
+        "source": "/Users/mac/Downloads/Blinkling/C:\\Users\\Hyemin\\.android\\build-cache\\245ad94b3d5bca11ed899deb510616098046a633\\output\\res\\drawable-v21\\avd_show_password.xml"
+    },
+    {
+        "merged": "/Users/mac/Downloads/Blinkling/C:\\Users\\Hyemin\\Documents\\Blinkling\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\abc_edit_text_material.xml",
+        "source": "/Users/mac/Downloads/Blinkling/C:\\Users\\Hyemin\\.android\\build-cache\\6129fd2d3f666eab7401e4b78bea7d27c6653860\\output\\res\\drawable-v21\\abc_edit_text_material.xml"
+    },
+    {
+        "merged": "/Users/mac/Downloads/Blinkling/C:\\Users\\Hyemin\\Documents\\Blinkling\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\abc_action_bar_item_background_material.xml",
+        "source": "/Users/mac/Downloads/Blinkling/C:\\Users\\Hyemin\\.android\\build-cache\\6129fd2d3f666eab7401e4b78bea7d27c6653860\\output\\res\\drawable-v21\\abc_action_bar_item_background_material.xml"
+    },
+    {
+        "merged": "/Users/mac/Downloads/Blinkling/C:\\Users\\dayeon\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\avd_show_password.xml",
+        "source": "/Users/mac/Downloads/Blinkling/C:\\Users\\dayeon\\.android\\build-cache\\d7955f365574be11571c6d760671cfed3e81f806\\output\\res\\drawable-v21\\avd_show_password.xml"
+    },
+    {
+        "merged": "/Users/mac/Downloads/Blinkling/C:\\Users\\Hyemin\\Documents\\Blinkling\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\abc_btn_colored_material.xml",
+        "source": "/Users/mac/Downloads/Blinkling/C:\\Users\\Hyemin\\.android\\build-cache\\6129fd2d3f666eab7401e4b78bea7d27c6653860\\output\\res\\drawable-v21\\abc_btn_colored_material.xml"
+    },
+    {
+        "merged": "/Users/mac/Downloads/Blinkling/C:\\Users\\dayeon\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\design_password_eye.xml",
+        "source": "/Users/mac/Downloads/Blinkling/C:\\Users\\dayeon\\.android\\build-cache\\d7955f365574be11571c6d760671cfed3e81f806\\output\\res\\drawable-v21\\design_password_eye.xml"
+    },
+    {
+        "merged": "/Users/mac/Downloads/Blinkling/C:\\Users\\dayeon\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\design_bottom_navigation_item_background.xml",
+        "source": "/Users/mac/Downloads/Blinkling/C:\\Users\\dayeon\\.android\\build-cache\\d7955f365574be11571c6d760671cfed3e81f806\\output\\res\\drawable-v21\\design_bottom_navigation_item_background.xml"
+    },
+    {
+        "merged": "/Users/mac/Downloads/Blinkling/app/build/intermediates/res/merged/debug/drawable-v21/avd_show_password.xml",
+        "source": "/Users/mac/.android/build-cache/2357a626681079792d0b0f8329e66fe5b38ee637/output/res/drawable-v21/avd_show_password.xml"
+    },
+    {
+        "merged": "/Users/mac/Downloads/Blinkling/app/build/intermediates/res/merged/debug/drawable-v21/design_bottom_navigation_item_background.xml",
+        "source": "/Users/mac/.android/build-cache/2357a626681079792d0b0f8329e66fe5b38ee637/output/res/drawable-v21/design_bottom_navigation_item_background.xml"
+    },
+    {
+        "merged": "/Users/mac/Downloads/Blinkling/C:\\Users\\Hyemin\\Documents\\Blinkling\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\notification_action_background.xml",
+        "source": "/Users/mac/Downloads/Blinkling/C:\\Users\\Hyemin\\.android\\build-cache\\6129fd2d3f666eab7401e4b78bea7d27c6653860\\output\\res\\drawable-v21\\notification_action_background.xml"
+    },
+    {
+        "merged": "/Users/mac/Downloads/Blinkling/app/build/intermediates/res/merged/debug/drawable-v21/abc_action_bar_item_background_material.xml",
+        "source": "/Users/mac/.android/build-cache/913d8db17f1c25b6ee67b77b63f40d3096bd505a/output/res/drawable-v21/abc_action_bar_item_background_material.xml"
+    },
+    {
+        "merged": "/Users/mac/Downloads/Blinkling/C:\\Users\\Hyemin\\Documents\\Blinkling\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\design_bottom_navigation_item_background.xml",
+        "source": "/Users/mac/Downloads/Blinkling/C:\\Users\\Hyemin\\.android\\build-cache\\245ad94b3d5bca11ed899deb510616098046a633\\output\\res\\drawable-v21\\design_bottom_navigation_item_background.xml"
+    },
+    {
+        "merged": "/Users/mac/Downloads/Blinkling/C:\\Users\\dayeon\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\avd_hide_password.xml",
+        "source": "/Users/mac/Downloads/Blinkling/C:\\Users\\dayeon\\.android\\build-cache\\d7955f365574be11571c6d760671cfed3e81f806\\output\\res\\drawable-v21\\avd_hide_password.xml"
+    },
+    {
+        "merged": "/Users/mac/Downloads/Blinkling/app/build/intermediates/res/merged/debug/drawable-v21/design_password_eye.xml",
+        "source": "/Users/mac/.android/build-cache/2357a626681079792d0b0f8329e66fe5b38ee637/output/res/drawable-v21/design_password_eye.xml"
+    },
+    {
+        "merged": "/Users/mac/Downloads/Blinkling/app/build/intermediates/res/merged/debug/drawable-v21/abc_btn_colored_material.xml",
+        "source": "/Users/mac/.android/build-cache/913d8db17f1c25b6ee67b77b63f40d3096bd505a/output/res/drawable-v21/abc_btn_colored_material.xml"
+    },
+    {
+        "merged": "/Users/mac/Downloads/Blinkling/C:\\Users\\dayeon\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\notification_action_background.xml",
+        "source": "/Users/mac/Downloads/Blinkling/C:\\Users\\dayeon\\.android\\build-cache\\08f0b85e835f6a143412367b800bd932d6600384\\output\\res\\drawable-v21\\notification_action_background.xml"
+    },
+    {
+        "merged": "/Users/mac/Downloads/Blinkling/C:\\Users\\dayeon\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\abc_edit_text_material.xml",
+        "source": "/Users/mac/Downloads/Blinkling/C:\\Users\\dayeon\\.android\\build-cache\\08f0b85e835f6a143412367b800bd932d6600384\\output\\res\\drawable-v21\\abc_edit_text_material.xml"
     }
 ]

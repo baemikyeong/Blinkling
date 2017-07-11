@@ -1,29 +1,35 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto">
+
     <item
-        android:id="@+id/action_bookshelf"
+        android:id="@+id/navigation_home"
+        android:icon="@drawable/book"
+        android:title="My Bookshelf"
         android:enabled="true"
-        android:icon="@drawable/mail"
-        android:title="@string/action_bookshelf"
-        app:showAsAction="always"></item>
+        app:showAsAction="ifRoom"
+        />
+
     <item
-        android:id="@+id/action_search"
+        android:id="@+id/navigation_write"
+        android:icon="@drawable/bookmarkstar"
+        android:title="Bookmark"
         android:enabled="true"
-        android:icon="@drawable/play"
-        android:title="@string/action_search"
-        app:showAsAction="always"></item>
+        app:showAsAction="ifRoom"/>
+
     <item
-        android:id="@+id/action_cart"
+        android:id="@+id/navigation_friends"
+        android:icon="@drawable/gridworld"
         android:enabled="true"
-        android:icon="@drawable/ic_action_menu"
-        android:title="@string/action_cart"
-        app:showAsAction="always"></item>
+        app:showAsAction="ifRoom"
+        android:title="webview" />
+
     <item
-        android:id="@+id/action_hot_deals"
+        android:id="@+id/navigation_foodbank"
+        android:icon="@drawable/settings"
+        android:title="setting"
         android:enabled="true"
-        android:icon="@drawable/stop"
-        android:title="@string/action_hot_deals"
-        app:showAsAction="always"></item>
+        app:showAsAction="ifRoom"/>
+
 
 </menu>
