@@ -55,6 +55,7 @@ public class MainActivity extends ActionBarActivity {
                                 fragment = new SettingFragment();
                                 break;
 
+
                         }
                         final FragmentTransaction transaction = fragmentManager.beginTransaction();
                         transaction.replace(R.id.main_container, fragment).commit();
@@ -90,6 +91,31 @@ public class MainActivity extends ActionBarActivity {
                 toast.show();
                 return true;
             }
+            case R.id.eye_btn: {
+                Toast toast;
+                toast = Toast.makeText(this, item.getTitle() + " Clicked eye button!", Toast.LENGTH_SHORT);
+                toast.show();
+                return true;
+            }
+            case R.id.voice_btn: {
+                Toast toast;
+                toast = Toast.makeText(this, item.getTitle() + " Clicked voice button!", Toast.LENGTH_SHORT);
+                toast.show();
+                return true;
+            }
+            case R.id.bookmark_btn: {
+                Toast toast;
+                toast = Toast.makeText(this, item.getTitle() + " Clicked bk button!", Toast.LENGTH_SHORT);
+                toast.show();
+                return true;
+            }
+            case R.id.light_btn: {
+                Toast toast;
+                toast = Toast.makeText(this, item.getTitle() + " Clicked light button!", Toast.LENGTH_SHORT);
+                toast.show();
+                return true;
+            }
+
         }
         return super.onOptionsItemSelected(item);
     }

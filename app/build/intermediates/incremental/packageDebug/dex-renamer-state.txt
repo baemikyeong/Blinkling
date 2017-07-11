@@ -1,4 +1,4 @@
-#Tue Jul 11 12:00:11 KST 2017
-base.0=/Users/mac/Downloads/Blinkling/app/build/intermediates/transforms/dex/debug/folders/1000/1f/main
+#Tue Jul 11 23:14:10 KST 2017
+base.0=C\:\\Users\\Hyemin\\Documents\\Blinkling_re\\Blinkling\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main
 renamed.0=classes.dex
-file.0=/Users/mac/Downloads/Blinkling/app/build/intermediates/transforms/dex/debug/folders/1000/1f/main/classes.dex
+file.0=C\:\\Users\\Hyemin\\Documents\\Blinkling_re\\Blinkling\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main\\classes.dex
