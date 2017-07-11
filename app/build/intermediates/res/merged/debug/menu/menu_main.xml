@@ -1,0 +1,16 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/miCompose"
+        android:icon="@drawable/notebook_add"
+        app:showAsAction="always"
+        android:title="C">
+    </item>
+
+    <item
+        android:id="@+id/miProfile"
+        android:icon="@drawable/notebook_setting"
+        app:showAsAction="always"
+        android:title="P">
+    </item>
+</menu>

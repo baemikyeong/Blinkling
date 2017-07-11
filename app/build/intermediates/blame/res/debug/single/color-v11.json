@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/Users/dayeon/Blinkling/app/build/intermediates/res/merged/debug/color-v11/abc_background_cache_hint_selector_material_light.xml",
+        "source": "/Users/dayeon/.android/build-cache/08f0b85e835f6a143412367b800bd932d6600384/output/res/color-v11/abc_background_cache_hint_selector_material_light.xml"
+    },
+    {
+        "merged": "/Users/dayeon/Blinkling/app/build/intermediates/res/merged/debug/color-v11/abc_background_cache_hint_selector_material_dark.xml",
+        "source": "/Users/dayeon/.android/build-cache/08f0b85e835f6a143412367b800bd932d6600384/output/res/color-v11/abc_background_cache_hint_selector_material_dark.xml"
+    }
+]

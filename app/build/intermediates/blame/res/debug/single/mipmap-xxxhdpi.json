@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "/Users/dayeon/Blinkling/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi/ic_launcher.png",
+        "source": "/Users/dayeon/Blinkling/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/dayeon/Blinkling/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi/shelf.png",
+        "source": "/Users/dayeon/Blinkling/app/src/main/res/mipmap-xxxhdpi/shelf.png"
+    },
+    {
+        "merged": "/Users/dayeon/Blinkling/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi/ic_launcher_round.png",
+        "source": "/Users/dayeon/Blinkling/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png"
+    }
+]
