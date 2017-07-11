@@ -6,6 +6,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
+//웹뷰 (주소가 현재 창인 것 보완하기) 
 public class WebviewFragment extends Fragment {
     public WebviewFragment() {
     }
