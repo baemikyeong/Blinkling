@@ -24,12 +24,12 @@
         "source": "C:\\Users\\Hyemin\\.android\\build-cache\\6129fd2d3f666eab7401e4b78bea7d27c6653860\\output\\res\\color-v23\\abc_color_highlight_material.xml"
     },
     {
-        "merged": "C:\\Users\\mac\\Downloads\\Blinkling\\C:\\Users\\dayeon\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\color-v23\\abc_btn_colored_borderless_text_material.xml",
-        "source": "C:\\Users\\mac\\Downloads\\Blinkling\\C:\\Users\\dayeon\\.android\\build-cache\\08f0b85e835f6a143412367b800bd932d6600384\\output\\res\\color-v23\\abc_btn_colored_borderless_text_material.xml"
-    },
-    {
         "merged": "C:\\Users\\mac\\Downloads\\Blinkling\\C:\\Users\\dayeon\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\color-v23\\design_tint_password_toggle.xml",
         "source": "C:\\Users\\mac\\Downloads\\Blinkling\\C:\\Users\\dayeon\\.android\\build-cache\\d7955f365574be11571c6d760671cfed3e81f806\\output\\res\\color-v23\\design_tint_password_toggle.xml"
+    },
+    {
+        "merged": "C:\\Users\\mac\\Downloads\\Blinkling\\C:\\Users\\dayeon\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\color-v23\\abc_btn_colored_borderless_text_material.xml",
+        "source": "C:\\Users\\mac\\Downloads\\Blinkling\\C:\\Users\\dayeon\\.android\\build-cache\\08f0b85e835f6a143412367b800bd932d6600384\\output\\res\\color-v23\\abc_btn_colored_borderless_text_material.xml"
     },
     {
         "merged": "C:\\Users\\mac\\Downloads\\Blinkling\\C:\\Users\\Hyemin\\Documents\\Blinkling\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\color-v23\\abc_tint_switch_thumb.xml",

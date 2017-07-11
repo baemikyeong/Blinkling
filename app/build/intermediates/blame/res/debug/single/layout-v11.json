@@ -24,12 +24,12 @@
         "source": "C:\\Users\\mac\\Downloads\\Blinkling\\C:\\Users\\dayeon\\.android\\build-cache\\08f0b85e835f6a143412367b800bd932d6600384\\output\\res\\layout-v11\\notification_template_big_media_custom.xml"
     },
     {
-        "merged": "C:\\Users\\Hyemin\\Documents\\Blinkling_re\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\layout-v11\\notification_media_cancel_action.xml",
-        "source": "C:\\Users\\Hyemin\\.android\\build-cache\\6129fd2d3f666eab7401e4b78bea7d27c6653860\\output\\res\\layout-v11\\notification_media_cancel_action.xml"
-    },
-    {
         "merged": "C:\\Users\\mac\\Downloads\\Blinkling\\C:\\Users\\Hyemin\\Documents\\Blinkling\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\layout-v11\\notification_template_big_media_narrow_custom.xml",
         "source": "C:\\Users\\mac\\Downloads\\Blinkling\\C:\\Users\\Hyemin\\.android\\build-cache\\6129fd2d3f666eab7401e4b78bea7d27c6653860\\output\\res\\layout-v11\\notification_template_big_media_narrow_custom.xml"
+    },
+    {
+        "merged": "C:\\Users\\Hyemin\\Documents\\Blinkling_re\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\layout-v11\\notification_media_cancel_action.xml",
+        "source": "C:\\Users\\Hyemin\\.android\\build-cache\\6129fd2d3f666eab7401e4b78bea7d27c6653860\\output\\res\\layout-v11\\notification_media_cancel_action.xml"
     },
     {
         "merged": "C:\\Users\\mac\\Downloads\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\layout-v11\\notification_template_big_media.xml",
