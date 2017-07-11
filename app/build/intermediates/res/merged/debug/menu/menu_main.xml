@@ -32,12 +32,12 @@
         android:id="@+id/bookmark_btn"
         android:icon="@drawable/bookmark"
         app:showAsAction="ifRoom"
-        android:title="삭제">
+        android:title="북마크">
     </item>
     <item
         android:id="@+id/notebook_delete"
         android:icon="@drawable/garbage"
         app:showAsAction="ifRoom"
-        android:title="북마크">
+        android:title="삭제">
     </item>
 </menu>
