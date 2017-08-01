@@ -30,6 +30,7 @@
         </activity>
         <activity android:name="com.example.hyemin.blinkling.MainActivity" />
         <activity android:name="com.example.hyemin.blinkling.SDcardActivity" />
+        <activity android:name="com.example.hyemin.blinkling.ListViewItem" />
     </application>
 
 </manifest>

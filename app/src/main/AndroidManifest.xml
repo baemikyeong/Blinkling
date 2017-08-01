@@ -19,7 +19,8 @@
             </intent-filter>
         </activity>
         <activity android:name=".MainActivity" />
-        <activity android:name=".SDcardActivity"></activity>
+        <activity android:name=".SDcardActivity" />
+        <activity android:name=".ListViewItem"></activity>
     </application>
 
 </manifest>

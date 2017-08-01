@@ -27,6 +27,9 @@ public class MainActivity extends ActionBarActivity {
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         getSupportActionBar().setHomeAsUpIndicator(R.drawable.folder);
 
+       // BookmarkFragment bookmarkFrgmt = (BookmarkFragment)getSupportFragmentManager().findFragmentById(R.id.frgm);
+        //bookmarkFrgmt.addItem(ContextCompat.getDrawable(this, R.drawable.bookmarkstar), "New Box", "New Account Box Black 36dp") ;
+
         fragmentManager = getSupportFragmentManager();
         fragment = new BookshelfFragment();
         final FragmentTransaction transaction = fragmentManager.beginTransaction();
@@ -55,12 +58,14 @@ public class MainActivity extends ActionBarActivity {
                                 fragment = new SettingFragment();
                                 break;
 
+
                         }
                         final FragmentTransaction transaction = fragmentManager.beginTransaction();
                         transaction.replace(R.id.main_container, fragment).commit();
                         return true;
                     }
                 });
+
 
     }
 
@@ -90,6 +95,31 @@ public class MainActivity extends ActionBarActivity {
                 toast.show();
                 return true;
             }
+            case R.id.eye_btn: {
+                Toast toast;
+                toast = Toast.makeText(this, item.getTitle() + " Clicked eye button!", Toast.LENGTH_SHORT);
+                toast.show();
+                return true;
+            }
+            case R.id.voice_btn: {
+                Toast toast;
+                toast = Toast.makeText(this, item.getTitle() + " Clicked voice button!", Toast.LENGTH_SHORT);
+                toast.show();
+                return true;
+            }
+            case R.id.bookmark_btn: {
+                Toast toast;
+                toast = Toast.makeText(this, item.getTitle() + " Clicked bk button!", Toast.LENGTH_SHORT);
+                toast.show();
+                return true;
+            }
+            case R.id.light_btn: {
+                Toast toast;
+                toast = Toast.makeText(this, item.getTitle() + " Clicked light button!", Toast.LENGTH_SHORT);
+                toast.show();
+                return true;
+            }
+
         }
         return super.onOptionsItemSelected(item);
     }
