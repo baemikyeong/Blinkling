@@ -1,20 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.hyemin.blinkling.test" >
+    package="com.example.hyemin.blinkling.test">
 
-    <uses-sdk
-        android:minSdkVersion="14"
-        android:targetSdkVersion="25" />
-
-    <instrumentation
-        android:name="android.support.test.runner.AndroidJUnitRunner"
-        android:functionalTest="false"
-        android:handleProfiling="false"
-        android:label="Tests for com.example.hyemin.blinkling"
-        android:targetPackage="com.example.hyemin.blinkling" />
+    <uses-sdk android:minSdkVersion="14" android:targetSdkVersion="25" />
 
     <application>
         <uses-library android:name="android.test.runner" />
     </application>
 
+    <instrumentation android:name="android.support.test.runner.AndroidJUnitRunner"
+                     android:targetPackage="com.example.hyemin.blinkling"
+                     android:handleProfiling="false"
+                     android:functionalTest="false"
+                     android:label="Tests for com.example.hyemin.blinkling"/>
 </manifest>
