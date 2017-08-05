@@ -28,6 +28,10 @@
         "source": "/Users/mac/Downloads/Blinkling/C:\\Users\\Hyemin\\Documents\\Blinkling\\Blinkling\\app\\src\\main\\res\\drawable-xxhdpi\\bookshlef3.png"
     },
     {
+        "merged": "/Users/mac/Blinkling/app/build/intermediates/res/merged/debug/drawable-xxhdpi/ic_details.png",
+        "source": "/Users/mac/Blinkling/app/src/main/res/drawable-xxhdpi/ic_details.png"
+    },
+    {
         "merged": "/Users/mac/Downloads/Blinkling/app/build/intermediates/res/merged/debug/drawable-xxhdpi/bookshlef1.png",
         "source": "/Users/mac/Downloads/Blinkling/app/src/main/res/drawable-xxhdpi/bookshlef1.png"
     },
