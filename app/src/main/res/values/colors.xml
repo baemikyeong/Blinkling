@@ -11,5 +11,15 @@
     <color name="colorExtra">#fffac1</color>
     <color name="textColorPrimary">#a7a4a4</color>
     <color name="itemIconTint">#3b3838</color>
+
+
+    <color name="lvHeaderTextColor">#168686</color>
+    <color name="primaryTextColor">#333333</color>
+    <color name="secondaryTextColor">#777777</color>
+
+    <color name="goblinGreen">#168686</color>
+    <color name="lvHeaderDividerColor">#168686</color>
+    <color name="lvDividerColor">#E0E0E0</color>
+
 </resources>
 

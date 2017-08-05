@@ -28,8 +28,17 @@
         "source": "C:\\Users\\mac\\Downloads\\Blinkling\\C:\\Users\\Hyemin\\Documents\\Blinkling\\Blinkling\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_home_black_24dp.png"
     },
     {
+<<<<<<< HEAD
         "merged": "C:\\Users\\mac\\Downloads\\Blinkling\\C:\\Users\\Hyemin\\Documents\\Blinkling\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_import_contacts_black_book_24dp.png",
         "source": "C:\\Users\\mac\\Downloads\\Blinkling\\C:\\Users\\Hyemin\\Documents\\Blinkling\\Blinkling\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\ic_import_contacts_black_book_24dp.png"
+=======
+        "merged": "/Users/mac/Blinkling/app/build/intermediates/res/merged/debug/drawable-xxhdpi/ic_details.png",
+        "source": "/Users/mac/Blinkling/app/src/main/res/drawable-xxhdpi/ic_details.png"
+    },
+    {
+        "merged": "/Users/mac/Downloads/Blinkling/app/build/intermediates/res/merged/debug/drawable-xxhdpi/bookshlef1.png",
+        "source": "/Users/mac/Downloads/Blinkling/app/src/main/res/drawable-xxhdpi/bookshlef1.png"
+>>>>>>> 9aabb1bc7c356e6b1b72ce3c207114453633d1fc
     },
     {
         "merged": "C:\\Users\\mac\\Downloads\\Blinkling\\C:\\Users\\Hyemin\\Documents\\Blinkling\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_notifications_black_24dp.png",

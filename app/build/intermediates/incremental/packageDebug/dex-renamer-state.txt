@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #Sun Aug 06 02:39:40 KST 2017
 base.0=C\:\\Users\\dy889\\Documents\\Blinkling\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_48c815fb749c90f52e471f0d28b3c282984ebf94
 renamed.1=classes.dex
@@ -5,3 +6,9 @@ renamed.0=classes2.dex
 file.1=C\:\\Users\\dy889\\Documents\\Blinkling\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_6f7729c05d125aa9796bc4c689111bb7930937d7\\classes.dex
 base.1=C\:\\Users\\dy889\\Documents\\Blinkling\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_6f7729c05d125aa9796bc4c689111bb7930937d7
 file.0=C\:\\Users\\dy889\\Documents\\Blinkling\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_48c815fb749c90f52e471f0d28b3c282984ebf94\\classes.dex
+=======
+#Sat Aug 05 23:31:18 KST 2017
+base.0=/Users/mac/Blinkling/app/build/intermediates/transforms/dex/debug/folders/1000/1f/main
+renamed.0=classes.dex
+file.0=/Users/mac/Blinkling/app/build/intermediates/transforms/dex/debug/folders/1000/1f/main/classes.dex
+>>>>>>> 9aabb1bc7c356e6b1b72ce3c207114453633d1fc
