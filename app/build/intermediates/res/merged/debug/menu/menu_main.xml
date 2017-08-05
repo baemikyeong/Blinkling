@@ -1,0 +1,19 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity">
+    <item
+        android:id="@+id/notebook_add"
+        android:icon="@drawable/plus"
+        app:showAsAction="ifRoom"
+        android:title="추가">
+    </item>
+
+
+    <item
+        android:id="@+id/notebook_delete"
+        android:icon="@drawable/garbage"
+        app:showAsAction="ifRoom"
+        android:title="삭제">
+    </item>
+</menu>
