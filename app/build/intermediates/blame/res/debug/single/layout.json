@@ -44,6 +44,10 @@
         "source": "/Users/mac/.android/build-cache/2357a626681079792d0b0f8329e66fe5b38ee637/output/res/layout/design_layout_tab_icon.xml"
     },
     {
+        "merged": "/Users/mac/Blinkling/app/build/intermediates/res/merged/debug/layout/lv_layout.xml",
+        "source": "/Users/mac/Blinkling/app/src/main/res/layout/lv_layout.xml"
+    },
+    {
         "merged": "/Users/mac/Downloads/Blinkling/app/build/intermediates/res/merged/debug/layout/abc_expanded_menu_layout.xml",
         "source": "/Users/mac/.android/build-cache/913d8db17f1c25b6ee67b77b63f40d3096bd505a/output/res/layout/abc_expanded_menu_layout.xml"
     },
@@ -242,6 +246,10 @@
     {
         "merged": "/Users/mac/Downloads/Blinkling/C:\\Users\\Hyemin\\Documents\\Blinkling\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
         "source": "/Users/mac/Downloads/Blinkling/C:\\Users\\Hyemin\\Documents\\Blinkling\\Blinkling\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "/Users/mac/Blinkling/app/build/intermediates/res/merged/debug/layout/setting.xml",
+        "source": "/Users/mac/Blinkling/app/src/main/res/layout/setting.xml"
     },
     {
         "merged": "/Users/mac/Downloads/Blinkling/C:\\Users\\dayeon\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_menu_item.xml",
@@ -678,6 +686,10 @@
     {
         "merged": "/Users/mac/Downloads/Blinkling/app/build/intermediates/res/merged/debug/layout/notification_template_icon_group.xml",
         "source": "/Users/mac/.android/build-cache/913d8db17f1c25b6ee67b77b63f40d3096bd505a/output/res/layout/notification_template_icon_group.xml"
+    },
+    {
+        "merged": "/Users/mac/Blinkling/app/build/intermediates/res/merged/debug/layout/lv_header_layout.xml",
+        "source": "/Users/mac/Blinkling/app/src/main/res/layout/lv_header_layout.xml"
     },
     {
         "merged": "/Users/mac/Downloads/Blinkling/C:\\Users\\dayeon\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_view.xml",
