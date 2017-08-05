@@ -915,7 +915,7 @@ int id topPanel 0x7f0d005d
 int id touch_outside 0x7f0d0081
 int id transition_current_scene 0x7f0d000b
 int id transition_scene_layoutid_cache 0x7f0d000c
-int id txtview 0x7f0d008b
+int id txtView 0x7f0d008b
 int id up 0x7f0d000d
 int id useLogo 0x7f0d0020
 int id view_offset_helper 0x7f0d000e
