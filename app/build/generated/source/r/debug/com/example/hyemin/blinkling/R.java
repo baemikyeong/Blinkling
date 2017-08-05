@@ -3296,7 +3296,7 @@ containing a value of this type.
         public static final int touch_outside=0x7f0d0081;
         public static final int transition_current_scene=0x7f0d000b;
         public static final int transition_scene_layoutid_cache=0x7f0d000c;
-        public static final int txtView=0x7f0d008b;
+        public static final int txtview=0x7f0d008b;
         public static final int up=0x7f0d000d;
         public static final int useLogo=0x7f0d0020;
         public static final int view_offset_helper=0x7f0d000e;

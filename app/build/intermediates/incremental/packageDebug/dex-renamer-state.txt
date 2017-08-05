@@ -1,4 +1,4 @@
-#Sun Aug 06 02:39:40 KST 2017
+#Sun Aug 06 01:41:06 KST 2017
 base.0=C\:\\Users\\dy889\\Documents\\Blinkling\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_48c815fb749c90f52e471f0d28b3c282984ebf94
 renamed.1=classes.dex
 renamed.0=classes2.dex

@@ -127,20 +127,19 @@ public class InnerStorageFragment extends ListFragment {
             toast.show();
             //sd카드에는 텍스트 파일만 있다고 가정,   strPath이름의 텍스트 파일을 읽을거야
             int pos = strPath.lastIndexOf("/");
-            strPath = strPath.substring(pos+1);//pos=시작인덱스, 포스부터 쭉 서브스트링을 리턴
-            mBookName = strPath; //
-
+            strPath = strPath.substring(pos);//pos=시작인덱스, 포스부터 쭉 서브스트링을 리턴
+            mBookName = strPath; //   / 이거 없애야 함
 
             toast = Toast.makeText(root, mBookName, Toast.LENGTH_SHORT);
             toast.show();
-
+            
 //그러니까 경로의 마지막부분인 파일이름으로 읽는걸 들어가야 한다.
-           Fragment txtFrag = new TextViewFragment();
-            Bundle bundle = new Bundle();
-            bundle.putString("name",mBookName);
-            txtFrag.setArguments(bundle);
+//            Fragment frag = new TextViewFragment();
+//            Bundle bundle = new Bundle();
+//            bundle.putString("bookname",mBookName);
+//            frag.setArguments(bundle);
 
-            ( (MainActivity)getActivity()).changeToText();
+           // ( (MainActivity)getActivity()).changeToText();
 
             return null;
         }
