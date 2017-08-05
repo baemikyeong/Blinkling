@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Sun Aug 06 01:41:06 KST 2017
+#Sun Aug 06 03:28:54 KST 2017
 210.set=ANDROID_RESOURCE
 282.file=C\:\\Users\\dy889\\Documents\\Blinkling\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\anim-v21\\design_bottom_sheet_slide_in.xml
 14.set=ANDROID_RESOURCE
