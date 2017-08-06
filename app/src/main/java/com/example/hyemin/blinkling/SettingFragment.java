@@ -1,6 +1,7 @@
 package com.example.hyemin.blinkling;
 
 import android.content.Context;
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
@@ -8,16 +9,16 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.AdapterView;
 import android.widget.BaseAdapter;
-import android.widget.Button;
 import android.widget.ImageButton;
 import android.widget.ListView;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import java.util.ArrayList;
+import com.google.android.gms.vision.CameraSource;
 
 public class SettingFragment extends Fragment {
 
+    private CameraSource mCameraSource;
     public static final int HDR_POS1 = 0;
     public static final int HDR_POS2 = 6;
     public static final String[] LIST = {"Viewer Setting", "배경색",
@@ -51,8 +52,7 @@ public class SettingFragment extends Fragment {
         lv.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView parent, View v, int position, long id) {
-
-                Toast.makeText(getActivity(), "위치 :" + (int) parent.getItemAtPosition(position), Toast.LENGTH_SHORT).show();
+                setting_check(position);
             }
         });
 
@@ -138,8 +138,7 @@ public class SettingFragment extends Fragment {
             img_button.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
-
-                    Toast.makeText(getActivity(),"위치 : " + pos, Toast.LENGTH_SHORT).show();
+                    setting_check(pos);
                 }
             });
 
@@ -156,5 +155,40 @@ public class SettingFragment extends Fragment {
         }
 
         private final Context mContext;
+    }
+
+    public void setting_check(int pos){
+
+        switch(pos){
+            case 1:
+                Toast.makeText(getActivity(),"배경색 설정", Toast.LENGTH_SHORT).show();
+                break;
+            case 2:
+                Toast.makeText(getActivity(),"밝기 설정", Toast.LENGTH_SHORT).show();
+                break;
+            case 3:
+                Toast.makeText(getActivity(),"글꼴 설정", Toast.LENGTH_SHORT).show();
+                break;
+            case 4:
+                Toast.makeText(getActivity(),"블루라이트 설정", Toast.LENGTH_SHORT).show();
+                break;
+            case 5:
+                Toast.makeText(getActivity(),"페이지 넘기는 방식 설정", Toast.LENGTH_SHORT).show();
+                break;
+            case 7:
+                Intent intent = new Intent(getActivity(), Face_Activity.class);
+
+                if (mCameraSource != null) {
+                    mCameraSource.release();
+                    mCameraSource = null;
+                }
+
+                Toast.makeText(getActivity(), "초기화를 시작합니다", Toast.LENGTH_SHORT).show();
+                Toast.makeText(getActivity(), "눈을 감고 Blink_Size 버튼을 두 번 눌러주세요", Toast.LENGTH_SHORT).show();
+
+                startActivity(intent);
+                break;
+        }
+
     }
 }

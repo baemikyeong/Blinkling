@@ -493,6 +493,27 @@
                         "endOffset": 14072
                     }
                 }
+            },
+            {
+                "to": {
+                    "startLine": 192,
+                    "startColumn": 4,
+                    "startOffset": 14077,
+                    "endLine": 193,
+                    "endColumn": 8,
+                    "endOffset": 14198
+                },
+                "from": {
+                    "file": "/Users/mac/.android/build-cache/e1140e8e3896a6881f3fffca76c348b6144b0a37/output/res/values-v11/values.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 0,
+                        "startOffset": 172,
+                        "endLine": 5,
+                        "endColumn": 8,
+                        "endOffset": 293
+                    }
+                }
             }
         ]
     },

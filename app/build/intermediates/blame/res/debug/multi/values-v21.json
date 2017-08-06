@@ -6176,9 +6176,30 @@
                     "startLine": 279,
                     "startColumn": 4,
                     "startOffset": 20451,
-                    "endLine": 281,
+                    "endLine": 280,
+                    "endColumn": 8,
+                    "endOffset": 20576
+                },
+                "from": {
+                    "file": "/Users/mac/.android/build-cache/e1140e8e3896a6881f3fffca76c348b6144b0a37/output/res/values-v21/values.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 0,
+                        "startOffset": 172,
+                        "endLine": 5,
+                        "endColumn": 8,
+                        "endOffset": 297
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 281,
+                    "startColumn": 4,
+                    "startOffset": 20581,
+                    "endLine": 283,
                     "endColumn": 12,
-                    "endOffset": 20621
+                    "endOffset": 20751
                 },
                 "from": {
                     "file": "/Users/mac/.android/build-cache/913d8db17f1c25b6ee67b77b63f40d3096bd505a/output/res/values-v21/values-v21.xml",
@@ -6194,12 +6215,12 @@
             },
             {
                 "to": {
-                    "startLine": 282,
+                    "startLine": 284,
                     "startColumn": 4,
-                    "startOffset": 20626,
-                    "endLine": 286,
+                    "startOffset": 20756,
+                    "endLine": 288,
                     "endColumn": 12,
-                    "endOffset": 20962
+                    "endOffset": 21092
                 },
                 "from": {
                     "file": "/Users/mac/.android/build-cache/913d8db17f1c25b6ee67b77b63f40d3096bd505a/output/res/values-v21/values-v21.xml",
@@ -6215,12 +6236,12 @@
             },
             {
                 "to": {
-                    "startLine": 287,
+                    "startLine": 289,
                     "startColumn": 4,
-                    "startOffset": 20967,
-                    "endLine": 289,
+                    "startOffset": 21097,
+                    "endLine": 291,
                     "endColumn": 12,
-                    "endOffset": 21160
+                    "endOffset": 21290
                 },
                 "from": {
                     "file": "/Users/mac/.android/build-cache/2357a626681079792d0b0f8329e66fe5b38ee637/output/res/values-v21/values-v21.xml",

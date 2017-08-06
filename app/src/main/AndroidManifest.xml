@@ -2,6 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.hyemin.blinkling">
 
+    <uses-permission android:name="android.permission.CAMERA" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -20,6 +22,12 @@
         </activity>
         <activity android:name=".MainActivity" />
         <activity android:name=".SDcardActivity"></activity>
+        <activity
+            android:name=".Face_Activity"
+            android:permission="android.permission.CAMERA"
+            android:screenOrientation="fullSensor">
+
+        </activity>
     </application>
 
 </manifest>
