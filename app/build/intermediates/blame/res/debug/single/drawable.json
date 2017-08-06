@@ -1,5 +1,17 @@
 [
     {
+        "merged": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\C:\\Users\\Hyemin\\Documents\\Blinkling\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_radio_material.xml",
+        "source": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\C:\\Users\\Hyemin\\.android\\build-cache\\6129fd2d3f666eab7401e4b78bea7d27c6653860\\output\\res\\drawable\\abc_btn_radio_material.xml"
+    },
+    {
+        "merged": "/Users/mac/Blinkling/C:\\Users\\mac\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_borderless_material.xml",
+        "source": "/Users/mac/Blinkling/C:\\Users\\mac\\.android\\build-cache\\913d8db17f1c25b6ee67b77b63f40d3096bd505a\\output\\res\\drawable\\abc_btn_borderless_material.xml"
+    },
+    {
+        "merged": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_arrow_drop_right_black_24dp.xml",
+        "source": "/Users/mac/Blinkling/C:\\Users\\mac\\.android\\build-cache\\913d8db17f1c25b6ee67b77b63f40d3096bd505a\\output\\res\\drawable\\abc_ic_arrow_drop_right_black_24dp.xml"
+    },
+    {
         "merged": "/Users/mac/Blinkling/app/build/intermediates/res/merged/debug/drawable/design_fab_background.xml",
         "source": "/Users/mac/.android/build-cache/2357a626681079792d0b0f8329e66fe5b38ee637/output/res/drawable/design_fab_background.xml"
     },
@@ -8,152 +20,227 @@
         "source": "/Users/mac/.android/build-cache/913d8db17f1c25b6ee67b77b63f40d3096bd505a/output/res/drawable/abc_btn_radio_material.xml"
     },
     {
+        "merged": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_track_material.xml",
+        "source": "/Users/mac/Blinkling/C:\\Users\\mac\\.android\\build-cache\\913d8db17f1c25b6ee67b77b63f40d3096bd505a\\output\\res\\drawable\\abc_seekbar_track_material.xml"
+    },
+    {
+        "merged": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\design_password_eye.xml",
+        "source": "/Users/mac/Blinkling/C:\\Users\\mac\\.android\\build-cache\\2357a626681079792d0b0f8329e66fe5b38ee637\\output\\res\\drawable\\design_password_eye.xml"
+    },
+    {
+        "merged": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\C:\\Users\\Hyemin\\Documents\\Blinkling\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\play.png",
+        "source": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\C:\\Users\\Hyemin\\Documents\\Blinkling\\Blinkling\\app\\src\\main\\res\\drawable\\play.png"
+    },
+    {
+        "merged": "/Users/mac/Blinkling/C:\\Users\\mac\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_edit_text_material.xml",
+        "source": "/Users/mac/Blinkling/C:\\Users\\mac\\.android\\build-cache\\913d8db17f1c25b6ee67b77b63f40d3096bd505a\\output\\res\\drawable\\abc_edit_text_material.xml"
+    },
+    {
         "merged": "/Users/mac/Blinkling/app/build/intermediates/res/merged/debug/drawable/plus.png",
         "source": "/Users/mac/Blinkling/app/src/main/res/drawable/plus.png"
     },
     {
+<<<<<<< HEAD
         "merged": "/Users/mac/Blinkling/app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_icon_light.xml",
         "source": "/Users/mac/.android/build-cache/46cde47e55c49a49e2a966d8d336fb318d076378/output/res/drawable/common_google_signin_btn_icon_light.xml"
     },
     {
         "merged": "/Users/mac/Downloads/Blinkling/C:\\Users\\Hyemin\\Documents\\Blinkling\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\stop.png",
         "source": "/Users/mac/Downloads/Blinkling/C:\\Users\\Hyemin\\Documents\\Blinkling\\Blinkling\\app\\src\\main\\res\\drawable\\stop.png"
+=======
+        "merged": "/Users/mac/Blinkling/C:\\Users\\dy889\\Documents\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_edit_text_material.xml",
+        "source": "/Users/mac/Blinkling/C:\\Users\\dy889\\.android\\build-cache\\eaa9472fc91e028a5a27b3d20e7a0c3fbad5c383\\output\\res\\drawable\\abc_edit_text_material.xml"
+>>>>>>> mi
     },
     {
-        "merged": "/Users/mac/Downloads/Blinkling/C:\\Users\\dayeon\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\mainimage.png",
-        "source": "/Users/mac/Downloads/Blinkling/C:\\Users\\dayeon\\Blinkling\\app\\src\\main\\res\\drawable\\mainimage.png"
+        "merged": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_dark.xml",
+        "source": "/Users/mac/Blinkling/C:\\Users\\mac\\.android\\build-cache\\913d8db17f1c25b6ee67b77b63f40d3096bd505a\\output\\res\\drawable\\abc_list_selector_background_transition_holo_dark.xml"
     },
     {
-        "merged": "/Users/mac/Downloads/Blinkling/C:\\Users\\dayeon\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_text_cursor_material.xml",
-        "source": "/Users/mac/Downloads/Blinkling/C:\\Users\\dayeon\\.android\\build-cache\\08f0b85e835f6a143412367b800bd932d6600384\\output\\res\\drawable\\abc_text_cursor_material.xml"
+        "merged": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\C:\\Users\\dayeon\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_textfield_search_material.xml",
+        "source": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\C:\\Users\\dayeon\\.android\\build-cache\\08f0b85e835f6a143412367b800bd932d6600384\\output\\res\\drawable\\abc_textfield_search_material.xml"
     },
     {
-        "merged": "/Users/mac/Downloads/Blinkling/C:\\Users\\dayeon\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\navigation_empty_icon.xml",
-        "source": "/Users/mac/Downloads/Blinkling/C:\\Users\\dayeon\\.android\\build-cache\\d7955f365574be11571c6d760671cfed3e81f806\\output\\res\\drawable\\navigation_empty_icon.xml"
+        "merged": "/Users/mac/Blinkling/C:\\Users\\dy889\\Documents\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_light.xml",
+        "source": "/Users/mac/Blinkling/C:\\Users\\dy889\\.android\\build-cache\\eaa9472fc91e028a5a27b3d20e7a0c3fbad5c383\\output\\res\\drawable\\abc_list_selector_background_transition_holo_light.xml"
     },
     {
         "merged": "/Users/mac/Blinkling/app/build/intermediates/res/merged/debug/drawable/bookshelf_back.png",
         "source": "/Users/mac/Blinkling/app/src/main/res/drawable/bookshelf_back.png"
     },
     {
+<<<<<<< HEAD
         "merged": "/Users/mac/Blinkling/app/build/intermediates/res/merged/debug/drawable/cast_ic_notification_forward30.xml",
         "source": "/Users/mac/.android/build-cache/d3ff796d1a0a0be6c348fb13321312629f76eaaf/output/res/drawable/cast_ic_notification_forward30.xml"
     },
     {
         "merged": "/Users/mac/Downloads/Blinkling/C:\\Users\\dayeon\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_bg_low.xml",
         "source": "/Users/mac/Downloads/Blinkling/C:\\Users\\dayeon\\.android\\build-cache\\08f0b85e835f6a143412367b800bd932d6600384\\output\\res\\drawable\\notification_bg_low.xml"
+=======
+        "merged": "/Users/mac/Blinkling/C:\\Users\\dy889\\Documents\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_arrow_drop_right_black_24dp.xml",
+        "source": "/Users/mac/Blinkling/C:\\Users\\dy889\\.android\\build-cache\\eaa9472fc91e028a5a27b3d20e7a0c3fbad5c383\\output\\res\\drawable\\abc_ic_arrow_drop_right_black_24dp.xml"
+>>>>>>> mi
     },
     {
-        "merged": "/Users/mac/Downloads/Blinkling/C:\\Users\\dayeon\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\design_fab_background.xml",
-        "source": "/Users/mac/Downloads/Blinkling/C:\\Users\\dayeon\\.android\\build-cache\\d7955f365574be11571c6d760671cfed3e81f806\\output\\res\\drawable\\design_fab_background.xml"
+        "merged": "/Users/mac/Blinkling/C:\\Users\\mac\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\mainimage.png",
+        "source": "/Users/mac/Blinkling/C:\\Users\\mac\\Blinkling\\app\\src\\main\\res\\drawable\\mainimage.png"
     },
     {
-        "merged": "/Users/mac/Downloads/Blinkling/app/build/intermediates/res/merged/debug/drawable/notification_bg_low.xml",
-        "source": "/Users/mac/.android/build-cache/913d8db17f1c25b6ee67b77b63f40d3096bd505a/output/res/drawable/notification_bg_low.xml"
+        "merged": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\C:\\Users\\Hyemin\\Documents\\Blinkling\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notebook_find.png",
+        "source": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\C:\\Users\\Hyemin\\Documents\\Blinkling\\Blinkling\\app\\src\\main\\res\\drawable\\notebook_find.png"
     },
     {
-        "merged": "/Users/mac/Downloads/Blinkling/C:\\Users\\dayeon\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_edit_text_material.xml",
-        "source": "/Users/mac/Downloads/Blinkling/C:\\Users\\dayeon\\.android\\build-cache\\08f0b85e835f6a143412367b800bd932d6600384\\output\\res\\drawable\\abc_edit_text_material.xml"
+        "merged": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\C:\\Users\\dayeon\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_tab_indicator_material.xml",
+        "source": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\C:\\Users\\dayeon\\.android\\build-cache\\08f0b85e835f6a143412367b800bd932d6600384\\output\\res\\drawable\\abc_tab_indicator_material.xml"
     },
     {
-        "merged": "/Users/mac/Downloads/Blinkling/app/build/intermediates/res/merged/debug/drawable/abc_dialog_material_background.xml",
-        "source": "/Users/mac/.android/build-cache/913d8db17f1c25b6ee67b77b63f40d3096bd505a/output/res/drawable/abc_dialog_material_background.xml"
+        "merged": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_text_cursor_material.xml",
+        "source": "/Users/mac/Blinkling/C:\\Users\\mac\\.android\\build-cache\\913d8db17f1c25b6ee67b77b63f40d3096bd505a\\output\\res\\drawable\\abc_text_cursor_material.xml"
     },
     {
+<<<<<<< HEAD
         "merged": "/Users/mac/Blinkling/app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_text_light.xml",
         "source": "/Users/mac/.android/build-cache/46cde47e55c49a49e2a966d8d336fb318d076378/output/res/drawable/common_google_signin_btn_text_light.xml"
     },
     {
         "merged": "/Users/mac/Downloads/Blinkling/C:\\Users\\Hyemin\\Documents\\Blinkling\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_light.xml",
         "source": "/Users/mac/Downloads/Blinkling/C:\\Users\\Hyemin\\.android\\build-cache\\6129fd2d3f666eab7401e4b78bea7d27c6653860\\output\\res\\drawable\\abc_list_selector_holo_light.xml"
+=======
+        "merged": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_menu_overflow_material.xml",
+        "source": "/Users/mac/Blinkling/C:\\Users\\mac\\.android\\build-cache\\913d8db17f1c25b6ee67b77b63f40d3096bd505a\\output\\res\\drawable\\abc_ic_menu_overflow_material.xml"
+>>>>>>> mi
     },
     {
-        "merged": "/Users/mac/Downloads/Blinkling/C:\\Users\\Hyemin\\Documents\\Blinkling\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_dark.xml",
-        "source": "/Users/mac/Downloads/Blinkling/C:\\Users\\Hyemin\\.android\\build-cache\\6129fd2d3f666eab7401e4b78bea7d27c6653860\\output\\res\\drawable\\abc_item_background_holo_dark.xml"
+        "merged": "/Users/mac/Blinkling/C:\\Users\\dy889\\Documents\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_default_mtrl_shape.xml",
+        "source": "/Users/mac/Blinkling/C:\\Users\\dy889\\.android\\build-cache\\eaa9472fc91e028a5a27b3d20e7a0c3fbad5c383\\output\\res\\drawable\\abc_btn_default_mtrl_shape.xml"
     },
     {
-        "merged": "/Users/mac/Downloads/Blinkling/app/build/intermediates/res/merged/debug/drawable/abc_ic_arrow_drop_right_black_24dp.xml",
-        "source": "/Users/mac/.android/build-cache/913d8db17f1c25b6ee67b77b63f40d3096bd505a/output/res/drawable/abc_ic_arrow_drop_right_black_24dp.xml"
+        "merged": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notebook_find.png",
+        "source": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\app\\src\\main\\res\\drawable\\notebook_find.png"
     },
     {
-        "merged": "/Users/mac/Downloads/Blinkling/C:\\Users\\dayeon\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_dialog_material_background.xml",
-        "source": "/Users/mac/Downloads/Blinkling/C:\\Users\\dayeon\\.android\\build-cache\\08f0b85e835f6a143412367b800bd932d6600384\\output\\res\\drawable\\abc_dialog_material_background.xml"
+        "merged": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\C:\\Users\\Hyemin\\Documents\\Blinkling\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_dialog_material_background.xml",
+        "source": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\C:\\Users\\Hyemin\\.android\\build-cache\\6129fd2d3f666eab7401e4b78bea7d27c6653860\\output\\res\\drawable\\abc_dialog_material_background.xml"
     },
     {
-        "merged": "/Users/mac/Downloads/Blinkling/C:\\Users\\Hyemin\\Documents\\Blinkling\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notebook_add.png",
-        "source": "/Users/mac/Downloads/Blinkling/C:\\Users\\Hyemin\\Documents\\Blinkling\\Blinkling\\app\\src\\main\\res\\drawable\\notebook_add.png"
+        "merged": "/Users/mac/Blinkling/C:\\Users\\mac\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_go_search_api_material.xml",
+        "source": "/Users/mac/Blinkling/C:\\Users\\mac\\.android\\build-cache\\913d8db17f1c25b6ee67b77b63f40d3096bd505a\\output\\res\\drawable\\abc_ic_go_search_api_material.xml"
     },
     {
-        "merged": "/Users/mac/Downloads/Blinkling/C:\\Users\\Hyemin\\Documents\\Blinkling\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bookshelf_back.png",
-        "source": "/Users/mac/Downloads/Blinkling/C:\\Users\\Hyemin\\Documents\\Blinkling\\Blinkling\\app\\src\\main\\res\\drawable\\bookshelf_back.png"
+        "merged": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\C:\\Users\\Hyemin\\Documents\\Blinkling\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_bg.xml",
+        "source": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\C:\\Users\\Hyemin\\.android\\build-cache\\6129fd2d3f666eab7401e4b78bea7d27c6653860\\output\\res\\drawable\\notification_bg.xml"
     },
     {
-        "merged": "/Users/mac/Downloads/Blinkling/C:\\Users\\Hyemin\\Documents\\Blinkling\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_foodbank.png",
-        "source": "/Users/mac/Downloads/Blinkling/C:\\Users\\Hyemin\\Documents\\Blinkling\\Blinkling\\app\\src\\main\\res\\drawable\\ic_foodbank.png"
+        "merged": "/Users/mac/Blinkling/C:\\Users\\mac\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_dark.xml",
+        "source": "/Users/mac/Blinkling/C:\\Users\\mac\\.android\\build-cache\\913d8db17f1c25b6ee67b77b63f40d3096bd505a\\output\\res\\drawable\\abc_item_background_holo_dark.xml"
     },
     {
+<<<<<<< HEAD
         "merged": "/Users/mac/Blinkling/app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_icon_disabled.xml",
         "source": "/Users/mac/.android/build-cache/46cde47e55c49a49e2a966d8d336fb318d076378/output/res/drawable/common_google_signin_btn_icon_disabled.xml"
     },
     {
         "merged": "/Users/mac/Downloads/Blinkling/app/build/intermediates/res/merged/debug/drawable/garbage.png",
         "source": "/Users/mac/Downloads/Blinkling/app/src/main/res/drawable/garbage.png"
+=======
+        "merged": "/Users/mac/Blinkling/C:\\Users\\mac\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_dark.xml",
+        "source": "/Users/mac/Blinkling/C:\\Users\\mac\\.android\\build-cache\\913d8db17f1c25b6ee67b77b63f40d3096bd505a\\output\\res\\drawable\\abc_list_selector_holo_dark.xml"
+>>>>>>> mi
     },
     {
-        "merged": "/Users/mac/Downloads/Blinkling/C:\\Users\\Hyemin\\Documents\\Blinkling\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_switch_thumb_material.xml",
-        "source": "/Users/mac/Downloads/Blinkling/C:\\Users\\Hyemin\\.android\\build-cache\\6129fd2d3f666eab7401e4b78bea7d27c6653860\\output\\res\\drawable\\abc_switch_thumb_material.xml"
+        "merged": "/Users/mac/Blinkling/C:\\Users\\mac\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notebook_setting.png",
+        "source": "/Users/mac/Blinkling/C:\\Users\\mac\\Blinkling\\app\\src\\main\\res\\drawable\\notebook_setting.png"
     },
     {
+<<<<<<< HEAD
         "merged": "/Users/mac/Blinkling/app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_text_dark.xml",
         "source": "/Users/mac/.android/build-cache/46cde47e55c49a49e2a966d8d336fb318d076378/output/res/drawable/common_google_signin_btn_text_dark.xml"
     },
     {
         "merged": "/Users/mac/Downloads/Blinkling/C:\\Users\\Hyemin\\Documents\\Blinkling\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_go_search_api_material.xml",
         "source": "/Users/mac/Downloads/Blinkling/C:\\Users\\Hyemin\\.android\\build-cache\\6129fd2d3f666eab7401e4b78bea7d27c6653860\\output\\res\\drawable\\abc_ic_go_search_api_material.xml"
+=======
+        "merged": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\gridworld.png",
+        "source": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\app\\src\\main\\res\\drawable\\gridworld.png"
+>>>>>>> mi
     },
     {
-        "merged": "/Users/mac/Downloads/Blinkling/C:\\Users\\dayeon\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_icon_background.xml",
-        "source": "/Users/mac/Downloads/Blinkling/C:\\Users\\dayeon\\.android\\build-cache\\08f0b85e835f6a143412367b800bd932d6600384\\output\\res\\drawable\\notification_icon_background.xml"
+        "merged": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_textfield_search_material.xml",
+        "source": "/Users/mac/Blinkling/C:\\Users\\mac\\.android\\build-cache\\913d8db17f1c25b6ee67b77b63f40d3096bd505a\\output\\res\\drawable\\abc_textfield_search_material.xml"
     },
     {
+<<<<<<< HEAD
         "merged": "/Users/mac/Blinkling/app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_text_dark_focused.xml",
         "source": "/Users/mac/.android/build-cache/46cde47e55c49a49e2a966d8d336fb318d076378/output/res/drawable/common_google_signin_btn_text_dark_focused.xml"
     },
     {
         "merged": "/Users/mac/Downloads/Blinkling/C:\\Users\\dayeon\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\play.png",
         "source": "/Users/mac/Downloads/Blinkling/C:\\Users\\dayeon\\Blinkling\\app\\src\\main\\res\\drawable\\play.png"
+=======
+        "merged": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\C:\\Users\\dayeon\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_tile_bg.xml",
+        "source": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\C:\\Users\\dayeon\\.android\\build-cache\\08f0b85e835f6a143412367b800bd932d6600384\\output\\res\\drawable\\notification_tile_bg.xml"
+>>>>>>> mi
     },
     {
-        "merged": "/Users/mac/Downloads/Blinkling/C:\\Users\\dayeon\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_switch_thumb_material.xml",
-        "source": "/Users/mac/Downloads/Blinkling/C:\\Users\\dayeon\\.android\\build-cache\\08f0b85e835f6a143412367b800bd932d6600384\\output\\res\\drawable\\abc_switch_thumb_material.xml"
+        "merged": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_search_api_material.xml",
+        "source": "/Users/mac/Blinkling/C:\\Users\\mac\\.android\\build-cache\\913d8db17f1c25b6ee67b77b63f40d3096bd505a\\output\\res\\drawable\\abc_ic_search_api_material.xml"
     },
     {
-        "merged": "/Users/mac/Downloads/Blinkling/app/build/intermediates/res/merged/debug/drawable/abc_seekbar_tick_mark_material.xml",
-        "source": "/Users/mac/.android/build-cache/913d8db17f1c25b6ee67b77b63f40d3096bd505a/output/res/drawable/abc_seekbar_tick_mark_material.xml"
+        "merged": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\garbage.png",
+        "source": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\app\\src\\main\\res\\drawable\\garbage.png"
     },
     {
-        "merged": "/Users/mac/Downloads/Blinkling/C:\\Users\\Hyemin\\Documents\\Blinkling\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\book.png",
-        "source": "/Users/mac/Downloads/Blinkling/C:\\Users\\Hyemin\\Documents\\Blinkling\\Blinkling\\app\\src\\main\\res\\drawable\\book.png"
+        "merged": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\C:\\Users\\Hyemin\\Documents\\Blinkling\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_icon_background.xml",
+        "source": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\C:\\Users\\Hyemin\\.android\\build-cache\\6129fd2d3f666eab7401e4b78bea7d27c6653860\\output\\res\\drawable\\notification_icon_background.xml"
     },
     {
-        "merged": "/Users/mac/Downloads/Blinkling/app/build/intermediates/res/merged/debug/drawable/notification_tile_bg.xml",
-        "source": "/Users/mac/.android/build-cache/913d8db17f1c25b6ee67b77b63f40d3096bd505a/output/res/drawable/notification_tile_bg.xml"
+        "merged": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\C:\\Users\\Hyemin\\Documents\\Blinkling\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\internet.png",
+        "source": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\C:\\Users\\Hyemin\\Documents\\Blinkling\\Blinkling\\app\\src\\main\\res\\drawable\\internet.png"
     },
     {
+        "merged": "/Users/mac/Blinkling/C:\\Users\\mac\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_small_material.xml",
+        "source": "/Users/mac/Blinkling/C:\\Users\\mac\\.android\\build-cache\\913d8db17f1c25b6ee67b77b63f40d3096bd505a\\output\\res\\drawable\\abc_ratingbar_small_material.xml"
+    },
+    {
+        "merged": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\settings.png",
+        "source": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\app\\src\\main\\res\\drawable\\settings.png"
+    },
+    {
+        "merged": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\C:\\Users\\dayeon\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_menu_overflow_material.xml",
+        "source": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\C:\\Users\\dayeon\\.android\\build-cache\\08f0b85e835f6a143412367b800bd932d6600384\\output\\res\\drawable\\abc_ic_menu_overflow_material.xml"
+    },
+    {
+        "merged": "/Users/mac/Blinkling/C:\\Users\\dy889\\Documents\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\book.png",
+        "source": "/Users/mac/Blinkling/C:\\Users\\dy889\\Documents\\Blinkling\\app\\src\\main\\res\\drawable\\book.png"
+    },
+    {
+        "merged": "/Users/mac/Blinkling/C:\\Users\\mac\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\plus.png",
+        "source": "/Users/mac/Blinkling/C:\\Users\\mac\\Blinkling\\app\\src\\main\\res\\drawable\\plus.png"
+    },
+    {
+        "merged": "/Users/mac/Blinkling/C:\\Users\\dy889\\Documents\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\back.png",
+        "source": "/Users/mac/Blinkling/C:\\Users\\dy889\\Documents\\Blinkling\\app\\src\\main\\res\\drawable\\back.png"
+    },
+    {
+<<<<<<< HEAD
         "merged": "/Users/mac/Blinkling/app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_icon_dark_focused.xml",
         "source": "/Users/mac/.android/build-cache/46cde47e55c49a49e2a966d8d336fb318d076378/output/res/drawable/common_google_signin_btn_icon_dark_focused.xml"
     },
     {
         "merged": "/Users/mac/Downloads/Blinkling/C:\\Users\\Hyemin\\Documents\\Blinkling\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\design_fab_background.xml",
         "source": "/Users/mac/Downloads/Blinkling/C:\\Users\\Hyemin\\.android\\build-cache\\245ad94b3d5bca11ed899deb510616098046a633\\output\\res\\drawable\\design_fab_background.xml"
+=======
+        "merged": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\book.png",
+        "source": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\app\\src\\main\\res\\drawable\\book.png"
+>>>>>>> mi
     },
     {
-        "merged": "/Users/mac/Downloads/Blinkling/C:\\Users\\Hyemin\\Documents\\Blinkling\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\design_password_eye.xml",
-        "source": "/Users/mac/Downloads/Blinkling/C:\\Users\\Hyemin\\.android\\build-cache\\245ad94b3d5bca11ed899deb510616098046a633\\output\\res\\drawable\\design_password_eye.xml"
+        "merged": "/Users/mac/Blinkling/C:\\Users\\dy889\\Documents\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notebook_find.png",
+        "source": "/Users/mac/Blinkling/C:\\Users\\dy889\\Documents\\Blinkling\\app\\src\\main\\res\\drawable\\notebook_find.png"
     },
     {
-        "merged": "/Users/mac/Downloads/Blinkling/C:\\Users\\Hyemin\\Documents\\Blinkling\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\worldwide.png",
-        "source": "/Users/mac/Downloads/Blinkling/C:\\Users\\Hyemin\\Documents\\Blinkling\\Blinkling\\app\\src\\main\\res\\drawable\\worldwide.png"
+        "merged": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\C:\\Users\\Hyemin\\Documents\\Blinkling\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\folder.png",
+        "source": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\C:\\Users\\Hyemin\\Documents\\Blinkling\\Blinkling\\app\\src\\main\\res\\drawable\\folder.png"
     },
     {
         "merged": "/Users/mac/Blinkling/app/build/intermediates/res/merged/debug/drawable/abc_switch_thumb_material.xml",
@@ -164,60 +251,83 @@
         "source": "/Users/mac/Blinkling/app/src/main/res/drawable/folder.png"
     },
     {
+<<<<<<< HEAD
         "merged": "/Users/mac/Blinkling/app/build/intermediates/res/merged/debug/drawable/cast_ic_expanded_controller_mute.xml",
         "source": "/Users/mac/.android/build-cache/d3ff796d1a0a0be6c348fb13321312629f76eaaf/output/res/drawable/cast_ic_expanded_controller_mute.xml"
+=======
+        "merged": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_light.xml",
+        "source": "/Users/mac/Blinkling/C:\\Users\\mac\\.android\\build-cache\\913d8db17f1c25b6ee67b77b63f40d3096bd505a\\output\\res\\drawable\\abc_list_selector_holo_light.xml"
+>>>>>>> mi
     },
     {
         "merged": "/Users/mac/Blinkling/app/build/intermediates/res/merged/debug/drawable/worldwide.png",
         "source": "/Users/mac/Blinkling/app/src/main/res/drawable/worldwide.png"
     },
     {
+        "merged": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\C:\\Users\\dayeon\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_thumb_material.xml",
+        "source": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\C:\\Users\\dayeon\\.android\\build-cache\\08f0b85e835f6a143412367b800bd932d6600384\\output\\res\\drawable\\abc_seekbar_thumb_material.xml"
+    },
+    {
         "merged": "/Users/mac/Blinkling/app/build/intermediates/res/merged/debug/drawable/notification_bg.xml",
         "source": "/Users/mac/.android/build-cache/913d8db17f1c25b6ee67b77b63f40d3096bd505a/output/res/drawable/notification_bg.xml"
     },
     {
+<<<<<<< HEAD
         "merged": "/Users/mac/Blinkling/app/build/intermediates/res/merged/debug/drawable/cast_ic_mini_controller_mute.xml",
         "source": "/Users/mac/.android/build-cache/d3ff796d1a0a0be6c348fb13321312629f76eaaf/output/res/drawable/cast_ic_mini_controller_mute.xml"
+=======
+        "merged": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\C:\\Users\\dayeon\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notebook_find.png",
+        "source": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\C:\\Users\\dayeon\\Blinkling\\app\\src\\main\\res\\drawable\\notebook_find.png"
+>>>>>>> mi
     },
     {
         "merged": "/Users/mac/Blinkling/app/build/intermediates/res/merged/debug/drawable/notification_bg_low.xml",
         "source": "/Users/mac/.android/build-cache/913d8db17f1c25b6ee67b77b63f40d3096bd505a/output/res/drawable/notification_bg_low.xml"
     },
     {
-        "merged": "/Users/mac/Downloads/Blinkling/app/build/intermediates/res/merged/debug/drawable/abc_ic_go_search_api_material.xml",
-        "source": "/Users/mac/.android/build-cache/913d8db17f1c25b6ee67b77b63f40d3096bd505a/output/res/drawable/abc_ic_go_search_api_material.xml"
-    },
-    {
-        "merged": "/Users/mac/Downloads/Blinkling/app/build/intermediates/res/merged/debug/drawable/abc_list_selector_background_transition_holo_dark.xml",
-        "source": "/Users/mac/.android/build-cache/913d8db17f1c25b6ee67b77b63f40d3096bd505a/output/res/drawable/abc_list_selector_background_transition_holo_dark.xml"
+        "merged": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\C:\\Users\\Hyemin\\Documents\\Blinkling\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_action_menu.png",
+        "source": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\C:\\Users\\Hyemin\\Documents\\Blinkling\\Blinkling\\app\\src\\main\\res\\drawable\\ic_action_menu.png"
     },
     {
         "merged": "/Users/mac/Blinkling/app/build/intermediates/res/merged/debug/drawable/abc_textfield_search_material.xml",
         "source": "/Users/mac/.android/build-cache/913d8db17f1c25b6ee67b77b63f40d3096bd505a/output/res/drawable/abc_textfield_search_material.xml"
     },
     {
-        "merged": "/Users/mac/Downloads/Blinkling/C:\\Users\\dayeon\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\design_bottom_navigation_item_background.xml",
-        "source": "/Users/mac/Downloads/Blinkling/C:\\Users\\dayeon\\.android\\build-cache\\d7955f365574be11571c6d760671cfed3e81f806\\output\\res\\drawable\\design_bottom_navigation_item_background.xml"
+        "merged": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_material.xml",
+        "source": "/Users/mac/Blinkling/C:\\Users\\mac\\.android\\build-cache\\913d8db17f1c25b6ee67b77b63f40d3096bd505a\\output\\res\\drawable\\abc_ratingbar_material.xml"
     },
     {
-        "merged": "/Users/mac/Downloads/Blinkling/C:\\Users\\Hyemin\\Documents\\Blinkling\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_tab_indicator_material.xml",
-        "source": "/Users/mac/Downloads/Blinkling/C:\\Users\\Hyemin\\.android\\build-cache\\6129fd2d3f666eab7401e4b78bea7d27c6653860\\output\\res\\drawable\\abc_tab_indicator_material.xml"
+        "merged": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\C:\\Users\\Hyemin\\Documents\\Blinkling\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_edit_text_material.xml",
+        "source": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\C:\\Users\\Hyemin\\.android\\build-cache\\6129fd2d3f666eab7401e4b78bea7d27c6653860\\output\\res\\drawable\\abc_edit_text_material.xml"
     },
     {
-        "merged": "/Users/mac/Downloads/Blinkling/C:\\Users\\Hyemin\\Documents\\Blinkling\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_text_cursor_material.xml",
-        "source": "/Users/mac/Downloads/Blinkling/C:\\Users\\Hyemin\\.android\\build-cache\\6129fd2d3f666eab7401e4b78bea7d27c6653860\\output\\res\\drawable\\abc_text_cursor_material.xml"
+        "merged": "/Users/mac/Blinkling/C:\\Users\\mac\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_clear_material.xml",
+        "source": "/Users/mac/Blinkling/C:\\Users\\mac\\.android\\build-cache\\913d8db17f1c25b6ee67b77b63f40d3096bd505a\\output\\res\\drawable\\abc_ic_clear_material.xml"
     },
     {
+        "merged": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_small_material.xml",
+        "source": "/Users/mac/Blinkling/C:\\Users\\mac\\.android\\build-cache\\913d8db17f1c25b6ee67b77b63f40d3096bd505a\\output\\res\\drawable\\abc_ratingbar_small_material.xml"
+    },
+    {
+        "merged": "/Users/mac/Blinkling/C:\\Users\\dy889\\Documents\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_text_cursor_material.xml",
+        "source": "/Users/mac/Blinkling/C:\\Users\\dy889\\.android\\build-cache\\eaa9472fc91e028a5a27b3d20e7a0c3fbad5c383\\output\\res\\drawable\\abc_text_cursor_material.xml"
+    },
+    {
+<<<<<<< HEAD
         "merged": "/Users/mac/Blinkling/app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_icon_dark.xml",
         "source": "/Users/mac/.android/build-cache/46cde47e55c49a49e2a966d8d336fb318d076378/output/res/drawable/common_google_signin_btn_icon_dark.xml"
     },
     {
         "merged": "/Users/mac/Downloads/Blinkling/C:\\Users\\Hyemin\\Documents\\Blinkling\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_tile_bg.xml",
         "source": "/Users/mac/Downloads/Blinkling/C:\\Users\\Hyemin\\.android\\build-cache\\6129fd2d3f666eab7401e4b78bea7d27c6653860\\output\\res\\drawable\\notification_tile_bg.xml"
+=======
+        "merged": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\design_bottom_navigation_item_background.xml",
+        "source": "/Users/mac/Blinkling/C:\\Users\\mac\\.android\\build-cache\\2357a626681079792d0b0f8329e66fe5b38ee637\\output\\res\\drawable\\design_bottom_navigation_item_background.xml"
+>>>>>>> mi
     },
     {
-        "merged": "/Users/mac/Downloads/Blinkling/C:\\Users\\Hyemin\\Documents\\Blinkling\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\settings.png",
-        "source": "/Users/mac/Downloads/Blinkling/C:\\Users\\Hyemin\\Documents\\Blinkling\\Blinkling\\app\\src\\main\\res\\drawable\\settings.png"
+        "merged": "/Users/mac/Blinkling/C:\\Users\\dy889\\Documents\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_voice_search_api_material.xml",
+        "source": "/Users/mac/Blinkling/C:\\Users\\dy889\\.android\\build-cache\\eaa9472fc91e028a5a27b3d20e7a0c3fbad5c383\\output\\res\\drawable\\abc_ic_voice_search_api_material.xml"
     },
     {
         "merged": "/Users/mac/Blinkling/app/build/intermediates/res/merged/debug/drawable/cast_ic_notification_stop_live_stream.xml",
@@ -228,8 +338,20 @@
         "source": "/Users/mac/.android/build-cache/913d8db17f1c25b6ee67b77b63f40d3096bd505a/output/res/drawable/abc_item_background_holo_light.xml"
     },
     {
-        "merged": "/Users/mac/Downloads/Blinkling/C:\\Users\\dayeon\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_tick_mark_material.xml",
-        "source": "/Users/mac/Downloads/Blinkling/C:\\Users\\dayeon\\.android\\build-cache\\08f0b85e835f6a143412367b800bd932d6600384\\output\\res\\drawable\\abc_seekbar_tick_mark_material.xml"
+        "merged": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\C:\\Users\\dayeon\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_spinner_textfield_background_material.xml",
+        "source": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\C:\\Users\\dayeon\\.android\\build-cache\\08f0b85e835f6a143412367b800bd932d6600384\\output\\res\\drawable\\abc_spinner_textfield_background_material.xml"
+    },
+    {
+        "merged": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notebook_setting.png",
+        "source": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\app\\src\\main\\res\\drawable\\notebook_setting.png"
+    },
+    {
+        "merged": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\C:\\Users\\Hyemin\\Documents\\Blinkling\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notebook_add.png",
+        "source": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\C:\\Users\\Hyemin\\Documents\\Blinkling\\Blinkling\\app\\src\\main\\res\\drawable\\notebook_add.png"
+    },
+    {
+        "merged": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\C:\\Users\\dayeon\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\design_fab_background.xml",
+        "source": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\C:\\Users\\dayeon\\.android\\build-cache\\d7955f365574be11571c6d760671cfed3e81f806\\output\\res\\drawable\\design_fab_background.xml"
     },
     {
         "merged": "/Users/mac/Blinkling/app/build/intermediates/res/merged/debug/drawable/mr_ic_play_dark.xml",
@@ -240,12 +362,16 @@
         "source": "/Users/mac/Blinkling/app/src/main/res/drawable/garbage.png"
     },
     {
+        "merged": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_dark.xml",
+        "source": "/Users/mac/Blinkling/C:\\Users\\mac\\.android\\build-cache\\913d8db17f1c25b6ee67b77b63f40d3096bd505a\\output\\res\\drawable\\abc_item_background_holo_dark.xml"
+    },
+    {
         "merged": "/Users/mac/Blinkling/app/build/intermediates/res/merged/debug/drawable/abc_vector_test.xml",
         "source": "/Users/mac/.android/build-cache/913d8db17f1c25b6ee67b77b63f40d3096bd505a/output/res/drawable/abc_vector_test.xml"
     },
     {
-        "merged": "/Users/mac/Downloads/Blinkling/app/build/intermediates/res/merged/debug/drawable/abc_tab_indicator_material.xml",
-        "source": "/Users/mac/.android/build-cache/913d8db17f1c25b6ee67b77b63f40d3096bd505a/output/res/drawable/abc_tab_indicator_material.xml"
+        "merged": "/Users/mac/Blinkling/C:\\Users\\dy889\\Documents\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_dark.xml",
+        "source": "/Users/mac/Blinkling/C:\\Users\\dy889\\.android\\build-cache\\eaa9472fc91e028a5a27b3d20e7a0c3fbad5c383\\output\\res\\drawable\\abc_list_selector_holo_dark.xml"
     },
     {
         "merged": "/Users/mac/Blinkling/app/build/intermediates/res/merged/debug/drawable/mr_dialog_material_background_light.xml",
@@ -256,20 +382,49 @@
         "source": "/Users/mac/.android/build-cache/913d8db17f1c25b6ee67b77b63f40d3096bd505a/output/res/drawable/abc_ic_menu_overflow_material.xml"
     },
     {
-        "merged": "/Users/mac/Downloads/Blinkling/app/build/intermediates/res/merged/debug/drawable/design_fab_background.xml",
-        "source": "/Users/mac/.android/build-cache/2357a626681079792d0b0f8329e66fe5b38ee637/output/res/drawable/design_fab_background.xml"
+        "merged": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\C:\\Users\\dayeon\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_small_material.xml",
+        "source": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\C:\\Users\\dayeon\\.android\\build-cache\\08f0b85e835f6a143412367b800bd932d6600384\\output\\res\\drawable\\abc_ratingbar_small_material.xml"
+    },
+    {
+        "merged": "/Users/mac/Blinkling/C:\\Users\\mac\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notebook_add.png",
+        "source": "/Users/mac/Blinkling/C:\\Users\\mac\\Blinkling\\app\\src\\main\\res\\drawable\\notebook_add.png"
+    },
+    {
+        "merged": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_default_mtrl_shape.xml",
+        "source": "/Users/mac/Blinkling/C:\\Users\\mac\\.android\\build-cache\\913d8db17f1c25b6ee67b77b63f40d3096bd505a\\output\\res\\drawable\\abc_btn_default_mtrl_shape.xml"
+    },
+    {
+        "merged": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\C:\\Users\\dayeon\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\user.png",
+        "source": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\C:\\Users\\dayeon\\Blinkling\\app\\src\\main\\res\\drawable\\user.png"
+    },
+    {
+        "merged": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\C:\\Users\\dayeon\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_radio_material.xml",
+        "source": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\C:\\Users\\dayeon\\.android\\build-cache\\08f0b85e835f6a143412367b800bd932d6600384\\output\\res\\drawable\\abc_btn_radio_material.xml"
     },
     {
         "merged": "/Users/mac/Blinkling/app/build/intermediates/res/merged/debug/drawable/abc_list_selector_holo_dark.xml",
         "source": "/Users/mac/.android/build-cache/913d8db17f1c25b6ee67b77b63f40d3096bd505a/output/res/drawable/abc_list_selector_holo_dark.xml"
     },
     {
+<<<<<<< HEAD
         "merged": "/Users/mac/Blinkling/app/build/intermediates/res/merged/debug/drawable/cast_mini_controller_progress_drawable.xml",
         "source": "/Users/mac/.android/build-cache/d3ff796d1a0a0be6c348fb13321312629f76eaaf/output/res/drawable/cast_mini_controller_progress_drawable.xml"
     },
     {
         "merged": "/Users/mac/Downloads/Blinkling/C:\\Users\\dayeon\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_go_search_api_material.xml",
         "source": "/Users/mac/Downloads/Blinkling/C:\\Users\\dayeon\\.android\\build-cache\\08f0b85e835f6a143412367b800bd932d6600384\\output\\res\\drawable\\abc_ic_go_search_api_material.xml"
+=======
+        "merged": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\C:\\Users\\Hyemin\\Documents\\Blinkling\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\mail.png",
+        "source": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\C:\\Users\\Hyemin\\Documents\\Blinkling\\Blinkling\\app\\src\\main\\res\\drawable\\mail.png"
+    },
+    {
+        "merged": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\C:\\Users\\Hyemin\\Documents\\Blinkling\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_write.png",
+        "source": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\C:\\Users\\Hyemin\\Documents\\Blinkling\\Blinkling\\app\\src\\main\\res\\drawable\\ic_write.png"
+    },
+    {
+        "merged": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\C:\\Users\\Hyemin\\Documents\\Blinkling\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_thumb_material.xml",
+        "source": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\C:\\Users\\Hyemin\\.android\\build-cache\\6129fd2d3f666eab7401e4b78bea7d27c6653860\\output\\res\\drawable\\abc_seekbar_thumb_material.xml"
+>>>>>>> mi
     },
     {
         "merged": "/Users/mac/Blinkling/app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_icon_light_focused.xml",
@@ -280,78 +435,132 @@
         "source": "/Users/mac/.android/build-cache/913d8db17f1c25b6ee67b77b63f40d3096bd505a/output/res/drawable/abc_tab_indicator_material.xml"
     },
     {
-        "merged": "/Users/mac/Downloads/Blinkling/app/build/intermediates/res/merged/debug/drawable/worldwide.png",
-        "source": "/Users/mac/Downloads/Blinkling/app/src/main/res/drawable/worldwide.png"
+        "merged": "/Users/mac/Blinkling/C:\\Users\\mac\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\design_bottom_navigation_item_background.xml",
+        "source": "/Users/mac/Blinkling/C:\\Users\\mac\\.android\\build-cache\\2357a626681079792d0b0f8329e66fe5b38ee637\\output\\res\\drawable\\design_bottom_navigation_item_background.xml"
+    },
+    {
+        "merged": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\C:\\Users\\Hyemin\\Documents\\Blinkling\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\user.png",
+        "source": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\C:\\Users\\Hyemin\\Documents\\Blinkling\\Blinkling\\app\\src\\main\\res\\drawable\\user.png"
+    },
+    {
+        "merged": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\C:\\Users\\dayeon\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\mail.png",
+        "source": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\C:\\Users\\dayeon\\Blinkling\\app\\src\\main\\res\\drawable\\mail.png"
     },
     {
         "merged": "/Users/mac/Blinkling/app/build/intermediates/res/merged/debug/drawable/user.png",
         "source": "/Users/mac/Blinkling/app/src/main/res/drawable/user.png"
     },
     {
-        "merged": "/Users/mac/Downloads/Blinkling/C:\\Users\\Hyemin\\Documents\\Blinkling\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_write.png",
-        "source": "/Users/mac/Downloads/Blinkling/C:\\Users\\Hyemin\\Documents\\Blinkling\\Blinkling\\app\\src\\main\\res\\drawable\\ic_write.png"
+        "merged": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\C:\\Users\\Hyemin\\Documents\\Blinkling\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_bg_low.xml",
+        "source": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\C:\\Users\\Hyemin\\.android\\build-cache\\6129fd2d3f666eab7401e4b78bea7d27c6653860\\output\\res\\drawable\\notification_bg_low.xml"
     },
     {
-        "merged": "/Users/mac/Downloads/Blinkling/app/build/intermediates/res/merged/debug/drawable/plus.png",
-        "source": "/Users/mac/Downloads/Blinkling/app/src/main/res/drawable/plus.png"
+        "merged": "/Users/mac/Blinkling/C:\\Users\\dy889\\Documents\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_spinner_textfield_background_material.xml",
+        "source": "/Users/mac/Blinkling/C:\\Users\\dy889\\.android\\build-cache\\eaa9472fc91e028a5a27b3d20e7a0c3fbad5c383\\output\\res\\drawable\\abc_spinner_textfield_background_material.xml"
     },
     {
+        "merged": "/Users/mac/Blinkling/C:\\Users\\dy889\\Documents\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bookshelf_back.png",
+        "source": "/Users/mac/Blinkling/C:\\Users\\dy889\\Documents\\Blinkling\\app\\src\\main\\res\\drawable\\bookshelf_back.png"
+    },
+    {
+<<<<<<< HEAD
         "merged": "/Users/mac/Blinkling/app/build/intermediates/res/merged/debug/drawable/abc_btn_check_material.xml",
         "source": "/Users/mac/.android/build-cache/913d8db17f1c25b6ee67b77b63f40d3096bd505a/output/res/drawable/abc_btn_check_material.xml"
+=======
+        "merged": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\C:\\Users\\Hyemin\\Documents\\Blinkling\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_track_material.xml",
+        "source": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\C:\\Users\\Hyemin\\.android\\build-cache\\6129fd2d3f666eab7401e4b78bea7d27c6653860\\output\\res\\drawable\\abc_seekbar_track_material.xml"
+>>>>>>> mi
     },
     {
-        "merged": "/Users/mac/Downloads/Blinkling/C:\\Users\\dayeon\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_spinner_textfield_background_material.xml",
-        "source": "/Users/mac/Downloads/Blinkling/C:\\Users\\dayeon\\.android\\build-cache\\08f0b85e835f6a143412367b800bd932d6600384\\output\\res\\drawable\\abc_spinner_textfield_background_material.xml"
+        "merged": "/Users/mac/Blinkling/C:\\Users\\mac\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notebook_find.png",
+        "source": "/Users/mac/Blinkling/C:\\Users\\mac\\Blinkling\\app\\src\\main\\res\\drawable\\notebook_find.png"
     },
     {
         "merged": "/Users/mac/Downloads/Blinkling/app/build/intermediates/res/merged/debug/drawable/user.png",
         "source": "/Users/mac/Downloads/Blinkling/app/src/main/res/drawable/user.png"
     },
     {
-        "merged": "/Users/mac/Downloads/Blinkling/C:\\Users\\dayeon\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_default_mtrl_shape.xml",
-        "source": "/Users/mac/Downloads/Blinkling/C:\\Users\\dayeon\\.android\\build-cache\\08f0b85e835f6a143412367b800bd932d6600384\\output\\res\\drawable\\abc_btn_default_mtrl_shape.xml"
+        "merged": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\C:\\Users\\Hyemin\\Documents\\Blinkling\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_dark.xml",
+        "source": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\C:\\Users\\Hyemin\\.android\\build-cache\\6129fd2d3f666eab7401e4b78bea7d27c6653860\\output\\res\\drawable\\abc_item_background_holo_dark.xml"
     },
     {
-        "merged": "/Users/mac/Downloads/Blinkling/app/build/intermediates/res/merged/debug/drawable/navigation_empty_icon.xml",
-        "source": "/Users/mac/.android/build-cache/2357a626681079792d0b0f8329e66fe5b38ee637/output/res/drawable/navigation_empty_icon.xml"
+        "merged": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\C:\\Users\\dayeon\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_go_search_api_material.xml",
+        "source": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\C:\\Users\\dayeon\\.android\\build-cache\\08f0b85e835f6a143412367b800bd932d6600384\\output\\res\\drawable\\abc_ic_go_search_api_material.xml"
+    },
+    {
+        "merged": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\C:\\Users\\Hyemin\\Documents\\Blinkling\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_top_material.xml",
+        "source": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\C:\\Users\\Hyemin\\.android\\build-cache\\6129fd2d3f666eab7401e4b78bea7d27c6653860\\output\\res\\drawable\\abc_cab_background_top_material.xml"
+    },
+    {
+        "merged": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\C:\\Users\\Hyemin\\Documents\\Blinkling\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\navigation_empty_icon.xml",
+        "source": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\C:\\Users\\Hyemin\\.android\\build-cache\\245ad94b3d5bca11ed899deb510616098046a633\\output\\res\\drawable\\navigation_empty_icon.xml"
+    },
+    {
+        "merged": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\C:\\Users\\Hyemin\\Documents\\Blinkling\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_default_mtrl_shape.xml",
+        "source": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\C:\\Users\\Hyemin\\.android\\build-cache\\6129fd2d3f666eab7401e4b78bea7d27c6653860\\output\\res\\drawable\\abc_btn_default_mtrl_shape.xml"
+    },
+    {
+        "merged": "/Users/mac/Blinkling/C:\\Users\\dy889\\Documents\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_dark.xml",
+        "source": "/Users/mac/Blinkling/C:\\Users\\dy889\\.android\\build-cache\\eaa9472fc91e028a5a27b3d20e7a0c3fbad5c383\\output\\res\\drawable\\abc_item_background_holo_dark.xml"
+    },
+    {
+        "merged": "/Users/mac/Blinkling/C:\\Users\\dy889\\Documents\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_bg.xml",
+        "source": "/Users/mac/Blinkling/C:\\Users\\dy889\\.android\\build-cache\\eaa9472fc91e028a5a27b3d20e7a0c3fbad5c383\\output\\res\\drawable\\notification_bg.xml"
+    },
+    {
+        "merged": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_bg.xml",
+        "source": "/Users/mac/Blinkling/C:\\Users\\mac\\.android\\build-cache\\913d8db17f1c25b6ee67b77b63f40d3096bd505a\\output\\res\\drawable\\notification_bg.xml"
     },
     {
         "merged": "/Users/mac/Blinkling/app/build/intermediates/res/merged/debug/drawable/bookmark.png",
         "source": "/Users/mac/Blinkling/app/src/main/res/drawable/bookmark.png"
     },
     {
-        "merged": "/Users/mac/Downloads/Blinkling/C:\\Users\\dayeon\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_menu_overflow_material.xml",
-        "source": "/Users/mac/Downloads/Blinkling/C:\\Users\\dayeon\\.android\\build-cache\\08f0b85e835f6a143412367b800bd932d6600384\\output\\res\\drawable\\abc_ic_menu_overflow_material.xml"
+        "merged": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\C:\\Users\\Hyemin\\Documents\\Blinkling\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_internal_bg.xml",
+        "source": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\C:\\Users\\Hyemin\\.android\\build-cache\\6129fd2d3f666eab7401e4b78bea7d27c6653860\\output\\res\\drawable\\abc_cab_background_internal_bg.xml"
     },
     {
-        "merged": "/Users/mac/Downloads/Blinkling/C:\\Users\\dayeon\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_arrow_drop_right_black_24dp.xml",
-        "source": "/Users/mac/Downloads/Blinkling/C:\\Users\\dayeon\\.android\\build-cache\\08f0b85e835f6a143412367b800bd932d6600384\\output\\res\\drawable\\abc_ic_arrow_drop_right_black_24dp.xml"
+        "merged": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\C:\\Users\\Hyemin\\Documents\\Blinkling\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_go_search_api_material.xml",
+        "source": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\C:\\Users\\Hyemin\\.android\\build-cache\\6129fd2d3f666eab7401e4b78bea7d27c6653860\\output\\res\\drawable\\abc_ic_go_search_api_material.xml"
     },
     {
-        "merged": "/Users/mac/Downloads/Blinkling/C:\\Users\\dayeon\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_internal_bg.xml",
-        "source": "/Users/mac/Downloads/Blinkling/C:\\Users\\dayeon\\.android\\build-cache\\08f0b85e835f6a143412367b800bd932d6600384\\output\\res\\drawable\\abc_cab_background_internal_bg.xml"
+        "merged": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\C:\\Users\\Hyemin\\Documents\\Blinkling\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\design_fab_background.xml",
+        "source": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\C:\\Users\\Hyemin\\.android\\build-cache\\245ad94b3d5bca11ed899deb510616098046a633\\output\\res\\drawable\\design_fab_background.xml"
     },
     {
-        "merged": "/Users/mac/Downloads/Blinkling/C:\\Users\\Hyemin\\Documents\\Blinkling\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_internal_bg.xml",
-        "source": "/Users/mac/Downloads/Blinkling/C:\\Users\\Hyemin\\.android\\build-cache\\6129fd2d3f666eab7401e4b78bea7d27c6653860\\output\\res\\drawable\\abc_cab_background_internal_bg.xml"
+        "merged": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\folder.png",
+        "source": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\app\\src\\main\\res\\drawable\\folder.png"
     },
     {
-        "merged": "/Users/mac/Downloads/Blinkling/app/build/intermediates/res/merged/debug/drawable/abc_vector_test.xml",
-        "source": "/Users/mac/.android/build-cache/913d8db17f1c25b6ee67b77b63f40d3096bd505a/output/res/drawable/abc_vector_test.xml"
+        "merged": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\C:\\Users\\Hyemin\\Documents\\Blinkling\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\mainimage.png",
+        "source": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\C:\\Users\\Hyemin\\Documents\\Blinkling\\Blinkling\\app\\src\\main\\res\\drawable\\mainimage.png"
     },
     {
         "merged": "/Users/mac/Blinkling/app/build/intermediates/res/merged/debug/drawable/notebook_find.png",
         "source": "/Users/mac/Blinkling/app/src/main/res/drawable/notebook_find.png"
     },
     {
-        "merged": "/Users/mac/Downloads/Blinkling/app/build/intermediates/res/merged/debug/drawable/abc_spinner_textfield_background_material.xml",
-        "source": "/Users/mac/.android/build-cache/913d8db17f1c25b6ee67b77b63f40d3096bd505a/output/res/drawable/abc_spinner_textfield_background_material.xml"
+        "merged": "/Users/mac/Blinkling/C:\\Users\\mac\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_spinner_textfield_background_material.xml",
+        "source": "/Users/mac/Blinkling/C:\\Users\\mac\\.android\\build-cache\\913d8db17f1c25b6ee67b77b63f40d3096bd505a\\output\\res\\drawable\\abc_spinner_textfield_background_material.xml"
+    },
+    {
+        "merged": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_light.xml",
+        "source": "/Users/mac/Blinkling/C:\\Users\\mac\\.android\\build-cache\\913d8db17f1c25b6ee67b77b63f40d3096bd505a\\output\\res\\drawable\\abc_list_selector_background_transition_holo_light.xml"
+    },
+    {
+        "merged": "/Users/mac/Blinkling/C:\\Users\\mac\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_dark.xml",
+        "source": "/Users/mac/Blinkling/C:\\Users\\mac\\.android\\build-cache\\913d8db17f1c25b6ee67b77b63f40d3096bd505a\\output\\res\\drawable\\abc_list_selector_background_transition_holo_dark.xml"
+    },
+    {
+        "merged": "/Users/mac/Blinkling/C:\\Users\\mac\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_thumb_material.xml",
+        "source": "/Users/mac/Blinkling/C:\\Users\\mac\\.android\\build-cache\\913d8db17f1c25b6ee67b77b63f40d3096bd505a\\output\\res\\drawable\\abc_seekbar_thumb_material.xml"
     },
     {
         "merged": "/Users/mac/Blinkling/app/build/intermediates/res/merged/debug/drawable/abc_ic_go_search_api_material.xml",
         "source": "/Users/mac/.android/build-cache/913d8db17f1c25b6ee67b77b63f40d3096bd505a/output/res/drawable/abc_ic_go_search_api_material.xml"
     },
     {
+<<<<<<< HEAD
         "merged": "/Users/mac/Blinkling/app/build/intermediates/res/merged/debug/drawable/cast_ic_notification_rewind.xml",
         "source": "/Users/mac/.android/build-cache/d3ff796d1a0a0be6c348fb13321312629f76eaaf/output/res/drawable/cast_ic_notification_rewind.xml"
     },
@@ -362,16 +571,45 @@
     {
         "merged": "/Users/mac/Downloads/Blinkling/C:\\Users\\Hyemin\\Documents\\Blinkling\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bookmark.png",
         "source": "/Users/mac/Downloads/Blinkling/C:\\Users\\Hyemin\\Documents\\Blinkling\\Blinkling\\app\\src\\main\\res\\drawable\\bookmark.png"
+=======
+        "merged": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\C:\\Users\\dayeon\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_switch_thumb_material.xml",
+        "source": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\C:\\Users\\dayeon\\.android\\build-cache\\08f0b85e835f6a143412367b800bd932d6600384\\output\\res\\drawable\\abc_switch_thumb_material.xml"
+    },
+    {
+        "merged": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\C:\\Users\\dayeon\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\stop.png",
+        "source": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\C:\\Users\\dayeon\\Blinkling\\app\\src\\main\\res\\drawable\\stop.png"
+    },
+    {
+        "merged": "/Users/mac/Blinkling/C:\\Users\\mac\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_light.xml",
+        "source": "/Users/mac/Blinkling/C:\\Users\\mac\\.android\\build-cache\\913d8db17f1c25b6ee67b77b63f40d3096bd505a\\output\\res\\drawable\\abc_item_background_holo_light.xml"
+    },
+    {
+        "merged": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\C:\\Users\\dayeon\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_clear_material.xml",
+        "source": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\C:\\Users\\dayeon\\.android\\build-cache\\08f0b85e835f6a143412367b800bd932d6600384\\output\\res\\drawable\\abc_ic_clear_material.xml"
+    },
+    {
+        "merged": "/Users/mac/Blinkling/C:\\Users\\dy889\\Documents\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_colored_material.xml",
+        "source": "/Users/mac/Blinkling/C:\\Users\\dy889\\.android\\build-cache\\eaa9472fc91e028a5a27b3d20e7a0c3fbad5c383\\output\\res\\drawable\\abc_btn_colored_material.xml"
+    },
+    {
+        "merged": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\C:\\Users\\Hyemin\\Documents\\Blinkling\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_ab_back_material.xml",
+        "source": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\C:\\Users\\Hyemin\\.android\\build-cache\\6129fd2d3f666eab7401e4b78bea7d27c6653860\\output\\res\\drawable\\abc_ic_ab_back_material.xml"
+    },
+    {
+        "merged": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_voice_search_api_material.xml",
+        "source": "/Users/mac/Blinkling/C:\\Users\\mac\\.android\\build-cache\\913d8db17f1c25b6ee67b77b63f40d3096bd505a\\output\\res\\drawable\\abc_ic_voice_search_api_material.xml"
+>>>>>>> mi
     },
     {
         "merged": "/Users/mac/Blinkling/app/build/intermediates/res/merged/debug/drawable/notebook_setting.png",
         "source": "/Users/mac/Blinkling/app/src/main/res/drawable/notebook_setting.png"
     },
     {
-        "merged": "/Users/mac/Downloads/Blinkling/app/build/intermediates/res/merged/debug/drawable/abc_list_selector_holo_light.xml",
-        "source": "/Users/mac/.android/build-cache/913d8db17f1c25b6ee67b77b63f40d3096bd505a/output/res/drawable/abc_list_selector_holo_light.xml"
+        "merged": "/Users/mac/Blinkling/C:\\Users\\mac\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_colored_material.xml",
+        "source": "/Users/mac/Blinkling/C:\\Users\\mac\\.android\\build-cache\\913d8db17f1c25b6ee67b77b63f40d3096bd505a\\output\\res\\drawable\\abc_btn_colored_material.xml"
     },
     {
+<<<<<<< HEAD
         "merged": "/Users/mac/Blinkling/app/build/intermediates/res/merged/debug/drawable/mr_ic_cast_light.xml",
         "source": "/Users/mac/.android/build-cache/693066f5460604d04bca0de7d54ae2c516c35b5a/output/res/drawable/mr_ic_cast_light.xml"
     },
@@ -386,48 +624,62 @@
     {
         "merged": "/Users/mac/Downloads/Blinkling/app/build/intermediates/res/merged/debug/drawable/back.png",
         "source": "/Users/mac/Downloads/Blinkling/app/src/main/res/drawable/back.png"
+=======
+        "merged": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\C:\\Users\\dayeon\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_check_material.xml",
+        "source": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\C:\\Users\\dayeon\\.android\\build-cache\\08f0b85e835f6a143412367b800bd932d6600384\\output\\res\\drawable\\abc_btn_check_material.xml"
     },
     {
-        "merged": "/Users/mac/Downloads/Blinkling/C:\\Users\\Hyemin\\Documents\\Blinkling\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\folder.png",
-        "source": "/Users/mac/Downloads/Blinkling/C:\\Users\\Hyemin\\Documents\\Blinkling\\Blinkling\\app\\src\\main\\res\\drawable\\folder.png"
+        "merged": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\C:\\Users\\dayeon\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_colored_material.xml",
+        "source": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\C:\\Users\\dayeon\\.android\\build-cache\\08f0b85e835f6a143412367b800bd932d6600384\\output\\res\\drawable\\abc_btn_colored_material.xml"
+>>>>>>> mi
     },
     {
-        "merged": "/Users/mac/Blinkling/app/build/intermediates/res/merged/debug/drawable/abc_list_selector_holo_light.xml",
-        "source": "/Users/mac/.android/build-cache/913d8db17f1c25b6ee67b77b63f40d3096bd505a/output/res/drawable/abc_list_selector_holo_light.xml"
+        "merged": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_tile_bg.xml",
+        "source": "/Users/mac/Blinkling/C:\\Users\\mac\\.android\\build-cache\\913d8db17f1c25b6ee67b77b63f40d3096bd505a\\output\\res\\drawable\\notification_tile_bg.xml"
     },
     {
-        "merged": "/Users/mac/Downloads/Blinkling/C:\\Users\\Hyemin\\Documents\\Blinkling\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\design_snackbar_background.xml",
-        "source": "/Users/mac/Downloads/Blinkling/C:\\Users\\Hyemin\\.android\\build-cache\\245ad94b3d5bca11ed899deb510616098046a633\\output\\res\\drawable\\design_snackbar_background.xml"
+        "merged": "/Users/mac/Blinkling/C:\\Users\\mac\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_tile_bg.xml",
+        "source": "/Users/mac/Blinkling/C:\\Users\\mac\\.android\\build-cache\\913d8db17f1c25b6ee67b77b63f40d3096bd505a\\output\\res\\drawable\\notification_tile_bg.xml"
     },
     {
-        "merged": "/Users/mac/Downloads/Blinkling/C:\\Users\\Hyemin\\Documents\\Blinkling\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\gridworld.png",
-        "source": "/Users/mac/Downloads/Blinkling/C:\\Users\\Hyemin\\Documents\\Blinkling\\Blinkling\\app\\src\\main\\res\\drawable\\gridworld.png"
+        "merged": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_indicator_material.xml",
+        "source": "/Users/mac/Blinkling/C:\\Users\\mac\\.android\\build-cache\\913d8db17f1c25b6ee67b77b63f40d3096bd505a\\output\\res\\drawable\\abc_ratingbar_indicator_material.xml"
     },
     {
-        "merged": "/Users/mac/Downloads/Blinkling/C:\\Users\\Hyemin\\Documents\\Blinkling\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_small_material.xml",
-        "source": "/Users/mac/Downloads/Blinkling/C:\\Users\\Hyemin\\.android\\build-cache\\6129fd2d3f666eab7401e4b78bea7d27c6653860\\output\\res\\drawable\\abc_ratingbar_small_material.xml"
+        "merged": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\C:\\Users\\Hyemin\\Documents\\Blinkling\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\plus.png",
+        "source": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\C:\\Users\\Hyemin\\Documents\\Blinkling\\Blinkling\\app\\src\\main\\res\\drawable\\plus.png"
     },
     {
-        "merged": "/Users/mac/Downloads/Blinkling/C:\\Users\\dayeon\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_textfield_search_material.xml",
-        "source": "/Users/mac/Downloads/Blinkling/C:\\Users\\dayeon\\.android\\build-cache\\08f0b85e835f6a143412367b800bd932d6600384\\output\\res\\drawable\\abc_textfield_search_material.xml"
+        "merged": "/Users/mac/Blinkling/C:\\Users\\mac\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_search_api_material.xml",
+        "source": "/Users/mac/Blinkling/C:\\Users\\mac\\.android\\build-cache\\913d8db17f1c25b6ee67b77b63f40d3096bd505a\\output\\res\\drawable\\abc_ic_search_api_material.xml"
     },
     {
-        "merged": "/Users/mac/Downloads/Blinkling/C:\\Users\\dayeon\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_tab_indicator_material.xml",
-        "source": "/Users/mac/Downloads/Blinkling/C:\\Users\\dayeon\\.android\\build-cache\\08f0b85e835f6a143412367b800bd932d6600384\\output\\res\\drawable\\abc_tab_indicator_material.xml"
+        "merged": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_ab_back_material.xml",
+        "source": "/Users/mac/Blinkling/C:\\Users\\mac\\.android\\build-cache\\913d8db17f1c25b6ee67b77b63f40d3096bd505a\\output\\res\\drawable\\abc_ic_ab_back_material.xml"
     },
     {
+        "merged": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\C:\\Users\\Hyemin\\Documents\\Blinkling\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\garbage.png",
+        "source": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\C:\\Users\\Hyemin\\Documents\\Blinkling\\Blinkling\\app\\src\\main\\res\\drawable\\garbage.png"
+    },
+    {
+<<<<<<< HEAD
         "merged": "/Users/mac/Blinkling/app/build/intermediates/res/merged/debug/drawable/cast_ic_notification_forward10.xml",
         "source": "/Users/mac/.android/build-cache/d3ff796d1a0a0be6c348fb13321312629f76eaaf/output/res/drawable/cast_ic_notification_forward10.xml"
     },
     {
         "merged": "/Users/mac/Downloads/Blinkling/C:\\Users\\dayeon\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\stop.png",
         "source": "/Users/mac/Downloads/Blinkling/C:\\Users\\dayeon\\Blinkling\\app\\src\\main\\res\\drawable\\stop.png"
+=======
+        "merged": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\C:\\Users\\Hyemin\\Documents\\Blinkling\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\back.png",
+        "source": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\C:\\Users\\Hyemin\\Documents\\Blinkling\\Blinkling\\app\\src\\main\\res\\drawable\\back.png"
+>>>>>>> mi
     },
     {
-        "merged": "/Users/mac/Blinkling/app/build/intermediates/res/merged/debug/drawable/notebook_add.png",
-        "source": "/Users/mac/Blinkling/app/src/main/res/drawable/notebook_add.png"
+        "merged": "/Users/mac/Blinkling/C:\\Users\\dy889\\Documents\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_borderless_material.xml",
+        "source": "/Users/mac/Blinkling/C:\\Users\\dy889\\.android\\build-cache\\eaa9472fc91e028a5a27b3d20e7a0c3fbad5c383\\output\\res\\drawable\\abc_btn_borderless_material.xml"
     },
     {
+<<<<<<< HEAD
         "merged": "/Users/mac/Blinkling/app/build/intermediates/res/merged/debug/drawable/cast_expanded_controller_seekbar_thumb.xml",
         "source": "/Users/mac/.android/build-cache/d3ff796d1a0a0be6c348fb13321312629f76eaaf/output/res/drawable/cast_expanded_controller_seekbar_thumb.xml"
     },
@@ -450,108 +702,159 @@
     {
         "merged": "/Users/mac/Downloads/Blinkling/C:\\Users\\dayeon\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_radio_material.xml",
         "source": "/Users/mac/Downloads/Blinkling/C:\\Users\\dayeon\\.android\\build-cache\\08f0b85e835f6a143412367b800bd932d6600384\\output\\res\\drawable\\abc_btn_radio_material.xml"
+=======
+        "merged": "/Users/mac/Blinkling/C:\\Users\\dy889\\Documents\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\navigation_empty_icon.xml",
+        "source": "/Users/mac/Blinkling/C:\\Users\\dy889\\.android\\build-cache\\2318f7de2f290e7ceeae07216c4454185a81ae35\\output\\res\\drawable\\navigation_empty_icon.xml"
     },
     {
-        "merged": "/Users/mac/Downloads/Blinkling/C:\\Users\\Hyemin\\Documents\\Blinkling\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_light.xml",
-        "source": "/Users/mac/Downloads/Blinkling/C:\\Users\\Hyemin\\.android\\build-cache\\6129fd2d3f666eab7401e4b78bea7d27c6653860\\output\\res\\drawable\\abc_list_selector_background_transition_holo_light.xml"
+        "merged": "/Users/mac/Blinkling/app/build/intermediates/res/merged/debug/drawable/abc_list_selector_holo_light.xml",
+        "source": "/Users/mac/.android/build-cache/913d8db17f1c25b6ee67b77b63f40d3096bd505a/output/res/drawable/abc_list_selector_holo_light.xml"
     },
     {
-        "merged": "/Users/mac/Downloads/Blinkling/C:\\Users\\dayeon\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\design_password_eye.xml",
-        "source": "/Users/mac/Downloads/Blinkling/C:\\Users\\dayeon\\.android\\build-cache\\d7955f365574be11571c6d760671cfed3e81f806\\output\\res\\drawable\\design_password_eye.xml"
+        "merged": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_internal_bg.xml",
+        "source": "/Users/mac/Blinkling/C:\\Users\\mac\\.android\\build-cache\\913d8db17f1c25b6ee67b77b63f40d3096bd505a\\output\\res\\drawable\\abc_cab_background_internal_bg.xml"
+>>>>>>> mi
     },
     {
-        "merged": "/Users/mac/Downloads/Blinkling/C:\\Users\\dayeon\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_material.xml",
-        "source": "/Users/mac/Downloads/Blinkling/C:\\Users\\dayeon\\.android\\build-cache\\08f0b85e835f6a143412367b800bd932d6600384\\output\\res\\drawable\\abc_ratingbar_material.xml"
+        "merged": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\C:\\Users\\Hyemin\\Documents\\Blinkling\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_tab_indicator_material.xml",
+        "source": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\C:\\Users\\Hyemin\\.android\\build-cache\\6129fd2d3f666eab7401e4b78bea7d27c6653860\\output\\res\\drawable\\abc_tab_indicator_material.xml"
     },
     {
-        "merged": "/Users/mac/Downloads/Blinkling/app/build/intermediates/res/merged/debug/drawable/abc_textfield_search_material.xml",
-        "source": "/Users/mac/.android/build-cache/913d8db17f1c25b6ee67b77b63f40d3096bd505a/output/res/drawable/abc_textfield_search_material.xml"
+        "merged": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\C:\\Users\\dayeon\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\back.png",
+        "source": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\C:\\Users\\dayeon\\Blinkling\\app\\src\\main\\res\\drawable\\back.png"
     },
     {
-        "merged": "/Users/mac/Downloads/Blinkling/app/build/intermediates/res/merged/debug/drawable/abc_ratingbar_small_material.xml",
-        "source": "/Users/mac/.android/build-cache/913d8db17f1c25b6ee67b77b63f40d3096bd505a/output/res/drawable/abc_ratingbar_small_material.xml"
+        "merged": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\design_fab_background.xml",
+        "source": "/Users/mac/Blinkling/C:\\Users\\mac\\.android\\build-cache\\2357a626681079792d0b0f8329e66fe5b38ee637\\output\\res\\drawable\\design_fab_background.xml"
     },
     {
-        "merged": "/Users/mac/Downloads/Blinkling/C:\\Users\\dayeon\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_small_material.xml",
-        "source": "/Users/mac/Downloads/Blinkling/C:\\Users\\dayeon\\.android\\build-cache\\08f0b85e835f6a143412367b800bd932d6600384\\output\\res\\drawable\\abc_ratingbar_small_material.xml"
+        "merged": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\C:\\Users\\Hyemin\\Documents\\Blinkling\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\worldwide.png",
+        "source": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\C:\\Users\\Hyemin\\Documents\\Blinkling\\Blinkling\\app\\src\\main\\res\\drawable\\worldwide.png"
+    },
+    {
+        "merged": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\C:\\Users\\Hyemin\\Documents\\Blinkling\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_switch_thumb_material.xml",
+        "source": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\C:\\Users\\Hyemin\\.android\\build-cache\\6129fd2d3f666eab7401e4b78bea7d27c6653860\\output\\res\\drawable\\abc_switch_thumb_material.xml"
+    },
+    {
+        "merged": "/Users/mac/Blinkling/C:\\Users\\dy889\\Documents\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_check_material.xml",
+        "source": "/Users/mac/Blinkling/C:\\Users\\dy889\\.android\\build-cache\\eaa9472fc91e028a5a27b3d20e7a0c3fbad5c383\\output\\res\\drawable\\abc_btn_check_material.xml"
+    },
+    {
+        "merged": "/Users/mac/Blinkling/app/build/intermediates/res/merged/debug/drawable/notebook_add.png",
+        "source": "/Users/mac/Blinkling/app/src/main/res/drawable/notebook_add.png"
+    },
+    {
+        "merged": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\design_snackbar_background.xml",
+        "source": "/Users/mac/Blinkling/C:\\Users\\mac\\.android\\build-cache\\2357a626681079792d0b0f8329e66fe5b38ee637\\output\\res\\drawable\\design_snackbar_background.xml"
+    },
+    {
+        "merged": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\C:\\Users\\Hyemin\\Documents\\Blinkling\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_indicator_material.xml",
+        "source": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\C:\\Users\\Hyemin\\.android\\build-cache\\6129fd2d3f666eab7401e4b78bea7d27c6653860\\output\\res\\drawable\\abc_ratingbar_indicator_material.xml"
     },
     {
         "merged": "/Users/mac/Blinkling/app/build/intermediates/res/merged/debug/drawable/abc_ic_clear_material.xml",
         "source": "/Users/mac/.android/build-cache/913d8db17f1c25b6ee67b77b63f40d3096bd505a/output/res/drawable/abc_ic_clear_material.xml"
     },
     {
-        "merged": "/Users/mac/Downloads/Blinkling/C:\\Users\\Hyemin\\Documents\\Blinkling\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\garbage.png",
-        "source": "/Users/mac/Downloads/Blinkling/C:\\Users\\Hyemin\\Documents\\Blinkling\\Blinkling\\app\\src\\main\\res\\drawable\\garbage.png"
+        "merged": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\C:\\Users\\Hyemin\\Documents\\Blinkling\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_voice_search_api_material.xml",
+        "source": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\C:\\Users\\Hyemin\\.android\\build-cache\\6129fd2d3f666eab7401e4b78bea7d27c6653860\\output\\res\\drawable\\abc_ic_voice_search_api_material.xml"
     },
     {
+<<<<<<< HEAD
         "merged": "/Users/mac/Blinkling/app/build/intermediates/res/merged/debug/drawable/cast_ic_notification_skip_next.xml",
         "source": "/Users/mac/.android/build-cache/d3ff796d1a0a0be6c348fb13321312629f76eaaf/output/res/drawable/cast_ic_notification_skip_next.xml"
     },
     {
         "merged": "/Users/mac/Downloads/Blinkling/app/build/intermediates/res/merged/debug/drawable/design_snackbar_background.xml",
         "source": "/Users/mac/.android/build-cache/2357a626681079792d0b0f8329e66fe5b38ee637/output/res/drawable/design_snackbar_background.xml"
+=======
+        "merged": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\navigation_empty_icon.xml",
+        "source": "/Users/mac/Blinkling/C:\\Users\\mac\\.android\\build-cache\\2357a626681079792d0b0f8329e66fe5b38ee637\\output\\res\\drawable\\navigation_empty_icon.xml"
+>>>>>>> mi
     },
     {
-        "merged": "/Users/mac/Downloads/Blinkling/C:\\Users\\dayeon\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_light.xml",
-        "source": "/Users/mac/Downloads/Blinkling/C:\\Users\\dayeon\\.android\\build-cache\\08f0b85e835f6a143412367b800bd932d6600384\\output\\res\\drawable\\abc_list_selector_background_transition_holo_light.xml"
+        "merged": "/Users/mac/Blinkling/C:\\Users\\dy889\\Documents\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bookmark.png",
+        "source": "/Users/mac/Blinkling/C:\\Users\\dy889\\Documents\\Blinkling\\app\\src\\main\\res\\drawable\\bookmark.png"
     },
     {
-        "merged": "/Users/mac/Downloads/Blinkling/C:\\Users\\dayeon\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\mail.png",
-        "source": "/Users/mac/Downloads/Blinkling/C:\\Users\\dayeon\\Blinkling\\app\\src\\main\\res\\drawable\\mail.png"
+        "merged": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\mainimage.png",
+        "source": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\app\\src\\main\\res\\drawable\\mainimage.png"
     },
     {
-        "merged": "/Users/mac/Downloads/Blinkling/app/build/intermediates/res/merged/debug/drawable/abc_text_cursor_material.xml",
-        "source": "/Users/mac/.android/build-cache/913d8db17f1c25b6ee67b77b63f40d3096bd505a/output/res/drawable/abc_text_cursor_material.xml"
+        "merged": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\C:\\Users\\Hyemin\\Documents\\Blinkling\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_vector_test.xml",
+        "source": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\C:\\Users\\Hyemin\\.android\\build-cache\\6129fd2d3f666eab7401e4b78bea7d27c6653860\\output\\res\\drawable\\abc_vector_test.xml"
     },
     {
-        "merged": "/Users/mac/Downloads/Blinkling/C:\\Users\\Hyemin\\Documents\\Blinkling\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_dialog_material_background.xml",
-        "source": "/Users/mac/Downloads/Blinkling/C:\\Users\\Hyemin\\.android\\build-cache\\6129fd2d3f666eab7401e4b78bea7d27c6653860\\output\\res\\drawable\\abc_dialog_material_background.xml"
+        "merged": "/Users/mac/Blinkling/C:\\Users\\mac\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bookmark.png",
+        "source": "/Users/mac/Blinkling/C:\\Users\\mac\\Blinkling\\app\\src\\main\\res\\drawable\\bookmark.png"
     },
     {
-        "merged": "/Users/mac/Downloads/Blinkling/app/build/intermediates/res/merged/debug/drawable/design_password_eye.xml",
-        "source": "/Users/mac/.android/build-cache/2357a626681079792d0b0f8329e66fe5b38ee637/output/res/drawable/design_password_eye.xml"
+        "merged": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\C:\\Users\\Hyemin\\Documents\\Blinkling\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bookmark.png",
+        "source": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\C:\\Users\\Hyemin\\Documents\\Blinkling\\Blinkling\\app\\src\\main\\res\\drawable\\bookmark.png"
     },
     {
-        "merged": "/Users/mac/Downloads/Blinkling/app/build/intermediates/res/merged/debug/drawable/abc_ic_menu_overflow_material.xml",
-        "source": "/Users/mac/.android/build-cache/913d8db17f1c25b6ee67b77b63f40d3096bd505a/output/res/drawable/abc_ic_menu_overflow_material.xml"
+        "merged": "/Users/mac/Blinkling/C:\\Users\\mac\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bookshelf_back.png",
+        "source": "/Users/mac/Blinkling/C:\\Users\\mac\\Blinkling\\app\\src\\main\\res\\drawable\\bookshelf_back.png"
     },
     {
-        "merged": "/Users/mac/Downloads/Blinkling/app/build/intermediates/res/merged/debug/drawable/abc_item_background_holo_light.xml",
-        "source": "/Users/mac/.android/build-cache/913d8db17f1c25b6ee67b77b63f40d3096bd505a/output/res/drawable/abc_item_background_holo_light.xml"
+        "merged": "/Users/mac/Blinkling/C:\\Users\\mac\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_radio_material.xml",
+        "source": "/Users/mac/Blinkling/C:\\Users\\mac\\.android\\build-cache\\913d8db17f1c25b6ee67b77b63f40d3096bd505a\\output\\res\\drawable\\abc_btn_radio_material.xml"
     },
     {
-        "merged": "/Users/mac/Downloads/Blinkling/app/build/intermediates/res/merged/debug/drawable/bookmarkstar.png",
-        "source": "/Users/mac/Downloads/Blinkling/app/src/main/res/drawable/bookmarkstar.png"
+        "merged": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\C:\\Users\\dayeon\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\design_snackbar_background.xml",
+        "source": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\C:\\Users\\dayeon\\.android\\build-cache\\d7955f365574be11571c6d760671cfed3e81f806\\output\\res\\drawable\\design_snackbar_background.xml"
     },
     {
-        "merged": "/Users/mac/Downloads/Blinkling/app/build/intermediates/res/merged/debug/drawable/abc_ratingbar_material.xml",
-        "source": "/Users/mac/.android/build-cache/913d8db17f1c25b6ee67b77b63f40d3096bd505a/output/res/drawable/abc_ratingbar_material.xml"
+        "merged": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\C:\\Users\\dayeon\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_ab_back_material.xml",
+        "source": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\C:\\Users\\dayeon\\.android\\build-cache\\08f0b85e835f6a143412367b800bd932d6600384\\output\\res\\drawable\\abc_ic_ab_back_material.xml"
+    },
+    {
+        "merged": "/Users/mac/Blinkling/C:\\Users\\dy889\\Documents\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\design_snackbar_background.xml",
+        "source": "/Users/mac/Blinkling/C:\\Users\\dy889\\.android\\build-cache\\2318f7de2f290e7ceeae07216c4454185a81ae35\\output\\res\\drawable\\design_snackbar_background.xml"
+    },
+    {
+        "merged": "/Users/mac/Blinkling/C:\\Users\\dy889\\Documents\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\garbage.png",
+        "source": "/Users/mac/Blinkling/C:\\Users\\dy889\\Documents\\Blinkling\\app\\src\\main\\res\\drawable\\garbage.png"
+    },
+    {
+        "merged": "/Users/mac/Blinkling/C:\\Users\\mac\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_material.xml",
+        "source": "/Users/mac/Blinkling/C:\\Users\\mac\\.android\\build-cache\\913d8db17f1c25b6ee67b77b63f40d3096bd505a\\output\\res\\drawable\\abc_ratingbar_material.xml"
+    },
+    {
+        "merged": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\C:\\Users\\dayeon\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_top_material.xml",
+        "source": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\C:\\Users\\dayeon\\.android\\build-cache\\08f0b85e835f6a143412367b800bd932d6600384\\output\\res\\drawable\\abc_cab_background_top_material.xml"
     },
     {
         "merged": "/Users/mac/Blinkling/app/build/intermediates/res/merged/debug/drawable/design_snackbar_background.xml",
         "source": "/Users/mac/.android/build-cache/2357a626681079792d0b0f8329e66fe5b38ee637/output/res/drawable/design_snackbar_background.xml"
     },
     {
+<<<<<<< HEAD
         "merged": "/Users/mac/Blinkling/app/build/intermediates/res/merged/debug/drawable/mr_ic_pause_dark.xml",
         "source": "/Users/mac/.android/build-cache/693066f5460604d04bca0de7d54ae2c516c35b5a/output/res/drawable/mr_ic_pause_dark.xml"
     },
     {
         "merged": "/Users/mac/Downloads/Blinkling/app/build/intermediates/res/merged/debug/drawable/mainimage.png",
         "source": "/Users/mac/Downloads/Blinkling/app/src/main/res/drawable/mainimage.png"
+=======
+        "merged": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\C:\\Users\\dayeon\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_vector_test.xml",
+        "source": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\C:\\Users\\dayeon\\.android\\build-cache\\08f0b85e835f6a143412367b800bd932d6600384\\output\\res\\drawable\\abc_vector_test.xml"
+>>>>>>> mi
     },
     {
-        "merged": "/Users/mac/Downloads/Blinkling/app/build/intermediates/res/merged/debug/drawable/bookshelf_back.png",
-        "source": "/Users/mac/Downloads/Blinkling/app/src/main/res/drawable/bookshelf_back.png"
+        "merged": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_edit_text_material.xml",
+        "source": "/Users/mac/Blinkling/C:\\Users\\mac\\.android\\build-cache\\913d8db17f1c25b6ee67b77b63f40d3096bd505a\\output\\res\\drawable\\abc_edit_text_material.xml"
     },
     {
         "merged": "/Users/mac/Blinkling/app/build/intermediates/res/merged/debug/drawable/abc_ratingbar_small_material.xml",
         "source": "/Users/mac/.android/build-cache/913d8db17f1c25b6ee67b77b63f40d3096bd505a/output/res/drawable/abc_ratingbar_small_material.xml"
     },
     {
-        "merged": "/Users/mac/Downloads/Blinkling/app/build/intermediates/res/merged/debug/drawable/abc_btn_colored_material.xml",
-        "source": "/Users/mac/.android/build-cache/913d8db17f1c25b6ee67b77b63f40d3096bd505a/output/res/drawable/abc_btn_colored_material.xml"
+        "merged": "/Users/mac/Blinkling/C:\\Users\\mac\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bookmarkstar.png",
+        "source": "/Users/mac/Blinkling/C:\\Users\\mac\\Blinkling\\app\\src\\main\\res\\drawable\\bookmarkstar.png"
     },
     {
+<<<<<<< HEAD
         "merged": "/Users/mac/Blinkling/app/build/intermediates/res/merged/debug/drawable/cast_ic_mini_controller_stop_large.xml",
         "source": "/Users/mac/.android/build-cache/d3ff796d1a0a0be6c348fb13321312629f76eaaf/output/res/drawable/cast_ic_mini_controller_stop_large.xml"
     },
@@ -578,20 +881,29 @@
     {
         "merged": "/Users/mac/Downloads/Blinkling/app/build/intermediates/res/merged/debug/drawable/abc_btn_radio_material.xml",
         "source": "/Users/mac/.android/build-cache/913d8db17f1c25b6ee67b77b63f40d3096bd505a/output/res/drawable/abc_btn_radio_material.xml"
+=======
+        "merged": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\C:\\Users\\dayeon\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_light.xml",
+        "source": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\C:\\Users\\dayeon\\.android\\build-cache\\08f0b85e835f6a143412367b800bd932d6600384\\output\\res\\drawable\\abc_list_selector_background_transition_holo_light.xml"
     },
     {
-        "merged": "/Users/mac/Downloads/Blinkling/C:\\Users\\Hyemin\\Documents\\Blinkling\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_bg_low.xml",
-        "source": "/Users/mac/Downloads/Blinkling/C:\\Users\\Hyemin\\.android\\build-cache\\6129fd2d3f666eab7401e4b78bea7d27c6653860\\output\\res\\drawable\\notification_bg_low.xml"
+        "merged": "/Users/mac/Blinkling/C:\\Users\\dy889\\Documents\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_ab_back_material.xml",
+        "source": "/Users/mac/Blinkling/C:\\Users\\dy889\\.android\\build-cache\\eaa9472fc91e028a5a27b3d20e7a0c3fbad5c383\\output\\res\\drawable\\abc_ic_ab_back_material.xml"
+>>>>>>> mi
     },
     {
-        "merged": "/Users/mac/Downloads/Blinkling/C:\\Users\\dayeon\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_dark.xml",
-        "source": "/Users/mac/Downloads/Blinkling/C:\\Users\\dayeon\\.android\\build-cache\\08f0b85e835f6a143412367b800bd932d6600384\\output\\res\\drawable\\abc_item_background_holo_dark.xml"
+        "merged": "/Users/mac/Blinkling/C:\\Users\\dy889\\Documents\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_dark.xml",
+        "source": "/Users/mac/Blinkling/C:\\Users\\dy889\\.android\\build-cache\\eaa9472fc91e028a5a27b3d20e7a0c3fbad5c383\\output\\res\\drawable\\abc_list_selector_background_transition_holo_dark.xml"
     },
     {
-        "merged": "/Users/mac/Downloads/Blinkling/C:\\Users\\Hyemin\\Documents\\Blinkling\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_edit_text_material.xml",
-        "source": "/Users/mac/Downloads/Blinkling/C:\\Users\\Hyemin\\.android\\build-cache\\6129fd2d3f666eab7401e4b78bea7d27c6653860\\output\\res\\drawable\\abc_edit_text_material.xml"
+        "merged": "/Users/mac/Blinkling/C:\\Users\\dy889\\Documents\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\design_password_eye.xml",
+        "source": "/Users/mac/Blinkling/C:\\Users\\dy889\\.android\\build-cache\\2318f7de2f290e7ceeae07216c4454185a81ae35\\output\\res\\drawable\\design_password_eye.xml"
     },
     {
+        "merged": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\back.png",
+        "source": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\app\\src\\main\\res\\drawable\\back.png"
+    },
+    {
+<<<<<<< HEAD
         "merged": "/Users/mac/Blinkling/app/build/intermediates/res/merged/debug/drawable/mr_ic_cast_dark.xml",
         "source": "/Users/mac/.android/build-cache/693066f5460604d04bca0de7d54ae2c516c35b5a/output/res/drawable/mr_ic_cast_dark.xml"
     },
@@ -618,14 +930,58 @@
     {
         "merged": "/Users/mac/Downloads/Blinkling/C:\\Users\\Hyemin\\Documents\\Blinkling\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_clear_material.xml",
         "source": "/Users/mac/Downloads/Blinkling/C:\\Users\\Hyemin\\.android\\build-cache\\6129fd2d3f666eab7401e4b78bea7d27c6653860\\output\\res\\drawable\\abc_ic_clear_material.xml"
+=======
+        "merged": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\C:\\Users\\Hyemin\\Documents\\Blinkling\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_dark.xml",
+        "source": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\C:\\Users\\Hyemin\\.android\\build-cache\\6129fd2d3f666eab7401e4b78bea7d27c6653860\\output\\res\\drawable\\abc_list_selector_holo_dark.xml"
+    },
+    {
+        "merged": "/Users/mac/Blinkling/C:\\Users\\dy889\\Documents\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_menu_overflow_material.xml",
+        "source": "/Users/mac/Blinkling/C:\\Users\\dy889\\.android\\build-cache\\eaa9472fc91e028a5a27b3d20e7a0c3fbad5c383\\output\\res\\drawable\\abc_ic_menu_overflow_material.xml"
+    },
+    {
+        "merged": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\C:\\Users\\Hyemin\\Documents\\Blinkling\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_tick_mark_material.xml",
+        "source": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\C:\\Users\\Hyemin\\.android\\build-cache\\6129fd2d3f666eab7401e4b78bea7d27c6653860\\output\\res\\drawable\\abc_seekbar_tick_mark_material.xml"
+    },
+    {
+        "merged": "/Users/mac/Blinkling/C:\\Users\\mac\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_bg.xml",
+        "source": "/Users/mac/Blinkling/C:\\Users\\mac\\.android\\build-cache\\913d8db17f1c25b6ee67b77b63f40d3096bd505a\\output\\res\\drawable\\notification_bg.xml"
+    },
+    {
+        "merged": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\C:\\Users\\dayeon\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_text_cursor_material.xml",
+        "source": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\C:\\Users\\dayeon\\.android\\build-cache\\08f0b85e835f6a143412367b800bd932d6600384\\output\\res\\drawable\\abc_text_cursor_material.xml"
+    },
+    {
+        "merged": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\C:\\Users\\dayeon\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_bg.xml",
+        "source": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\C:\\Users\\dayeon\\.android\\build-cache\\08f0b85e835f6a143412367b800bd932d6600384\\output\\res\\drawable\\notification_bg.xml"
+    },
+    {
+        "merged": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\plus.png",
+        "source": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\app\\src\\main\\res\\drawable\\plus.png"
+    },
+    {
+        "merged": "/Users/mac/Blinkling/C:\\Users\\dy889\\Documents\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_textfield_search_material.xml",
+        "source": "/Users/mac/Blinkling/C:\\Users\\dy889\\.android\\build-cache\\eaa9472fc91e028a5a27b3d20e7a0c3fbad5c383\\output\\res\\drawable\\abc_textfield_search_material.xml"
+    },
+    {
+        "merged": "/Users/mac/Blinkling/C:\\Users\\dy889\\Documents\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notebook_add.png",
+        "source": "/Users/mac/Blinkling/C:\\Users\\dy889\\Documents\\Blinkling\\app\\src\\main\\res\\drawable\\notebook_add.png"
+>>>>>>> mi
     },
     {
         "merged": "/Users/mac/Blinkling/app/build/intermediates/res/merged/debug/drawable/abc_dialog_material_background.xml",
         "source": "/Users/mac/.android/build-cache/913d8db17f1c25b6ee67b77b63f40d3096bd505a/output/res/drawable/abc_dialog_material_background.xml"
     },
     {
-        "merged": "/Users/mac/Downloads/Blinkling/C:\\Users\\dayeon\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_vector_test.xml",
-        "source": "/Users/mac/Downloads/Blinkling/C:\\Users\\dayeon\\.android\\build-cache\\08f0b85e835f6a143412367b800bd932d6600384\\output\\res\\drawable\\abc_vector_test.xml"
+        "merged": "/Users/mac/Blinkling/C:\\Users\\mac\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_icon_background.xml",
+        "source": "/Users/mac/Blinkling/C:\\Users\\mac\\.android\\build-cache\\913d8db17f1c25b6ee67b77b63f40d3096bd505a\\output\\res\\drawable\\notification_icon_background.xml"
+    },
+    {
+        "merged": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\C:\\Users\\Hyemin\\Documents\\Blinkling\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_material.xml",
+        "source": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\C:\\Users\\Hyemin\\.android\\build-cache\\6129fd2d3f666eab7401e4b78bea7d27c6653860\\output\\res\\drawable\\abc_ratingbar_material.xml"
+    },
+    {
+        "merged": "/Users/mac/Blinkling/C:\\Users\\mac\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_light.xml",
+        "source": "/Users/mac/Blinkling/C:\\Users\\mac\\.android\\build-cache\\913d8db17f1c25b6ee67b77b63f40d3096bd505a\\output\\res\\drawable\\abc_list_selector_background_transition_holo_light.xml"
     },
     {
         "merged": "/Users/mac/Blinkling/app/build/intermediates/res/merged/debug/drawable/abc_ratingbar_material.xml",
@@ -636,18 +992,19 @@
         "source": "/Users/mac/.android/build-cache/913d8db17f1c25b6ee67b77b63f40d3096bd505a/output/res/drawable/abc_seekbar_tick_mark_material.xml"
     },
     {
-        "merged": "/Users/mac/Downloads/Blinkling/app/build/intermediates/res/merged/debug/drawable/abc_ic_ab_back_material.xml",
-        "source": "/Users/mac/.android/build-cache/913d8db17f1c25b6ee67b77b63f40d3096bd505a/output/res/drawable/abc_ic_ab_back_material.xml"
+        "merged": "/Users/mac/Blinkling/C:\\Users\\mac\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\book.png",
+        "source": "/Users/mac/Blinkling/C:\\Users\\mac\\Blinkling\\app\\src\\main\\res\\drawable\\book.png"
     },
     {
-        "merged": "/Users/mac/Downloads/Blinkling/C:\\Users\\Hyemin\\Documents\\Blinkling\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_voice_search_api_material.xml",
-        "source": "/Users/mac/Downloads/Blinkling/C:\\Users\\Hyemin\\.android\\build-cache\\6129fd2d3f666eab7401e4b78bea7d27c6653860\\output\\res\\drawable\\abc_ic_voice_search_api_material.xml"
+        "merged": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\user.png",
+        "source": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\app\\src\\main\\res\\drawable\\user.png"
     },
     {
-        "merged": "/Users/mac/Downloads/Blinkling/app/build/intermediates/res/merged/debug/drawable/abc_btn_default_mtrl_shape.xml",
-        "source": "/Users/mac/.android/build-cache/913d8db17f1c25b6ee67b77b63f40d3096bd505a/output/res/drawable/abc_btn_default_mtrl_shape.xml"
+        "merged": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\C:\\Users\\Hyemin\\Documents\\Blinkling\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_tile_bg.xml",
+        "source": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\C:\\Users\\Hyemin\\.android\\build-cache\\6129fd2d3f666eab7401e4b78bea7d27c6653860\\output\\res\\drawable\\notification_tile_bg.xml"
     },
     {
+<<<<<<< HEAD
         "merged": "/Users/mac/Blinkling/app/build/intermediates/res/merged/debug/drawable/mr_dialog_material_background_dark.xml",
         "source": "/Users/mac/.android/build-cache/693066f5460604d04bca0de7d54ae2c516c35b5a/output/res/drawable/mr_dialog_material_background_dark.xml"
     },
@@ -658,16 +1015,21 @@
     {
         "merged": "/Users/mac/Downloads/Blinkling/C:\\Users\\Hyemin\\Documents\\Blinkling\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\mail.png",
         "source": "/Users/mac/Downloads/Blinkling/C:\\Users\\Hyemin\\Documents\\Blinkling\\Blinkling\\app\\src\\main\\res\\drawable\\mail.png"
+=======
+        "merged": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\C:\\Users\\dayeon\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_search_api_material.xml",
+        "source": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\C:\\Users\\dayeon\\.android\\build-cache\\08f0b85e835f6a143412367b800bd932d6600384\\output\\res\\drawable\\abc_ic_search_api_material.xml"
+>>>>>>> mi
     },
     {
-        "merged": "/Users/mac/Blinkling/app/build/intermediates/res/merged/debug/drawable/gridworld.png",
-        "source": "/Users/mac/Blinkling/app/src/main/res/drawable/gridworld.png"
+        "merged": "/Users/mac/Blinkling/C:\\Users\\dy889\\Documents\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_clear_material.xml",
+        "source": "/Users/mac/Blinkling/C:\\Users\\dy889\\.android\\build-cache\\eaa9472fc91e028a5a27b3d20e7a0c3fbad5c383\\output\\res\\drawable\\abc_ic_clear_material.xml"
     },
     {
-        "merged": "/Users/mac/Downloads/Blinkling/C:\\Users\\Hyemin\\Documents\\Blinkling\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_tick_mark_material.xml",
-        "source": "/Users/mac/Downloads/Blinkling/C:\\Users\\Hyemin\\.android\\build-cache\\6129fd2d3f666eab7401e4b78bea7d27c6653860\\output\\res\\drawable\\abc_seekbar_tick_mark_material.xml"
+        "merged": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_dark.xml",
+        "source": "/Users/mac/Blinkling/C:\\Users\\mac\\.android\\build-cache\\913d8db17f1c25b6ee67b77b63f40d3096bd505a\\output\\res\\drawable\\abc_list_selector_holo_dark.xml"
     },
     {
+<<<<<<< HEAD
         "merged": "/Users/mac/Blinkling/app/build/intermediates/res/merged/debug/drawable/cast_ic_expanded_controller_skip_previous.xml",
         "source": "/Users/mac/.android/build-cache/d3ff796d1a0a0be6c348fb13321312629f76eaaf/output/res/drawable/cast_ic_expanded_controller_skip_previous.xml"
     },
@@ -682,22 +1044,39 @@
     {
         "merged": "/Users/mac/Downloads/Blinkling/app/build/intermediates/res/merged/debug/drawable/abc_ic_clear_material.xml",
         "source": "/Users/mac/.android/build-cache/913d8db17f1c25b6ee67b77b63f40d3096bd505a/output/res/drawable/abc_ic_clear_material.xml"
+=======
+        "merged": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\C:\\Users\\dayeon\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_dark.xml",
+        "source": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\C:\\Users\\dayeon\\.android\\build-cache\\08f0b85e835f6a143412367b800bd932d6600384\\output\\res\\drawable\\abc_list_selector_background_transition_holo_dark.xml"
+>>>>>>> mi
     },
     {
-        "merged": "/Users/mac/Downloads/Blinkling/C:\\Users\\Hyemin\\Documents\\Blinkling\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_colored_material.xml",
-        "source": "/Users/mac/Downloads/Blinkling/C:\\Users\\Hyemin\\.android\\build-cache\\6129fd2d3f666eab7401e4b78bea7d27c6653860\\output\\res\\drawable\\abc_btn_colored_material.xml"
+        "merged": "/Users/mac/Blinkling/app/build/intermediates/res/merged/debug/drawable/gridworld.png",
+        "source": "/Users/mac/Blinkling/app/src/main/res/drawable/gridworld.png"
     },
     {
+<<<<<<< HEAD
         "merged": "/Users/mac/Blinkling/app/build/intermediates/res/merged/debug/drawable/cast_ic_expanded_controller_rewind30.xml",
         "source": "/Users/mac/.android/build-cache/d3ff796d1a0a0be6c348fb13321312629f76eaaf/output/res/drawable/cast_ic_expanded_controller_rewind30.xml"
     },
     {
         "merged": "/Users/mac/Downloads/Blinkling/app/build/intermediates/res/merged/debug/drawable/abc_switch_thumb_material.xml",
         "source": "/Users/mac/.android/build-cache/913d8db17f1c25b6ee67b77b63f40d3096bd505a/output/res/drawable/abc_switch_thumb_material.xml"
+=======
+        "merged": "/Users/mac/Blinkling/C:\\Users\\dy889\\Documents\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notebook_setting.png",
+        "source": "/Users/mac/Blinkling/C:\\Users\\dy889\\Documents\\Blinkling\\app\\src\\main\\res\\drawable\\notebook_setting.png"
+>>>>>>> mi
     },
     {
-        "merged": "/Users/mac/Downloads/Blinkling/app/build/intermediates/res/merged/debug/drawable/abc_ic_voice_search_api_material.xml",
-        "source": "/Users/mac/.android/build-cache/913d8db17f1c25b6ee67b77b63f40d3096bd505a/output/res/drawable/abc_ic_voice_search_api_material.xml"
+        "merged": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\C:\\Users\\Hyemin\\Documents\\Blinkling\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_textfield_search_material.xml",
+        "source": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\C:\\Users\\Hyemin\\.android\\build-cache\\6129fd2d3f666eab7401e4b78bea7d27c6653860\\output\\res\\drawable\\abc_textfield_search_material.xml"
+    },
+    {
+        "merged": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\C:\\Users\\dayeon\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notebook_add.png",
+        "source": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\C:\\Users\\dayeon\\Blinkling\\app\\src\\main\\res\\drawable\\notebook_add.png"
+    },
+    {
+        "merged": "/Users/mac/Blinkling/C:\\Users\\dy889\\Documents\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\gridworld.png",
+        "source": "/Users/mac/Blinkling/C:\\Users\\dy889\\Documents\\Blinkling\\app\\src\\main\\res\\drawable\\gridworld.png"
     },
     {
         "merged": "/Users/mac/Blinkling/app/build/intermediates/res/merged/debug/drawable/cast_ic_mini_controller_skip_next.xml",
@@ -708,20 +1087,32 @@
         "source": "/Users/mac/.android/build-cache/913d8db17f1c25b6ee67b77b63f40d3096bd505a/output/res/drawable/abc_text_cursor_material.xml"
     },
     {
-        "merged": "/Users/mac/Downloads/Blinkling/C:\\Users\\Hyemin\\Documents\\Blinkling\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_arrow_drop_right_black_24dp.xml",
-        "source": "/Users/mac/Downloads/Blinkling/C:\\Users\\Hyemin\\.android\\build-cache\\6129fd2d3f666eab7401e4b78bea7d27c6653860\\output\\res\\drawable\\abc_ic_arrow_drop_right_black_24dp.xml"
+        "merged": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\C:\\Users\\Hyemin\\Documents\\Blinkling\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_clear_material.xml",
+        "source": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\C:\\Users\\Hyemin\\.android\\build-cache\\6129fd2d3f666eab7401e4b78bea7d27c6653860\\output\\res\\drawable\\abc_ic_clear_material.xml"
     },
     {
-        "merged": "/Users/mac/Downloads/Blinkling/C:\\Users\\Hyemin\\Documents\\Blinkling\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_action_menu.png",
-        "source": "/Users/mac/Downloads/Blinkling/C:\\Users\\Hyemin\\Documents\\Blinkling\\Blinkling\\app\\src\\main\\res\\drawable\\ic_action_menu.png"
+        "merged": "/Users/mac/Blinkling/C:\\Users\\mac\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_text_cursor_material.xml",
+        "source": "/Users/mac/Blinkling/C:\\Users\\mac\\.android\\build-cache\\913d8db17f1c25b6ee67b77b63f40d3096bd505a\\output\\res\\drawable\\abc_text_cursor_material.xml"
     },
     {
-        "merged": "/Users/mac/Downloads/Blinkling/C:\\Users\\dayeon\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notebook_find.png",
-        "source": "/Users/mac/Downloads/Blinkling/C:\\Users\\dayeon\\Blinkling\\app\\src\\main\\res\\drawable\\notebook_find.png"
+        "merged": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\C:\\Users\\dayeon\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_internal_bg.xml",
+        "source": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\C:\\Users\\dayeon\\.android\\build-cache\\08f0b85e835f6a143412367b800bd932d6600384\\output\\res\\drawable\\abc_cab_background_internal_bg.xml"
     },
     {
-        "merged": "/Users/mac/Downloads/Blinkling/C:\\Users\\Hyemin\\Documents\\Blinkling\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\books.png",
-        "source": "/Users/mac/Downloads/Blinkling/C:\\Users\\Hyemin\\Documents\\Blinkling\\Blinkling\\app\\src\\main\\res\\drawable\\books.png"
+        "merged": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_dialog_material_background.xml",
+        "source": "/Users/mac/Blinkling/C:\\Users\\mac\\.android\\build-cache\\913d8db17f1c25b6ee67b77b63f40d3096bd505a\\output\\res\\drawable\\abc_dialog_material_background.xml"
+    },
+    {
+        "merged": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\C:\\Users\\Hyemin\\Documents\\Blinkling\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_borderless_material.xml",
+        "source": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\C:\\Users\\Hyemin\\.android\\build-cache\\6129fd2d3f666eab7401e4b78bea7d27c6653860\\output\\res\\drawable\\abc_btn_borderless_material.xml"
+    },
+    {
+        "merged": "/Users/mac/Blinkling/C:\\Users\\dy889\\Documents\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_light.xml",
+        "source": "/Users/mac/Blinkling/C:\\Users\\dy889\\.android\\build-cache\\eaa9472fc91e028a5a27b3d20e7a0c3fbad5c383\\output\\res\\drawable\\abc_list_selector_holo_light.xml"
+    },
+    {
+        "merged": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\C:\\Users\\dayeon\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notebook_setting.png",
+        "source": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\C:\\Users\\dayeon\\Blinkling\\app\\src\\main\\res\\drawable\\notebook_setting.png"
     },
     {
         "merged": "/Users/mac/Blinkling/app/build/intermediates/res/merged/debug/drawable/mr_ic_pause_light.xml",
@@ -736,12 +1127,24 @@
         "source": "/Users/mac/Blinkling/app/src/main/res/drawable/back.png"
     },
     {
-        "merged": "/Users/mac/Downloads/Blinkling/C:\\Users\\Hyemin\\Documents\\Blinkling\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_default_mtrl_shape.xml",
-        "source": "/Users/mac/Downloads/Blinkling/C:\\Users\\Hyemin\\.android\\build-cache\\6129fd2d3f666eab7401e4b78bea7d27c6653860\\output\\res\\drawable\\abc_btn_default_mtrl_shape.xml"
+        "merged": "/Users/mac/Blinkling/C:\\Users\\mac\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\design_fab_background.xml",
+        "source": "/Users/mac/Blinkling/C:\\Users\\mac\\.android\\build-cache\\2357a626681079792d0b0f8329e66fe5b38ee637\\output\\res\\drawable\\design_fab_background.xml"
     },
     {
-        "merged": "/Users/mac/Downloads/Blinkling/C:\\Users\\dayeon\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_ab_back_material.xml",
-        "source": "/Users/mac/Downloads/Blinkling/C:\\Users\\dayeon\\.android\\build-cache\\08f0b85e835f6a143412367b800bd932d6600384\\output\\res\\drawable\\abc_ic_ab_back_material.xml"
+        "merged": "/Users/mac/Blinkling/C:\\Users\\mac\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\settings.png",
+        "source": "/Users/mac/Blinkling/C:\\Users\\mac\\Blinkling\\app\\src\\main\\res\\drawable\\settings.png"
+    },
+    {
+        "merged": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_tick_mark_material.xml",
+        "source": "/Users/mac/Blinkling/C:\\Users\\mac\\.android\\build-cache\\913d8db17f1c25b6ee67b77b63f40d3096bd505a\\output\\res\\drawable\\abc_seekbar_tick_mark_material.xml"
+    },
+    {
+        "merged": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\C:\\Users\\dayeon\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\design_bottom_navigation_item_background.xml",
+        "source": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\C:\\Users\\dayeon\\.android\\build-cache\\d7955f365574be11571c6d760671cfed3e81f806\\output\\res\\drawable\\design_bottom_navigation_item_background.xml"
+    },
+    {
+        "merged": "/Users/mac/Blinkling/C:\\Users\\dy889\\Documents\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_bg_low.xml",
+        "source": "/Users/mac/Blinkling/C:\\Users\\dy889\\.android\\build-cache\\eaa9472fc91e028a5a27b3d20e7a0c3fbad5c383\\output\\res\\drawable\\notification_bg_low.xml"
     },
     {
         "merged": "/Users/mac/Blinkling/app/build/intermediates/res/merged/debug/drawable/cast_expanded_controller_bg_gradient_light.xml",
@@ -752,28 +1155,54 @@
         "source": "/Users/mac/Blinkling/app/src/main/res/drawable/bookmarkstar.png"
     },
     {
+<<<<<<< HEAD
         "merged": "/Users/mac/Blinkling/app/build/intermediates/res/merged/debug/drawable/cast_mini_controller_gradient_light.xml",
         "source": "/Users/mac/.android/build-cache/d3ff796d1a0a0be6c348fb13321312629f76eaaf/output/res/drawable/cast_mini_controller_gradient_light.xml"
     },
     {
         "merged": "/Users/mac/Downloads/Blinkling/C:\\Users\\Hyemin\\Documents\\Blinkling\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\play.png",
         "source": "/Users/mac/Downloads/Blinkling/C:\\Users\\Hyemin\\Documents\\Blinkling\\Blinkling\\app\\src\\main\\res\\drawable\\play.png"
+=======
+        "merged": "/Users/mac/Blinkling/C:\\Users\\dy889\\Documents\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\folder.png",
+        "source": "/Users/mac/Blinkling/C:\\Users\\dy889\\Documents\\Blinkling\\app\\src\\main\\res\\drawable\\folder.png"
     },
     {
-        "merged": "/Users/mac/Downloads/Blinkling/C:\\Users\\Hyemin\\Documents\\Blinkling\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\plus.png",
-        "source": "/Users/mac/Downloads/Blinkling/C:\\Users\\Hyemin\\Documents\\Blinkling\\Blinkling\\app\\src\\main\\res\\drawable\\plus.png"
+        "merged": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\C:\\Users\\dayeon\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_track_material.xml",
+        "source": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\C:\\Users\\dayeon\\.android\\build-cache\\08f0b85e835f6a143412367b800bd932d6600384\\output\\res\\drawable\\abc_seekbar_track_material.xml"
     },
     {
+        "merged": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\C:\\Users\\dayeon\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_dark.xml",
+        "source": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\C:\\Users\\dayeon\\.android\\build-cache\\08f0b85e835f6a143412367b800bd932d6600384\\output\\res\\drawable\\abc_list_selector_holo_dark.xml"
+>>>>>>> mi
+    },
+    {
+        "merged": "/Users/mac/Blinkling/C:\\Users\\mac\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_switch_thumb_material.xml",
+        "source": "/Users/mac/Blinkling/C:\\Users\\mac\\.android\\build-cache\\913d8db17f1c25b6ee67b77b63f40d3096bd505a\\output\\res\\drawable\\abc_switch_thumb_material.xml"
+    },
+    {
+<<<<<<< HEAD
         "merged": "/Users/mac/Blinkling/app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_icon_light_normal.xml",
         "source": "/Users/mac/.android/build-cache/46cde47e55c49a49e2a966d8d336fb318d076378/output/res/drawable/common_google_signin_btn_icon_light_normal.xml"
     },
     {
         "merged": "/Users/mac/Downloads/Blinkling/C:\\Users\\dayeon\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\design_snackbar_background.xml",
         "source": "/Users/mac/Downloads/Blinkling/C:\\Users\\dayeon\\.android\\build-cache\\d7955f365574be11571c6d760671cfed3e81f806\\output\\res\\drawable\\design_snackbar_background.xml"
+=======
+        "merged": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\C:\\Users\\Hyemin\\Documents\\Blinkling\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_small_material.xml",
+        "source": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\C:\\Users\\Hyemin\\.android\\build-cache\\6129fd2d3f666eab7401e4b78bea7d27c6653860\\output\\res\\drawable\\abc_ratingbar_small_material.xml"
+>>>>>>> mi
     },
     {
-        "merged": "/Users/mac/Downloads/Blinkling/C:\\Users\\Hyemin\\Documents\\Blinkling\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_bg.xml",
-        "source": "/Users/mac/Downloads/Blinkling/C:\\Users\\Hyemin\\.android\\build-cache\\6129fd2d3f666eab7401e4b78bea7d27c6653860\\output\\res\\drawable\\notification_bg.xml"
+        "merged": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\C:\\Users\\Hyemin\\Documents\\Blinkling\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_light.xml",
+        "source": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\C:\\Users\\Hyemin\\.android\\build-cache\\6129fd2d3f666eab7401e4b78bea7d27c6653860\\output\\res\\drawable\\abc_item_background_holo_light.xml"
+    },
+    {
+        "merged": "/Users/mac/Blinkling/C:\\Users\\mac\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_track_material.xml",
+        "source": "/Users/mac/Blinkling/C:\\Users\\mac\\.android\\build-cache\\913d8db17f1c25b6ee67b77b63f40d3096bd505a\\output\\res\\drawable\\abc_seekbar_track_material.xml"
+    },
+    {
+        "merged": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\C:\\Users\\dayeon\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_light.xml",
+        "source": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\C:\\Users\\dayeon\\.android\\build-cache\\08f0b85e835f6a143412367b800bd932d6600384\\output\\res\\drawable\\abc_list_selector_holo_light.xml"
     },
     {
         "merged": "/Users/mac/Blinkling/app/build/intermediates/res/merged/debug/drawable/design_bottom_navigation_item_background.xml",
@@ -784,38 +1213,96 @@
         "source": "/Users/mac/.android/build-cache/913d8db17f1c25b6ee67b77b63f40d3096bd505a/output/res/drawable/notification_tile_bg.xml"
     },
     {
-        "merged": "/Users/mac/Downloads/Blinkling/app/build/intermediates/res/merged/debug/drawable/book.png",
-        "source": "/Users/mac/Downloads/Blinkling/app/src/main/res/drawable/book.png"
+        "merged": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_thumb_material.xml",
+        "source": "/Users/mac/Blinkling/C:\\Users\\mac\\.android\\build-cache\\913d8db17f1c25b6ee67b77b63f40d3096bd505a\\output\\res\\drawable\\abc_seekbar_thumb_material.xml"
     },
     {
+        "merged": "/Users/mac/Blinkling/C:\\Users\\dy889\\Documents\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\user.png",
+        "source": "/Users/mac/Blinkling/C:\\Users\\dy889\\Documents\\Blinkling\\app\\src\\main\\res\\drawable\\user.png"
+    },
+    {
+        "merged": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\C:\\Users\\dayeon\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_light.xml",
+        "source": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\C:\\Users\\dayeon\\.android\\build-cache\\08f0b85e835f6a143412367b800bd932d6600384\\output\\res\\drawable\\abc_item_background_holo_light.xml"
+    },
+    {
+        "merged": "/Users/mac/Blinkling/C:\\Users\\mac\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_tick_mark_material.xml",
+        "source": "/Users/mac/Blinkling/C:\\Users\\mac\\.android\\build-cache\\913d8db17f1c25b6ee67b77b63f40d3096bd505a\\output\\res\\drawable\\abc_seekbar_tick_mark_material.xml"
+    },
+    {
+<<<<<<< HEAD
         "merged": "/Users/mac/Blinkling/app/build/intermediates/res/merged/debug/drawable/mr_ic_audiotrack_light.xml",
         "source": "/Users/mac/.android/build-cache/693066f5460604d04bca0de7d54ae2c516c35b5a/output/res/drawable/mr_ic_audiotrack_light.xml"
     },
     {
         "merged": "/Users/mac/Downloads/Blinkling/C:\\Users\\Hyemin\\Documents\\Blinkling\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_dark.xml",
         "source": "/Users/mac/Downloads/Blinkling/C:\\Users\\Hyemin\\.android\\build-cache\\6129fd2d3f666eab7401e4b78bea7d27c6653860\\output\\res\\drawable\\abc_list_selector_holo_dark.xml"
+=======
+        "merged": "/Users/mac/Blinkling/C:\\Users\\dy889\\Documents\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\mainimage.png",
+        "source": "/Users/mac/Blinkling/C:\\Users\\dy889\\Documents\\Blinkling\\app\\src\\main\\res\\drawable\\mainimage.png"
+    },
+    {
+        "merged": "/Users/mac/Blinkling/C:\\Users\\mac\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_dialog_material_background.xml",
+        "source": "/Users/mac/Blinkling/C:\\Users\\mac\\.android\\build-cache\\913d8db17f1c25b6ee67b77b63f40d3096bd505a\\output\\res\\drawable\\abc_dialog_material_background.xml"
+    },
+    {
+        "merged": "/Users/mac/Blinkling/C:\\Users\\mac\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\design_password_eye.xml",
+        "source": "/Users/mac/Blinkling/C:\\Users\\mac\\.android\\build-cache\\2357a626681079792d0b0f8329e66fe5b38ee637\\output\\res\\drawable\\design_password_eye.xml"
+    },
+    {
+        "merged": "/Users/mac/Blinkling/C:\\Users\\mac\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\navigation_empty_icon.xml",
+        "source": "/Users/mac/Blinkling/C:\\Users\\mac\\.android\\build-cache\\2357a626681079792d0b0f8329e66fe5b38ee637\\output\\res\\drawable\\navigation_empty_icon.xml"
+    },
+    {
+        "merged": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\C:\\Users\\Hyemin\\Documents\\Blinkling\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\book.png",
+        "source": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\C:\\Users\\Hyemin\\Documents\\Blinkling\\Blinkling\\app\\src\\main\\res\\drawable\\book.png"
+    },
+    {
+        "merged": "/Users/mac/Blinkling/C:\\Users\\dy889\\Documents\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_tick_mark_material.xml",
+        "source": "/Users/mac/Blinkling/C:\\Users\\dy889\\.android\\build-cache\\eaa9472fc91e028a5a27b3d20e7a0c3fbad5c383\\output\\res\\drawable\\abc_seekbar_tick_mark_material.xml"
+    },
+    {
+        "merged": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\C:\\Users\\Hyemin\\Documents\\Blinkling\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_search_api_material.xml",
+        "source": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\C:\\Users\\Hyemin\\.android\\build-cache\\6129fd2d3f666eab7401e4b78bea7d27c6653860\\output\\res\\drawable\\abc_ic_search_api_material.xml"
+    },
+    {
+        "merged": "/Users/mac/Blinkling/C:\\Users\\dy889\\Documents\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bookmarkstar.png",
+        "source": "/Users/mac/Blinkling/C:\\Users\\dy889\\Documents\\Blinkling\\app\\src\\main\\res\\drawable\\bookmarkstar.png"
+    },
+    {
+        "merged": "/Users/mac/Blinkling/C:\\Users\\dy889\\Documents\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_internal_bg.xml",
+        "source": "/Users/mac/Blinkling/C:\\Users\\dy889\\.android\\build-cache\\eaa9472fc91e028a5a27b3d20e7a0c3fbad5c383\\output\\res\\drawable\\abc_cab_background_internal_bg.xml"
+>>>>>>> mi
     },
     {
         "merged": "/Users/mac/Blinkling/app/build/intermediates/res/merged/debug/drawable/book.png",
         "source": "/Users/mac/Blinkling/app/src/main/res/drawable/book.png"
     },
     {
-        "merged": "/Users/mac/Downloads/Blinkling/C:\\Users\\dayeon\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_clear_material.xml",
-        "source": "/Users/mac/Downloads/Blinkling/C:\\Users\\dayeon\\.android\\build-cache\\08f0b85e835f6a143412367b800bd932d6600384\\output\\res\\drawable\\abc_ic_clear_material.xml"
+        "merged": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_bg_low.xml",
+        "source": "/Users/mac/Blinkling/C:\\Users\\mac\\.android\\build-cache\\913d8db17f1c25b6ee67b77b63f40d3096bd505a\\output\\res\\drawable\\notification_bg_low.xml"
+    },
+    {
+        "merged": "/Users/mac/Blinkling/C:\\Users\\mac\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\worldwide.png",
+        "source": "/Users/mac/Blinkling/C:\\Users\\mac\\Blinkling\\app\\src\\main\\res\\drawable\\worldwide.png"
+    },
+    {
+        "merged": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\C:\\Users\\dayeon\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\play.png",
+        "source": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\C:\\Users\\dayeon\\Blinkling\\app\\src\\main\\res\\drawable\\play.png"
+    },
+    {
+        "merged": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\C:\\Users\\dayeon\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_dialog_material_background.xml",
+        "source": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\C:\\Users\\dayeon\\.android\\build-cache\\08f0b85e835f6a143412367b800bd932d6600384\\output\\res\\drawable\\abc_dialog_material_background.xml"
     },
     {
         "merged": "/Users/mac/Blinkling/app/build/intermediates/res/merged/debug/drawable/abc_item_background_holo_dark.xml",
         "source": "/Users/mac/.android/build-cache/913d8db17f1c25b6ee67b77b63f40d3096bd505a/output/res/drawable/abc_item_background_holo_dark.xml"
     },
     {
-        "merged": "/Users/mac/Downloads/Blinkling/C:\\Users\\dayeon\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_bg.xml",
-        "source": "/Users/mac/Downloads/Blinkling/C:\\Users\\dayeon\\.android\\build-cache\\08f0b85e835f6a143412367b800bd932d6600384\\output\\res\\drawable\\notification_bg.xml"
-    },
-    {
         "merged": "/Users/mac/Blinkling/app/build/intermediates/res/merged/debug/drawable/abc_ratingbar_indicator_material.xml",
         "source": "/Users/mac/.android/build-cache/913d8db17f1c25b6ee67b77b63f40d3096bd505a/output/res/drawable/abc_ratingbar_indicator_material.xml"
     },
     {
+<<<<<<< HEAD
         "merged": "/Users/mac/Blinkling/app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_text_light_focused.xml",
         "source": "/Users/mac/.android/build-cache/46cde47e55c49a49e2a966d8d336fb318d076378/output/res/drawable/common_google_signin_btn_text_light_focused.xml"
     },
@@ -826,18 +1313,27 @@
     {
         "merged": "/Users/mac/Downloads/Blinkling/app/build/intermediates/res/merged/debug/drawable/design_bottom_navigation_item_background.xml",
         "source": "/Users/mac/.android/build-cache/2357a626681079792d0b0f8329e66fe5b38ee637/output/res/drawable/design_bottom_navigation_item_background.xml"
+=======
+        "merged": "/Users/mac/Blinkling/C:\\Users\\mac\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_internal_bg.xml",
+        "source": "/Users/mac/Blinkling/C:\\Users\\mac\\.android\\build-cache\\913d8db17f1c25b6ee67b77b63f40d3096bd505a\\output\\res\\drawable\\abc_cab_background_internal_bg.xml"
+>>>>>>> mi
     },
     {
-        "merged": "/Users/mac/Downloads/Blinkling/app/build/intermediates/res/merged/debug/drawable/abc_btn_borderless_material.xml",
-        "source": "/Users/mac/.android/build-cache/913d8db17f1c25b6ee67b77b63f40d3096bd505a/output/res/drawable/abc_btn_borderless_material.xml"
+        "merged": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_check_material.xml",
+        "source": "/Users/mac/Blinkling/C:\\Users\\mac\\.android\\build-cache\\913d8db17f1c25b6ee67b77b63f40d3096bd505a\\output\\res\\drawable\\abc_btn_check_material.xml"
     },
     {
+<<<<<<< HEAD
         "merged": "/Users/mac/Blinkling/app/build/intermediates/res/merged/debug/drawable/cast_skip_ad_label_border.xml",
         "source": "/Users/mac/.android/build-cache/d3ff796d1a0a0be6c348fb13321312629f76eaaf/output/res/drawable/cast_skip_ad_label_border.xml"
     },
     {
         "merged": "/Users/mac/Downloads/Blinkling/C:\\Users\\dayeon\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_borderless_material.xml",
         "source": "/Users/mac/Downloads/Blinkling/C:\\Users\\dayeon\\.android\\build-cache\\08f0b85e835f6a143412367b800bd932d6600384\\output\\res\\drawable\\abc_btn_borderless_material.xml"
+=======
+        "merged": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\C:\\Users\\dayeon\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_default_mtrl_shape.xml",
+        "source": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\C:\\Users\\dayeon\\.android\\build-cache\\08f0b85e835f6a143412367b800bd932d6600384\\output\\res\\drawable\\abc_btn_default_mtrl_shape.xml"
+>>>>>>> mi
     },
     {
         "merged": "/Users/mac/Blinkling/app/build/intermediates/res/merged/debug/drawable/cast_ic_expanded_controller_skip_next.xml",
@@ -848,12 +1344,8 @@
         "source": "/Users/mac/.android/build-cache/913d8db17f1c25b6ee67b77b63f40d3096bd505a/output/res/drawable/abc_btn_default_mtrl_shape.xml"
     },
     {
-        "merged": "/Users/mac/Downloads/Blinkling/C:\\Users\\dayeon\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_action_menu.png",
-        "source": "/Users/mac/Downloads/Blinkling/C:\\Users\\dayeon\\Blinkling\\app\\src\\main\\res\\drawable\\ic_action_menu.png"
-    },
-    {
-        "merged": "/Users/mac/Downloads/Blinkling/app/build/intermediates/res/merged/debug/drawable/notification_icon_background.xml",
-        "source": "/Users/mac/.android/build-cache/913d8db17f1c25b6ee67b77b63f40d3096bd505a/output/res/drawable/notification_icon_background.xml"
+        "merged": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\C:\\Users\\Hyemin\\Documents\\Blinkling\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\stop.png",
+        "source": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\C:\\Users\\Hyemin\\Documents\\Blinkling\\Blinkling\\app\\src\\main\\res\\drawable\\stop.png"
     },
     {
         "merged": "/Users/mac/Blinkling/app/build/intermediates/res/merged/debug/drawable/mr_ic_media_route_on_dark.xml",
@@ -864,20 +1356,32 @@
         "source": "/Users/mac/.android/build-cache/913d8db17f1c25b6ee67b77b63f40d3096bd505a/output/res/drawable/abc_ic_ab_back_material.xml"
     },
     {
-        "merged": "/Users/mac/Downloads/Blinkling/C:\\Users\\Hyemin\\Documents\\Blinkling\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_dark.xml",
-        "source": "/Users/mac/Downloads/Blinkling/C:\\Users\\Hyemin\\.android\\build-cache\\6129fd2d3f666eab7401e4b78bea7d27c6653860\\output\\res\\drawable\\abc_list_selector_background_transition_holo_dark.xml"
+        "merged": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\C:\\Users\\Hyemin\\Documents\\Blinkling\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bookshelf_back.png",
+        "source": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\C:\\Users\\Hyemin\\Documents\\Blinkling\\Blinkling\\app\\src\\main\\res\\drawable\\bookshelf_back.png"
     },
     {
-        "merged": "/Users/mac/Downloads/Blinkling/app/build/intermediates/res/merged/debug/drawable/abc_ratingbar_indicator_material.xml",
-        "source": "/Users/mac/.android/build-cache/913d8db17f1c25b6ee67b77b63f40d3096bd505a/output/res/drawable/abc_ratingbar_indicator_material.xml"
+        "merged": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\C:\\Users\\dayeon\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_material.xml",
+        "source": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\C:\\Users\\dayeon\\.android\\build-cache\\08f0b85e835f6a143412367b800bd932d6600384\\output\\res\\drawable\\abc_ratingbar_material.xml"
     },
     {
         "merged": "/Users/mac/Blinkling/app/build/intermediates/res/merged/debug/drawable/abc_ic_voice_search_api_material.xml",
         "source": "/Users/mac/.android/build-cache/913d8db17f1c25b6ee67b77b63f40d3096bd505a/output/res/drawable/abc_ic_voice_search_api_material.xml"
     },
     {
-        "merged": "/Users/mac/Downloads/Blinkling/app/build/intermediates/res/merged/debug/drawable/abc_edit_text_material.xml",
-        "source": "/Users/mac/.android/build-cache/913d8db17f1c25b6ee67b77b63f40d3096bd505a/output/res/drawable/abc_edit_text_material.xml"
+        "merged": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bookshelf_back.png",
+        "source": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\app\\src\\main\\res\\drawable\\bookshelf_back.png"
+    },
+    {
+        "merged": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_top_material.xml",
+        "source": "/Users/mac/Blinkling/C:\\Users\\mac\\.android\\build-cache\\913d8db17f1c25b6ee67b77b63f40d3096bd505a\\output\\res\\drawable\\abc_cab_background_top_material.xml"
+    },
+    {
+        "merged": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\worldwide.png",
+        "source": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\app\\src\\main\\res\\drawable\\worldwide.png"
+    },
+    {
+        "merged": "/Users/mac/Blinkling/C:\\Users\\dy889\\Documents\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_go_search_api_material.xml",
+        "source": "/Users/mac/Blinkling/C:\\Users\\dy889\\.android\\build-cache\\eaa9472fc91e028a5a27b3d20e7a0c3fbad5c383\\output\\res\\drawable\\abc_ic_go_search_api_material.xml"
     },
     {
         "merged": "/Users/mac/Blinkling/app/build/intermediates/res/merged/debug/drawable/abc_list_selector_background_transition_holo_light.xml",
@@ -888,30 +1392,55 @@
         "source": "/Users/mac/.android/build-cache/913d8db17f1c25b6ee67b77b63f40d3096bd505a/output/res/drawable/abc_spinner_textfield_background_material.xml"
     },
     {
-        "merged": "/Users/mac/Downloads/Blinkling/C:\\Users\\Hyemin\\Documents\\Blinkling\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_check_material.xml",
-        "source": "/Users/mac/Downloads/Blinkling/C:\\Users\\Hyemin\\.android\\build-cache\\6129fd2d3f666eab7401e4b78bea7d27c6653860\\output\\res\\drawable\\abc_btn_check_material.xml"
+        "merged": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\C:\\Users\\Hyemin\\Documents\\Blinkling\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notebook_setting.png",
+        "source": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\C:\\Users\\Hyemin\\Documents\\Blinkling\\Blinkling\\app\\src\\main\\res\\drawable\\notebook_setting.png"
     },
     {
-        "merged": "/Users/mac/Downloads/Blinkling/app/build/intermediates/res/merged/debug/drawable/notebook_add.png",
-        "source": "/Users/mac/Downloads/Blinkling/app/src/main/res/drawable/notebook_add.png"
+        "merged": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_tab_indicator_material.xml",
+        "source": "/Users/mac/Blinkling/C:\\Users\\mac\\.android\\build-cache\\913d8db17f1c25b6ee67b77b63f40d3096bd505a\\output\\res\\drawable\\abc_tab_indicator_material.xml"
     },
     {
-        "merged": "/Users/mac/Downloads/Blinkling/app/build/intermediates/res/merged/debug/drawable/settings.png",
-        "source": "/Users/mac/Downloads/Blinkling/app/src/main/res/drawable/settings.png"
+        "merged": "/Users/mac/Blinkling/C:\\Users\\dy889\\Documents\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_top_material.xml",
+        "source": "/Users/mac/Blinkling/C:\\Users\\dy889\\.android\\build-cache\\eaa9472fc91e028a5a27b3d20e7a0c3fbad5c383\\output\\res\\drawable\\abc_cab_background_top_material.xml"
     },
     {
-        "merged": "/Users/mac/Downloads/Blinkling/C:\\Users\\Hyemin\\Documents\\Blinkling\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_indicator_material.xml",
-        "source": "/Users/mac/Downloads/Blinkling/C:\\Users\\Hyemin\\.android\\build-cache\\6129fd2d3f666eab7401e4b78bea7d27c6653860\\output\\res\\drawable\\abc_ratingbar_indicator_material.xml"
+        "merged": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_colored_material.xml",
+        "source": "/Users/mac/Blinkling/C:\\Users\\mac\\.android\\build-cache\\913d8db17f1c25b6ee67b77b63f40d3096bd505a\\output\\res\\drawable\\abc_btn_colored_material.xml"
+    },
+    {
+        "merged": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\C:\\Users\\Hyemin\\Documents\\Blinkling\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_light.xml",
+        "source": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\C:\\Users\\Hyemin\\.android\\build-cache\\6129fd2d3f666eab7401e4b78bea7d27c6653860\\output\\res\\drawable\\abc_list_selector_holo_light.xml"
+    },
+    {
+        "merged": "/Users/mac/Blinkling/C:\\Users\\dy889\\Documents\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_tile_bg.xml",
+        "source": "/Users/mac/Blinkling/C:\\Users\\dy889\\.android\\build-cache\\eaa9472fc91e028a5a27b3d20e7a0c3fbad5c383\\output\\res\\drawable\\notification_tile_bg.xml"
+    },
+    {
+        "merged": "/Users/mac/Blinkling/C:\\Users\\dy889\\Documents\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_tab_indicator_material.xml",
+        "source": "/Users/mac/Blinkling/C:\\Users\\dy889\\.android\\build-cache\\eaa9472fc91e028a5a27b3d20e7a0c3fbad5c383\\output\\res\\drawable\\abc_tab_indicator_material.xml"
+    },
+    {
+        "merged": "/Users/mac/Blinkling/C:\\Users\\dy889\\Documents\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_dialog_material_background.xml",
+        "source": "/Users/mac/Blinkling/C:\\Users\\dy889\\.android\\build-cache\\eaa9472fc91e028a5a27b3d20e7a0c3fbad5c383\\output\\res\\drawable\\abc_dialog_material_background.xml"
+    },
+    {
+        "merged": "/Users/mac/Blinkling/C:\\Users\\dy889\\Documents\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\design_bottom_navigation_item_background.xml",
+        "source": "/Users/mac/Blinkling/C:\\Users\\dy889\\.android\\build-cache\\2318f7de2f290e7ceeae07216c4454185a81ae35\\output\\res\\drawable\\design_bottom_navigation_item_background.xml"
+    },
+    {
+        "merged": "/Users/mac/Blinkling/C:\\Users\\mac\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\folder.png",
+        "source": "/Users/mac/Blinkling/C:\\Users\\mac\\Blinkling\\app\\src\\main\\res\\drawable\\folder.png"
     },
     {
         "merged": "/Users/mac/Blinkling/app/build/intermediates/res/merged/debug/drawable/notification_icon_background.xml",
         "source": "/Users/mac/.android/build-cache/913d8db17f1c25b6ee67b77b63f40d3096bd505a/output/res/drawable/notification_icon_background.xml"
     },
     {
-        "merged": "/Users/mac/Downloads/Blinkling/C:\\Users\\dayeon\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\user.png",
-        "source": "/Users/mac/Downloads/Blinkling/C:\\Users\\dayeon\\Blinkling\\app\\src\\main\\res\\drawable\\user.png"
+        "merged": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\C:\\Users\\Hyemin\\Documents\\Blinkling\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_menu_overflow_material.xml",
+        "source": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\C:\\Users\\Hyemin\\.android\\build-cache\\6129fd2d3f666eab7401e4b78bea7d27c6653860\\output\\res\\drawable\\abc_ic_menu_overflow_material.xml"
     },
     {
+<<<<<<< HEAD
         "merged": "/Users/mac/Blinkling/app/build/intermediates/res/merged/debug/drawable/cast_ic_expanded_controller_pause.xml",
         "source": "/Users/mac/.android/build-cache/d3ff796d1a0a0be6c348fb13321312629f76eaaf/output/res/drawable/cast_ic_expanded_controller_pause.xml"
     },
@@ -930,10 +1459,50 @@
     {
         "merged": "/Users/mac/Downloads/Blinkling/app/build/intermediates/res/merged/debug/drawable/abc_cab_background_internal_bg.xml",
         "source": "/Users/mac/.android/build-cache/913d8db17f1c25b6ee67b77b63f40d3096bd505a/output/res/drawable/abc_cab_background_internal_bg.xml"
+=======
+        "merged": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bookmarkstar.png",
+        "source": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\app\\src\\main\\res\\drawable\\bookmarkstar.png"
     },
     {
-        "merged": "/Users/mac/Downloads/Blinkling/C:\\Users\\dayeon\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_track_material.xml",
-        "source": "/Users/mac/Downloads/Blinkling/C:\\Users\\dayeon\\.android\\build-cache\\08f0b85e835f6a143412367b800bd932d6600384\\output\\res\\drawable\\abc_seekbar_track_material.xml"
+        "merged": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_switch_thumb_material.xml",
+        "source": "/Users/mac/Blinkling/C:\\Users\\mac\\.android\\build-cache\\913d8db17f1c25b6ee67b77b63f40d3096bd505a\\output\\res\\drawable\\abc_switch_thumb_material.xml"
+    },
+    {
+        "merged": "/Users/mac/Blinkling/C:\\Users\\mac\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\design_snackbar_background.xml",
+        "source": "/Users/mac/Blinkling/C:\\Users\\mac\\.android\\build-cache\\2357a626681079792d0b0f8329e66fe5b38ee637\\output\\res\\drawable\\design_snackbar_background.xml"
+    },
+    {
+        "merged": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\C:\\Users\\Hyemin\\Documents\\Blinkling\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_check_material.xml",
+        "source": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\C:\\Users\\Hyemin\\.android\\build-cache\\6129fd2d3f666eab7401e4b78bea7d27c6653860\\output\\res\\drawable\\abc_btn_check_material.xml"
+>>>>>>> mi
+    },
+    {
+        "merged": "/Users/mac/Blinkling/C:\\Users\\mac\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_light.xml",
+        "source": "/Users/mac/Blinkling/C:\\Users\\mac\\.android\\build-cache\\913d8db17f1c25b6ee67b77b63f40d3096bd505a\\output\\res\\drawable\\abc_list_selector_holo_light.xml"
+    },
+    {
+        "merged": "/Users/mac/Blinkling/C:\\Users\\mac\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_voice_search_api_material.xml",
+        "source": "/Users/mac/Blinkling/C:\\Users\\mac\\.android\\build-cache\\913d8db17f1c25b6ee67b77b63f40d3096bd505a\\output\\res\\drawable\\abc_ic_voice_search_api_material.xml"
+    },
+    {
+        "merged": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\C:\\Users\\Hyemin\\Documents\\Blinkling\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_dark.xml",
+        "source": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\C:\\Users\\Hyemin\\.android\\build-cache\\6129fd2d3f666eab7401e4b78bea7d27c6653860\\output\\res\\drawable\\abc_list_selector_background_transition_holo_dark.xml"
+    },
+    {
+        "merged": "/Users/mac/Blinkling/C:\\Users\\dy889\\Documents\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_icon_background.xml",
+        "source": "/Users/mac/Blinkling/C:\\Users\\dy889\\.android\\build-cache\\eaa9472fc91e028a5a27b3d20e7a0c3fbad5c383\\output\\res\\drawable\\notification_icon_background.xml"
+    },
+    {
+        "merged": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\C:\\Users\\dayeon\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\design_password_eye.xml",
+        "source": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\C:\\Users\\dayeon\\.android\\build-cache\\d7955f365574be11571c6d760671cfed3e81f806\\output\\res\\drawable\\design_password_eye.xml"
+    },
+    {
+        "merged": "/Users/mac/Blinkling/C:\\Users\\dy889\\Documents\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_indicator_material.xml",
+        "source": "/Users/mac/Blinkling/C:\\Users\\dy889\\.android\\build-cache\\eaa9472fc91e028a5a27b3d20e7a0c3fbad5c383\\output\\res\\drawable\\abc_ratingbar_indicator_material.xml"
+    },
+    {
+        "merged": "/Users/mac/Blinkling/C:\\Users\\dy889\\Documents\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_switch_thumb_material.xml",
+        "source": "/Users/mac/Blinkling/C:\\Users\\dy889\\.android\\build-cache\\eaa9472fc91e028a5a27b3d20e7a0c3fbad5c383\\output\\res\\drawable\\abc_switch_thumb_material.xml"
     },
     {
         "merged": "/Users/mac/Blinkling/app/build/intermediates/res/merged/debug/drawable/cast_expanded_controller_seekbar_track.xml",
@@ -944,52 +1513,98 @@
         "source": "/Users/mac/.android/build-cache/913d8db17f1c25b6ee67b77b63f40d3096bd505a/output/res/drawable/abc_ic_search_api_material.xml"
     },
     {
-        "merged": "/Users/mac/Downloads/Blinkling/app/build/intermediates/res/merged/debug/drawable/notification_bg.xml",
-        "source": "/Users/mac/.android/build-cache/913d8db17f1c25b6ee67b77b63f40d3096bd505a/output/res/drawable/notification_bg.xml"
+        "merged": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\C:\\Users\\Hyemin\\Documents\\Blinkling\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_text_cursor_material.xml",
+        "source": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\C:\\Users\\Hyemin\\.android\\build-cache\\6129fd2d3f666eab7401e4b78bea7d27c6653860\\output\\res\\drawable\\abc_text_cursor_material.xml"
     },
     {
-        "merged": "/Users/mac/Downloads/Blinkling/C:\\Users\\Hyemin\\Documents\\Blinkling\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_radio_material.xml",
-        "source": "/Users/mac/Downloads/Blinkling/C:\\Users\\Hyemin\\.android\\build-cache\\6129fd2d3f666eab7401e4b78bea7d27c6653860\\output\\res\\drawable\\abc_btn_radio_material.xml"
+        "merged": "/Users/mac/Blinkling/C:\\Users\\mac\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_indicator_material.xml",
+        "source": "/Users/mac/Blinkling/C:\\Users\\mac\\.android\\build-cache\\913d8db17f1c25b6ee67b77b63f40d3096bd505a\\output\\res\\drawable\\abc_ratingbar_indicator_material.xml"
     },
     {
-        "merged": "/Users/mac/Downloads/Blinkling/C:\\Users\\Hyemin\\Documents\\Blinkling\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_material.xml",
-        "source": "/Users/mac/Downloads/Blinkling/C:\\Users\\Hyemin\\.android\\build-cache\\6129fd2d3f666eab7401e4b78bea7d27c6653860\\output\\res\\drawable\\abc_ratingbar_material.xml"
+        "merged": "/Users/mac/Blinkling/C:\\Users\\mac\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_textfield_search_material.xml",
+        "source": "/Users/mac/Blinkling/C:\\Users\\mac\\.android\\build-cache\\913d8db17f1c25b6ee67b77b63f40d3096bd505a\\output\\res\\drawable\\abc_textfield_search_material.xml"
+    },
+    {
+        "merged": "/Users/mac/Blinkling/C:\\Users\\mac\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\garbage.png",
+        "source": "/Users/mac/Blinkling/C:\\Users\\mac\\Blinkling\\app\\src\\main\\res\\drawable\\garbage.png"
     },
     {
         "merged": "/Users/mac/Blinkling/app/build/intermediates/res/merged/debug/drawable/abc_cab_background_internal_bg.xml",
         "source": "/Users/mac/.android/build-cache/913d8db17f1c25b6ee67b77b63f40d3096bd505a/output/res/drawable/abc_cab_background_internal_bg.xml"
     },
     {
-        "merged": "/Users/mac/Downloads/Blinkling/C:\\Users\\dayeon\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\back.png",
-        "source": "/Users/mac/Downloads/Blinkling/C:\\Users\\dayeon\\Blinkling\\app\\src\\main\\res\\drawable\\back.png"
+        "merged": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\C:\\Users\\dayeon\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_indicator_material.xml",
+        "source": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\C:\\Users\\dayeon\\.android\\build-cache\\08f0b85e835f6a143412367b800bd932d6600384\\output\\res\\drawable\\abc_ratingbar_indicator_material.xml"
     },
     {
+        "merged": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\C:\\Users\\dayeon\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_edit_text_material.xml",
+        "source": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\C:\\Users\\dayeon\\.android\\build-cache\\08f0b85e835f6a143412367b800bd932d6600384\\output\\res\\drawable\\abc_edit_text_material.xml"
+    },
+    {
+        "merged": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_radio_material.xml",
+        "source": "/Users/mac/Blinkling/C:\\Users\\mac\\.android\\build-cache\\913d8db17f1c25b6ee67b77b63f40d3096bd505a\\output\\res\\drawable\\abc_btn_radio_material.xml"
+    },
+    {
+        "merged": "/Users/mac/Blinkling/C:\\Users\\dy889\\Documents\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\design_fab_background.xml",
+        "source": "/Users/mac/Blinkling/C:\\Users\\dy889\\.android\\build-cache\\2318f7de2f290e7ceeae07216c4454185a81ae35\\output\\res\\drawable\\design_fab_background.xml"
+    },
+    {
+        "merged": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\C:\\Users\\Hyemin\\Documents\\Blinkling\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_arrow_drop_right_black_24dp.xml",
+        "source": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\C:\\Users\\Hyemin\\.android\\build-cache\\6129fd2d3f666eab7401e4b78bea7d27c6653860\\output\\res\\drawable\\abc_ic_arrow_drop_right_black_24dp.xml"
+    },
+    {
+        "merged": "/Users/mac/Blinkling/C:\\Users\\mac\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\gridworld.png",
+        "source": "/Users/mac/Blinkling/C:\\Users\\mac\\Blinkling\\app\\src\\main\\res\\drawable\\gridworld.png"
+    },
+    {
+        "merged": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\C:\\Users\\dayeon\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_bg_low.xml",
+        "source": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\C:\\Users\\dayeon\\.android\\build-cache\\08f0b85e835f6a143412367b800bd932d6600384\\output\\res\\drawable\\notification_bg_low.xml"
+    },
+    {
+        "merged": "/Users/mac/Blinkling/C:\\Users\\mac\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_menu_overflow_material.xml",
+        "source": "/Users/mac/Blinkling/C:\\Users\\mac\\.android\\build-cache\\913d8db17f1c25b6ee67b77b63f40d3096bd505a\\output\\res\\drawable\\abc_ic_menu_overflow_material.xml"
+    },
+    {
+<<<<<<< HEAD
         "merged": "/Users/mac/Blinkling/app/build/intermediates/res/merged/debug/drawable/cast_ic_mini_controller_skip_prev.xml",
         "source": "/Users/mac/.android/build-cache/d3ff796d1a0a0be6c348fb13321312629f76eaaf/output/res/drawable/cast_ic_mini_controller_skip_prev.xml"
     },
     {
         "merged": "/Users/mac/Downloads/Blinkling/C:\\Users\\Hyemin\\Documents\\Blinkling\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_icon_background.xml",
         "source": "/Users/mac/Downloads/Blinkling/C:\\Users\\Hyemin\\.android\\build-cache\\6129fd2d3f666eab7401e4b78bea7d27c6653860\\output\\res\\drawable\\notification_icon_background.xml"
+=======
+        "merged": "/Users/mac/Blinkling/C:\\Users\\dy889\\Documents\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_vector_test.xml",
+        "source": "/Users/mac/Blinkling/C:\\Users\\dy889\\.android\\build-cache\\eaa9472fc91e028a5a27b3d20e7a0c3fbad5c383\\output\\res\\drawable\\abc_vector_test.xml"
+>>>>>>> mi
     },
     {
-        "merged": "/Users/mac/Downloads/Blinkling/app/build/intermediates/res/merged/debug/drawable/bookmark.png",
-        "source": "/Users/mac/Downloads/Blinkling/app/src/main/res/drawable/bookmark.png"
+        "merged": "/Users/mac/Blinkling/C:\\Users\\dy889\\Documents\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_thumb_material.xml",
+        "source": "/Users/mac/Blinkling/C:\\Users\\dy889\\.android\\build-cache\\eaa9472fc91e028a5a27b3d20e7a0c3fbad5c383\\output\\res\\drawable\\abc_seekbar_thumb_material.xml"
     },
     {
+<<<<<<< HEAD
         "merged": "/Users/mac/Blinkling/app/build/intermediates/res/merged/debug/drawable/cast_ic_mini_controller_rewind30.xml",
         "source": "/Users/mac/.android/build-cache/d3ff796d1a0a0be6c348fb13321312629f76eaaf/output/res/drawable/cast_ic_mini_controller_rewind30.xml"
     },
     {
         "merged": "/Users/mac/Downloads/Blinkling/C:\\Users\\Hyemin\\Documents\\Blinkling\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_spinner_textfield_background_material.xml",
         "source": "/Users/mac/Downloads/Blinkling/C:\\Users\\Hyemin\\.android\\build-cache\\6129fd2d3f666eab7401e4b78bea7d27c6653860\\output\\res\\drawable\\abc_spinner_textfield_background_material.xml"
+=======
+        "merged": "/Users/mac/Blinkling/C:\\Users\\mac\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_tab_indicator_material.xml",
+        "source": "/Users/mac/Blinkling/C:\\Users\\mac\\.android\\build-cache\\913d8db17f1c25b6ee67b77b63f40d3096bd505a\\output\\res\\drawable\\abc_tab_indicator_material.xml"
+>>>>>>> mi
     },
     {
-        "merged": "/Users/mac/Downloads/Blinkling/C:\\Users\\Hyemin\\Documents\\Blinkling\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\internet.png",
-        "source": "/Users/mac/Downloads/Blinkling/C:\\Users\\Hyemin\\Documents\\Blinkling\\Blinkling\\app\\src\\main\\res\\drawable\\internet.png"
+        "merged": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bookmark.png",
+        "source": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\app\\src\\main\\res\\drawable\\bookmark.png"
     },
     {
-        "merged": "/Users/mac/Downloads/Blinkling/C:\\Users\\dayeon\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_dark.xml",
-        "source": "/Users/mac/Downloads/Blinkling/C:\\Users\\dayeon\\.android\\build-cache\\08f0b85e835f6a143412367b800bd932d6600384\\output\\res\\drawable\\abc_list_selector_background_transition_holo_dark.xml"
+        "merged": "/Users/mac/Blinkling/C:\\Users\\dy889\\Documents\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_light.xml",
+        "source": "/Users/mac/Blinkling/C:\\Users\\dy889\\.android\\build-cache\\eaa9472fc91e028a5a27b3d20e7a0c3fbad5c383\\output\\res\\drawable\\abc_item_background_holo_light.xml"
+    },
+    {
+        "merged": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\C:\\Users\\Hyemin\\Documents\\Blinkling\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\books.png",
+        "source": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\C:\\Users\\Hyemin\\Documents\\Blinkling\\Blinkling\\app\\src\\main\\res\\drawable\\books.png"
     },
     {
         "merged": "/Users/mac/Blinkling/app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_icon_dark_normal.xml",
@@ -1004,10 +1619,11 @@
         "source": "/Users/mac/.android/build-cache/913d8db17f1c25b6ee67b77b63f40d3096bd505a/output/res/drawable/abc_btn_colored_material.xml"
     },
     {
-        "merged": "/Users/mac/Blinkling/app/build/intermediates/res/merged/debug/drawable/abc_btn_borderless_material.xml",
-        "source": "/Users/mac/.android/build-cache/913d8db17f1c25b6ee67b77b63f40d3096bd505a/output/res/drawable/abc_btn_borderless_material.xml"
+        "merged": "/Users/mac/Blinkling/C:\\Users\\dy889\\Documents\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_small_material.xml",
+        "source": "/Users/mac/Blinkling/C:\\Users\\dy889\\.android\\build-cache\\eaa9472fc91e028a5a27b3d20e7a0c3fbad5c383\\output\\res\\drawable\\abc_ratingbar_small_material.xml"
     },
     {
+<<<<<<< HEAD
         "merged": "/Users/mac/Blinkling/app/build/intermediates/res/merged/debug/drawable/cast_ic_notification_forward.xml",
         "source": "/Users/mac/.android/build-cache/d3ff796d1a0a0be6c348fb13321312629f76eaaf/output/res/drawable/cast_ic_notification_forward.xml"
     },
@@ -1026,14 +1642,26 @@
     {
         "merged": "/Users/mac/Downloads/Blinkling/C:\\Users\\dayeon\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notebook_setting.png",
         "source": "/Users/mac/Downloads/Blinkling/C:\\Users\\dayeon\\Blinkling\\app\\src\\main\\res\\drawable\\notebook_setting.png"
+=======
+        "merged": "/Users/mac/Blinkling/app/build/intermediates/res/merged/debug/drawable/abc_btn_borderless_material.xml",
+        "source": "/Users/mac/.android/build-cache/913d8db17f1c25b6ee67b77b63f40d3096bd505a/output/res/drawable/abc_btn_borderless_material.xml"
+    },
+    {
+        "merged": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\C:\\Users\\Hyemin\\Documents\\Blinkling\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_light.xml",
+        "source": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\C:\\Users\\Hyemin\\.android\\build-cache\\6129fd2d3f666eab7401e4b78bea7d27c6653860\\output\\res\\drawable\\abc_list_selector_background_transition_holo_light.xml"
+>>>>>>> mi
     },
     {
         "merged": "/Users/mac/Blinkling/app/build/intermediates/res/merged/debug/drawable/abc_list_selector_background_transition_holo_dark.xml",
         "source": "/Users/mac/.android/build-cache/913d8db17f1c25b6ee67b77b63f40d3096bd505a/output/res/drawable/abc_list_selector_background_transition_holo_dark.xml"
     },
     {
-        "merged": "/Users/mac/Downloads/Blinkling/app/build/intermediates/res/merged/debug/drawable/gridworld.png",
-        "source": "/Users/mac/Downloads/Blinkling/app/src/main/res/drawable/gridworld.png"
+        "merged": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\C:\\Users\\dayeon\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_dark.xml",
+        "source": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\C:\\Users\\dayeon\\.android\\build-cache\\08f0b85e835f6a143412367b800bd932d6600384\\output\\res\\drawable\\abc_item_background_holo_dark.xml"
+    },
+    {
+        "merged": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\C:\\Users\\Hyemin\\Documents\\Blinkling\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_colored_material.xml",
+        "source": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\C:\\Users\\Hyemin\\.android\\build-cache\\6129fd2d3f666eab7401e4b78bea7d27c6653860\\output\\res\\drawable\\abc_btn_colored_material.xml"
     },
     {
         "merged": "/Users/mac/Blinkling/app/build/intermediates/res/merged/debug/drawable/abc_seekbar_thumb_material.xml",
@@ -1048,66 +1676,85 @@
         "source": "/Users/mac/Blinkling/app/src/main/res/drawable/mainimage.png"
     },
     {
+<<<<<<< HEAD
         "merged": "/Users/mac/Blinkling/app/build/intermediates/res/merged/debug/drawable/cast_ic_notification_rewind10.xml",
         "source": "/Users/mac/.android/build-cache/d3ff796d1a0a0be6c348fb13321312629f76eaaf/output/res/drawable/cast_ic_notification_rewind10.xml"
+=======
+        "merged": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notebook_add.png",
+        "source": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\app\\src\\main\\res\\drawable\\notebook_add.png"
+    },
+    {
+        "merged": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\C:\\Users\\dayeon\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_action_menu.png",
+        "source": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\C:\\Users\\dayeon\\Blinkling\\app\\src\\main\\res\\drawable\\ic_action_menu.png"
+    },
+    {
+        "merged": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_vector_test.xml",
+        "source": "/Users/mac/Blinkling/C:\\Users\\mac\\.android\\build-cache\\913d8db17f1c25b6ee67b77b63f40d3096bd505a\\output\\res\\drawable\\abc_vector_test.xml"
+>>>>>>> mi
     },
     {
         "merged": "/Users/mac/Blinkling/app/build/intermediates/res/merged/debug/drawable/abc_cab_background_top_material.xml",
         "source": "/Users/mac/.android/build-cache/913d8db17f1c25b6ee67b77b63f40d3096bd505a/output/res/drawable/abc_cab_background_top_material.xml"
     },
     {
+<<<<<<< HEAD
         "merged": "/Users/mac/Blinkling/app/build/intermediates/res/merged/debug/drawable/cast_ic_notification_play.xml",
         "source": "/Users/mac/.android/build-cache/d3ff796d1a0a0be6c348fb13321312629f76eaaf/output/res/drawable/cast_ic_notification_play.xml"
     },
     {
         "merged": "/Users/mac/Downloads/Blinkling/C:\\Users\\dayeon\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_top_material.xml",
         "source": "/Users/mac/Downloads/Blinkling/C:\\Users\\dayeon\\.android\\build-cache\\08f0b85e835f6a143412367b800bd932d6600384\\output\\res\\drawable\\abc_cab_background_top_material.xml"
+=======
+        "merged": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\C:\\Users\\dayeon\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_tick_mark_material.xml",
+        "source": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\C:\\Users\\dayeon\\.android\\build-cache\\08f0b85e835f6a143412367b800bd932d6600384\\output\\res\\drawable\\abc_seekbar_tick_mark_material.xml"
+>>>>>>> mi
     },
     {
-        "merged": "/Users/mac/Downloads/Blinkling/C:\\Users\\dayeon\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_light.xml",
-        "source": "/Users/mac/Downloads/Blinkling/C:\\Users\\dayeon\\.android\\build-cache\\08f0b85e835f6a143412367b800bd932d6600384\\output\\res\\drawable\\abc_item_background_holo_light.xml"
+        "merged": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\C:\\Users\\Hyemin\\Documents\\Blinkling\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\design_password_eye.xml",
+        "source": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\C:\\Users\\Hyemin\\.android\\build-cache\\245ad94b3d5bca11ed899deb510616098046a633\\output\\res\\drawable\\design_password_eye.xml"
     },
     {
-        "merged": "/Users/mac/Downloads/Blinkling/C:\\Users\\Hyemin\\Documents\\Blinkling\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\design_bottom_navigation_item_background.xml",
-        "source": "/Users/mac/Downloads/Blinkling/C:\\Users\\Hyemin\\.android\\build-cache\\245ad94b3d5bca11ed899deb510616098046a633\\output\\res\\drawable\\design_bottom_navigation_item_background.xml"
+        "merged": "/Users/mac/Blinkling/C:\\Users\\dy889\\Documents\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\settings.png",
+        "source": "/Users/mac/Blinkling/C:\\Users\\dy889\\Documents\\Blinkling\\app\\src\\main\\res\\drawable\\settings.png"
     },
     {
-        "merged": "/Users/mac/Downloads/Blinkling/app/build/intermediates/res/merged/debug/drawable/abc_seekbar_thumb_material.xml",
-        "source": "/Users/mac/.android/build-cache/913d8db17f1c25b6ee67b77b63f40d3096bd505a/output/res/drawable/abc_seekbar_thumb_material.xml"
+        "merged": "/Users/mac/Blinkling/C:\\Users\\mac\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_ab_back_material.xml",
+        "source": "/Users/mac/Blinkling/C:\\Users\\mac\\.android\\build-cache\\913d8db17f1c25b6ee67b77b63f40d3096bd505a\\output\\res\\drawable\\abc_ic_ab_back_material.xml"
     },
     {
-        "merged": "/Users/mac/Downloads/Blinkling/C:\\Users\\Hyemin\\Documents\\Blinkling\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_light.xml",
-        "source": "/Users/mac/Downloads/Blinkling/C:\\Users\\Hyemin\\.android\\build-cache\\6129fd2d3f666eab7401e4b78bea7d27c6653860\\output\\res\\drawable\\abc_item_background_holo_light.xml"
+        "merged": "/Users/mac/Blinkling/C:\\Users\\mac\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_check_material.xml",
+        "source": "/Users/mac/Blinkling/C:\\Users\\mac\\.android\\build-cache\\913d8db17f1c25b6ee67b77b63f40d3096bd505a\\output\\res\\drawable\\abc_btn_check_material.xml"
     },
     {
-        "merged": "/Users/mac/Downloads/Blinkling/C:\\Users\\Hyemin\\Documents\\Blinkling\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_search_api_material.xml",
-        "source": "/Users/mac/Downloads/Blinkling/C:\\Users\\Hyemin\\.android\\build-cache\\6129fd2d3f666eab7401e4b78bea7d27c6653860\\output\\res\\drawable\\abc_ic_search_api_material.xml"
+        "merged": "/Users/mac/Blinkling/C:\\Users\\dy889\\Documents\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_search_api_material.xml",
+        "source": "/Users/mac/Blinkling/C:\\Users\\dy889\\.android\\build-cache\\eaa9472fc91e028a5a27b3d20e7a0c3fbad5c383\\output\\res\\drawable\\abc_ic_search_api_material.xml"
     },
     {
-        "merged": "/Users/mac/Downloads/Blinkling/app/build/intermediates/res/merged/debug/drawable/notebook_find.png",
-        "source": "/Users/mac/Downloads/Blinkling/app/src/main/res/drawable/notebook_find.png"
+        "merged": "/Users/mac/Blinkling/C:\\Users\\mac\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_top_material.xml",
+        "source": "/Users/mac/Blinkling/C:\\Users\\mac\\.android\\build-cache\\913d8db17f1c25b6ee67b77b63f40d3096bd505a\\output\\res\\drawable\\abc_cab_background_top_material.xml"
     },
     {
-        "merged": "/Users/mac/Downloads/Blinkling/app/build/intermediates/res/merged/debug/drawable/folder.png",
-        "source": "/Users/mac/Downloads/Blinkling/app/src/main/res/drawable/folder.png"
+        "merged": "/Users/mac/Blinkling/C:\\Users\\mac\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\user.png",
+        "source": "/Users/mac/Blinkling/C:\\Users\\mac\\Blinkling\\app\\src\\main\\res\\drawable\\user.png"
     },
     {
-        "merged": "/Users/mac/Downloads/Blinkling/C:\\Users\\dayeon\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_check_material.xml",
-        "source": "/Users/mac/Downloads/Blinkling/C:\\Users\\dayeon\\.android\\build-cache\\08f0b85e835f6a143412367b800bd932d6600384\\output\\res\\drawable\\abc_btn_check_material.xml"
+        "merged": "/Users/mac/Blinkling/C:\\Users\\mac\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_default_mtrl_shape.xml",
+        "source": "/Users/mac/Blinkling/C:\\Users\\mac\\.android\\build-cache\\913d8db17f1c25b6ee67b77b63f40d3096bd505a\\output\\res\\drawable\\abc_btn_default_mtrl_shape.xml"
     },
     {
-        "merged": "/Users/mac/Downloads/Blinkling/C:\\Users\\Hyemin\\Documents\\Blinkling\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\user.png",
-        "source": "/Users/mac/Downloads/Blinkling/C:\\Users\\Hyemin\\Documents\\Blinkling\\Blinkling\\app\\src\\main\\res\\drawable\\user.png"
+        "merged": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\C:\\Users\\Hyemin\\Documents\\Blinkling\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_foodbank.png",
+        "source": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\C:\\Users\\Hyemin\\Documents\\Blinkling\\Blinkling\\app\\src\\main\\res\\drawable\\ic_foodbank.png"
     },
     {
-        "merged": "/Users/mac/Downloads/Blinkling/C:\\Users\\Hyemin\\Documents\\Blinkling\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notebook_setting.png",
-        "source": "/Users/mac/Downloads/Blinkling/C:\\Users\\Hyemin\\Documents\\Blinkling\\Blinkling\\app\\src\\main\\res\\drawable\\notebook_setting.png"
+        "merged": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\C:\\Users\\Hyemin\\Documents\\Blinkling\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\design_snackbar_background.xml",
+        "source": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\C:\\Users\\Hyemin\\.android\\build-cache\\245ad94b3d5bca11ed899deb510616098046a633\\output\\res\\drawable\\design_snackbar_background.xml"
     },
     {
         "merged": "/Users/mac/Blinkling/app/build/intermediates/res/merged/debug/drawable/settings.png",
         "source": "/Users/mac/Blinkling/app/src/main/res/drawable/settings.png"
     },
     {
+<<<<<<< HEAD
         "merged": "/Users/mac/Blinkling/app/build/intermediates/res/merged/debug/drawable/cast_ic_mini_controller_closed_caption.xml",
         "source": "/Users/mac/.android/build-cache/d3ff796d1a0a0be6c348fb13321312629f76eaaf/output/res/drawable/cast_ic_mini_controller_closed_caption.xml"
     },
@@ -1122,88 +1769,107 @@
     {
         "merged": "/Users/mac/Downloads/Blinkling/C:\\Users\\Hyemin\\Documents\\Blinkling\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\back.png",
         "source": "/Users/mac/Downloads/Blinkling/C:\\Users\\Hyemin\\Documents\\Blinkling\\Blinkling\\app\\src\\main\\res\\drawable\\back.png"
+=======
+        "merged": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_icon_background.xml",
+        "source": "/Users/mac/Blinkling/C:\\Users\\mac\\.android\\build-cache\\913d8db17f1c25b6ee67b77b63f40d3096bd505a\\output\\res\\drawable\\notification_icon_background.xml"
     },
     {
-        "merged": "/Users/mac/Downloads/Blinkling/C:\\Users\\dayeon\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_search_api_material.xml",
-        "source": "/Users/mac/Downloads/Blinkling/C:\\Users\\dayeon\\.android\\build-cache\\08f0b85e835f6a143412367b800bd932d6600384\\output\\res\\drawable\\abc_ic_search_api_material.xml"
+        "merged": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\C:\\Users\\dayeon\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_arrow_drop_right_black_24dp.xml",
+        "source": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\C:\\Users\\dayeon\\.android\\build-cache\\08f0b85e835f6a143412367b800bd932d6600384\\output\\res\\drawable\\abc_ic_arrow_drop_right_black_24dp.xml"
+>>>>>>> mi
     },
     {
-        "merged": "/Users/mac/Downloads/Blinkling/C:\\Users\\dayeon\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_voice_search_api_material.xml",
-        "source": "/Users/mac/Downloads/Blinkling/C:\\Users\\dayeon\\.android\\build-cache\\08f0b85e835f6a143412367b800bd932d6600384\\output\\res\\drawable\\abc_ic_voice_search_api_material.xml"
+        "merged": "/Users/mac/Blinkling/C:\\Users\\dy889\\Documents\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\plus.png",
+        "source": "/Users/mac/Blinkling/C:\\Users\\dy889\\Documents\\Blinkling\\app\\src\\main\\res\\drawable\\plus.png"
     },
     {
-        "merged": "/Users/mac/Downloads/Blinkling/C:\\Users\\dayeon\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_colored_material.xml",
-        "source": "/Users/mac/Downloads/Blinkling/C:\\Users\\dayeon\\.android\\build-cache\\08f0b85e835f6a143412367b800bd932d6600384\\output\\res\\drawable\\abc_btn_colored_material.xml"
+        "merged": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\C:\\Users\\dayeon\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\navigation_empty_icon.xml",
+        "source": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\C:\\Users\\dayeon\\.android\\build-cache\\d7955f365574be11571c6d760671cfed3e81f806\\output\\res\\drawable\\navigation_empty_icon.xml"
     },
     {
+        "merged": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\C:\\Users\\dayeon\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_icon_background.xml",
+        "source": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\C:\\Users\\dayeon\\.android\\build-cache\\08f0b85e835f6a143412367b800bd932d6600384\\output\\res\\drawable\\notification_icon_background.xml"
+    },
+    {
+<<<<<<< HEAD
         "merged": "/Users/mac/Blinkling/app/build/intermediates/res/merged/debug/drawable/mr_ic_media_route_mono_light.xml",
         "source": "/Users/mac/.android/build-cache/693066f5460604d04bca0de7d54ae2c516c35b5a/output/res/drawable/mr_ic_media_route_mono_light.xml"
     },
     {
         "merged": "/Users/mac/Downloads/Blinkling/C:\\Users\\Hyemin\\Documents\\Blinkling\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_borderless_material.xml",
         "source": "/Users/mac/Downloads/Blinkling/C:\\Users\\Hyemin\\.android\\build-cache\\6129fd2d3f666eab7401e4b78bea7d27c6653860\\output\\res\\drawable\\abc_btn_borderless_material.xml"
+=======
+        "merged": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\C:\\Users\\Hyemin\\Documents\\Blinkling\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\design_bottom_navigation_item_background.xml",
+        "source": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\C:\\Users\\Hyemin\\.android\\build-cache\\245ad94b3d5bca11ed899deb510616098046a633\\output\\res\\drawable\\design_bottom_navigation_item_background.xml"
+>>>>>>> mi
     },
     {
-        "merged": "/Users/mac/Downloads/Blinkling/app/build/intermediates/res/merged/debug/drawable/notebook_setting.png",
-        "source": "/Users/mac/Downloads/Blinkling/app/src/main/res/drawable/notebook_setting.png"
+        "merged": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_borderless_material.xml",
+        "source": "/Users/mac/Blinkling/C:\\Users\\mac\\.android\\build-cache\\913d8db17f1c25b6ee67b77b63f40d3096bd505a\\output\\res\\drawable\\abc_btn_borderless_material.xml"
     },
     {
-        "merged": "/Users/mac/Downloads/Blinkling/C:\\Users\\Hyemin\\Documents\\Blinkling\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_textfield_search_material.xml",
-        "source": "/Users/mac/Downloads/Blinkling/C:\\Users\\Hyemin\\.android\\build-cache\\6129fd2d3f666eab7401e4b78bea7d27c6653860\\output\\res\\drawable\\abc_textfield_search_material.xml"
+        "merged": "/Users/mac/Blinkling/C:\\Users\\dy889\\Documents\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\worldwide.png",
+        "source": "/Users/mac/Blinkling/C:\\Users\\dy889\\Documents\\Blinkling\\app\\src\\main\\res\\drawable\\worldwide.png"
     },
     {
+<<<<<<< HEAD
         "merged": "/Users/mac/Blinkling/app/build/intermediates/res/merged/debug/drawable/cast_ic_mini_controller_forward30.xml",
         "source": "/Users/mac/.android/build-cache/d3ff796d1a0a0be6c348fb13321312629f76eaaf/output/res/drawable/cast_ic_mini_controller_forward30.xml"
     },
     {
         "merged": "/Users/mac/Downloads/Blinkling/app/build/intermediates/res/merged/debug/drawable/abc_ic_search_api_material.xml",
         "source": "/Users/mac/.android/build-cache/913d8db17f1c25b6ee67b77b63f40d3096bd505a/output/res/drawable/abc_ic_search_api_material.xml"
+=======
+        "merged": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_spinner_textfield_background_material.xml",
+        "source": "/Users/mac/Blinkling/C:\\Users\\mac\\.android\\build-cache\\913d8db17f1c25b6ee67b77b63f40d3096bd505a\\output\\res\\drawable\\abc_spinner_textfield_background_material.xml"
+>>>>>>> mi
     },
     {
-        "merged": "/Users/mac/Downloads/Blinkling/C:\\Users\\Hyemin\\Documents\\Blinkling\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notebook_find.png",
-        "source": "/Users/mac/Downloads/Blinkling/C:\\Users\\Hyemin\\Documents\\Blinkling\\Blinkling\\app\\src\\main\\res\\drawable\\notebook_find.png"
-    },
-    {
-        "merged": "/Users/mac/Downloads/Blinkling/app/build/intermediates/res/merged/debug/drawable/abc_list_selector_holo_dark.xml",
-        "source": "/Users/mac/.android/build-cache/913d8db17f1c25b6ee67b77b63f40d3096bd505a/output/res/drawable/abc_list_selector_holo_dark.xml"
-    },
-    {
-        "merged": "/Users/mac/Downloads/Blinkling/C:\\Users\\Hyemin\\Documents\\Blinkling\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_thumb_material.xml",
-        "source": "/Users/mac/Downloads/Blinkling/C:\\Users\\Hyemin\\.android\\build-cache\\6129fd2d3f666eab7401e4b78bea7d27c6653860\\output\\res\\drawable\\abc_seekbar_thumb_material.xml"
-    },
-    {
-        "merged": "/Users/mac/Downloads/Blinkling/app/build/intermediates/res/merged/debug/drawable/abc_btn_check_material.xml",
-        "source": "/Users/mac/.android/build-cache/913d8db17f1c25b6ee67b77b63f40d3096bd505a/output/res/drawable/abc_btn_check_material.xml"
-    },
-    {
-        "merged": "/Users/mac/Downloads/Blinkling/C:\\Users\\dayeon\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_tile_bg.xml",
-        "source": "/Users/mac/Downloads/Blinkling/C:\\Users\\dayeon\\.android\\build-cache\\08f0b85e835f6a143412367b800bd932d6600384\\output\\res\\drawable\\notification_tile_bg.xml"
-    },
-    {
-        "merged": "/Users/mac/Downloads/Blinkling/C:\\Users\\Hyemin\\Documents\\Blinkling\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_track_material.xml",
-        "source": "/Users/mac/Downloads/Blinkling/C:\\Users\\Hyemin\\.android\\build-cache\\6129fd2d3f666eab7401e4b78bea7d27c6653860\\output\\res\\drawable\\abc_seekbar_track_material.xml"
-    },
-    {
-        "merged": "/Users/mac/Downloads/Blinkling/app/build/intermediates/res/merged/debug/drawable/abc_cab_background_top_material.xml",
-        "source": "/Users/mac/.android/build-cache/913d8db17f1c25b6ee67b77b63f40d3096bd505a/output/res/drawable/abc_cab_background_top_material.xml"
+        "merged": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_go_search_api_material.xml",
+        "source": "/Users/mac/Blinkling/C:\\Users\\mac\\.android\\build-cache\\913d8db17f1c25b6ee67b77b63f40d3096bd505a\\output\\res\\drawable\\abc_ic_go_search_api_material.xml"
     },
     {
         "merged": "/Users/mac/Blinkling/app/build/intermediates/res/merged/debug/drawable/abc_seekbar_track_material.xml",
         "source": "/Users/mac/.android/build-cache/913d8db17f1c25b6ee67b77b63f40d3096bd505a/output/res/drawable/abc_seekbar_track_material.xml"
     },
     {
-        "merged": "/Users/mac/Downloads/Blinkling/C:\\Users\\dayeon\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_indicator_material.xml",
-        "source": "/Users/mac/Downloads/Blinkling/C:\\Users\\dayeon\\.android\\build-cache\\08f0b85e835f6a143412367b800bd932d6600384\\output\\res\\drawable\\abc_ratingbar_indicator_material.xml"
+        "merged": "/Users/mac/Blinkling/C:\\Users\\mac\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\back.png",
+        "source": "/Users/mac/Blinkling/C:\\Users\\mac\\Blinkling\\app\\src\\main\\res\\drawable\\back.png"
     },
     {
-        "merged": "/Users/mac/Downloads/Blinkling/C:\\Users\\Hyemin\\Documents\\Blinkling\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bookmarkstar.png",
-        "source": "/Users/mac/Downloads/Blinkling/C:\\Users\\Hyemin\\Documents\\Blinkling\\Blinkling\\app\\src\\main\\res\\drawable\\bookmarkstar.png"
+        "merged": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\C:\\Users\\Hyemin\\Documents\\Blinkling\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\gridworld.png",
+        "source": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\C:\\Users\\Hyemin\\Documents\\Blinkling\\Blinkling\\app\\src\\main\\res\\drawable\\gridworld.png"
     },
     {
-        "merged": "/Users/mac/Downloads/Blinkling/C:\\Users\\Hyemin\\Documents\\Blinkling\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\mainimage.png",
-        "source": "/Users/mac/Downloads/Blinkling/C:\\Users\\Hyemin\\Documents\\Blinkling\\Blinkling\\app\\src\\main\\res\\drawable\\mainimage.png"
+        "merged": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\C:\\Users\\Hyemin\\Documents\\Blinkling\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bookmarkstar.png",
+        "source": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\C:\\Users\\Hyemin\\Documents\\Blinkling\\Blinkling\\app\\src\\main\\res\\drawable\\bookmarkstar.png"
     },
     {
+        "merged": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\C:\\Users\\dayeon\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_voice_search_api_material.xml",
+        "source": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\C:\\Users\\dayeon\\.android\\build-cache\\08f0b85e835f6a143412367b800bd932d6600384\\output\\res\\drawable\\abc_ic_voice_search_api_material.xml"
+    },
+    {
+        "merged": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\C:\\Users\\Hyemin\\Documents\\Blinkling\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_spinner_textfield_background_material.xml",
+        "source": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\C:\\Users\\Hyemin\\.android\\build-cache\\6129fd2d3f666eab7401e4b78bea7d27c6653860\\output\\res\\drawable\\abc_spinner_textfield_background_material.xml"
+    },
+    {
+        "merged": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_light.xml",
+        "source": "/Users/mac/Blinkling/C:\\Users\\mac\\.android\\build-cache\\913d8db17f1c25b6ee67b77b63f40d3096bd505a\\output\\res\\drawable\\abc_item_background_holo_light.xml"
+    },
+    {
+        "merged": "/Users/mac/Blinkling/C:\\Users\\mac\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_arrow_drop_right_black_24dp.xml",
+        "source": "/Users/mac/Blinkling/C:\\Users\\mac\\.android\\build-cache\\913d8db17f1c25b6ee67b77b63f40d3096bd505a\\output\\res\\drawable\\abc_ic_arrow_drop_right_black_24dp.xml"
+    },
+    {
+        "merged": "/Users/mac/Blinkling/C:\\Users\\mac\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_vector_test.xml",
+        "source": "/Users/mac/Blinkling/C:\\Users\\mac\\.android\\build-cache\\913d8db17f1c25b6ee67b77b63f40d3096bd505a\\output\\res\\drawable\\abc_vector_test.xml"
+    },
+    {
+        "merged": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\C:\\Users\\Hyemin\\Documents\\Blinkling\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\settings.png",
+        "source": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\C:\\Users\\Hyemin\\Documents\\Blinkling\\Blinkling\\app\\src\\main\\res\\drawable\\settings.png"
+    },
+    {
+<<<<<<< HEAD
         "merged": "/Users/mac/Blinkling/app/build/intermediates/res/merged/debug/drawable/cast_ic_notification_rewind30.xml",
         "source": "/Users/mac/.android/build-cache/d3ff796d1a0a0be6c348fb13321312629f76eaaf/output/res/drawable/cast_ic_notification_rewind30.xml"
     },
@@ -1214,16 +1880,29 @@
     {
         "merged": "/Users/mac/Downloads/Blinkling/C:\\Users\\dayeon\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_thumb_material.xml",
         "source": "/Users/mac/Downloads/Blinkling/C:\\Users\\dayeon\\.android\\build-cache\\08f0b85e835f6a143412367b800bd932d6600384\\output\\res\\drawable\\abc_seekbar_thumb_material.xml"
+=======
+        "merged": "/Users/mac/Blinkling/C:\\Users\\mac\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_bg_low.xml",
+        "source": "/Users/mac/Blinkling/C:\\Users\\mac\\.android\\build-cache\\913d8db17f1c25b6ee67b77b63f40d3096bd505a\\output\\res\\drawable\\notification_bg_low.xml"
+>>>>>>> mi
     },
     {
-        "merged": "/Users/mac/Downloads/Blinkling/app/build/intermediates/res/merged/debug/drawable/abc_seekbar_track_material.xml",
-        "source": "/Users/mac/.android/build-cache/913d8db17f1c25b6ee67b77b63f40d3096bd505a/output/res/drawable/abc_seekbar_track_material.xml"
+        "merged": "/Users/mac/Blinkling/C:\\Users\\dy889\\Documents\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_track_material.xml",
+        "source": "/Users/mac/Blinkling/C:\\Users\\dy889\\.android\\build-cache\\eaa9472fc91e028a5a27b3d20e7a0c3fbad5c383\\output\\res\\drawable\\abc_seekbar_track_material.xml"
+    },
+    {
+        "merged": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\C:\\Users\\dayeon\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\mainimage.png",
+        "source": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\C:\\Users\\dayeon\\Blinkling\\app\\src\\main\\res\\drawable\\mainimage.png"
+    },
+    {
+        "merged": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\C:\\Users\\dayeon\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_borderless_material.xml",
+        "source": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\C:\\Users\\dayeon\\.android\\build-cache\\08f0b85e835f6a143412367b800bd932d6600384\\output\\res\\drawable\\abc_btn_borderless_material.xml"
     },
     {
         "merged": "/Users/mac/Blinkling/app/build/intermediates/res/merged/debug/drawable/abc_edit_text_material.xml",
         "source": "/Users/mac/.android/build-cache/913d8db17f1c25b6ee67b77b63f40d3096bd505a/output/res/drawable/abc_edit_text_material.xml"
     },
     {
+<<<<<<< HEAD
         "merged": "/Users/mac/Blinkling/app/build/intermediates/res/merged/debug/drawable/cast_expanded_controller_actionbar_bg_gradient_light.xml",
         "source": "/Users/mac/.android/build-cache/d3ff796d1a0a0be6c348fb13321312629f76eaaf/output/res/drawable/cast_expanded_controller_actionbar_bg_gradient_light.xml"
     },
@@ -1238,17 +1917,30 @@
     {
         "merged": "/Users/mac/Downloads/Blinkling/C:\\Users\\Hyemin\\Documents\\Blinkling\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_ab_back_material.xml",
         "source": "/Users/mac/Downloads/Blinkling/C:\\Users\\Hyemin\\.android\\build-cache\\6129fd2d3f666eab7401e4b78bea7d27c6653860\\output\\res\\drawable\\abc_ic_ab_back_material.xml"
+=======
+        "merged": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_clear_material.xml",
+        "source": "/Users/mac/Blinkling/C:\\Users\\mac\\.android\\build-cache\\913d8db17f1c25b6ee67b77b63f40d3096bd505a\\output\\res\\drawable\\abc_ic_clear_material.xml"
     },
     {
-        "merged": "/Users/mac/Downloads/Blinkling/C:\\Users\\Hyemin\\Documents\\Blinkling\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_top_material.xml",
-        "source": "/Users/mac/Downloads/Blinkling/C:\\Users\\Hyemin\\.android\\build-cache\\6129fd2d3f666eab7401e4b78bea7d27c6653860\\output\\res\\drawable\\abc_cab_background_top_material.xml"
+        "merged": "/Users/mac/Blinkling/C:\\Users\\dy889\\Documents\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_radio_material.xml",
+        "source": "/Users/mac/Blinkling/C:\\Users\\dy889\\.android\\build-cache\\eaa9472fc91e028a5a27b3d20e7a0c3fbad5c383\\output\\res\\drawable\\abc_btn_radio_material.xml"
+>>>>>>> mi
+    },
+    {
+        "merged": "/Users/mac/Blinkling/app/build/intermediates/res/merged/debug/drawable/navigation_empty_icon.xml",
+        "source": "/Users/mac/.android/build-cache/2357a626681079792d0b0f8329e66fe5b38ee637/output/res/drawable/navigation_empty_icon.xml"
     },
     {
         "merged": "/Users/mac/Blinkling/app/build/intermediates/res/merged/debug/drawable/abc_ic_arrow_drop_right_black_24dp.xml",
         "source": "/Users/mac/.android/build-cache/913d8db17f1c25b6ee67b77b63f40d3096bd505a/output/res/drawable/abc_ic_arrow_drop_right_black_24dp.xml"
     },
     {
+<<<<<<< HEAD
         "merged": "/Users/mac/Blinkling/app/build/intermediates/res/merged/debug/drawable/cast_ic_mini_controller_pause.xml",
         "source": "/Users/mac/.android/build-cache/d3ff796d1a0a0be6c348fb13321312629f76eaaf/output/res/drawable/cast_ic_mini_controller_pause.xml"
+=======
+        "merged": "/Users/mac/Blinkling/C:\\Users\\dy889\\Documents\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_material.xml",
+        "source": "/Users/mac/Blinkling/C:\\Users\\dy889\\.android\\build-cache\\eaa9472fc91e028a5a27b3d20e7a0c3fbad5c383\\output\\res\\drawable\\abc_ratingbar_material.xml"
+>>>>>>> mi
     }
 ]

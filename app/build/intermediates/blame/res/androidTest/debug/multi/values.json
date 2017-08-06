@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "/Users/mac/Downloads/Blinkling/C:\\Users\\Hyemin\\Documents\\Blinkling\\Blinkling\\app\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values\\values.xml",
+        "outputFile": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\app\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values\\values.xml",
         "map": [
             {
                 "to": {
@@ -11,7 +11,7 @@
                     "endOffset": 96
                 },
                 "from": {
-                    "file": "/Users/mac/Downloads/Blinkling/C:\\Users\\Hyemin\\.android\\build-cache\\e67c5812ab169f6fec8d503e9fcb61761d28f7e0\\output\\res\\values\\values.xml",
+                    "file": "/Users/mac/Blinkling/C:\\Users\\mac\\.android\\build-cache\\fb879d0e8cfd0493e65433fd2d8fd343dd2b9df7\\output\\res\\values\\values.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
@@ -24,7 +24,7 @@
         ]
     },
     {
-        "outputFile": "/Users/mac/Downloads/Blinkling/app/build/intermediates/incremental/mergeDebugAndroidTestResources/merged.dir/values/values.xml",
+        "outputFile": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\C:\\Users\\dayeon\\Blinkling\\app\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values\\values.xml",
         "map": [
             {
                 "to": {
@@ -35,7 +35,7 @@
                     "endOffset": 96
                 },
                 "from": {
-                    "file": "/Users/mac/.android/build-cache/fb879d0e8cfd0493e65433fd2d8fd343dd2b9df7/output/res/values/values.xml",
+                    "file": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\C:\\Users\\dayeon\\.android\\build-cache\\fca25321bd27aa2c751d0b8ce17965246c36ce8d\\output\\res\\values\\values.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
@@ -48,7 +48,7 @@
         ]
     },
     {
-        "outputFile": "/Users/mac/Downloads/Blinkling/C:\\Users\\dayeon\\Blinkling\\app\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values\\values.xml",
+        "outputFile": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\C:\\Users\\Hyemin\\Documents\\Blinkling\\Blinkling\\app\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values\\values.xml",
         "map": [
             {
                 "to": {
@@ -59,7 +59,55 @@
                     "endOffset": 96
                 },
                 "from": {
-                    "file": "/Users/mac/Downloads/Blinkling/C:\\Users\\dayeon\\.android\\build-cache\\fca25321bd27aa2c751d0b8ce17965246c36ce8d\\output\\res\\values\\values.xml",
+                    "file": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\C:\\Users\\Hyemin\\.android\\build-cache\\e67c5812ab169f6fec8d503e9fcb61761d28f7e0\\output\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 229,
+                        "endColumn": 45,
+                        "endOffset": 270
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "outputFile": "/Users/mac/Blinkling/C:\\Users\\dy889\\Documents\\Blinkling\\app\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values\\values.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 45,
+                    "endOffset": 96
+                },
+                "from": {
+                    "file": "/Users/mac/Blinkling/C:\\Users\\dy889\\.android\\build-cache\\b4c13443c42c10645dbf9ce0bb5268bb72d9bd01\\output\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 229,
+                        "endColumn": 45,
+                        "endOffset": 270
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "outputFile": "/Users/mac/Blinkling/C:\\Users\\mac\\Blinkling\\app\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values\\values.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 45,
+                    "endOffset": 96
+                },
+                "from": {
+                    "file": "/Users/mac/Blinkling/C:\\Users\\mac\\.android\\build-cache\\fb879d0e8cfd0493e65433fd2d8fd343dd2b9df7\\output\\res\\values\\values.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
