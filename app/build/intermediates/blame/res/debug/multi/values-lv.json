@@ -2019,7 +2019,7 @@
         ]
     },
     {
-        "outputFile": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\C:\\Users\\Hyemin\\Documents\\Blinkling\\Blinkling\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-lv\\values-lv.xml",
+        "outputFile": "/Users/mac/Downloads/Blinkling/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-lv/values-lv.xml",
         "map": [
             {
                 "to": {
@@ -2030,7 +2030,7 @@
                     "endOffset": 170
                 },
                 "from": {
-                    "file": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\C:\\Users\\Hyemin\\.android\\build-cache\\6129fd2d3f666eab7401e4b78bea7d27c6653860\\output\\res\\values-lv\\values-lv.xml",
+                    "file": "/Users/mac/.android/build-cache/913d8db17f1c25b6ee67b77b63f40d3096bd505a/output/res/values-lv/values-lv.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,
@@ -2049,7 +2049,7 @@
                     "endOffset": 278
                 },
                 "from": {
-                    "file": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\C:\\Users\\Hyemin\\.android\\build-cache\\6129fd2d3f666eab7401e4b78bea7d27c6653860\\output\\res\\values-lv\\values-lv.xml",
+                    "file": "/Users/mac/.android/build-cache/913d8db17f1c25b6ee67b77b63f40d3096bd505a/output/res/values-lv/values-lv.xml",
                     "position": {
                         "startLine": 3,
                         "startColumn": 4,
@@ -2068,7 +2068,7 @@
                     "endOffset": 401
                 },
                 "from": {
-                    "file": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\C:\\Users\\Hyemin\\.android\\build-cache\\6129fd2d3f666eab7401e4b78bea7d27c6653860\\output\\res\\values-lv\\values-lv.xml",
+                    "file": "/Users/mac/.android/build-cache/913d8db17f1c25b6ee67b77b63f40d3096bd505a/output/res/values-lv/values-lv.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
@@ -2087,7 +2087,7 @@
                     "endOffset": 509
                 },
                 "from": {
-                    "file": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\C:\\Users\\Hyemin\\.android\\build-cache\\6129fd2d3f666eab7401e4b78bea7d27c6653860\\output\\res\\values-lv\\values-lv.xml",
+                    "file": "/Users/mac/.android/build-cache/913d8db17f1c25b6ee67b77b63f40d3096bd505a/output/res/values-lv/values-lv.xml",
                     "position": {
                         "startLine": 5,
                         "startColumn": 4,
@@ -2106,7 +2106,7 @@
                     "endOffset": 618
                 },
                 "from": {
-                    "file": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\C:\\Users\\Hyemin\\.android\\build-cache\\6129fd2d3f666eab7401e4b78bea7d27c6653860\\output\\res\\values-lv\\values-lv.xml",
+                    "file": "/Users/mac/.android/build-cache/913d8db17f1c25b6ee67b77b63f40d3096bd505a/output/res/values-lv/values-lv.xml",
                     "position": {
                         "startLine": 6,
                         "startColumn": 4,
@@ -2125,7 +2125,7 @@
                     "endOffset": 704
                 },
                 "from": {
-                    "file": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\C:\\Users\\Hyemin\\.android\\build-cache\\6129fd2d3f666eab7401e4b78bea7d27c6653860\\output\\res\\values-lv\\values-lv.xml",
+                    "file": "/Users/mac/.android/build-cache/913d8db17f1c25b6ee67b77b63f40d3096bd505a/output/res/values-lv/values-lv.xml",
                     "position": {
                         "startLine": 7,
                         "startColumn": 4,
@@ -2144,7 +2144,7 @@
                     "endOffset": 808
                 },
                 "from": {
-                    "file": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\C:\\Users\\Hyemin\\.android\\build-cache\\6129fd2d3f666eab7401e4b78bea7d27c6653860\\output\\res\\values-lv\\values-lv.xml",
+                    "file": "/Users/mac/.android/build-cache/913d8db17f1c25b6ee67b77b63f40d3096bd505a/output/res/values-lv/values-lv.xml",
                     "position": {
                         "startLine": 8,
                         "startColumn": 4,
@@ -2163,7 +2163,7 @@
                     "endOffset": 930
                 },
                 "from": {
-                    "file": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\C:\\Users\\Hyemin\\.android\\build-cache\\6129fd2d3f666eab7401e4b78bea7d27c6653860\\output\\res\\values-lv\\values-lv.xml",
+                    "file": "/Users/mac/.android/build-cache/913d8db17f1c25b6ee67b77b63f40d3096bd505a/output/res/values-lv/values-lv.xml",
                     "position": {
                         "startLine": 9,
                         "startColumn": 4,
@@ -2182,7 +2182,7 @@
                     "endOffset": 1012
                 },
                 "from": {
-                    "file": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\C:\\Users\\Hyemin\\.android\\build-cache\\6129fd2d3f666eab7401e4b78bea7d27c6653860\\output\\res\\values-lv\\values-lv.xml",
+                    "file": "/Users/mac/.android/build-cache/913d8db17f1c25b6ee67b77b63f40d3096bd505a/output/res/values-lv/values-lv.xml",
                     "position": {
                         "startLine": 10,
                         "startColumn": 4,
@@ -2201,7 +2201,7 @@
                     "endOffset": 1094
                 },
                 "from": {
-                    "file": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\C:\\Users\\Hyemin\\.android\\build-cache\\6129fd2d3f666eab7401e4b78bea7d27c6653860\\output\\res\\values-lv\\values-lv.xml",
+                    "file": "/Users/mac/.android/build-cache/913d8db17f1c25b6ee67b77b63f40d3096bd505a/output/res/values-lv/values-lv.xml",
                     "position": {
                         "startLine": 11,
                         "startColumn": 4,
@@ -2220,7 +2220,7 @@
                     "endOffset": 1179
                 },
                 "from": {
-                    "file": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\C:\\Users\\Hyemin\\.android\\build-cache\\6129fd2d3f666eab7401e4b78bea7d27c6653860\\output\\res\\values-lv\\values-lv.xml",
+                    "file": "/Users/mac/.android/build-cache/913d8db17f1c25b6ee67b77b63f40d3096bd505a/output/res/values-lv/values-lv.xml",
                     "position": {
                         "startLine": 12,
                         "startColumn": 4,
@@ -2239,7 +2239,7 @@
                     "endOffset": 1288
                 },
                 "from": {
-                    "file": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\C:\\Users\\Hyemin\\.android\\build-cache\\6129fd2d3f666eab7401e4b78bea7d27c6653860\\output\\res\\values-lv\\values-lv.xml",
+                    "file": "/Users/mac/.android/build-cache/913d8db17f1c25b6ee67b77b63f40d3096bd505a/output/res/values-lv/values-lv.xml",
                     "position": {
                         "startLine": 13,
                         "startColumn": 4,
@@ -2258,7 +2258,7 @@
                     "endOffset": 1400
                 },
                 "from": {
-                    "file": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\C:\\Users\\Hyemin\\.android\\build-cache\\6129fd2d3f666eab7401e4b78bea7d27c6653860\\output\\res\\values-lv\\values-lv.xml",
+                    "file": "/Users/mac/.android/build-cache/913d8db17f1c25b6ee67b77b63f40d3096bd505a/output/res/values-lv/values-lv.xml",
                     "position": {
                         "startLine": 14,
                         "startColumn": 4,
@@ -2277,7 +2277,7 @@
                     "endOffset": 1499
                 },
                 "from": {
-                    "file": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\C:\\Users\\Hyemin\\.android\\build-cache\\6129fd2d3f666eab7401e4b78bea7d27c6653860\\output\\res\\values-lv\\values-lv.xml",
+                    "file": "/Users/mac/.android/build-cache/913d8db17f1c25b6ee67b77b63f40d3096bd505a/output/res/values-lv/values-lv.xml",
                     "position": {
                         "startLine": 15,
                         "startColumn": 4,
@@ -2296,7 +2296,7 @@
                     "endOffset": 1610
                 },
                 "from": {
-                    "file": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\C:\\Users\\Hyemin\\.android\\build-cache\\6129fd2d3f666eab7401e4b78bea7d27c6653860\\output\\res\\values-lv\\values-lv.xml",
+                    "file": "/Users/mac/.android/build-cache/913d8db17f1c25b6ee67b77b63f40d3096bd505a/output/res/values-lv/values-lv.xml",
                     "position": {
                         "startLine": 16,
                         "startColumn": 4,
@@ -2315,7 +2315,7 @@
                     "endOffset": 1719
                 },
                 "from": {
-                    "file": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\C:\\Users\\Hyemin\\.android\\build-cache\\6129fd2d3f666eab7401e4b78bea7d27c6653860\\output\\res\\values-lv\\values-lv.xml",
+                    "file": "/Users/mac/.android/build-cache/913d8db17f1c25b6ee67b77b63f40d3096bd505a/output/res/values-lv/values-lv.xml",
                     "position": {
                         "startLine": 17,
                         "startColumn": 4,
@@ -2334,7 +2334,7 @@
                     "endOffset": 1824
                 },
                 "from": {
-                    "file": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\C:\\Users\\Hyemin\\.android\\build-cache\\6129fd2d3f666eab7401e4b78bea7d27c6653860\\output\\res\\values-lv\\values-lv.xml",
+                    "file": "/Users/mac/.android/build-cache/913d8db17f1c25b6ee67b77b63f40d3096bd505a/output/res/values-lv/values-lv.xml",
                     "position": {
                         "startLine": 18,
                         "startColumn": 4,
@@ -2353,7 +2353,7 @@
                     "endOffset": 1943
                 },
                 "from": {
-                    "file": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\C:\\Users\\Hyemin\\.android\\build-cache\\6129fd2d3f666eab7401e4b78bea7d27c6653860\\output\\res\\values-lv\\values-lv.xml",
+                    "file": "/Users/mac/.android/build-cache/913d8db17f1c25b6ee67b77b63f40d3096bd505a/output/res/values-lv/values-lv.xml",
                     "position": {
                         "startLine": 19,
                         "startColumn": 4,
@@ -2372,7 +2372,7 @@
                     "endOffset": 2042
                 },
                 "from": {
-                    "file": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\C:\\Users\\Hyemin\\.android\\build-cache\\6129fd2d3f666eab7401e4b78bea7d27c6653860\\output\\res\\values-lv\\values-lv.xml",
+                    "file": "/Users/mac/.android/build-cache/913d8db17f1c25b6ee67b77b63f40d3096bd505a/output/res/values-lv/values-lv.xml",
                     "position": {
                         "startLine": 20,
                         "startColumn": 4,
@@ -2391,7 +2391,7 @@
                     "endOffset": 2124
                 },
                 "from": {
-                    "file": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\C:\\Users\\Hyemin\\.android\\build-cache\\6129fd2d3f666eab7401e4b78bea7d27c6653860\\output\\res\\values-lv\\values-lv.xml",
+                    "file": "/Users/mac/.android/build-cache/913d8db17f1c25b6ee67b77b63f40d3096bd505a/output/res/values-lv/values-lv.xml",
                     "position": {
                         "startLine": 21,
                         "startColumn": 4,
@@ -2410,7 +2410,7 @@
                     "endOffset": 2225
                 },
                 "from": {
-                    "file": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\C:\\Users\\Hyemin\\.android\\build-cache\\6129fd2d3f666eab7401e4b78bea7d27c6653860\\output\\res\\values-lv\\values-lv.xml",
+                    "file": "/Users/mac/.android/build-cache/913d8db17f1c25b6ee67b77b63f40d3096bd505a/output/res/values-lv/values-lv.xml",
                     "position": {
                         "startLine": 22,
                         "startColumn": 4,
@@ -2423,7 +2423,7 @@
         ]
     },
     {
-        "outputFile": "/Users/mac/Blinkling/C:\\Users\\dy889\\Documents\\Blinkling\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-lv\\values-lv.xml",
+        "outputFile": "/Users/mac/Downloads/Blinkling/C:\\Users\\Hyemin\\Documents\\Blinkling\\Blinkling\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-lv\\values-lv.xml",
         "map": [
             {
                 "to": {
@@ -2434,7 +2434,7 @@
                     "endOffset": 170
                 },
                 "from": {
-                    "file": "/Users/mac/Blinkling/C:\\Users\\dy889\\.android\\build-cache\\eaa9472fc91e028a5a27b3d20e7a0c3fbad5c383\\output\\res\\values-lv\\values-lv.xml",
+                    "file": "/Users/mac/Downloads/Blinkling/C:\\Users\\Hyemin\\.android\\build-cache\\6129fd2d3f666eab7401e4b78bea7d27c6653860\\output\\res\\values-lv\\values-lv.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,
@@ -2453,7 +2453,7 @@
                     "endOffset": 278
                 },
                 "from": {
-                    "file": "/Users/mac/Blinkling/C:\\Users\\dy889\\.android\\build-cache\\eaa9472fc91e028a5a27b3d20e7a0c3fbad5c383\\output\\res\\values-lv\\values-lv.xml",
+                    "file": "/Users/mac/Downloads/Blinkling/C:\\Users\\Hyemin\\.android\\build-cache\\6129fd2d3f666eab7401e4b78bea7d27c6653860\\output\\res\\values-lv\\values-lv.xml",
                     "position": {
                         "startLine": 3,
                         "startColumn": 4,
@@ -2472,7 +2472,7 @@
                     "endOffset": 401
                 },
                 "from": {
-                    "file": "/Users/mac/Blinkling/C:\\Users\\dy889\\.android\\build-cache\\eaa9472fc91e028a5a27b3d20e7a0c3fbad5c383\\output\\res\\values-lv\\values-lv.xml",
+                    "file": "/Users/mac/Downloads/Blinkling/C:\\Users\\Hyemin\\.android\\build-cache\\6129fd2d3f666eab7401e4b78bea7d27c6653860\\output\\res\\values-lv\\values-lv.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
@@ -2491,7 +2491,7 @@
                     "endOffset": 509
                 },
                 "from": {
-                    "file": "/Users/mac/Blinkling/C:\\Users\\dy889\\.android\\build-cache\\eaa9472fc91e028a5a27b3d20e7a0c3fbad5c383\\output\\res\\values-lv\\values-lv.xml",
+                    "file": "/Users/mac/Downloads/Blinkling/C:\\Users\\Hyemin\\.android\\build-cache\\6129fd2d3f666eab7401e4b78bea7d27c6653860\\output\\res\\values-lv\\values-lv.xml",
                     "position": {
                         "startLine": 5,
                         "startColumn": 4,
@@ -2510,7 +2510,7 @@
                     "endOffset": 618
                 },
                 "from": {
-                    "file": "/Users/mac/Blinkling/C:\\Users\\dy889\\.android\\build-cache\\eaa9472fc91e028a5a27b3d20e7a0c3fbad5c383\\output\\res\\values-lv\\values-lv.xml",
+                    "file": "/Users/mac/Downloads/Blinkling/C:\\Users\\Hyemin\\.android\\build-cache\\6129fd2d3f666eab7401e4b78bea7d27c6653860\\output\\res\\values-lv\\values-lv.xml",
                     "position": {
                         "startLine": 6,
                         "startColumn": 4,
@@ -2529,7 +2529,7 @@
                     "endOffset": 704
                 },
                 "from": {
-                    "file": "/Users/mac/Blinkling/C:\\Users\\dy889\\.android\\build-cache\\eaa9472fc91e028a5a27b3d20e7a0c3fbad5c383\\output\\res\\values-lv\\values-lv.xml",
+                    "file": "/Users/mac/Downloads/Blinkling/C:\\Users\\Hyemin\\.android\\build-cache\\6129fd2d3f666eab7401e4b78bea7d27c6653860\\output\\res\\values-lv\\values-lv.xml",
                     "position": {
                         "startLine": 7,
                         "startColumn": 4,
@@ -2548,7 +2548,7 @@
                     "endOffset": 808
                 },
                 "from": {
-                    "file": "/Users/mac/Blinkling/C:\\Users\\dy889\\.android\\build-cache\\eaa9472fc91e028a5a27b3d20e7a0c3fbad5c383\\output\\res\\values-lv\\values-lv.xml",
+                    "file": "/Users/mac/Downloads/Blinkling/C:\\Users\\Hyemin\\.android\\build-cache\\6129fd2d3f666eab7401e4b78bea7d27c6653860\\output\\res\\values-lv\\values-lv.xml",
                     "position": {
                         "startLine": 8,
                         "startColumn": 4,
@@ -2567,7 +2567,7 @@
                     "endOffset": 930
                 },
                 "from": {
-                    "file": "/Users/mac/Blinkling/C:\\Users\\dy889\\.android\\build-cache\\eaa9472fc91e028a5a27b3d20e7a0c3fbad5c383\\output\\res\\values-lv\\values-lv.xml",
+                    "file": "/Users/mac/Downloads/Blinkling/C:\\Users\\Hyemin\\.android\\build-cache\\6129fd2d3f666eab7401e4b78bea7d27c6653860\\output\\res\\values-lv\\values-lv.xml",
                     "position": {
                         "startLine": 9,
                         "startColumn": 4,
@@ -2586,7 +2586,7 @@
                     "endOffset": 1012
                 },
                 "from": {
-                    "file": "/Users/mac/Blinkling/C:\\Users\\dy889\\.android\\build-cache\\eaa9472fc91e028a5a27b3d20e7a0c3fbad5c383\\output\\res\\values-lv\\values-lv.xml",
+                    "file": "/Users/mac/Downloads/Blinkling/C:\\Users\\Hyemin\\.android\\build-cache\\6129fd2d3f666eab7401e4b78bea7d27c6653860\\output\\res\\values-lv\\values-lv.xml",
                     "position": {
                         "startLine": 10,
                         "startColumn": 4,
@@ -2605,7 +2605,7 @@
                     "endOffset": 1094
                 },
                 "from": {
-                    "file": "/Users/mac/Blinkling/C:\\Users\\dy889\\.android\\build-cache\\eaa9472fc91e028a5a27b3d20e7a0c3fbad5c383\\output\\res\\values-lv\\values-lv.xml",
+                    "file": "/Users/mac/Downloads/Blinkling/C:\\Users\\Hyemin\\.android\\build-cache\\6129fd2d3f666eab7401e4b78bea7d27c6653860\\output\\res\\values-lv\\values-lv.xml",
                     "position": {
                         "startLine": 11,
                         "startColumn": 4,
@@ -2624,7 +2624,7 @@
                     "endOffset": 1179
                 },
                 "from": {
-                    "file": "/Users/mac/Blinkling/C:\\Users\\dy889\\.android\\build-cache\\eaa9472fc91e028a5a27b3d20e7a0c3fbad5c383\\output\\res\\values-lv\\values-lv.xml",
+                    "file": "/Users/mac/Downloads/Blinkling/C:\\Users\\Hyemin\\.android\\build-cache\\6129fd2d3f666eab7401e4b78bea7d27c6653860\\output\\res\\values-lv\\values-lv.xml",
                     "position": {
                         "startLine": 12,
                         "startColumn": 4,
@@ -2643,7 +2643,7 @@
                     "endOffset": 1288
                 },
                 "from": {
-                    "file": "/Users/mac/Blinkling/C:\\Users\\dy889\\.android\\build-cache\\eaa9472fc91e028a5a27b3d20e7a0c3fbad5c383\\output\\res\\values-lv\\values-lv.xml",
+                    "file": "/Users/mac/Downloads/Blinkling/C:\\Users\\Hyemin\\.android\\build-cache\\6129fd2d3f666eab7401e4b78bea7d27c6653860\\output\\res\\values-lv\\values-lv.xml",
                     "position": {
                         "startLine": 13,
                         "startColumn": 4,
@@ -2662,7 +2662,7 @@
                     "endOffset": 1400
                 },
                 "from": {
-                    "file": "/Users/mac/Blinkling/C:\\Users\\dy889\\.android\\build-cache\\eaa9472fc91e028a5a27b3d20e7a0c3fbad5c383\\output\\res\\values-lv\\values-lv.xml",
+                    "file": "/Users/mac/Downloads/Blinkling/C:\\Users\\Hyemin\\.android\\build-cache\\6129fd2d3f666eab7401e4b78bea7d27c6653860\\output\\res\\values-lv\\values-lv.xml",
                     "position": {
                         "startLine": 14,
                         "startColumn": 4,
@@ -2681,7 +2681,7 @@
                     "endOffset": 1499
                 },
                 "from": {
-                    "file": "/Users/mac/Blinkling/C:\\Users\\dy889\\.android\\build-cache\\eaa9472fc91e028a5a27b3d20e7a0c3fbad5c383\\output\\res\\values-lv\\values-lv.xml",
+                    "file": "/Users/mac/Downloads/Blinkling/C:\\Users\\Hyemin\\.android\\build-cache\\6129fd2d3f666eab7401e4b78bea7d27c6653860\\output\\res\\values-lv\\values-lv.xml",
                     "position": {
                         "startLine": 15,
                         "startColumn": 4,
@@ -2700,7 +2700,7 @@
                     "endOffset": 1610
                 },
                 "from": {
-                    "file": "/Users/mac/Blinkling/C:\\Users\\dy889\\.android\\build-cache\\eaa9472fc91e028a5a27b3d20e7a0c3fbad5c383\\output\\res\\values-lv\\values-lv.xml",
+                    "file": "/Users/mac/Downloads/Blinkling/C:\\Users\\Hyemin\\.android\\build-cache\\6129fd2d3f666eab7401e4b78bea7d27c6653860\\output\\res\\values-lv\\values-lv.xml",
                     "position": {
                         "startLine": 16,
                         "startColumn": 4,
@@ -2719,7 +2719,7 @@
                     "endOffset": 1719
                 },
                 "from": {
-                    "file": "/Users/mac/Blinkling/C:\\Users\\dy889\\.android\\build-cache\\eaa9472fc91e028a5a27b3d20e7a0c3fbad5c383\\output\\res\\values-lv\\values-lv.xml",
+                    "file": "/Users/mac/Downloads/Blinkling/C:\\Users\\Hyemin\\.android\\build-cache\\6129fd2d3f666eab7401e4b78bea7d27c6653860\\output\\res\\values-lv\\values-lv.xml",
                     "position": {
                         "startLine": 17,
                         "startColumn": 4,
@@ -2738,7 +2738,7 @@
                     "endOffset": 1824
                 },
                 "from": {
-                    "file": "/Users/mac/Blinkling/C:\\Users\\dy889\\.android\\build-cache\\eaa9472fc91e028a5a27b3d20e7a0c3fbad5c383\\output\\res\\values-lv\\values-lv.xml",
+                    "file": "/Users/mac/Downloads/Blinkling/C:\\Users\\Hyemin\\.android\\build-cache\\6129fd2d3f666eab7401e4b78bea7d27c6653860\\output\\res\\values-lv\\values-lv.xml",
                     "position": {
                         "startLine": 18,
                         "startColumn": 4,
@@ -2757,7 +2757,7 @@
                     "endOffset": 1943
                 },
                 "from": {
-                    "file": "/Users/mac/Blinkling/C:\\Users\\dy889\\.android\\build-cache\\eaa9472fc91e028a5a27b3d20e7a0c3fbad5c383\\output\\res\\values-lv\\values-lv.xml",
+                    "file": "/Users/mac/Downloads/Blinkling/C:\\Users\\Hyemin\\.android\\build-cache\\6129fd2d3f666eab7401e4b78bea7d27c6653860\\output\\res\\values-lv\\values-lv.xml",
                     "position": {
                         "startLine": 19,
                         "startColumn": 4,
@@ -2776,7 +2776,7 @@
                     "endOffset": 2042
                 },
                 "from": {
-                    "file": "/Users/mac/Blinkling/C:\\Users\\dy889\\.android\\build-cache\\eaa9472fc91e028a5a27b3d20e7a0c3fbad5c383\\output\\res\\values-lv\\values-lv.xml",
+                    "file": "/Users/mac/Downloads/Blinkling/C:\\Users\\Hyemin\\.android\\build-cache\\6129fd2d3f666eab7401e4b78bea7d27c6653860\\output\\res\\values-lv\\values-lv.xml",
                     "position": {
                         "startLine": 20,
                         "startColumn": 4,
@@ -2795,7 +2795,7 @@
                     "endOffset": 2124
                 },
                 "from": {
-                    "file": "/Users/mac/Blinkling/C:\\Users\\dy889\\.android\\build-cache\\eaa9472fc91e028a5a27b3d20e7a0c3fbad5c383\\output\\res\\values-lv\\values-lv.xml",
+                    "file": "/Users/mac/Downloads/Blinkling/C:\\Users\\Hyemin\\.android\\build-cache\\6129fd2d3f666eab7401e4b78bea7d27c6653860\\output\\res\\values-lv\\values-lv.xml",
                     "position": {
                         "startLine": 21,
                         "startColumn": 4,
@@ -2814,7 +2814,7 @@
                     "endOffset": 2225
                 },
                 "from": {
-                    "file": "/Users/mac/Blinkling/C:\\Users\\dy889\\.android\\build-cache\\eaa9472fc91e028a5a27b3d20e7a0c3fbad5c383\\output\\res\\values-lv\\values-lv.xml",
+                    "file": "/Users/mac/Downloads/Blinkling/C:\\Users\\Hyemin\\.android\\build-cache\\6129fd2d3f666eab7401e4b78bea7d27c6653860\\output\\res\\values-lv\\values-lv.xml",
                     "position": {
                         "startLine": 22,
                         "startColumn": 4,
@@ -2827,7 +2827,7 @@
         ]
     },
     {
-        "outputFile": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\C:\\Users\\dayeon\\Blinkling\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-lv\\values-lv.xml",
+        "outputFile": "/Users/mac/Downloads/Blinkling/C:\\Users\\dayeon\\Blinkling\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-lv\\values-lv.xml",
         "map": [
             {
                 "to": {
@@ -2838,7 +2838,7 @@
                     "endOffset": 170
                 },
                 "from": {
-                    "file": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\C:\\Users\\dayeon\\.android\\build-cache\\08f0b85e835f6a143412367b800bd932d6600384\\output\\res\\values-lv\\values-lv.xml",
+                    "file": "/Users/mac/Downloads/Blinkling/C:\\Users\\dayeon\\.android\\build-cache\\08f0b85e835f6a143412367b800bd932d6600384\\output\\res\\values-lv\\values-lv.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,
@@ -2857,7 +2857,7 @@
                     "endOffset": 278
                 },
                 "from": {
-                    "file": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\C:\\Users\\dayeon\\.android\\build-cache\\08f0b85e835f6a143412367b800bd932d6600384\\output\\res\\values-lv\\values-lv.xml",
+                    "file": "/Users/mac/Downloads/Blinkling/C:\\Users\\dayeon\\.android\\build-cache\\08f0b85e835f6a143412367b800bd932d6600384\\output\\res\\values-lv\\values-lv.xml",
                     "position": {
                         "startLine": 3,
                         "startColumn": 4,
@@ -2876,7 +2876,7 @@
                     "endOffset": 401
                 },
                 "from": {
-                    "file": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\C:\\Users\\dayeon\\.android\\build-cache\\08f0b85e835f6a143412367b800bd932d6600384\\output\\res\\values-lv\\values-lv.xml",
+                    "file": "/Users/mac/Downloads/Blinkling/C:\\Users\\dayeon\\.android\\build-cache\\08f0b85e835f6a143412367b800bd932d6600384\\output\\res\\values-lv\\values-lv.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
@@ -2895,7 +2895,7 @@
                     "endOffset": 509
                 },
                 "from": {
-                    "file": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\C:\\Users\\dayeon\\.android\\build-cache\\08f0b85e835f6a143412367b800bd932d6600384\\output\\res\\values-lv\\values-lv.xml",
+                    "file": "/Users/mac/Downloads/Blinkling/C:\\Users\\dayeon\\.android\\build-cache\\08f0b85e835f6a143412367b800bd932d6600384\\output\\res\\values-lv\\values-lv.xml",
                     "position": {
                         "startLine": 5,
                         "startColumn": 4,
@@ -2914,7 +2914,7 @@
                     "endOffset": 618
                 },
                 "from": {
-                    "file": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\C:\\Users\\dayeon\\.android\\build-cache\\08f0b85e835f6a143412367b800bd932d6600384\\output\\res\\values-lv\\values-lv.xml",
+                    "file": "/Users/mac/Downloads/Blinkling/C:\\Users\\dayeon\\.android\\build-cache\\08f0b85e835f6a143412367b800bd932d6600384\\output\\res\\values-lv\\values-lv.xml",
                     "position": {
                         "startLine": 6,
                         "startColumn": 4,
@@ -2933,7 +2933,7 @@
                     "endOffset": 704
                 },
                 "from": {
-                    "file": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\C:\\Users\\dayeon\\.android\\build-cache\\08f0b85e835f6a143412367b800bd932d6600384\\output\\res\\values-lv\\values-lv.xml",
+                    "file": "/Users/mac/Downloads/Blinkling/C:\\Users\\dayeon\\.android\\build-cache\\08f0b85e835f6a143412367b800bd932d6600384\\output\\res\\values-lv\\values-lv.xml",
                     "position": {
                         "startLine": 7,
                         "startColumn": 4,
@@ -2952,7 +2952,7 @@
                     "endOffset": 808
                 },
                 "from": {
-                    "file": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\C:\\Users\\dayeon\\.android\\build-cache\\08f0b85e835f6a143412367b800bd932d6600384\\output\\res\\values-lv\\values-lv.xml",
+                    "file": "/Users/mac/Downloads/Blinkling/C:\\Users\\dayeon\\.android\\build-cache\\08f0b85e835f6a143412367b800bd932d6600384\\output\\res\\values-lv\\values-lv.xml",
                     "position": {
                         "startLine": 8,
                         "startColumn": 4,
@@ -2971,7 +2971,7 @@
                     "endOffset": 930
                 },
                 "from": {
-                    "file": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\C:\\Users\\dayeon\\.android\\build-cache\\08f0b85e835f6a143412367b800bd932d6600384\\output\\res\\values-lv\\values-lv.xml",
+                    "file": "/Users/mac/Downloads/Blinkling/C:\\Users\\dayeon\\.android\\build-cache\\08f0b85e835f6a143412367b800bd932d6600384\\output\\res\\values-lv\\values-lv.xml",
                     "position": {
                         "startLine": 9,
                         "startColumn": 4,
@@ -2990,7 +2990,7 @@
                     "endOffset": 1012
                 },
                 "from": {
-                    "file": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\C:\\Users\\dayeon\\.android\\build-cache\\08f0b85e835f6a143412367b800bd932d6600384\\output\\res\\values-lv\\values-lv.xml",
+                    "file": "/Users/mac/Downloads/Blinkling/C:\\Users\\dayeon\\.android\\build-cache\\08f0b85e835f6a143412367b800bd932d6600384\\output\\res\\values-lv\\values-lv.xml",
                     "position": {
                         "startLine": 10,
                         "startColumn": 4,
@@ -3009,7 +3009,7 @@
                     "endOffset": 1094
                 },
                 "from": {
-                    "file": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\C:\\Users\\dayeon\\.android\\build-cache\\08f0b85e835f6a143412367b800bd932d6600384\\output\\res\\values-lv\\values-lv.xml",
+                    "file": "/Users/mac/Downloads/Blinkling/C:\\Users\\dayeon\\.android\\build-cache\\08f0b85e835f6a143412367b800bd932d6600384\\output\\res\\values-lv\\values-lv.xml",
                     "position": {
                         "startLine": 11,
                         "startColumn": 4,
@@ -3028,7 +3028,7 @@
                     "endOffset": 1179
                 },
                 "from": {
-                    "file": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\C:\\Users\\dayeon\\.android\\build-cache\\08f0b85e835f6a143412367b800bd932d6600384\\output\\res\\values-lv\\values-lv.xml",
+                    "file": "/Users/mac/Downloads/Blinkling/C:\\Users\\dayeon\\.android\\build-cache\\08f0b85e835f6a143412367b800bd932d6600384\\output\\res\\values-lv\\values-lv.xml",
                     "position": {
                         "startLine": 12,
                         "startColumn": 4,
@@ -3047,7 +3047,7 @@
                     "endOffset": 1288
                 },
                 "from": {
-                    "file": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\C:\\Users\\dayeon\\.android\\build-cache\\08f0b85e835f6a143412367b800bd932d6600384\\output\\res\\values-lv\\values-lv.xml",
+                    "file": "/Users/mac/Downloads/Blinkling/C:\\Users\\dayeon\\.android\\build-cache\\08f0b85e835f6a143412367b800bd932d6600384\\output\\res\\values-lv\\values-lv.xml",
                     "position": {
                         "startLine": 13,
                         "startColumn": 4,
@@ -3066,7 +3066,7 @@
                     "endOffset": 1400
                 },
                 "from": {
-                    "file": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\C:\\Users\\dayeon\\.android\\build-cache\\08f0b85e835f6a143412367b800bd932d6600384\\output\\res\\values-lv\\values-lv.xml",
+                    "file": "/Users/mac/Downloads/Blinkling/C:\\Users\\dayeon\\.android\\build-cache\\08f0b85e835f6a143412367b800bd932d6600384\\output\\res\\values-lv\\values-lv.xml",
                     "position": {
                         "startLine": 14,
                         "startColumn": 4,
@@ -3085,7 +3085,7 @@
                     "endOffset": 1499
                 },
                 "from": {
-                    "file": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\C:\\Users\\dayeon\\.android\\build-cache\\08f0b85e835f6a143412367b800bd932d6600384\\output\\res\\values-lv\\values-lv.xml",
+                    "file": "/Users/mac/Downloads/Blinkling/C:\\Users\\dayeon\\.android\\build-cache\\08f0b85e835f6a143412367b800bd932d6600384\\output\\res\\values-lv\\values-lv.xml",
                     "position": {
                         "startLine": 15,
                         "startColumn": 4,
@@ -3104,7 +3104,7 @@
                     "endOffset": 1610
                 },
                 "from": {
-                    "file": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\C:\\Users\\dayeon\\.android\\build-cache\\08f0b85e835f6a143412367b800bd932d6600384\\output\\res\\values-lv\\values-lv.xml",
+                    "file": "/Users/mac/Downloads/Blinkling/C:\\Users\\dayeon\\.android\\build-cache\\08f0b85e835f6a143412367b800bd932d6600384\\output\\res\\values-lv\\values-lv.xml",
                     "position": {
                         "startLine": 16,
                         "startColumn": 4,
@@ -3123,7 +3123,7 @@
                     "endOffset": 1719
                 },
                 "from": {
-                    "file": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\C:\\Users\\dayeon\\.android\\build-cache\\08f0b85e835f6a143412367b800bd932d6600384\\output\\res\\values-lv\\values-lv.xml",
+                    "file": "/Users/mac/Downloads/Blinkling/C:\\Users\\dayeon\\.android\\build-cache\\08f0b85e835f6a143412367b800bd932d6600384\\output\\res\\values-lv\\values-lv.xml",
                     "position": {
                         "startLine": 17,
                         "startColumn": 4,
@@ -3142,7 +3142,7 @@
                     "endOffset": 1824
                 },
                 "from": {
-                    "file": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\C:\\Users\\dayeon\\.android\\build-cache\\08f0b85e835f6a143412367b800bd932d6600384\\output\\res\\values-lv\\values-lv.xml",
+                    "file": "/Users/mac/Downloads/Blinkling/C:\\Users\\dayeon\\.android\\build-cache\\08f0b85e835f6a143412367b800bd932d6600384\\output\\res\\values-lv\\values-lv.xml",
                     "position": {
                         "startLine": 18,
                         "startColumn": 4,
@@ -3161,7 +3161,7 @@
                     "endOffset": 1943
                 },
                 "from": {
-                    "file": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\C:\\Users\\dayeon\\.android\\build-cache\\08f0b85e835f6a143412367b800bd932d6600384\\output\\res\\values-lv\\values-lv.xml",
+                    "file": "/Users/mac/Downloads/Blinkling/C:\\Users\\dayeon\\.android\\build-cache\\08f0b85e835f6a143412367b800bd932d6600384\\output\\res\\values-lv\\values-lv.xml",
                     "position": {
                         "startLine": 19,
                         "startColumn": 4,
@@ -3180,7 +3180,7 @@
                     "endOffset": 2042
                 },
                 "from": {
-                    "file": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\C:\\Users\\dayeon\\.android\\build-cache\\08f0b85e835f6a143412367b800bd932d6600384\\output\\res\\values-lv\\values-lv.xml",
+                    "file": "/Users/mac/Downloads/Blinkling/C:\\Users\\dayeon\\.android\\build-cache\\08f0b85e835f6a143412367b800bd932d6600384\\output\\res\\values-lv\\values-lv.xml",
                     "position": {
                         "startLine": 20,
                         "startColumn": 4,
@@ -3199,7 +3199,7 @@
                     "endOffset": 2124
                 },
                 "from": {
-                    "file": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\C:\\Users\\dayeon\\.android\\build-cache\\08f0b85e835f6a143412367b800bd932d6600384\\output\\res\\values-lv\\values-lv.xml",
+                    "file": "/Users/mac/Downloads/Blinkling/C:\\Users\\dayeon\\.android\\build-cache\\08f0b85e835f6a143412367b800bd932d6600384\\output\\res\\values-lv\\values-lv.xml",
                     "position": {
                         "startLine": 21,
                         "startColumn": 4,
@@ -3218,815 +3218,7 @@
                     "endOffset": 2225
                 },
                 "from": {
-                    "file": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\C:\\Users\\dayeon\\.android\\build-cache\\08f0b85e835f6a143412367b800bd932d6600384\\output\\res\\values-lv\\values-lv.xml",
-                    "position": {
-                        "startLine": 22,
-                        "startColumn": 4,
-                        "startOffset": 2129,
-                        "endColumn": 100,
-                        "endOffset": 2225
-                    }
-                }
-            }
-        ]
-    },
-    {
-        "outputFile": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-lv\\values-lv.xml",
-        "map": [
-            {
-                "to": {
-                    "startLine": 2,
-                    "startColumn": 4,
-                    "startOffset": 55,
-                    "endColumn": 119,
-                    "endOffset": 170
-                },
-                "from": {
-                    "file": "/Users/mac/Blinkling/C:\\Users\\mac\\.android\\build-cache\\913d8db17f1c25b6ee67b77b63f40d3096bd505a\\output\\res\\values-lv\\values-lv.xml",
-                    "position": {
-                        "startLine": 2,
-                        "startColumn": 4,
-                        "startOffset": 55,
-                        "endColumn": 119,
-                        "endOffset": 170
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 3,
-                    "startColumn": 4,
-                    "startOffset": 175,
-                    "endColumn": 107,
-                    "endOffset": 278
-                },
-                "from": {
-                    "file": "/Users/mac/Blinkling/C:\\Users\\mac\\.android\\build-cache\\913d8db17f1c25b6ee67b77b63f40d3096bd505a\\output\\res\\values-lv\\values-lv.xml",
-                    "position": {
-                        "startLine": 3,
-                        "startColumn": 4,
-                        "startOffset": 175,
-                        "endColumn": 107,
-                        "endOffset": 278
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 4,
-                    "startColumn": 4,
-                    "startOffset": 283,
-                    "endColumn": 122,
-                    "endOffset": 401
-                },
-                "from": {
-                    "file": "/Users/mac/Blinkling/C:\\Users\\mac\\.android\\build-cache\\913d8db17f1c25b6ee67b77b63f40d3096bd505a\\output\\res\\values-lv\\values-lv.xml",
-                    "position": {
-                        "startLine": 4,
-                        "startColumn": 4,
-                        "startOffset": 283,
-                        "endColumn": 122,
-                        "endOffset": 401
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 5,
-                    "startColumn": 4,
-                    "startOffset": 406,
-                    "endColumn": 107,
-                    "endOffset": 509
-                },
-                "from": {
-                    "file": "/Users/mac/Blinkling/C:\\Users\\mac\\.android\\build-cache\\913d8db17f1c25b6ee67b77b63f40d3096bd505a\\output\\res\\values-lv\\values-lv.xml",
-                    "position": {
-                        "startLine": 5,
-                        "startColumn": 4,
-                        "startOffset": 406,
-                        "endColumn": 107,
-                        "endOffset": 509
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 6,
-                    "startColumn": 4,
-                    "startOffset": 514,
-                    "endColumn": 108,
-                    "endOffset": 618
-                },
-                "from": {
-                    "file": "/Users/mac/Blinkling/C:\\Users\\mac\\.android\\build-cache\\913d8db17f1c25b6ee67b77b63f40d3096bd505a\\output\\res\\values-lv\\values-lv.xml",
-                    "position": {
-                        "startLine": 6,
-                        "startColumn": 4,
-                        "startOffset": 514,
-                        "endColumn": 108,
-                        "endOffset": 618
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 7,
-                    "startColumn": 4,
-                    "startOffset": 623,
-                    "endColumn": 85,
-                    "endOffset": 704
-                },
-                "from": {
-                    "file": "/Users/mac/Blinkling/C:\\Users\\mac\\.android\\build-cache\\913d8db17f1c25b6ee67b77b63f40d3096bd505a\\output\\res\\values-lv\\values-lv.xml",
-                    "position": {
-                        "startLine": 7,
-                        "startColumn": 4,
-                        "startOffset": 623,
-                        "endColumn": 85,
-                        "endOffset": 704
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 8,
-                    "startColumn": 4,
-                    "startOffset": 709,
-                    "endColumn": 103,
-                    "endOffset": 808
-                },
-                "from": {
-                    "file": "/Users/mac/Blinkling/C:\\Users\\mac\\.android\\build-cache\\913d8db17f1c25b6ee67b77b63f40d3096bd505a\\output\\res\\values-lv\\values-lv.xml",
-                    "position": {
-                        "startLine": 8,
-                        "startColumn": 4,
-                        "startOffset": 709,
-                        "endColumn": 103,
-                        "endOffset": 808
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 9,
-                    "startColumn": 4,
-                    "startOffset": 813,
-                    "endColumn": 121,
-                    "endOffset": 930
-                },
-                "from": {
-                    "file": "/Users/mac/Blinkling/C:\\Users\\mac\\.android\\build-cache\\913d8db17f1c25b6ee67b77b63f40d3096bd505a\\output\\res\\values-lv\\values-lv.xml",
-                    "position": {
-                        "startLine": 9,
-                        "startColumn": 4,
-                        "startOffset": 813,
-                        "endColumn": 121,
-                        "endOffset": 930
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 10,
-                    "startColumn": 4,
-                    "startOffset": 935,
-                    "endColumn": 81,
-                    "endOffset": 1012
-                },
-                "from": {
-                    "file": "/Users/mac/Blinkling/C:\\Users\\mac\\.android\\build-cache\\913d8db17f1c25b6ee67b77b63f40d3096bd505a\\output\\res\\values-lv\\values-lv.xml",
-                    "position": {
-                        "startLine": 10,
-                        "startColumn": 4,
-                        "startOffset": 935,
-                        "endColumn": 81,
-                        "endOffset": 1012
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 11,
-                    "startColumn": 4,
-                    "startOffset": 1017,
-                    "endColumn": 81,
-                    "endOffset": 1094
-                },
-                "from": {
-                    "file": "/Users/mac/Blinkling/C:\\Users\\mac\\.android\\build-cache\\913d8db17f1c25b6ee67b77b63f40d3096bd505a\\output\\res\\values-lv\\values-lv.xml",
-                    "position": {
-                        "startLine": 11,
-                        "startColumn": 4,
-                        "startOffset": 1017,
-                        "endColumn": 81,
-                        "endOffset": 1094
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 12,
-                    "startColumn": 4,
-                    "startOffset": 1099,
-                    "endColumn": 84,
-                    "endOffset": 1179
-                },
-                "from": {
-                    "file": "/Users/mac/Blinkling/C:\\Users\\mac\\.android\\build-cache\\913d8db17f1c25b6ee67b77b63f40d3096bd505a\\output\\res\\values-lv\\values-lv.xml",
-                    "position": {
-                        "startLine": 12,
-                        "startColumn": 4,
-                        "startOffset": 1099,
-                        "endColumn": 84,
-                        "endOffset": 1179
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 13,
-                    "startColumn": 4,
-                    "startOffset": 1184,
-                    "endColumn": 108,
-                    "endOffset": 1288
-                },
-                "from": {
-                    "file": "/Users/mac/Blinkling/C:\\Users\\mac\\.android\\build-cache\\913d8db17f1c25b6ee67b77b63f40d3096bd505a\\output\\res\\values-lv\\values-lv.xml",
-                    "position": {
-                        "startLine": 13,
-                        "startColumn": 4,
-                        "startOffset": 1184,
-                        "endColumn": 108,
-                        "endOffset": 1288
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 14,
-                    "startColumn": 4,
-                    "startOffset": 1293,
-                    "endColumn": 111,
-                    "endOffset": 1400
-                },
-                "from": {
-                    "file": "/Users/mac/Blinkling/C:\\Users\\mac\\.android\\build-cache\\913d8db17f1c25b6ee67b77b63f40d3096bd505a\\output\\res\\values-lv\\values-lv.xml",
-                    "position": {
-                        "startLine": 14,
-                        "startColumn": 4,
-                        "startOffset": 1293,
-                        "endColumn": 111,
-                        "endOffset": 1400
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 15,
-                    "startColumn": 4,
-                    "startOffset": 1405,
-                    "endColumn": 98,
-                    "endOffset": 1499
-                },
-                "from": {
-                    "file": "/Users/mac/Blinkling/C:\\Users\\mac\\.android\\build-cache\\913d8db17f1c25b6ee67b77b63f40d3096bd505a\\output\\res\\values-lv\\values-lv.xml",
-                    "position": {
-                        "startLine": 15,
-                        "startColumn": 4,
-                        "startOffset": 1405,
-                        "endColumn": 98,
-                        "endOffset": 1499
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 16,
-                    "startColumn": 4,
-                    "startOffset": 1504,
-                    "endColumn": 110,
-                    "endOffset": 1610
-                },
-                "from": {
-                    "file": "/Users/mac/Blinkling/C:\\Users\\mac\\.android\\build-cache\\913d8db17f1c25b6ee67b77b63f40d3096bd505a\\output\\res\\values-lv\\values-lv.xml",
-                    "position": {
-                        "startLine": 16,
-                        "startColumn": 4,
-                        "startOffset": 1504,
-                        "endColumn": 110,
-                        "endOffset": 1610
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 17,
-                    "startColumn": 4,
-                    "startOffset": 1615,
-                    "endColumn": 108,
-                    "endOffset": 1719
-                },
-                "from": {
-                    "file": "/Users/mac/Blinkling/C:\\Users\\mac\\.android\\build-cache\\913d8db17f1c25b6ee67b77b63f40d3096bd505a\\output\\res\\values-lv\\values-lv.xml",
-                    "position": {
-                        "startLine": 17,
-                        "startColumn": 4,
-                        "startOffset": 1615,
-                        "endColumn": 108,
-                        "endOffset": 1719
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 18,
-                    "startColumn": 4,
-                    "startOffset": 1724,
-                    "endColumn": 104,
-                    "endOffset": 1824
-                },
-                "from": {
-                    "file": "/Users/mac/Blinkling/C:\\Users\\mac\\.android\\build-cache\\913d8db17f1c25b6ee67b77b63f40d3096bd505a\\output\\res\\values-lv\\values-lv.xml",
-                    "position": {
-                        "startLine": 18,
-                        "startColumn": 4,
-                        "startOffset": 1724,
-                        "endColumn": 104,
-                        "endOffset": 1824
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 19,
-                    "startColumn": 4,
-                    "startOffset": 1829,
-                    "endColumn": 118,
-                    "endOffset": 1943
-                },
-                "from": {
-                    "file": "/Users/mac/Blinkling/C:\\Users\\mac\\.android\\build-cache\\913d8db17f1c25b6ee67b77b63f40d3096bd505a\\output\\res\\values-lv\\values-lv.xml",
-                    "position": {
-                        "startLine": 19,
-                        "startColumn": 4,
-                        "startOffset": 1829,
-                        "endColumn": 118,
-                        "endOffset": 1943
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 20,
-                    "startColumn": 4,
-                    "startOffset": 1948,
-                    "endColumn": 98,
-                    "endOffset": 2042
-                },
-                "from": {
-                    "file": "/Users/mac/Blinkling/C:\\Users\\mac\\.android\\build-cache\\913d8db17f1c25b6ee67b77b63f40d3096bd505a\\output\\res\\values-lv\\values-lv.xml",
-                    "position": {
-                        "startLine": 20,
-                        "startColumn": 4,
-                        "startOffset": 1948,
-                        "endColumn": 98,
-                        "endOffset": 2042
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 21,
-                    "startColumn": 4,
-                    "startOffset": 2047,
-                    "endColumn": 81,
-                    "endOffset": 2124
-                },
-                "from": {
-                    "file": "/Users/mac/Blinkling/C:\\Users\\mac\\.android\\build-cache\\913d8db17f1c25b6ee67b77b63f40d3096bd505a\\output\\res\\values-lv\\values-lv.xml",
-                    "position": {
-                        "startLine": 21,
-                        "startColumn": 4,
-                        "startOffset": 2047,
-                        "endColumn": 81,
-                        "endOffset": 2124
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 22,
-                    "startColumn": 4,
-                    "startOffset": 2129,
-                    "endColumn": 100,
-                    "endOffset": 2225
-                },
-                "from": {
-                    "file": "/Users/mac/Blinkling/C:\\Users\\mac\\.android\\build-cache\\913d8db17f1c25b6ee67b77b63f40d3096bd505a\\output\\res\\values-lv\\values-lv.xml",
-                    "position": {
-                        "startLine": 22,
-                        "startColumn": 4,
-                        "startOffset": 2129,
-                        "endColumn": 100,
-                        "endOffset": 2225
-                    }
-                }
-            }
-        ]
-    },
-    {
-        "outputFile": "/Users/mac/Blinkling/C:\\Users\\mac\\Blinkling\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-lv\\values-lv.xml",
-        "map": [
-            {
-                "to": {
-                    "startLine": 2,
-                    "startColumn": 4,
-                    "startOffset": 55,
-                    "endColumn": 119,
-                    "endOffset": 170
-                },
-                "from": {
-                    "file": "/Users/mac/Blinkling/C:\\Users\\mac\\.android\\build-cache\\913d8db17f1c25b6ee67b77b63f40d3096bd505a\\output\\res\\values-lv\\values-lv.xml",
-                    "position": {
-                        "startLine": 2,
-                        "startColumn": 4,
-                        "startOffset": 55,
-                        "endColumn": 119,
-                        "endOffset": 170
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 3,
-                    "startColumn": 4,
-                    "startOffset": 175,
-                    "endColumn": 107,
-                    "endOffset": 278
-                },
-                "from": {
-                    "file": "/Users/mac/Blinkling/C:\\Users\\mac\\.android\\build-cache\\913d8db17f1c25b6ee67b77b63f40d3096bd505a\\output\\res\\values-lv\\values-lv.xml",
-                    "position": {
-                        "startLine": 3,
-                        "startColumn": 4,
-                        "startOffset": 175,
-                        "endColumn": 107,
-                        "endOffset": 278
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 4,
-                    "startColumn": 4,
-                    "startOffset": 283,
-                    "endColumn": 122,
-                    "endOffset": 401
-                },
-                "from": {
-                    "file": "/Users/mac/Blinkling/C:\\Users\\mac\\.android\\build-cache\\913d8db17f1c25b6ee67b77b63f40d3096bd505a\\output\\res\\values-lv\\values-lv.xml",
-                    "position": {
-                        "startLine": 4,
-                        "startColumn": 4,
-                        "startOffset": 283,
-                        "endColumn": 122,
-                        "endOffset": 401
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 5,
-                    "startColumn": 4,
-                    "startOffset": 406,
-                    "endColumn": 107,
-                    "endOffset": 509
-                },
-                "from": {
-                    "file": "/Users/mac/Blinkling/C:\\Users\\mac\\.android\\build-cache\\913d8db17f1c25b6ee67b77b63f40d3096bd505a\\output\\res\\values-lv\\values-lv.xml",
-                    "position": {
-                        "startLine": 5,
-                        "startColumn": 4,
-                        "startOffset": 406,
-                        "endColumn": 107,
-                        "endOffset": 509
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 6,
-                    "startColumn": 4,
-                    "startOffset": 514,
-                    "endColumn": 108,
-                    "endOffset": 618
-                },
-                "from": {
-                    "file": "/Users/mac/Blinkling/C:\\Users\\mac\\.android\\build-cache\\913d8db17f1c25b6ee67b77b63f40d3096bd505a\\output\\res\\values-lv\\values-lv.xml",
-                    "position": {
-                        "startLine": 6,
-                        "startColumn": 4,
-                        "startOffset": 514,
-                        "endColumn": 108,
-                        "endOffset": 618
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 7,
-                    "startColumn": 4,
-                    "startOffset": 623,
-                    "endColumn": 85,
-                    "endOffset": 704
-                },
-                "from": {
-                    "file": "/Users/mac/Blinkling/C:\\Users\\mac\\.android\\build-cache\\913d8db17f1c25b6ee67b77b63f40d3096bd505a\\output\\res\\values-lv\\values-lv.xml",
-                    "position": {
-                        "startLine": 7,
-                        "startColumn": 4,
-                        "startOffset": 623,
-                        "endColumn": 85,
-                        "endOffset": 704
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 8,
-                    "startColumn": 4,
-                    "startOffset": 709,
-                    "endColumn": 103,
-                    "endOffset": 808
-                },
-                "from": {
-                    "file": "/Users/mac/Blinkling/C:\\Users\\mac\\.android\\build-cache\\913d8db17f1c25b6ee67b77b63f40d3096bd505a\\output\\res\\values-lv\\values-lv.xml",
-                    "position": {
-                        "startLine": 8,
-                        "startColumn": 4,
-                        "startOffset": 709,
-                        "endColumn": 103,
-                        "endOffset": 808
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 9,
-                    "startColumn": 4,
-                    "startOffset": 813,
-                    "endColumn": 121,
-                    "endOffset": 930
-                },
-                "from": {
-                    "file": "/Users/mac/Blinkling/C:\\Users\\mac\\.android\\build-cache\\913d8db17f1c25b6ee67b77b63f40d3096bd505a\\output\\res\\values-lv\\values-lv.xml",
-                    "position": {
-                        "startLine": 9,
-                        "startColumn": 4,
-                        "startOffset": 813,
-                        "endColumn": 121,
-                        "endOffset": 930
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 10,
-                    "startColumn": 4,
-                    "startOffset": 935,
-                    "endColumn": 81,
-                    "endOffset": 1012
-                },
-                "from": {
-                    "file": "/Users/mac/Blinkling/C:\\Users\\mac\\.android\\build-cache\\913d8db17f1c25b6ee67b77b63f40d3096bd505a\\output\\res\\values-lv\\values-lv.xml",
-                    "position": {
-                        "startLine": 10,
-                        "startColumn": 4,
-                        "startOffset": 935,
-                        "endColumn": 81,
-                        "endOffset": 1012
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 11,
-                    "startColumn": 4,
-                    "startOffset": 1017,
-                    "endColumn": 81,
-                    "endOffset": 1094
-                },
-                "from": {
-                    "file": "/Users/mac/Blinkling/C:\\Users\\mac\\.android\\build-cache\\913d8db17f1c25b6ee67b77b63f40d3096bd505a\\output\\res\\values-lv\\values-lv.xml",
-                    "position": {
-                        "startLine": 11,
-                        "startColumn": 4,
-                        "startOffset": 1017,
-                        "endColumn": 81,
-                        "endOffset": 1094
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 12,
-                    "startColumn": 4,
-                    "startOffset": 1099,
-                    "endColumn": 84,
-                    "endOffset": 1179
-                },
-                "from": {
-                    "file": "/Users/mac/Blinkling/C:\\Users\\mac\\.android\\build-cache\\913d8db17f1c25b6ee67b77b63f40d3096bd505a\\output\\res\\values-lv\\values-lv.xml",
-                    "position": {
-                        "startLine": 12,
-                        "startColumn": 4,
-                        "startOffset": 1099,
-                        "endColumn": 84,
-                        "endOffset": 1179
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 13,
-                    "startColumn": 4,
-                    "startOffset": 1184,
-                    "endColumn": 108,
-                    "endOffset": 1288
-                },
-                "from": {
-                    "file": "/Users/mac/Blinkling/C:\\Users\\mac\\.android\\build-cache\\913d8db17f1c25b6ee67b77b63f40d3096bd505a\\output\\res\\values-lv\\values-lv.xml",
-                    "position": {
-                        "startLine": 13,
-                        "startColumn": 4,
-                        "startOffset": 1184,
-                        "endColumn": 108,
-                        "endOffset": 1288
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 14,
-                    "startColumn": 4,
-                    "startOffset": 1293,
-                    "endColumn": 111,
-                    "endOffset": 1400
-                },
-                "from": {
-                    "file": "/Users/mac/Blinkling/C:\\Users\\mac\\.android\\build-cache\\913d8db17f1c25b6ee67b77b63f40d3096bd505a\\output\\res\\values-lv\\values-lv.xml",
-                    "position": {
-                        "startLine": 14,
-                        "startColumn": 4,
-                        "startOffset": 1293,
-                        "endColumn": 111,
-                        "endOffset": 1400
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 15,
-                    "startColumn": 4,
-                    "startOffset": 1405,
-                    "endColumn": 98,
-                    "endOffset": 1499
-                },
-                "from": {
-                    "file": "/Users/mac/Blinkling/C:\\Users\\mac\\.android\\build-cache\\913d8db17f1c25b6ee67b77b63f40d3096bd505a\\output\\res\\values-lv\\values-lv.xml",
-                    "position": {
-                        "startLine": 15,
-                        "startColumn": 4,
-                        "startOffset": 1405,
-                        "endColumn": 98,
-                        "endOffset": 1499
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 16,
-                    "startColumn": 4,
-                    "startOffset": 1504,
-                    "endColumn": 110,
-                    "endOffset": 1610
-                },
-                "from": {
-                    "file": "/Users/mac/Blinkling/C:\\Users\\mac\\.android\\build-cache\\913d8db17f1c25b6ee67b77b63f40d3096bd505a\\output\\res\\values-lv\\values-lv.xml",
-                    "position": {
-                        "startLine": 16,
-                        "startColumn": 4,
-                        "startOffset": 1504,
-                        "endColumn": 110,
-                        "endOffset": 1610
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 17,
-                    "startColumn": 4,
-                    "startOffset": 1615,
-                    "endColumn": 108,
-                    "endOffset": 1719
-                },
-                "from": {
-                    "file": "/Users/mac/Blinkling/C:\\Users\\mac\\.android\\build-cache\\913d8db17f1c25b6ee67b77b63f40d3096bd505a\\output\\res\\values-lv\\values-lv.xml",
-                    "position": {
-                        "startLine": 17,
-                        "startColumn": 4,
-                        "startOffset": 1615,
-                        "endColumn": 108,
-                        "endOffset": 1719
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 18,
-                    "startColumn": 4,
-                    "startOffset": 1724,
-                    "endColumn": 104,
-                    "endOffset": 1824
-                },
-                "from": {
-                    "file": "/Users/mac/Blinkling/C:\\Users\\mac\\.android\\build-cache\\913d8db17f1c25b6ee67b77b63f40d3096bd505a\\output\\res\\values-lv\\values-lv.xml",
-                    "position": {
-                        "startLine": 18,
-                        "startColumn": 4,
-                        "startOffset": 1724,
-                        "endColumn": 104,
-                        "endOffset": 1824
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 19,
-                    "startColumn": 4,
-                    "startOffset": 1829,
-                    "endColumn": 118,
-                    "endOffset": 1943
-                },
-                "from": {
-                    "file": "/Users/mac/Blinkling/C:\\Users\\mac\\.android\\build-cache\\913d8db17f1c25b6ee67b77b63f40d3096bd505a\\output\\res\\values-lv\\values-lv.xml",
-                    "position": {
-                        "startLine": 19,
-                        "startColumn": 4,
-                        "startOffset": 1829,
-                        "endColumn": 118,
-                        "endOffset": 1943
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 20,
-                    "startColumn": 4,
-                    "startOffset": 1948,
-                    "endColumn": 98,
-                    "endOffset": 2042
-                },
-                "from": {
-                    "file": "/Users/mac/Blinkling/C:\\Users\\mac\\.android\\build-cache\\913d8db17f1c25b6ee67b77b63f40d3096bd505a\\output\\res\\values-lv\\values-lv.xml",
-                    "position": {
-                        "startLine": 20,
-                        "startColumn": 4,
-                        "startOffset": 1948,
-                        "endColumn": 98,
-                        "endOffset": 2042
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 21,
-                    "startColumn": 4,
-                    "startOffset": 2047,
-                    "endColumn": 81,
-                    "endOffset": 2124
-                },
-                "from": {
-                    "file": "/Users/mac/Blinkling/C:\\Users\\mac\\.android\\build-cache\\913d8db17f1c25b6ee67b77b63f40d3096bd505a\\output\\res\\values-lv\\values-lv.xml",
-                    "position": {
-                        "startLine": 21,
-                        "startColumn": 4,
-                        "startOffset": 2047,
-                        "endColumn": 81,
-                        "endOffset": 2124
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 22,
-                    "startColumn": 4,
-                    "startOffset": 2129,
-                    "endColumn": 100,
-                    "endOffset": 2225
-                },
-                "from": {
-                    "file": "/Users/mac/Blinkling/C:\\Users\\mac\\.android\\build-cache\\913d8db17f1c25b6ee67b77b63f40d3096bd505a\\output\\res\\values-lv\\values-lv.xml",
+                    "file": "/Users/mac/Downloads/Blinkling/C:\\Users\\dayeon\\.android\\build-cache\\08f0b85e835f6a143412367b800bd932d6600384\\output\\res\\values-lv\\values-lv.xml",
                     "position": {
                         "startLine": 22,
                         "startColumn": 4,

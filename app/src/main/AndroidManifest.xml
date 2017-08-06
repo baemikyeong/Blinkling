@@ -21,7 +21,6 @@
             </intent-filter>
         </activity>
         <activity android:name=".MainActivity" />
-
         <activity android:name=".SDcardActivity"></activity>
         <activity
             android:name=".Face_Activity"
@@ -29,7 +28,6 @@
             android:screenOrientation="fullSensor">
 
         </activity>
-
     </application>
 
 </manifest>

@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 #Sun Aug 06 01:47:09 KST 2017
 file.80=/Users/mac/Blinkling/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_0e4eda2345e83a3fa0e4650d6c9716b993da9738/classes.dex
 file.79=/Users/mac/Blinkling/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_8ed91db91a098b4994f48cbce0fe736d7cbdbfbb/classes.dex
@@ -243,9 +242,3 @@ renamed.13=classes50.dex
 renamed.12=classes22.dex
 renamed.11=classes80.dex
 renamed.10=classes12.dex
-=======
-#Sun Aug 06 15:47:03 KST 2017
-base.0=/Users/mac/Blinkling/app/build/intermediates/transforms/dex/debug/folders/1000/1f/main
-renamed.0=classes.dex
-file.0=/Users/mac/Blinkling/app/build/intermediates/transforms/dex/debug/folders/1000/1f/main/classes.dex
->>>>>>> mi
