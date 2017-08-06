@@ -1,6 +1,10 @@
 -- Merging decision tree log ---
 manifest
+<<<<<<< HEAD
 ADDED from /Users/mac/Blinkling/app/src/main/AndroidManifest.xml:2:1-33:12
+=======
+ADDED from /Users/mac/Blinkling/app/src/main/AndroidManifest.xml:2:1-24:12
+>>>>>>> mi
 	package
 		ADDED from /Users/mac/Blinkling/app/src/main/AndroidManifest.xml:3:5-43
 		INJECTED from /Users/mac/Blinkling/app/src/main/AndroidManifest.xml
@@ -18,7 +22,11 @@ ADDED from /Users/mac/Blinkling/app/src/main/AndroidManifest.xml:5:5-65
 	android:name
 		ADDED from /Users/mac/Blinkling/app/src/main/AndroidManifest.xml:5:22-62
 application
+<<<<<<< HEAD
 ADDED from /Users/mac/Blinkling/app/src/main/AndroidManifest.xml:7:5-31:19
+=======
+ADDED from /Users/mac/Blinkling/app/src/main/AndroidManifest.xml:5:5-22:19
+>>>>>>> mi
 MERGED from [com.android.support:design:25.3.1] /Users/mac/.android/build-cache/2357a626681079792d0b0f8329e66fe5b38ee637/output/AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:transition:25.3.1] /Users/mac/.android/build-cache/35d6017021fb3a5d14f62790f786c1f775dd19e8/output/AndroidManifest.xml:26:5-20
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/mac/.android/build-cache/3d41ce55e04838533f508e9a6b765a5baa20b6d1/output/AndroidManifest.xml:9:5-20
@@ -107,6 +115,7 @@ ADDED from /Users/mac/Blinkling/app/src/main/AndroidManifest.xml:20:17-77
 activity#com.example.hyemin.blinkling.MainActivity
 ADDED from /Users/mac/Blinkling/app/src/main/AndroidManifest.xml:23:9-50
 	android:name
+<<<<<<< HEAD
 		ADDED from /Users/mac/Blinkling/app/src/main/AndroidManifest.xml:23:19-47
 activity#com.example.hyemin.blinkling.SDcardActivity
 ADDED from /Users/mac/Blinkling/app/src/main/AndroidManifest.xml:24:9-61
@@ -120,6 +129,9 @@ ADDED from /Users/mac/Blinkling/app/src/main/AndroidManifest.xml:25:9-30:20
 		ADDED from /Users/mac/Blinkling/app/src/main/AndroidManifest.xml:27:13-59
 	android:name
 		ADDED from /Users/mac/Blinkling/app/src/main/AndroidManifest.xml:26:13-42
+=======
+		ADDED from /Users/mac/Blinkling/app/src/main/AndroidManifest.xml:21:19-47
+>>>>>>> mi
 uses-sdk
 INJECTED from /Users/mac/Blinkling/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 MERGED from [com.android.support:multidex:1.0.1] /Users/mac/.android/build-cache/297d361ad5c8d5df37a5803fce2e629bce7c2038/output/AndroidManifest.xml:18:5-42

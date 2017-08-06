@@ -1,5 +1,813 @@
 [
     {
+        "outputFile": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\C:\\Users\\dayeon\\Blinkling\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-ne-rNP\\values-ne-rNP.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 104,
+                    "endOffset": 155
+                },
+                "from": {
+                    "file": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\C:\\Users\\dayeon\\.android\\build-cache\\08f0b85e835f6a143412367b800bd932d6600384\\output\\res\\values-ne-rNP\\values-ne-rNP.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 104,
+                        "endOffset": 155
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 160,
+                    "endColumn": 107,
+                    "endOffset": 263
+                },
+                "from": {
+                    "file": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\C:\\Users\\dayeon\\.android\\build-cache\\08f0b85e835f6a143412367b800bd932d6600384\\output\\res\\values-ne-rNP\\values-ne-rNP.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 160,
+                        "endColumn": 107,
+                        "endOffset": 263
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 268,
+                    "endColumn": 122,
+                    "endOffset": 386
+                },
+                "from": {
+                    "file": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\C:\\Users\\dayeon\\.android\\build-cache\\08f0b85e835f6a143412367b800bd932d6600384\\output\\res\\values-ne-rNP\\values-ne-rNP.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 268,
+                        "endColumn": 122,
+                        "endOffset": 386
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 391,
+                    "endColumn": 103,
+                    "endOffset": 490
+                },
+                "from": {
+                    "file": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\C:\\Users\\dayeon\\.android\\build-cache\\08f0b85e835f6a143412367b800bd932d6600384\\output\\res\\values-ne-rNP\\values-ne-rNP.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 391,
+                        "endColumn": 103,
+                        "endOffset": 490
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 495,
+                    "endColumn": 107,
+                    "endOffset": 598
+                },
+                "from": {
+                    "file": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\C:\\Users\\dayeon\\.android\\build-cache\\08f0b85e835f6a143412367b800bd932d6600384\\output\\res\\values-ne-rNP\\values-ne-rNP.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 495,
+                        "endColumn": 107,
+                        "endOffset": 598
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 7,
+                    "startColumn": 4,
+                    "startOffset": 603,
+                    "endColumn": 90,
+                    "endOffset": 689
+                },
+                "from": {
+                    "file": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\C:\\Users\\dayeon\\.android\\build-cache\\08f0b85e835f6a143412367b800bd932d6600384\\output\\res\\values-ne-rNP\\values-ne-rNP.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 603,
+                        "endColumn": 90,
+                        "endOffset": 689
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 8,
+                    "startColumn": 4,
+                    "startOffset": 694,
+                    "endColumn": 106,
+                    "endOffset": 796
+                },
+                "from": {
+                    "file": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\C:\\Users\\dayeon\\.android\\build-cache\\08f0b85e835f6a143412367b800bd932d6600384\\output\\res\\values-ne-rNP\\values-ne-rNP.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 694,
+                        "endColumn": 106,
+                        "endOffset": 796
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 9,
+                    "startColumn": 4,
+                    "startOffset": 801,
+                    "endColumn": 126,
+                    "endOffset": 923
+                },
+                "from": {
+                    "file": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\C:\\Users\\dayeon\\.android\\build-cache\\08f0b85e835f6a143412367b800bd932d6600384\\output\\res\\values-ne-rNP\\values-ne-rNP.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 4,
+                        "startOffset": 801,
+                        "endColumn": 126,
+                        "endOffset": 923
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 10,
+                    "startColumn": 4,
+                    "startOffset": 928,
+                    "endColumn": 93,
+                    "endOffset": 1017
+                },
+                "from": {
+                    "file": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\C:\\Users\\dayeon\\.android\\build-cache\\08f0b85e835f6a143412367b800bd932d6600384\\output\\res\\values-ne-rNP\\values-ne-rNP.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 4,
+                        "startOffset": 928,
+                        "endColumn": 93,
+                        "endOffset": 1017
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 11,
+                    "startColumn": 4,
+                    "startOffset": 1022,
+                    "endColumn": 89,
+                    "endOffset": 1107
+                },
+                "from": {
+                    "file": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\C:\\Users\\dayeon\\.android\\build-cache\\08f0b85e835f6a143412367b800bd932d6600384\\output\\res\\values-ne-rNP\\values-ne-rNP.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 4,
+                        "startOffset": 1022,
+                        "endColumn": 89,
+                        "endOffset": 1107
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 12,
+                    "startColumn": 4,
+                    "startOffset": 1112,
+                    "endColumn": 87,
+                    "endOffset": 1195
+                },
+                "from": {
+                    "file": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\C:\\Users\\dayeon\\.android\\build-cache\\08f0b85e835f6a143412367b800bd932d6600384\\output\\res\\values-ne-rNP\\values-ne-rNP.xml",
+                    "position": {
+                        "startLine": 12,
+                        "startColumn": 4,
+                        "startOffset": 1112,
+                        "endColumn": 87,
+                        "endOffset": 1195
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 13,
+                    "startColumn": 4,
+                    "startOffset": 1200,
+                    "endColumn": 109,
+                    "endOffset": 1305
+                },
+                "from": {
+                    "file": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\C:\\Users\\dayeon\\.android\\build-cache\\08f0b85e835f6a143412367b800bd932d6600384\\output\\res\\values-ne-rNP\\values-ne-rNP.xml",
+                    "position": {
+                        "startLine": 13,
+                        "startColumn": 4,
+                        "startOffset": 1200,
+                        "endColumn": 109,
+                        "endOffset": 1305
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 14,
+                    "startColumn": 4,
+                    "startOffset": 1310,
+                    "endColumn": 115,
+                    "endOffset": 1421
+                },
+                "from": {
+                    "file": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\C:\\Users\\dayeon\\.android\\build-cache\\08f0b85e835f6a143412367b800bd932d6600384\\output\\res\\values-ne-rNP\\values-ne-rNP.xml",
+                    "position": {
+                        "startLine": 14,
+                        "startColumn": 4,
+                        "startOffset": 1310,
+                        "endColumn": 115,
+                        "endOffset": 1421
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 15,
+                    "startColumn": 4,
+                    "startOffset": 1426,
+                    "endColumn": 102,
+                    "endOffset": 1524
+                },
+                "from": {
+                    "file": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\C:\\Users\\dayeon\\.android\\build-cache\\08f0b85e835f6a143412367b800bd932d6600384\\output\\res\\values-ne-rNP\\values-ne-rNP.xml",
+                    "position": {
+                        "startLine": 15,
+                        "startColumn": 4,
+                        "startOffset": 1426,
+                        "endColumn": 102,
+                        "endOffset": 1524
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 16,
+                    "startColumn": 4,
+                    "startOffset": 1529,
+                    "endColumn": 114,
+                    "endOffset": 1639
+                },
+                "from": {
+                    "file": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\C:\\Users\\dayeon\\.android\\build-cache\\08f0b85e835f6a143412367b800bd932d6600384\\output\\res\\values-ne-rNP\\values-ne-rNP.xml",
+                    "position": {
+                        "startLine": 16,
+                        "startColumn": 4,
+                        "startOffset": 1529,
+                        "endColumn": 114,
+                        "endOffset": 1639
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 17,
+                    "startColumn": 4,
+                    "startOffset": 1644,
+                    "endColumn": 101,
+                    "endOffset": 1741
+                },
+                "from": {
+                    "file": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\C:\\Users\\dayeon\\.android\\build-cache\\08f0b85e835f6a143412367b800bd932d6600384\\output\\res\\values-ne-rNP\\values-ne-rNP.xml",
+                    "position": {
+                        "startLine": 17,
+                        "startColumn": 4,
+                        "startOffset": 1644,
+                        "endColumn": 101,
+                        "endOffset": 1741
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 18,
+                    "startColumn": 4,
+                    "startOffset": 1746,
+                    "endColumn": 114,
+                    "endOffset": 1856
+                },
+                "from": {
+                    "file": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\C:\\Users\\dayeon\\.android\\build-cache\\08f0b85e835f6a143412367b800bd932d6600384\\output\\res\\values-ne-rNP\\values-ne-rNP.xml",
+                    "position": {
+                        "startLine": 18,
+                        "startColumn": 4,
+                        "startOffset": 1746,
+                        "endColumn": 114,
+                        "endOffset": 1856
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 19,
+                    "startColumn": 4,
+                    "startOffset": 1861,
+                    "endColumn": 130,
+                    "endOffset": 1987
+                },
+                "from": {
+                    "file": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\C:\\Users\\dayeon\\.android\\build-cache\\08f0b85e835f6a143412367b800bd932d6600384\\output\\res\\values-ne-rNP\\values-ne-rNP.xml",
+                    "position": {
+                        "startLine": 19,
+                        "startColumn": 4,
+                        "startOffset": 1861,
+                        "endColumn": 130,
+                        "endOffset": 1987
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 20,
+                    "startColumn": 4,
+                    "startOffset": 1992,
+                    "endColumn": 111,
+                    "endOffset": 2099
+                },
+                "from": {
+                    "file": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\C:\\Users\\dayeon\\.android\\build-cache\\08f0b85e835f6a143412367b800bd932d6600384\\output\\res\\values-ne-rNP\\values-ne-rNP.xml",
+                    "position": {
+                        "startLine": 20,
+                        "startColumn": 4,
+                        "startOffset": 1992,
+                        "endColumn": 111,
+                        "endOffset": 2099
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 21,
+                    "startColumn": 4,
+                    "startOffset": 2104,
+                    "endColumn": 85,
+                    "endOffset": 2185
+                },
+                "from": {
+                    "file": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\C:\\Users\\dayeon\\.android\\build-cache\\08f0b85e835f6a143412367b800bd932d6600384\\output\\res\\values-ne-rNP\\values-ne-rNP.xml",
+                    "position": {
+                        "startLine": 21,
+                        "startColumn": 4,
+                        "startOffset": 2104,
+                        "endColumn": 85,
+                        "endOffset": 2185
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 22,
+                    "startColumn": 4,
+                    "startOffset": 2190,
+                    "endColumn": 100,
+                    "endOffset": 2286
+                },
+                "from": {
+                    "file": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\C:\\Users\\dayeon\\.android\\build-cache\\08f0b85e835f6a143412367b800bd932d6600384\\output\\res\\values-ne-rNP\\values-ne-rNP.xml",
+                    "position": {
+                        "startLine": 22,
+                        "startColumn": 4,
+                        "startOffset": 2190,
+                        "endColumn": 100,
+                        "endOffset": 2286
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "outputFile": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-ne-rNP\\values-ne-rNP.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 104,
+                    "endOffset": 155
+                },
+                "from": {
+                    "file": "/Users/mac/Blinkling/C:\\Users\\mac\\.android\\build-cache\\913d8db17f1c25b6ee67b77b63f40d3096bd505a\\output\\res\\values-ne-rNP\\values-ne-rNP.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 104,
+                        "endOffset": 155
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 160,
+                    "endColumn": 107,
+                    "endOffset": 263
+                },
+                "from": {
+                    "file": "/Users/mac/Blinkling/C:\\Users\\mac\\.android\\build-cache\\913d8db17f1c25b6ee67b77b63f40d3096bd505a\\output\\res\\values-ne-rNP\\values-ne-rNP.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 160,
+                        "endColumn": 107,
+                        "endOffset": 263
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 268,
+                    "endColumn": 122,
+                    "endOffset": 386
+                },
+                "from": {
+                    "file": "/Users/mac/Blinkling/C:\\Users\\mac\\.android\\build-cache\\913d8db17f1c25b6ee67b77b63f40d3096bd505a\\output\\res\\values-ne-rNP\\values-ne-rNP.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 268,
+                        "endColumn": 122,
+                        "endOffset": 386
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 391,
+                    "endColumn": 103,
+                    "endOffset": 490
+                },
+                "from": {
+                    "file": "/Users/mac/Blinkling/C:\\Users\\mac\\.android\\build-cache\\913d8db17f1c25b6ee67b77b63f40d3096bd505a\\output\\res\\values-ne-rNP\\values-ne-rNP.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 391,
+                        "endColumn": 103,
+                        "endOffset": 490
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 495,
+                    "endColumn": 107,
+                    "endOffset": 598
+                },
+                "from": {
+                    "file": "/Users/mac/Blinkling/C:\\Users\\mac\\.android\\build-cache\\913d8db17f1c25b6ee67b77b63f40d3096bd505a\\output\\res\\values-ne-rNP\\values-ne-rNP.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 495,
+                        "endColumn": 107,
+                        "endOffset": 598
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 7,
+                    "startColumn": 4,
+                    "startOffset": 603,
+                    "endColumn": 90,
+                    "endOffset": 689
+                },
+                "from": {
+                    "file": "/Users/mac/Blinkling/C:\\Users\\mac\\.android\\build-cache\\913d8db17f1c25b6ee67b77b63f40d3096bd505a\\output\\res\\values-ne-rNP\\values-ne-rNP.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 603,
+                        "endColumn": 90,
+                        "endOffset": 689
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 8,
+                    "startColumn": 4,
+                    "startOffset": 694,
+                    "endColumn": 106,
+                    "endOffset": 796
+                },
+                "from": {
+                    "file": "/Users/mac/Blinkling/C:\\Users\\mac\\.android\\build-cache\\913d8db17f1c25b6ee67b77b63f40d3096bd505a\\output\\res\\values-ne-rNP\\values-ne-rNP.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 694,
+                        "endColumn": 106,
+                        "endOffset": 796
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 9,
+                    "startColumn": 4,
+                    "startOffset": 801,
+                    "endColumn": 126,
+                    "endOffset": 923
+                },
+                "from": {
+                    "file": "/Users/mac/Blinkling/C:\\Users\\mac\\.android\\build-cache\\913d8db17f1c25b6ee67b77b63f40d3096bd505a\\output\\res\\values-ne-rNP\\values-ne-rNP.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 4,
+                        "startOffset": 801,
+                        "endColumn": 126,
+                        "endOffset": 923
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 10,
+                    "startColumn": 4,
+                    "startOffset": 928,
+                    "endColumn": 93,
+                    "endOffset": 1017
+                },
+                "from": {
+                    "file": "/Users/mac/Blinkling/C:\\Users\\mac\\.android\\build-cache\\913d8db17f1c25b6ee67b77b63f40d3096bd505a\\output\\res\\values-ne-rNP\\values-ne-rNP.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 4,
+                        "startOffset": 928,
+                        "endColumn": 93,
+                        "endOffset": 1017
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 11,
+                    "startColumn": 4,
+                    "startOffset": 1022,
+                    "endColumn": 89,
+                    "endOffset": 1107
+                },
+                "from": {
+                    "file": "/Users/mac/Blinkling/C:\\Users\\mac\\.android\\build-cache\\913d8db17f1c25b6ee67b77b63f40d3096bd505a\\output\\res\\values-ne-rNP\\values-ne-rNP.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 4,
+                        "startOffset": 1022,
+                        "endColumn": 89,
+                        "endOffset": 1107
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 12,
+                    "startColumn": 4,
+                    "startOffset": 1112,
+                    "endColumn": 87,
+                    "endOffset": 1195
+                },
+                "from": {
+                    "file": "/Users/mac/Blinkling/C:\\Users\\mac\\.android\\build-cache\\913d8db17f1c25b6ee67b77b63f40d3096bd505a\\output\\res\\values-ne-rNP\\values-ne-rNP.xml",
+                    "position": {
+                        "startLine": 12,
+                        "startColumn": 4,
+                        "startOffset": 1112,
+                        "endColumn": 87,
+                        "endOffset": 1195
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 13,
+                    "startColumn": 4,
+                    "startOffset": 1200,
+                    "endColumn": 109,
+                    "endOffset": 1305
+                },
+                "from": {
+                    "file": "/Users/mac/Blinkling/C:\\Users\\mac\\.android\\build-cache\\913d8db17f1c25b6ee67b77b63f40d3096bd505a\\output\\res\\values-ne-rNP\\values-ne-rNP.xml",
+                    "position": {
+                        "startLine": 13,
+                        "startColumn": 4,
+                        "startOffset": 1200,
+                        "endColumn": 109,
+                        "endOffset": 1305
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 14,
+                    "startColumn": 4,
+                    "startOffset": 1310,
+                    "endColumn": 115,
+                    "endOffset": 1421
+                },
+                "from": {
+                    "file": "/Users/mac/Blinkling/C:\\Users\\mac\\.android\\build-cache\\913d8db17f1c25b6ee67b77b63f40d3096bd505a\\output\\res\\values-ne-rNP\\values-ne-rNP.xml",
+                    "position": {
+                        "startLine": 14,
+                        "startColumn": 4,
+                        "startOffset": 1310,
+                        "endColumn": 115,
+                        "endOffset": 1421
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 15,
+                    "startColumn": 4,
+                    "startOffset": 1426,
+                    "endColumn": 102,
+                    "endOffset": 1524
+                },
+                "from": {
+                    "file": "/Users/mac/Blinkling/C:\\Users\\mac\\.android\\build-cache\\913d8db17f1c25b6ee67b77b63f40d3096bd505a\\output\\res\\values-ne-rNP\\values-ne-rNP.xml",
+                    "position": {
+                        "startLine": 15,
+                        "startColumn": 4,
+                        "startOffset": 1426,
+                        "endColumn": 102,
+                        "endOffset": 1524
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 16,
+                    "startColumn": 4,
+                    "startOffset": 1529,
+                    "endColumn": 114,
+                    "endOffset": 1639
+                },
+                "from": {
+                    "file": "/Users/mac/Blinkling/C:\\Users\\mac\\.android\\build-cache\\913d8db17f1c25b6ee67b77b63f40d3096bd505a\\output\\res\\values-ne-rNP\\values-ne-rNP.xml",
+                    "position": {
+                        "startLine": 16,
+                        "startColumn": 4,
+                        "startOffset": 1529,
+                        "endColumn": 114,
+                        "endOffset": 1639
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 17,
+                    "startColumn": 4,
+                    "startOffset": 1644,
+                    "endColumn": 101,
+                    "endOffset": 1741
+                },
+                "from": {
+                    "file": "/Users/mac/Blinkling/C:\\Users\\mac\\.android\\build-cache\\913d8db17f1c25b6ee67b77b63f40d3096bd505a\\output\\res\\values-ne-rNP\\values-ne-rNP.xml",
+                    "position": {
+                        "startLine": 17,
+                        "startColumn": 4,
+                        "startOffset": 1644,
+                        "endColumn": 101,
+                        "endOffset": 1741
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 18,
+                    "startColumn": 4,
+                    "startOffset": 1746,
+                    "endColumn": 114,
+                    "endOffset": 1856
+                },
+                "from": {
+                    "file": "/Users/mac/Blinkling/C:\\Users\\mac\\.android\\build-cache\\913d8db17f1c25b6ee67b77b63f40d3096bd505a\\output\\res\\values-ne-rNP\\values-ne-rNP.xml",
+                    "position": {
+                        "startLine": 18,
+                        "startColumn": 4,
+                        "startOffset": 1746,
+                        "endColumn": 114,
+                        "endOffset": 1856
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 19,
+                    "startColumn": 4,
+                    "startOffset": 1861,
+                    "endColumn": 130,
+                    "endOffset": 1987
+                },
+                "from": {
+                    "file": "/Users/mac/Blinkling/C:\\Users\\mac\\.android\\build-cache\\913d8db17f1c25b6ee67b77b63f40d3096bd505a\\output\\res\\values-ne-rNP\\values-ne-rNP.xml",
+                    "position": {
+                        "startLine": 19,
+                        "startColumn": 4,
+                        "startOffset": 1861,
+                        "endColumn": 130,
+                        "endOffset": 1987
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 20,
+                    "startColumn": 4,
+                    "startOffset": 1992,
+                    "endColumn": 111,
+                    "endOffset": 2099
+                },
+                "from": {
+                    "file": "/Users/mac/Blinkling/C:\\Users\\mac\\.android\\build-cache\\913d8db17f1c25b6ee67b77b63f40d3096bd505a\\output\\res\\values-ne-rNP\\values-ne-rNP.xml",
+                    "position": {
+                        "startLine": 20,
+                        "startColumn": 4,
+                        "startOffset": 1992,
+                        "endColumn": 111,
+                        "endOffset": 2099
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 21,
+                    "startColumn": 4,
+                    "startOffset": 2104,
+                    "endColumn": 85,
+                    "endOffset": 2185
+                },
+                "from": {
+                    "file": "/Users/mac/Blinkling/C:\\Users\\mac\\.android\\build-cache\\913d8db17f1c25b6ee67b77b63f40d3096bd505a\\output\\res\\values-ne-rNP\\values-ne-rNP.xml",
+                    "position": {
+                        "startLine": 21,
+                        "startColumn": 4,
+                        "startOffset": 2104,
+                        "endColumn": 85,
+                        "endOffset": 2185
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 22,
+                    "startColumn": 4,
+                    "startOffset": 2190,
+                    "endColumn": 100,
+                    "endOffset": 2286
+                },
+                "from": {
+                    "file": "/Users/mac/Blinkling/C:\\Users\\mac\\.android\\build-cache\\913d8db17f1c25b6ee67b77b63f40d3096bd505a\\output\\res\\values-ne-rNP\\values-ne-rNP.xml",
+                    "position": {
+                        "startLine": 22,
+                        "startColumn": 4,
+                        "startOffset": 2190,
+                        "endColumn": 100,
+                        "endOffset": 2286
+                    }
+                }
+            }
+        ]
+    },
+    {
         "outputFile": "/Users/mac/Blinkling/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ne-rNP/values-ne-rNP.xml",
         "map": [
             {
@@ -708,7 +1516,7 @@
         ]
     },
     {
-        "outputFile": "/Users/mac/Downloads/Blinkling/C:\\Users\\Hyemin\\Documents\\Blinkling\\Blinkling\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-ne-rNP\\values-ne-rNP.xml",
+        "outputFile": "/Users/mac/Blinkling/C:\\Users\\mac\\Blinkling\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-ne-rNP\\values-ne-rNP.xml",
         "map": [
             {
                 "to": {
@@ -719,7 +1527,7 @@
                     "endOffset": 155
                 },
                 "from": {
-                    "file": "/Users/mac/Downloads/Blinkling/C:\\Users\\Hyemin\\.android\\build-cache\\6129fd2d3f666eab7401e4b78bea7d27c6653860\\output\\res\\values-ne-rNP\\values-ne-rNP.xml",
+                    "file": "/Users/mac/Blinkling/C:\\Users\\mac\\.android\\build-cache\\913d8db17f1c25b6ee67b77b63f40d3096bd505a\\output\\res\\values-ne-rNP\\values-ne-rNP.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,
@@ -738,7 +1546,7 @@
                     "endOffset": 263
                 },
                 "from": {
-                    "file": "/Users/mac/Downloads/Blinkling/C:\\Users\\Hyemin\\.android\\build-cache\\6129fd2d3f666eab7401e4b78bea7d27c6653860\\output\\res\\values-ne-rNP\\values-ne-rNP.xml",
+                    "file": "/Users/mac/Blinkling/C:\\Users\\mac\\.android\\build-cache\\913d8db17f1c25b6ee67b77b63f40d3096bd505a\\output\\res\\values-ne-rNP\\values-ne-rNP.xml",
                     "position": {
                         "startLine": 3,
                         "startColumn": 4,
@@ -757,7 +1565,7 @@
                     "endOffset": 386
                 },
                 "from": {
-                    "file": "/Users/mac/Downloads/Blinkling/C:\\Users\\Hyemin\\.android\\build-cache\\6129fd2d3f666eab7401e4b78bea7d27c6653860\\output\\res\\values-ne-rNP\\values-ne-rNP.xml",
+                    "file": "/Users/mac/Blinkling/C:\\Users\\mac\\.android\\build-cache\\913d8db17f1c25b6ee67b77b63f40d3096bd505a\\output\\res\\values-ne-rNP\\values-ne-rNP.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
@@ -776,7 +1584,7 @@
                     "endOffset": 490
                 },
                 "from": {
-                    "file": "/Users/mac/Downloads/Blinkling/C:\\Users\\Hyemin\\.android\\build-cache\\6129fd2d3f666eab7401e4b78bea7d27c6653860\\output\\res\\values-ne-rNP\\values-ne-rNP.xml",
+                    "file": "/Users/mac/Blinkling/C:\\Users\\mac\\.android\\build-cache\\913d8db17f1c25b6ee67b77b63f40d3096bd505a\\output\\res\\values-ne-rNP\\values-ne-rNP.xml",
                     "position": {
                         "startLine": 5,
                         "startColumn": 4,
@@ -795,7 +1603,7 @@
                     "endOffset": 598
                 },
                 "from": {
-                    "file": "/Users/mac/Downloads/Blinkling/C:\\Users\\Hyemin\\.android\\build-cache\\6129fd2d3f666eab7401e4b78bea7d27c6653860\\output\\res\\values-ne-rNP\\values-ne-rNP.xml",
+                    "file": "/Users/mac/Blinkling/C:\\Users\\mac\\.android\\build-cache\\913d8db17f1c25b6ee67b77b63f40d3096bd505a\\output\\res\\values-ne-rNP\\values-ne-rNP.xml",
                     "position": {
                         "startLine": 6,
                         "startColumn": 4,
@@ -814,7 +1622,7 @@
                     "endOffset": 689
                 },
                 "from": {
-                    "file": "/Users/mac/Downloads/Blinkling/C:\\Users\\Hyemin\\.android\\build-cache\\6129fd2d3f666eab7401e4b78bea7d27c6653860\\output\\res\\values-ne-rNP\\values-ne-rNP.xml",
+                    "file": "/Users/mac/Blinkling/C:\\Users\\mac\\.android\\build-cache\\913d8db17f1c25b6ee67b77b63f40d3096bd505a\\output\\res\\values-ne-rNP\\values-ne-rNP.xml",
                     "position": {
                         "startLine": 7,
                         "startColumn": 4,
@@ -833,7 +1641,7 @@
                     "endOffset": 796
                 },
                 "from": {
-                    "file": "/Users/mac/Downloads/Blinkling/C:\\Users\\Hyemin\\.android\\build-cache\\6129fd2d3f666eab7401e4b78bea7d27c6653860\\output\\res\\values-ne-rNP\\values-ne-rNP.xml",
+                    "file": "/Users/mac/Blinkling/C:\\Users\\mac\\.android\\build-cache\\913d8db17f1c25b6ee67b77b63f40d3096bd505a\\output\\res\\values-ne-rNP\\values-ne-rNP.xml",
                     "position": {
                         "startLine": 8,
                         "startColumn": 4,
@@ -852,7 +1660,7 @@
                     "endOffset": 923
                 },
                 "from": {
-                    "file": "/Users/mac/Downloads/Blinkling/C:\\Users\\Hyemin\\.android\\build-cache\\6129fd2d3f666eab7401e4b78bea7d27c6653860\\output\\res\\values-ne-rNP\\values-ne-rNP.xml",
+                    "file": "/Users/mac/Blinkling/C:\\Users\\mac\\.android\\build-cache\\913d8db17f1c25b6ee67b77b63f40d3096bd505a\\output\\res\\values-ne-rNP\\values-ne-rNP.xml",
                     "position": {
                         "startLine": 9,
                         "startColumn": 4,
@@ -871,7 +1679,7 @@
                     "endOffset": 1017
                 },
                 "from": {
-                    "file": "/Users/mac/Downloads/Blinkling/C:\\Users\\Hyemin\\.android\\build-cache\\6129fd2d3f666eab7401e4b78bea7d27c6653860\\output\\res\\values-ne-rNP\\values-ne-rNP.xml",
+                    "file": "/Users/mac/Blinkling/C:\\Users\\mac\\.android\\build-cache\\913d8db17f1c25b6ee67b77b63f40d3096bd505a\\output\\res\\values-ne-rNP\\values-ne-rNP.xml",
                     "position": {
                         "startLine": 10,
                         "startColumn": 4,
@@ -890,7 +1698,7 @@
                     "endOffset": 1107
                 },
                 "from": {
-                    "file": "/Users/mac/Downloads/Blinkling/C:\\Users\\Hyemin\\.android\\build-cache\\6129fd2d3f666eab7401e4b78bea7d27c6653860\\output\\res\\values-ne-rNP\\values-ne-rNP.xml",
+                    "file": "/Users/mac/Blinkling/C:\\Users\\mac\\.android\\build-cache\\913d8db17f1c25b6ee67b77b63f40d3096bd505a\\output\\res\\values-ne-rNP\\values-ne-rNP.xml",
                     "position": {
                         "startLine": 11,
                         "startColumn": 4,
@@ -909,7 +1717,7 @@
                     "endOffset": 1195
                 },
                 "from": {
-                    "file": "/Users/mac/Downloads/Blinkling/C:\\Users\\Hyemin\\.android\\build-cache\\6129fd2d3f666eab7401e4b78bea7d27c6653860\\output\\res\\values-ne-rNP\\values-ne-rNP.xml",
+                    "file": "/Users/mac/Blinkling/C:\\Users\\mac\\.android\\build-cache\\913d8db17f1c25b6ee67b77b63f40d3096bd505a\\output\\res\\values-ne-rNP\\values-ne-rNP.xml",
                     "position": {
                         "startLine": 12,
                         "startColumn": 4,
@@ -928,7 +1736,7 @@
                     "endOffset": 1305
                 },
                 "from": {
-                    "file": "/Users/mac/Downloads/Blinkling/C:\\Users\\Hyemin\\.android\\build-cache\\6129fd2d3f666eab7401e4b78bea7d27c6653860\\output\\res\\values-ne-rNP\\values-ne-rNP.xml",
+                    "file": "/Users/mac/Blinkling/C:\\Users\\mac\\.android\\build-cache\\913d8db17f1c25b6ee67b77b63f40d3096bd505a\\output\\res\\values-ne-rNP\\values-ne-rNP.xml",
                     "position": {
                         "startLine": 13,
                         "startColumn": 4,
@@ -947,7 +1755,7 @@
                     "endOffset": 1421
                 },
                 "from": {
-                    "file": "/Users/mac/Downloads/Blinkling/C:\\Users\\Hyemin\\.android\\build-cache\\6129fd2d3f666eab7401e4b78bea7d27c6653860\\output\\res\\values-ne-rNP\\values-ne-rNP.xml",
+                    "file": "/Users/mac/Blinkling/C:\\Users\\mac\\.android\\build-cache\\913d8db17f1c25b6ee67b77b63f40d3096bd505a\\output\\res\\values-ne-rNP\\values-ne-rNP.xml",
                     "position": {
                         "startLine": 14,
                         "startColumn": 4,
@@ -966,7 +1774,7 @@
                     "endOffset": 1524
                 },
                 "from": {
-                    "file": "/Users/mac/Downloads/Blinkling/C:\\Users\\Hyemin\\.android\\build-cache\\6129fd2d3f666eab7401e4b78bea7d27c6653860\\output\\res\\values-ne-rNP\\values-ne-rNP.xml",
+                    "file": "/Users/mac/Blinkling/C:\\Users\\mac\\.android\\build-cache\\913d8db17f1c25b6ee67b77b63f40d3096bd505a\\output\\res\\values-ne-rNP\\values-ne-rNP.xml",
                     "position": {
                         "startLine": 15,
                         "startColumn": 4,
@@ -985,7 +1793,7 @@
                     "endOffset": 1639
                 },
                 "from": {
-                    "file": "/Users/mac/Downloads/Blinkling/C:\\Users\\Hyemin\\.android\\build-cache\\6129fd2d3f666eab7401e4b78bea7d27c6653860\\output\\res\\values-ne-rNP\\values-ne-rNP.xml",
+                    "file": "/Users/mac/Blinkling/C:\\Users\\mac\\.android\\build-cache\\913d8db17f1c25b6ee67b77b63f40d3096bd505a\\output\\res\\values-ne-rNP\\values-ne-rNP.xml",
                     "position": {
                         "startLine": 16,
                         "startColumn": 4,
@@ -1004,7 +1812,7 @@
                     "endOffset": 1741
                 },
                 "from": {
-                    "file": "/Users/mac/Downloads/Blinkling/C:\\Users\\Hyemin\\.android\\build-cache\\6129fd2d3f666eab7401e4b78bea7d27c6653860\\output\\res\\values-ne-rNP\\values-ne-rNP.xml",
+                    "file": "/Users/mac/Blinkling/C:\\Users\\mac\\.android\\build-cache\\913d8db17f1c25b6ee67b77b63f40d3096bd505a\\output\\res\\values-ne-rNP\\values-ne-rNP.xml",
                     "position": {
                         "startLine": 17,
                         "startColumn": 4,
@@ -1023,7 +1831,7 @@
                     "endOffset": 1856
                 },
                 "from": {
-                    "file": "/Users/mac/Downloads/Blinkling/C:\\Users\\Hyemin\\.android\\build-cache\\6129fd2d3f666eab7401e4b78bea7d27c6653860\\output\\res\\values-ne-rNP\\values-ne-rNP.xml",
+                    "file": "/Users/mac/Blinkling/C:\\Users\\mac\\.android\\build-cache\\913d8db17f1c25b6ee67b77b63f40d3096bd505a\\output\\res\\values-ne-rNP\\values-ne-rNP.xml",
                     "position": {
                         "startLine": 18,
                         "startColumn": 4,
@@ -1042,7 +1850,7 @@
                     "endOffset": 1987
                 },
                 "from": {
-                    "file": "/Users/mac/Downloads/Blinkling/C:\\Users\\Hyemin\\.android\\build-cache\\6129fd2d3f666eab7401e4b78bea7d27c6653860\\output\\res\\values-ne-rNP\\values-ne-rNP.xml",
+                    "file": "/Users/mac/Blinkling/C:\\Users\\mac\\.android\\build-cache\\913d8db17f1c25b6ee67b77b63f40d3096bd505a\\output\\res\\values-ne-rNP\\values-ne-rNP.xml",
                     "position": {
                         "startLine": 19,
                         "startColumn": 4,
@@ -1061,7 +1869,7 @@
                     "endOffset": 2099
                 },
                 "from": {
-                    "file": "/Users/mac/Downloads/Blinkling/C:\\Users\\Hyemin\\.android\\build-cache\\6129fd2d3f666eab7401e4b78bea7d27c6653860\\output\\res\\values-ne-rNP\\values-ne-rNP.xml",
+                    "file": "/Users/mac/Blinkling/C:\\Users\\mac\\.android\\build-cache\\913d8db17f1c25b6ee67b77b63f40d3096bd505a\\output\\res\\values-ne-rNP\\values-ne-rNP.xml",
                     "position": {
                         "startLine": 20,
                         "startColumn": 4,
@@ -1080,7 +1888,7 @@
                     "endOffset": 2185
                 },
                 "from": {
-                    "file": "/Users/mac/Downloads/Blinkling/C:\\Users\\Hyemin\\.android\\build-cache\\6129fd2d3f666eab7401e4b78bea7d27c6653860\\output\\res\\values-ne-rNP\\values-ne-rNP.xml",
+                    "file": "/Users/mac/Blinkling/C:\\Users\\mac\\.android\\build-cache\\913d8db17f1c25b6ee67b77b63f40d3096bd505a\\output\\res\\values-ne-rNP\\values-ne-rNP.xml",
                     "position": {
                         "startLine": 21,
                         "startColumn": 4,
@@ -1099,7 +1907,7 @@
                     "endOffset": 2286
                 },
                 "from": {
-                    "file": "/Users/mac/Downloads/Blinkling/C:\\Users\\Hyemin\\.android\\build-cache\\6129fd2d3f666eab7401e4b78bea7d27c6653860\\output\\res\\values-ne-rNP\\values-ne-rNP.xml",
+                    "file": "/Users/mac/Blinkling/C:\\Users\\mac\\.android\\build-cache\\913d8db17f1c25b6ee67b77b63f40d3096bd505a\\output\\res\\values-ne-rNP\\values-ne-rNP.xml",
                     "position": {
                         "startLine": 22,
                         "startColumn": 4,
@@ -1112,7 +1920,7 @@
         ]
     },
     {
-        "outputFile": "/Users/mac/Downloads/Blinkling/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ne-rNP/values-ne-rNP.xml",
+        "outputFile": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\C:\\Users\\Hyemin\\Documents\\Blinkling\\Blinkling\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-ne-rNP\\values-ne-rNP.xml",
         "map": [
             {
                 "to": {
@@ -1123,7 +1931,7 @@
                     "endOffset": 155
                 },
                 "from": {
-                    "file": "/Users/mac/.android/build-cache/913d8db17f1c25b6ee67b77b63f40d3096bd505a/output/res/values-ne-rNP/values-ne-rNP.xml",
+                    "file": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\C:\\Users\\Hyemin\\.android\\build-cache\\6129fd2d3f666eab7401e4b78bea7d27c6653860\\output\\res\\values-ne-rNP\\values-ne-rNP.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,
@@ -1142,7 +1950,7 @@
                     "endOffset": 263
                 },
                 "from": {
-                    "file": "/Users/mac/.android/build-cache/913d8db17f1c25b6ee67b77b63f40d3096bd505a/output/res/values-ne-rNP/values-ne-rNP.xml",
+                    "file": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\C:\\Users\\Hyemin\\.android\\build-cache\\6129fd2d3f666eab7401e4b78bea7d27c6653860\\output\\res\\values-ne-rNP\\values-ne-rNP.xml",
                     "position": {
                         "startLine": 3,
                         "startColumn": 4,
@@ -1161,7 +1969,7 @@
                     "endOffset": 386
                 },
                 "from": {
-                    "file": "/Users/mac/.android/build-cache/913d8db17f1c25b6ee67b77b63f40d3096bd505a/output/res/values-ne-rNP/values-ne-rNP.xml",
+                    "file": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\C:\\Users\\Hyemin\\.android\\build-cache\\6129fd2d3f666eab7401e4b78bea7d27c6653860\\output\\res\\values-ne-rNP\\values-ne-rNP.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
@@ -1180,7 +1988,7 @@
                     "endOffset": 490
                 },
                 "from": {
-                    "file": "/Users/mac/.android/build-cache/913d8db17f1c25b6ee67b77b63f40d3096bd505a/output/res/values-ne-rNP/values-ne-rNP.xml",
+                    "file": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\C:\\Users\\Hyemin\\.android\\build-cache\\6129fd2d3f666eab7401e4b78bea7d27c6653860\\output\\res\\values-ne-rNP\\values-ne-rNP.xml",
                     "position": {
                         "startLine": 5,
                         "startColumn": 4,
@@ -1199,7 +2007,7 @@
                     "endOffset": 598
                 },
                 "from": {
-                    "file": "/Users/mac/.android/build-cache/913d8db17f1c25b6ee67b77b63f40d3096bd505a/output/res/values-ne-rNP/values-ne-rNP.xml",
+                    "file": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\C:\\Users\\Hyemin\\.android\\build-cache\\6129fd2d3f666eab7401e4b78bea7d27c6653860\\output\\res\\values-ne-rNP\\values-ne-rNP.xml",
                     "position": {
                         "startLine": 6,
                         "startColumn": 4,
@@ -1218,7 +2026,7 @@
                     "endOffset": 689
                 },
                 "from": {
-                    "file": "/Users/mac/.android/build-cache/913d8db17f1c25b6ee67b77b63f40d3096bd505a/output/res/values-ne-rNP/values-ne-rNP.xml",
+                    "file": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\C:\\Users\\Hyemin\\.android\\build-cache\\6129fd2d3f666eab7401e4b78bea7d27c6653860\\output\\res\\values-ne-rNP\\values-ne-rNP.xml",
                     "position": {
                         "startLine": 7,
                         "startColumn": 4,
@@ -1237,7 +2045,7 @@
                     "endOffset": 796
                 },
                 "from": {
-                    "file": "/Users/mac/.android/build-cache/913d8db17f1c25b6ee67b77b63f40d3096bd505a/output/res/values-ne-rNP/values-ne-rNP.xml",
+                    "file": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\C:\\Users\\Hyemin\\.android\\build-cache\\6129fd2d3f666eab7401e4b78bea7d27c6653860\\output\\res\\values-ne-rNP\\values-ne-rNP.xml",
                     "position": {
                         "startLine": 8,
                         "startColumn": 4,
@@ -1256,7 +2064,7 @@
                     "endOffset": 923
                 },
                 "from": {
-                    "file": "/Users/mac/.android/build-cache/913d8db17f1c25b6ee67b77b63f40d3096bd505a/output/res/values-ne-rNP/values-ne-rNP.xml",
+                    "file": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\C:\\Users\\Hyemin\\.android\\build-cache\\6129fd2d3f666eab7401e4b78bea7d27c6653860\\output\\res\\values-ne-rNP\\values-ne-rNP.xml",
                     "position": {
                         "startLine": 9,
                         "startColumn": 4,
@@ -1275,7 +2083,7 @@
                     "endOffset": 1017
                 },
                 "from": {
-                    "file": "/Users/mac/.android/build-cache/913d8db17f1c25b6ee67b77b63f40d3096bd505a/output/res/values-ne-rNP/values-ne-rNP.xml",
+                    "file": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\C:\\Users\\Hyemin\\.android\\build-cache\\6129fd2d3f666eab7401e4b78bea7d27c6653860\\output\\res\\values-ne-rNP\\values-ne-rNP.xml",
                     "position": {
                         "startLine": 10,
                         "startColumn": 4,
@@ -1294,7 +2102,7 @@
                     "endOffset": 1107
                 },
                 "from": {
-                    "file": "/Users/mac/.android/build-cache/913d8db17f1c25b6ee67b77b63f40d3096bd505a/output/res/values-ne-rNP/values-ne-rNP.xml",
+                    "file": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\C:\\Users\\Hyemin\\.android\\build-cache\\6129fd2d3f666eab7401e4b78bea7d27c6653860\\output\\res\\values-ne-rNP\\values-ne-rNP.xml",
                     "position": {
                         "startLine": 11,
                         "startColumn": 4,
@@ -1313,7 +2121,7 @@
                     "endOffset": 1195
                 },
                 "from": {
-                    "file": "/Users/mac/.android/build-cache/913d8db17f1c25b6ee67b77b63f40d3096bd505a/output/res/values-ne-rNP/values-ne-rNP.xml",
+                    "file": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\C:\\Users\\Hyemin\\.android\\build-cache\\6129fd2d3f666eab7401e4b78bea7d27c6653860\\output\\res\\values-ne-rNP\\values-ne-rNP.xml",
                     "position": {
                         "startLine": 12,
                         "startColumn": 4,
@@ -1332,7 +2140,7 @@
                     "endOffset": 1305
                 },
                 "from": {
-                    "file": "/Users/mac/.android/build-cache/913d8db17f1c25b6ee67b77b63f40d3096bd505a/output/res/values-ne-rNP/values-ne-rNP.xml",
+                    "file": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\C:\\Users\\Hyemin\\.android\\build-cache\\6129fd2d3f666eab7401e4b78bea7d27c6653860\\output\\res\\values-ne-rNP\\values-ne-rNP.xml",
                     "position": {
                         "startLine": 13,
                         "startColumn": 4,
@@ -1351,7 +2159,7 @@
                     "endOffset": 1421
                 },
                 "from": {
-                    "file": "/Users/mac/.android/build-cache/913d8db17f1c25b6ee67b77b63f40d3096bd505a/output/res/values-ne-rNP/values-ne-rNP.xml",
+                    "file": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\C:\\Users\\Hyemin\\.android\\build-cache\\6129fd2d3f666eab7401e4b78bea7d27c6653860\\output\\res\\values-ne-rNP\\values-ne-rNP.xml",
                     "position": {
                         "startLine": 14,
                         "startColumn": 4,
@@ -1370,7 +2178,7 @@
                     "endOffset": 1524
                 },
                 "from": {
-                    "file": "/Users/mac/.android/build-cache/913d8db17f1c25b6ee67b77b63f40d3096bd505a/output/res/values-ne-rNP/values-ne-rNP.xml",
+                    "file": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\C:\\Users\\Hyemin\\.android\\build-cache\\6129fd2d3f666eab7401e4b78bea7d27c6653860\\output\\res\\values-ne-rNP\\values-ne-rNP.xml",
                     "position": {
                         "startLine": 15,
                         "startColumn": 4,
@@ -1389,7 +2197,7 @@
                     "endOffset": 1639
                 },
                 "from": {
-                    "file": "/Users/mac/.android/build-cache/913d8db17f1c25b6ee67b77b63f40d3096bd505a/output/res/values-ne-rNP/values-ne-rNP.xml",
+                    "file": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\C:\\Users\\Hyemin\\.android\\build-cache\\6129fd2d3f666eab7401e4b78bea7d27c6653860\\output\\res\\values-ne-rNP\\values-ne-rNP.xml",
                     "position": {
                         "startLine": 16,
                         "startColumn": 4,
@@ -1408,7 +2216,7 @@
                     "endOffset": 1741
                 },
                 "from": {
-                    "file": "/Users/mac/.android/build-cache/913d8db17f1c25b6ee67b77b63f40d3096bd505a/output/res/values-ne-rNP/values-ne-rNP.xml",
+                    "file": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\C:\\Users\\Hyemin\\.android\\build-cache\\6129fd2d3f666eab7401e4b78bea7d27c6653860\\output\\res\\values-ne-rNP\\values-ne-rNP.xml",
                     "position": {
                         "startLine": 17,
                         "startColumn": 4,
@@ -1427,7 +2235,7 @@
                     "endOffset": 1856
                 },
                 "from": {
-                    "file": "/Users/mac/.android/build-cache/913d8db17f1c25b6ee67b77b63f40d3096bd505a/output/res/values-ne-rNP/values-ne-rNP.xml",
+                    "file": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\C:\\Users\\Hyemin\\.android\\build-cache\\6129fd2d3f666eab7401e4b78bea7d27c6653860\\output\\res\\values-ne-rNP\\values-ne-rNP.xml",
                     "position": {
                         "startLine": 18,
                         "startColumn": 4,
@@ -1446,7 +2254,7 @@
                     "endOffset": 1987
                 },
                 "from": {
-                    "file": "/Users/mac/.android/build-cache/913d8db17f1c25b6ee67b77b63f40d3096bd505a/output/res/values-ne-rNP/values-ne-rNP.xml",
+                    "file": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\C:\\Users\\Hyemin\\.android\\build-cache\\6129fd2d3f666eab7401e4b78bea7d27c6653860\\output\\res\\values-ne-rNP\\values-ne-rNP.xml",
                     "position": {
                         "startLine": 19,
                         "startColumn": 4,
@@ -1465,7 +2273,7 @@
                     "endOffset": 2099
                 },
                 "from": {
-                    "file": "/Users/mac/.android/build-cache/913d8db17f1c25b6ee67b77b63f40d3096bd505a/output/res/values-ne-rNP/values-ne-rNP.xml",
+                    "file": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\C:\\Users\\Hyemin\\.android\\build-cache\\6129fd2d3f666eab7401e4b78bea7d27c6653860\\output\\res\\values-ne-rNP\\values-ne-rNP.xml",
                     "position": {
                         "startLine": 20,
                         "startColumn": 4,
@@ -1484,7 +2292,7 @@
                     "endOffset": 2185
                 },
                 "from": {
-                    "file": "/Users/mac/.android/build-cache/913d8db17f1c25b6ee67b77b63f40d3096bd505a/output/res/values-ne-rNP/values-ne-rNP.xml",
+                    "file": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\C:\\Users\\Hyemin\\.android\\build-cache\\6129fd2d3f666eab7401e4b78bea7d27c6653860\\output\\res\\values-ne-rNP\\values-ne-rNP.xml",
                     "position": {
                         "startLine": 21,
                         "startColumn": 4,
@@ -1503,7 +2311,7 @@
                     "endOffset": 2286
                 },
                 "from": {
-                    "file": "/Users/mac/.android/build-cache/913d8db17f1c25b6ee67b77b63f40d3096bd505a/output/res/values-ne-rNP/values-ne-rNP.xml",
+                    "file": "/Users/mac/Blinkling/C:\\Users\\mac\\Downloads\\Blinkling\\C:\\Users\\Hyemin\\.android\\build-cache\\6129fd2d3f666eab7401e4b78bea7d27c6653860\\output\\res\\values-ne-rNP\\values-ne-rNP.xml",
                     "position": {
                         "startLine": 22,
                         "startColumn": 4,
@@ -1516,7 +2324,7 @@
         ]
     },
     {
-        "outputFile": "/Users/mac/Downloads/Blinkling/C:\\Users\\dayeon\\Blinkling\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-ne-rNP\\values-ne-rNP.xml",
+        "outputFile": "/Users/mac/Blinkling/C:\\Users\\dy889\\Documents\\Blinkling\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-ne-rNP\\values-ne-rNP.xml",
         "map": [
             {
                 "to": {
@@ -1527,7 +2335,7 @@
                     "endOffset": 155
                 },
                 "from": {
-                    "file": "/Users/mac/Downloads/Blinkling/C:\\Users\\dayeon\\.android\\build-cache\\08f0b85e835f6a143412367b800bd932d6600384\\output\\res\\values-ne-rNP\\values-ne-rNP.xml",
+                    "file": "/Users/mac/Blinkling/C:\\Users\\dy889\\.android\\build-cache\\eaa9472fc91e028a5a27b3d20e7a0c3fbad5c383\\output\\res\\values-ne-rNP\\values-ne-rNP.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,
@@ -1546,7 +2354,7 @@
                     "endOffset": 263
                 },
                 "from": {
-                    "file": "/Users/mac/Downloads/Blinkling/C:\\Users\\dayeon\\.android\\build-cache\\08f0b85e835f6a143412367b800bd932d6600384\\output\\res\\values-ne-rNP\\values-ne-rNP.xml",
+                    "file": "/Users/mac/Blinkling/C:\\Users\\dy889\\.android\\build-cache\\eaa9472fc91e028a5a27b3d20e7a0c3fbad5c383\\output\\res\\values-ne-rNP\\values-ne-rNP.xml",
                     "position": {
                         "startLine": 3,
                         "startColumn": 4,
@@ -1565,7 +2373,7 @@
                     "endOffset": 386
                 },
                 "from": {
-                    "file": "/Users/mac/Downloads/Blinkling/C:\\Users\\dayeon\\.android\\build-cache\\08f0b85e835f6a143412367b800bd932d6600384\\output\\res\\values-ne-rNP\\values-ne-rNP.xml",
+                    "file": "/Users/mac/Blinkling/C:\\Users\\dy889\\.android\\build-cache\\eaa9472fc91e028a5a27b3d20e7a0c3fbad5c383\\output\\res\\values-ne-rNP\\values-ne-rNP.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
@@ -1584,7 +2392,7 @@
                     "endOffset": 490
                 },
                 "from": {
-                    "file": "/Users/mac/Downloads/Blinkling/C:\\Users\\dayeon\\.android\\build-cache\\08f0b85e835f6a143412367b800bd932d6600384\\output\\res\\values-ne-rNP\\values-ne-rNP.xml",
+                    "file": "/Users/mac/Blinkling/C:\\Users\\dy889\\.android\\build-cache\\eaa9472fc91e028a5a27b3d20e7a0c3fbad5c383\\output\\res\\values-ne-rNP\\values-ne-rNP.xml",
                     "position": {
                         "startLine": 5,
                         "startColumn": 4,
@@ -1603,7 +2411,7 @@
                     "endOffset": 598
                 },
                 "from": {
-                    "file": "/Users/mac/Downloads/Blinkling/C:\\Users\\dayeon\\.android\\build-cache\\08f0b85e835f6a143412367b800bd932d6600384\\output\\res\\values-ne-rNP\\values-ne-rNP.xml",
+                    "file": "/Users/mac/Blinkling/C:\\Users\\dy889\\.android\\build-cache\\eaa9472fc91e028a5a27b3d20e7a0c3fbad5c383\\output\\res\\values-ne-rNP\\values-ne-rNP.xml",
                     "position": {
                         "startLine": 6,
                         "startColumn": 4,
@@ -1622,7 +2430,7 @@
                     "endOffset": 689
                 },
                 "from": {
-                    "file": "/Users/mac/Downloads/Blinkling/C:\\Users\\dayeon\\.android\\build-cache\\08f0b85e835f6a143412367b800bd932d6600384\\output\\res\\values-ne-rNP\\values-ne-rNP.xml",
+                    "file": "/Users/mac/Blinkling/C:\\Users\\dy889\\.android\\build-cache\\eaa9472fc91e028a5a27b3d20e7a0c3fbad5c383\\output\\res\\values-ne-rNP\\values-ne-rNP.xml",
                     "position": {
                         "startLine": 7,
                         "startColumn": 4,
@@ -1641,7 +2449,7 @@
                     "endOffset": 796
                 },
                 "from": {
-                    "file": "/Users/mac/Downloads/Blinkling/C:\\Users\\dayeon\\.android\\build-cache\\08f0b85e835f6a143412367b800bd932d6600384\\output\\res\\values-ne-rNP\\values-ne-rNP.xml",
+                    "file": "/Users/mac/Blinkling/C:\\Users\\dy889\\.android\\build-cache\\eaa9472fc91e028a5a27b3d20e7a0c3fbad5c383\\output\\res\\values-ne-rNP\\values-ne-rNP.xml",
                     "position": {
                         "startLine": 8,
                         "startColumn": 4,
@@ -1660,7 +2468,7 @@
                     "endOffset": 923
                 },
                 "from": {
-                    "file": "/Users/mac/Downloads/Blinkling/C:\\Users\\dayeon\\.android\\build-cache\\08f0b85e835f6a143412367b800bd932d6600384\\output\\res\\values-ne-rNP\\values-ne-rNP.xml",
+                    "file": "/Users/mac/Blinkling/C:\\Users\\dy889\\.android\\build-cache\\eaa9472fc91e028a5a27b3d20e7a0c3fbad5c383\\output\\res\\values-ne-rNP\\values-ne-rNP.xml",
                     "position": {
                         "startLine": 9,
                         "startColumn": 4,
@@ -1679,7 +2487,7 @@
                     "endOffset": 1017
                 },
                 "from": {
-                    "file": "/Users/mac/Downloads/Blinkling/C:\\Users\\dayeon\\.android\\build-cache\\08f0b85e835f6a143412367b800bd932d6600384\\output\\res\\values-ne-rNP\\values-ne-rNP.xml",
+                    "file": "/Users/mac/Blinkling/C:\\Users\\dy889\\.android\\build-cache\\eaa9472fc91e028a5a27b3d20e7a0c3fbad5c383\\output\\res\\values-ne-rNP\\values-ne-rNP.xml",
                     "position": {
                         "startLine": 10,
                         "startColumn": 4,
@@ -1698,7 +2506,7 @@
                     "endOffset": 1107
                 },
                 "from": {
-                    "file": "/Users/mac/Downloads/Blinkling/C:\\Users\\dayeon\\.android\\build-cache\\08f0b85e835f6a143412367b800bd932d6600384\\output\\res\\values-ne-rNP\\values-ne-rNP.xml",
+                    "file": "/Users/mac/Blinkling/C:\\Users\\dy889\\.android\\build-cache\\eaa9472fc91e028a5a27b3d20e7a0c3fbad5c383\\output\\res\\values-ne-rNP\\values-ne-rNP.xml",
                     "position": {
                         "startLine": 11,
                         "startColumn": 4,
@@ -1717,7 +2525,7 @@
                     "endOffset": 1195
                 },
                 "from": {
-                    "file": "/Users/mac/Downloads/Blinkling/C:\\Users\\dayeon\\.android\\build-cache\\08f0b85e835f6a143412367b800bd932d6600384\\output\\res\\values-ne-rNP\\values-ne-rNP.xml",
+                    "file": "/Users/mac/Blinkling/C:\\Users\\dy889\\.android\\build-cache\\eaa9472fc91e028a5a27b3d20e7a0c3fbad5c383\\output\\res\\values-ne-rNP\\values-ne-rNP.xml",
                     "position": {
                         "startLine": 12,
                         "startColumn": 4,
@@ -1736,7 +2544,7 @@
                     "endOffset": 1305
                 },
                 "from": {
-                    "file": "/Users/mac/Downloads/Blinkling/C:\\Users\\dayeon\\.android\\build-cache\\08f0b85e835f6a143412367b800bd932d6600384\\output\\res\\values-ne-rNP\\values-ne-rNP.xml",
+                    "file": "/Users/mac/Blinkling/C:\\Users\\dy889\\.android\\build-cache\\eaa9472fc91e028a5a27b3d20e7a0c3fbad5c383\\output\\res\\values-ne-rNP\\values-ne-rNP.xml",
                     "position": {
                         "startLine": 13,
                         "startColumn": 4,
@@ -1755,7 +2563,7 @@
                     "endOffset": 1421
                 },
                 "from": {
-                    "file": "/Users/mac/Downloads/Blinkling/C:\\Users\\dayeon\\.android\\build-cache\\08f0b85e835f6a143412367b800bd932d6600384\\output\\res\\values-ne-rNP\\values-ne-rNP.xml",
+                    "file": "/Users/mac/Blinkling/C:\\Users\\dy889\\.android\\build-cache\\eaa9472fc91e028a5a27b3d20e7a0c3fbad5c383\\output\\res\\values-ne-rNP\\values-ne-rNP.xml",
                     "position": {
                         "startLine": 14,
                         "startColumn": 4,
@@ -1774,7 +2582,7 @@
                     "endOffset": 1524
                 },
                 "from": {
-                    "file": "/Users/mac/Downloads/Blinkling/C:\\Users\\dayeon\\.android\\build-cache\\08f0b85e835f6a143412367b800bd932d6600384\\output\\res\\values-ne-rNP\\values-ne-rNP.xml",
+                    "file": "/Users/mac/Blinkling/C:\\Users\\dy889\\.android\\build-cache\\eaa9472fc91e028a5a27b3d20e7a0c3fbad5c383\\output\\res\\values-ne-rNP\\values-ne-rNP.xml",
                     "position": {
                         "startLine": 15,
                         "startColumn": 4,
@@ -1793,7 +2601,7 @@
                     "endOffset": 1639
                 },
                 "from": {
-                    "file": "/Users/mac/Downloads/Blinkling/C:\\Users\\dayeon\\.android\\build-cache\\08f0b85e835f6a143412367b800bd932d6600384\\output\\res\\values-ne-rNP\\values-ne-rNP.xml",
+                    "file": "/Users/mac/Blinkling/C:\\Users\\dy889\\.android\\build-cache\\eaa9472fc91e028a5a27b3d20e7a0c3fbad5c383\\output\\res\\values-ne-rNP\\values-ne-rNP.xml",
                     "position": {
                         "startLine": 16,
                         "startColumn": 4,
@@ -1812,7 +2620,7 @@
                     "endOffset": 1741
                 },
                 "from": {
-                    "file": "/Users/mac/Downloads/Blinkling/C:\\Users\\dayeon\\.android\\build-cache\\08f0b85e835f6a143412367b800bd932d6600384\\output\\res\\values-ne-rNP\\values-ne-rNP.xml",
+                    "file": "/Users/mac/Blinkling/C:\\Users\\dy889\\.android\\build-cache\\eaa9472fc91e028a5a27b3d20e7a0c3fbad5c383\\output\\res\\values-ne-rNP\\values-ne-rNP.xml",
                     "position": {
                         "startLine": 17,
                         "startColumn": 4,
@@ -1831,7 +2639,7 @@
                     "endOffset": 1856
                 },
                 "from": {
-                    "file": "/Users/mac/Downloads/Blinkling/C:\\Users\\dayeon\\.android\\build-cache\\08f0b85e835f6a143412367b800bd932d6600384\\output\\res\\values-ne-rNP\\values-ne-rNP.xml",
+                    "file": "/Users/mac/Blinkling/C:\\Users\\dy889\\.android\\build-cache\\eaa9472fc91e028a5a27b3d20e7a0c3fbad5c383\\output\\res\\values-ne-rNP\\values-ne-rNP.xml",
                     "position": {
                         "startLine": 18,
                         "startColumn": 4,
@@ -1850,7 +2658,7 @@
                     "endOffset": 1987
                 },
                 "from": {
-                    "file": "/Users/mac/Downloads/Blinkling/C:\\Users\\dayeon\\.android\\build-cache\\08f0b85e835f6a143412367b800bd932d6600384\\output\\res\\values-ne-rNP\\values-ne-rNP.xml",
+                    "file": "/Users/mac/Blinkling/C:\\Users\\dy889\\.android\\build-cache\\eaa9472fc91e028a5a27b3d20e7a0c3fbad5c383\\output\\res\\values-ne-rNP\\values-ne-rNP.xml",
                     "position": {
                         "startLine": 19,
                         "startColumn": 4,
@@ -1869,7 +2677,7 @@
                     "endOffset": 2099
                 },
                 "from": {
-                    "file": "/Users/mac/Downloads/Blinkling/C:\\Users\\dayeon\\.android\\build-cache\\08f0b85e835f6a143412367b800bd932d6600384\\output\\res\\values-ne-rNP\\values-ne-rNP.xml",
+                    "file": "/Users/mac/Blinkling/C:\\Users\\dy889\\.android\\build-cache\\eaa9472fc91e028a5a27b3d20e7a0c3fbad5c383\\output\\res\\values-ne-rNP\\values-ne-rNP.xml",
                     "position": {
                         "startLine": 20,
                         "startColumn": 4,
@@ -1888,7 +2696,7 @@
                     "endOffset": 2185
                 },
                 "from": {
-                    "file": "/Users/mac/Downloads/Blinkling/C:\\Users\\dayeon\\.android\\build-cache\\08f0b85e835f6a143412367b800bd932d6600384\\output\\res\\values-ne-rNP\\values-ne-rNP.xml",
+                    "file": "/Users/mac/Blinkling/C:\\Users\\dy889\\.android\\build-cache\\eaa9472fc91e028a5a27b3d20e7a0c3fbad5c383\\output\\res\\values-ne-rNP\\values-ne-rNP.xml",
                     "position": {
                         "startLine": 21,
                         "startColumn": 4,
@@ -1907,7 +2715,7 @@
                     "endOffset": 2286
                 },
                 "from": {
-                    "file": "/Users/mac/Downloads/Blinkling/C:\\Users\\dayeon\\.android\\build-cache\\08f0b85e835f6a143412367b800bd932d6600384\\output\\res\\values-ne-rNP\\values-ne-rNP.xml",
+                    "file": "/Users/mac/Blinkling/C:\\Users\\dy889\\.android\\build-cache\\eaa9472fc91e028a5a27b3d20e7a0c3fbad5c383\\output\\res\\values-ne-rNP\\values-ne-rNP.xml",
                     "position": {
                         "startLine": 22,
                         "startColumn": 4,

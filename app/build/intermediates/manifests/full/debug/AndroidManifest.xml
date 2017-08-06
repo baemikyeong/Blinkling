@@ -45,6 +45,7 @@
             </intent-filter>
         </activity>
         <activity android:name="com.example.hyemin.blinkling.MainActivity" />
+<<<<<<< HEAD
         <activity android:name="com.example.hyemin.blinkling.SDcardActivity" />
         <activity
             android:name="com.example.hyemin.blinkling.Face_Activity"
@@ -178,6 +179,8 @@ Service handling Google Sign-In user revocation. For apps that do not integrate 
         <meta-data
             android:name="com.google.android.gms.version"
             android:value="@integer/google_play_services_version" />
+=======
+>>>>>>> mi
     </application>
 
 </manifest>
