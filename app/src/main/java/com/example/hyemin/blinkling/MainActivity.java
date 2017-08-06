@@ -79,9 +79,9 @@ public class MainActivity extends ActionBarActivity {
                 return true;
             }
             case R.id.notebook_add: {
-                Toast toast;
-                toast = Toast.makeText(this, item.getTitle() + " Clicked add button!", Toast.LENGTH_SHORT);
-                toast.show();
+                fragment = new InnerStorageFragment();
+                final FragmentTransaction transaction = fragmentManager.beginTransaction();
+                transaction.replace(R.id.main_container, fragment).commit();
                 return true;
             }
             case R.id.notebook_delete: {
@@ -94,4 +94,11 @@ public class MainActivity extends ActionBarActivity {
         return super.onOptionsItemSelected(item);
     }
 
+    public void changeToText(){
+        fragment = new TextViewFragment();
+        final FragmentTransaction transaction = fragmentManager.beginTransaction();
+        transaction.replace(R.id.main_container, fragment).commit();
+
+
+    }
 }
