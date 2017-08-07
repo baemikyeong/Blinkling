@@ -11,6 +11,33 @@
 
 
     <item
+        android:id="@+id/eye_btn"
+        android:icon="@drawable/bookmark"
+        app:showAsAction="ifRoom"
+        android:title="눈">
+    </item>
+
+    <item
+        android:id="@+id/light_btn"
+        android:icon="@drawable/bookmark"
+        app:showAsAction="ifRoom"
+        android:title="라이트">
+    </item>
+
+    <item
+        android:id="@+id/voice_btn"
+        android:icon="@drawable/bookmark"
+        app:showAsAction="ifRoom"
+        android:title="음성녹음">
+    </item>
+
+    <item
+        android:id="@+id/bookmark_btn"
+        android:icon="@drawable/bookmark"
+        app:showAsAction="ifRoom"
+        android:title="북마크">
+    </item>
+    <item
         android:id="@+id/notebook_delete"
         android:icon="@drawable/garbage"
         app:showAsAction="ifRoom"

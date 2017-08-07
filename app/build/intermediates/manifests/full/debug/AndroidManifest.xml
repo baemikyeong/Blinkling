@@ -49,7 +49,6 @@
             </intent-filter>
         </activity>
         <activity android:name="com.example.hyemin.blinkling.MainActivity" />
-        <activity android:name="com.example.hyemin.blinkling.SDcardActivity" />
         <activity
             android:name="com.example.hyemin.blinkling.Face_Activity"
             android:permission="android.permission.CAMERA"

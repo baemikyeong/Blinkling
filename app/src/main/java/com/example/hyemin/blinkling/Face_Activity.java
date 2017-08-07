@@ -100,10 +100,6 @@ public final class Face_Activity extends Activity {
         intPref = getSharedPreferences("mPred",Activity.MODE_PRIVATE);
         editor1 = intPref.edit();
 
-
-        intPref = getSharedPreferences("mPred",Activity.MODE_PRIVATE);
-        editor1 = intPref.edit();
-
         // Check for the camera permission before accessing the camera.  If the
         // permission is not granted yet, request permission.
         int rc = ActivityCompat.checkSelfPermission(this, Manifest.permission.CAMERA);

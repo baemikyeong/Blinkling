@@ -143,6 +143,7 @@ class FaceGraphic extends GraphicOverlay.Graphic {
         float right = x + xOffset;
         float bottom = y + yOffset;
         canvas.drawRect(left, top, right, bottom, mBoxPaint);
+
         right_thred = face.getIsRightEyeOpenProbability();
         left_thred = face.getIsLeftEyeOpenProbability();
 

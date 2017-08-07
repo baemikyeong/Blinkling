@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/mac/Blinkling/app/src/main/AndroidManifest.xml:2:1-39:12
+ADDED from /Users/mac/Blinkling/app/src/main/AndroidManifest.xml:2:1-38:12
 	package
 		ADDED from /Users/mac/Blinkling/app/src/main/AndroidManifest.xml:3:5-43
 		INJECTED from /Users/mac/Blinkling/app/src/main/AndroidManifest.xml
@@ -38,7 +38,7 @@ MERGED from [com.google.android.gms:play-services-maps:10.2.1] /Users/mac/.andro
 	android:name
 		ADDED from /Users/mac/Blinkling/app/src/main/AndroidManifest.xml:9:22-64
 application
-ADDED from /Users/mac/Blinkling/app/src/main/AndroidManifest.xml:11:5-37:19
+ADDED from /Users/mac/Blinkling/app/src/main/AndroidManifest.xml:11:5-36:19
 MERGED from [com.android.support:design:25.3.1] /Users/mac/.android/build-cache/2357a626681079792d0b0f8329e66fe5b38ee637/output/AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:transition:25.3.1] /Users/mac/.android/build-cache/35d6017021fb3a5d14f62790f786c1f775dd19e8/output/AndroidManifest.xml:26:5-20
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/mac/.android/build-cache/3d41ce55e04838533f508e9a6b765a5baa20b6d1/output/AndroidManifest.xml:9:5-20
@@ -128,28 +128,25 @@ activity#com.example.hyemin.blinkling.MainActivity
 ADDED from /Users/mac/Blinkling/app/src/main/AndroidManifest.xml:27:9-50
 	android:name
 		ADDED from /Users/mac/Blinkling/app/src/main/AndroidManifest.xml:27:19-47
-activity#com.example.hyemin.blinkling.SDcardActivity
-ADDED from /Users/mac/Blinkling/app/src/main/AndroidManifest.xml:28:9-52
-	android:name
-		ADDED from /Users/mac/Blinkling/app/src/main/AndroidManifest.xml:28:19-49
 activity#com.example.hyemin.blinkling.Face_Activity
-ADDED from /Users/mac/Blinkling/app/src/main/AndroidManifest.xml:29:9-32:63
+ADDED from /Users/mac/Blinkling/app/src/main/AndroidManifest.xml:28:9-31:63
 	android:screenOrientation
-		ADDED from /Users/mac/Blinkling/app/src/main/AndroidManifest.xml:32:13-51
+		ADDED from /Users/mac/Blinkling/app/src/main/AndroidManifest.xml:31:13-51
 	android:permission
-		ADDED from /Users/mac/Blinkling/app/src/main/AndroidManifest.xml:31:13-59
+		ADDED from /Users/mac/Blinkling/app/src/main/AndroidManifest.xml:30:13-59
 	android:name
-		ADDED from /Users/mac/Blinkling/app/src/main/AndroidManifest.xml:30:13-42
+		ADDED from /Users/mac/Blinkling/app/src/main/AndroidManifest.xml:29:13-42
 service#com.example.hyemin.blinkling.Service.ScreenFilterService
-ADDED from /Users/mac/Blinkling/app/src/main/AndroidManifest.xml:33:9-36:39
+ADDED from /Users/mac/Blinkling/app/src/main/AndroidManifest.xml:32:9-35:39
 	android:enabled
-		ADDED from /Users/mac/Blinkling/app/src/main/AndroidManifest.xml:35:13-35
+		ADDED from /Users/mac/Blinkling/app/src/main/AndroidManifest.xml:34:13-35
 	android:exported
-		ADDED from /Users/mac/Blinkling/app/src/main/AndroidManifest.xml:36:13-36
+		ADDED from /Users/mac/Blinkling/app/src/main/AndroidManifest.xml:35:13-36
 	android:name
-		ADDED from /Users/mac/Blinkling/app/src/main/AndroidManifest.xml:34:13-56
+		ADDED from /Users/mac/Blinkling/app/src/main/AndroidManifest.xml:33:13-56
 uses-sdk
 INJECTED from /Users/mac/Blinkling/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.android.support:multidex:1.0.1] /Users/mac/.android/build-cache/297d361ad5c8d5df37a5803fce2e629bce7c2038/output/AndroidManifest.xml:18:5-42
 MERGED from [com.android.support:design:25.3.1] /Users/mac/.android/build-cache/2357a626681079792d0b0f8329e66fe5b38ee637/output/AndroidManifest.xml:21:5-23:62
 MERGED from [com.android.support:recyclerview-v7:25.3.1] /Users/mac/.android/build-cache/d2ad08c8fcc37bf76b719449c94ded608952f7e7/output/AndroidManifest.xml:20:5-43
 MERGED from [com.android.support:transition:25.3.1] /Users/mac/.android/build-cache/35d6017021fb3a5d14f62790f786c1f775dd19e8/output/AndroidManifest.xml:20:5-44

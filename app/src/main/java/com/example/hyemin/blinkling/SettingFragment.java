@@ -5,6 +5,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
+import android.view.Menu;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.AdapterView;
@@ -38,12 +39,22 @@ public class SettingFragment extends Fragment {
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        // setContentView(R.layout.setting);
+        setHasOptionsMenu(true);
+    }
+
+    public void onPrepareOptionsMenu(Menu menu) {
+        menu.findItem(R.id.bookmark_btn).setVisible(false);
+        menu.findItem(R.id.voice_btn).setVisible(false);
+        menu.findItem(R.id.eye_btn).setVisible(false);
+        menu.findItem(R.id.light_btn).setVisible(false);
+        menu.findItem(R.id.notebook_add).setVisible(false);
+        menu.findItem(R.id.notebook_delete).setVisible(false);
+        super.onPrepareOptionsMenu(menu);
     }
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-        View view = inflater.inflate(R.layout.setting, container, false);
+        View view = inflater.inflate(R.layout.fragment_setting, container, false);
 
         final MyListAdapter Adapter = new MyListAdapter(getActivity());
 

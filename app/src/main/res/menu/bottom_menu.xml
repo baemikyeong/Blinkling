@@ -11,15 +11,15 @@
         />
 
     <item
-        android:id="@+id/navigation_write"
-        android:icon="@drawable/bookmarkstar"
+        android:id="@+id/navigation_friends"
+        android:icon="@drawable/gridworld"
         android:title="Bookmark"
         android:enabled="true"
         app:showAsAction="ifRoom"/>
 
     <item
-        android:id="@+id/navigation_friends"
-        android:icon="@drawable/gridworld"
+        android:id="@+id/navigation_write"
+        android:icon="@drawable/bookmarkstar"
         android:enabled="true"
         app:showAsAction="ifRoom"
         android:title="webview" />

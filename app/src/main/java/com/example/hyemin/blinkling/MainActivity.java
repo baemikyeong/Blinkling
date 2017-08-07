@@ -52,11 +52,11 @@ public class MainActivity extends ActionBarActivity {
                                 break;
 
                             case R.id.navigation_write:
-                                fragment = new BookmarkFragment();
+                                fragment = new WebviewFragment();
                                 break;
 
                             case R.id.navigation_friends:
-                                fragment = new WebviewFragment();
+                                fragment = new BookmarkFragment();
                                 break;
 
                             case R.id.navigation_foodbank:
@@ -93,8 +93,32 @@ public class MainActivity extends ActionBarActivity {
                 return true;
             }
             case R.id.notebook_delete: {
-                Intent service = new Intent( this, ScreenFilterService.class );
-                if(Build.VERSION.SDK_INT >= 23) {
+                Toast toast;
+                toast = Toast.makeText(this, item.getTitle() + " Clicked delete button!", Toast.LENGTH_SHORT);
+                toast.show();
+                return true;
+            }
+            case R.id.eye_btn: {
+                Toast toast;
+                toast = Toast.makeText(this, item.getTitle() + " Clicked eye button!", Toast.LENGTH_SHORT);
+                toast.show();
+                return true;
+            }
+            case R.id.voice_btn: {
+                Toast toast;
+                toast = Toast.makeText(this, item.getTitle() + " Clicked voice button!", Toast.LENGTH_SHORT);
+                toast.show();
+                return true;
+            }
+            case R.id.bookmark_btn: {
+                Toast toast;
+                toast = Toast.makeText(this, item.getTitle() + " Clicked bk button!", Toast.LENGTH_SHORT);
+                toast.show();
+                return true;
+            }
+            case R.id.light_btn: {
+                Intent service = new Intent(this, ScreenFilterService.class);
+                if (Build.VERSION.SDK_INT >= 23) {
                     if (!Settings.canDrawOverlays(this)) {
                         Intent intent = new Intent(Settings.ACTION_MANAGE_OVERLAY_PERMISSION,
                                 Uri.parse("package:" + getPackageName()));
@@ -114,10 +138,13 @@ public class MainActivity extends ActionBarActivity {
                 return true;
             }
         }
-        return super.onOptionsItemSelected(item);
-    }
 
-    public void changeToText(){
+        return super.onOptionsItemSelected(item);
+
+}
+
+
+    public void changeToText() {
         fragment = new TextViewFragment();
         final FragmentTransaction transaction = fragmentManager.beginTransaction();
         transaction.replace(R.id.main_container, fragment).commit();
