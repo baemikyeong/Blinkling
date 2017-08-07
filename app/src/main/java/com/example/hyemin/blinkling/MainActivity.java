@@ -1,6 +1,10 @@
 package com.example.hyemin.blinkling;
 
+import android.content.Intent;
+import android.net.Uri;
+import android.os.Build;
 import android.os.Bundle;
+import android.provider.Settings;
 import android.support.design.widget.BottomNavigationView;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
@@ -11,11 +15,14 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.Toast;
 
+import com.example.hyemin.blinkling.Service.ScreenFilterService;
+
 public class MainActivity extends ActionBarActivity {
     private BottomNavigationView bottomNavigation;
     private Fragment fragment;
     private FragmentManager fragmentManager;
     private Toolbar toolbar;
+    boolean light;//초기상태는 불이 꺼진 상태
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -27,6 +34,7 @@ public class MainActivity extends ActionBarActivity {
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         getSupportActionBar().setHomeAsUpIndicator(R.drawable.folder);
 
+        light = false;
         fragmentManager = getSupportFragmentManager();
         fragment = new BookshelfFragment();
         final FragmentTransaction transaction = fragmentManager.beginTransaction();
@@ -85,6 +93,21 @@ public class MainActivity extends ActionBarActivity {
                 return true;
             }
             case R.id.notebook_delete: {
+                Intent service = new Intent( this, ScreenFilterService.class );
+                if(Build.VERSION.SDK_INT >= 23) {
+                    if (!Settings.canDrawOverlays(this)) {
+                        Intent intent = new Intent(Settings.ACTION_MANAGE_OVERLAY_PERMISSION,
+                                Uri.parse("package:" + getPackageName()));
+                        startActivityForResult(intent, 1234);
+                    }
+                    if (!light) {
+                        startService(service);
+                        light = true;
+                    } else {
+                        stopService(service);
+                        light = false;
+                    }
+                }
                 Toast toast;
                 toast = Toast.makeText(this, item.getTitle() + " Clicked delete button!", Toast.LENGTH_SHORT);
                 toast.show();

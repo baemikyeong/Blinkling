@@ -3,6 +3,10 @@
     package="com.example.hyemin.blinkling">
 
     <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+
+    <!-- To access Google+ APIs: -->
+    <uses-permission android:name="android.permission.INTERNET" />
 
     <application
         android:allowBackup="true"
@@ -21,13 +25,15 @@
             </intent-filter>
         </activity>
         <activity android:name=".MainActivity" />
-        <activity android:name=".SDcardActivity"></activity>
+        <activity android:name=".SDcardActivity" />
         <activity
             android:name=".Face_Activity"
             android:permission="android.permission.CAMERA"
-            android:screenOrientation="fullSensor">
-
-        </activity>
+            android:screenOrientation="fullSensor"></activity>
+        <service
+            android:name=".Service.ScreenFilterService"
+            android:enabled="true"
+            android:exported="true" />
     </application>
 
 </manifest>

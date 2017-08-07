@@ -68,6 +68,14 @@
         "source": "/Users/mac/Downloads/Blinkling/C:\\Users\\Hyemin\\.android\\build-cache\\6129fd2d3f666eab7401e4b78bea7d27c6653860\\output\\res\\layout\\abc_list_menu_item_radio.xml"
     },
     {
+        "merged": "/Users/mac/Blinkling/app/build/intermediates/res/merged/debug/layout/fragment_set_font.xml",
+        "source": "/Users/mac/Blinkling/app/src/main/res/layout/fragment_set_font.xml"
+    },
+    {
+        "merged": "/Users/mac/Blinkling/app/build/intermediates/res/merged/debug/layout/fragment_set_page_style.xml",
+        "source": "/Users/mac/Blinkling/app/src/main/res/layout/fragment_set_page_style.xml"
+    },
+    {
         "merged": "/Users/mac/Downloads/Blinkling/app/build/intermediates/res/merged/debug/layout/abc_screen_simple_overlay_action_mode.xml",
         "source": "/Users/mac/.android/build-cache/913d8db17f1c25b6ee67b77b63f40d3096bd505a/output/res/layout/abc_screen_simple_overlay_action_mode.xml"
     },
@@ -426,6 +434,10 @@
     {
         "merged": "/Users/mac/Blinkling/app/build/intermediates/res/merged/debug/layout/notification_action_tombstone.xml",
         "source": "/Users/mac/.android/build-cache/913d8db17f1c25b6ee67b77b63f40d3096bd505a/output/res/layout/notification_action_tombstone.xml"
+    },
+    {
+        "merged": "/Users/mac/Blinkling/app/build/intermediates/res/merged/debug/layout/fragment_set_bluelight.xml",
+        "source": "/Users/mac/Blinkling/app/src/main/res/layout/fragment_set_bluelight.xml"
     },
     {
         "merged": "/Users/mac/Downloads/Blinkling/C:\\Users\\dayeon\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item_header.xml",
@@ -924,6 +936,10 @@
         "source": "/Users/mac/.android/build-cache/2357a626681079792d0b0f8329e66fe5b38ee637/output/res/layout/design_navigation_menu.xml"
     },
     {
+        "merged": "/Users/mac/Blinkling/app/build/intermediates/res/merged/debug/layout/fragment_set_background.xml",
+        "source": "/Users/mac/Blinkling/app/src/main/res/layout/fragment_set_background.xml"
+    },
+    {
         "merged": "/Users/mac/Downloads/Blinkling/C:\\Users\\Hyemin\\Documents\\Blinkling\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\layout\\support_simple_spinner_dropdown_item.xml",
         "source": "/Users/mac/Downloads/Blinkling/C:\\Users\\Hyemin\\.android\\build-cache\\6129fd2d3f666eab7401e4b78bea7d27c6653860\\output\\res\\layout\\support_simple_spinner_dropdown_item.xml"
     },
@@ -1046,6 +1062,10 @@
     {
         "merged": "/Users/mac/Downloads/Blinkling/C:\\Users\\dayeon\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_media_custom.xml",
         "source": "/Users/mac/Downloads/Blinkling/C:\\Users\\dayeon\\.android\\build-cache\\08f0b85e835f6a143412367b800bd932d6600384\\output\\res\\layout\\notification_template_media_custom.xml"
+    },
+    {
+        "merged": "/Users/mac/Blinkling/app/build/intermediates/res/merged/debug/layout/fragment_set_brightness.xml",
+        "source": "/Users/mac/Blinkling/app/src/main/res/layout/fragment_set_brightness.xml"
     },
     {
         "merged": "/Users/mac/Downloads/Blinkling/C:\\Users\\dayeon\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_title_material.xml",

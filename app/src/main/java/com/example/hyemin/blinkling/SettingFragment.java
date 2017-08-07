@@ -14,6 +14,7 @@ import android.widget.ListView;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.example.hyemin.blinkling.Setting.SetBluelightFragment;
 import com.google.android.gms.vision.CameraSource;
 
 public class SettingFragment extends Fragment {
@@ -170,7 +171,9 @@ public class SettingFragment extends Fragment {
                 Toast.makeText(getActivity(),"글꼴 설정", Toast.LENGTH_SHORT).show();
                 break;
             case 4:
-                Toast.makeText(getActivity(),"블루라이트 설정", Toast.LENGTH_SHORT).show();
+                //블루라이트 조절 다이얼로그 띄우기
+                SetBluelightFragment dialogFragment = new SetBluelightFragment();
+                dialogFragment.show(getFragmentManager(), "Edit bluelight");
                 break;
             case 5:
                 Toast.makeText(getActivity(),"페이지 넘기는 방식 설정", Toast.LENGTH_SHORT).show();
