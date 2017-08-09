@@ -12,6 +12,8 @@ import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.RadioButton;
+import android.widget.RadioGroup;
 import android.widget.SeekBar;
 import android.widget.TextView;
 
@@ -45,43 +47,15 @@ public class SetFontFragment extends DialogFragment {
 
         AlertDialog.Builder builder = new AlertDialog.Builder(getActivity());
 
-        builder.setTitle("블루라이트 조절");
-        builder.setMessage("블루라이트 제어 기능을 실핼할 경우, 어느정도의 밝기 조정을 할 지, 조정하는 기능입니다.");
+        builder.setTitle("글꼴 조정");
+        builder.setMessage("문서를 볼 때의 글꼴을 지정합니다.");
 
         LayoutInflater inflater = getActivity().getLayoutInflater();
-        final View view = inflater.inflate(R.layout.fragment_set_bluelight, null);
+        final View view = inflater.inflate(R.layout.fragment_set_font, null);
+        final RadioGroup rg = (RadioGroup)view.findViewById(R.id.radiofont);
 
-        final SeekBar bluelight_seekbar = (SeekBar) view.findViewById(R.id.seekBar);
-        final TextView seekbar_gauge = (TextView) view.findViewById(R.id.textView3);
-
-        // seekbar 설정
-
-        final int[] nCurrent = {intPref.getInt("bluelight_edit", 5)};
-        bluelight_seekbar.setProgress(nCurrent[0]);
-        seekbar_gauge.setText("gauge : " + nCurrent[0]);
-        bluelight_seekbar.setOnSeekBarChangeListener(new SeekBar.OnSeekBarChangeListener() {
-
-
-            @Override
-            public void onStopTrackingTouch(SeekBar seekBar) {
-                seekbar_gauge.setText("gauge : " + nCurrent[0]);
-
-            }
-
-            @Override
-            public void onStartTrackingTouch(SeekBar seekBar) {
-                seekbar_gauge.setText("gauge : " + nCurrent[0]);
-            }
-
-            @Override
-            public void onProgressChanged(SeekBar seekBar, int progress, boolean fromUser) {
-                seekbar_gauge.setText("gauge : " + progress);
-                nCurrent[0] = progress;
-
-            }
-
-        });
-
+        final int[] nCurrent = {intPref.getInt("font_edit", 1)};
+        rg.check(nCurrent[0]);
 
         builder.setView(view)
                 .setPositiveButton("확인", new DialogInterface.OnClickListener() {
@@ -90,7 +64,7 @@ public class SetFontFragment extends DialogFragment {
                     @Override
                     public void onClick(DialogInterface dialog, int id) {
 
-                        editor1.putInt("bluelight_edit", nCurrent[0]);
+                        editor1.putInt("font_edit", rg.getCheckedRadioButtonId());
                         editor1.commit();
 
                     }
@@ -103,7 +77,5 @@ public class SetFontFragment extends DialogFragment {
                 });
 
         return builder.create();
-
     }
-
 }

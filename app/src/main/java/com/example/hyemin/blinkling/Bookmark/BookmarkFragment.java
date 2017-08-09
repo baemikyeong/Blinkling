@@ -1,4 +1,4 @@
-package com.example.hyemin.blinkling;
+package com.example.hyemin.blinkling.Bookmark;
 
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
@@ -11,6 +11,10 @@ import android.support.v4.content.ContextCompat;
 import android.view.Menu;
 import android.widget.ListView;
 import android.widget.Toast;
+
+import com.example.hyemin.blinkling.ListViewAdapter;
+import com.example.hyemin.blinkling.ListViewItem;
+import com.example.hyemin.blinkling.R;
 
 public class BookmarkFragment extends ListFragment {
     ListViewAdapter adapter;

@@ -1,4 +1,4 @@
-package com.example.hyemin.blinkling;
+package com.example.hyemin.blinkling.BookShelf;
 
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
@@ -6,6 +6,8 @@ import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.View;
 import android.view.ViewGroup;
+
+import com.example.hyemin.blinkling.R;
 
 public class BookshelfFragment extends Fragment {
 

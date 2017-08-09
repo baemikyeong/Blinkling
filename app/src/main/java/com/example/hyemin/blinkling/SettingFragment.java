@@ -15,7 +15,11 @@ import android.widget.ListView;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.example.hyemin.blinkling.Setting.SetBackgroundFragment;
 import com.example.hyemin.blinkling.Setting.SetBluelightFragment;
+import com.example.hyemin.blinkling.Setting.SetBrightnessFragment;
+import com.example.hyemin.blinkling.Setting.SetFontFragment;
+import com.example.hyemin.blinkling.Setting.SetPageStyleFragment;
 import com.google.android.gms.vision.CameraSource;
 
 public class SettingFragment extends Fragment {
@@ -173,21 +177,25 @@ public class SettingFragment extends Fragment {
 
         switch(pos){
             case 1:
-                Toast.makeText(getActivity(),"배경색 설정", Toast.LENGTH_SHORT).show();
+                SetBackgroundFragment bg_dialog = new SetBackgroundFragment();
+                bg_dialog.show(getFragmentManager(), "Edit background");
                 break;
             case 2:
-                Toast.makeText(getActivity(),"밝기 설정", Toast.LENGTH_SHORT).show();
+                SetBrightnessFragment bright_dialog = new SetBrightnessFragment();
+                bright_dialog.show(getFragmentManager(), "Edit brightness");
                 break;
             case 3:
-                Toast.makeText(getActivity(),"글꼴 설정", Toast.LENGTH_SHORT).show();
+                SetFontFragment font_dialog = new SetFontFragment();
+                font_dialog.show(getFragmentManager(), "Edit font");
                 break;
             case 4:
                 //블루라이트 조절 다이얼로그 띄우기
-                SetBluelightFragment dialogFragment = new SetBluelightFragment();
-                dialogFragment.show(getFragmentManager(), "Edit bluelight");
+                SetBluelightFragment blue_dialog = new SetBluelightFragment();
+                blue_dialog.show(getFragmentManager(), "Edit bluelight");
                 break;
             case 5:
-                Toast.makeText(getActivity(),"페이지 넘기는 방식 설정", Toast.LENGTH_SHORT).show();
+                SetPageStyleFragment page_dialog = new SetPageStyleFragment();
+                page_dialog.show(getFragmentManager(), "Edit pagestyle");
                 break;
             case 7:
                 Intent intent = new Intent(getActivity(), Face_Activity.class);

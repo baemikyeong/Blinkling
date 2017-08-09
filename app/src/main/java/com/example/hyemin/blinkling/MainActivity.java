@@ -15,7 +15,10 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.Toast;
 
+import com.example.hyemin.blinkling.BookShelf.BookshelfFragment;
+import com.example.hyemin.blinkling.Bookmark.BookmarkFragment;
 import com.example.hyemin.blinkling.Service.ScreenFilterService;
+import com.example.hyemin.blinkling.Webview.WebviewFragment;
 
 public class MainActivity extends ActionBarActivity {
     private BottomNavigationView bottomNavigation;

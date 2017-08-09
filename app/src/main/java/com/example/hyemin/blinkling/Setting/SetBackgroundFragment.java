@@ -12,8 +12,11 @@ import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.RadioButton;
+import android.widget.RadioGroup;
 import android.widget.SeekBar;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.example.hyemin.blinkling.R;
 
@@ -47,15 +50,15 @@ public class SetBackgroundFragment extends DialogFragment {
 
         AlertDialog.Builder builder = new AlertDialog.Builder(getActivity());
 
-        builder.setTitle("배경색 지정");
+        builder.setTitle("배경색");
         builder.setMessage("문서를 볼 때의 배경색을 지정합니다.");
 
         LayoutInflater inflater = getActivity().getLayoutInflater();
         final View view = inflater.inflate(R.layout.fragment_set_background, null);
+        final RadioGroup rg = (RadioGroup)view.findViewById(R.id.radiobackground);
 
-        // seekbar 설정
-
-        final int[] nCurrent = {intPref.getInt("background", 5)};
+        final int[] nCurrent = {intPref.getInt("background", 1)};
+        rg.check(nCurrent[0]);
 
         builder.setView(view)
                 .setPositiveButton("확인", new DialogInterface.OnClickListener() {
@@ -64,7 +67,7 @@ public class SetBackgroundFragment extends DialogFragment {
                     @Override
                     public void onClick(DialogInterface dialog, int id) {
 
-                        editor1.putInt("background", nCurrent[0]);
+                        editor1.putInt("background", rg.getCheckedRadioButtonId());
                         editor1.commit();
 
                     }

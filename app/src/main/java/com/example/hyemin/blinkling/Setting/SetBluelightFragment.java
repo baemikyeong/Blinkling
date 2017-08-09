@@ -51,7 +51,7 @@ public class SetBluelightFragment extends DialogFragment {
         AlertDialog.Builder builder = new AlertDialog.Builder(getActivity());
 
         builder.setTitle("블루라이트 조절");
-        builder.setMessage("블루라이트 제어 기능을 실핼할 경우, 어느정도의 밝기 조정을 할 지, 조정하는 기능입니다.");
+        builder.setMessage("블루라이트 제어 기능을 실행할 경우, 블루라이트의 정도를 조정합니다.");
 
         LayoutInflater inflater = getActivity().getLayoutInflater();
         final View view = inflater.inflate(R.layout.fragment_set_bluelight, null);

@@ -5,9 +5,35 @@
     tools:context="com.example.hyemin.blinkling.Setting.SetPageStyleFragment">
 
     <!-- TODO: Update blank fragment layout -->
-    <TextView
+
+
+    <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+        android:layout_height="294dp">
+
+        <RadioGroup
+            android:id="@+id/radiopagestyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="22dp">
+
+            <RadioButton
+                android:id="@+id/radio_pagestyle1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:text="페이지형식" />
+
+            <RadioButton
+                android:id="@+id/radio_pagestyle2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="슬라이딩 형식" />
+
+        </RadioGroup>
+    </RelativeLayout>
+
 
 </FrameLayout>
