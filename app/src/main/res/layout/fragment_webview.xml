@@ -5,15 +5,16 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
+    android:layout_marginTop="?attr/actionBarSize"
     android:gravity="center"
+    android:orientation="vertical"
     tools:context="com.example.hyemin.blinkling.MainActivity">
 
     <ProgressBar
-        android:layout_width="fill_parent"
-        android:layout_height="10dp"
         android:id="@+id/progress01"
-        style="?android:attr/progressBarStyleHorizontal"/>
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="10dp" />
 
     <LinearLayout
         android:layout_width="match_parent"

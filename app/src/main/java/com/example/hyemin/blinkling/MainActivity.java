@@ -55,11 +55,11 @@ public class MainActivity extends ActionBarActivity {
                                 break;
 
                             case R.id.navigation_write:
-                                fragment = new WebviewFragment();
+                                fragment = new BookmarkFragment();
                                 break;
 
                             case R.id.navigation_friends:
-                                fragment = new BookmarkFragment();
+                                fragment = new WebviewFragment();
                                 break;
 
                             case R.id.navigation_foodbank:

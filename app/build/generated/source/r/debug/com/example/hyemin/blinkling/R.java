@@ -4721,10 +4721,10 @@ containing a value of this type.
         public static final int mr_volume_slider=0x7f0f0135;
         public static final int multiply=0x7f0f0035;
         public static final int navigation_foodbank=0x7f0f015d;
-        public static final int navigation_friends=0x7f0f015b;
+        public static final int navigation_friends=0x7f0f015c;
         public static final int navigation_header_container=0x7f0f00f5;
         public static final int navigation_home=0x7f0f015a;
-        public static final int navigation_write=0x7f0f015c;
+        public static final int navigation_write=0x7f0f015b;
         public static final int never=0x7f0f0067;
         public static final int none=0x7f0f0025;
         public static final int normal=0x7f0f0027;

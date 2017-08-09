@@ -47,15 +47,16 @@ public class WebviewFragment extends Fragment {
     private double right_thres = 0;
     private static final int REQUEST_CAMERA_PERM = 69;      // 카메라 퍼미션을 위한 코드
     private int[] location = new int[2];
+    View main_view;
 
     public WebviewFragment() {
     }
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-        View view = inflater.inflate(R.layout.fragment_webview, container, false);
-        webView = (WebView) view.findViewById(R.id.webView1);
-        mPBar = (ProgressBar) view.findViewById(R.id.progress01);
+        main_view = inflater.inflate(R.layout.fragment_webview, container, false);
+        webView = (WebView) main_view.findViewById(R.id.webView1);
+        mPBar = (ProgressBar) main_view.findViewById(R.id.progress01);
         WebSettings set = webView.getSettings();
 
         webView.getLocationOnScreen(location);
@@ -65,7 +66,7 @@ public class WebviewFragment extends Fragment {
 
         set.setCacheMode(WebSettings.LOAD_NO_CACHE);
         set.setSupportZoom(false);
-        return inflater.inflate(R.layout.fragment_webview, container, false);
+        return main_view;
     }
 
     public void onCreate(Bundle savedInstanceState) {
@@ -80,7 +81,7 @@ public class WebviewFragment extends Fragment {
     }
 
     public void goURL(View view) {
-        TextView tvURL = (TextView) view.findViewById(R.id.txtURL);
+        TextView tvURL = (TextView) main_view.findViewById(R.id.txtURL);
         String url = tvURL.getText().toString();
         Log.i("URL", "Opening URL :" + url);
 

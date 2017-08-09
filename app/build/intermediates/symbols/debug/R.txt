@@ -1496,10 +1496,10 @@ int id mr_volume_item_icon 0x7f0f0134
 int id mr_volume_slider 0x7f0f0135
 int id multiply 0x7f0f0035
 int id navigation_foodbank 0x7f0f015d
-int id navigation_friends 0x7f0f015b
+int id navigation_friends 0x7f0f015c
 int id navigation_header_container 0x7f0f00f5
 int id navigation_home 0x7f0f015a
-int id navigation_write 0x7f0f015c
+int id navigation_write 0x7f0f015b
 int id never 0x7f0f0067
 int id none 0x7f0f0025
 int id normal 0x7f0f0027
