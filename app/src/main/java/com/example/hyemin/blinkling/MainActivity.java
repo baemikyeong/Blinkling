@@ -90,6 +90,12 @@ public class MainActivity extends ActionBarActivity {
                 return true;
             }
             case R.id.notebook_add: {
+
+
+
+
+
+
                 fragment = new InnerStorageFragment();
                 final FragmentTransaction transaction = fragmentManager.beginTransaction();
                 transaction.replace(R.id.main_container, fragment).commit();
@@ -147,23 +153,18 @@ public class MainActivity extends ActionBarActivity {
 }
 
 
-    public void changeToText() {
-////        fragment = new TextViewFragment();
-//
-//
-//        MainFragment mainFragment = (MainFragment) getFragmentManager().findFragmentById(R.id.ll_fragment);
-//        mainFragment.changeFragmentTextView("호호호");
-//
-//
-//
-//        final FragmentTransaction transaction = fragmentManager.beginTransaction();
-//        transaction.replace(R.id.main_container, fragment).commit();
+    public void changeToText(String valueBookName) {
+
+        Fragment frag = new TextViewFragment();
+        Bundle bundle = new Bundle();
+
+        bundle.putString("bookname",valueBookName);
+        frag.setArguments(bundle);
 
 
-
-
-
-   
+       // fragment = new TextViewFragment();
+        final FragmentTransaction transaction = fragmentManager.beginTransaction();
+        transaction.replace(R.id.main_container, frag).commit();
 
 
     }

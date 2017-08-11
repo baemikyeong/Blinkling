@@ -142,13 +142,13 @@ public class InnerStorageFragment extends ListFragment {
 //            toast.show();
 
 //그러니까 경로의 마지막부분인 파일이름으로 읽는걸 들어가야 한다.
-            newInstance(mBookName);
+          //  newInstance(mBookName);
 //            Fragment frag = new TextViewFragment();
 //            Bundle bundle = new Bundle();
 //            bundle.putString("bookname",mBookName);
 //            frag.setArguments(bundle);
 //
-             ( (MainActivity)getActivity()).changeToText();
+             ( (MainActivity)getActivity()).changeToText(mBookName);
 
             return null;
         }
