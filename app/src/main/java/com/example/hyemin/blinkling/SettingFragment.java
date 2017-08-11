@@ -1,23 +1,30 @@
 package com.example.hyemin.blinkling;
 
 import android.content.Context;
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
+import android.view.Menu;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.AdapterView;
 import android.widget.BaseAdapter;
-import android.widget.Button;
 import android.widget.ImageButton;
 import android.widget.ListView;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import java.util.ArrayList;
+import com.example.hyemin.blinkling.Setting.SetBackgroundFragment;
+import com.example.hyemin.blinkling.Setting.SetBluelightFragment;
+import com.example.hyemin.blinkling.Setting.SetBrightnessFragment;
+import com.example.hyemin.blinkling.Setting.SetFontFragment;
+import com.example.hyemin.blinkling.Setting.SetPageStyleFragment;
+import com.google.android.gms.vision.CameraSource;
 
 public class SettingFragment extends Fragment {
 
+    private CameraSource mCameraSource;
     public static final int HDR_POS1 = 0;
     public static final int HDR_POS2 = 6;
     public static final String[] LIST = {"Viewer Setting", "배경색",
@@ -36,12 +43,22 @@ public class SettingFragment extends Fragment {
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        // setContentView(R.layout.setting);
+        setHasOptionsMenu(true);
+    }
+
+    public void onPrepareOptionsMenu(Menu menu) {
+        menu.findItem(R.id.bookmark_btn).setVisible(false);
+        menu.findItem(R.id.voice_btn).setVisible(false);
+        menu.findItem(R.id.eye_btn).setVisible(false);
+        menu.findItem(R.id.light_btn).setVisible(false);
+        menu.findItem(R.id.notebook_add).setVisible(false);
+        menu.findItem(R.id.notebook_delete).setVisible(false);
+        super.onPrepareOptionsMenu(menu);
     }
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-        View view = inflater.inflate(R.layout.setting, container, false);
+        View view = inflater.inflate(R.layout.fragment_setting, container, false);
 
         final MyListAdapter Adapter = new MyListAdapter(getActivity());
 
@@ -51,8 +68,7 @@ public class SettingFragment extends Fragment {
         lv.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView parent, View v, int position, long id) {
-
-                Toast.makeText(getActivity(), "위치 :" + (int) parent.getItemAtPosition(position), Toast.LENGTH_SHORT).show();
+                setting_check(position);
             }
         });
 
@@ -138,8 +154,7 @@ public class SettingFragment extends Fragment {
             img_button.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
-
-                    Toast.makeText(getActivity(),"위치 : " + pos, Toast.LENGTH_SHORT).show();
+                    setting_check(pos);
                 }
             });
 
@@ -156,5 +171,46 @@ public class SettingFragment extends Fragment {
         }
 
         private final Context mContext;
+    }
+
+    public void setting_check(int pos){
+
+        switch(pos){
+            case 1:
+                SetBackgroundFragment bg_dialog = new SetBackgroundFragment();
+                bg_dialog.show(getFragmentManager(), "Edit background");
+                break;
+            case 2:
+                SetBrightnessFragment bright_dialog = new SetBrightnessFragment();
+                bright_dialog.show(getFragmentManager(), "Edit brightness");
+                break;
+            case 3:
+                SetFontFragment font_dialog = new SetFontFragment();
+                font_dialog.show(getFragmentManager(), "Edit font");
+                break;
+            case 4:
+                //블루라이트 조절 다이얼로그 띄우기
+                SetBluelightFragment blue_dialog = new SetBluelightFragment();
+                blue_dialog.show(getFragmentManager(), "Edit bluelight");
+                break;
+            case 5:
+                SetPageStyleFragment page_dialog = new SetPageStyleFragment();
+                page_dialog.show(getFragmentManager(), "Edit pagestyle");
+                break;
+            case 7:
+                Intent intent = new Intent(getActivity(), Face_Activity.class);
+
+                if (mCameraSource != null) {
+                    mCameraSource.release();
+                    mCameraSource = null;
+                }
+
+                Toast.makeText(getActivity(), "초기화를 시작합니다", Toast.LENGTH_SHORT).show();
+                Toast.makeText(getActivity(), "눈을 감고 Blink_Size 버튼을 두 번 눌러주세요", Toast.LENGTH_SHORT).show();
+
+                startActivity(intent);
+                break;
+        }
+
     }
 }

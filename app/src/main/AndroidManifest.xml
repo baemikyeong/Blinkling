@@ -2,6 +2,12 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.hyemin.blinkling">
 
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+
+    <!-- To access Google+ APIs: -->
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -19,6 +25,14 @@
             </intent-filter>
         </activity>
         <activity android:name=".MainActivity" />
+        <activity
+            android:name=".Face_Activity"
+            android:permission="android.permission.CAMERA"
+            android:screenOrientation="fullSensor"></activity>
+        <service
+            android:name=".Service.ScreenFilterService"
+            android:enabled="true"
+            android:exported="true" />
     </application>
 
 </manifest>

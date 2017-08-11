@@ -1,6 +1,2 @@
 <?xml version="1.0" encoding="utf-8"?>
-<<<<<<< HEAD
 <merger version="3"><dataSet config="main"><source path="C:\Users\dy889\Documents\Blinkling\app\src\main\jniLibs"/></dataSet><dataSet config="debug"><source path="C:\Users\dy889\Documents\Blinkling\app\src\debug\jniLibs"/></dataSet></merger>
-=======
-<merger version="3"><dataSet config="main"><source path="/Users/mac/Blinkling/app/src/main/jniLibs"/></dataSet><dataSet config="debug"><source path="/Users/mac/Blinkling/app/src/debug/jniLibs"/></dataSet></merger>
->>>>>>> 9aabb1bc7c356e6b1b72ce3c207114453633d1fc
