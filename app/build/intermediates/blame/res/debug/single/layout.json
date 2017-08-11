@@ -44,8 +44,17 @@
         "source": "C:\\Users\\mac\\.android\\build-cache\\2357a626681079792d0b0f8329e66fe5b38ee637\\output\\res\\layout\\design_bottom_navigation_item.xml"
     },
     {
+<<<<<<< HEAD
         "merged": "C:\\Users\\mac\\Downloads\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_lines_media.xml",
         "source": "C:\\Users\\mac\\.android\\build-cache\\913d8db17f1c25b6ee67b77b63f40d3096bd505a\\output\\res\\layout\\notification_template_lines_media.xml"
+=======
+        "merged": "/Users/mac/Blinkling/app/build/intermediates/res/merged/debug/layout/lv_layout.xml",
+        "source": "/Users/mac/Blinkling/app/src/main/res/layout/lv_layout.xml"
+    },
+    {
+        "merged": "/Users/mac/Downloads/Blinkling/app/build/intermediates/res/merged/debug/layout/abc_expanded_menu_layout.xml",
+        "source": "/Users/mac/.android/build-cache/913d8db17f1c25b6ee67b77b63f40d3096bd505a/output/res/layout/abc_expanded_menu_layout.xml"
+>>>>>>> 9aabb1bc7c356e6b1b72ce3c207114453633d1fc
     },
     {
         "merged": "C:\\Users\\mac\\Downloads\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_text_input_password_icon.xml",
@@ -244,8 +253,17 @@
         "source": "C:\\Users\\dy889\\.android\\build-cache\\eaa9472fc91e028a5a27b3d20e7a0c3fbad5c383\\output\\res\\layout\\notification_template_custom_big.xml"
     },
     {
+<<<<<<< HEAD
         "merged": "C:\\Users\\dy889\\Documents\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_layout.xml",
         "source": "C:\\Users\\dy889\\.android\\build-cache\\eaa9472fc91e028a5a27b3d20e7a0c3fbad5c383\\output\\res\\layout\\abc_list_menu_item_layout.xml"
+=======
+        "merged": "/Users/mac/Blinkling/app/build/intermediates/res/merged/debug/layout/setting.xml",
+        "source": "/Users/mac/Blinkling/app/src/main/res/layout/setting.xml"
+    },
+    {
+        "merged": "/Users/mac/Downloads/Blinkling/C:\\Users\\dayeon\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_menu_item.xml",
+        "source": "/Users/mac/Downloads/Blinkling/C:\\Users\\dayeon\\.android\\build-cache\\d7955f365574be11571c6d760671cfed3e81f806\\output\\res\\layout\\design_navigation_menu_item.xml"
+>>>>>>> 9aabb1bc7c356e6b1b72ce3c207114453633d1fc
     },
     {
         "merged": "C:\\Users\\mac\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_menu_item_action_area.xml",
@@ -680,8 +698,17 @@
         "source": "C:\\Users\\mac\\Downloads\\Blinkling\\C:\\Users\\Hyemin\\.android\\build-cache\\245ad94b3d5bca11ed899deb510616098046a633\\output\\res\\layout\\design_text_input_password_icon.xml"
     },
     {
+<<<<<<< HEAD
         "merged": "C:\\Users\\mac\\Downloads\\Blinkling\\C:\\Users\\dayeon\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_menu_item.xml",
         "source": "C:\\Users\\mac\\Downloads\\Blinkling\\C:\\Users\\dayeon\\.android\\build-cache\\d7955f365574be11571c6d760671cfed3e81f806\\output\\res\\layout\\design_navigation_menu_item.xml"
+=======
+        "merged": "/Users/mac/Blinkling/app/build/intermediates/res/merged/debug/layout/lv_header_layout.xml",
+        "source": "/Users/mac/Blinkling/app/src/main/res/layout/lv_header_layout.xml"
+    },
+    {
+        "merged": "/Users/mac/Downloads/Blinkling/C:\\Users\\dayeon\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_view.xml",
+        "source": "/Users/mac/Downloads/Blinkling/C:\\Users\\dayeon\\.android\\build-cache\\08f0b85e835f6a143412367b800bd932d6600384\\output\\res\\layout\\abc_search_view.xml"
+>>>>>>> 9aabb1bc7c356e6b1b72ce3c207114453633d1fc
     },
     {
         "merged": "C:\\Users\\mac\\Downloads\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view_list_item.xml",
