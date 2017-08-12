@@ -2,6 +2,9 @@ package com.example.hyemin.blinkling;
 
 
 import android.app.Activity;
+import android.content.ActivityNotFoundException;
+import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.os.Environment;
 import android.support.v4.app.Fragment;
@@ -22,6 +25,7 @@ import java.util.ArrayList;
  * A simple {@link Fragment} subclass.
  */
 public class InnerStorageFragment extends ListFragment {
+    File dir = Environment.getExternalStorageDirectory().getAbsoluteFile();
     ListView mFileListView;
     ArrayList<String> mArrayListFile;
     String mPath = "";
@@ -139,6 +143,9 @@ public class InnerStorageFragment extends ListFragment {
             int pos = strPath.lastIndexOf("/");
             strPath = strPath.substring(pos+1);//pos=시작인덱스, 포스부터 쭉 서브스트링을 리턴
 
+            int txt = strPath.lastIndexOf("txt");
+            int pdf = strPath.lastIndexOf("pdf");
+
 //            pos = strPath.lastIndexOf(".");
 //            strPath = strPath.substring(0,pos);
             mBookName = strPath; //
@@ -152,8 +159,32 @@ public class InnerStorageFragment extends ListFragment {
 //            Bundle bundle = new Bundle();
 //            bundle.putString("bookname",mBookName);
 //            frag.setArguments(bundle);
-//
-             ( (MainActivity)getActivity()).changeToText(mBookName);
+
+            if(txt != -1){
+                ( (MainActivity)getActivity()).changeToText(mBookName);
+            }
+            else if(pdf != -1){
+                File file = new File(dir, mBookName);
+
+                if (file.exists()){
+                    Uri path = Uri.fromFile(file);
+
+                    Intent intent =new Intent(Intent.ACTION_VIEW);
+                    intent.setDataAndType(path, "application/pdf");
+                    intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+
+                    try{
+                        startActivity(intent);
+                    }catch(ActivityNotFoundException ex){
+                        toast.makeText(root, "pdf파일을 보기위한 뷰어 앱이 없습니다.",Toast.LENGTH_SHORT).show();
+
+                    }
+                }
+                else{
+                    toast.makeText(root, "pdf파일이 없습니다.",Toast.LENGTH_SHORT).show();
+                }
+            }
+
 
             return null;
         }

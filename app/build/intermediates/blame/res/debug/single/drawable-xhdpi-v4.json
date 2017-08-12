@@ -64,12 +64,12 @@
         "source": "C:\\Users\\dy889\\.android\\build-cache\\6eb1f1beb74a0f6f7519161070d151573d511644\\output\\res\\drawable-xhdpi-v4\\quantum_ic_clear_white_24.png"
     },
     {
-        "merged": "C:\\Users\\dy889\\Documents\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\common_google_signin_btn_text_light_normal_background.9.png",
-        "source": "C:\\Users\\dy889\\.android\\build-cache\\11a22824b674fc33d38cadc6afd43da20d820267\\output\\res\\drawable-xhdpi-v4\\common_google_signin_btn_text_light_normal_background.9.png"
-    },
-    {
         "merged": "C:\\Users\\dy889\\Documents\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\notify_panel_notification_icon_bg.png",
         "source": "C:\\Users\\dy889\\.android\\build-cache\\eaa9472fc91e028a5a27b3d20e7a0c3fbad5c383\\output\\res\\drawable-xhdpi-v4\\notify_panel_notification_icon_bg.png"
+    },
+    {
+        "merged": "C:\\Users\\dy889\\Documents\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\common_google_signin_btn_text_light_normal_background.9.png",
+        "source": "C:\\Users\\dy889\\.android\\build-cache\\11a22824b674fc33d38cadc6afd43da20d820267\\output\\res\\drawable-xhdpi-v4\\common_google_signin_btn_text_light_normal_background.9.png"
     },
     {
         "merged": "C:\\Users\\dy889\\Documents\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_media_route_connecting_09_light.png",
@@ -100,16 +100,16 @@
         "source": "C:\\Users\\dy889\\.android\\build-cache\\6eb1f1beb74a0f6f7519161070d151573d511644\\output\\res\\drawable-xhdpi-v4\\quantum_ic_volume_off_white_36.png"
     },
     {
-        "merged": "C:\\Users\\dy889\\Documents\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\quantum_ic_pause_white_24.png",
-        "source": "C:\\Users\\dy889\\.android\\build-cache\\6eb1f1beb74a0f6f7519161070d151573d511644\\output\\res\\drawable-xhdpi-v4\\quantum_ic_pause_white_24.png"
+        "merged": "C:\\Users\\dy889\\Documents\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\notification_bg_normal.9.png",
+        "source": "C:\\Users\\dy889\\.android\\build-cache\\eaa9472fc91e028a5a27b3d20e7a0c3fbad5c383\\output\\res\\drawable-xhdpi-v4\\notification_bg_normal.9.png"
     },
     {
         "merged": "C:\\Users\\dy889\\Documents\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_list_selector_disabled_holo_dark.9.png",
         "source": "C:\\Users\\dy889\\.android\\build-cache\\eaa9472fc91e028a5a27b3d20e7a0c3fbad5c383\\output\\res\\drawable-xhdpi-v4\\abc_list_selector_disabled_holo_dark.9.png"
     },
     {
-        "merged": "C:\\Users\\dy889\\Documents\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\notification_bg_normal.9.png",
-        "source": "C:\\Users\\dy889\\.android\\build-cache\\eaa9472fc91e028a5a27b3d20e7a0c3fbad5c383\\output\\res\\drawable-xhdpi-v4\\notification_bg_normal.9.png"
+        "merged": "C:\\Users\\dy889\\Documents\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\quantum_ic_pause_white_24.png",
+        "source": "C:\\Users\\dy889\\.android\\build-cache\\6eb1f1beb74a0f6f7519161070d151573d511644\\output\\res\\drawable-xhdpi-v4\\quantum_ic_pause_white_24.png"
     },
     {
         "merged": "C:\\Users\\dy889\\Documents\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_media_route_on_15_light.png",
@@ -164,12 +164,12 @@
         "source": "C:\\Users\\dy889\\.android\\build-cache\\5be27fb41eebb647131b34037f6ce6ef3d2567cf\\output\\res\\drawable-xhdpi-v4\\powered_by_google_dark.png"
     },
     {
-        "merged": "C:\\Users\\dy889\\Documents\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\cast_abc_scrubber_control_off_mtrl_alpha.png",
-        "source": "C:\\Users\\dy889\\.android\\build-cache\\6eb1f1beb74a0f6f7519161070d151573d511644\\output\\res\\drawable-xhdpi-v4\\cast_abc_scrubber_control_off_mtrl_alpha.png"
-    },
-    {
         "merged": "C:\\Users\\dy889\\Documents\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_media_route_on_02_dark.png",
         "source": "C:\\Users\\dy889\\.android\\build-cache\\881c7ca0ff5e3a246a027b2d60f062378d106efc\\output\\res\\drawable-xhdpi-v4\\ic_media_route_on_02_dark.png"
+    },
+    {
+        "merged": "C:\\Users\\dy889\\Documents\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\cast_abc_scrubber_control_off_mtrl_alpha.png",
+        "source": "C:\\Users\\dy889\\.android\\build-cache\\6eb1f1beb74a0f6f7519161070d151573d511644\\output\\res\\drawable-xhdpi-v4\\cast_abc_scrubber_control_off_mtrl_alpha.png"
     },
     {
         "merged": "C:\\Users\\dy889\\Documents\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\quantum_ic_volume_up_grey600_36.png",

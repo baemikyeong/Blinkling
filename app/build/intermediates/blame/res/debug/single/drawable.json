@@ -32,12 +32,12 @@
         "source": "C:\\Users\\dy889\\.android\\build-cache\\6eb1f1beb74a0f6f7519161070d151573d511644\\output\\res\\drawable\\cast_ic_mini_controller_skip_next.xml"
     },
     {
-        "merged": "C:\\Users\\dy889\\Documents\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\mr_ic_audiotrack_light.xml",
-        "source": "C:\\Users\\dy889\\.android\\build-cache\\881c7ca0ff5e3a246a027b2d60f062378d106efc\\output\\res\\drawable\\mr_ic_audiotrack_light.xml"
-    },
-    {
         "merged": "C:\\Users\\dy889\\Documents\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\mr_ic_cast_light.xml",
         "source": "C:\\Users\\dy889\\.android\\build-cache\\881c7ca0ff5e3a246a027b2d60f062378d106efc\\output\\res\\drawable\\mr_ic_cast_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\dy889\\Documents\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\mr_ic_audiotrack_light.xml",
+        "source": "C:\\Users\\dy889\\.android\\build-cache\\881c7ca0ff5e3a246a027b2d60f062378d106efc\\output\\res\\drawable\\mr_ic_audiotrack_light.xml"
     },
     {
         "merged": "C:\\Users\\dy889\\Documents\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_arrow_drop_right_black_24dp.xml",
