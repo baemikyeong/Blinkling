@@ -1,6 +1,8 @@
 package com.example.hyemin.blinkling;
 
+import android.app.Activity;
 import android.content.Intent;
+import android.content.res.Configuration;
 import android.net.Uri;
 import android.os.Build;
 import android.os.Bundle;
@@ -20,12 +22,19 @@ import com.example.hyemin.blinkling.Bookmark.BookmarkFragment;
 import com.example.hyemin.blinkling.Service.ScreenFilterService;
 import com.example.hyemin.blinkling.Webview.WebviewFragment;
 
+import java.util.Stack;
+
 public class MainActivity extends ActionBarActivity {
     private BottomNavigationView bottomNavigation;
     private Fragment fragment;
     private FragmentManager fragmentManager;
     private Toolbar toolbar;
     boolean light;//초기상태는 불이 꺼진 상태
+
+    @Override
+    public void onConfigurationChanged(Configuration newConfig){
+        super.onConfigurationChanged(newConfig);
+    }
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -67,12 +76,25 @@ public class MainActivity extends ActionBarActivity {
                                 break;
 
                         }
-                        final FragmentTransaction transaction = fragmentManager.beginTransaction();
-                        transaction.replace(R.id.main_container, fragment).commit();
+                        replaceFragment(fragment);
                         return true;
                     }
                 });
 
+    }
+
+    private void replaceFragment (Fragment fragment){
+        String backStateName = fragment.getClass().getName();
+
+        FragmentManager manager = getSupportFragmentManager();
+        boolean fragmentPopped = manager.popBackStackImmediate (backStateName, 0);
+
+        if (!fragmentPopped){ //fragment not in back stack, create it.
+            FragmentTransaction ft = manager.beginTransaction();
+            ft.replace(R.id.main_container, fragment);
+            ft.addToBackStack(backStateName);
+            ft.commit();
+        }
     }
 
     public boolean onCreateOptionsMenu(Menu menu) {
@@ -91,8 +113,7 @@ public class MainActivity extends ActionBarActivity {
             }
             case R.id.notebook_add: {
                 fragment = new InnerStorageFragment();
-                final FragmentTransaction transaction = fragmentManager.beginTransaction();
-                transaction.replace(R.id.main_container, fragment).commit();
+                replaceFragment(fragment);
                 return true;
             }
             case R.id.notebook_delete: {
@@ -149,8 +170,7 @@ public class MainActivity extends ActionBarActivity {
 
     public void changeToText() {
         fragment = new TextViewFragment();
-        final FragmentTransaction transaction = fragmentManager.beginTransaction();
-        transaction.replace(R.id.main_container, fragment).commit();
+        replaceFragment(fragment);
 
 
     }

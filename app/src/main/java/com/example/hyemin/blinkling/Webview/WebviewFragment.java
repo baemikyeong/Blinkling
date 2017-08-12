@@ -4,6 +4,8 @@ import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.pm.PackageManager;
+import android.content.res.Configuration;
+import android.graphics.Bitmap;
 import android.net.Uri;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
@@ -16,9 +18,14 @@ import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.View;
 import android.view.ViewGroup;
+import android.webkit.JsResult;
+import android.webkit.WebChromeClient;
 import android.webkit.WebSettings;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
+import android.widget.Button;
+import android.widget.EditText;
+import android.widget.ImageButton;
 import android.widget.ProgressBar;
 import android.widget.TextView;
 
@@ -52,27 +59,87 @@ public class WebviewFragment extends Fragment {
     public WebviewFragment() {
     }
 
+
+
+    @Override
+    public void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+
+        setHasOptionsMenu(true);
+    }
+
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
+
         main_view = inflater.inflate(R.layout.fragment_webview, container, false);
         webView = (WebView) main_view.findViewById(R.id.webView1);
         mPBar = (ProgressBar) main_view.findViewById(R.id.progress01);
         WebSettings set = webView.getSettings();
+        Button button = (Button)main_view.findViewById(R.id.btnGo);
+        ImageButton back_button = (ImageButton)main_view.findViewById(R.id.back_button);
+        final EditText url_String = (EditText)main_view.findViewById(R.id.txtURL);
 
-        webView.getLocationOnScreen(location);
         webView.getSettings().setJavaScriptEnabled(true);
-        goURL(webView);
+        webView.setScrollBarStyle(View.SCROLLBARS_INSIDE_OVERLAY);
 
+        webView.setWebViewClient(new WebViewClient() {
+            @Override
+            public boolean shouldOverrideUrlLoading(WebView view, String url) {
+                view.loadUrl(url);
+                return true;
+            }
+
+        @Override
+        public void onPageFinished(WebView view, String url) {
+            url_String.setText(url);
+            super.onPageFinished(view, url);
+        }
+        });
+        webView.loadUrl("http://www.naver.com");
+
+
+
+        button.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                String urlString = url_String.getText().toString();
+
+                if ( urlString.startsWith("http") != true )
+                    urlString = "http://"+urlString;
+
+                webView.loadUrl(urlString);
+            }
+        });
+
+        back_button.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                webView.goBack();
+            }
+        });
+
+        url_String.setOnKeyListener(new View.OnKeyListener(){
+            @Override
+            public boolean onKey(View v, int keyCode, KeyEvent event) {
+                if ( keyCode == KeyEvent.KEYCODE_ENTER )
+                {
+                    String urlString = url_String.getText().toString();
+
+                    if ( urlString.startsWith("http") != true )
+                        urlString = "http://"+urlString;
+
+                    webView.loadUrl(urlString);
+                    return true;
+                }
+
+                return false;
+            }
+        });
 
         set.setCacheMode(WebSettings.LOAD_NO_CACHE);
         set.setSupportZoom(false);
         return main_view;
     }
 
-    public void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        setHasOptionsMenu(true);
-    }
+
 
     public void onPrepareOptionsMenu(Menu menu) {
         menu.findItem(R.id.notebook_add).setVisible(false);
@@ -80,29 +147,15 @@ public class WebviewFragment extends Fragment {
         super.onPrepareOptionsMenu(menu);
     }
 
-    public void goURL(View view) {
+    public void goURL(WebView view) {
         TextView tvURL = (TextView) main_view.findViewById(R.id.txtURL);
         String url = tvURL.getText().toString();
         Log.i("URL", "Opening URL :" + url);
 
-        webView.setWebViewClient(new WebViewClient());
-        webView.loadUrl(url);
+        //webView.setWebViewClient(new WebViewClient());
+        view.loadUrl(url);
 
     }
-
-    public boolean onKeyDown(int keyCode, KeyEvent event) {
-        if (keyCode == KeyEvent.KEYCODE_BACK && event.getRepeatCount() == 0) {
-            if (webView.canGoBack()) {
-                webView.goBack();
-            } else {
-                webView.clearCache(false);
-                getActivity().finish();
-            }
-            return true;
-        }
-        return super.getActivity().onKeyDown(keyCode, event);
-    }
-
 
     private class WebClient extends WebViewClient {
 
