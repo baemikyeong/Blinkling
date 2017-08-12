@@ -152,6 +152,7 @@ public final class Face_Activity extends Activity {
 
         Context context = getApplicationContext();
         FaceDetector detector = new FaceDetector.Builder(context)
+                .setProminentFaceOnly(true)
                 .setClassificationType(FaceDetector.ALL_CLASSIFICATIONS)
                 .build();
 
