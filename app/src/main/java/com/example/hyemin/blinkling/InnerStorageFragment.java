@@ -28,7 +28,9 @@ public class InnerStorageFragment extends ListFragment {
     String mRoot = "";
     String mBookName = "";
     String strPathComp = "";
-    String InStoragePath = Environment.getRootDirectory().getAbsolutePath();
+   // String InStoragePath = Environment.getRootDirectory().getAbsolutePath();
+   String InStoragePath = Environment.getExternalStorageDirectory().getAbsolutePath();
+
 
 //    Fragment frag = new TextViewFragment();
 //    Bundle bundle = new Bundle();
@@ -55,22 +57,22 @@ public class InnerStorageFragment extends ListFragment {
         mFileListView = (ListView) rootView.findViewById(android.R.id.list);
         mRoot = InStoragePath;
         //  ( (MainActivity)getActivity()).changeToBookshelf();
-        findFolder();
+    //    findFolder();
 
-   /* SD카드 접근시임
+   // SD카드 접근시임
         String ext = Environment.getExternalStorageState();
         if (ext.equals(Environment.MEDIA_MOUNTED)) {
             findFolder();
-           // Activity root = getActivity();
-           // Toast toast = Toast.makeText(root, "There is  SDcard!", Toast.LENGTH_SHORT);
-          //  toast.show();
+            Activity root = getActivity();
+            Toast toast = Toast.makeText(root, "There is  SDcard!", Toast.LENGTH_SHORT);
+           toast.show();
 
         } else {
             Activity root = getActivity();
             Toast toast = Toast.makeText(root, "There is no SDcard!", Toast.LENGTH_SHORT);
             toast.show();
         }
-        */
+
 
 
         return rootView;
@@ -130,16 +132,19 @@ public class InnerStorageFragment extends ListFragment {
 
         // 해당 경로가 폴더가 아니라면 함수 탈출
         if (fileRoot.isDirectory() == false) {//false즉 마지막 파일이라면 (디렉터리가 아니라)
-//            Activity root = getActivity();
+           Activity root = getActivity();
 //            Toast toast = Toast.makeText(root, "IF문", Toast.LENGTH_SHORT);
 //            toast.show();
             //sd카드에는 텍스트 파일만 있다고 가정,   strPath이름의 텍스트 파일을 읽을거야
             int pos = strPath.lastIndexOf("/");
             strPath = strPath.substring(pos+1);//pos=시작인덱스, 포스부터 쭉 서브스트링을 리턴
-            mBookName = strPath; //   / 이거 없애야 함
 
-//            toast = Toast.makeText(root, mBookName, Toast.LENGTH_SHORT);
-//            toast.show();
+//            pos = strPath.lastIndexOf(".");
+//            strPath = strPath.substring(0,pos);
+            mBookName = strPath; //
+
+            Toast toast = Toast.makeText(root, mBookName, Toast.LENGTH_SHORT);
+            toast.show();
 
 //그러니까 경로의 마지막부분인 파일이름으로 읽는걸 들어가야 한다.
           //  newInstance(mBookName);

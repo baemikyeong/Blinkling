@@ -32,7 +32,6 @@
         "source": "C:\\Users\\dy889\\.android\\build-cache\\eaa9472fc91e028a5a27b3d20e7a0c3fbad5c383\\output\\res\\layout\\abc_alert_dialog_title_material.xml"
     },
     {
-<<<<<<< HEAD
         "merged": "C:\\Users\\dy889\\Documents\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_layout.xml",
         "source": "C:\\Users\\dy889\\.android\\build-cache\\eaa9472fc91e028a5a27b3d20e7a0c3fbad5c383\\output\\res\\layout\\abc_action_menu_layout.xml"
     },
@@ -43,18 +42,6 @@
     {
         "merged": "C:\\Users\\dy889\\Documents\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_lines_media.xml",
         "source": "C:\\Users\\dy889\\.android\\build-cache\\eaa9472fc91e028a5a27b3d20e7a0c3fbad5c383\\output\\res\\layout\\notification_template_lines_media.xml"
-=======
-        "merged": "/Users/mac/Downloads/Blinkling/C:\\Users\\dayeon\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_bottom_navigation_item.xml",
-        "source": "/Users/mac/Downloads/Blinkling/C:\\Users\\dayeon\\.android\\build-cache\\d7955f365574be11571c6d760671cfed3e81f806\\output\\res\\layout\\design_bottom_navigation_item.xml"
-    },
-    {
-        "merged": "/Users/mac/Downloads/Blinkling/app/build/intermediates/res/merged/debug/layout/abc_screen_content_include.xml",
-        "source": "/Users/mac/.android/build-cache/913d8db17f1c25b6ee67b77b63f40d3096bd505a/output/res/layout/abc_screen_content_include.xml"
-    },
-    {
-        "merged": "/Users/mac/Downloads/Blinkling/app/build/intermediates/res/merged/debug/layout/abc_select_dialog_material.xml",
-        "source": "/Users/mac/.android/build-cache/913d8db17f1c25b6ee67b77b63f40d3096bd505a/output/res/layout/abc_select_dialog_material.xml"
->>>>>>> e3259a312ad3693098a0570478c7ae64c1bf6c9c
     },
     {
         "merged": "C:\\Users\\dy889\\Documents\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\layout\\mr_controller_volume_item.xml",
@@ -157,7 +144,6 @@
         "source": "C:\\Users\\dy889\\.android\\build-cache\\2318f7de2f290e7ceeae07216c4454185a81ae35\\output\\res\\layout\\design_layout_snackbar.xml"
     },
     {
-<<<<<<< HEAD
         "merged": "C:\\Users\\dy889\\Documents\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_action_tombstone.xml",
         "source": "C:\\Users\\dy889\\.android\\build-cache\\eaa9472fc91e028a5a27b3d20e7a0c3fbad5c383\\output\\res\\layout\\notification_action_tombstone.xml"
     },
@@ -168,18 +154,6 @@
     {
         "merged": "C:\\Users\\dy889\\Documents\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\layout\\mr_controller_material_dialog_b.xml",
         "source": "C:\\Users\\dy889\\.android\\build-cache\\881c7ca0ff5e3a246a027b2d60f062378d106efc\\output\\res\\layout\\mr_controller_material_dialog_b.xml"
-=======
-        "merged": "/Users/mac/Downloads/Blinkling/C:\\Users\\dayeon\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_lines_media.xml",
-        "source": "/Users/mac/Downloads/Blinkling/C:\\Users\\dayeon\\.android\\build-cache\\08f0b85e835f6a143412367b800bd932d6600384\\output\\res\\layout\\notification_template_lines_media.xml"
-    },
-    {
-        "merged": "/Users/mac/Downloads/Blinkling/app/build/intermediates/res/merged/debug/layout/notification_template_media.xml",
-        "source": "/Users/mac/.android/build-cache/913d8db17f1c25b6ee67b77b63f40d3096bd505a/output/res/layout/notification_template_media.xml"
-    },
-    {
-        "merged": "/Users/mac/Blinkling/app/build/intermediates/res/merged/debug/layout/main.xml",
-        "source": "/Users/mac/Blinkling/app/src/main/res/layout/main.xml"
->>>>>>> e3259a312ad3693098a0570478c7ae64c1bf6c9c
     },
     {
         "merged": "C:\\Users\\dy889\\Documents\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_close_item_material.xml",
@@ -206,7 +180,6 @@
         "source": "C:\\Users\\dy889\\.android\\build-cache\\2318f7de2f290e7ceeae07216c4454185a81ae35\\output\\res\\layout\\design_navigation_item.xml"
     },
     {
-<<<<<<< HEAD
         "merged": "C:\\Users\\dy889\\Documents\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\layout\\listview_item.xml",
         "source": "C:\\Users\\dy889\\Documents\\Blinkling\\app\\src\\main\\res\\layout\\listview_item.xml"
     },
@@ -217,18 +190,6 @@
     {
         "merged": "C:\\Users\\dy889\\Documents\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\layout\\mr_volume_control.xml",
         "source": "C:\\Users\\dy889\\.android\\build-cache\\881c7ca0ff5e3a246a027b2d60f062378d106efc\\output\\res\\layout\\mr_volume_control.xml"
-=======
-        "merged": "/Users/mac/Blinkling/app/build/intermediates/res/merged/debug/layout/activity_splash.xml",
-        "source": "/Users/mac/Blinkling/app/src/main/res/layout/activity_splash.xml"
-    },
-    {
-        "merged": "/Users/mac/Blinkling/app/build/intermediates/res/merged/debug/layout/abc_screen_simple.xml",
-        "source": "/Users/mac/.android/build-cache/913d8db17f1c25b6ee67b77b63f40d3096bd505a/output/res/layout/abc_screen_simple.xml"
-    },
-    {
-        "merged": "/Users/mac/Downloads/Blinkling/app/build/intermediates/res/merged/debug/layout/fragment_deals.xml",
-        "source": "/Users/mac/Downloads/Blinkling/app/src/main/res/layout/fragment_deals.xml"
->>>>>>> e3259a312ad3693098a0570478c7ae64c1bf6c9c
     },
     {
         "merged": "C:\\Users\\dy889\\Documents\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_setting.xml",

@@ -1,18 +1,22 @@
 package com.example.hyemin.blinkling;
 
+import android.annotation.TargetApi;
 import android.app.Activity;
 import android.content.Intent;
+import android.content.pm.PackageManager;
 import android.content.res.Configuration;
 import android.net.Uri;
 import android.os.Build;
 import android.os.Bundle;
 import android.provider.Settings;
 import android.support.design.widget.BottomNavigationView;
+import android.support.v4.app.ActivityCompat;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentTransaction;
 import android.support.v7.app.ActionBarActivity;
 import android.support.v7.widget.Toolbar;
+import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.Toast;
@@ -25,6 +29,10 @@ import com.example.hyemin.blinkling.Webview.WebviewFragment;
 import java.util.Stack;
 
 public class MainActivity extends ActionBarActivity {
+    private static final String TAG = "AppPermission";
+    private final int MY_PERMISSION_REQUEST_STORAGE = 100;
+
+
     private BottomNavigationView bottomNavigation;
     private Fragment fragment;
     private FragmentManager fragmentManager;
@@ -111,16 +119,11 @@ public class MainActivity extends ActionBarActivity {
                 toast.show();
                 return true;
             }
-            case R.id.notebook_add: {
+            case R.id.notebook_add: {/////
+
+                checkPermission();
 
 
-
-
-
-
-                fragment = new InnerStorageFragment();
-                replaceFragment(fragment);
-                return true;
             }
             case R.id.notebook_delete: {
                 Toast toast;
@@ -184,15 +187,68 @@ public class MainActivity extends ActionBarActivity {
         frag.setArguments(bundle);
 
 
-       // fragment = new TextViewFragment();
         final FragmentTransaction transaction = fragmentManager.beginTransaction();
         transaction.replace(R.id.main_container, frag).commit();
-//=======
-//    public void changeToText() {
-//        fragment = new TextViewFragment();
-//        replaceFragment(fragment);
-//>>>>>>> e3259a312ad3693098a0570478c7ae64c1bf6c9c
 
 
+
+    }
+
+
+
+    @TargetApi(Build.VERSION_CODES.M)
+    private void checkPermission() {
+        Log.i(TAG, "CheckPermission : " +  ActivityCompat.checkSelfPermission(this, android.Manifest.permission.READ_EXTERNAL_STORAGE));
+        if (checkSelfPermission(android.Manifest.permission.READ_EXTERNAL_STORAGE)
+                != PackageManager.PERMISSION_GRANTED
+                || checkSelfPermission(android.Manifest.permission.WRITE_EXTERNAL_STORAGE)
+                != PackageManager.PERMISSION_GRANTED) {
+
+            // Should we show an explanation?
+            if (shouldShowRequestPermissionRationale(android.Manifest.permission.READ_EXTERNAL_STORAGE)) {
+                // Explain to the user why we need to write the permission.
+                Toast.makeText(this, "Read/Write external storage", Toast.LENGTH_SHORT).show();
+            }
+
+            requestPermissions(new String[]{android.Manifest.permission.READ_EXTERNAL_STORAGE, android.Manifest.permission.WRITE_EXTERNAL_STORAGE},
+                    MY_PERMISSION_REQUEST_STORAGE);
+
+            // MY_PERMISSION_REQUEST_STORAGE is an
+            // app-defined int constant
+
+        } else {
+
+            start();
+        }
+    }
+
+
+    @Override
+    public void onRequestPermissionsResult(int requestCode, String[] permissions, int[] grantResults) {
+        switch (requestCode) {
+            case MY_PERMISSION_REQUEST_STORAGE:
+                if (grantResults[0] == PackageManager.PERMISSION_GRANTED
+                        && grantResults[1] == PackageManager.PERMISSION_GRANTED) {
+
+                    start();
+
+                    // permission was granted, yay! do the
+                    // calendar task you need to do.
+
+                } else {
+
+                    Log.d(TAG, "Permission always deny");
+
+                    // permission denied, boo! Disable the
+                    // functionality that depends on this permission.
+                    Toast.makeText(this, "permission denied", Toast.LENGTH_SHORT).show();
+                }
+                break;
+        }
+    }
+
+    public void start() {
+        fragment = new InnerStorageFragment();
+        replaceFragment(fragment);
     }
 }
