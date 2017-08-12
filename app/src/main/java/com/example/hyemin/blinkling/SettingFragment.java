@@ -1,5 +1,6 @@
 package com.example.hyemin.blinkling;
 
+import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
@@ -44,9 +45,12 @@ public class SettingFragment extends Fragment {
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setHasOptionsMenu(true);
+
+
     }
 
     public void onPrepareOptionsMenu(Menu menu) {
+
         menu.findItem(R.id.bookmark_btn).setVisible(false);
         menu.findItem(R.id.voice_btn).setVisible(false);
         menu.findItem(R.id.eye_btn).setVisible(false);
@@ -58,6 +62,8 @@ public class SettingFragment extends Fragment {
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
+
+
         View view = inflater.inflate(R.layout.fragment_setting, container, false);
 
         final MyListAdapter Adapter = new MyListAdapter(getActivity());
@@ -74,7 +80,6 @@ public class SettingFragment extends Fragment {
 
         return view;
     }
-
 
     private class MyListAdapter extends BaseAdapter {
         public MyListAdapter(Context context) {

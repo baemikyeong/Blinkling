@@ -125,10 +125,13 @@
 >>>>>>> 9aabb1bc7c356e6b1b72ce3c207114453633d1fc
 =======
     <list default="true" id="b7900432-276c-4c7a-b4e7-f22c2e7693c3" name="Default" comment="">
+<<<<<<< HEAD
       <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/hyemin/blinkling/BookmarkFragment.class" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/hyemin/blinkling/BookshelfFragment.class" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/hyemin/blinkling/WebviewFragment.class" afterPath="" />
 >>>>>>> 80b0b118dd92bc2f16843b537793a311e6641da0
+=======
+>>>>>>> e3259a312ad3693098a0570478c7ae64c1bf6c9c
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileHashes.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/fileSnapshots.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.bin" />
@@ -137,6 +140,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/tasks/_app_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" afterPath="$PROJECT_DIR$/.gradle/3.3/tasks/_app_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" />
+<<<<<<< HEAD
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/outputs/apk/app-debug.apk" afterPath="$PROJECT_DIR$/app/build/outputs/apk/app-debug.apk" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-af.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/multi/values-af.json" />
@@ -316,6 +320,12 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/hyemin/blinkling/R$color.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/hyemin/blinkling/R$color.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/hyemin/blinkling/R$dimen.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/hyemin/blinkling/R$dimen.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/hyemin/blinkling/R$drawable.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/hyemin/blinkling/R$drawable.class" />
+=======
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/design/R$id.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/design/R$id.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/v7/appcompat/R$id.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/android/support/v7/appcompat/R$id.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/hyemin/blinkling/MainActivity$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/hyemin/blinkling/MainActivity$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/hyemin/blinkling/MainActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/hyemin/blinkling/MainActivity.class" />
+>>>>>>> e3259a312ad3693098a0570478c7ae64c1bf6c9c
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/hyemin/blinkling/R$id.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/hyemin/blinkling/R$id.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/hyemin/blinkling/R$integer.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/hyemin/blinkling/R$integer.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/hyemin/blinkling/R$layout.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/example/hyemin/blinkling/R$layout.class" />
@@ -330,7 +340,10 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/outputs/apk/app-debug.apk" afterPath="$PROJECT_DIR$/app/build/outputs/apk/app-debug.apk" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+<<<<<<< HEAD
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/app.iml" afterPath="$PROJECT_DIR$/app/app.iml" />
+=======
+>>>>>>> e3259a312ad3693098a0570478c7ae64c1bf6c9c
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/generated/source/r/debug/android/support/design/R.java" afterPath="$PROJECT_DIR$/app/build/generated/source/r/debug/android/support/design/R.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/generated/source/r/debug/android/support/v7/appcompat/R.java" afterPath="$PROJECT_DIR$/app/build/generated/source/r/debug/android/support/v7/appcompat/R.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/generated/source/r/debug/com/example/hyemin/blinkling/R.java" afterPath="$PROJECT_DIR$/app/build/generated/source/r/debug/com/example/hyemin/blinkling/R.java" />
@@ -344,6 +357,7 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugShaders/merger.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugShaders/merger.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/dex-renamer-state.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/file-input-save-data.txt" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/file-input-save-data.txt" />
+<<<<<<< HEAD
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/values/values.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/values/values.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/symbols/debug/R.txt" afterPath="$PROJECT_DIR$/app/build/intermediates/symbols/debug/R.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/example/hyemin/blinkling/SettingFragment.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/hyemin/blinkling/SettingFragment.java" />
@@ -354,12 +368,21 @@
 >>>>>>> ff2dcc5ccc353b3360e6f1b26053e231f8fc7a8b
 =======
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/menu/bottom_menu.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/menu/bottom_menu.xml" />
+=======
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/manifests/full/debug/AndroidManifest.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/manifests/full/debug/AndroidManifest.xml" />
+>>>>>>> e3259a312ad3693098a0570478c7ae64c1bf6c9c
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/symbols/debug/R.txt" afterPath="$PROJECT_DIR$/app/build/intermediates/symbols/debug/R.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/outputs/logs/manifest-merger-debug-report.txt" afterPath="$PROJECT_DIR$/app/build/outputs/logs/manifest-merger-debug-report.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/example/hyemin/blinkling/MainActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/hyemin/blinkling/MainActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/example/hyemin/blinkling/SettingFragment.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/hyemin/blinkling/SettingFragment.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/example/hyemin/blinkling/Webview/WebviewFragment.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/hyemin/blinkling/Webview/WebviewFragment.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_webview.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_webview.xml" />
+<<<<<<< HEAD
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/menu/bottom_menu.xml" afterPath="$PROJECT_DIR$/app/src/main/res/menu/bottom_menu.xml" />
 >>>>>>> 80b0b118dd92bc2f16843b537793a311e6641da0
+=======
+>>>>>>> e3259a312ad3693098a0570478c7ae64c1bf6c9c
     </list>
     <ignored path="Blinkling.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -402,9 +425,37 @@
       <file leaf-file-name="MainActivity.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/hyemin/blinkling/MainActivity.java">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="195">
               <caret line="59" column="0" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
 >>>>>>> 80b0b118dd92bc2f16843b537793a311e6641da0
+=======
+            <state relative-caret-position="194">
+              <caret line="61" column="45" selection-start-line="61" selection-start-column="45" selection-end-line="61" selection-end-column="45" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="bottom_menu.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/menu/bottom_menu.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="20" column="44" selection-start-line="20" selection-start-column="44" selection-end-line="20" selection-end-column="44" />
+              <folding />
+            </state>
+          </provider>
+          <provider editor-type-id="android-designer2">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SettingFragment.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/hyemin/blinkling/SettingFragment.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-555">
+              <caret line="46" column="32" selection-start-line="46" selection-start-column="32" selection-end-line="46" selection-end-column="32" />
+>>>>>>> e3259a312ad3693098a0570478c7ae64c1bf6c9c
               <folding />
             </state>
           </provider>
@@ -414,34 +465,46 @@
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/hyemin/blinkling/Webview/WebviewFragment.java">
           <provider selected="true" editor-type-id="text-editor">
 <<<<<<< HEAD
+<<<<<<< HEAD
             <state relative-caret-position="608">
               <caret line="32" column="1" selection-start-line="32" selection-start-column="1" selection-end-line="32" selection-end-column="1" />
 =======
             <state relative-caret-position="481">
               <caret line="100" column="24" selection-start-line="100" selection-start-column="24" selection-end-line="100" selection-end-column="24" />
 >>>>>>> 80b0b118dd92bc2f16843b537793a311e6641da0
+=======
+            <state relative-caret-position="348">
+              <caret line="114" column="33" selection-start-line="114" selection-start-column="33" selection-end-line="114" selection-end-column="33" />
+>>>>>>> e3259a312ad3693098a0570478c7ae64c1bf6c9c
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#3576#3897#0" expanded="true" />
+                <element signature="e#3896#3897#0" expanded="true" />
+                <element signature="e#3940#4068#0" expanded="true" />
+                <element signature="e#4067#4068#0" expanded="true" />
+                <element signature="e#4108#4651#0" expanded="true" />
+                <element signature="e#4650#4651#0" expanded="true" />
                 <element signature="method#change_down_location#0;class#WebviewFragment#0" expanded="false" />
                 <element signature="method#change_up_location#0;class#WebviewFragment#0" expanded="false" />
                 <element signature="docComment;method#isCameraPermissionGranted#0;class#WebviewFragment#0" expanded="false" />
                 <element signature="method#isCameraPermissionGranted#0;class#WebviewFragment#0" expanded="false" />
                 <element signature="docComment;method#requestCameraPermission#0;class#WebviewFragment#0" expanded="false" />
                 <element signature="method#requestCameraPermission#0;class#WebviewFragment#0" expanded="false" />
-                <element signature="method#onRequestPermissionsResult#0;class#WebviewFragment#0" expanded="false" />
-                <element signature="e#6268#6437#0" expanded="true" />
-                <element signature="e#6436#6437#0" expanded="true" />
-                <element signature="method#onResume#0;class#WebviewFragment#0" expanded="false" />
-                <element signature="method#onPause#0;class#WebviewFragment#0" expanded="false" />
-                <element signature="method#onDestroy#0;class#WebviewFragment#0" expanded="false" />
-                <element signature="method#onRightEyeClosed#0;class#WebviewFragment#0" expanded="false" />
-                <element signature="method#onNeutralFace#0;class#WebviewFragment#0" expanded="false" />
+                <element signature="e#7918#8087#0" expanded="true" />
+                <element signature="e#8086#8087#0" expanded="true" />
                 <element signature="method#createCameraResources#0;class#WebviewFragment#0" expanded="false" />
+                <marker date="1502495115000" expanded="false" signature="7534:8340" ph="{...}" />
+                <marker date="1502495115000" expanded="false" signature="8383:8822" ph="{...}" />
+                <marker date="1502495115000" expanded="false" signature="8864:9190" ph="{...}" />
+                <marker date="1502495115000" expanded="false" signature="9234:9504" ph="{...}" />
+                <marker date="1502495115000" expanded="false" signature="9607:9615" ph="{...}" />
+                <marker date="1502495115000" expanded="false" signature="9712:9753" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="activity_main.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
 <<<<<<< HEAD
@@ -628,11 +691,13 @@
 >>>>>>> 80b0b118dd92bc2f16843b537793a311e6641da0
         </entry>
       </file>
+=======
+>>>>>>> e3259a312ad3693098a0570478c7ae64c1bf6c9c
       <file leaf-file-name="fragment_webview.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_webview.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="34" column="30" selection-start-line="34" selection-start-column="30" selection-end-line="34" selection-end-column="30" />
+            <state relative-caret-position="135">
+              <caret line="24" column="38" selection-start-line="24" selection-start-column="38" selection-end-line="24" selection-end-column="38" />
               <folding />
             </state>
           </provider>
@@ -3114,6 +3179,7 @@
       <list>
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/hyemin/blinkling/MainActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_inner_storage.xml" />
@@ -3133,6 +3199,8 @@
 >>>>>>> 9aabb1bc7c356e6b1b72ce3c207114453633d1fc
 =======
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/hyemin/blinkling/SettingFragment.java" />
+=======
+>>>>>>> e3259a312ad3693098a0570478c7ae64c1bf6c9c
         <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_set_font.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_set_brightness.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_set_page_style.xml" />
@@ -3145,15 +3213,18 @@
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/hyemin/blinkling/Bookmark/BookmarkFragment.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/hyemin/blinkling/BookShelf/BookshelfFragment.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/hyemin/blinkling/Webview/NewWebView_Activity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/menu/bottom_menu.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_webview.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/hyemin/blinkling/Webview/WebviewFragment.java" />
-        <option value="$PROJECT_DIR$/app/src/main/res/menu/bottom_menu.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/hyemin/blinkling/SettingFragment.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/hyemin/blinkling/MainActivity.java" />
 >>>>>>> 80b0b118dd92bc2f16843b537793a311e6641da0
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
     <option name="x" value="984" />
@@ -3170,6 +3241,10 @@
     <option name="width" value="1280" />
     <option name="height" value="712" />
 >>>>>>> 80b0b118dd92bc2f16843b537793a311e6641da0
+=======
+    <option name="width" value="1280" />
+    <option name="height" value="800" />
+>>>>>>> e3259a312ad3693098a0570478c7ae64c1bf6c9c
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -3337,26 +3412,8 @@
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="blinkling" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Webview" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Blinkling" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+              <option name="myItemId" value="manifests" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidManifestsGroupNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -3380,11 +3437,16 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     <property name="device.picker.selection" value="Pixel_C_API_23" />
 =======
 =======
 >>>>>>> 80b0b118dd92bc2f16843b537793a311e6641da0
     <property name="device.picker.selection" value="0123456789ABCDEF" />
+=======
+    <property name="device.picker.selection" value="LG_Pro_API_23" />
+    <property name="FullScreen" value="true" />
+>>>>>>> e3259a312ad3693098a0570478c7ae64c1bf6c9c
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -3723,6 +3785,7 @@
   <component name="ToolWindowManager">
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     <frame x="984" y="0" width="943" height="1077" extended-state="0" />
     <editor active="true" />
     <layout>
@@ -3767,6 +3830,9 @@
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
 =======
     <frame x="0" y="23" width="1280" height="712" extended-state="1" />
+=======
+    <frame x="0" y="0" width="1280" height="800" extended-state="0" />
+>>>>>>> e3259a312ad3693098a0570478c7ae64c1bf6c9c
     <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -3774,8 +3840,8 @@
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.38926175" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.388102" sideWeight="0.503231" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1203966" sideWeight="0.49676898" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3286119" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -3821,6 +3887,7 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+<<<<<<< HEAD
 <<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/hyemin/blinkling/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -3935,6 +4002,8 @@
         <state />
       </provider>
     </entry>
+=======
+>>>>>>> e3259a312ad3693098a0570478c7ae64c1bf6c9c
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_set_brightness.xml">
       <provider editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -4535,13 +4604,43 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/hyemin/blinkling/SettingFragment.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="213">
           <caret line="63" column="0" selection-start-line="63" selection-start-column="0" selection-end-line="63" selection-end-column="0" />
 >>>>>>> 80b0b118dd92bc2f16843b537793a311e6641da0
+=======
+        <state relative-caret-position="135">
+          <caret line="23" column="34" selection-start-line="23" selection-start-column="34" selection-end-line="23" selection-end-column="34" />
+>>>>>>> e3259a312ad3693098a0570478c7ae64c1bf6c9c
           <folding />
         </state>
+      </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="28" column="46" selection-start-line="28" selection-start-column="46" selection-end-line="28" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-manifest">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_webview.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="24" column="38" selection-start-line="24" selection-start-column="38" selection-end-line="24" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
       </provider>
     </entry>
 <<<<<<< HEAD
@@ -4560,56 +4659,52 @@
 =======
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/hyemin/blinkling/Webview/WebviewFragment.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="481">
-          <caret line="100" column="24" selection-start-line="100" selection-start-column="24" selection-end-line="100" selection-end-column="24" />
+        <state relative-caret-position="348">
+          <caret line="114" column="33" selection-start-line="114" selection-start-column="33" selection-end-line="114" selection-end-column="33" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#3576#3897#0" expanded="true" />
+            <element signature="e#3896#3897#0" expanded="true" />
+            <element signature="e#3940#4068#0" expanded="true" />
+            <element signature="e#4067#4068#0" expanded="true" />
+            <element signature="e#4108#4651#0" expanded="true" />
+            <element signature="e#4650#4651#0" expanded="true" />
             <element signature="method#change_down_location#0;class#WebviewFragment#0" expanded="false" />
             <element signature="method#change_up_location#0;class#WebviewFragment#0" expanded="false" />
             <element signature="docComment;method#isCameraPermissionGranted#0;class#WebviewFragment#0" expanded="false" />
             <element signature="method#isCameraPermissionGranted#0;class#WebviewFragment#0" expanded="false" />
             <element signature="docComment;method#requestCameraPermission#0;class#WebviewFragment#0" expanded="false" />
             <element signature="method#requestCameraPermission#0;class#WebviewFragment#0" expanded="false" />
-            <element signature="method#onRequestPermissionsResult#0;class#WebviewFragment#0" expanded="false" />
-            <element signature="e#6268#6437#0" expanded="true" />
-            <element signature="e#6436#6437#0" expanded="true" />
-            <element signature="method#onResume#0;class#WebviewFragment#0" expanded="false" />
-            <element signature="method#onPause#0;class#WebviewFragment#0" expanded="false" />
-            <element signature="method#onDestroy#0;class#WebviewFragment#0" expanded="false" />
-            <element signature="method#onRightEyeClosed#0;class#WebviewFragment#0" expanded="false" />
-            <element signature="method#onNeutralFace#0;class#WebviewFragment#0" expanded="false" />
+            <element signature="e#7918#8087#0" expanded="true" />
+            <element signature="e#8086#8087#0" expanded="true" />
             <element signature="method#createCameraResources#0;class#WebviewFragment#0" expanded="false" />
+            <marker date="1502495115000" expanded="false" signature="7534:8340" ph="{...}" />
+            <marker date="1502495115000" expanded="false" signature="8383:8822" ph="{...}" />
+            <marker date="1502495115000" expanded="false" signature="8864:9190" ph="{...}" />
+            <marker date="1502495115000" expanded="false" signature="9234:9504" ph="{...}" />
+            <marker date="1502495115000" expanded="false" signature="9607:9615" ph="{...}" />
+            <marker date="1502495115000" expanded="false" signature="9712:9753" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/menu/bottom_menu.xml">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/hyemin/blinkling/SettingFragment.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="213">
-          <caret line="20" column="44" selection-start-line="20" selection-start-column="44" selection-end-line="20" selection-end-column="44" />
+        <state relative-caret-position="-555">
+          <caret line="46" column="32" selection-start-line="46" selection-start-column="32" selection-end-line="46" selection-end-column="32" />
           <folding />
         </state>
       </provider>
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_webview.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="34" column="30" selection-start-line="34" selection-start-column="30" selection-end-line="34" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-    </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
 >>>>>>> 80b0b118dd92bc2f16843b537793a311e6641da0
+=======
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/menu/bottom_menu.xml">
+>>>>>>> e3259a312ad3693098a0570478c7ae64c1bf6c9c
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="23" column="34" selection-start-line="23" selection-start-column="34" selection-end-line="23" selection-end-column="34" />
+        <state relative-caret-position="300">
+          <caret line="20" column="44" selection-start-line="20" selection-start-column="44" selection-end-line="20" selection-end-column="44" />
           <folding />
         </state>
       </provider>
@@ -4633,8 +4728,8 @@
 =======
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/hyemin/blinkling/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="59" column="0" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
+        <state relative-caret-position="194">
+          <caret line="61" column="45" selection-start-line="61" selection-start-column="45" selection-end-line="61" selection-end-column="45" />
           <folding />
 >>>>>>> 80b0b118dd92bc2f16843b537793a311e6641da0
         </state>

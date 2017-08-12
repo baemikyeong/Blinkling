@@ -48,7 +48,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="com.example.hyemin.blinkling.MainActivity" />
+        <activity
+            android:name="com.example.hyemin.blinkling.MainActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize" />
         <activity
             android:name="com.example.hyemin.blinkling.Face_Activity"
             android:permission="android.permission.CAMERA"
