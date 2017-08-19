@@ -1,28 +1,36 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/mac/Blinkling/app/src/main/AndroidManifest.xml:2:1-43:12
+ADDED from /Users/mac/Downloads/Blinkling-dayon/app/src/main/AndroidManifest.xml:2:1-46:12
 	package
-		ADDED from /Users/mac/Blinkling/app/src/main/AndroidManifest.xml:3:5-43
-		INJECTED from /Users/mac/Blinkling/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/mac/Blinkling/app/src/main/AndroidManifest.xml
+		ADDED from /Users/mac/Downloads/Blinkling-dayon/app/src/main/AndroidManifest.xml:3:5-43
+		INJECTED from /Users/mac/Downloads/Blinkling-dayon/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/mac/Downloads/Blinkling-dayon/app/src/main/AndroidManifest.xml
 	android:versionName
-		INJECTED from /Users/mac/Blinkling/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/mac/Blinkling/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/mac/Downloads/Blinkling-dayon/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/mac/Downloads/Blinkling-dayon/app/src/main/AndroidManifest.xml
 	xmlns:android
-		ADDED from /Users/mac/Blinkling/app/src/main/AndroidManifest.xml:2:11-69
+		ADDED from /Users/mac/Downloads/Blinkling-dayon/app/src/main/AndroidManifest.xml:2:11-69
 	android:versionCode
-		INJECTED from /Users/mac/Blinkling/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/mac/Blinkling/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/mac/Downloads/Blinkling-dayon/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/mac/Downloads/Blinkling-dayon/app/src/main/AndroidManifest.xml
 uses-permission#android.permission.CAMERA
-ADDED from /Users/mac/Blinkling/app/src/main/AndroidManifest.xml:5:5-65
+ADDED from /Users/mac/Downloads/Blinkling-dayon/app/src/main/AndroidManifest.xml:5:5-65
 	android:name
-		ADDED from /Users/mac/Blinkling/app/src/main/AndroidManifest.xml:5:22-62
+		ADDED from /Users/mac/Downloads/Blinkling-dayon/app/src/main/AndroidManifest.xml:5:22-62
 uses-permission#android.permission.SYSTEM_ALERT_WINDOW
-ADDED from /Users/mac/Blinkling/app/src/main/AndroidManifest.xml:6:5-78
+ADDED from /Users/mac/Downloads/Blinkling-dayon/app/src/main/AndroidManifest.xml:6:5-78
 	android:name
-		ADDED from /Users/mac/Blinkling/app/src/main/AndroidManifest.xml:6:22-75
+		ADDED from /Users/mac/Downloads/Blinkling-dayon/app/src/main/AndroidManifest.xml:6:22-75
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /Users/mac/Downloads/Blinkling-dayon/app/src/main/AndroidManifest.xml:7:5-81
+	android:name
+		ADDED from /Users/mac/Downloads/Blinkling-dayon/app/src/main/AndroidManifest.xml:7:23-79
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from /Users/mac/Downloads/Blinkling-dayon/app/src/main/AndroidManifest.xml:8:5-79
+	android:name
+		ADDED from /Users/mac/Downloads/Blinkling-dayon/app/src/main/AndroidManifest.xml:8:22-77
 uses-permission#android.permission.INTERNET
-ADDED from /Users/mac/Blinkling/app/src/main/AndroidManifest.xml:9:5-67
+ADDED from /Users/mac/Downloads/Blinkling-dayon/app/src/main/AndroidManifest.xml:12:5-67
 MERGED from [com.google.android.gms:play-services-ads-lite:10.2.1] /Users/mac/.android/build-cache/bc482d0bf5be5d216e756e46878456a0266db811/output/AndroidManifest.xml:19:5-66
 MERGED from [com.google.android.gms:play-services-analytics:10.2.1] /Users/mac/.android/build-cache/6686581f9bae3950572d0d53581ab15e154efb08/output/AndroidManifest.xml:20:5-66
 MERGED from [com.google.android.gms:play-services-appinvite:10.2.1] /Users/mac/.android/build-cache/e1140e8e3896a6881f3fffca76c348b6144b0a37/output/AndroidManifest.xml:18:5-66
@@ -36,9 +44,9 @@ MERGED from [com.google.firebase:firebase-iid:10.2.1] /Users/mac/.android/build-
 MERGED from [com.google.android.gms:play-services-analytics-impl:10.2.1] /Users/mac/.android/build-cache/c369cb62435ada94ef5d2c5a8cfd202581619bad/output/AndroidManifest.xml:20:5-66
 MERGED from [com.google.android.gms:play-services-maps:10.2.1] /Users/mac/.android/build-cache/98c5dd0b3165026e7d50c2278dd22f2aa38d8ffe/output/AndroidManifest.xml:20:5-66
 	android:name
-		ADDED from /Users/mac/Blinkling/app/src/main/AndroidManifest.xml:9:22-64
+		ADDED from /Users/mac/Downloads/Blinkling-dayon/app/src/main/AndroidManifest.xml:12:22-64
 application
-ADDED from /Users/mac/Blinkling/app/src/main/AndroidManifest.xml:11:5-41:19
+ADDED from /Users/mac/Downloads/Blinkling-dayon/app/src/main/AndroidManifest.xml:14:5-44:19
 MERGED from [com.android.support:design:25.3.1] /Users/mac/.android/build-cache/2357a626681079792d0b0f8329e66fe5b38ee637/output/AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:transition:25.3.1] /Users/mac/.android/build-cache/35d6017021fb3a5d14f62790f786c1f775dd19e8/output/AndroidManifest.xml:26:5-20
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/mac/.android/build-cache/3d41ce55e04838533f508e9a6b765a5baa20b6d1/output/AndroidManifest.xml:9:5-20
@@ -97,57 +105,58 @@ MERGED from [com.android.support:support-core-ui:25.3.1] /Users/mac/.android/bui
 MERGED from [com.android.support:support-core-utils:25.3.1] /Users/mac/.android/build-cache/ccc32a4523d6599e1cade9b8709084e4056275c8/output/AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:support-compat:25.3.1] /Users/mac/.android/build-cache/aa3375f889c5d4b20464dd1c7eb1f83cdc2142ee/output/AndroidManifest.xml:29:5-20
 	android:label
-		ADDED from /Users/mac/Blinkling/app/src/main/AndroidManifest.xml:14:9-41
+		ADDED from /Users/mac/Downloads/Blinkling-dayon/app/src/main/AndroidManifest.xml:17:9-41
 	android:supportsRtl
-		ADDED from /Users/mac/Blinkling/app/src/main/AndroidManifest.xml:15:9-35
+		ADDED from /Users/mac/Downloads/Blinkling-dayon/app/src/main/AndroidManifest.xml:18:9-35
 	android:allowBackup
-		ADDED from /Users/mac/Blinkling/app/src/main/AndroidManifest.xml:12:9-35
+		ADDED from /Users/mac/Downloads/Blinkling-dayon/app/src/main/AndroidManifest.xml:15:9-35
 	android:icon
-		ADDED from /Users/mac/Blinkling/app/src/main/AndroidManifest.xml:13:9-43
+		ADDED from /Users/mac/Downloads/Blinkling-dayon/app/src/main/AndroidManifest.xml:16:9-43
 	android:theme
-		ADDED from /Users/mac/Blinkling/app/src/main/AndroidManifest.xml:16:9-40
+		ADDED from /Users/mac/Downloads/Blinkling-dayon/app/src/main/AndroidManifest.xml:19:9-40
 activity#com.example.hyemin.blinkling.SplashActivity
-ADDED from /Users/mac/Blinkling/app/src/main/AndroidManifest.xml:18:9-27:20
+ADDED from /Users/mac/Downloads/Blinkling-dayon/app/src/main/AndroidManifest.xml:21:9-30:20
 	android:screenOrientation
-		ADDED from /Users/mac/Blinkling/app/src/main/AndroidManifest.xml:20:13-49
+		ADDED from /Users/mac/Downloads/Blinkling-dayon/app/src/main/AndroidManifest.xml:23:13-49
 	android:theme
-		ADDED from /Users/mac/Blinkling/app/src/main/AndroidManifest.xml:21:13-47
+		ADDED from /Users/mac/Downloads/Blinkling-dayon/app/src/main/AndroidManifest.xml:24:13-47
 	android:name
-		ADDED from /Users/mac/Blinkling/app/src/main/AndroidManifest.xml:19:13-43
+		ADDED from /Users/mac/Downloads/Blinkling-dayon/app/src/main/AndroidManifest.xml:22:13-43
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from /Users/mac/Blinkling/app/src/main/AndroidManifest.xml:22:13-26:29
+ADDED from /Users/mac/Downloads/Blinkling-dayon/app/src/main/AndroidManifest.xml:25:13-29:29
 action#android.intent.action.MAIN
-ADDED from /Users/mac/Blinkling/app/src/main/AndroidManifest.xml:23:17-69
+ADDED from /Users/mac/Downloads/Blinkling-dayon/app/src/main/AndroidManifest.xml:26:17-69
 	android:name
-		ADDED from /Users/mac/Blinkling/app/src/main/AndroidManifest.xml:23:25-66
+		ADDED from /Users/mac/Downloads/Blinkling-dayon/app/src/main/AndroidManifest.xml:26:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /Users/mac/Blinkling/app/src/main/AndroidManifest.xml:25:17-77
+ADDED from /Users/mac/Downloads/Blinkling-dayon/app/src/main/AndroidManifest.xml:28:17-77
 	android:name
-		ADDED from /Users/mac/Blinkling/app/src/main/AndroidManifest.xml:25:27-74
+		ADDED from /Users/mac/Downloads/Blinkling-dayon/app/src/main/AndroidManifest.xml:28:27-74
 activity#com.example.hyemin.blinkling.MainActivity
-ADDED from /Users/mac/Blinkling/app/src/main/AndroidManifest.xml:29:9-30:76
+ADDED from /Users/mac/Downloads/Blinkling-dayon/app/src/main/AndroidManifest.xml:32:9-33:76
 	android:configChanges
-		ADDED from /Users/mac/Blinkling/app/src/main/AndroidManifest.xml:30:13-74
+		ADDED from /Users/mac/Downloads/Blinkling-dayon/app/src/main/AndroidManifest.xml:33:13-74
 	android:name
-		ADDED from /Users/mac/Blinkling/app/src/main/AndroidManifest.xml:29:19-47
+		ADDED from /Users/mac/Downloads/Blinkling-dayon/app/src/main/AndroidManifest.xml:32:19-47
 activity#com.example.hyemin.blinkling.Face_Activity
-ADDED from /Users/mac/Blinkling/app/src/main/AndroidManifest.xml:32:9-35:63
+ADDED from /Users/mac/Downloads/Blinkling-dayon/app/src/main/AndroidManifest.xml:35:9-38:63
 	android:screenOrientation
-		ADDED from /Users/mac/Blinkling/app/src/main/AndroidManifest.xml:35:13-51
+		ADDED from /Users/mac/Downloads/Blinkling-dayon/app/src/main/AndroidManifest.xml:38:13-51
 	android:permission
-		ADDED from /Users/mac/Blinkling/app/src/main/AndroidManifest.xml:34:13-59
+		ADDED from /Users/mac/Downloads/Blinkling-dayon/app/src/main/AndroidManifest.xml:37:13-59
 	android:name
-		ADDED from /Users/mac/Blinkling/app/src/main/AndroidManifest.xml:33:13-42
+		ADDED from /Users/mac/Downloads/Blinkling-dayon/app/src/main/AndroidManifest.xml:36:13-42
 service#com.example.hyemin.blinkling.Service.ScreenFilterService
-ADDED from /Users/mac/Blinkling/app/src/main/AndroidManifest.xml:37:9-40:39
+ADDED from /Users/mac/Downloads/Blinkling-dayon/app/src/main/AndroidManifest.xml:40:9-43:39
 	android:enabled
-		ADDED from /Users/mac/Blinkling/app/src/main/AndroidManifest.xml:39:13-35
+		ADDED from /Users/mac/Downloads/Blinkling-dayon/app/src/main/AndroidManifest.xml:42:13-35
 	android:exported
-		ADDED from /Users/mac/Blinkling/app/src/main/AndroidManifest.xml:40:13-36
+		ADDED from /Users/mac/Downloads/Blinkling-dayon/app/src/main/AndroidManifest.xml:43:13-36
 	android:name
-		ADDED from /Users/mac/Blinkling/app/src/main/AndroidManifest.xml:38:13-56
+		ADDED from /Users/mac/Downloads/Blinkling-dayon/app/src/main/AndroidManifest.xml:41:13-56
 uses-sdk
-INJECTED from /Users/mac/Blinkling/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/mac/Downloads/Blinkling-dayon/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.android.support:multidex:1.0.1] /Users/mac/.android/build-cache/297d361ad5c8d5df37a5803fce2e629bce7c2038/output/AndroidManifest.xml:18:5-42
 MERGED from [com.android.support:design:25.3.1] /Users/mac/.android/build-cache/2357a626681079792d0b0f8329e66fe5b38ee637/output/AndroidManifest.xml:21:5-23:62
 MERGED from [com.android.support:recyclerview-v7:25.3.1] /Users/mac/.android/build-cache/d2ad08c8fcc37bf76b719449c94ded608952f7e7/output/AndroidManifest.xml:20:5-43
 MERGED from [com.android.support:transition:25.3.1] /Users/mac/.android/build-cache/35d6017021fb3a5d14f62790f786c1f775dd19e8/output/AndroidManifest.xml:20:5-44
@@ -220,11 +229,11 @@ MERGED from [com.android.support:support-compat:25.3.1] /Users/mac/.android/buil
 	tools:overrideLibrary
 		ADDED from [com.android.support:design:25.3.1] /Users/mac/.android/build-cache/2357a626681079792d0b0f8329e66fe5b38ee637/output/AndroidManifest.xml:23:9-59
 	android:targetSdkVersion
-		INJECTED from /Users/mac/Blinkling/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/mac/Blinkling/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/mac/Downloads/Blinkling-dayon/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/mac/Downloads/Blinkling-dayon/app/src/main/AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from /Users/mac/Blinkling/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/mac/Blinkling/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/mac/Downloads/Blinkling-dayon/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/mac/Downloads/Blinkling-dayon/app/src/main/AndroidManifest.xml
 meta-data#android.support.VERSION
 ADDED from [com.android.support:design:25.3.1] /Users/mac/.android/build-cache/2357a626681079792d0b0f8329e66fe5b38ee637/output/AndroidManifest.xml:25:5-27:34
 MERGED from [com.android.support:recyclerview-v7:25.3.1] /Users/mac/.android/build-cache/d2ad08c8fcc37bf76b719449c94ded608952f7e7/output/AndroidManifest.xml:22:5-24:34

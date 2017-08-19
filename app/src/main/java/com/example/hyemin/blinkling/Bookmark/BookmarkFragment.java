@@ -1,55 +1,42 @@
 package com.example.hyemin.blinkling.Bookmark;
 
 import android.os.Bundle;
+import android.support.design.widget.TabLayout;
 import android.support.v4.app.Fragment;
+import android.support.v4.app.FragmentManager;
+import android.support.v4.app.FragmentPagerAdapter;
+import android.support.v4.app.FragmentTabHost;
+import android.support.v4.view.ViewPager;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.graphics.drawable.Drawable;
-import android.support.v4.app.ListFragment;
-import android.support.v4.content.ContextCompat;
 import android.view.Menu;
+import android.widget.EditText;
 import android.widget.ListView;
-import android.widget.Toast;
+import android.widget.Spinner;
 
-import com.example.hyemin.blinkling.ListViewAdapter;
-import com.example.hyemin.blinkling.ListViewItem;
 import com.example.hyemin.blinkling.R;
 
-public class BookmarkFragment extends ListFragment {
+import java.util.ArrayList;
+import java.util.List;
+
+public class BookmarkFragment extends Fragment {
+    private FragmentTabHost mTabHost;
+    private EditText et_searchText;
     ListViewAdapter adapter;
+    ViewPager viewPager;
+    ListView listview;
+
     public BookmarkFragment() {
-    }
-
-    @Override
-    public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-        // Adapter 생성 및 Adapter 지정.
-        adapter = new ListViewAdapter() ;
-        setListAdapter(adapter) ;
-
-        // 첫 번째 아이템 추가.
-        adapter.addItem(ContextCompat.getDrawable(getActivity(), R.drawable.bookmark)
-                , "Box", "Account Box Black 36dp") ;
-
-        // 두 번째 아이템 추가.
-        adapter.addItem(ContextCompat.getDrawable(getActivity(), R.drawable.bookmark)
-                ,"Circle", "Account Circle Black 36dp") ;
-
-        // 세 번째 아이템 추가.
-        adapter.addItem(ContextCompat.getDrawable(getActivity(), R.drawable.bookmark)
-                , "Ind", "Assignment Ind Black 36dp") ;
-
-        return super.onCreateView(inflater, container, savedInstanceState);
-
     }
 
     public void onCreate(Bundle savedInstanceState){
         super.onCreate(savedInstanceState);
         setHasOptionsMenu(true);
+        setRetainInstance(true);
     }
 
     public void onPrepareOptionsMenu(Menu menu){
-        menu.findItem(R.id.bookmark_btn).setVisible(false);
         menu.findItem(R.id.voice_btn).setVisible(false);
         menu.findItem(R.id.eye_btn).setVisible(false);
         menu.findItem(R.id.light_btn).setVisible(false);
@@ -58,17 +45,102 @@ public class BookmarkFragment extends ListFragment {
         super.onPrepareOptionsMenu(menu);
     }
 
-    public void onListItemClick(ListView l, View vm, int position, long id) {
-        ListViewItem item = (ListViewItem) l.getItemAtPosition(position);
+    @Override
+    public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
+        View view = inflater.inflate(R.layout.fragment_bookmark,container, false);
+        /*adapter = new ListViewAdapter();
 
-        String titleStr = item.getTitle();
-        String descStr = item.getDesc();
-        Drawable iconDrawable = item.getIcon();
-        Toast.makeText(getContext(),titleStr+"   "+descStr+"    "+iconDrawable,Toast.LENGTH_SHORT).show();
+        listview = (ListView) viewPager.findViewById(R.id.listView1);
+        listview.setAdapter(adapter);
+        */
+
+        // Setting ViewPager for each Tabs
+        viewPager = (ViewPager) view.findViewById(R.id.viewpager);
+        setupViewPager(viewPager);
+
+        // Set Tabs inside Toolbar
+        TabLayout tabs = (TabLayout) view.findViewById(R.id.tabs);
+        tabs.setupWithViewPager(viewPager);
+
+        Spinner s = (Spinner)view.findViewById(R.id.spinner1);
+        /*s.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
+            @Override
+            public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
+                tv.setText("position : " + position + parent.getItemAtPosition(position));
+            }
+            @Override
+            public void onNothingSelected(AdapterView<?> parent) {}
+        });*/
+
+       /* et_searchText = (EditText)view.findViewById(R.id.et_searchText);
+        et_searchText.addTextChangedListener(new TextWatcher() {
+            @Override
+            public void beforeTextChanged(CharSequence s, int start, int count, int after) {
+
+            }
+
+            @Override
+            public void onTextChanged(CharSequence s, int start, int before, int count) {
+
+            }
+
+            @Override
+            public void afterTextChanged(Editable edit) {
+                String filterText = edit.toString() ;
+                if (filterText.length() > 0) {
+                    listview.setFilterText(filterText) ;
+                } else {
+                    listview.clearTextFilter() ;
+                }
+
+            }
+        });*/
+
+        return view;
+    }
+
+    private void setupViewPager(ViewPager viewPager) {
+
+        Adapter adapter = new Adapter(getChildFragmentManager());
+        adapter.addFragment(new Web_Tab_Fragment(), "WEB");
+        adapter.addFragment(new Book_Tab_Fragment(), "BOOK");
+        viewPager.setAdapter(adapter);
 
     }
 
-    public void addItem(Drawable icon, String title, String desc){
-        adapter.addItem(icon, title, desc);
+    static class Adapter extends FragmentPagerAdapter {
+        private final List<Fragment> mFragmentList = new ArrayList<>();
+        private final List<String> mFragmentTitleList = new ArrayList<>();
+
+        public Adapter(FragmentManager manager) {
+            super(manager);
+        }
+
+        @Override
+        public Fragment getItem(int position) {
+            return mFragmentList.get(position);
+        }
+
+        @Override
+        public int getCount() {
+            return mFragmentList.size();
+        }
+
+        public void addFragment(Fragment fragment, String title) {
+            mFragmentList.add(fragment);
+            mFragmentTitleList.add(title);
+        }
+
+        @Override
+        public CharSequence getPageTitle(int position) {
+            return mFragmentTitleList.get(position);
+        }
     }
+
+
+//
+//    public void addItem(Drawable icon, String title, String desc){
+//
+//        adapter.addItem(icon, title, desc);
+//    }
 }

@@ -1,34 +1,26 @@
 [
     {
-        "merged": "/Users/mac/Downloads/Blinkling/C:\\Users\\dayeon\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\menu\\bottom_menu.xml",
-        "source": "/Users/mac/Downloads/Blinkling/C:\\Users\\dayeon\\Blinkling\\app\\src\\main\\res\\menu\\bottom_menu.xml"
+        "merged": "/Users/seohyemin/Downloads/Blinkling-dayon/C:\\Users\\dy889\\Documents\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\menu\\bottom_menu.xml",
+        "source": "/Users/seohyemin/Downloads/Blinkling-dayon/C:\\Users\\dy889\\Documents\\Blinkling\\app\\src\\main\\res\\menu\\bottom_menu.xml"
     },
     {
-        "merged": "/Users/mac/Downloads/Blinkling/C:\\Users\\Hyemin\\Documents\\Blinkling\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_main.xml",
-        "source": "/Users/mac/Downloads/Blinkling/C:\\Users\\Hyemin\\Documents\\Blinkling\\Blinkling\\app\\src\\main\\res\\menu\\menu_main.xml"
+        "merged": "/Users/seohyemin/Downloads/Blinkling-dayon/app/build/intermediates/res/merged/debug/menu/menu_main.xml",
+        "source": "/Users/seohyemin/Downloads/Blinkling-dayon/app/src/main/res/menu/menu_main.xml"
     },
     {
-        "merged": "/Users/mac/Downloads/Blinkling/app/build/intermediates/res/merged/debug/menu/bottom_menu.xml",
-        "source": "/Users/mac/Downloads/Blinkling/app/src/main/res/menu/bottom_menu.xml"
+        "merged": "/Users/mac/Downloads/Blinkling-dayon/app/build/intermediates/res/merged/debug/menu/bottom_menu.xml",
+        "source": "/Users/mac/Downloads/Blinkling-dayon/app/src/main/res/menu/bottom_menu.xml"
     },
     {
-        "merged": "/Users/mac/Downloads/Blinkling/C:\\Users\\dayeon\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_main.xml",
-        "source": "/Users/mac/Downloads/Blinkling/C:\\Users\\dayeon\\Blinkling\\app\\src\\main\\res\\menu\\menu_main.xml"
+        "merged": "/Users/seohyemin/Downloads/Blinkling-dayon/C:\\Users\\dy889\\Documents\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_main.xml",
+        "source": "/Users/seohyemin/Downloads/Blinkling-dayon/C:\\Users\\dy889\\Documents\\Blinkling\\app\\src\\main\\res\\menu\\menu_main.xml"
     },
     {
-        "merged": "/Users/mac/Blinkling/app/build/intermediates/res/merged/debug/menu/menu_main.xml",
-        "source": "/Users/mac/Blinkling/app/src/main/res/menu/menu_main.xml"
+        "merged": "/Users/seohyemin/Downloads/Blinkling-dayon/app/build/intermediates/res/merged/debug/menu/bottom_menu.xml",
+        "source": "/Users/seohyemin/Downloads/Blinkling-dayon/app/src/main/res/menu/bottom_menu.xml"
     },
     {
-        "merged": "/Users/mac/Blinkling/app/build/intermediates/res/merged/debug/menu/bottom_menu.xml",
-        "source": "/Users/mac/Blinkling/app/src/main/res/menu/bottom_menu.xml"
-    },
-    {
-        "merged": "/Users/mac/Downloads/Blinkling/C:\\Users\\Hyemin\\Documents\\Blinkling\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\menu\\bottom_menu.xml",
-        "source": "/Users/mac/Downloads/Blinkling/C:\\Users\\Hyemin\\Documents\\Blinkling\\Blinkling\\app\\src\\main\\res\\menu\\bottom_menu.xml"
-    },
-    {
-        "merged": "/Users/mac/Downloads/Blinkling/app/build/intermediates/res/merged/debug/menu/menu_main.xml",
-        "source": "/Users/mac/Downloads/Blinkling/app/src/main/res/menu/menu_main.xml"
+        "merged": "/Users/mac/Downloads/Blinkling-dayon/app/build/intermediates/res/merged/debug/menu/menu_main.xml",
+        "source": "/Users/mac/Downloads/Blinkling-dayon/app/src/main/res/menu/menu_main.xml"
     }
 ]
