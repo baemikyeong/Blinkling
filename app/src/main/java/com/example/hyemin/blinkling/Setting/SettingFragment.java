@@ -17,6 +17,7 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.example.hyemin.blinkling.Face_Activity;
+import com.example.hyemin.blinkling.MainActivity;
 import com.example.hyemin.blinkling.R;
 import com.example.hyemin.blinkling.Setting.SetBackgroundFragment;
 import com.example.hyemin.blinkling.Setting.SetBluelightFragment;
@@ -220,4 +221,13 @@ public class SettingFragment extends Fragment {
         }
 
     }
+
+    @Override
+    public void onResume(){
+        super.onResume();
+        if(MainActivity.bottomNavigation.getSelectedItemId() != R.id.navigation_foodbank)
+            MainActivity.bottomNavigation.getMenu().findItem(R.id.navigation_foodbank).setChecked(true);
+
+    }
+
 }

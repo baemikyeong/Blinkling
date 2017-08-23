@@ -12,6 +12,7 @@
     <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
 
     <!-- To access Google+ APIs: -->
     <uses-permission android:name="android.permission.INTERNET" />
@@ -60,6 +61,10 @@
 
         <service
             android:name="com.example.hyemin.blinkling.Service.ScreenFilterService"
+            android:enabled="true"
+            android:exported="true" />
+        <service
+            android:name="com.example.hyemin.blinkling.Service.AudioService"
             android:enabled="true"
             android:exported="true" />
         <!-- Include the AdActivity and InAppPurchaseActivity configChanges and themes. -->

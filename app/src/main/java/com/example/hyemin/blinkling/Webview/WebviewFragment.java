@@ -29,10 +29,12 @@ import android.widget.ImageButton;
 import android.widget.ProgressBar;
 import android.widget.TextView;
 
+import com.example.hyemin.blinkling.MainActivity;
 import com.example.hyemin.blinkling.R;
 import com.example.hyemin.blinkling.event.NeutralFaceEvent;
 import com.example.hyemin.blinkling.event.RightEyeClosedEvent;
 import com.example.hyemin.blinkling.tracker.FaceTracker;
+import com.example.hyemin.blinkling.util.PlayServicesUtil;
 import com.google.android.gms.vision.CameraSource;
 import com.google.android.gms.vision.face.FaceDetector;
 import com.google.android.gms.vision.face.LargestFaceFocusingProcessor;
@@ -76,11 +78,22 @@ public class WebviewFragment extends Fragment {
         mPBar = (ProgressBar) main_view.findViewById(R.id.progress01);
         WebSettings set = webView.getSettings();
         Button button = (Button)main_view.findViewById(R.id.btnGo);
-        ImageButton back_button = (ImageButton)main_view.findViewById(R.id.back_button);
+        ImageButton back_button = (ImageButton)main_view.findViewById(R.id.back);
         final EditText url_String = (EditText)main_view.findViewById(R.id.txtURL);
 
         webView.getSettings().setJavaScriptEnabled(true);
         webView.setScrollBarStyle(View.SCROLLBARS_INSIDE_OVERLAY);
+
+        PlayServicesUtil.isPlayServicesAvailable(getActivity(), 69);
+        webView.getLocationOnScreen(location);
+        // permission granted...?
+        if (isCameraPermissionGranted()) {
+            // ...create the camera resource
+            createCameraResources();
+        } else {
+            // ...else request the camera permission
+            requestCameraPermission();
+        }
 
         webView.setWebViewClient(new WebViewClient() {
             @Override
@@ -257,6 +270,9 @@ public class WebviewFragment extends Fragment {
     @Override
     public void onResume() {
         super.onResume();
+
+        if (MainActivity.bottomNavigation.getSelectedItemId() != R.id.navigation_friends)
+            MainActivity.bottomNavigation.getMenu().findItem(R.id.navigation_friends).setChecked(true);
 
         // register the event bus
         EventBus.getDefault().register(this);

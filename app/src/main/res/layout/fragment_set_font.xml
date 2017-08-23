@@ -22,37 +22,37 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:checked="true"
-                android:text="고딕체" />
+                android:text="나눔바른고딕 " />
 
             <RadioButton
                 android:id="@+id/radio_font2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="굴림체" />
+                android:text="나눔손글씨 " />
 
             <RadioButton
                 android:id="@+id/radio_font3"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="바탕체" />
+                android:text="나눔바른펜 " />
 
             <RadioButton
                 android:id="@+id/radio_font4"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="산돌광수체" />
+                android:text="나눔명조 " />
 
             <RadioButton
                 android:id="@+id/radio_font5"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="도리도리체" />
+                android:text="나눔스퀘어 " />
 
             <RadioButton
                 android:id="@+id/radio_font6"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="랄랄라체" />
+                android:text="나눔손글씨붓 " />
 
         </RadioGroup>
     </RelativeLayout>

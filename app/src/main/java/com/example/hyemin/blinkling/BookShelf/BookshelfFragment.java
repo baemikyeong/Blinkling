@@ -7,6 +7,7 @@ import android.view.Menu;
 import android.view.View;
 import android.view.ViewGroup;
 
+import com.example.hyemin.blinkling.MainActivity;
 import com.example.hyemin.blinkling.R;
 
 public class BookshelfFragment extends Fragment {
@@ -25,6 +26,14 @@ public class BookshelfFragment extends Fragment {
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setHasOptionsMenu(true);
+    }
+
+    @Override
+    public void onResume() {
+        super.onResume();
+        if (MainActivity.bottomNavigation.getSelectedItemId() != R.id.navigation_home)
+            MainActivity.bottomNavigation.getMenu().findItem(R.id.navigation_home).setChecked(true);
+
     }
 
     public void onPrepareOptionsMenu(Menu menu) {

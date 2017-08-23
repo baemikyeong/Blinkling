@@ -68,6 +68,8 @@ public class SetBackgroundFragment extends DialogFragment {
                     public void onClick(DialogInterface dialog, int id) {
 
                         editor1.putInt("background", rg.getCheckedRadioButtonId());
+                        Toast.makeText(getActivity().getApplicationContext(),"ID : "+rg.getCheckedRadioButtonId(),Toast.LENGTH_SHORT).show();
+
                         editor1.commit();
 
                     }
