@@ -17,6 +17,7 @@ import android.widget.RadioButton;
 import android.widget.RadioGroup;
 import android.widget.SeekBar;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.example.hyemin.blinkling.R;
 
@@ -46,7 +47,7 @@ public class SetPageStyleFragment extends DialogFragment {
         AlertDialog.Builder builder = new AlertDialog.Builder(getActivity());
 
         builder.setTitle("페이지 넘기는 방식 조정");
-        builder.setMessage("문서를 볼 때, 슬라이딩 페이지와 페이저 방식 중에서 선택합니다.");
+        builder.setMessage("문서를 볼 때, 스크롤 페이지와 페이저 방식 중에서 선택합니다.");
 
         LayoutInflater inflater = getActivity().getLayoutInflater();
         final View view = inflater.inflate(R.layout.fragment_set_page_style, null);

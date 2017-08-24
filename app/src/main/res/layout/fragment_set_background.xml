@@ -34,7 +34,7 @@
                 android:id="@+id/radio_bgcolor3"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="회색" />
+                android:text="흰색" />
 
             <RadioButton
                 android:id="@+id/radio_bgcolor4"

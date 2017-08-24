@@ -1,4 +1,4 @@
-package com.example.hyemin.blinkling;
+package com.example.hyemin.blinkling.Book_Viewer;
 
 
 import android.Manifest;
@@ -8,28 +8,35 @@ import android.content.DialogInterface;
 import android.content.SharedPreferences;
 import android.content.pm.PackageManager;
 import android.graphics.Color;
+import android.graphics.Paint;
 import android.graphics.Typeface;
-import android.os.Build;
 import android.os.Bundle;
 import android.os.Environment;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 import android.support.v4.app.ActivityCompat;
 import android.support.v4.app.Fragment;
+import android.support.v4.app.FragmentPagerAdapter;
 import android.support.v4.view.ViewPager;
 import android.support.v7.app.AlertDialog;
+import android.text.TextPaint;
 import android.util.Log;
+import android.util.TypedValue;
+import android.view.Display;
 import android.view.LayoutInflater;
 import android.view.MotionEvent;
 import android.view.View;
 import android.view.ViewGroup;
-import android.view.ViewTreeObserver;
 import android.view.WindowManager;
 import android.widget.HorizontalScrollView;
+import android.widget.LinearLayout;
+import android.widget.ProgressBar;
 import android.widget.ScrollView;
+import android.widget.TableLayout;
 import android.widget.TextView;
-import android.widget.Toast;
 
+import com.example.hyemin.blinkling.MainActivity;
+import com.example.hyemin.blinkling.R;
 import com.example.hyemin.blinkling.event.NeutralFaceEvent;
 import com.example.hyemin.blinkling.event.RightEyeClosedEvent;
 import com.example.hyemin.blinkling.tracker.FaceTracker;
@@ -46,6 +53,8 @@ import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileReader;
 import java.io.IOException;
+import java.util.HashMap;
+import java.util.Map;
 
 import static com.google.android.gms.wearable.DataMap.TAG;
 
@@ -56,7 +65,7 @@ import static com.google.android.gms.wearable.DataMap.TAG;
 public class TextViewFragment extends Fragment {
 
     private static final int REQUEST_CAMERA_PERM = 69;      // 카메라 퍼미션을 위한 코드
-    private TextView tv;                              // 텍스트 뷰를 띄워줄 뷰
+    public static TextView tv;                              // 텍스트 뷰를 띄워줄 뷰
     private HorizontalScrollView horizon_scrollView;
     private ScrollView scrollView;                          // 텍스트 뷰를 스크롤 뷰를 이용해 화면에 출력
     private ViewPager viewpager;                            // 텍스트 뷰를 뷰페이저를 이용해 화면에 출력
@@ -74,7 +83,17 @@ public class TextViewFragment extends Fragment {
     private SharedPreferences.Editor editor1;
     private WindowManager.LayoutParams params;
     private float brightness; // 밝기값은 float형으로 저장되어 있습니다.
+    private ViewPager mPager;
+    private FragmentPagerAdapter mPagerAdapter;
+    private static Map<String, String> mPages = new HashMap<String, String>();
+    private LinearLayout mPageIndicator;
+    private ProgressBar mProgressBar;
+    private static String mContentString = "";
+    private Display mDisplay;
+    public static int font;
+    public static int textsize;
     View rootView;
+    public static ViewGroup textviewPage;
 
     @Override
     public void onCreate(@Nullable Bundle savedInstanceState) {
@@ -94,12 +113,6 @@ public class TextViewFragment extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        // Inflate the layout for this fragment
-        rootView = inflater.inflate(R.layout.fragment_text_scrollview, container, false);
-
-        Activity root = getActivity();
-//        Toast toast = Toast.makeText(root, bookName, Toast.LENGTH_SHORT);
-//         toast.show();
 
         PlayServicesUtil.isPlayServicesAvailable(getActivity(), 69);
 
@@ -107,10 +120,11 @@ public class TextViewFragment extends Fragment {
         editor1 = intPref.edit();
 
         int bgcolor = intPref.getInt("background", 0);
-        int font = intPref.getInt("font_edit", 0);
+        font = intPref.getInt("font_edit", 0);
+        int pagestyle = intPref.getInt("pagestyle_edit", 8);
+        textsize = intPref.getInt("textsize", 1);
 
         Typeface typeFace;
-        tv = (TextView) rootView.findViewById(R.id.txtview);
 
         int value = intPref.getInt("brightness_gauge",5);
         float bright_value = (float)value/10;
@@ -123,51 +137,113 @@ public class TextViewFragment extends Fragment {
         // 밝기 설정 적용
         getActivity().getWindow().setAttributes(params);
 
+        if (pagestyle%10 == 7) { // 뷰페이저와 스크롤 뷰 구분
+            rootView = inflater.inflate(R.layout.fragment_text_pagerview, container, false);
+            textviewPage = (ViewGroup) getActivity().getLayoutInflater().inflate(R.layout.fragment, (ViewGroup) getActivity().getWindow().getDecorView().findViewById(android.R.id.content) , false);
+            tv = (TextView) textviewPage.findViewById(R.id.mText);
+            mProgressBar = (ProgressBar)rootView.findViewById(R.id.progress);
+
+            // Instantiate a ViewPager and a PagerAdapter.
+            mPager = (ViewPager)rootView.findViewById(R.id.pager);
+        } else {
+            rootView = inflater.inflate(R.layout.fragment_text_scrollview, container, false);
+            scrollView = (ScrollView) rootView.findViewById(R.id.scroll_text);
+            tv = (TextView) rootView.findViewById(R.id.txtview);
+        }
+
+        switch(textsize%10) {
+            case 0:
+                tv.setTextSize(TypedValue.COMPLEX_UNIT_DIP, 12);
+                break;
+            case 1:
+                tv.setTextSize(TypedValue.COMPLEX_UNIT_DIP, 15);
+                break;
+            case 2:
+                tv.setTextSize(TypedValue.COMPLEX_UNIT_DIP, 18);
+                break;
+            case 3:
+                tv.setTextSize(TypedValue.COMPLEX_UNIT_DIP, 23);
+                break;
+        }
+
         switch (bgcolor % 10) {
-            case 0: // 연한 베이지
+            case 1: // 연한 베이지
                 tv.setBackgroundColor(Color.rgb(245, 241, 222));
+                if(mPager != null)
+                mPager.setBackgroundColor(Color.rgb(245, 241, 222));
                 rootView.setBackgroundColor(Color.rgb(245, 241, 222));
                 break;
-            case 1: // 연한 그레이
+            case 2: // 연한 그레이
                 tv.setBackgroundColor(Color.rgb(204, 204, 204));
+                if(mPager != null)
+                mPager.setBackgroundColor(Color.rgb(204, 204, 204));
                 rootView.setBackgroundColor(Color.rgb(204, 204, 204));
                 break;
-            case 2: // 흰색
+            case 3: // 흰색
                 tv.setBackgroundColor(Color.rgb(255, 255, 255));
+                if(mPager != null)
+                mPager.setBackgroundColor(Color.rgb(255, 255, 255));
                 rootView.setBackgroundColor(Color.rgb(255, 255, 255));
                 break;
-            case 3: // 검정색
+            case 4: // 검정색
                 tv.setBackgroundColor(Color.rgb(0, 0, 0));
+                if(mPager != null)
+                mPager.setBackgroundColor(Color.rgb(0, 0, 0));
                 rootView.setBackgroundColor(Color.rgb(0, 0, 0));
                 break;
         }
 
 
         switch (font % 10) {
-            case 9: // 나눔바른고딕
+            case 0: // 나눔바른고딕
                 typeFace = Typeface.createFromAsset(getActivity().getAssets(), "fonts/NanumBarunGothic.otf");
                 tv.setTypeface(typeFace);
                 break;
-            case 0: // 나눔손글씨
+            case 1: // 나눔손글씨
                 typeFace = Typeface.createFromAsset(getActivity().getAssets(), "fonts/NanumPen.otf");
                 tv.setTypeface(typeFace);
                 break;
-            case 1: // 나눔바른펜
+            case 2: // 나눔바른펜
                 typeFace = Typeface.createFromAsset(getActivity().getAssets(), "fonts/NanumBarunpenRegular.otf");
                 tv.setTypeface(typeFace);
                 break;
-            case 2: // 나눔명조체
+            case 3: // 나눔명조체
                 typeFace = Typeface.createFromAsset(getActivity().getAssets(), "fonts/NanumMyeongjoBold.otf");
                 tv.setTypeface(typeFace);
                 break;
-            case 3: // 나눔스퀘어체
+            case 4: // 나눔스퀘어체
                 typeFace = Typeface.createFromAsset(getActivity().getAssets(), "fonts/NanumSquareOTFRegular.otf");
                 tv.setTypeface(typeFace);
                 break;
-            case 4: // 나눔손글씨붓
+            case 5: // 나눔손글씨붓
                 typeFace = Typeface.createFromAsset(getActivity().getAssets(), "fonts/NanumBrush.otf");
                 tv.setTypeface(typeFace);
                 break;
+        }
+
+        if (pagestyle%10 == 7) { // 뷰페이저와 스크롤 뷰 구분
+
+            readTxt();
+
+            // obtaining screen dimensions
+            mDisplay = getActivity().getWindowManager().getDefaultDisplay();
+
+            ViewAndPaint  vp = new ViewAndPaint(tv.getPaint(), textviewPage, getScreenWidth(), getMaxLineCount(tv), mContentString);
+
+            PagerTask pt = new PagerTask(this);
+            pt.execute(vp);
+
+        } else {
+
+            // 사용자가 화면을 터치하여 스크롤 뷰의 위치 변경시, 체크
+            scrollView.setOnTouchListener(new View.OnTouchListener() {
+                public boolean onTouch(View v, MotionEvent event) {
+                    tv.getLocationOnScreen(location);
+                    return false;
+                }
+            });
+
+            readTxt();
         }
 
         if (isCameraPermissionGranted()) {
@@ -178,23 +254,129 @@ public class TextViewFragment extends Fragment {
             requestCameraPermission();
         }
 
-        if (1 != 1) { // 뷰페이저와 스크롤 뷰 구분
-            viewpager = (ViewPager) rootView.findViewById(R.id.viewpager_text);
-            Toast.makeText(getActivity(), rootView.getHeight()+"임", Toast.LENGTH_SHORT).show();
-            Toast.makeText(getActivity(), tv.getHeight()+"킴", Toast.LENGTH_SHORT).show();
-        } else {
-            scrollView = (ScrollView) rootView.findViewById(R.id.scroll_text);
-            // 사용자가 화면을 터치하여 스크롤 뷰의 위치 변경시, 체크
-            scrollView.setOnTouchListener(new View.OnTouchListener() {
-                public boolean onTouch(View v, MotionEvent event) {
-                    tv.getLocationOnScreen(location);
-                    return false;
-                }
-            });
-        }
-        readTxt();
-
         return rootView;
+    }
+
+    private int getScreenWidth(){
+        float horizontalMargin = getResources().getDimension(R.dimen.activity_horizontal_margin) * 2;
+        int screenWidth = (int) (mDisplay.getWidth() - horizontalMargin);
+        return screenWidth;
+    }
+
+    private int getMaxLineCount(TextView view){
+        float verticalMargin = getResources().getDimension(R.dimen.activity_vertical_margin) * 2;
+        int screenHeight = mDisplay.getHeight();
+        TextPaint paint = view.getPaint();
+
+        //Working Out How Many Lines Can Be Entered In The Screen
+        Paint.FontMetrics fm = paint.getFontMetrics();
+        float textHeight = fm.top - fm.bottom;
+        textHeight = Math.abs(textHeight);
+
+        int maxLineCount = (int) ((screenHeight - verticalMargin ) / textHeight);
+
+        // add extra spaces at the bottom, remove 2 lines
+        maxLineCount -= 2;
+
+        return maxLineCount;
+    }
+
+    private void initViewPager(){
+        mPagerAdapter = new MyPagerAdapter(getActivity().getSupportFragmentManager(), 1);
+        mPager.setAdapter(mPagerAdapter);
+        mPager.setOnPageChangeListener(new ViewPager.SimpleOnPageChangeListener() {
+            @Override
+            public void onPageSelected(int position) {
+                showPageIndicator(position);
+            }
+        });
+    }
+
+    public void onPageProcessedUpdate(ProgressTracker progress){
+        mPages = progress.pages;
+        // init the pager if necessary
+        if (mPagerAdapter == null){
+            initViewPager();
+            hideProgress();
+        }else {
+            ((MyPagerAdapter)mPagerAdapter).incrementPageCount();
+        }
+        addPageIndicator(progress.totalPages);
+    }
+
+    private void hideProgress(){
+        mProgressBar.setVisibility(View.GONE);
+    }
+
+    private void addPageIndicator(int pageNumber) {
+        mPageIndicator = (LinearLayout) rootView.findViewById(R.id.pageIndicator);
+        View view = new View(getActivity());
+        ViewGroup.LayoutParams params = new TableLayout.LayoutParams(ViewGroup.LayoutParams.WRAP_CONTENT, ViewGroup.LayoutParams.MATCH_PARENT, 1f);
+        view.setLayoutParams(params );
+        view.setBackgroundDrawable(getResources().getDrawable(pageNumber == 0 ? R.drawable.current_page_indicator : R.drawable.indicator_background));
+        view.setTag(pageNumber);
+        mPageIndicator.addView(view);
+    }
+
+    protected void showPageIndicator(int position) {
+        try {
+            mPageIndicator = (LinearLayout) rootView.findViewById(R.id.pageIndicator);
+            View selectedIndexIndicator = mPageIndicator.getChildAt(position);
+            selectedIndexIndicator.setBackgroundDrawable(getResources().getDrawable(R.drawable.current_page_indicator));
+            // dicolorize the neighbours
+            if (position > 0){
+                View leftView = mPageIndicator.getChildAt(position -1);
+                leftView.setBackgroundDrawable(getResources().getDrawable(R.drawable.indicator_background));
+            }
+            if (position < mPages.size()){
+                View rightView = mPageIndicator.getChildAt(position +1);
+                rightView.setBackgroundDrawable(getResources().getDrawable(R.drawable.indicator_background));
+            }
+
+        } catch (Exception e) {
+            Log.e(TAG, e.toString());
+        }
+    }
+
+    public static String getContents(int pageNumber){
+        String page = String.valueOf(pageNumber);
+        String textBoundaries = mPages.get(page);
+        if (textBoundaries != null) {
+            String[] bounds = textBoundaries.split("//");
+            int startIndex = Integer.valueOf(bounds[0]);
+            int endIndex = Integer.valueOf(bounds[1]);
+            return mContentString.substring(startIndex, endIndex).trim();
+        }
+        return "";
+    }
+
+    static class ViewAndPaint {
+
+        public ViewGroup textviewPage;
+        public TextPaint paint;
+        public int screenWidth;
+        public int maxLineCount;
+        public String contentString;
+
+        public ViewAndPaint(TextPaint paint, ViewGroup textviewPage, int screenWidth, int maxLineCount, String contentString){
+            this.paint = paint;
+            this.textviewPage = textviewPage;
+            this.maxLineCount = maxLineCount;
+            this.contentString = contentString;
+            this.screenWidth = screenWidth;
+        }
+    }
+
+    static class ProgressTracker {
+
+        public int totalPages;
+        public Map<String, String> pages = new HashMap<String, String>();
+
+        public void addPage(int page, int startIndex, int endIndex) {
+            String thePage = String.valueOf(page);
+            String indexMarker = String.valueOf(startIndex) + "//" + String.valueOf(endIndex);
+            pages.put(thePage, indexMarker);
+        }
     }
 
     private void readTxt() {
@@ -229,6 +411,7 @@ public class TextViewFragment extends Fragment {
             }
             //Set the text
             tv.setText(text);
+            mContentString = text.toString();
         } else {
             tv.setText("Sorry file doesn't exist!!");
         }
@@ -331,6 +514,7 @@ public class TextViewFragment extends Fragment {
     public void onPause() {
         super.onPause();
 
+
         //밝기 다시 원래 값으로 변경
         params.screenBrightness = brightness;
         getActivity().getWindow().setAttributes(params);
@@ -346,6 +530,7 @@ public class TextViewFragment extends Fragment {
         } else {
             //    Log.e(TAG, "onPause: Camera.stop() error");
         }
+
     }
 
     @Override

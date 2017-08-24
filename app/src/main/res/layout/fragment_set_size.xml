@@ -1,0 +1,49 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.hyemin.blinkling.Setting.SetBackgroundFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RadioGroup
+            android:id="@+id/radiotextsize"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="22dp">
+
+            <RadioButton
+                android:id="@+id/radio_size1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="아주 작게" />
+
+            <RadioButton
+                android:id="@+id/radio_size2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="작게" />
+
+            <RadioButton
+                android:id="@+id/radio_size3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="중간" />
+
+            <RadioButton
+                android:id="@+id/radio_size4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="크게" />
+
+        </RadioGroup>
+    </RelativeLayout>
+
+
+</FrameLayout>

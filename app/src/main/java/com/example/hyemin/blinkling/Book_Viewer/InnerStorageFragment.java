@@ -1,4 +1,4 @@
-package com.example.hyemin.blinkling;
+package com.example.hyemin.blinkling.Book_Viewer;
 
 
 import android.app.Activity;
@@ -16,6 +16,10 @@ import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 import android.widget.Toast;
+
+import com.example.hyemin.blinkling.Book_Viewer.TextViewFragment;
+import com.example.hyemin.blinkling.MainActivity;
+import com.example.hyemin.blinkling.R;
 
 import java.io.File;
 import java.util.ArrayList;

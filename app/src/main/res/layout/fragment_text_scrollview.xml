@@ -3,12 +3,11 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:layout_marginTop="?attr/actionBarSize"
-    tools:context="com.example.hyemin.blinkling.TextViewFragment">
+    tools:context="com.example.hyemin.blinkling.Book_Viewer.TextViewFragment">
 
     <!-- TODO: Update blank fragment layout -->
     <ScrollView
         android:id="@+id/scroll_text"
-        android:scrollbars="horizontal"
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
@@ -17,10 +16,12 @@
             android:layout_height="match_parent"
             android:orientation="vertical">
 
-            <TextView
+            <include
                 android:id="@+id/txtview"
+                layout="@layout/text_view"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent" />
+                android:layout_height="wrap_content" />
+
         </LinearLayout>
     </ScrollView>
 

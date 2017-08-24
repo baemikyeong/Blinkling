@@ -30,12 +30,12 @@ public class SettingFragment extends Fragment {
 
     private CameraSource mCameraSource;
     public static final int HDR_POS1 = 0;
-    public static final int HDR_POS2 = 6;
+    public static final int HDR_POS2 = 7;
     public static final String[] LIST = {"Viewer Setting", "배경색",
-            "밝기", "글꼴", "블루라이트 조절", "페이지 넘기는 방식",
+            "밝기", "글꼴", "글씨 크기", "블루라이트 조절", "페이지 넘기는 방식",
             "Personalize", "Eye Personalize"};
     public static final String[] SUBTEXTS = {null, "문서를 볼 때의 배경색을 지정합니다.",
-            "블링클링 사용 시, 밝기를 조정합니다. ", "문서를 볼 때의 글꼴을 지정합니다. ", "블루라이트의 정도를 조정합니다. ", "문서를 볼 때, 슬라이딩 페이지와 페이저 방식 중에 선택합니다. ",
+            "블링클링 사용 시, 밝기를 조정합니다. ", "문서를 볼 때의 글꼴을 지정합니다. ", "문서를 볼 때의 글씨 크기를 지정합니다 ", "블루라이트의 정도를 조정합니다. ", "문서를 볼 때, 스크롤링 페이지와 페이저 방식 중에 선택합니다. ",
             null, "눈 크기와 눈 깜박임 시간을 개인에 맞게 조정합니다."};
 
     private static final Integer LIST_HEADER = 0;
@@ -198,10 +198,15 @@ public class SettingFragment extends Fragment {
                 break;
             case 4:
                 //블루라이트 조절 다이얼로그 띄우기
+                SetTextSizeFragment size_dialog = new SetTextSizeFragment();
+                size_dialog.show(getFragmentManager(), "Edit size");
+                break;
+            case 5:
+                //블루라이트 조절 다이얼로그 띄우기
                 SetBluelightFragment blue_dialog = new SetBluelightFragment();
                 blue_dialog.show(getFragmentManager(), "Edit bluelight");
                 break;
-            case 5:
+            case 6:
                 SetPageStyleFragment page_dialog = new SetPageStyleFragment();
                 page_dialog.show(getFragmentManager(), "Edit pagestyle");
                 break;
