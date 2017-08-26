@@ -1,5 +1,9 @@
 [
     {
+        "merged": "/Users/dayeon/Blinkling/app/build/intermediates/res/merged/debug/menu/menu_main.xml",
+        "source": "/Users/dayeon/Blinkling/app/src/main/res/menu/menu_main.xml"
+    },
+    {
         "merged": "/Users/seohyemin/Downloads/Blinkling-dayon/C:\\Users\\dy889\\Documents\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\menu\\bottom_menu.xml",
         "source": "/Users/seohyemin/Downloads/Blinkling-dayon/C:\\Users\\dy889\\Documents\\Blinkling\\app\\src\\main\\res\\menu\\bottom_menu.xml"
     },
@@ -26,6 +30,10 @@
     {
         "merged": "/Users/mac/Blinkling/app/build/intermediates/res/merged/debug/menu/bottom_menu.xml",
         "source": "/Users/mac/Blinkling/app/src/main/res/menu/bottom_menu.xml"
+    },
+    {
+        "merged": "/Users/dayeon/Blinkling/app/build/intermediates/res/merged/debug/menu/bottom_menu.xml",
+        "source": "/Users/dayeon/Blinkling/app/src/main/res/menu/bottom_menu.xml"
     },
     {
         "merged": "/Users/mac/Downloads/Blinkling-dayon/app/build/intermediates/res/merged/debug/menu/menu_main.xml",

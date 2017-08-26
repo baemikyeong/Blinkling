@@ -17,7 +17,6 @@ import android.widget.ArrayAdapter;
 import android.widget.ListView;
 import android.widget.Toast;
 
-import com.example.hyemin.blinkling.Book_Viewer.TextViewFragment;
 import com.example.hyemin.blinkling.MainActivity;
 import com.example.hyemin.blinkling.R;
 
@@ -72,8 +71,8 @@ public class InnerStorageFragment extends ListFragment {
         if (ext.equals(Environment.MEDIA_MOUNTED)) {
             findFolder();
             Activity root = getActivity();
-            Toast toast = Toast.makeText(root, "There is  SDcard!", Toast.LENGTH_SHORT);
-           toast.show();
+//            Toast toast = Toast.makeText(root, "There is  SDcard!", Toast.LENGTH_SHORT);
+//           toast.show();
 
         } else {
             Activity root = getActivity();
@@ -108,7 +107,6 @@ public class InnerStorageFragment extends ListFragment {
         setListAdapter(arrayAdapter);
     }
 
-
     public void onListItemClick(ListView Find_ListView, View view, int position, long id) {
         String strItem = mArrayListFile.get(position);//position은 0부터 시작 position 번째 아이템 이름을 리턴함
         String strPath = getAbsolutePath(strItem);// 선택된 폴더의 전체 경로를 구한다
@@ -128,8 +126,8 @@ public class InnerStorageFragment extends ListFragment {
             strPathComp = mPath + "/" + strFolder;
 
         Activity root = getActivity();
-        Toast toast = Toast.makeText(root, strPathComp, Toast.LENGTH_SHORT);
-        toast.show();
+//        Toast toast = Toast.makeText(root, strPathComp, Toast.LENGTH_SHORT);
+//        toast.show();
         return strPathComp;//       /선택된 폴더 이름 리턴
     }
 
@@ -154,8 +152,8 @@ public class InnerStorageFragment extends ListFragment {
 //            strPath = strPath.substring(0,pos);
             mBookName = strPath; //
 
-            Toast toast = Toast.makeText(root, mBookName, Toast.LENGTH_SHORT);
-            toast.show();
+//            Toast toast = Toast.makeText(root, mBookName, Toast.LENGTH_SHORT);
+//            toast.show();
 
 //그러니까 경로의 마지막부분인 파일이름으로 읽는걸 들어가야 한다.
           //  newInstance(mBookName);
@@ -169,6 +167,8 @@ public class InnerStorageFragment extends ListFragment {
             }
             else if(pdf != -1){
                 File file = new File(dir, mBookName);
+
+                Toast toast = Toast.makeText(root, mBookName, Toast.LENGTH_SHORT);
 
                 if (file.exists()){
                     Uri path = Uri.fromFile(file);

@@ -78,6 +78,7 @@ public class MainActivity extends ActionBarActivity {
                         switch (item.getItemId()) {
                             case R.id.navigation_home:
                                 fragment = new BookshelfFragment();
+
                                 break;
 
                             case R.id.navigation_write:
@@ -244,7 +245,7 @@ public class MainActivity extends ActionBarActivity {
                     // app-defined int constant
 
                 } else {
-                    start();
+                    InnerStorageFragment_start();
 
                 }
 
@@ -283,7 +284,7 @@ public class MainActivity extends ActionBarActivity {
                 if (grantResults[0] == PackageManager.PERMISSION_GRANTED
                         && grantResults[1] == PackageManager.PERMISSION_GRANTED) {
 
-                    start();
+                    InnerStorageFragment_start();
 
                     // permission was granted, yay! do the
                     // calendar task you need to do.
@@ -300,7 +301,7 @@ public class MainActivity extends ActionBarActivity {
         }
     }
 
-    public void start() {
+    public void InnerStorageFragment_start() {
         fragment = new InnerStorageFragment();
         replaceFragment(fragment);
     }

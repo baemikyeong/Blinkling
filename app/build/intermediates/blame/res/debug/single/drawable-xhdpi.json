@@ -4,8 +4,16 @@
         "source": "/Users/seohyemin/Downloads/Blinkling-dayon/C:\\Users\\dy889\\Documents\\Blinkling\\app\\src\\main\\res\\drawable-xhdpi\\bookshelf2.png"
     },
     {
+        "merged": "/Users/dayeon/Blinkling/app/build/intermediates/res/merged/debug/drawable-xhdpi/bookshlef3.png",
+        "source": "/Users/dayeon/Blinkling/app/src/main/res/drawable-xhdpi/bookshlef3.png"
+    },
+    {
         "merged": "/Users/seohyemin/Downloads/Blinkling-dayon/app/build/intermediates/res/merged/debug/drawable-xhdpi/bookshlef1.png",
         "source": "/Users/seohyemin/Downloads/Blinkling-dayon/app/src/main/res/drawable-xhdpi/bookshlef1.png"
+    },
+    {
+        "merged": "/Users/dayeon/Blinkling/app/build/intermediates/res/merged/debug/drawable-xhdpi/bookshlef1.png",
+        "source": "/Users/dayeon/Blinkling/app/src/main/res/drawable-xhdpi/bookshlef1.png"
     },
     {
         "merged": "/Users/mac/Blinkling/app/build/intermediates/res/merged/debug/drawable-xhdpi/bookshelf2.png",
@@ -46,5 +54,9 @@
     {
         "merged": "/Users/mac/Downloads/Blinkling-dayon/app/build/intermediates/res/merged/debug/drawable-xhdpi/bookshlef3.png",
         "source": "/Users/mac/Downloads/Blinkling-dayon/app/src/main/res/drawable-xhdpi/bookshlef3.png"
+    },
+    {
+        "merged": "/Users/dayeon/Blinkling/app/build/intermediates/res/merged/debug/drawable-xhdpi/bookshelf2.png",
+        "source": "/Users/dayeon/Blinkling/app/src/main/res/drawable-xhdpi/bookshelf2.png"
     }
 ]

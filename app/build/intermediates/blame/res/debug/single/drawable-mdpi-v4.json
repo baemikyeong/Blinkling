@@ -4,6 +4,10 @@
         "source": "/Users/mac/.android/build-cache/d3ff796d1a0a0be6c348fb13321312629f76eaaf/output/res/drawable-mdpi-v4/quantum_ic_keyboard_arrow_down_white_36.png"
     },
     {
+        "merged": "/Users/dayeon/Blinkling/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/googleg_standard_color_18.png",
+        "source": "/Users/dayeon/.android/build-cache/0d8a319685fda21a0c94e2ff5d93d49fd94b8a60/output/res/drawable-mdpi-v4/googleg_standard_color_18.png"
+    },
+    {
         "merged": "/Users/seohyemin/Downloads/Blinkling-dayon/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/abc_ab_share_pack_mtrl_alpha.9.png",
         "source": "/Users/seohyemin/.android/build-cache/c7bc4f7edfba7ff92a9519a276f8d2da7169785b/output/res/drawable-mdpi-v4/abc_ab_share_pack_mtrl_alpha.9.png"
     },
@@ -12,12 +16,20 @@
         "source": "/Users/seohyemin/Downloads/Blinkling-dayon/C:\\Users\\dy889\\.android\\build-cache\\881c7ca0ff5e3a246a027b2d60f062378d106efc\\output\\res\\drawable-mdpi-v4\\ic_speaker_group_light.png"
     },
     {
-        "merged": "/Users/seohyemin/Downloads/Blinkling-dayon/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/quantum_ic_bigtop_updates_white_24.png",
-        "source": "/Users/seohyemin/.android/build-cache/86e41c47417d80a7dd799f3286469399e5a52229/output/res/drawable-mdpi-v4/quantum_ic_bigtop_updates_white_24.png"
+        "merged": "/Users/dayeon/Blinkling/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/quantum_ic_volume_up_white_36.png",
+        "source": "/Users/dayeon/.android/build-cache/a1282a1ff9a88fec68e822dfee287e19f4ce9348/output/res/drawable-mdpi-v4/quantum_ic_volume_up_white_36.png"
     },
     {
         "merged": "/Users/mac/Downloads/Blinkling-dayon/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/abc_textfield_default_mtrl_alpha.9.png",
         "source": "/Users/mac/.android/build-cache/913d8db17f1c25b6ee67b77b63f40d3096bd505a/output/res/drawable-mdpi-v4/abc_textfield_default_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "/Users/seohyemin/Downloads/Blinkling-dayon/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/quantum_ic_bigtop_updates_white_24.png",
+        "source": "/Users/seohyemin/.android/build-cache/86e41c47417d80a7dd799f3286469399e5a52229/output/res/drawable-mdpi-v4/quantum_ic_bigtop_updates_white_24.png"
+    },
+    {
+        "merged": "/Users/dayeon/Blinkling/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/quantum_ic_stop_grey600_48.png",
+        "source": "/Users/dayeon/.android/build-cache/a1282a1ff9a88fec68e822dfee287e19f4ce9348/output/res/drawable-mdpi-v4/quantum_ic_stop_grey600_48.png"
     },
     {
         "merged": "/Users/seohyemin/Downloads/Blinkling-dayon/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/ic_audiotrack.png",
@@ -56,12 +68,16 @@
         "source": "/Users/seohyemin/Downloads/Blinkling-dayon/C:\\Users\\dy889\\.android\\build-cache\\eaa9472fc91e028a5a27b3d20e7a0c3fbad5c383\\output\\res\\drawable-mdpi-v4\\abc_btn_radio_to_on_mtrl_000.png"
     },
     {
+        "merged": "/Users/mac/Downloads/Blinkling-dayon/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/quantum_ic_skip_next_white_24.png",
+        "source": "/Users/mac/.android/build-cache/d3ff796d1a0a0be6c348fb13321312629f76eaaf/output/res/drawable-mdpi-v4/quantum_ic_skip_next_white_24.png"
+    },
+    {
         "merged": "/Users/mac/Downloads/Blinkling-dayon/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/abc_text_select_handle_right_mtrl_dark.png",
         "source": "/Users/mac/.android/build-cache/913d8db17f1c25b6ee67b77b63f40d3096bd505a/output/res/drawable-mdpi-v4/abc_text_select_handle_right_mtrl_dark.png"
     },
     {
-        "merged": "/Users/mac/Downloads/Blinkling-dayon/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/quantum_ic_skip_next_white_24.png",
-        "source": "/Users/mac/.android/build-cache/d3ff796d1a0a0be6c348fb13321312629f76eaaf/output/res/drawable-mdpi-v4/quantum_ic_skip_next_white_24.png"
+        "merged": "/Users/dayeon/Blinkling/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/quantum_ic_forward_10_white_24.png",
+        "source": "/Users/dayeon/.android/build-cache/a1282a1ff9a88fec68e822dfee287e19f4ce9348/output/res/drawable-mdpi-v4/quantum_ic_forward_10_white_24.png"
     },
     {
         "merged": "/Users/seohyemin/Downloads/Blinkling-dayon/C:\\Users\\dy889\\Documents\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\places_ic_search.png",
@@ -72,16 +88,16 @@
         "source": "/Users/mac/.android/build-cache/d3ff796d1a0a0be6c348fb13321312629f76eaaf/output/res/drawable-mdpi-v4/quantum_ic_replay_30_grey600_36.png"
     },
     {
-        "merged": "/Users/seohyemin/Downloads/Blinkling-dayon/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/ic_media_route_off_mono_dark.png",
-        "source": "/Users/seohyemin/.android/build-cache/26e1f3a36311761421d8a35c144f8427dceb418a/output/res/drawable-mdpi-v4/ic_media_route_off_mono_dark.png"
+        "merged": "/Users/mac/Blinkling/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/abc_ab_share_pack_mtrl_alpha.9.png",
+        "source": "/Users/mac/.android/build-cache/913d8db17f1c25b6ee67b77b63f40d3096bd505a/output/res/drawable-mdpi-v4/abc_ab_share_pack_mtrl_alpha.9.png"
     },
     {
         "merged": "/Users/mac/Downloads/Blinkling-dayon/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/ic_plusone_tall_off_client.png",
         "source": "/Users/mac/.android/build-cache/adfc2089f0c9907446f8ded1d8dd9a103f413bf4/output/res/drawable-mdpi-v4/ic_plusone_tall_off_client.png"
     },
     {
-        "merged": "/Users/mac/Blinkling/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/abc_ab_share_pack_mtrl_alpha.9.png",
-        "source": "/Users/mac/.android/build-cache/913d8db17f1c25b6ee67b77b63f40d3096bd505a/output/res/drawable-mdpi-v4/abc_ab_share_pack_mtrl_alpha.9.png"
+        "merged": "/Users/seohyemin/Downloads/Blinkling-dayon/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/ic_media_route_off_mono_dark.png",
+        "source": "/Users/seohyemin/.android/build-cache/26e1f3a36311761421d8a35c144f8427dceb418a/output/res/drawable-mdpi-v4/ic_media_route_off_mono_dark.png"
     },
     {
         "merged": "/Users/seohyemin/Downloads/Blinkling-dayon/C:\\Users\\dy889\\Documents\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\quantum_ic_pause_circle_filled_grey600_36.png",
@@ -120,24 +136,32 @@
         "source": "/Users/mac/.android/build-cache/913d8db17f1c25b6ee67b77b63f40d3096bd505a/output/res/drawable-mdpi-v4/abc_ic_star_half_black_48dp.png"
     },
     {
-        "merged": "/Users/seohyemin/Downloads/Blinkling-dayon/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/ic_cast_white.png",
-        "source": "/Users/seohyemin/.android/build-cache/26e1f3a36311761421d8a35c144f8427dceb418a/output/res/drawable-mdpi-v4/ic_cast_white.png"
+        "merged": "/Users/mac/Blinkling/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/quantum_ic_pause_white_24.png",
+        "source": "/Users/mac/.android/build-cache/d3ff796d1a0a0be6c348fb13321312629f76eaaf/output/res/drawable-mdpi-v4/quantum_ic_pause_white_24.png"
     },
     {
         "merged": "/Users/mac/Downloads/Blinkling-dayon/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/abc_switch_track_mtrl_alpha.9.png",
         "source": "/Users/mac/.android/build-cache/913d8db17f1c25b6ee67b77b63f40d3096bd505a/output/res/drawable-mdpi-v4/abc_switch_track_mtrl_alpha.9.png"
     },
     {
-        "merged": "/Users/mac/Blinkling/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/quantum_ic_pause_white_24.png",
-        "source": "/Users/mac/.android/build-cache/d3ff796d1a0a0be6c348fb13321312629f76eaaf/output/res/drawable-mdpi-v4/quantum_ic_pause_white_24.png"
+        "merged": "/Users/seohyemin/Downloads/Blinkling-dayon/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/ic_cast_white.png",
+        "source": "/Users/seohyemin/.android/build-cache/26e1f3a36311761421d8a35c144f8427dceb418a/output/res/drawable-mdpi-v4/ic_cast_white.png"
     },
     {
         "merged": "/Users/mac/Blinkling/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/googleg_disabled_color_18.png",
         "source": "/Users/mac/.android/build-cache/46cde47e55c49a49e2a966d8d336fb318d076378/output/res/drawable-mdpi-v4/googleg_disabled_color_18.png"
     },
     {
+        "merged": "/Users/dayeon/Blinkling/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/abc_text_select_handle_left_mtrl_dark.png",
+        "source": "/Users/dayeon/.android/build-cache/08f0b85e835f6a143412367b800bd932d6600384/output/res/drawable-mdpi-v4/abc_text_select_handle_left_mtrl_dark.png"
+    },
+    {
         "merged": "/Users/seohyemin/Downloads/Blinkling-dayon/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/abc_btn_check_to_on_mtrl_000.png",
         "source": "/Users/seohyemin/.android/build-cache/c7bc4f7edfba7ff92a9519a276f8d2da7169785b/output/res/drawable-mdpi-v4/abc_btn_check_to_on_mtrl_000.png"
+    },
+    {
+        "merged": "/Users/dayeon/Blinkling/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/quantum_ic_replay_white_24.png",
+        "source": "/Users/dayeon/.android/build-cache/a1282a1ff9a88fec68e822dfee287e19f4ce9348/output/res/drawable-mdpi-v4/quantum_ic_replay_white_24.png"
     },
     {
         "merged": "/Users/seohyemin/Downloads/Blinkling-dayon/C:\\Users\\dy889\\Documents\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\googleg_standard_color_18.png",
@@ -152,24 +176,36 @@
         "source": "/Users/mac/.android/build-cache/46cde47e55c49a49e2a966d8d336fb318d076378/output/res/drawable-mdpi-v4/common_google_signin_btn_text_light_normal_background.9.png"
     },
     {
+        "merged": "/Users/seohyemin/Downloads/Blinkling-dayon/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/abc_ic_commit_search_api_mtrl_alpha.png",
+        "source": "/Users/seohyemin/.android/build-cache/c7bc4f7edfba7ff92a9519a276f8d2da7169785b/output/res/drawable-mdpi-v4/abc_ic_commit_search_api_mtrl_alpha.png"
+    },
+    {
         "merged": "/Users/mac/Downloads/Blinkling-dayon/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/abc_ic_menu_copy_mtrl_am_alpha.png",
         "source": "/Users/mac/.android/build-cache/913d8db17f1c25b6ee67b77b63f40d3096bd505a/output/res/drawable-mdpi-v4/abc_ic_menu_copy_mtrl_am_alpha.png"
     },
     {
-        "merged": "/Users/seohyemin/Downloads/Blinkling-dayon/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/abc_ic_commit_search_api_mtrl_alpha.png",
-        "source": "/Users/seohyemin/.android/build-cache/c7bc4f7edfba7ff92a9519a276f8d2da7169785b/output/res/drawable-mdpi-v4/abc_ic_commit_search_api_mtrl_alpha.png"
+        "merged": "/Users/dayeon/Blinkling/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/notification_bg_low_pressed.9.png",
+        "source": "/Users/dayeon/.android/build-cache/08f0b85e835f6a143412367b800bd932d6600384/output/res/drawable-mdpi-v4/notification_bg_low_pressed.9.png"
+    },
+    {
+        "merged": "/Users/dayeon/Blinkling/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/quantum_ic_closed_caption_white_36.png",
+        "source": "/Users/dayeon/.android/build-cache/a1282a1ff9a88fec68e822dfee287e19f4ce9348/output/res/drawable-mdpi-v4/quantum_ic_closed_caption_white_36.png"
     },
     {
         "merged": "/Users/seohyemin/Downloads/Blinkling-dayon/C:\\Users\\dy889\\Documents\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\ic_pause_dark.png",
         "source": "/Users/seohyemin/Downloads/Blinkling-dayon/C:\\Users\\dy889\\.android\\build-cache\\881c7ca0ff5e3a246a027b2d60f062378d106efc\\output\\res\\drawable-mdpi-v4\\ic_pause_dark.png"
     },
     {
-        "merged": "/Users/mac/Downloads/Blinkling-dayon/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/ic_audiotrack_light.png",
-        "source": "/Users/mac/.android/build-cache/693066f5460604d04bca0de7d54ae2c516c35b5a/output/res/drawable-mdpi-v4/ic_audiotrack_light.png"
+        "merged": "/Users/dayeon/Blinkling/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/quantum_ic_play_circle_filled_white_36.png",
+        "source": "/Users/dayeon/.android/build-cache/a1282a1ff9a88fec68e822dfee287e19f4ce9348/output/res/drawable-mdpi-v4/quantum_ic_play_circle_filled_white_36.png"
     },
     {
         "merged": "/Users/mac/Blinkling/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/abc_ic_menu_paste_mtrl_am_alpha.png",
         "source": "/Users/mac/.android/build-cache/913d8db17f1c25b6ee67b77b63f40d3096bd505a/output/res/drawable-mdpi-v4/abc_ic_menu_paste_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "/Users/mac/Downloads/Blinkling-dayon/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/ic_audiotrack_light.png",
+        "source": "/Users/mac/.android/build-cache/693066f5460604d04bca0de7d54ae2c516c35b5a/output/res/drawable-mdpi-v4/ic_audiotrack_light.png"
     },
     {
         "merged": "/Users/seohyemin/Downloads/Blinkling-dayon/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/quantum_ic_play_arrow_grey600_36.png",
@@ -180,12 +216,16 @@
         "source": "/Users/mac/.android/build-cache/913d8db17f1c25b6ee67b77b63f40d3096bd505a/output/res/drawable-mdpi-v4/abc_list_selector_disabled_holo_light.9.png"
     },
     {
-        "merged": "/Users/seohyemin/Downloads/Blinkling-dayon/C:\\Users\\dy889\\Documents\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_menu_hardkey_panel_mtrl_mult.9.png",
-        "source": "/Users/seohyemin/Downloads/Blinkling-dayon/C:\\Users\\dy889\\.android\\build-cache\\eaa9472fc91e028a5a27b3d20e7a0c3fbad5c383\\output\\res\\drawable-mdpi-v4\\abc_menu_hardkey_panel_mtrl_mult.9.png"
+        "merged": "/Users/dayeon/Blinkling/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/common_google_signin_btn_text_light_normal_background.9.png",
+        "source": "/Users/dayeon/.android/build-cache/0d8a319685fda21a0c94e2ff5d93d49fd94b8a60/output/res/drawable-mdpi-v4/common_google_signin_btn_text_light_normal_background.9.png"
     },
     {
         "merged": "/Users/seohyemin/Downloads/Blinkling-dayon/C:\\Users\\dy889\\Documents\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\quantum_ic_replay_10_white_24.png",
         "source": "/Users/seohyemin/Downloads/Blinkling-dayon/C:\\Users\\dy889\\.android\\build-cache\\6eb1f1beb74a0f6f7519161070d151573d511644\\output\\res\\drawable-mdpi-v4\\quantum_ic_replay_10_white_24.png"
+    },
+    {
+        "merged": "/Users/seohyemin/Downloads/Blinkling-dayon/C:\\Users\\dy889\\Documents\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_menu_hardkey_panel_mtrl_mult.9.png",
+        "source": "/Users/seohyemin/Downloads/Blinkling-dayon/C:\\Users\\dy889\\.android\\build-cache\\eaa9472fc91e028a5a27b3d20e7a0c3fbad5c383\\output\\res\\drawable-mdpi-v4\\abc_menu_hardkey_panel_mtrl_mult.9.png"
     },
     {
         "merged": "/Users/seohyemin/Downloads/Blinkling-dayon/C:\\Users\\dy889\\Documents\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\quantum_ic_skip_next_grey600_36.png",
@@ -194,6 +234,14 @@
     {
         "merged": "/Users/mac/Blinkling/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/places_ic_search.png",
         "source": "/Users/mac/.android/build-cache/e2dd64302fde5b64c830d10090ab66d13dc3747f/output/res/drawable-mdpi-v4/places_ic_search.png"
+    },
+    {
+        "merged": "/Users/dayeon/Blinkling/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/abc_menu_hardkey_panel_mtrl_mult.9.png",
+        "source": "/Users/dayeon/.android/build-cache/08f0b85e835f6a143412367b800bd932d6600384/output/res/drawable-mdpi-v4/abc_menu_hardkey_panel_mtrl_mult.9.png"
+    },
+    {
+        "merged": "/Users/dayeon/Blinkling/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/abc_text_select_handle_left_mtrl_light.png",
+        "source": "/Users/dayeon/.android/build-cache/08f0b85e835f6a143412367b800bd932d6600384/output/res/drawable-mdpi-v4/abc_text_select_handle_left_mtrl_light.png"
     },
     {
         "merged": "/Users/seohyemin/Downloads/Blinkling-dayon/C:\\Users\\dy889\\Documents\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\quantum_ic_pause_circle_filled_white_36.png",
@@ -220,6 +268,10 @@
         "source": "/Users/mac/.android/build-cache/913d8db17f1c25b6ee67b77b63f40d3096bd505a/output/res/drawable-mdpi-v4/abc_ic_star_black_36dp.png"
     },
     {
+        "merged": "/Users/dayeon/Blinkling/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/quantum_ic_stop_grey600_36.png",
+        "source": "/Users/dayeon/.android/build-cache/a1282a1ff9a88fec68e822dfee287e19f4ce9348/output/res/drawable-mdpi-v4/quantum_ic_stop_grey600_36.png"
+    },
+    {
         "merged": "/Users/seohyemin/Downloads/Blinkling-dayon/C:\\Users\\dy889\\Documents\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\quantum_ic_volume_off_grey600_36.png",
         "source": "/Users/seohyemin/Downloads/Blinkling-dayon/C:\\Users\\dy889\\.android\\build-cache\\6eb1f1beb74a0f6f7519161070d151573d511644\\output\\res\\drawable-mdpi-v4\\quantum_ic_volume_off_grey600_36.png"
     },
@@ -240,32 +292,36 @@
         "source": "/Users/mac/.android/build-cache/913d8db17f1c25b6ee67b77b63f40d3096bd505a/output/res/drawable-mdpi-v4/abc_list_longpressed_holo.9.png"
     },
     {
+        "merged": "/Users/dayeon/Blinkling/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/abc_scrubber_track_mtrl_alpha.9.png",
+        "source": "/Users/dayeon/.android/build-cache/08f0b85e835f6a143412367b800bd932d6600384/output/res/drawable-mdpi-v4/abc_scrubber_track_mtrl_alpha.9.png"
+    },
+    {
         "merged": "/Users/mac/Blinkling/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/abc_list_selector_disabled_holo_dark.9.png",
         "source": "/Users/mac/.android/build-cache/913d8db17f1c25b6ee67b77b63f40d3096bd505a/output/res/drawable-mdpi-v4/abc_list_selector_disabled_holo_dark.9.png"
-    },
-    {
-        "merged": "/Users/seohyemin/Downloads/Blinkling-dayon/C:\\Users\\dy889\\Documents\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\quantum_ic_replay_30_white_24.png",
-        "source": "/Users/seohyemin/Downloads/Blinkling-dayon/C:\\Users\\dy889\\.android\\build-cache\\6eb1f1beb74a0f6f7519161070d151573d511644\\output\\res\\drawable-mdpi-v4\\quantum_ic_replay_30_white_24.png"
-    },
-    {
-        "merged": "/Users/seohyemin/Downloads/Blinkling-dayon/C:\\Users\\dy889\\Documents\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\quantum_ic_play_arrow_white_24.png",
-        "source": "/Users/seohyemin/Downloads/Blinkling-dayon/C:\\Users\\dy889\\.android\\build-cache\\6eb1f1beb74a0f6f7519161070d151573d511644\\output\\res\\drawable-mdpi-v4\\quantum_ic_play_arrow_white_24.png"
-    },
-    {
-        "merged": "/Users/mac/Blinkling/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/ic_cast_light.png",
-        "source": "/Users/mac/.android/build-cache/693066f5460604d04bca0de7d54ae2c516c35b5a/output/res/drawable-mdpi-v4/ic_cast_light.png"
     },
     {
         "merged": "/Users/mac/Blinkling/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/abc_scrubber_control_to_pressed_mtrl_005.png",
         "source": "/Users/mac/.android/build-cache/913d8db17f1c25b6ee67b77b63f40d3096bd505a/output/res/drawable-mdpi-v4/abc_scrubber_control_to_pressed_mtrl_005.png"
     },
     {
-        "merged": "/Users/seohyemin/Downloads/Blinkling-dayon/C:\\Users\\dy889\\Documents\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\places_ic_clear.png",
-        "source": "/Users/seohyemin/Downloads/Blinkling-dayon/C:\\Users\\dy889\\.android\\build-cache\\5be27fb41eebb647131b34037f6ce6ef3d2567cf\\output\\res\\drawable-mdpi-v4\\places_ic_clear.png"
+        "merged": "/Users/mac/Blinkling/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/ic_cast_light.png",
+        "source": "/Users/mac/.android/build-cache/693066f5460604d04bca0de7d54ae2c516c35b5a/output/res/drawable-mdpi-v4/ic_cast_light.png"
+    },
+    {
+        "merged": "/Users/seohyemin/Downloads/Blinkling-dayon/C:\\Users\\dy889\\Documents\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\quantum_ic_play_arrow_white_24.png",
+        "source": "/Users/seohyemin/Downloads/Blinkling-dayon/C:\\Users\\dy889\\.android\\build-cache\\6eb1f1beb74a0f6f7519161070d151573d511644\\output\\res\\drawable-mdpi-v4\\quantum_ic_play_arrow_white_24.png"
+    },
+    {
+        "merged": "/Users/seohyemin/Downloads/Blinkling-dayon/C:\\Users\\dy889\\Documents\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\quantum_ic_replay_30_white_24.png",
+        "source": "/Users/seohyemin/Downloads/Blinkling-dayon/C:\\Users\\dy889\\.android\\build-cache\\6eb1f1beb74a0f6f7519161070d151573d511644\\output\\res\\drawable-mdpi-v4\\quantum_ic_replay_30_white_24.png"
     },
     {
         "merged": "/Users/mac/Blinkling/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/abc_btn_radio_to_on_mtrl_000.png",
         "source": "/Users/mac/.android/build-cache/913d8db17f1c25b6ee67b77b63f40d3096bd505a/output/res/drawable-mdpi-v4/abc_btn_radio_to_on_mtrl_000.png"
+    },
+    {
+        "merged": "/Users/seohyemin/Downloads/Blinkling-dayon/C:\\Users\\dy889\\Documents\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\places_ic_clear.png",
+        "source": "/Users/seohyemin/Downloads/Blinkling-dayon/C:\\Users\\dy889\\.android\\build-cache\\5be27fb41eebb647131b34037f6ce6ef3d2567cf\\output\\res\\drawable-mdpi-v4\\places_ic_clear.png"
     },
     {
         "merged": "/Users/seohyemin/Downloads/Blinkling-dayon/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/cast_abc_scrubber_primary_mtrl_alpha.9.png",
@@ -300,6 +356,14 @@
         "source": "/Users/seohyemin/Downloads/Blinkling-dayon/C:\\Users\\dy889\\.android\\build-cache\\eaa9472fc91e028a5a27b3d20e7a0c3fbad5c383\\output\\res\\drawable-mdpi-v4\\abc_textfield_search_activated_mtrl_alpha.9.png"
     },
     {
+        "merged": "/Users/dayeon/Blinkling/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/notification_bg_normal.9.png",
+        "source": "/Users/dayeon/.android/build-cache/08f0b85e835f6a143412367b800bd932d6600384/output/res/drawable-mdpi-v4/notification_bg_normal.9.png"
+    },
+    {
+        "merged": "/Users/dayeon/Blinkling/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/ic_pause_dark.png",
+        "source": "/Users/dayeon/.android/build-cache/fee9a8ac9094c6137990dbc59faa44e10f656845/output/res/drawable-mdpi-v4/ic_pause_dark.png"
+    },
+    {
         "merged": "/Users/seohyemin/Downloads/Blinkling-dayon/C:\\Users\\dy889\\Documents\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_cab_background_top_mtrl_alpha.9.png",
         "source": "/Users/seohyemin/Downloads/Blinkling-dayon/C:\\Users\\dy889\\.android\\build-cache\\eaa9472fc91e028a5a27b3d20e7a0c3fbad5c383\\output\\res\\drawable-mdpi-v4\\abc_cab_background_top_mtrl_alpha.9.png"
     },
@@ -320,12 +384,16 @@
         "source": "/Users/seohyemin/.android/build-cache/86e41c47417d80a7dd799f3286469399e5a52229/output/res/drawable-mdpi-v4/quantum_ic_play_arrow_white_24.png"
     },
     {
+        "merged": "/Users/mac/Downloads/Blinkling-dayon/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/quantum_ic_refresh_white_24.png",
+        "source": "/Users/mac/.android/build-cache/d3ff796d1a0a0be6c348fb13321312629f76eaaf/output/res/drawable-mdpi-v4/quantum_ic_refresh_white_24.png"
+    },
+    {
         "merged": "/Users/mac/Downloads/Blinkling-dayon/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/abc_scrubber_track_mtrl_alpha.9.png",
         "source": "/Users/mac/.android/build-cache/913d8db17f1c25b6ee67b77b63f40d3096bd505a/output/res/drawable-mdpi-v4/abc_scrubber_track_mtrl_alpha.9.png"
     },
     {
-        "merged": "/Users/mac/Downloads/Blinkling-dayon/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/quantum_ic_refresh_white_24.png",
-        "source": "/Users/mac/.android/build-cache/d3ff796d1a0a0be6c348fb13321312629f76eaaf/output/res/drawable-mdpi-v4/quantum_ic_refresh_white_24.png"
+        "merged": "/Users/dayeon/Blinkling/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/abc_ic_menu_copy_mtrl_am_alpha.png",
+        "source": "/Users/dayeon/.android/build-cache/08f0b85e835f6a143412367b800bd932d6600384/output/res/drawable-mdpi-v4/abc_ic_menu_copy_mtrl_am_alpha.png"
     },
     {
         "merged": "/Users/seohyemin/Downloads/Blinkling-dayon/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/ic_close_dark.png",
@@ -360,6 +428,10 @@
         "source": "/Users/seohyemin/.android/build-cache/c7bc4f7edfba7ff92a9519a276f8d2da7169785b/output/res/drawable-mdpi-v4/abc_ic_star_half_black_48dp.png"
     },
     {
+        "merged": "/Users/dayeon/Blinkling/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/abc_btn_check_to_on_mtrl_000.png",
+        "source": "/Users/dayeon/.android/build-cache/08f0b85e835f6a143412367b800bd932d6600384/output/res/drawable-mdpi-v4/abc_btn_check_to_on_mtrl_000.png"
+    },
+    {
         "merged": "/Users/mac/Blinkling/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/quantum_ic_cast_white_36.png",
         "source": "/Users/mac/.android/build-cache/d3ff796d1a0a0be6c348fb13321312629f76eaaf/output/res/drawable-mdpi-v4/quantum_ic_cast_white_36.png"
     },
@@ -388,8 +460,16 @@
         "source": "/Users/mac/.android/build-cache/913d8db17f1c25b6ee67b77b63f40d3096bd505a/output/res/drawable-mdpi-v4/abc_ic_star_black_48dp.png"
     },
     {
+        "merged": "/Users/dayeon/Blinkling/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/cast_ic_notification_2.png",
+        "source": "/Users/dayeon/.android/build-cache/83f15acaba7c3a9e6f78c227a0a8871d63857d4d/output/res/drawable-mdpi-v4/cast_ic_notification_2.png"
+    },
+    {
         "merged": "/Users/seohyemin/Downloads/Blinkling-dayon/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/quantum_ic_pause_circle_filled_grey600_36.png",
         "source": "/Users/seohyemin/.android/build-cache/86e41c47417d80a7dd799f3286469399e5a52229/output/res/drawable-mdpi-v4/quantum_ic_pause_circle_filled_grey600_36.png"
+    },
+    {
+        "merged": "/Users/dayeon/Blinkling/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/cast_ic_stop_circle_filled_white.png",
+        "source": "/Users/dayeon/.android/build-cache/a1282a1ff9a88fec68e822dfee287e19f4ce9348/output/res/drawable-mdpi-v4/cast_ic_stop_circle_filled_white.png"
     },
     {
         "merged": "/Users/seohyemin/Downloads/Blinkling-dayon/C:\\Users\\dy889\\Documents\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\googleg_disabled_color_18.png",
@@ -398,6 +478,10 @@
     {
         "merged": "/Users/mac/Blinkling/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/cast_ic_stop_circle_filled_white.png",
         "source": "/Users/mac/.android/build-cache/d3ff796d1a0a0be6c348fb13321312629f76eaaf/output/res/drawable-mdpi-v4/cast_ic_stop_circle_filled_white.png"
+    },
+    {
+        "merged": "/Users/dayeon/Blinkling/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/quantum_ic_stop_white_24.png",
+        "source": "/Users/dayeon/.android/build-cache/a1282a1ff9a88fec68e822dfee287e19f4ce9348/output/res/drawable-mdpi-v4/quantum_ic_stop_white_24.png"
     },
     {
         "merged": "/Users/seohyemin/Downloads/Blinkling-dayon/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/abc_list_selector_disabled_holo_dark.9.png",
@@ -414,6 +498,10 @@
     {
         "merged": "/Users/mac/Downloads/Blinkling-dayon/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/cast_ic_notification_2.png",
         "source": "/Users/mac/.android/build-cache/b07a0c2faed5b9a5b9cc06243dd69a761a4deece/output/res/drawable-mdpi-v4/cast_ic_notification_2.png"
+    },
+    {
+        "merged": "/Users/dayeon/Blinkling/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/googleg_disabled_color_18.png",
+        "source": "/Users/dayeon/.android/build-cache/0d8a319685fda21a0c94e2ff5d93d49fd94b8a60/output/res/drawable-mdpi-v4/googleg_disabled_color_18.png"
     },
     {
         "merged": "/Users/mac/Downloads/Blinkling-dayon/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/cast_abc_scrubber_primary_mtrl_alpha.9.png",
@@ -496,6 +584,10 @@
         "source": "/Users/mac/.android/build-cache/d3ff796d1a0a0be6c348fb13321312629f76eaaf/output/res/drawable-mdpi-v4/quantum_ic_stop_grey600_48.png"
     },
     {
+        "merged": "/Users/dayeon/Blinkling/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/quantum_ic_bigtop_updates_white_24.png",
+        "source": "/Users/dayeon/.android/build-cache/a1282a1ff9a88fec68e822dfee287e19f4ce9348/output/res/drawable-mdpi-v4/quantum_ic_bigtop_updates_white_24.png"
+    },
+    {
         "merged": "/Users/seohyemin/Downloads/Blinkling-dayon/C:\\Users\\dy889\\Documents\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\quantum_ic_bigtop_updates_white_24.png",
         "source": "/Users/seohyemin/Downloads/Blinkling-dayon/C:\\Users\\dy889\\.android\\build-cache\\6eb1f1beb74a0f6f7519161070d151573d511644\\output\\res\\drawable-mdpi-v4\\quantum_ic_bigtop_updates_white_24.png"
     },
@@ -508,12 +600,28 @@
         "source": "/Users/seohyemin/Downloads/Blinkling-dayon/C:\\Users\\dy889\\.android\\build-cache\\eaa9472fc91e028a5a27b3d20e7a0c3fbad5c383\\output\\res\\drawable-mdpi-v4\\abc_ic_star_half_black_16dp.png"
     },
     {
+        "merged": "/Users/dayeon/Blinkling/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/abc_text_select_handle_right_mtrl_light.png",
+        "source": "/Users/dayeon/.android/build-cache/08f0b85e835f6a143412367b800bd932d6600384/output/res/drawable-mdpi-v4/abc_text_select_handle_right_mtrl_light.png"
+    },
+    {
         "merged": "/Users/seohyemin/Downloads/Blinkling-dayon/C:\\Users\\dy889\\Documents\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\ic_tv_light.png",
         "source": "/Users/seohyemin/Downloads/Blinkling-dayon/C:\\Users\\dy889\\.android\\build-cache\\881c7ca0ff5e3a246a027b2d60f062378d106efc\\output\\res\\drawable-mdpi-v4\\ic_tv_light.png"
     },
     {
+        "merged": "/Users/dayeon/Blinkling/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/abc_ic_star_black_36dp.png",
+        "source": "/Users/dayeon/.android/build-cache/08f0b85e835f6a143412367b800bd932d6600384/output/res/drawable-mdpi-v4/abc_ic_star_black_36dp.png"
+    },
+    {
+        "merged": "/Users/dayeon/Blinkling/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/quantum_ic_forward_30_white_36.png",
+        "source": "/Users/dayeon/.android/build-cache/a1282a1ff9a88fec68e822dfee287e19f4ce9348/output/res/drawable-mdpi-v4/quantum_ic_forward_30_white_36.png"
+    },
+    {
         "merged": "/Users/seohyemin/Downloads/Blinkling-dayon/C:\\Users\\dy889\\Documents\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_ic_menu_paste_mtrl_am_alpha.png",
         "source": "/Users/seohyemin/Downloads/Blinkling-dayon/C:\\Users\\dy889\\.android\\build-cache\\eaa9472fc91e028a5a27b3d20e7a0c3fbad5c383\\output\\res\\drawable-mdpi-v4\\abc_ic_menu_paste_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "/Users/dayeon/Blinkling/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/cast_abc_scrubber_control_to_pressed_mtrl_005.png",
+        "source": "/Users/dayeon/.android/build-cache/a1282a1ff9a88fec68e822dfee287e19f4ce9348/output/res/drawable-mdpi-v4/cast_abc_scrubber_control_to_pressed_mtrl_005.png"
     },
     {
         "merged": "/Users/seohyemin/Downloads/Blinkling-dayon/C:\\Users\\dy889\\Documents\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\quantum_ic_play_circle_filled_grey600_36.png",
@@ -540,8 +648,20 @@
         "source": "/Users/mac/.android/build-cache/693066f5460604d04bca0de7d54ae2c516c35b5a/output/res/drawable-mdpi-v4/ic_speaker_group_light.png"
     },
     {
+        "merged": "/Users/dayeon/Blinkling/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/abc_spinner_mtrl_am_alpha.9.png",
+        "source": "/Users/dayeon/.android/build-cache/08f0b85e835f6a143412367b800bd932d6600384/output/res/drawable-mdpi-v4/abc_spinner_mtrl_am_alpha.9.png"
+    },
+    {
+        "merged": "/Users/dayeon/Blinkling/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/abc_list_focused_holo.9.png",
+        "source": "/Users/dayeon/.android/build-cache/08f0b85e835f6a143412367b800bd932d6600384/output/res/drawable-mdpi-v4/abc_list_focused_holo.9.png"
+    },
+    {
         "merged": "/Users/seohyemin/Downloads/Blinkling-dayon/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/common_google_signin_btn_text_dark_normal_background.9.png",
         "source": "/Users/seohyemin/.android/build-cache/0d2115ebae371fcb313058a3bc5c308dbec866f8/output/res/drawable-mdpi-v4/common_google_signin_btn_text_dark_normal_background.9.png"
+    },
+    {
+        "merged": "/Users/dayeon/Blinkling/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/notification_bg_normal_pressed.9.png",
+        "source": "/Users/dayeon/.android/build-cache/08f0b85e835f6a143412367b800bd932d6600384/output/res/drawable-mdpi-v4/notification_bg_normal_pressed.9.png"
     },
     {
         "merged": "/Users/mac/Blinkling/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/ic_plusone_small_off_client.png",
@@ -556,6 +676,10 @@
         "source": "/Users/mac/.android/build-cache/46cde47e55c49a49e2a966d8d336fb318d076378/output/res/drawable-mdpi-v4/common_google_signin_btn_icon_dark_normal_background.9.png"
     },
     {
+        "merged": "/Users/dayeon/Blinkling/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/ic_media_route_off_mono_dark.png",
+        "source": "/Users/dayeon/.android/build-cache/fee9a8ac9094c6137990dbc59faa44e10f656845/output/res/drawable-mdpi-v4/ic_media_route_off_mono_dark.png"
+    },
+    {
         "merged": "/Users/mac/Downloads/Blinkling-dayon/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/ic_cast_off_light.png",
         "source": "/Users/mac/.android/build-cache/693066f5460604d04bca0de7d54ae2c516c35b5a/output/res/drawable-mdpi-v4/ic_cast_off_light.png"
     },
@@ -568,12 +692,24 @@
         "source": "/Users/mac/.android/build-cache/d3ff796d1a0a0be6c348fb13321312629f76eaaf/output/res/drawable-mdpi-v4/quantum_ic_volume_off_white_36.png"
     },
     {
+        "merged": "/Users/dayeon/Blinkling/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/cast_ic_stop_circle_filled_grey600.png",
+        "source": "/Users/dayeon/.android/build-cache/a1282a1ff9a88fec68e822dfee287e19f4ce9348/output/res/drawable-mdpi-v4/cast_ic_stop_circle_filled_grey600.png"
+    },
+    {
         "merged": "/Users/mac/Downloads/Blinkling-dayon/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/quantum_ic_forward_10_white_24.png",
         "source": "/Users/mac/.android/build-cache/d3ff796d1a0a0be6c348fb13321312629f76eaaf/output/res/drawable-mdpi-v4/quantum_ic_forward_10_white_24.png"
     },
     {
         "merged": "/Users/mac/Blinkling/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/quantum_ic_skip_next_grey600_36.png",
         "source": "/Users/mac/.android/build-cache/d3ff796d1a0a0be6c348fb13321312629f76eaaf/output/res/drawable-mdpi-v4/quantum_ic_skip_next_grey600_36.png"
+    },
+    {
+        "merged": "/Users/dayeon/Blinkling/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/quantum_ic_skip_previous_grey600_36.png",
+        "source": "/Users/dayeon/.android/build-cache/a1282a1ff9a88fec68e822dfee287e19f4ce9348/output/res/drawable-mdpi-v4/quantum_ic_skip_previous_grey600_36.png"
+    },
+    {
+        "merged": "/Users/dayeon/Blinkling/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/cast_ic_notification_1.png",
+        "source": "/Users/dayeon/.android/build-cache/83f15acaba7c3a9e6f78c227a0a8871d63857d4d/output/res/drawable-mdpi-v4/cast_ic_notification_1.png"
     },
     {
         "merged": "/Users/mac/Downloads/Blinkling-dayon/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/quantum_ic_play_arrow_grey600_36.png",
@@ -612,6 +748,14 @@
         "source": "/Users/mac/.android/build-cache/913d8db17f1c25b6ee67b77b63f40d3096bd505a/output/res/drawable-mdpi-v4/abc_list_focused_holo.9.png"
     },
     {
+        "merged": "/Users/dayeon/Blinkling/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/notify_panel_notification_icon_bg.png",
+        "source": "/Users/dayeon/.android/build-cache/08f0b85e835f6a143412367b800bd932d6600384/output/res/drawable-mdpi-v4/notify_panel_notification_icon_bg.png"
+    },
+    {
+        "merged": "/Users/dayeon/Blinkling/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/ic_cast_white.png",
+        "source": "/Users/dayeon/.android/build-cache/fee9a8ac9094c6137990dbc59faa44e10f656845/output/res/drawable-mdpi-v4/ic_cast_white.png"
+    },
+    {
         "merged": "/Users/seohyemin/Downloads/Blinkling-dayon/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/abc_btn_check_to_on_mtrl_015.png",
         "source": "/Users/seohyemin/.android/build-cache/c7bc4f7edfba7ff92a9519a276f8d2da7169785b/output/res/drawable-mdpi-v4/abc_btn_check_to_on_mtrl_015.png"
     },
@@ -624,12 +768,20 @@
         "source": "/Users/mac/.android/build-cache/d3ff796d1a0a0be6c348fb13321312629f76eaaf/output/res/drawable-mdpi-v4/quantum_ic_skip_next_grey600_36.png"
     },
     {
+        "merged": "/Users/dayeon/Blinkling/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/cast_abc_scrubber_control_off_mtrl_alpha.png",
+        "source": "/Users/dayeon/.android/build-cache/a1282a1ff9a88fec68e822dfee287e19f4ce9348/output/res/drawable-mdpi-v4/cast_abc_scrubber_control_off_mtrl_alpha.png"
+    },
+    {
         "merged": "/Users/seohyemin/Downloads/Blinkling-dayon/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/googleg_standard_color_18.png",
         "source": "/Users/seohyemin/.android/build-cache/0d2115ebae371fcb313058a3bc5c308dbec866f8/output/res/drawable-mdpi-v4/googleg_standard_color_18.png"
     },
     {
         "merged": "/Users/seohyemin/Downloads/Blinkling-dayon/C:\\Users\\dy889\\Documents\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_ic_menu_copy_mtrl_am_alpha.png",
         "source": "/Users/seohyemin/Downloads/Blinkling-dayon/C:\\Users\\dy889\\.android\\build-cache\\eaa9472fc91e028a5a27b3d20e7a0c3fbad5c383\\output\\res\\drawable-mdpi-v4\\abc_ic_menu_copy_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "/Users/dayeon/Blinkling/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/abc_ic_menu_selectall_mtrl_alpha.png",
+        "source": "/Users/dayeon/.android/build-cache/08f0b85e835f6a143412367b800bd932d6600384/output/res/drawable-mdpi-v4/abc_ic_menu_selectall_mtrl_alpha.png"
     },
     {
         "merged": "/Users/mac/Downloads/Blinkling-dayon/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/abc_ic_star_half_black_36dp.png",
@@ -640,8 +792,16 @@
         "source": "/Users/mac/.android/build-cache/913d8db17f1c25b6ee67b77b63f40d3096bd505a/output/res/drawable-mdpi-v4/abc_text_select_handle_left_mtrl_light.png"
     },
     {
+        "merged": "/Users/dayeon/Blinkling/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/abc_textfield_activated_mtrl_alpha.9.png",
+        "source": "/Users/dayeon/.android/build-cache/08f0b85e835f6a143412367b800bd932d6600384/output/res/drawable-mdpi-v4/abc_textfield_activated_mtrl_alpha.9.png"
+    },
+    {
         "merged": "/Users/mac/Blinkling/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/abc_list_selector_disabled_holo_light.9.png",
         "source": "/Users/mac/.android/build-cache/913d8db17f1c25b6ee67b77b63f40d3096bd505a/output/res/drawable-mdpi-v4/abc_list_selector_disabled_holo_light.9.png"
+    },
+    {
+        "merged": "/Users/dayeon/Blinkling/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/quantum_ic_pause_circle_filled_grey600_36.png",
+        "source": "/Users/dayeon/.android/build-cache/a1282a1ff9a88fec68e822dfee287e19f4ce9348/output/res/drawable-mdpi-v4/quantum_ic_pause_circle_filled_grey600_36.png"
     },
     {
         "merged": "/Users/mac/Downloads/Blinkling-dayon/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/ic_cast_grey.png",
@@ -684,8 +844,16 @@
         "source": "/Users/mac/.android/build-cache/913d8db17f1c25b6ee67b77b63f40d3096bd505a/output/res/drawable-mdpi-v4/abc_scrubber_control_to_pressed_mtrl_000.png"
     },
     {
+        "merged": "/Users/dayeon/Blinkling/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/abc_text_select_handle_middle_mtrl_light.png",
+        "source": "/Users/dayeon/.android/build-cache/08f0b85e835f6a143412367b800bd932d6600384/output/res/drawable-mdpi-v4/abc_text_select_handle_middle_mtrl_light.png"
+    },
+    {
         "merged": "/Users/mac/Blinkling/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/quantum_ic_play_circle_filled_grey600_36.png",
         "source": "/Users/mac/.android/build-cache/d3ff796d1a0a0be6c348fb13321312629f76eaaf/output/res/drawable-mdpi-v4/quantum_ic_play_circle_filled_grey600_36.png"
+    },
+    {
+        "merged": "/Users/dayeon/Blinkling/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/powered_by_google_dark.png",
+        "source": "/Users/dayeon/.android/build-cache/7a72835b32aa344f5f9782770720c650a8305813/output/res/drawable-mdpi-v4/powered_by_google_dark.png"
     },
     {
         "merged": "/Users/mac/Downloads/Blinkling-dayon/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/abc_textfield_search_activated_mtrl_alpha.9.png",
@@ -696,8 +864,16 @@
         "source": "/Users/seohyemin/.android/build-cache/c7bc4f7edfba7ff92a9519a276f8d2da7169785b/output/res/drawable-mdpi-v4/abc_textfield_search_default_mtrl_alpha.9.png"
     },
     {
+        "merged": "/Users/dayeon/Blinkling/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/common_google_signin_btn_icon_dark_normal_background.9.png",
+        "source": "/Users/dayeon/.android/build-cache/0d8a319685fda21a0c94e2ff5d93d49fd94b8a60/output/res/drawable-mdpi-v4/common_google_signin_btn_icon_dark_normal_background.9.png"
+    },
+    {
         "merged": "/Users/seohyemin/Downloads/Blinkling-dayon/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/quantum_ic_skip_next_white_36.png",
         "source": "/Users/seohyemin/.android/build-cache/86e41c47417d80a7dd799f3286469399e5a52229/output/res/drawable-mdpi-v4/quantum_ic_skip_next_white_36.png"
+    },
+    {
+        "merged": "/Users/dayeon/Blinkling/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/abc_btn_radio_to_on_mtrl_000.png",
+        "source": "/Users/dayeon/.android/build-cache/08f0b85e835f6a143412367b800bd932d6600384/output/res/drawable-mdpi-v4/abc_btn_radio_to_on_mtrl_000.png"
     },
     {
         "merged": "/Users/seohyemin/Downloads/Blinkling-dayon/C:\\Users\\dy889\\Documents\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_list_focused_holo.9.png",
@@ -710,6 +886,10 @@
     {
         "merged": "/Users/seohyemin/Downloads/Blinkling-dayon/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/quantum_ic_stop_grey600_48.png",
         "source": "/Users/seohyemin/.android/build-cache/86e41c47417d80a7dd799f3286469399e5a52229/output/res/drawable-mdpi-v4/quantum_ic_stop_grey600_48.png"
+    },
+    {
+        "merged": "/Users/dayeon/Blinkling/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/powered_by_google_light.png",
+        "source": "/Users/dayeon/.android/build-cache/7a72835b32aa344f5f9782770720c650a8305813/output/res/drawable-mdpi-v4/powered_by_google_light.png"
     },
     {
         "merged": "/Users/mac/Downloads/Blinkling-dayon/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/notify_panel_notification_icon_bg.png",
@@ -734,6 +914,10 @@
     {
         "merged": "/Users/seohyemin/Downloads/Blinkling-dayon/C:\\Users\\dy889\\Documents\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_text_select_handle_left_mtrl_dark.png",
         "source": "/Users/seohyemin/Downloads/Blinkling-dayon/C:\\Users\\dy889\\.android\\build-cache\\eaa9472fc91e028a5a27b3d20e7a0c3fbad5c383\\output\\res\\drawable-mdpi-v4\\abc_text_select_handle_left_mtrl_dark.png"
+    },
+    {
+        "merged": "/Users/dayeon/Blinkling/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/quantum_ic_volume_up_grey600_36.png",
+        "source": "/Users/dayeon/.android/build-cache/a1282a1ff9a88fec68e822dfee287e19f4ce9348/output/res/drawable-mdpi-v4/quantum_ic_volume_up_grey600_36.png"
     },
     {
         "merged": "/Users/seohyemin/Downloads/Blinkling-dayon/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/ic_speaker_light.png",
@@ -796,12 +980,20 @@
         "source": "/Users/mac/.android/build-cache/693066f5460604d04bca0de7d54ae2c516c35b5a/output/res/drawable-mdpi-v4/ic_speaker_group_light.png"
     },
     {
+        "merged": "/Users/dayeon/Blinkling/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/abc_switch_track_mtrl_alpha.9.png",
+        "source": "/Users/dayeon/.android/build-cache/08f0b85e835f6a143412367b800bd932d6600384/output/res/drawable-mdpi-v4/abc_switch_track_mtrl_alpha.9.png"
+    },
+    {
         "merged": "/Users/mac/Blinkling/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/quantum_ic_skip_next_white_36.png",
         "source": "/Users/mac/.android/build-cache/d3ff796d1a0a0be6c348fb13321312629f76eaaf/output/res/drawable-mdpi-v4/quantum_ic_skip_next_white_36.png"
     },
     {
         "merged": "/Users/mac/Blinkling/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/abc_text_select_handle_right_mtrl_dark.png",
         "source": "/Users/mac/.android/build-cache/913d8db17f1c25b6ee67b77b63f40d3096bd505a/output/res/drawable-mdpi-v4/abc_text_select_handle_right_mtrl_dark.png"
+    },
+    {
+        "merged": "/Users/dayeon/Blinkling/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/abc_list_pressed_holo_dark.9.png",
+        "source": "/Users/dayeon/.android/build-cache/08f0b85e835f6a143412367b800bd932d6600384/output/res/drawable-mdpi-v4/abc_list_pressed_holo_dark.9.png"
     },
     {
         "merged": "/Users/seohyemin/Downloads/Blinkling-dayon/C:\\Users\\dy889\\Documents\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\ic_plusone_standard_off_client.png",
@@ -826,6 +1018,10 @@
     {
         "merged": "/Users/seohyemin/Downloads/Blinkling-dayon/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/abc_ic_menu_selectall_mtrl_alpha.png",
         "source": "/Users/seohyemin/.android/build-cache/c7bc4f7edfba7ff92a9519a276f8d2da7169785b/output/res/drawable-mdpi-v4/abc_ic_menu_selectall_mtrl_alpha.png"
+    },
+    {
+        "merged": "/Users/dayeon/Blinkling/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/ic_speaker_group_light.png",
+        "source": "/Users/dayeon/.android/build-cache/fee9a8ac9094c6137990dbc59faa44e10f656845/output/res/drawable-mdpi-v4/ic_speaker_group_light.png"
     },
     {
         "merged": "/Users/seohyemin/Downloads/Blinkling-dayon/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/cast_ic_notification_1.png",
@@ -872,6 +1068,10 @@
         "source": "/Users/mac/.android/build-cache/693066f5460604d04bca0de7d54ae2c516c35b5a/output/res/drawable-mdpi-v4/ic_play_light.png"
     },
     {
+        "merged": "/Users/dayeon/Blinkling/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/ic_speaker_group_dark.png",
+        "source": "/Users/dayeon/.android/build-cache/fee9a8ac9094c6137990dbc59faa44e10f656845/output/res/drawable-mdpi-v4/ic_speaker_group_dark.png"
+    },
+    {
         "merged": "/Users/seohyemin/Downloads/Blinkling-dayon/C:\\Users\\dy889\\Documents\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\quantum_ic_art_track_grey600_48.png",
         "source": "/Users/seohyemin/Downloads/Blinkling-dayon/C:\\Users\\dy889\\.android\\build-cache\\6eb1f1beb74a0f6f7519161070d151573d511644\\output\\res\\drawable-mdpi-v4\\quantum_ic_art_track_grey600_48.png"
     },
@@ -880,12 +1080,28 @@
         "source": "/Users/seohyemin/Downloads/Blinkling-dayon/C:\\Users\\dy889\\.android\\build-cache\\6eb1f1beb74a0f6f7519161070d151573d511644\\output\\res\\drawable-mdpi-v4\\quantum_ic_play_circle_filled_white_36.png"
     },
     {
+        "merged": "/Users/dayeon/Blinkling/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/abc_list_selector_disabled_holo_dark.9.png",
+        "source": "/Users/dayeon/.android/build-cache/08f0b85e835f6a143412367b800bd932d6600384/output/res/drawable-mdpi-v4/abc_list_selector_disabled_holo_dark.9.png"
+    },
+    {
+        "merged": "/Users/dayeon/Blinkling/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/abc_ic_star_black_48dp.png",
+        "source": "/Users/dayeon/.android/build-cache/08f0b85e835f6a143412367b800bd932d6600384/output/res/drawable-mdpi-v4/abc_ic_star_black_48dp.png"
+    },
+    {
         "merged": "/Users/mac/Downloads/Blinkling-dayon/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/abc_ic_star_black_48dp.png",
         "source": "/Users/mac/.android/build-cache/913d8db17f1c25b6ee67b77b63f40d3096bd505a/output/res/drawable-mdpi-v4/abc_ic_star_black_48dp.png"
     },
     {
+        "merged": "/Users/dayeon/Blinkling/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/ic_plusone_medium_off_client.png",
+        "source": "/Users/dayeon/.android/build-cache/31e43a428f7eda7f8bd5bd1a30864db2e3aef0cd/output/res/drawable-mdpi-v4/ic_plusone_medium_off_client.png"
+    },
+    {
         "merged": "/Users/seohyemin/Downloads/Blinkling-dayon/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/ic_plusone_tall_off_client.png",
         "source": "/Users/seohyemin/.android/build-cache/3cfd8c61307b831e0a402957eb88e07b1c01f016/output/res/drawable-mdpi-v4/ic_plusone_tall_off_client.png"
+    },
+    {
+        "merged": "/Users/dayeon/Blinkling/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/ic_close_light.png",
+        "source": "/Users/dayeon/.android/build-cache/fee9a8ac9094c6137990dbc59faa44e10f656845/output/res/drawable-mdpi-v4/ic_close_light.png"
     },
     {
         "merged": "/Users/mac/Blinkling/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/quantum_ic_forward_30_white_36.png",
@@ -894,6 +1110,14 @@
     {
         "merged": "/Users/mac/Blinkling/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/abc_btn_radio_to_on_mtrl_015.png",
         "source": "/Users/mac/.android/build-cache/913d8db17f1c25b6ee67b77b63f40d3096bd505a/output/res/drawable-mdpi-v4/abc_btn_radio_to_on_mtrl_015.png"
+    },
+    {
+        "merged": "/Users/dayeon/Blinkling/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/quantum_ic_cast_connected_white_24.png",
+        "source": "/Users/dayeon/.android/build-cache/a1282a1ff9a88fec68e822dfee287e19f4ce9348/output/res/drawable-mdpi-v4/quantum_ic_cast_connected_white_24.png"
+    },
+    {
+        "merged": "/Users/dayeon/Blinkling/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/abc_text_select_handle_middle_mtrl_dark.png",
+        "source": "/Users/dayeon/.android/build-cache/08f0b85e835f6a143412367b800bd932d6600384/output/res/drawable-mdpi-v4/abc_text_select_handle_middle_mtrl_dark.png"
     },
     {
         "merged": "/Users/mac/Downloads/Blinkling-dayon/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/quantum_ic_replay_10_white_24.png",
@@ -924,8 +1148,16 @@
         "source": "/Users/seohyemin/Downloads/Blinkling-dayon/C:\\Users\\dy889\\.android\\build-cache\\eaa9472fc91e028a5a27b3d20e7a0c3fbad5c383\\output\\res\\drawable-mdpi-v4\\abc_ic_star_half_black_48dp.png"
     },
     {
+        "merged": "/Users/dayeon/Blinkling/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/abc_tab_indicator_mtrl_alpha.9.png",
+        "source": "/Users/dayeon/.android/build-cache/08f0b85e835f6a143412367b800bd932d6600384/output/res/drawable-mdpi-v4/abc_tab_indicator_mtrl_alpha.9.png"
+    },
+    {
         "merged": "/Users/seohyemin/Downloads/Blinkling-dayon/C:\\Users\\dy889\\Documents\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\quantum_ic_keyboard_arrow_down_white_36.png",
         "source": "/Users/seohyemin/Downloads/Blinkling-dayon/C:\\Users\\dy889\\.android\\build-cache\\6eb1f1beb74a0f6f7519161070d151573d511644\\output\\res\\drawable-mdpi-v4\\quantum_ic_keyboard_arrow_down_white_36.png"
+    },
+    {
+        "merged": "/Users/dayeon/Blinkling/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/ic_plusone_tall_off_client.png",
+        "source": "/Users/dayeon/.android/build-cache/31e43a428f7eda7f8bd5bd1a30864db2e3aef0cd/output/res/drawable-mdpi-v4/ic_plusone_tall_off_client.png"
     },
     {
         "merged": "/Users/seohyemin/Downloads/Blinkling-dayon/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/notify_panel_notification_icon_bg.png",
@@ -988,6 +1220,10 @@
         "source": "/Users/seohyemin/Downloads/Blinkling-dayon/C:\\Users\\dy889\\.android\\build-cache\\eaa9472fc91e028a5a27b3d20e7a0c3fbad5c383\\output\\res\\drawable-mdpi-v4\\abc_ic_menu_share_mtrl_alpha.png"
     },
     {
+        "merged": "/Users/dayeon/Blinkling/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/abc_list_pressed_holo_light.9.png",
+        "source": "/Users/dayeon/.android/build-cache/08f0b85e835f6a143412367b800bd932d6600384/output/res/drawable-mdpi-v4/abc_list_pressed_holo_light.9.png"
+    },
+    {
         "merged": "/Users/mac/Blinkling/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/quantum_ic_skip_previous_grey600_36.png",
         "source": "/Users/mac/.android/build-cache/d3ff796d1a0a0be6c348fb13321312629f76eaaf/output/res/drawable-mdpi-v4/quantum_ic_skip_previous_grey600_36.png"
     },
@@ -1004,8 +1240,16 @@
         "source": "/Users/seohyemin/Downloads/Blinkling-dayon/C:\\Users\\dy889\\.android\\build-cache\\eaa9472fc91e028a5a27b3d20e7a0c3fbad5c383\\output\\res\\drawable-mdpi-v4\\abc_list_selector_disabled_holo_light.9.png"
     },
     {
+        "merged": "/Users/dayeon/Blinkling/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/quantum_ic_pause_white_24.png",
+        "source": "/Users/dayeon/.android/build-cache/a1282a1ff9a88fec68e822dfee287e19f4ce9348/output/res/drawable-mdpi-v4/quantum_ic_pause_white_24.png"
+    },
+    {
         "merged": "/Users/mac/Blinkling/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/cast_ic_notification_0.png",
         "source": "/Users/mac/.android/build-cache/b07a0c2faed5b9a5b9cc06243dd69a761a4deece/output/res/drawable-mdpi-v4/cast_ic_notification_0.png"
+    },
+    {
+        "merged": "/Users/dayeon/Blinkling/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/abc_scrubber_primary_mtrl_alpha.9.png",
+        "source": "/Users/dayeon/.android/build-cache/08f0b85e835f6a143412367b800bd932d6600384/output/res/drawable-mdpi-v4/abc_scrubber_primary_mtrl_alpha.9.png"
     },
     {
         "merged": "/Users/seohyemin/Downloads/Blinkling-dayon/C:\\Users\\dy889\\Documents\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_spinner_mtrl_am_alpha.9.png",
@@ -1116,6 +1360,10 @@
         "source": "/Users/mac/.android/build-cache/913d8db17f1c25b6ee67b77b63f40d3096bd505a/output/res/drawable-mdpi-v4/abc_text_select_handle_middle_mtrl_light.png"
     },
     {
+        "merged": "/Users/dayeon/Blinkling/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/abc_textfield_search_default_mtrl_alpha.9.png",
+        "source": "/Users/dayeon/.android/build-cache/08f0b85e835f6a143412367b800bd932d6600384/output/res/drawable-mdpi-v4/abc_textfield_search_default_mtrl_alpha.9.png"
+    },
+    {
         "merged": "/Users/seohyemin/Downloads/Blinkling-dayon/C:\\Users\\dy889\\Documents\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\common_google_signin_btn_text_light_normal_background.9.png",
         "source": "/Users/seohyemin/Downloads/Blinkling-dayon/C:\\Users\\dy889\\.android\\build-cache\\11a22824b674fc33d38cadc6afd43da20d820267\\output\\res\\drawable-mdpi-v4\\common_google_signin_btn_text_light_normal_background.9.png"
     },
@@ -1126,6 +1374,14 @@
     {
         "merged": "/Users/seohyemin/Downloads/Blinkling-dayon/C:\\Users\\dy889\\Documents\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\cast_ic_notification_on.png",
         "source": "/Users/seohyemin/Downloads/Blinkling-dayon/C:\\Users\\dy889\\.android\\build-cache\\f78016f9b280e2c06f325c0d86809ab701956e39\\output\\res\\drawable-mdpi-v4\\cast_ic_notification_on.png"
+    },
+    {
+        "merged": "/Users/dayeon/Blinkling/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/ic_audiotrack_light.png",
+        "source": "/Users/dayeon/.android/build-cache/fee9a8ac9094c6137990dbc59faa44e10f656845/output/res/drawable-mdpi-v4/ic_audiotrack_light.png"
+    },
+    {
+        "merged": "/Users/dayeon/Blinkling/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/abc_btn_switch_to_on_mtrl_00012.9.png",
+        "source": "/Users/dayeon/.android/build-cache/08f0b85e835f6a143412367b800bd932d6600384/output/res/drawable-mdpi-v4/abc_btn_switch_to_on_mtrl_00012.9.png"
     },
     {
         "merged": "/Users/seohyemin/Downloads/Blinkling-dayon/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/notification_bg_normal.9.png",
@@ -1144,8 +1400,16 @@
         "source": "/Users/mac/.android/build-cache/913d8db17f1c25b6ee67b77b63f40d3096bd505a/output/res/drawable-mdpi-v4/abc_list_divider_mtrl_alpha.9.png"
     },
     {
+        "merged": "/Users/dayeon/Blinkling/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/quantum_ic_art_track_grey600_48.png",
+        "source": "/Users/dayeon/.android/build-cache/a1282a1ff9a88fec68e822dfee287e19f4ce9348/output/res/drawable-mdpi-v4/quantum_ic_art_track_grey600_48.png"
+    },
+    {
         "merged": "/Users/seohyemin/Downloads/Blinkling-dayon/C:\\Users\\dy889\\Documents\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\quantum_ic_skip_previous_white_36.png",
         "source": "/Users/seohyemin/Downloads/Blinkling-dayon/C:\\Users\\dy889\\.android\\build-cache\\6eb1f1beb74a0f6f7519161070d151573d511644\\output\\res\\drawable-mdpi-v4\\quantum_ic_skip_previous_white_36.png"
+    },
+    {
+        "merged": "/Users/dayeon/Blinkling/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/ic_close_dark.png",
+        "source": "/Users/dayeon/.android/build-cache/fee9a8ac9094c6137990dbc59faa44e10f656845/output/res/drawable-mdpi-v4/ic_close_dark.png"
     },
     {
         "merged": "/Users/seohyemin/Downloads/Blinkling-dayon/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/quantum_ic_volume_up_white_36.png",
@@ -1162,6 +1426,14 @@
     {
         "merged": "/Users/mac/Downloads/Blinkling-dayon/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/ic_speaker_light.png",
         "source": "/Users/mac/.android/build-cache/693066f5460604d04bca0de7d54ae2c516c35b5a/output/res/drawable-mdpi-v4/ic_speaker_light.png"
+    },
+    {
+        "merged": "/Users/dayeon/Blinkling/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/ic_pause_light.png",
+        "source": "/Users/dayeon/.android/build-cache/fee9a8ac9094c6137990dbc59faa44e10f656845/output/res/drawable-mdpi-v4/ic_pause_light.png"
+    },
+    {
+        "merged": "/Users/dayeon/Blinkling/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/ic_media_route_disabled_mono_dark.png",
+        "source": "/Users/dayeon/.android/build-cache/fee9a8ac9094c6137990dbc59faa44e10f656845/output/res/drawable-mdpi-v4/ic_media_route_disabled_mono_dark.png"
     },
     {
         "merged": "/Users/mac/Downloads/Blinkling-dayon/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/quantum_ic_pause_white_24.png",
@@ -1212,6 +1484,18 @@
         "source": "/Users/mac/.android/build-cache/adfc2089f0c9907446f8ded1d8dd9a103f413bf4/output/res/drawable-mdpi-v4/ic_plusone_tall_off_client.png"
     },
     {
+        "merged": "/Users/dayeon/Blinkling/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/abc_ic_star_half_black_16dp.png",
+        "source": "/Users/dayeon/.android/build-cache/08f0b85e835f6a143412367b800bd932d6600384/output/res/drawable-mdpi-v4/abc_ic_star_half_black_16dp.png"
+    },
+    {
+        "merged": "/Users/dayeon/Blinkling/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/quantum_ic_skip_next_grey600_36.png",
+        "source": "/Users/dayeon/.android/build-cache/a1282a1ff9a88fec68e822dfee287e19f4ce9348/output/res/drawable-mdpi-v4/quantum_ic_skip_next_grey600_36.png"
+    },
+    {
+        "merged": "/Users/dayeon/Blinkling/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/quantum_ic_cast_white_36.png",
+        "source": "/Users/dayeon/.android/build-cache/a1282a1ff9a88fec68e822dfee287e19f4ce9348/output/res/drawable-mdpi-v4/quantum_ic_cast_white_36.png"
+    },
+    {
         "merged": "/Users/seohyemin/Downloads/Blinkling-dayon/C:\\Users\\dy889\\Documents\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\common_google_signin_btn_icon_light_normal_background.9.png",
         "source": "/Users/seohyemin/Downloads/Blinkling-dayon/C:\\Users\\dy889\\.android\\build-cache\\11a22824b674fc33d38cadc6afd43da20d820267\\output\\res\\drawable-mdpi-v4\\common_google_signin_btn_icon_light_normal_background.9.png"
     },
@@ -1220,8 +1504,16 @@
         "source": "/Users/mac/.android/build-cache/46cde47e55c49a49e2a966d8d336fb318d076378/output/res/drawable-mdpi-v4/common_google_signin_btn_text_dark_normal_background.9.png"
     },
     {
+        "merged": "/Users/dayeon/Blinkling/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/abc_btn_radio_to_on_mtrl_015.png",
+        "source": "/Users/dayeon/.android/build-cache/08f0b85e835f6a143412367b800bd932d6600384/output/res/drawable-mdpi-v4/abc_btn_radio_to_on_mtrl_015.png"
+    },
+    {
         "merged": "/Users/mac/Blinkling/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/quantum_ic_forward_10_white_24.png",
         "source": "/Users/mac/.android/build-cache/d3ff796d1a0a0be6c348fb13321312629f76eaaf/output/res/drawable-mdpi-v4/quantum_ic_forward_10_white_24.png"
+    },
+    {
+        "merged": "/Users/dayeon/Blinkling/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/places_ic_clear.png",
+        "source": "/Users/dayeon/.android/build-cache/7a72835b32aa344f5f9782770720c650a8305813/output/res/drawable-mdpi-v4/places_ic_clear.png"
     },
     {
         "merged": "/Users/seohyemin/Downloads/Blinkling-dayon/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/quantum_ic_art_track_grey600_48.png",
@@ -1236,8 +1528,16 @@
         "source": "/Users/mac/.android/build-cache/d3ff796d1a0a0be6c348fb13321312629f76eaaf/output/res/drawable-mdpi-v4/quantum_ic_closed_caption_grey600_36.png"
     },
     {
+        "merged": "/Users/dayeon/Blinkling/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/abc_cab_background_top_mtrl_alpha.9.png",
+        "source": "/Users/dayeon/.android/build-cache/08f0b85e835f6a143412367b800bd932d6600384/output/res/drawable-mdpi-v4/abc_cab_background_top_mtrl_alpha.9.png"
+    },
+    {
         "merged": "/Users/mac/Blinkling/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/common_google_signin_btn_icon_light_normal_background.9.png",
         "source": "/Users/mac/.android/build-cache/46cde47e55c49a49e2a966d8d336fb318d076378/output/res/drawable-mdpi-v4/common_google_signin_btn_icon_light_normal_background.9.png"
+    },
+    {
+        "merged": "/Users/dayeon/Blinkling/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/quantum_ic_pause_circle_filled_white_36.png",
+        "source": "/Users/dayeon/.android/build-cache/a1282a1ff9a88fec68e822dfee287e19f4ce9348/output/res/drawable-mdpi-v4/quantum_ic_pause_circle_filled_white_36.png"
     },
     {
         "merged": "/Users/seohyemin/Downloads/Blinkling-dayon/C:\\Users\\dy889\\Documents\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\quantum_ic_stop_white_24.png",
@@ -1264,8 +1564,20 @@
         "source": "/Users/seohyemin/Downloads/Blinkling-dayon/C:\\Users\\dy889\\.android\\build-cache\\eaa9472fc91e028a5a27b3d20e7a0c3fbad5c383\\output\\res\\drawable-mdpi-v4\\abc_ic_commit_search_api_mtrl_alpha.png"
     },
     {
+        "merged": "/Users/dayeon/Blinkling/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/abc_textfield_default_mtrl_alpha.9.png",
+        "source": "/Users/dayeon/.android/build-cache/08f0b85e835f6a143412367b800bd932d6600384/output/res/drawable-mdpi-v4/abc_textfield_default_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "/Users/dayeon/Blinkling/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/abc_btn_switch_to_on_mtrl_00001.9.png",
+        "source": "/Users/dayeon/.android/build-cache/08f0b85e835f6a143412367b800bd932d6600384/output/res/drawable-mdpi-v4/abc_btn_switch_to_on_mtrl_00001.9.png"
+    },
+    {
         "merged": "/Users/seohyemin/Downloads/Blinkling-dayon/C:\\Users\\dy889\\Documents\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_btn_switch_to_on_mtrl_00001.9.png",
         "source": "/Users/seohyemin/Downloads/Blinkling-dayon/C:\\Users\\dy889\\.android\\build-cache\\eaa9472fc91e028a5a27b3d20e7a0c3fbad5c383\\output\\res\\drawable-mdpi-v4\\abc_btn_switch_to_on_mtrl_00001.9.png"
+    },
+    {
+        "merged": "/Users/dayeon/Blinkling/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/ic_cast_light.png",
+        "source": "/Users/dayeon/.android/build-cache/fee9a8ac9094c6137990dbc59faa44e10f656845/output/res/drawable-mdpi-v4/ic_cast_light.png"
     },
     {
         "merged": "/Users/seohyemin/Downloads/Blinkling-dayon/C:\\Users\\dy889\\Documents\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\ic_audiotrack_light.png",
@@ -1278,6 +1590,10 @@
     {
         "merged": "/Users/mac/Blinkling/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/ic_media_route_off_mono_dark.png",
         "source": "/Users/mac/.android/build-cache/693066f5460604d04bca0de7d54ae2c516c35b5a/output/res/drawable-mdpi-v4/ic_media_route_off_mono_dark.png"
+    },
+    {
+        "merged": "/Users/dayeon/Blinkling/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/quantum_ic_refresh_white_24.png",
+        "source": "/Users/dayeon/.android/build-cache/a1282a1ff9a88fec68e822dfee287e19f4ce9348/output/res/drawable-mdpi-v4/quantum_ic_refresh_white_24.png"
     },
     {
         "merged": "/Users/seohyemin/Downloads/Blinkling-dayon/C:\\Users\\dy889\\Documents\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\ic_media_play.png",
@@ -1308,8 +1624,20 @@
         "source": "/Users/seohyemin/.android/build-cache/7513a969dcc805b7f0f9997c9c0130190965a6d4/output/res/drawable-mdpi-v4/places_ic_search.png"
     },
     {
+        "merged": "/Users/dayeon/Blinkling/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/abc_list_selector_disabled_holo_light.9.png",
+        "source": "/Users/dayeon/.android/build-cache/08f0b85e835f6a143412367b800bd932d6600384/output/res/drawable-mdpi-v4/abc_list_selector_disabled_holo_light.9.png"
+    },
+    {
         "merged": "/Users/mac/Downloads/Blinkling-dayon/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/quantum_ic_volume_up_grey600_36.png",
         "source": "/Users/mac/.android/build-cache/d3ff796d1a0a0be6c348fb13321312629f76eaaf/output/res/drawable-mdpi-v4/quantum_ic_volume_up_grey600_36.png"
+    },
+    {
+        "merged": "/Users/dayeon/Blinkling/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/abc_ic_star_half_black_48dp.png",
+        "source": "/Users/dayeon/.android/build-cache/08f0b85e835f6a143412367b800bd932d6600384/output/res/drawable-mdpi-v4/abc_ic_star_half_black_48dp.png"
+    },
+    {
+        "merged": "/Users/dayeon/Blinkling/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/abc_ic_menu_cut_mtrl_alpha.png",
+        "source": "/Users/dayeon/.android/build-cache/08f0b85e835f6a143412367b800bd932d6600384/output/res/drawable-mdpi-v4/abc_ic_menu_cut_mtrl_alpha.png"
     },
     {
         "merged": "/Users/mac/Downloads/Blinkling-dayon/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/ic_plusone_standard_off_client.png",
@@ -1340,6 +1668,10 @@
         "source": "/Users/mac/.android/build-cache/913d8db17f1c25b6ee67b77b63f40d3096bd505a/output/res/drawable-mdpi-v4/abc_text_select_handle_left_mtrl_dark.png"
     },
     {
+        "merged": "/Users/dayeon/Blinkling/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/abc_textfield_search_activated_mtrl_alpha.9.png",
+        "source": "/Users/dayeon/.android/build-cache/08f0b85e835f6a143412367b800bd932d6600384/output/res/drawable-mdpi-v4/abc_textfield_search_activated_mtrl_alpha.9.png"
+    },
+    {
         "merged": "/Users/mac/Blinkling/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/abc_list_pressed_holo_dark.9.png",
         "source": "/Users/mac/.android/build-cache/913d8db17f1c25b6ee67b77b63f40d3096bd505a/output/res/drawable-mdpi-v4/abc_list_pressed_holo_dark.9.png"
     },
@@ -1356,8 +1688,16 @@
         "source": "/Users/mac/.android/build-cache/e2dd64302fde5b64c830d10090ab66d13dc3747f/output/res/drawable-mdpi-v4/powered_by_google_light.png"
     },
     {
+        "merged": "/Users/dayeon/Blinkling/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/quantum_ic_replay_30_grey600_36.png",
+        "source": "/Users/dayeon/.android/build-cache/a1282a1ff9a88fec68e822dfee287e19f4ce9348/output/res/drawable-mdpi-v4/quantum_ic_replay_30_grey600_36.png"
+    },
+    {
         "merged": "/Users/seohyemin/Downloads/Blinkling-dayon/C:\\Users\\dy889\\Documents\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\notification_bg_normal.9.png",
         "source": "/Users/seohyemin/Downloads/Blinkling-dayon/C:\\Users\\dy889\\.android\\build-cache\\eaa9472fc91e028a5a27b3d20e7a0c3fbad5c383\\output\\res\\drawable-mdpi-v4\\notification_bg_normal.9.png"
+    },
+    {
+        "merged": "/Users/dayeon/Blinkling/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/quantum_ic_play_arrow_grey600_48.png",
+        "source": "/Users/dayeon/.android/build-cache/a1282a1ff9a88fec68e822dfee287e19f4ce9348/output/res/drawable-mdpi-v4/quantum_ic_play_arrow_grey600_48.png"
     },
     {
         "merged": "/Users/mac/Downloads/Blinkling-dayon/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/quantum_ic_bigtop_updates_white_24.png",
@@ -1368,12 +1708,20 @@
         "source": "/Users/mac/.android/build-cache/d3ff796d1a0a0be6c348fb13321312629f76eaaf/output/res/drawable-mdpi-v4/quantum_ic_closed_caption_white_36.png"
     },
     {
+        "merged": "/Users/dayeon/Blinkling/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/cast_ic_notification_0.png",
+        "source": "/Users/dayeon/.android/build-cache/83f15acaba7c3a9e6f78c227a0a8871d63857d4d/output/res/drawable-mdpi-v4/cast_ic_notification_0.png"
+    },
+    {
         "merged": "/Users/mac/Blinkling/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/quantum_ic_volume_up_white_36.png",
         "source": "/Users/mac/.android/build-cache/d3ff796d1a0a0be6c348fb13321312629f76eaaf/output/res/drawable-mdpi-v4/quantum_ic_volume_up_white_36.png"
     },
     {
         "merged": "/Users/mac/Blinkling/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/quantum_ic_play_arrow_grey600_48.png",
         "source": "/Users/mac/.android/build-cache/d3ff796d1a0a0be6c348fb13321312629f76eaaf/output/res/drawable-mdpi-v4/quantum_ic_play_arrow_grey600_48.png"
+    },
+    {
+        "merged": "/Users/dayeon/Blinkling/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/cast_abc_scrubber_control_to_pressed_mtrl_000.png",
+        "source": "/Users/dayeon/.android/build-cache/a1282a1ff9a88fec68e822dfee287e19f4ce9348/output/res/drawable-mdpi-v4/cast_abc_scrubber_control_to_pressed_mtrl_000.png"
     },
     {
         "merged": "/Users/mac/Downloads/Blinkling-dayon/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/common_google_signin_btn_icon_light_normal_background.9.png",
@@ -1416,8 +1764,20 @@
         "source": "/Users/seohyemin/Downloads/Blinkling-dayon/C:\\Users\\dy889\\.android\\build-cache\\6eb1f1beb74a0f6f7519161070d151573d511644\\output\\res\\drawable-mdpi-v4\\quantum_ic_forward_30_white_36.png"
     },
     {
+        "merged": "/Users/dayeon/Blinkling/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/quantum_ic_volume_off_white_36.png",
+        "source": "/Users/dayeon/.android/build-cache/a1282a1ff9a88fec68e822dfee287e19f4ce9348/output/res/drawable-mdpi-v4/quantum_ic_volume_off_white_36.png"
+    },
+    {
+        "merged": "/Users/dayeon/Blinkling/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/quantum_ic_skip_previous_white_36.png",
+        "source": "/Users/dayeon/.android/build-cache/a1282a1ff9a88fec68e822dfee287e19f4ce9348/output/res/drawable-mdpi-v4/quantum_ic_skip_previous_white_36.png"
+    },
+    {
         "merged": "/Users/mac/Downloads/Blinkling-dayon/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/abc_ic_star_black_16dp.png",
         "source": "/Users/mac/.android/build-cache/913d8db17f1c25b6ee67b77b63f40d3096bd505a/output/res/drawable-mdpi-v4/abc_ic_star_black_16dp.png"
+    },
+    {
+        "merged": "/Users/dayeon/Blinkling/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/ic_media_play.png",
+        "source": "/Users/dayeon/.android/build-cache/fee9a8ac9094c6137990dbc59faa44e10f656845/output/res/drawable-mdpi-v4/ic_media_play.png"
     },
     {
         "merged": "/Users/seohyemin/Downloads/Blinkling-dayon/C:\\Users\\dy889\\Documents\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\ic_pause_light.png",
@@ -1448,6 +1808,10 @@
         "source": "/Users/seohyemin/Downloads/Blinkling-dayon/C:\\Users\\dy889\\.android\\build-cache\\eaa9472fc91e028a5a27b3d20e7a0c3fbad5c383\\output\\res\\drawable-mdpi-v4\\abc_scrubber_control_to_pressed_mtrl_005.png"
     },
     {
+        "merged": "/Users/dayeon/Blinkling/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/abc_text_select_handle_right_mtrl_dark.png",
+        "source": "/Users/dayeon/.android/build-cache/08f0b85e835f6a143412367b800bd932d6600384/output/res/drawable-mdpi-v4/abc_text_select_handle_right_mtrl_dark.png"
+    },
+    {
         "merged": "/Users/seohyemin/Downloads/Blinkling-dayon/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/abc_scrubber_track_mtrl_alpha.9.png",
         "source": "/Users/seohyemin/.android/build-cache/c7bc4f7edfba7ff92a9519a276f8d2da7169785b/output/res/drawable-mdpi-v4/abc_scrubber_track_mtrl_alpha.9.png"
     },
@@ -1462,6 +1826,14 @@
     {
         "merged": "/Users/mac/Blinkling/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/cast_ic_notification_on.png",
         "source": "/Users/mac/.android/build-cache/b07a0c2faed5b9a5b9cc06243dd69a761a4deece/output/res/drawable-mdpi-v4/cast_ic_notification_on.png"
+    },
+    {
+        "merged": "/Users/dayeon/Blinkling/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/abc_ic_star_black_16dp.png",
+        "source": "/Users/dayeon/.android/build-cache/08f0b85e835f6a143412367b800bd932d6600384/output/res/drawable-mdpi-v4/abc_ic_star_black_16dp.png"
+    },
+    {
+        "merged": "/Users/dayeon/Blinkling/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/abc_ic_menu_paste_mtrl_am_alpha.png",
+        "source": "/Users/dayeon/.android/build-cache/08f0b85e835f6a143412367b800bd932d6600384/output/res/drawable-mdpi-v4/abc_ic_menu_paste_mtrl_am_alpha.png"
     },
     {
         "merged": "/Users/seohyemin/Downloads/Blinkling-dayon/C:\\Users\\dy889\\Documents\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\common_google_signin_btn_text_dark_normal_background.9.png",
@@ -1486,6 +1858,10 @@
     {
         "merged": "/Users/seohyemin/Downloads/Blinkling-dayon/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/cast_abc_scrubber_control_to_pressed_mtrl_000.png",
         "source": "/Users/seohyemin/.android/build-cache/86e41c47417d80a7dd799f3286469399e5a52229/output/res/drawable-mdpi-v4/cast_abc_scrubber_control_to_pressed_mtrl_000.png"
+    },
+    {
+        "merged": "/Users/dayeon/Blinkling/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/quantum_ic_skip_previous_white_24.png",
+        "source": "/Users/dayeon/.android/build-cache/a1282a1ff9a88fec68e822dfee287e19f4ce9348/output/res/drawable-mdpi-v4/quantum_ic_skip_previous_white_24.png"
     },
     {
         "merged": "/Users/mac/Downloads/Blinkling-dayon/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/quantum_ic_play_circle_filled_grey600_36.png",
@@ -1540,6 +1916,10 @@
         "source": "/Users/seohyemin/Downloads/Blinkling-dayon/C:\\Users\\dy889\\.android\\build-cache\\f78016f9b280e2c06f325c0d86809ab701956e39\\output\\res\\drawable-mdpi-v4\\cast_ic_notification_0.png"
     },
     {
+        "merged": "/Users/dayeon/Blinkling/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/ic_tv_dark.png",
+        "source": "/Users/dayeon/.android/build-cache/fee9a8ac9094c6137990dbc59faa44e10f656845/output/res/drawable-mdpi-v4/ic_tv_dark.png"
+    },
+    {
         "merged": "/Users/mac/Downloads/Blinkling-dayon/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/quantum_ic_cast_connected_white_24.png",
         "source": "/Users/mac/.android/build-cache/d3ff796d1a0a0be6c348fb13321312629f76eaaf/output/res/drawable-mdpi-v4/quantum_ic_cast_connected_white_24.png"
     },
@@ -1584,6 +1964,10 @@
         "source": "/Users/seohyemin/Downloads/Blinkling-dayon/C:\\Users\\dy889\\.android\\build-cache\\6eb1f1beb74a0f6f7519161070d151573d511644\\output\\res\\drawable-mdpi-v4\\quantum_ic_play_arrow_grey600_36.png"
     },
     {
+        "merged": "/Users/dayeon/Blinkling/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/ic_cast_off_light.png",
+        "source": "/Users/dayeon/.android/build-cache/fee9a8ac9094c6137990dbc59faa44e10f656845/output/res/drawable-mdpi-v4/ic_cast_off_light.png"
+    },
+    {
         "merged": "/Users/mac/Blinkling/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/abc_ic_commit_search_api_mtrl_alpha.png",
         "source": "/Users/mac/.android/build-cache/913d8db17f1c25b6ee67b77b63f40d3096bd505a/output/res/drawable-mdpi-v4/abc_ic_commit_search_api_mtrl_alpha.png"
     },
@@ -1594,6 +1978,10 @@
     {
         "merged": "/Users/mac/Downloads/Blinkling-dayon/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/abc_scrubber_control_to_pressed_mtrl_000.png",
         "source": "/Users/mac/.android/build-cache/913d8db17f1c25b6ee67b77b63f40d3096bd505a/output/res/drawable-mdpi-v4/abc_scrubber_control_to_pressed_mtrl_000.png"
+    },
+    {
+        "merged": "/Users/dayeon/Blinkling/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/places_ic_search.png",
+        "source": "/Users/dayeon/.android/build-cache/7a72835b32aa344f5f9782770720c650a8305813/output/res/drawable-mdpi-v4/places_ic_search.png"
     },
     {
         "merged": "/Users/seohyemin/Downloads/Blinkling-dayon/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/ic_close_light.png",
@@ -1644,6 +2032,10 @@
         "source": "/Users/seohyemin/.android/build-cache/c7bc4f7edfba7ff92a9519a276f8d2da7169785b/output/res/drawable-mdpi-v4/abc_list_focused_holo.9.png"
     },
     {
+        "merged": "/Users/dayeon/Blinkling/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/ic_speaker_dark.png",
+        "source": "/Users/dayeon/.android/build-cache/fee9a8ac9094c6137990dbc59faa44e10f656845/output/res/drawable-mdpi-v4/ic_speaker_dark.png"
+    },
+    {
         "merged": "/Users/seohyemin/Downloads/Blinkling-dayon/C:\\Users\\dy889\\Documents\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_list_pressed_holo_dark.9.png",
         "source": "/Users/seohyemin/Downloads/Blinkling-dayon/C:\\Users\\dy889\\.android\\build-cache\\eaa9472fc91e028a5a27b3d20e7a0c3fbad5c383\\output\\res\\drawable-mdpi-v4\\abc_list_pressed_holo_dark.9.png"
     },
@@ -1656,6 +2048,10 @@
         "source": "/Users/mac/.android/build-cache/693066f5460604d04bca0de7d54ae2c516c35b5a/output/res/drawable-mdpi-v4/ic_cast_dark.png"
     },
     {
+        "merged": "/Users/dayeon/Blinkling/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/ic_play_dark.png",
+        "source": "/Users/dayeon/.android/build-cache/fee9a8ac9094c6137990dbc59faa44e10f656845/output/res/drawable-mdpi-v4/ic_play_dark.png"
+    },
+    {
         "merged": "/Users/seohyemin/Downloads/Blinkling-dayon/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/quantum_ic_cast_white_36.png",
         "source": "/Users/seohyemin/.android/build-cache/86e41c47417d80a7dd799f3286469399e5a52229/output/res/drawable-mdpi-v4/quantum_ic_cast_white_36.png"
     },
@@ -1664,8 +2060,16 @@
         "source": "/Users/seohyemin/.android/build-cache/3cfd8c61307b831e0a402957eb88e07b1c01f016/output/res/drawable-mdpi-v4/ic_plusone_standard_off_client.png"
     },
     {
+        "merged": "/Users/dayeon/Blinkling/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/ic_media_pause.png",
+        "source": "/Users/dayeon/.android/build-cache/fee9a8ac9094c6137990dbc59faa44e10f656845/output/res/drawable-mdpi-v4/ic_media_pause.png"
+    },
+    {
         "merged": "/Users/mac/Downloads/Blinkling-dayon/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/quantum_ic_volume_off_grey600_36.png",
         "source": "/Users/mac/.android/build-cache/d3ff796d1a0a0be6c348fb13321312629f76eaaf/output/res/drawable-mdpi-v4/quantum_ic_volume_off_grey600_36.png"
+    },
+    {
+        "merged": "/Users/dayeon/Blinkling/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/common_google_signin_btn_icon_light_normal_background.9.png",
+        "source": "/Users/dayeon/.android/build-cache/0d8a319685fda21a0c94e2ff5d93d49fd94b8a60/output/res/drawable-mdpi-v4/common_google_signin_btn_icon_light_normal_background.9.png"
     },
     {
         "merged": "/Users/mac/Blinkling/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/abc_textfield_activated_mtrl_alpha.9.png",
@@ -1684,12 +2088,24 @@
         "source": "/Users/seohyemin/Downloads/Blinkling-dayon/C:\\Users\\dy889\\.android\\build-cache\\eaa9472fc91e028a5a27b3d20e7a0c3fbad5c383\\output\\res\\drawable-mdpi-v4\\abc_btn_check_to_on_mtrl_000.png"
     },
     {
+        "merged": "/Users/dayeon/Blinkling/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/ic_cast_grey.png",
+        "source": "/Users/dayeon/.android/build-cache/fee9a8ac9094c6137990dbc59faa44e10f656845/output/res/drawable-mdpi-v4/ic_cast_grey.png"
+    },
+    {
         "merged": "/Users/mac/Blinkling/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/ic_speaker_dark.png",
         "source": "/Users/mac/.android/build-cache/693066f5460604d04bca0de7d54ae2c516c35b5a/output/res/drawable-mdpi-v4/ic_speaker_dark.png"
     },
     {
+        "merged": "/Users/dayeon/Blinkling/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/abc_scrubber_control_to_pressed_mtrl_000.png",
+        "source": "/Users/dayeon/.android/build-cache/08f0b85e835f6a143412367b800bd932d6600384/output/res/drawable-mdpi-v4/abc_scrubber_control_to_pressed_mtrl_000.png"
+    },
+    {
         "merged": "/Users/seohyemin/Downloads/Blinkling-dayon/C:\\Users\\dy889\\Documents\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\ic_cast_light.png",
         "source": "/Users/seohyemin/Downloads/Blinkling-dayon/C:\\Users\\dy889\\.android\\build-cache\\881c7ca0ff5e3a246a027b2d60f062378d106efc\\output\\res\\drawable-mdpi-v4\\ic_cast_light.png"
+    },
+    {
+        "merged": "/Users/dayeon/Blinkling/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/quantum_ic_play_arrow_grey600_36.png",
+        "source": "/Users/dayeon/.android/build-cache/a1282a1ff9a88fec68e822dfee287e19f4ce9348/output/res/drawable-mdpi-v4/quantum_ic_play_arrow_grey600_36.png"
     },
     {
         "merged": "/Users/mac/Blinkling/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/cast_abc_scrubber_control_off_mtrl_alpha.png",
@@ -1700,6 +2116,10 @@
         "source": "/Users/seohyemin/Downloads/Blinkling-dayon/C:\\Users\\dy889\\.android\\build-cache\\eaa9472fc91e028a5a27b3d20e7a0c3fbad5c383\\output\\res\\drawable-mdpi-v4\\abc_list_longpressed_holo.9.png"
     },
     {
+        "merged": "/Users/dayeon/Blinkling/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/abc_scrubber_control_to_pressed_mtrl_005.png",
+        "source": "/Users/dayeon/.android/build-cache/08f0b85e835f6a143412367b800bd932d6600384/output/res/drawable-mdpi-v4/abc_scrubber_control_to_pressed_mtrl_005.png"
+    },
+    {
         "merged": "/Users/seohyemin/Downloads/Blinkling-dayon/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/cast_abc_scrubber_control_off_mtrl_alpha.png",
         "source": "/Users/seohyemin/.android/build-cache/86e41c47417d80a7dd799f3286469399e5a52229/output/res/drawable-mdpi-v4/cast_abc_scrubber_control_off_mtrl_alpha.png"
     },
@@ -1708,12 +2128,20 @@
         "source": "/Users/mac/.android/build-cache/d3ff796d1a0a0be6c348fb13321312629f76eaaf/output/res/drawable-mdpi-v4/quantum_ic_play_arrow_grey600_36.png"
     },
     {
+        "merged": "/Users/dayeon/Blinkling/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/quantum_ic_closed_caption_grey600_36.png",
+        "source": "/Users/dayeon/.android/build-cache/a1282a1ff9a88fec68e822dfee287e19f4ce9348/output/res/drawable-mdpi-v4/quantum_ic_closed_caption_grey600_36.png"
+    },
+    {
         "merged": "/Users/mac/Blinkling/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/quantum_ic_cast_connected_white_24.png",
         "source": "/Users/mac/.android/build-cache/d3ff796d1a0a0be6c348fb13321312629f76eaaf/output/res/drawable-mdpi-v4/quantum_ic_cast_connected_white_24.png"
     },
     {
         "merged": "/Users/mac/Blinkling/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/quantum_ic_forward_30_white_24.png",
         "source": "/Users/mac/.android/build-cache/d3ff796d1a0a0be6c348fb13321312629f76eaaf/output/res/drawable-mdpi-v4/quantum_ic_forward_30_white_24.png"
+    },
+    {
+        "merged": "/Users/dayeon/Blinkling/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/quantum_ic_replay_30_white_24.png",
+        "source": "/Users/dayeon/.android/build-cache/a1282a1ff9a88fec68e822dfee287e19f4ce9348/output/res/drawable-mdpi-v4/quantum_ic_replay_30_white_24.png"
     },
     {
         "merged": "/Users/seohyemin/Downloads/Blinkling-dayon/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/cast_ic_notification_2.png",
@@ -1738,6 +2166,14 @@
     {
         "merged": "/Users/seohyemin/Downloads/Blinkling-dayon/C:\\Users\\dy889\\Documents\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\quantum_ic_stop_grey600_36.png",
         "source": "/Users/seohyemin/Downloads/Blinkling-dayon/C:\\Users\\dy889\\.android\\build-cache\\6eb1f1beb74a0f6f7519161070d151573d511644\\output\\res\\drawable-mdpi-v4\\quantum_ic_stop_grey600_36.png"
+    },
+    {
+        "merged": "/Users/dayeon/Blinkling/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/quantum_ic_forward_30_grey600_36.png",
+        "source": "/Users/dayeon/.android/build-cache/a1282a1ff9a88fec68e822dfee287e19f4ce9348/output/res/drawable-mdpi-v4/quantum_ic_forward_30_grey600_36.png"
+    },
+    {
+        "merged": "/Users/dayeon/Blinkling/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/quantum_ic_play_circle_filled_grey600_36.png",
+        "source": "/Users/dayeon/.android/build-cache/a1282a1ff9a88fec68e822dfee287e19f4ce9348/output/res/drawable-mdpi-v4/quantum_ic_play_circle_filled_grey600_36.png"
     },
     {
         "merged": "/Users/mac/Downloads/Blinkling-dayon/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/abc_ic_commit_search_api_mtrl_alpha.png",
@@ -1800,6 +2236,14 @@
         "source": "/Users/mac/.android/build-cache/d3ff796d1a0a0be6c348fb13321312629f76eaaf/output/res/drawable-mdpi-v4/quantum_ic_forward_30_grey600_36.png"
     },
     {
+        "merged": "/Users/dayeon/Blinkling/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/quantum_ic_pause_grey600_36.png",
+        "source": "/Users/dayeon/.android/build-cache/a1282a1ff9a88fec68e822dfee287e19f4ce9348/output/res/drawable-mdpi-v4/quantum_ic_pause_grey600_36.png"
+    },
+    {
+        "merged": "/Users/dayeon/Blinkling/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/notification_bg_low_normal.9.png",
+        "source": "/Users/dayeon/.android/build-cache/08f0b85e835f6a143412367b800bd932d6600384/output/res/drawable-mdpi-v4/notification_bg_low_normal.9.png"
+    },
+    {
         "merged": "/Users/seohyemin/Downloads/Blinkling-dayon/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/abc_scrubber_control_to_pressed_mtrl_000.png",
         "source": "/Users/seohyemin/.android/build-cache/c7bc4f7edfba7ff92a9519a276f8d2da7169785b/output/res/drawable-mdpi-v4/abc_scrubber_control_to_pressed_mtrl_000.png"
     },
@@ -1810,6 +2254,10 @@
     {
         "merged": "/Users/seohyemin/Downloads/Blinkling-dayon/C:\\Users\\dy889\\Documents\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_textfield_default_mtrl_alpha.9.png",
         "source": "/Users/seohyemin/Downloads/Blinkling-dayon/C:\\Users\\dy889\\.android\\build-cache\\eaa9472fc91e028a5a27b3d20e7a0c3fbad5c383\\output\\res\\drawable-mdpi-v4\\abc_textfield_default_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "/Users/dayeon/Blinkling/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/quantum_ic_skip_next_white_24.png",
+        "source": "/Users/dayeon/.android/build-cache/a1282a1ff9a88fec68e822dfee287e19f4ce9348/output/res/drawable-mdpi-v4/quantum_ic_skip_next_white_24.png"
     },
     {
         "merged": "/Users/seohyemin/Downloads/Blinkling-dayon/C:\\Users\\dy889\\Documents\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_btn_radio_to_on_mtrl_015.png",
@@ -1840,6 +2288,10 @@
         "source": "/Users/seohyemin/.android/build-cache/86e41c47417d80a7dd799f3286469399e5a52229/output/res/drawable-mdpi-v4/quantum_ic_skip_previous_white_36.png"
     },
     {
+        "merged": "/Users/dayeon/Blinkling/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/ic_play_light.png",
+        "source": "/Users/dayeon/.android/build-cache/fee9a8ac9094c6137990dbc59faa44e10f656845/output/res/drawable-mdpi-v4/ic_play_light.png"
+    },
+    {
         "merged": "/Users/mac/Downloads/Blinkling-dayon/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/notification_bg_normal.9.png",
         "source": "/Users/mac/.android/build-cache/913d8db17f1c25b6ee67b77b63f40d3096bd505a/output/res/drawable-mdpi-v4/notification_bg_normal.9.png"
     },
@@ -1848,12 +2300,28 @@
         "source": "/Users/mac/.android/build-cache/d3ff796d1a0a0be6c348fb13321312629f76eaaf/output/res/drawable-mdpi-v4/quantum_ic_skip_next_white_24.png"
     },
     {
+        "merged": "/Users/dayeon/Blinkling/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/design_ic_visibility.png",
+        "source": "/Users/dayeon/.android/build-cache/d7955f365574be11571c6d760671cfed3e81f806/output/res/drawable-mdpi-v4/design_ic_visibility.png"
+    },
+    {
+        "merged": "/Users/dayeon/Blinkling/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/design_ic_visibility_off.png",
+        "source": "/Users/dayeon/.android/build-cache/d7955f365574be11571c6d760671cfed3e81f806/output/res/drawable-mdpi-v4/design_ic_visibility_off.png"
+    },
+    {
         "merged": "/Users/mac/Blinkling/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/quantum_ic_volume_up_grey600_36.png",
         "source": "/Users/mac/.android/build-cache/d3ff796d1a0a0be6c348fb13321312629f76eaaf/output/res/drawable-mdpi-v4/quantum_ic_volume_up_grey600_36.png"
     },
     {
         "merged": "/Users/mac/Blinkling/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/quantum_ic_skip_previous_white_36.png",
         "source": "/Users/mac/.android/build-cache/d3ff796d1a0a0be6c348fb13321312629f76eaaf/output/res/drawable-mdpi-v4/quantum_ic_skip_previous_white_36.png"
+    },
+    {
+        "merged": "/Users/dayeon/Blinkling/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/abc_ab_share_pack_mtrl_alpha.9.png",
+        "source": "/Users/dayeon/.android/build-cache/08f0b85e835f6a143412367b800bd932d6600384/output/res/drawable-mdpi-v4/abc_ab_share_pack_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "/Users/dayeon/Blinkling/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/ic_speaker_light.png",
+        "source": "/Users/dayeon/.android/build-cache/fee9a8ac9094c6137990dbc59faa44e10f656845/output/res/drawable-mdpi-v4/ic_speaker_light.png"
     },
     {
         "merged": "/Users/seohyemin/Downloads/Blinkling-dayon/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/abc_switch_track_mtrl_alpha.9.png",
@@ -1888,12 +2356,20 @@
         "source": "/Users/seohyemin/.android/build-cache/c7bc4f7edfba7ff92a9519a276f8d2da7169785b/output/res/drawable-mdpi-v4/abc_text_select_handle_middle_mtrl_dark.png"
     },
     {
+        "merged": "/Users/dayeon/Blinkling/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/cast_ic_notification_on.png",
+        "source": "/Users/dayeon/.android/build-cache/83f15acaba7c3a9e6f78c227a0a8871d63857d4d/output/res/drawable-mdpi-v4/cast_ic_notification_on.png"
+    },
+    {
         "merged": "/Users/mac/Blinkling/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/quantum_ic_pause_circle_filled_white_36.png",
         "source": "/Users/mac/.android/build-cache/d3ff796d1a0a0be6c348fb13321312629f76eaaf/output/res/drawable-mdpi-v4/quantum_ic_pause_circle_filled_white_36.png"
     },
     {
         "merged": "/Users/mac/Downloads/Blinkling-dayon/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/quantum_ic_pause_grey600_48.png",
         "source": "/Users/mac/.android/build-cache/d3ff796d1a0a0be6c348fb13321312629f76eaaf/output/res/drawable-mdpi-v4/quantum_ic_pause_grey600_48.png"
+    },
+    {
+        "merged": "/Users/dayeon/Blinkling/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/quantum_ic_volume_off_grey600_36.png",
+        "source": "/Users/dayeon/.android/build-cache/a1282a1ff9a88fec68e822dfee287e19f4ce9348/output/res/drawable-mdpi-v4/quantum_ic_volume_off_grey600_36.png"
     },
     {
         "merged": "/Users/seohyemin/Downloads/Blinkling-dayon/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/common_google_signin_btn_text_light_normal_background.9.png",
@@ -1906,6 +2382,10 @@
     {
         "merged": "/Users/mac/Blinkling/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/abc_ic_menu_share_mtrl_alpha.png",
         "source": "/Users/mac/.android/build-cache/913d8db17f1c25b6ee67b77b63f40d3096bd505a/output/res/drawable-mdpi-v4/abc_ic_menu_share_mtrl_alpha.png"
+    },
+    {
+        "merged": "/Users/dayeon/Blinkling/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/ic_audiotrack.png",
+        "source": "/Users/dayeon/.android/build-cache/fee9a8ac9094c6137990dbc59faa44e10f656845/output/res/drawable-mdpi-v4/ic_audiotrack.png"
     },
     {
         "merged": "/Users/seohyemin/Downloads/Blinkling-dayon/C:\\Users\\dy889\\Documents\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\ic_cast_off_light.png",
@@ -1956,6 +2436,10 @@
         "source": "/Users/mac/.android/build-cache/693066f5460604d04bca0de7d54ae2c516c35b5a/output/res/drawable-mdpi-v4/ic_pause_dark.png"
     },
     {
+        "merged": "/Users/dayeon/Blinkling/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/ic_plusone_small_off_client.png",
+        "source": "/Users/dayeon/.android/build-cache/31e43a428f7eda7f8bd5bd1a30864db2e3aef0cd/output/res/drawable-mdpi-v4/ic_plusone_small_off_client.png"
+    },
+    {
         "merged": "/Users/seohyemin/Downloads/Blinkling-dayon/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/ic_media_play.png",
         "source": "/Users/seohyemin/.android/build-cache/26e1f3a36311761421d8a35c144f8427dceb418a/output/res/drawable-mdpi-v4/ic_media_play.png"
     },
@@ -1966,6 +2450,10 @@
     {
         "merged": "/Users/mac/Blinkling/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/quantum_ic_play_circle_filled_white_36.png",
         "source": "/Users/mac/.android/build-cache/d3ff796d1a0a0be6c348fb13321312629f76eaaf/output/res/drawable-mdpi-v4/quantum_ic_play_circle_filled_white_36.png"
+    },
+    {
+        "merged": "/Users/dayeon/Blinkling/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/common_google_signin_btn_text_dark_normal_background.9.png",
+        "source": "/Users/dayeon/.android/build-cache/0d8a319685fda21a0c94e2ff5d93d49fd94b8a60/output/res/drawable-mdpi-v4/common_google_signin_btn_text_dark_normal_background.9.png"
     },
     {
         "merged": "/Users/mac/Downloads/Blinkling-dayon/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/cast_ic_stop_circle_filled_white.png",
@@ -2008,8 +2496,16 @@
         "source": "/Users/mac/.android/build-cache/d3ff796d1a0a0be6c348fb13321312629f76eaaf/output/res/drawable-mdpi-v4/quantum_ic_pause_grey600_36.png"
     },
     {
+        "merged": "/Users/dayeon/Blinkling/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/abc_ic_star_half_black_36dp.png",
+        "source": "/Users/dayeon/.android/build-cache/08f0b85e835f6a143412367b800bd932d6600384/output/res/drawable-mdpi-v4/abc_ic_star_half_black_36dp.png"
+    },
+    {
         "merged": "/Users/seohyemin/Downloads/Blinkling-dayon/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/ic_cast_grey.png",
         "source": "/Users/seohyemin/.android/build-cache/26e1f3a36311761421d8a35c144f8427dceb418a/output/res/drawable-mdpi-v4/ic_cast_grey.png"
+    },
+    {
+        "merged": "/Users/dayeon/Blinkling/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/abc_scrubber_control_off_mtrl_alpha.png",
+        "source": "/Users/dayeon/.android/build-cache/08f0b85e835f6a143412367b800bd932d6600384/output/res/drawable-mdpi-v4/abc_scrubber_control_off_mtrl_alpha.png"
     },
     {
         "merged": "/Users/seohyemin/Downloads/Blinkling-dayon/C:\\Users\\dy889\\Documents\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_list_selector_disabled_holo_dark.9.png",
@@ -2032,8 +2528,28 @@
         "source": "/Users/seohyemin/Downloads/Blinkling-dayon/C:\\Users\\dy889\\.android\\build-cache\\881c7ca0ff5e3a246a027b2d60f062378d106efc\\output\\res\\drawable-mdpi-v4\\ic_tv_dark.png"
     },
     {
+        "merged": "/Users/dayeon/Blinkling/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/ic_cast_disabled_light.png",
+        "source": "/Users/dayeon/.android/build-cache/fee9a8ac9094c6137990dbc59faa44e10f656845/output/res/drawable-mdpi-v4/ic_cast_disabled_light.png"
+    },
+    {
+        "merged": "/Users/dayeon/Blinkling/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/cast_abc_scrubber_primary_mtrl_alpha.9.png",
+        "source": "/Users/dayeon/.android/build-cache/a1282a1ff9a88fec68e822dfee287e19f4ce9348/output/res/drawable-mdpi-v4/cast_abc_scrubber_primary_mtrl_alpha.9.png"
+    },
+    {
         "merged": "/Users/mac/Blinkling/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/quantum_ic_bigtop_updates_white_24.png",
         "source": "/Users/mac/.android/build-cache/d3ff796d1a0a0be6c348fb13321312629f76eaaf/output/res/drawable-mdpi-v4/quantum_ic_bigtop_updates_white_24.png"
+    },
+    {
+        "merged": "/Users/dayeon/Blinkling/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/abc_btn_check_to_on_mtrl_015.png",
+        "source": "/Users/dayeon/.android/build-cache/08f0b85e835f6a143412367b800bd932d6600384/output/res/drawable-mdpi-v4/abc_btn_check_to_on_mtrl_015.png"
+    },
+    {
+        "merged": "/Users/dayeon/Blinkling/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/quantum_ic_forward_30_white_24.png",
+        "source": "/Users/dayeon/.android/build-cache/a1282a1ff9a88fec68e822dfee287e19f4ce9348/output/res/drawable-mdpi-v4/quantum_ic_forward_30_white_24.png"
+    },
+    {
+        "merged": "/Users/dayeon/Blinkling/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/quantum_ic_clear_white_24.png",
+        "source": "/Users/dayeon/.android/build-cache/a1282a1ff9a88fec68e822dfee287e19f4ce9348/output/res/drawable-mdpi-v4/quantum_ic_clear_white_24.png"
     },
     {
         "merged": "/Users/seohyemin/Downloads/Blinkling-dayon/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/quantum_ic_closed_caption_white_36.png",
@@ -2050,6 +2566,14 @@
     {
         "merged": "/Users/mac/Downloads/Blinkling-dayon/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/abc_list_pressed_holo_light.9.png",
         "source": "/Users/mac/.android/build-cache/913d8db17f1c25b6ee67b77b63f40d3096bd505a/output/res/drawable-mdpi-v4/abc_list_pressed_holo_light.9.png"
+    },
+    {
+        "merged": "/Users/dayeon/Blinkling/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/abc_ic_commit_search_api_mtrl_alpha.png",
+        "source": "/Users/dayeon/.android/build-cache/08f0b85e835f6a143412367b800bd932d6600384/output/res/drawable-mdpi-v4/abc_ic_commit_search_api_mtrl_alpha.png"
+    },
+    {
+        "merged": "/Users/dayeon/Blinkling/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/ic_cast_dark.png",
+        "source": "/Users/dayeon/.android/build-cache/fee9a8ac9094c6137990dbc59faa44e10f656845/output/res/drawable-mdpi-v4/ic_cast_dark.png"
     },
     {
         "merged": "/Users/mac/Blinkling/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/abc_text_select_handle_middle_mtrl_dark.png",
@@ -2096,6 +2620,10 @@
         "source": "/Users/seohyemin/Downloads/Blinkling-dayon/C:\\Users\\dy889\\.android\\build-cache\\881c7ca0ff5e3a246a027b2d60f062378d106efc\\output\\res\\drawable-mdpi-v4\\ic_audiotrack.png"
     },
     {
+        "merged": "/Users/dayeon/Blinkling/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/quantum_ic_replay_30_white_36.png",
+        "source": "/Users/dayeon/.android/build-cache/a1282a1ff9a88fec68e822dfee287e19f4ce9348/output/res/drawable-mdpi-v4/quantum_ic_replay_30_white_36.png"
+    },
+    {
         "merged": "/Users/seohyemin/Downloads/Blinkling-dayon/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/quantum_ic_play_circle_filled_white_36.png",
         "source": "/Users/seohyemin/.android/build-cache/86e41c47417d80a7dd799f3286469399e5a52229/output/res/drawable-mdpi-v4/quantum_ic_play_circle_filled_white_36.png"
     },
@@ -2106,6 +2634,10 @@
     {
         "merged": "/Users/seohyemin/Downloads/Blinkling-dayon/C:\\Users\\dy889\\Documents\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\quantum_ic_cast_connected_white_24.png",
         "source": "/Users/seohyemin/Downloads/Blinkling-dayon/C:\\Users\\dy889\\.android\\build-cache\\6eb1f1beb74a0f6f7519161070d151573d511644\\output\\res\\drawable-mdpi-v4\\quantum_ic_cast_connected_white_24.png"
+    },
+    {
+        "merged": "/Users/dayeon/Blinkling/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/quantum_ic_pause_grey600_48.png",
+        "source": "/Users/dayeon/.android/build-cache/a1282a1ff9a88fec68e822dfee287e19f4ce9348/output/res/drawable-mdpi-v4/quantum_ic_pause_grey600_48.png"
     },
     {
         "merged": "/Users/seohyemin/Downloads/Blinkling-dayon/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/common_google_signin_btn_icon_light_normal_background.9.png",
@@ -2200,6 +2732,10 @@
         "source": "/Users/seohyemin/Downloads/Blinkling-dayon/C:\\Users\\dy889\\.android\\build-cache\\eaa9472fc91e028a5a27b3d20e7a0c3fbad5c383\\output\\res\\drawable-mdpi-v4\\abc_popup_background_mtrl_mult.9.png"
     },
     {
+        "merged": "/Users/dayeon/Blinkling/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/quantum_ic_skip_next_white_36.png",
+        "source": "/Users/dayeon/.android/build-cache/a1282a1ff9a88fec68e822dfee287e19f4ce9348/output/res/drawable-mdpi-v4/quantum_ic_skip_next_white_36.png"
+    },
+    {
         "merged": "/Users/seohyemin/Downloads/Blinkling-dayon/C:\\Users\\dy889\\Documents\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\quantum_ic_stop_grey600_48.png",
         "source": "/Users/seohyemin/Downloads/Blinkling-dayon/C:\\Users\\dy889\\.android\\build-cache\\6eb1f1beb74a0f6f7519161070d151573d511644\\output\\res\\drawable-mdpi-v4\\quantum_ic_stop_grey600_48.png"
     },
@@ -2264,6 +2800,34 @@
         "source": "/Users/mac/.android/build-cache/d3ff796d1a0a0be6c348fb13321312629f76eaaf/output/res/drawable-mdpi-v4/quantum_ic_replay_white_24.png"
     },
     {
+        "merged": "/Users/dayeon/Blinkling/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/abc_list_longpressed_holo.9.png",
+        "source": "/Users/dayeon/.android/build-cache/08f0b85e835f6a143412367b800bd932d6600384/output/res/drawable-mdpi-v4/abc_list_longpressed_holo.9.png"
+    },
+    {
+        "merged": "/Users/dayeon/Blinkling/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/quantum_ic_replay_10_white_24.png",
+        "source": "/Users/dayeon/.android/build-cache/a1282a1ff9a88fec68e822dfee287e19f4ce9348/output/res/drawable-mdpi-v4/quantum_ic_replay_10_white_24.png"
+    },
+    {
+        "merged": "/Users/dayeon/Blinkling/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/ic_plusone_standard_off_client.png",
+        "source": "/Users/dayeon/.android/build-cache/31e43a428f7eda7f8bd5bd1a30864db2e3aef0cd/output/res/drawable-mdpi-v4/ic_plusone_standard_off_client.png"
+    },
+    {
+        "merged": "/Users/dayeon/Blinkling/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/abc_ic_menu_share_mtrl_alpha.png",
+        "source": "/Users/dayeon/.android/build-cache/08f0b85e835f6a143412367b800bd932d6600384/output/res/drawable-mdpi-v4/abc_ic_menu_share_mtrl_alpha.png"
+    },
+    {
+        "merged": "/Users/dayeon/Blinkling/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/abc_popup_background_mtrl_mult.9.png",
+        "source": "/Users/dayeon/.android/build-cache/08f0b85e835f6a143412367b800bd932d6600384/output/res/drawable-mdpi-v4/abc_popup_background_mtrl_mult.9.png"
+    },
+    {
+        "merged": "/Users/dayeon/Blinkling/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/quantum_ic_play_arrow_white_24.png",
+        "source": "/Users/dayeon/.android/build-cache/a1282a1ff9a88fec68e822dfee287e19f4ce9348/output/res/drawable-mdpi-v4/quantum_ic_play_arrow_white_24.png"
+    },
+    {
+        "merged": "/Users/dayeon/Blinkling/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/ic_tv_light.png",
+        "source": "/Users/dayeon/.android/build-cache/fee9a8ac9094c6137990dbc59faa44e10f656845/output/res/drawable-mdpi-v4/ic_tv_light.png"
+    },
+    {
         "merged": "/Users/seohyemin/Downloads/Blinkling-dayon/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/powered_by_google_light.png",
         "source": "/Users/seohyemin/.android/build-cache/7513a969dcc805b7f0f9997c9c0130190965a6d4/output/res/drawable-mdpi-v4/powered_by_google_light.png"
     },
@@ -2276,12 +2840,20 @@
         "source": "/Users/mac/.android/build-cache/693066f5460604d04bca0de7d54ae2c516c35b5a/output/res/drawable-mdpi-v4/ic_close_dark.png"
     },
     {
+        "merged": "/Users/dayeon/Blinkling/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/quantum_ic_keyboard_arrow_down_white_36.png",
+        "source": "/Users/dayeon/.android/build-cache/a1282a1ff9a88fec68e822dfee287e19f4ce9348/output/res/drawable-mdpi-v4/quantum_ic_keyboard_arrow_down_white_36.png"
+    },
+    {
         "merged": "/Users/seohyemin/Downloads/Blinkling-dayon/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/abc_ic_star_black_16dp.png",
         "source": "/Users/seohyemin/.android/build-cache/c7bc4f7edfba7ff92a9519a276f8d2da7169785b/output/res/drawable-mdpi-v4/abc_ic_star_black_16dp.png"
     },
     {
         "merged": "/Users/mac/Downloads/Blinkling-dayon/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/abc_popup_background_mtrl_mult.9.png",
         "source": "/Users/mac/.android/build-cache/913d8db17f1c25b6ee67b77b63f40d3096bd505a/output/res/drawable-mdpi-v4/abc_popup_background_mtrl_mult.9.png"
+    },
+    {
+        "merged": "/Users/dayeon/Blinkling/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/abc_list_divider_mtrl_alpha.9.png",
+        "source": "/Users/dayeon/.android/build-cache/08f0b85e835f6a143412367b800bd932d6600384/output/res/drawable-mdpi-v4/abc_list_divider_mtrl_alpha.9.png"
     },
     {
         "merged": "/Users/mac/Downloads/Blinkling-dayon/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/abc_scrubber_primary_mtrl_alpha.9.png",
