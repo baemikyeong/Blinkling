@@ -17,11 +17,15 @@ import android.widget.ArrayAdapter;
 import android.widget.ListView;
 import android.widget.Toast;
 
-import com.example.hyemin.blinkling.MainActivity;
 import com.example.hyemin.blinkling.R;
 
 import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileOutputStream;
+import java.io.IOException;
 import java.util.ArrayList;
+
+import static com.google.android.gms.wearable.DataMap.TAG;
 
 
 /**
@@ -163,7 +167,32 @@ public class InnerStorageFragment extends ListFragment {
 //            frag.setArguments(bundle);
 
             if(txt != -1){
-                ( (MainActivity)getActivity()).changeToText(mBookName);
+//                Fragment fragment = new BookshelfFragment(); // Fragment 생성
+//                Bundle bundle = new Bundle(1); // 파라미터는 전달할 데이터 개수
+//                bundle.putString("keyBook", mBookName); // key , value
+//                fragment.setArguments(bundle);
+
+
+                makeDirectory(InStoragePath+"/Blinkling");
+
+                fileMove(InStoragePath + "/" + mBookName, InStoragePath+"/Blinkling" + "/" + mBookName);
+
+
+//                FileInputStream fis = new FileInputStream(InStoragePath+ "/" + mBookName);
+//                FileOutputStream fos = new FileOutputStream("/sdcard/이동할폴더명/파일명");
+//
+//                int data = 0;
+//
+//                while((data=fis.read())!=-1)
+//                {
+//                    fos.write(data);
+//                }
+//
+//                fis.close();
+//                fos.close();
+
+
+             //   ( (MainActivity)getActivity()).changeToText(mBookName);//진짜 북네임임 이 값을 북쉘프로 넘겨야되ㅁ
             }
             else if(pdf != -1){
                 File file = new File(dir, mBookName);
@@ -197,6 +226,59 @@ public class InnerStorageFragment extends ListFragment {
         // 파일 목록을 구한다
         String[] fileList = fileRoot.list();
         return fileList;
+    }
+
+
+//    FileInputStream fis = new FileInputStream(InStoragePath+ "/" + mBookName);
+//                FileOutputStream fos = new FileOutputStream("/sdcard/이동할폴더명/파일명");
+//
+//                int data = 0;
+//
+//                while((data=fis.read())!=-1)
+//                {
+//                    fos.write(data);
+//                }
+//
+//                fis.close();
+//                fos.close();
+
+    public static void fileMove(String inFileName, String outFileName) {
+        try {
+            FileInputStream fis = new FileInputStream(inFileName);
+            FileOutputStream fos = new FileOutputStream(outFileName);
+
+            int data = 0;
+            while((data=fis.read())!=-1) {
+                fos.write(data);
+            }
+            fis.close();
+            fos.close();
+
+            //복사한뒤 원본파일을 삭제함
+           // fileDelete(inFileName);
+
+        } catch (IOException e) {
+            // TODO Auto-generated catch block
+            e.printStackTrace();
+        }
+    }
+
+    public static void fileDelete(String deleteFileName) {
+        File I = new File(deleteFileName);
+        I.delete();
+    }
+
+    private File makeDirectory(String dir_path){
+        File dir = new File(dir_path);
+        if (!dir.exists())
+        {
+            dir.mkdirs();
+            Log.i( TAG , "!dir.exists" );
+        }else{
+            Log.i( TAG , "dir.exists" );
+        }
+
+        return dir;
     }
 
     public void ShowFileList(String[] fileList) {

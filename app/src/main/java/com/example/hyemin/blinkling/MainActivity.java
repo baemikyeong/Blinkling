@@ -211,7 +211,7 @@ public class MainActivity extends ActionBarActivity {
         Fragment frag = new TextViewFragment();
         Bundle bundle = new Bundle();
 
-        bundle.putString("bookname", valueBookName);
+        bundle.putString("bookname", valueBookName);//번들에 값을 넣음
         frag.setArguments(bundle);
 
 
