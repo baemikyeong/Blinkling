@@ -17,6 +17,7 @@ import android.support.v4.app.ActivityCompat;
 import android.support.v4.app.Fragment;
 import android.support.v7.app.AlertDialog;
 import android.view.LayoutInflater;
+import android.view.Menu;
 import android.view.MotionEvent;
 import android.view.View;
 import android.view.ViewGroup;
@@ -61,7 +62,7 @@ public class TextViewFragment extends Fragment {
     private double right_thres = 0;
     private SharedPreferences bookmarkPref;
     private SharedPreferences.Editor bookEdit;
-    private int book_mark;
+    private int bookmark_position;
     private String bookName = "";
 
 
@@ -69,6 +70,7 @@ public class TextViewFragment extends Fragment {
     @Override
     public void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        setHasOptionsMenu(true);
 
         if(getArguments() != null){
             bookName = getArguments().getString("bookname");
@@ -100,6 +102,14 @@ public class TextViewFragment extends Fragment {
         return rootView;
     }
 
+    public void onPrepareOptionsMenu(Menu menu) {
+        menu.findItem(R.id.voice_btn).setVisible(false);
+        menu.findItem(R.id.eye_btn).setVisible(false);
+        menu.findItem(R.id.light_btn).setVisible(false);
+        menu.findItem(R.id.notebook_add).setVisible(false);
+        menu.findItem(R.id.notebook_delete).setVisible(false);
+        super.onPrepareOptionsMenu(menu);
+    }
 
 
     private void readTxt() {
@@ -141,16 +151,26 @@ public class TextViewFragment extends Fragment {
     }
 
 
+    // 책갈피 추가함수
+    public int book_mark_add(TextView txt_v){//북마크 좌표 저장 메소드
+        Toast toast = null;
+        //book_mark의 전역변수 설정 후, db에 저장 필요
+        // book_mark는 int형 변수
+
+        txt_v = tv;
+        txt_v.getLocationOnScreen(location);
+        bookmark_position = location[1];
+        if(bookmark_position < 0) bookmark_position = (-1)*bookmark_position;
+
+        toast.makeText(getActivity(), "북마크추가함수입니다", Toast.LENGTH_SHORT).show();
+
+        return bookmark_position;
+    }
 
 
-
-
-
-
-
-
-
-
+    public TextView getTxtBook(){
+        return tv;
+    }
 
 
 

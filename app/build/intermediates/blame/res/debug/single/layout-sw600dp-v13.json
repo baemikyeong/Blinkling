@@ -1,14 +1,6 @@
 [
     {
-        "merged": "/Users/seohyemin/Downloads/Blinkling-dayon/C:\\Users\\dy889\\Documents\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\layout-sw600dp-v13\\design_layout_snackbar.xml",
-        "source": "/Users/seohyemin/Downloads/Blinkling-dayon/C:\\Users\\dy889\\.android\\build-cache\\2318f7de2f290e7ceeae07216c4454185a81ae35\\output\\res\\layout-sw600dp-v13\\design_layout_snackbar.xml"
-    },
-    {
-        "merged": "/Users/seohyemin/Downloads/Blinkling-dayon/app/build/intermediates/res/merged/debug/layout-sw600dp-v13/design_layout_snackbar.xml",
+        "merged": "/Users/seohyemin/Blinkling-master/app/build/intermediates/res/merged/debug/layout-sw600dp-v13/design_layout_snackbar.xml",
         "source": "/Users/seohyemin/.android/build-cache/b5526703288357c323e2e1ef12cac4fa78843af5/output/res/layout-sw600dp-v13/design_layout_snackbar.xml"
-    },
-    {
-        "merged": "/Users/mac/Downloads/Blinkling-dayon/app/build/intermediates/res/merged/debug/layout-sw600dp-v13/design_layout_snackbar.xml",
-        "source": "/Users/mac/.android/build-cache/2357a626681079792d0b0f8329e66fe5b38ee637/output/res/layout-sw600dp-v13/design_layout_snackbar.xml"
     }
 ]

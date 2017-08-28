@@ -1,7 +1,7 @@
-#Sun Aug 13 13:52:04 KST 2017
-base.0=/Users/seohyemin/Downloads/Blinkling-dayon/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_c33cbd3354da7aa679f09456cd9d12daa8d6f1c4
+#Tue Aug 29 00:11:24 KST 2017
+base.0=/Users/seohyemin/Blinkling-master/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_0f87486131eae7a0ff6df750c0e2277f0f2ef791
 renamed.1=classes.dex
 renamed.0=classes2.dex
-file.1=/Users/seohyemin/Downloads/Blinkling-dayon/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_4262638ea10235f680cbc1348402a2f40ee09441/classes.dex
-base.1=/Users/seohyemin/Downloads/Blinkling-dayon/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_4262638ea10235f680cbc1348402a2f40ee09441
-file.0=/Users/seohyemin/Downloads/Blinkling-dayon/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_c33cbd3354da7aa679f09456cd9d12daa8d6f1c4/classes.dex
+file.1=/Users/seohyemin/Blinkling-master/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_8689ee2a1adccc04fe351276d05588775a73cc19/classes.dex
+base.1=/Users/seohyemin/Blinkling-master/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_8689ee2a1adccc04fe351276d05588775a73cc19
+file.0=/Users/seohyemin/Blinkling-master/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_0f87486131eae7a0ff6df750c0e2277f0f2ef791/classes.dex

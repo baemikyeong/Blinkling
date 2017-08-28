@@ -1,35 +1,45 @@
+/*
 package com.example.hyemin.blinkling.Bookmark;
 
 import android.content.Context;
+import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
+import android.os.Bundle;
+import android.os.Parcel;
+import android.os.Parcelable;
 import android.widget.Toast;
 
+import java.util.ArrayList;
+import java.util.List;
+
+*/
 /**
  * Created by seohyemin on 2017. 8. 12..
- */
+ *//*
+
 
 public class Bookmark_DB extends SQLiteOpenHelper {
     private Context context;
+    public static final String TABLE_NAME = "BOOKMARK_TABLE";
+    List<Bookmark_Info> bm;
+    SQLiteDatabase db;
+    Cursor cursor;
+    String sql;
 
+    //생성
     public Bookmark_DB(Context context, String name, SQLiteDatabase.CursorFactory factory, int version) {
         super(context, name, factory, version);
-        this.context = context;
     }
 
-    /**
-     * 데이터베이스가 존재하지 않을 때 딱 한번 실행된다 DB를만드는 역할을 함
-     *
-     * @param
-     */
-
+    //최초 DB를 만들때 딱 한번만 호출된다
     @Override
     public void onCreate(SQLiteDatabase db) {
         StringBuffer sb = new StringBuffer();
         sb.append(" CREATE TABLE IF NOT EXISTS BOOKMARK_TABLE ( ");
         sb.append(" _ID INTEGER PRIMARY KEY AUTOINCREMENT, ");
         sb.append(" TITLE TEXT, ");
-        sb.append(" MEMO TEXT, ");
+        sb.append(" TYPE TEXT, ");
         sb.append(" DOCUMENT TEXT ) ");
 
         // SQLite Database로 쿼리 실행
@@ -37,78 +47,74 @@ public class Bookmark_DB extends SQLiteOpenHelper {
 
         //확인용 !
         Toast.makeText(context, "Table 생성완료", Toast.LENGTH_SHORT).show();
-
-
     }
 
     @Override
-    public void onUpgrade(SQLiteDatabase sqLiteDatabase, int i, int i1) {
+    public void onUpgrade(SQLiteDatabase db, int oldVersion, int newVersion) {
+
+        //업데이트 되면 이전 테이블을 제거한다
+        db.execSQL("DROP TABLE IF EXISTS" + TABLE_NAME);
+        //테이블의 새 인스턴스를 생성함
+        onCreate(db);
 
     }
 
-    public void testDB() {
 
-        SQLiteDatabase db = getReadableDatabase();
-    }
+    public void addBookmark(Bookmark_Info bookmarkInfo){
 
-  /*  public void addPerson(Person person) {
         // 1. 쓸 수 있는 DB 객체를 가져온다.
-
         SQLiteDatabase db = getWritableDatabase();
 
         // 2. Person Data를 Insert한다.
         // _id는 자동으로 증가하기 때문에 넣지 않습니다.
 
         StringBuffer sb = new StringBuffer();
-        sb.append(" INSERT INTO TEST_TABLE ( ");
-        sb.append(" TITLE, AGE, PHONE ) ");
+        sb.append(" INSERT INTO BOOKMARK_TABLE ( ");
+        sb.append(" TITLE, TYPE, DOCUMENT ) ");
         sb.append(" VALUES ( ?, ?, ? ) ");
-
-        // sb.append(" VALUES ( #NAME#, #AGE#, #PHONE# ) ");
-        //
-        //
-        // Age는 Integer이기 때문에 홀따옴표(')를 주지 않는다.
-        // String query = sb.toString();
-        // query.replace("#NAME#", "'" + person.getName() + "'");
-        // query.replace("#NAME#", person.getAge());
-        // query.replace("#NAME#", "'" + person.getPhone() + "'");
-        //
-        // db.execSQL(query);
 
         db.execSQL(sb.toString(),
                 new Object[]{
-                        person.getName(),
-                        Integer.parseInt(person.getAge()),
-                        person.getPhone()});
-        ;
-        Toast.makeText(context, "Insert 완료", Toast.LENGTH_SHORT).show();
+                        bookmarkInfo.getTitle(),
+                        Integer.parseInt(bookmarkInfo.get_pos()),
+                        bookmarkInfo.getDoc()});;
+
+        Toast.makeText(context,bookmarkInfo.getTitle() +"/"+
+                                        Integer.parseInt(bookmarkInfo.get_pos())+"/"+
+                                      bookmarkInfo.getDoc()+"ADD 완료", Toast.LENGTH_SHORT).show();
     }
 
-    public List getAllPersonData() {
+    //입력된 모든 북마크를 db에서 가져오는 메소드
+    public List<Bookmark_Info> getAllBookmarkData() {
+
+        //사용자들에게 보여지는 속성은 ID, 북마크의 제목, 북마크가 속하는 문서이다.
         StringBuffer sb = new StringBuffer();
-        sb.append("SELECT _ID, TITLE, AGE, PHONE FROM TEST_TABLE");
+        sb.append(" SELECT _ID, TITLE, TYPE, DOCUMENT FROM BOOKMARK_TABLE ");
 
         //읽기 전용 db 객체를 만든다.
         SQLiteDatabase db = getReadableDatabase();
 
+        //커서를 통해서 아이템들을 조정
         Cursor cursor = db.rawQuery(sb.toString(), null);
 
-        List people = new ArrayList();
-        Person person = null;
+        bm = new ArrayList<Bookmark_Info>();
+
+        Bookmark_Info bi = null;
 
         //moveToNext 다음에 데이터가 있으면 true 없으면 false
         while (cursor.moveToNext()) {
-            person = new Person();
-            person.set_id(cursor.getInt(0));
-            person.setName(cursor.getString(1));
-            person.setAge(cursor.getString(2));
-            person.setPhone(cursor.getString(3));
+            bi = new Bookmark_Info();
+            bi.set_id(cursor.getInt(0));
+            bi.setTitle(cursor.getString(1));
+            bi.setPos(cursor.getString(2));
+            bi.setDoc(cursor.getString(3));
 
-            people.add(person);
+            bm.add(bi);
 
         }
-        return people;
-    }*/
+        return bm;
+    }
 
 
 }
+*/

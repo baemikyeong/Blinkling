@@ -1,26 +1,10 @@
 [
     {
-        "merged": "/Users/seohyemin/Downloads/Blinkling-dayon/app/build/intermediates/res/merged/debug/color-v11/abc_background_cache_hint_selector_material_dark.xml",
+        "merged": "/Users/seohyemin/Blinkling-master/app/build/intermediates/res/merged/debug/color-v11/abc_background_cache_hint_selector_material_dark.xml",
         "source": "/Users/seohyemin/.android/build-cache/c7bc4f7edfba7ff92a9519a276f8d2da7169785b/output/res/color-v11/abc_background_cache_hint_selector_material_dark.xml"
     },
     {
-        "merged": "/Users/seohyemin/Downloads/Blinkling-dayon/C:\\Users\\dy889\\Documents\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\color-v11\\abc_background_cache_hint_selector_material_light.xml",
-        "source": "/Users/seohyemin/Downloads/Blinkling-dayon/C:\\Users\\dy889\\.android\\build-cache\\eaa9472fc91e028a5a27b3d20e7a0c3fbad5c383\\output\\res\\color-v11\\abc_background_cache_hint_selector_material_light.xml"
-    },
-    {
-        "merged": "/Users/seohyemin/Downloads/Blinkling-dayon/app/build/intermediates/res/merged/debug/color-v11/abc_background_cache_hint_selector_material_light.xml",
+        "merged": "/Users/seohyemin/Blinkling-master/app/build/intermediates/res/merged/debug/color-v11/abc_background_cache_hint_selector_material_light.xml",
         "source": "/Users/seohyemin/.android/build-cache/c7bc4f7edfba7ff92a9519a276f8d2da7169785b/output/res/color-v11/abc_background_cache_hint_selector_material_light.xml"
-    },
-    {
-        "merged": "/Users/mac/Downloads/Blinkling-dayon/app/build/intermediates/res/merged/debug/color-v11/abc_background_cache_hint_selector_material_dark.xml",
-        "source": "/Users/mac/.android/build-cache/913d8db17f1c25b6ee67b77b63f40d3096bd505a/output/res/color-v11/abc_background_cache_hint_selector_material_dark.xml"
-    },
-    {
-        "merged": "/Users/seohyemin/Downloads/Blinkling-dayon/C:\\Users\\dy889\\Documents\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\color-v11\\abc_background_cache_hint_selector_material_dark.xml",
-        "source": "/Users/seohyemin/Downloads/Blinkling-dayon/C:\\Users\\dy889\\.android\\build-cache\\eaa9472fc91e028a5a27b3d20e7a0c3fbad5c383\\output\\res\\color-v11\\abc_background_cache_hint_selector_material_dark.xml"
-    },
-    {
-        "merged": "/Users/mac/Downloads/Blinkling-dayon/app/build/intermediates/res/merged/debug/color-v11/abc_background_cache_hint_selector_material_light.xml",
-        "source": "/Users/mac/.android/build-cache/913d8db17f1c25b6ee67b77b63f40d3096bd505a/output/res/color-v11/abc_background_cache_hint_selector_material_light.xml"
     }
 ]

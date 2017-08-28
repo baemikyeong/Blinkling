@@ -6,9 +6,9 @@ import android.graphics.drawable.Drawable;
  * Created by mac on 2017. 8. 7..
  */
 public class ListViewItem {
-    private Drawable iconDrawable ;
-    private String titleStr ;
-    private String descStr ;
+    public Drawable iconDrawable ;
+    public String titleStr ;
+    public String descStr ;
 
     public void setIcon(Drawable icon) {
         iconDrawable = icon ;

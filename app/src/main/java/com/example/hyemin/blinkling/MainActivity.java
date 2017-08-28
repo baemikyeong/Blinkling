@@ -1,6 +1,7 @@
 package com.example.hyemin.blinkling;
 
 import android.annotation.TargetApi;
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.content.res.Configuration;
@@ -14,15 +15,20 @@ import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentTransaction;
 import android.support.v7.app.ActionBarActivity;
+import android.support.v7.app.AlertDialog;
 import android.support.v7.widget.Toolbar;
 import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.EditText;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import com.example.hyemin.blinkling.BookShelf.BookshelfFragment;
-import com.example.hyemin.blinkling.Bookmark.BookmarkFragment;
-import com.example.hyemin.blinkling.Bookmark.Bookmark_DB;
+//import com.example.hyemin.blinkling.Bookmark.Bookmark_DB;
+import com.example.hyemin.blinkling.Bookmarks.BookmarkFragment;
+import com.example.hyemin.blinkling.Bookmarks.Bookmark_Info;
+import com.example.hyemin.blinkling.Bookmarks.DbOpenHelper;
 import com.example.hyemin.blinkling.Service.ScreenFilterService;
 import com.example.hyemin.blinkling.Setting.SettingFragment;
 import com.example.hyemin.blinkling.Webview.WebviewFragment;
@@ -30,17 +36,21 @@ import com.example.hyemin.blinkling.Webview.WebviewFragment;
 public class MainActivity extends ActionBarActivity {
     private static final String TAG = "AppPermission";
     private final int MY_PERMISSION_REQUEST_STORAGE = 100;
-
-
     private BottomNavigationView bottomNavigation;
     private Fragment fragment;
     private FragmentManager fragmentManager;
     private Toolbar toolbar;
     boolean light;//초기상태는 불이 꺼진 상태
-    private Bookmark_DB bookmark_db;
+    DbOpenHelper db_helper;
+   // Bookmark_DB bookmark_db;
+    private TextView tv;
+    TextViewFragment txt_fragment;
+    private String book_title;
+    private int bookmark_pos;
+
 
     @Override
-    public void onConfigurationChanged(Configuration newConfig){
+    public void onConfigurationChanged(Configuration newConfig) {
         super.onConfigurationChanged(newConfig);
     }
 
@@ -91,13 +101,13 @@ public class MainActivity extends ActionBarActivity {
 
     }
 
-    private void replaceFragment (Fragment fragment){
+    private void replaceFragment(Fragment fragment) {
         String backStateName = fragment.getClass().getName();
 
         FragmentManager manager = getSupportFragmentManager();
-        boolean fragmentPopped = manager.popBackStackImmediate (backStateName, 0);
+        boolean fragmentPopped = manager.popBackStackImmediate(backStateName, 0);
 
-        if (!fragmentPopped){ //fragment not in back stack, create it.
+        if (!fragmentPopped) { //fragment not in back stack, create it.
             FragmentTransaction ft = manager.beginTransaction();
             ft.replace(R.id.main_container, fragment);
             ft.addToBackStack(backStateName);
@@ -119,11 +129,8 @@ public class MainActivity extends ActionBarActivity {
                 toast.show();
                 return true;
             }
-            case R.id.notebook_add: {/////
-
+            case R.id.notebook_add: {
                 checkPermission();
-
-
             }
             case R.id.notebook_delete: {
                 Toast toast;
@@ -144,12 +151,10 @@ public class MainActivity extends ActionBarActivity {
                 return true;
             }
             case R.id.bookmark_btn: {
-                //데이터베이스이름을 블링클링으로 함
-                bookmark_db = new Bookmark_DB(MainActivity.this, "Blinkling", null, 1);
-                bookmark_db.testDB();
-
+                addBookmark();
                 return true;
             }
+
             case R.id.light_btn: {
                 Intent service = new Intent(this, ScreenFilterService.class);
                 if (Build.VERSION.SDK_INT >= 23) {
@@ -167,7 +172,7 @@ public class MainActivity extends ActionBarActivity {
                     }
                 }
                 Toast toast;
-                toast = Toast.makeText(this, item.getTitle() + " Clicked delete button!", Toast.LENGTH_SHORT);
+                toast = Toast.makeText(this, item.getTitle() + " Clicked light button!", Toast.LENGTH_SHORT);
                 toast.show();
                 return true;
             }
@@ -175,31 +180,29 @@ public class MainActivity extends ActionBarActivity {
 
         return super.onOptionsItemSelected(item);
 
-}
+    }
 
 
-//<<<<<<< HEAD
     public void changeToText(String valueBookName) {
 
         Fragment frag = new TextViewFragment();
         Bundle bundle = new Bundle();
 
-        bundle.putString("bookname",valueBookName);
+        bundle.putString("bookname", valueBookName);
         frag.setArguments(bundle);
 
 
         final FragmentTransaction transaction = fragmentManager.beginTransaction();
         transaction.replace(R.id.main_container, frag).commit();
 
-
+        book_title = valueBookName;
 
     }
 
 
-
     @TargetApi(Build.VERSION_CODES.M)
     private void checkPermission() {
-        Log.i(TAG, "CheckPermission : " +  ActivityCompat.checkSelfPermission(this, android.Manifest.permission.READ_EXTERNAL_STORAGE));
+        Log.i(TAG, "CheckPermission : " + ActivityCompat.checkSelfPermission(this, android.Manifest.permission.READ_EXTERNAL_STORAGE));
         if (checkSelfPermission(android.Manifest.permission.READ_EXTERNAL_STORAGE)
                 != PackageManager.PERMISSION_GRANTED
                 || checkSelfPermission(android.Manifest.permission.WRITE_EXTERNAL_STORAGE)
@@ -251,5 +254,52 @@ public class MainActivity extends ActionBarActivity {
     public void start() {
         fragment = new InnerStorageFragment();
         replaceFragment(fragment);
+    }
+
+    public void addBookmark() {
+
+        txt_fragment = (TextViewFragment) getSupportFragmentManager().findFragmentById(R.id.main_container);
+        TextView txt = txt_fragment.getTxtBook();
+
+        bookmark_pos = txt_fragment.book_mark_add(txt); //북마크로 저장 할 좌표를 bookmark_pos에 저장함
+
+        final EditText editText = new EditText(this);
+        AlertDialog.Builder dialog = new AlertDialog.Builder(MainActivity.this);
+        dialog.setTitle("북마크 등록")
+                .setMessage("북마크 이름을 입력하세요")
+                .setView(editText)
+                .setPositiveButton("등록",
+                        new DialogInterface.OnClickListener() {
+                            @Override
+                            public void onClick(DialogInterface dialog, int which) {
+                                String title = editText.getText().toString();
+                                String type = "bookmark";
+                                int position = bookmark_pos;
+                                String document = book_title;
+                                if (db_helper == null) {
+                                    db_helper = new DbOpenHelper(getApplicationContext());
+                                    db_helper.open();
+                                  //  bookmark_db = new Bookmark_DB(MainActivity.this, "TEST", null, 1);
+                                }
+
+                                Bookmark_Info bi = new Bookmark_Info(title,type,document);
+/*
+
+                                Bookmark_Info bi = new Bookmark_Info();
+                                bi.setTitle(title);
+                                bi.setType(type);
+                                bi.setDoc(document);
+                                bookmark_db.addBookmark(bi);*/
+
+
+                            }
+                        }).setNeutralButton("취소", new DialogInterface.OnClickListener() {
+            @Override
+            public void onClick(DialogInterface dialog, int which) {
+            }
+        });
+
+        dialog.create().show();
+
     }
 }
