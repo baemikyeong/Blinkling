@@ -46,9 +46,15 @@ public class MainActivity extends ActionBarActivity {
     public static boolean light;//초기상태는 불이 꺼진 상태
     private Bookmark_DB bookmark_db;
     public static FrameLayout aframe;
+
     @Override
     public void onConfigurationChanged(Configuration newConfig) {
+
+        FrameLayout fl = (FrameLayout) findViewById(R.id.main_container);
+        fl.removeAllViews();
+
         super.onConfigurationChanged(newConfig);
+
     }
 
     @Override
@@ -58,6 +64,9 @@ public class MainActivity extends ActionBarActivity {
 
         toolbar = (Toolbar) findViewById(R.id.tool_bar);
         aframe = (FrameLayout) findViewById(R.id.main_container);
+
+        FrameLayout fl = (FrameLayout) findViewById(R.id.main_container);
+        fl.removeAllViews();
 
         setSupportActionBar(toolbar);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
@@ -107,6 +116,9 @@ public class MainActivity extends ActionBarActivity {
         FragmentManager manager = getSupportFragmentManager();
         boolean fragmentPopped = manager.popBackStackImmediate(backStateName, 0);
 
+        FrameLayout fl = (FrameLayout) findViewById(R.id.main_container);
+        fl.removeAllViews();
+
         if (!fragmentPopped) {                  //fragment not in back stack, create it.
             FragmentTransaction ft = manager.beginTransaction();
             ft.replace(R.id.main_container, fragment);
@@ -125,6 +137,10 @@ public class MainActivity extends ActionBarActivity {
         switch (id) {
             case android.R.id.home: {
                 //FragmentManager fm = getSupportFragmentManager();
+
+                FrameLayout fl = (FrameLayout) findViewById(R.id.main_container);
+                fl.removeAllViews();
+
                 fragmentManager.popBackStack();
                 return true;
             }
@@ -214,6 +230,8 @@ public class MainActivity extends ActionBarActivity {
         bundle.putString("bookname", valueBookName);
         frag.setArguments(bundle);
 
+        FrameLayout fl = (FrameLayout) findViewById(R.id.main_container);
+        fl.removeAllViews();
 
         final FragmentTransaction transaction = fragmentManager.beginTransaction();
         transaction.replace(R.id.main_container, frag).commit();
