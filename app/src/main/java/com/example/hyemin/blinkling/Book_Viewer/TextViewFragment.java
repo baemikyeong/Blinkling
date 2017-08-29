@@ -593,6 +593,8 @@ public class TextViewFragment extends Fragment {
 
         mFaceDetector.setProcessor(new LargestFaceFocusingProcessor(mFaceDetector, face_tracker = new FaceTracker()));
 
+        // 초기화가 되었다면, 초기화 값 설정 필요
+
         // operational...?
         if (!mFaceDetector.isOperational()) {
             //  Log.w(TAG, "createCameraResources: detector NOT operational");

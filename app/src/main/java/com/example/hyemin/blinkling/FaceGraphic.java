@@ -23,8 +23,13 @@ import android.graphics.Paint;
 import android.widget.Toast;
 
 import com.example.hyemin.blinkling.camera.GraphicOverlay;
+import com.example.hyemin.blinkling.event.NeutralFaceEvent;
+import com.example.hyemin.blinkling.event.RightEyeClosedEvent;
 import com.google.android.gms.vision.face.Face;
 
+import org.greenrobot.eventbus.EventBus;
+
+import static android.app.PendingIntent.getActivities;
 import static android.app.PendingIntent.getActivity;
 
 /**
@@ -37,18 +42,17 @@ class FaceGraphic extends GraphicOverlay.Graphic {
     private static final float ID_Y_OFFSET = 50.0f;
     private static final float ID_X_OFFSET = -50.0f;
     private static final float BOX_STROKE_WIDTH = 5.0f;
-
-    private SharedPreferences intPref;
-    private SharedPreferences.Editor editor1;
+    private boolean leftClosed;
+    private boolean rightClosed;
 
     private static final int COLOR_CHOICES[] = {
-        Color.BLUE,
-        Color.CYAN,
-        Color.GREEN,
-        Color.MAGENTA,
-        Color.RED,
-        Color.WHITE,
-        Color.YELLOW
+            Color.BLUE,
+            Color.CYAN,
+            Color.GREEN,
+            Color.MAGENTA,
+            Color.RED,
+            Color.WHITE,
+            Color.YELLOW
     };
     private static int mCurrentColorIndex = 0;
 
@@ -67,13 +71,12 @@ class FaceGraphic extends GraphicOverlay.Graphic {
     public static double leftClosed_size = 0;
     public static double rightClosed_size = 0;
 
-    private long blink_time = 0;
     private int check_time = 0;
-    private long indivisual_blink_time=0;
 
-    public void set_closed_size(double l, double r){
+    public void set_closed_size(double l, double r) {
         leftClosed_size = l;
         rightClosed_size = r;
+        check_time = 1;
     }
 
     FaceGraphic(GraphicOverlay overlay) {
@@ -99,8 +102,6 @@ class FaceGraphic extends GraphicOverlay.Graphic {
         mFaceId = id;
     }
 
-    void set_check_time() { check_time = 1;}
-
     /**
      * Updates the face instance from the detection of the most recent frame.  Invalidates the
      * relevant portions of the overlay to trigger a redraw.
@@ -110,11 +111,13 @@ class FaceGraphic extends GraphicOverlay.Graphic {
         postInvalidate();
     }
 
-    public float return_left(){ return left_thred; }
+    public float return_left() {
+        return left_thred;
+    }
 
-    public float return_right(){ return right_thred;}
-
-    public long return_time(){return indivisual_blink_time;}
+    public float return_right() {
+        return right_thred;
+    }
 
     /**
      * Draws the face annotations for position on the supplied canvas.
@@ -133,7 +136,7 @@ class FaceGraphic extends GraphicOverlay.Graphic {
         canvas.drawText("id: " + mFaceId, x + ID_X_OFFSET, y + ID_Y_OFFSET, mIdPaint);
         canvas.drawText("happiness: " + String.format("%.2f", face.getIsSmilingProbability()), x - ID_X_OFFSET, y - ID_Y_OFFSET, mIdPaint);
         canvas.drawText("right eye: " + String.format("%.2f", face.getIsRightEyeOpenProbability()), x + ID_X_OFFSET * 2, y + ID_Y_OFFSET * 2, mIdPaint);
-        canvas.drawText("left eye: " + String.format("%.2f", face.getIsLeftEyeOpenProbability()), x - ID_X_OFFSET*2, y - ID_Y_OFFSET*2, mIdPaint);
+        canvas.drawText("left eye: " + String.format("%.2f", face.getIsLeftEyeOpenProbability()), x - ID_X_OFFSET * 2, y - ID_Y_OFFSET * 2, mIdPaint);
 
         // Draws a bounding box around the face.
         float xOffset = scaleX(face.getWidth() / 2.0f);
@@ -147,25 +150,43 @@ class FaceGraphic extends GraphicOverlay.Graphic {
         right_thred = face.getIsRightEyeOpenProbability();
         left_thred = face.getIsLeftEyeOpenProbability();
 
-        if(check_time == 1){
-            if(leftClosed_size == 0 && rightClosed_size == 0){
-                leftClosed_size = 0.5;
-                rightClosed_size = 0.5;
+        // 눈 크기 초기화 없이 시간 초기화
+        if (check_time != 1) {
+            if (leftClosed && face.getIsLeftEyeOpenProbability() > 0.5) {
+                leftClosed = false;
+            } else if (!leftClosed && face.getIsLeftEyeOpenProbability() < 0.5) {
+                if (!leftClosed && face.getIsLeftEyeOpenProbability() < 0.5)
+                    leftClosed = true;
+                else leftClosed = false;
             }
-            long startTime=0, endTime=0;
-            if (right_thred <= rightClosed_size && left_thred<=leftClosed_size) {
-                //시간 측정 시작=0
-                startTime = System.currentTimeMillis();
-                while (right_thred <= rightClosed_size && left_thred<=leftClosed_size) {
-                    // 시간측정중입니다
-                    if(right_thred > rightClosed_size || left_thred>leftClosed_size)
-                        break;
-                }
-                // 시간측정 정지
-                endTime = System.currentTimeMillis();
+            if (rightClosed && face.getIsRightEyeOpenProbability() > 0.5) {
+                rightClosed = false;
+            } else if (!rightClosed && face.getIsRightEyeOpenProbability() < 0.5) {
+                if (!rightClosed && face.getIsRightEyeOpenProbability() < 0.5)
+                    rightClosed = true;
+                else rightClosed = false;
             }
-            indivisual_blink_time = endTime - startTime;
-            check_time = 0;
+        } else { // 눈 크기 초기화 이후 시간 초기화
+            if (leftClosed && face.getIsLeftEyeOpenProbability() > leftClosed_size) {
+                leftClosed = false;
+            } else if (!leftClosed && face.getIsLeftEyeOpenProbability() < leftClosed_size) {
+                if (!leftClosed && face.getIsLeftEyeOpenProbability() < leftClosed_size)
+                    leftClosed = true;
+                else leftClosed = false;
+            }
+            if (rightClosed && face.getIsRightEyeOpenProbability() > rightClosed_size) {
+                rightClosed = false;
+            } else if (!rightClosed && face.getIsRightEyeOpenProbability() < rightClosed_size) {
+                if (!rightClosed && face.getIsRightEyeOpenProbability() < rightClosed_size)
+                    rightClosed = true;
+                else rightClosed = false;
+            }
+        }
+
+        if (leftClosed && rightClosed) {
+            EventBus.getDefault().post(new RightEyeClosedEvent());
+        } else if (!leftClosed && !rightClosed) {
+            EventBus.getDefault().post(new NeutralFaceEvent());
         }
     }
 }

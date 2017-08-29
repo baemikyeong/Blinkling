@@ -3,19 +3,17 @@ package com.example.hyemin.blinkling.BookShelf;
 import android.app.Activity;
 import android.content.ActivityNotFoundException;
 import android.content.Intent;
-import android.graphics.Bitmap;
-import android.graphics.BitmapFactory;
 import android.net.Uri;
 import android.os.Bundle;
 import android.os.Environment;
 import android.support.v4.app.Fragment;
+import android.support.v4.content.ContextCompat;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.AdapterView;
-import android.widget.ArrayAdapter;
 import android.widget.GridView;
 import android.widget.Toast;
 
@@ -29,53 +27,14 @@ public class BookshelfFragment extends Fragment {
     File dir = Environment.getExternalStorageDirectory().getAbsoluteFile();
     GridView mFileGridView;
     ArrayList<String> mArrayListFile;
-    ArrayAdapter m_adapter;
-    ArrayList<Bitmap> mPicArr = new ArrayList<Bitmap>();
-    ArrayList<String> mTitleArr = new ArrayList<String>();
-
-
+    GridViewAdapter gridadapter;
 
     String valBookName = "";
     String mPath = "";
     String mRoot = "";
     String mBookName = "";
     String strPathComp = "";
-    // String InStoragePath = Environment.getRootDirectory().getAbsolutePath();
     String InStoragePath = Environment.getExternalStorageDirectory().getAbsolutePath() +"/Blinkling";
-
-
-    //    Fragment frag = new TextViewFragment();
-//    Bundle bundle = new Bundle();
-//            bundle.putString("bookname",mBookName);
-//            frag.setArguments(bundle);
-//
-//             ( (MainActivity)getActivity()).changeToText();
-
-//    public static Fragment newInstance(String param1) {
-//        TextViewFragment frag = new TextViewFragment();
-//        Bundle args = new Bundle();
-//        args.putString("bookname",param1);
-//        frag.setArguments(args);
-//        return frag;
-//    }
-
-//    @Override
-//    public void onCreate(@Nullable Bundle savedInstanceState) {
-//        super.onCreate(savedInstanceState);
-//
-//        if (getArguments() != null) {
-//            valBookName = getArguments().getString("keyBook");
-//        }
-//    }
-
-//    @Override
-//    public void onCreate(@Nullable Bundle savedInstanceState) {
-//        super.onCreate(savedInstanceState);
-//
-//        if (getArguments() != null) {
-//            valBookName = getArguments().getString("keyBook");
-//        }
-//    }
 
 
     public BookshelfFragment() {
@@ -87,14 +46,27 @@ public class BookshelfFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-
-       Activity root = getActivity();
-       Toast toast;
-
-
-
         View rootView = inflater.inflate(R.layout.fragment_bookshelf, container, false);
         mFileGridView = (GridView) rootView.findViewById(android.R.id.list);
+        gridadapter = new GridViewAdapter();
+        mFileGridView.setAdapter(gridadapter);
+
+        gridadapter.addItem(ContextCompat.getDrawable(getActivity(), R.drawable.book1)
+                , "book1") ;
+
+        gridadapter.addItem(ContextCompat.getDrawable(getActivity(), R.drawable.book2)
+                ,"book2") ;
+
+        gridadapter.addItem(ContextCompat.getDrawable(getActivity(), R.drawable.book3)
+                ,"book3") ;
+
+        gridadapter.addItem(ContextCompat.getDrawable(getActivity(), R.drawable.book4)
+                ,"book4") ;
+
+        Activity root = getActivity();
+        Toast toast;
+
+
         mRoot = InStoragePath;
         //  ( (MainActivity)getActivity()).changeToBookshelf();
         //    findFolder();
@@ -103,12 +75,12 @@ public class BookshelfFragment extends Fragment {
         String ext = Environment.getExternalStorageState();
         if (ext.equals(Environment.MEDIA_MOUNTED)) {
             findFolder();
-          //  Activity root = getActivity();
+            //  Activity root = getActivity();
 //            Toast toast = Toast.makeText(root, "There is  SDcard!", Toast.LENGTH_SHORT);
 //           toast.show();
 
         } else {
-           // Activity root = getActivity();
+            // Activity root = getActivity();
             toast = Toast.makeText(root, "There is no SDcard!", Toast.LENGTH_SHORT);
             toast.show();
         }
@@ -124,22 +96,7 @@ public class BookshelfFragment extends Fragment {
         });
 
 
-
-        Bitmap bm1 = BitmapFactory.decodeResource(getResources(), R.drawable.book1);
-        Bitmap bm2 = BitmapFactory.decodeResource(getResources(), R.drawable.book2);
-        Bitmap bm3 = BitmapFactory.decodeResource(getResources(), R.drawable.book3);
-        Bitmap bm4 = BitmapFactory.decodeResource(getResources(), R.drawable.book4);
-
-
-        mPicArr.add(bm1);
-        mPicArr.add(bm2);
-        mPicArr.add(bm3);
-        mPicArr.add(bm4);
-
-
-      //  mFileGridView.setAdapter(new gridAdapter());
-
-
+        //  mFileGridView.setAdapter(new gridAdapter());
 
 
         return rootView;
@@ -167,8 +124,8 @@ public class BookshelfFragment extends Fragment {
 
         //(getActivity(, android.R.layout.simple_list_item_1, mList);
 
-        m_adapter = new ArrayAdapter(getActivity(), android.R.layout.simple_list_item_1, mArrayListFile);
-        mFileGridView.setAdapter(m_adapter);
+//        m_adapter = new ArrayAdapter(getActivity(), android.R.layout.simple_list_item_1, mArrayListFile);
+//        mFileGridView.setAdapter(m_adapter);
 
 
 
@@ -223,7 +180,7 @@ public class BookshelfFragment extends Fragment {
 //            strPath = strPath.substring(0,pos);
             mBookName = strPath; //
 
-            mTitleArr.add(mBookName);
+            ////////////////////////////////////////////////////  mTitleArr.add(mBookName);
 
 //            Toast toast = Toast.makeText(root, mBookName, Toast.LENGTH_SHORT);
 //            toast.show();
@@ -287,8 +244,8 @@ public class BookshelfFragment extends Fragment {
             Log.d("tag", fileList[i]);
             mArrayListFile.add(fileList[i]);
         }
-       // ArrayAdapter m_adapter = (ArrayAdapter) getListView().getAdapter();  //  fragmentlistview
-        m_adapter.notifyDataSetChanged();
+        // ArrayAdapter m_adapter = (ArrayAdapter) getListView().getAdapter();  //  fragmentlistview
+        gridadapter.notifyDataSetChanged();
     }
 
 
@@ -317,4 +274,3 @@ public class BookshelfFragment extends Fragment {
         super.onPrepareOptionsMenu(menu);
     }
 }
-

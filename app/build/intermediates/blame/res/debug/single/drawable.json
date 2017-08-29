@@ -36,12 +36,12 @@
         "source": "/Users/dayeon/Blinkling/app/src/main/res/drawable/gridworld.png"
     },
     {
-        "merged": "/Users/mac/Downloads/Blinkling-dayon/app/build/intermediates/res/merged/debug/drawable/cast_ic_notification_play.xml",
-        "source": "/Users/mac/.android/build-cache/d3ff796d1a0a0be6c348fb13321312629f76eaaf/output/res/drawable/cast_ic_notification_play.xml"
-    },
-    {
         "merged": "/Users/seohyemin/Downloads/Blinkling-dayon/app/build/intermediates/res/merged/debug/drawable/abc_list_selector_holo_light.xml",
         "source": "/Users/seohyemin/.android/build-cache/c7bc4f7edfba7ff92a9519a276f8d2da7169785b/output/res/drawable/abc_list_selector_holo_light.xml"
+    },
+    {
+        "merged": "/Users/mac/Downloads/Blinkling-dayon/app/build/intermediates/res/merged/debug/drawable/cast_ic_notification_play.xml",
+        "source": "/Users/mac/.android/build-cache/d3ff796d1a0a0be6c348fb13321312629f76eaaf/output/res/drawable/cast_ic_notification_play.xml"
     },
     {
         "merged": "/Users/dayeon/Blinkling/app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_icon_dark_normal.xml",
@@ -64,12 +64,12 @@
         "source": "/Users/dayeon/.android/build-cache/08f0b85e835f6a143412367b800bd932d6600384/output/res/drawable/abc_btn_borderless_material.xml"
     },
     {
-        "merged": "/Users/seohyemin/Downloads/Blinkling-dayon/app/build/intermediates/res/merged/debug/drawable/cast_ic_mini_controller_closed_caption.xml",
-        "source": "/Users/seohyemin/.android/build-cache/86e41c47417d80a7dd799f3286469399e5a52229/output/res/drawable/cast_ic_mini_controller_closed_caption.xml"
-    },
-    {
         "merged": "/Users/dayeon/Blinkling/app/build/intermediates/res/merged/debug/drawable/cast_ic_notification_stop_live_stream.xml",
         "source": "/Users/dayeon/.android/build-cache/a1282a1ff9a88fec68e822dfee287e19f4ce9348/output/res/drawable/cast_ic_notification_stop_live_stream.xml"
+    },
+    {
+        "merged": "/Users/seohyemin/Downloads/Blinkling-dayon/app/build/intermediates/res/merged/debug/drawable/cast_ic_mini_controller_closed_caption.xml",
+        "source": "/Users/seohyemin/.android/build-cache/86e41c47417d80a7dd799f3286469399e5a52229/output/res/drawable/cast_ic_mini_controller_closed_caption.xml"
     },
     {
         "merged": "/Users/dayeon/Blinkling/app/build/intermediates/res/merged/debug/drawable/abc_textfield_search_material.xml",
@@ -108,12 +108,12 @@
         "source": "/Users/dayeon/.android/build-cache/fee9a8ac9094c6137990dbc59faa44e10f656845/output/res/drawable/ic_expand.xml"
     },
     {
-        "merged": "/Users/seohyemin/Downloads/Blinkling-dayon/C:\\Users\\dy889\\Documents\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_ic_expanded_controller_skip_next.xml",
-        "source": "/Users/seohyemin/Downloads/Blinkling-dayon/C:\\Users\\dy889\\.android\\build-cache\\6eb1f1beb74a0f6f7519161070d151573d511644\\output\\res\\drawable\\cast_ic_expanded_controller_skip_next.xml"
-    },
-    {
         "merged": "/Users/dayeon/Blinkling/app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_text_disabled.xml",
         "source": "/Users/dayeon/.android/build-cache/0d8a319685fda21a0c94e2ff5d93d49fd94b8a60/output/res/drawable/common_google_signin_btn_text_disabled.xml"
+    },
+    {
+        "merged": "/Users/seohyemin/Downloads/Blinkling-dayon/C:\\Users\\dy889\\Documents\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_ic_expanded_controller_skip_next.xml",
+        "source": "/Users/seohyemin/Downloads/Blinkling-dayon/C:\\Users\\dy889\\.android\\build-cache\\6eb1f1beb74a0f6f7519161070d151573d511644\\output\\res\\drawable\\cast_ic_expanded_controller_skip_next.xml"
     },
     {
         "merged": "/Users/seohyemin/Downloads/Blinkling-dayon/C:\\Users\\dy889\\Documents\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_icon_light_normal.xml",
@@ -266,6 +266,10 @@
     {
         "merged": "/Users/mac/Downloads/Blinkling-dayon/app/build/intermediates/res/merged/debug/drawable/back.png",
         "source": "/Users/mac/Downloads/Blinkling-dayon/app/src/main/res/drawable/back.png"
+    },
+    {
+        "merged": "/Users/mac/Blinkling/app/build/intermediates/res/merged/debug/drawable/book2.png",
+        "source": "/Users/mac/Blinkling/app/src/main/res/drawable/book2.png"
     },
     {
         "merged": "/Users/mac/Downloads/Blinkling-dayon/app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_icon_dark_focused.xml",
@@ -1396,6 +1400,10 @@
         "source": "/Users/mac/.android/build-cache/913d8db17f1c25b6ee67b77b63f40d3096bd505a/output/res/drawable/abc_ic_arrow_drop_right_black_24dp.xml"
     },
     {
+        "merged": "/Users/mac/Blinkling/app/build/intermediates/res/merged/debug/drawable/book4.png",
+        "source": "/Users/mac/Blinkling/app/src/main/res/drawable/book4.png"
+    },
+    {
         "merged": "/Users/mac/Blinkling/app/build/intermediates/res/merged/debug/drawable/cast_ic_mini_controller_pause.xml",
         "source": "/Users/mac/.android/build-cache/d3ff796d1a0a0be6c348fb13321312629f76eaaf/output/res/drawable/cast_ic_mini_controller_pause.xml"
     },
@@ -2088,6 +2096,10 @@
         "source": "/Users/seohyemin/Downloads/Blinkling-dayon/C:\\Users\\dy889\\.android\\build-cache\\6eb1f1beb74a0f6f7519161070d151573d511644\\output\\res\\drawable\\cast_ic_mini_controller_mute.xml"
     },
     {
+        "merged": "/Users/mac/Blinkling/app/build/intermediates/res/merged/debug/drawable/book1.png",
+        "source": "/Users/mac/Blinkling/app/src/main/res/drawable/book1.png"
+    },
+    {
         "merged": "/Users/dayeon/Blinkling/app/build/intermediates/res/merged/debug/drawable/cast_expanded_controller_actionbar_bg_gradient_light.xml",
         "source": "/Users/dayeon/.android/build-cache/a1282a1ff9a88fec68e822dfee287e19f4ce9348/output/res/drawable/cast_expanded_controller_actionbar_bg_gradient_light.xml"
     },
@@ -2266,6 +2278,10 @@
     {
         "merged": "/Users/dayeon/Blinkling/app/build/intermediates/res/merged/debug/drawable/worldwide.png",
         "source": "/Users/dayeon/Blinkling/app/src/main/res/drawable/worldwide.png"
+    },
+    {
+        "merged": "/Users/mac/Blinkling/app/build/intermediates/res/merged/debug/drawable/book3.png",
+        "source": "/Users/mac/Blinkling/app/src/main/res/drawable/book3.png"
     },
     {
         "merged": "/Users/seohyemin/Downloads/Blinkling-dayon/app/build/intermediates/res/merged/debug/drawable/abc_list_selector_background_transition_holo_light.xml",

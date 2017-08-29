@@ -7,6 +7,7 @@ import android.content.res.Configuration;
 import android.net.Uri;
 import android.os.Build;
 import android.os.Bundle;
+import android.os.Environment;
 import android.provider.Settings;
 import android.support.design.widget.BottomNavigationView;
 import android.support.v4.app.Fragment;
@@ -30,6 +31,8 @@ import com.example.hyemin.blinkling.Service.ScreenFilterService;
 import com.example.hyemin.blinkling.Setting.SettingFragment;
 import com.example.hyemin.blinkling.Webview.WebviewFragment;
 
+import java.io.File;
+
 import static android.Manifest.permission.READ_EXTERNAL_STORAGE;
 import static android.Manifest.permission.RECORD_AUDIO;
 
@@ -38,6 +41,7 @@ public class MainActivity extends ActionBarActivity {
     private final int MY_PERMISSION_REQUEST_STORAGE = 100;
     private boolean isRecording = false;
     private static final int REQUEST_RECORD_AUDIO_PERMISSION = 200;
+    String InStoragePath = Environment.getExternalStorageDirectory().getAbsolutePath() +"/Blinkling";
 
     public static BottomNavigationView bottomNavigation;
     private Fragment fragment;
@@ -62,11 +66,11 @@ public class MainActivity extends ActionBarActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+
+        makeDirectory(InStoragePath);
+
         toolbar = (Toolbar) findViewById(R.id.tool_bar);
         aframe = (FrameLayout) findViewById(R.id.main_container);
-
-        FrameLayout fl = (FrameLayout) findViewById(R.id.main_container);
-        fl.removeAllViews();
 
         setSupportActionBar(toolbar);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
@@ -318,7 +322,18 @@ public class MainActivity extends ActionBarActivity {
                 break;
         }
     }
+    private File makeDirectory(String dir_path){
+        File dir = new File(dir_path);
+        if (!dir.exists())
+        {
+            dir.mkdirs();
+            Log.i( TAG , "!dir.exists" );
+        }else{
+            Log.i( TAG , "dir.exists" );
+        }
 
+        return dir;
+    }
     public void InnerStorageFragment_start() {
         fragment = new InnerStorageFragment();
         replaceFragment(fragment);

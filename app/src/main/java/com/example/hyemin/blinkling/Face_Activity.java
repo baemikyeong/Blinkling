@@ -32,6 +32,8 @@ import android.widget.Toast;
 
 import com.example.hyemin.blinkling.camera.CameraSourcePreview;
 import com.example.hyemin.blinkling.camera.GraphicOverlay;
+import com.example.hyemin.blinkling.event.NeutralFaceEvent;
+import com.example.hyemin.blinkling.event.RightEyeClosedEvent;
 import com.google.android.gms.common.ConnectionResult;
 import com.google.android.gms.common.GoogleApiAvailability;
 import com.google.android.gms.vision.CameraSource;
@@ -39,6 +41,9 @@ import com.google.android.gms.vision.MultiProcessor;
 import com.google.android.gms.vision.Tracker;
 import com.google.android.gms.vision.face.Face;
 import com.google.android.gms.vision.face.FaceDetector;
+
+import org.greenrobot.eventbus.Subscribe;
+import org.greenrobot.eventbus.ThreadMode;
 
 import java.io.IOException;
 
@@ -79,6 +84,8 @@ public final class Face_Activity extends Activity {
 
     long indivisual_blink_time;
 
+    boolean starttimecheck = false;
+    long startTime=0, endTime=0;
 
     //==============================================================================================
     // Activity Methods
@@ -141,6 +148,24 @@ public final class Face_Activity extends Activity {
                 Snackbar.LENGTH_INDEFINITE)
                 .setAction(R.string.ok, listener)
                 .show();
+    }
+
+    @Subscribe(threadMode = ThreadMode.MAIN)
+    public void onRightEyeClosed(RightEyeClosedEvent e) {
+        // change_up_location();
+        Toast.makeText(this, "눈 감음", Toast.LENGTH_SHORT).show();
+        if(starttimecheck == true)
+        startTime = System.currentTimeMillis(); // 시간재기
+
+    }
+
+    @Subscribe(threadMode = ThreadMode.MAIN)
+    public void onNeutralFace(NeutralFaceEvent e) {
+
+        // 시간 멈추기
+        endTime = System.currentTimeMillis();
+        starttimecheck = false;
+        Toast.makeText(this, "눈 뜸", Toast.LENGTH_SHORT).show();
     }
 
     /**
@@ -208,17 +233,22 @@ public final class Face_Activity extends Activity {
         check = 1;
         initial_check = true;
         face_check = new GraphicFaceTracker(mGraphicOverlay);
-        Toast.makeText(this, "성공" + right_thred1 + "dhk" + left_thred1, Toast.LENGTH_SHORT).show();
+        Toast.makeText(this, "성공" + right_thred1 + "와" + left_thred1, Toast.LENGTH_SHORT).show();
 
     }
 
     public void onClickInit_time (View v ) throws InterruptedException {
         // 정확도를 위해 두 번 check
+
+        starttimecheck = true;
         face_check.onDone();
         face_check = new GraphicFaceTracker(mGraphicOverlay);
         face_check.mFaceGraphic.set_closed_size((double)left_thred1, (double)right_thred1);
-        face_check.mFaceGraphic.set_check_time();
-        indivisual_blink_time = face_check.mFaceGraphic.return_time();
+
+        while(starttimecheck != false)
+            Toast.makeText(this, "시간 측정 중입니다", Toast.LENGTH_SHORT).show();
+
+        indivisual_blink_time = endTime-startTime;
         Toast.makeText(this, "시간" + indivisual_blink_time, Toast.LENGTH_SHORT).show();
 
     }
