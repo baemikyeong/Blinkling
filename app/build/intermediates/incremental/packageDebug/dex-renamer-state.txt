@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #Tue Aug 29 15:39:06 KST 2017
 file.80=/Users/mac/Blinkling/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_0e4eda2345e83a3fa0e4650d6c9716b993da9738/classes.dex
 file.79=/Users/mac/Blinkling/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_8ed91db91a098b4994f48cbce0fe736d7cbdbfbb/classes.dex
@@ -242,3 +243,12 @@ renamed.13=classes50.dex
 renamed.12=classes23.dex
 renamed.11=classes80.dex
 renamed.10=classes13.dex
+=======
+#Sun Aug 27 16:15:57 KST 2017
+base.0=/Users/dayeon/Blinkling/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_bd63f8ffc14f3ccaaa257a2a35a23424c052848e
+renamed.1=classes.dex
+renamed.0=classes2.dex
+file.1=/Users/dayeon/Blinkling/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_c00b3cb394267bf7ae0e21ec809e7480801bd689/classes.dex
+base.1=/Users/dayeon/Blinkling/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_c00b3cb394267bf7ae0e21ec809e7480801bd689
+file.0=/Users/dayeon/Blinkling/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_bd63f8ffc14f3ccaaa257a2a35a23424c052848e/classes.dex
+>>>>>>> 6710a7ba86f3cd865add03dcada8f288204e8beb

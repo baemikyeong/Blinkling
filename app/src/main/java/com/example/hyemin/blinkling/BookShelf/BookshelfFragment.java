@@ -3,6 +3,8 @@ package com.example.hyemin.blinkling.BookShelf;
 import android.app.Activity;
 import android.content.ActivityNotFoundException;
 import android.content.Intent;
+import android.graphics.Bitmap;
+import android.graphics.BitmapFactory;
 import android.net.Uri;
 import android.os.Bundle;
 import android.os.Environment;
@@ -17,7 +19,6 @@ import android.widget.ArrayAdapter;
 import android.widget.GridView;
 import android.widget.Toast;
 
-import com.example.hyemin.blinkling.Book_Viewer.TextViewFragment;
 import com.example.hyemin.blinkling.MainActivity;
 import com.example.hyemin.blinkling.R;
 
@@ -26,15 +27,21 @@ import java.util.ArrayList;
 
 public class BookshelfFragment extends Fragment {
     File dir = Environment.getExternalStorageDirectory().getAbsoluteFile();
-    GridView mFileListView;
+    GridView mFileGridView;
     ArrayList<String> mArrayListFile;
     ArrayAdapter m_adapter;
+    ArrayList<Bitmap> mPicArr = new ArrayList<Bitmap>();
+    ArrayList<String> mTitleArr = new ArrayList<String>();
+
+
+
+    String valBookName = "";
     String mPath = "";
     String mRoot = "";
     String mBookName = "";
     String strPathComp = "";
     // String InStoragePath = Environment.getRootDirectory().getAbsolutePath();
-    String InStoragePath = Environment.getExternalStorageDirectory().getAbsolutePath();
+    String InStoragePath = Environment.getExternalStorageDirectory().getAbsolutePath() +"/Blinkling";
 
 
     //    Fragment frag = new TextViewFragment();
@@ -44,13 +51,33 @@ public class BookshelfFragment extends Fragment {
 //
 //             ( (MainActivity)getActivity()).changeToText();
 
-    public static Fragment newInstance(String param1) {
-        TextViewFragment frag = new TextViewFragment();
-        Bundle args = new Bundle();
-        args.putString("bookname",param1);
-        frag.setArguments(args);
-        return frag;
-    }
+//    public static Fragment newInstance(String param1) {
+//        TextViewFragment frag = new TextViewFragment();
+//        Bundle args = new Bundle();
+//        args.putString("bookname",param1);
+//        frag.setArguments(args);
+//        return frag;
+//    }
+
+//    @Override
+//    public void onCreate(@Nullable Bundle savedInstanceState) {
+//        super.onCreate(savedInstanceState);
+//
+//        if (getArguments() != null) {
+//            valBookName = getArguments().getString("keyBook");
+//        }
+//    }
+
+//    @Override
+//    public void onCreate(@Nullable Bundle savedInstanceState) {
+//        super.onCreate(savedInstanceState);
+//
+//        if (getArguments() != null) {
+//            valBookName = getArguments().getString("keyBook");
+//        }
+//    }
+
+
     public BookshelfFragment() {
         // Required empty public constructor
     }
@@ -60,8 +87,14 @@ public class BookshelfFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
+
+       Activity root = getActivity();
+       Toast toast;
+
+
+
         View rootView = inflater.inflate(R.layout.fragment_bookshelf, container, false);
-        mFileListView = (GridView) rootView.findViewById(android.R.id.list);
+        mFileGridView = (GridView) rootView.findViewById(android.R.id.list);
         mRoot = InStoragePath;
         //  ( (MainActivity)getActivity()).changeToBookshelf();
         //    findFolder();
@@ -70,17 +103,17 @@ public class BookshelfFragment extends Fragment {
         String ext = Environment.getExternalStorageState();
         if (ext.equals(Environment.MEDIA_MOUNTED)) {
             findFolder();
-            Activity root = getActivity();
+          //  Activity root = getActivity();
 //            Toast toast = Toast.makeText(root, "There is  SDcard!", Toast.LENGTH_SHORT);
 //           toast.show();
 
         } else {
-            Activity root = getActivity();
-            Toast toast = Toast.makeText(root, "There is no SDcard!", Toast.LENGTH_SHORT);
+           // Activity root = getActivity();
+            toast = Toast.makeText(root, "There is no SDcard!", Toast.LENGTH_SHORT);
             toast.show();
         }
 
-        mFileListView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+        mFileGridView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView parent, View v, int position, long id) {
                 String strItem = mArrayListFile.get(position);//position은 0부터 시작 position 번째 아이템 이름을 리턴함
@@ -89,6 +122,24 @@ public class BookshelfFragment extends Fragment {
                 ShowFileList(fileList); //파일 목록을 ListView 에 표시
             }
         });
+
+
+
+        Bitmap bm1 = BitmapFactory.decodeResource(getResources(), R.drawable.book1);
+        Bitmap bm2 = BitmapFactory.decodeResource(getResources(), R.drawable.book2);
+        Bitmap bm3 = BitmapFactory.decodeResource(getResources(), R.drawable.book3);
+        Bitmap bm4 = BitmapFactory.decodeResource(getResources(), R.drawable.book4);
+
+
+        mPicArr.add(bm1);
+        mPicArr.add(bm2);
+        mPicArr.add(bm3);
+        mPicArr.add(bm4);
+
+
+      //  mFileGridView.setAdapter(new gridAdapter());
+
+
 
 
         return rootView;
@@ -117,7 +168,7 @@ public class BookshelfFragment extends Fragment {
         //(getActivity(, android.R.layout.simple_list_item_1, mList);
 
         m_adapter = new ArrayAdapter(getActivity(), android.R.layout.simple_list_item_1, mArrayListFile);
-        mFileListView.setAdapter(m_adapter);
+        mFileGridView.setAdapter(m_adapter);
 
 
 
@@ -172,6 +223,8 @@ public class BookshelfFragment extends Fragment {
 //            strPath = strPath.substring(0,pos);
             mBookName = strPath; //
 
+            mTitleArr.add(mBookName);
+
 //            Toast toast = Toast.makeText(root, mBookName, Toast.LENGTH_SHORT);
 //            toast.show();
 
@@ -183,6 +236,7 @@ public class BookshelfFragment extends Fragment {
 //            frag.setArguments(bundle);
 
             if(txt != -1){
+
                 ( (MainActivity)getActivity()).changeToText(mBookName);
             }
             else if(pdf != -1){
