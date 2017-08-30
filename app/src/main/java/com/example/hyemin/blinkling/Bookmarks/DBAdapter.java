@@ -33,11 +33,11 @@ public class DBAdapter extends CursorAdapter {
         final TextView text1 = (TextView)view.findViewById(R.id.textView1);
         final TextView text2 = (TextView)view.findViewById(R.id.textView2);
         final TextView text3 = (TextView)view.findViewById(R.id.textView3);
-        final TextView text4 = (TextView)view.findViewById(R.id.textView4);
+     //   final TextView text4 = (TextView)view.findViewById(R.id.textView4);
 
 
       //  image.setImageResource(R.drawable.ic_turned_in_black_24dp);
-        text4.setText(cursor.getString(cursor.getColumnIndex("ID")));
+    //    text4.setText(cursor.getString(cursor.getColumnIndex("ID")));
         text1.setText(cursor.getString(cursor.getColumnIndex("TITLE")));
         text2.setText(cursor.getString(cursor.getColumnIndex("TYPE")));
         text3.setText(cursor.getString(cursor.getColumnIndex("DOCUMENT")));

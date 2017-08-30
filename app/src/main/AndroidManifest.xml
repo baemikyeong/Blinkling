@@ -37,6 +37,9 @@
             android:permission="android.permission.CAMERA"
             android:screenOrientation="fullSensor"></activity>
 
+        <activity android:name=".Bookmark.a"
+            ></activity>
+
         <service
             android:name=".Service.ScreenFilterService"
             android:enabled="true"

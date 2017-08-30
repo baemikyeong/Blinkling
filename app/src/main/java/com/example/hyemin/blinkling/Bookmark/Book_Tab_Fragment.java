@@ -1,4 +1,4 @@
-package com.example.hyemin.blinkling.Bookmarks;
+package com.example.hyemin.blinkling.Bookmark;
 
 
 import android.os.Bundle;

@@ -260,6 +260,10 @@
         "source": "/Users/seohyemin/.android/build-cache/b5526703288357c323e2e1ef12cac4fa78843af5/output/res/layout/design_navigation_menu.xml"
     },
     {
+        "merged": "/Users/seohyemin/Blinkling-master/app/build/intermediates/res/merged/debug/layout/maina.xml",
+        "source": "/Users/seohyemin/Blinkling-master/app/src/main/res/layout/maina.xml"
+    },
+    {
         "merged": "/Users/seohyemin/Blinkling-master/app/build/intermediates/res/merged/debug/layout/lv_header_layout.xml",
         "source": "/Users/seohyemin/Blinkling-master/app/src/main/res/layout/lv_header_layout.xml"
     },

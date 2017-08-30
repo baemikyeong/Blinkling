@@ -1,4 +1,4 @@
-package com.example.hyemin.blinkling.Bookmarks;
+package com.example.hyemin.blinkling.Bookmark;
 
 import android.os.Bundle;
 import android.support.design.widget.TabLayout;
@@ -15,6 +15,7 @@ import android.widget.EditText;
 import android.widget.ListView;
 import android.widget.Spinner;
 
+import com.example.hyemin.blinkling.Bookmarks.ListViewAdapter;
 import com.example.hyemin.blinkling.R;
 
 import java.util.ArrayList;

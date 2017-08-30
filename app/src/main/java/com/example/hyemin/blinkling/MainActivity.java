@@ -25,10 +25,10 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.example.hyemin.blinkling.BookShelf.BookshelfFragment;
-//import com.example.hyemin.blinkling.Bookmark.Bookmark_DB;
-import com.example.hyemin.blinkling.Bookmarks.BookmarkFragment;
-import com.example.hyemin.blinkling.Bookmarks.Bookmark_Info;
-import com.example.hyemin.blinkling.Bookmarks.DbOpenHelper;
+import com.example.hyemin.blinkling.Bookmark.BookmarkFragment;
+import com.example.hyemin.blinkling.Bookmark.DateFormatter;
+import com.example.hyemin.blinkling.Bookmark.DbOpenHelper;
+import com.example.hyemin.blinkling.Bookmark.a;
 import com.example.hyemin.blinkling.Service.ScreenFilterService;
 import com.example.hyemin.blinkling.Setting.SettingFragment;
 import com.example.hyemin.blinkling.Webview.WebviewFragment;
@@ -42,11 +42,11 @@ public class MainActivity extends ActionBarActivity {
     private Toolbar toolbar;
     boolean light;//초기상태는 불이 꺼진 상태
     DbOpenHelper db_helper;
-   // Bookmark_DB bookmark_db;
     private TextView tv;
     TextViewFragment txt_fragment;
     private String book_title;
     private int bookmark_pos;
+    private String T_date;
 
 
     @Override
@@ -124,9 +124,9 @@ public class MainActivity extends ActionBarActivity {
         int id = item.getItemId();
         switch (id) {
             case android.R.id.home: {
-                Toast toast;
-                toast = Toast.makeText(this, item.getTitle() + " Clicked folder button!", Toast.LENGTH_SHORT);
-                toast.show();
+               Intent intent = new Intent(MainActivity.this, a.class);
+                startActivity(intent);
+
                 return true;
             }
             case R.id.notebook_add: {
@@ -257,6 +257,8 @@ public class MainActivity extends ActionBarActivity {
     }
 
     public void addBookmark() {
+        java.util.Calendar cal = java.util.Calendar.getInstance();
+        T_date = DateFormatter.format(cal, "yyyy-MM-dd HH:mm:ss");
 
         txt_fragment = (TextViewFragment) getSupportFragmentManager().findFragmentById(R.id.main_container);
         TextView txt = txt_fragment.getTxtBook();
@@ -272,17 +274,18 @@ public class MainActivity extends ActionBarActivity {
                         new DialogInterface.OnClickListener() {
                             @Override
                             public void onClick(DialogInterface dialog, int which) {
-                                String title = editText.getText().toString();
-                                String type = "bookmark";
-                                int position = bookmark_pos;
-                                String document = book_title;
+                                String title = editText.getText().toString();//북마크의 이름
+                                int position = bookmark_pos; //북마크 좌표
+                                String document = book_title; //문서의 이름
+                                String time_date = T_date; //저장된 시각
                                 if (db_helper == null) {
                                     db_helper = new DbOpenHelper(getApplicationContext());
                                     db_helper.open();
-                                  //  bookmark_db = new Bookmark_DB(MainActivity.this, "TEST", null, 1);
                                 }
 
-                                Bookmark_Info bi = new Bookmark_Info(title,type,document);
+                                db_helper.insertColumn(title,document,time_date,time_date,Integer.toString(position));
+                                //InfoClass infoClass = new InfoClass()
+                              //  Bookmarnfo bi = new Bookmark_Info(title,type,document);
 /*
 
                                 Bookmark_Info bi = new Bookmark_Info();
