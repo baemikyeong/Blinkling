@@ -28,7 +28,6 @@ import com.example.hyemin.blinkling.BookShelf.BookshelfFragment;
 import com.example.hyemin.blinkling.Bookmark.BookmarkFragment;
 import com.example.hyemin.blinkling.Bookmark.DateFormatter;
 import com.example.hyemin.blinkling.Bookmark.DbOpenHelper;
-import com.example.hyemin.blinkling.Bookmark.a;
 import com.example.hyemin.blinkling.Service.ScreenFilterService;
 import com.example.hyemin.blinkling.Setting.SettingFragment;
 import com.example.hyemin.blinkling.Webview.WebviewFragment;
@@ -124,9 +123,6 @@ public class MainActivity extends ActionBarActivity {
         int id = item.getItemId();
         switch (id) {
             case android.R.id.home: {
-               Intent intent = new Intent(MainActivity.this, a.class);
-                startActivity(intent);
-
                 return true;
             }
             case R.id.notebook_add: {
