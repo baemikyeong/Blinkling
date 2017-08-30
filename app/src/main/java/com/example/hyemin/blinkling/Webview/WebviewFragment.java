@@ -56,6 +56,7 @@ public class WebviewFragment extends Fragment {
     private double right_thres = 0;
     private static final int REQUEST_CAMERA_PERM = 69;      // 카메라 퍼미션을 위한 코드
     private int[] location = new int[2];
+    EditText url_String;
     View main_view;
 
     public WebviewFragment() {
@@ -79,7 +80,7 @@ public class WebviewFragment extends Fragment {
         WebSettings set = webView.getSettings();
         Button button = (Button)main_view.findViewById(R.id.btnGo);
         ImageButton back_button = (ImageButton)main_view.findViewById(R.id.back);
-        final EditText url_String = (EditText)main_view.findViewById(R.id.txtURL);
+        url_String = (EditText)main_view.findViewById(R.id.txtURL);
 
         webView.getSettings().setJavaScriptEnabled(true);
         webView.setScrollBarStyle(View.SCROLLBARS_INSIDE_OVERLAY);
@@ -169,6 +170,7 @@ public class WebviewFragment extends Fragment {
         view.loadUrl(url);
 
     }
+
 
     private class WebClient extends WebViewClient {
 

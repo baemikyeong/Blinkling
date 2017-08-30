@@ -170,25 +170,25 @@ public class TextViewFragment extends Fragment {
             case 1: // 연한 베이지
                 tv.setBackgroundColor(Color.rgb(245, 241, 222));
                 if(mPager != null)
-                mPager.setBackgroundColor(Color.rgb(245, 241, 222));
+                    mPager.setBackgroundColor(Color.rgb(245, 241, 222));
                 rootView.setBackgroundColor(Color.rgb(245, 241, 222));
                 break;
             case 2: // 연한 그레이
                 tv.setBackgroundColor(Color.rgb(204, 204, 204));
                 if(mPager != null)
-                mPager.setBackgroundColor(Color.rgb(204, 204, 204));
+                    mPager.setBackgroundColor(Color.rgb(204, 204, 204));
                 rootView.setBackgroundColor(Color.rgb(204, 204, 204));
                 break;
             case 3: // 흰색
                 tv.setBackgroundColor(Color.rgb(255, 255, 255));
                 if(mPager != null)
-                mPager.setBackgroundColor(Color.rgb(255, 255, 255));
+                    mPager.setBackgroundColor(Color.rgb(255, 255, 255));
                 rootView.setBackgroundColor(Color.rgb(255, 255, 255));
                 break;
             case 4: // 검정색
                 tv.setBackgroundColor(Color.rgb(0, 0, 0));
                 if(mPager != null)
-                mPager.setBackgroundColor(Color.rgb(0, 0, 0));
+                    mPager.setBackgroundColor(Color.rgb(0, 0, 0));
                 rootView.setBackgroundColor(Color.rgb(0, 0, 0));
                 break;
         }
@@ -592,8 +592,6 @@ public class TextViewFragment extends Fragment {
         // results
 
         mFaceDetector.setProcessor(new LargestFaceFocusingProcessor(mFaceDetector, face_tracker = new FaceTracker()));
-
-        // 초기화가 되었다면, 초기화 값 설정 필요
 
         // operational...?
         if (!mFaceDetector.isOperational()) {
