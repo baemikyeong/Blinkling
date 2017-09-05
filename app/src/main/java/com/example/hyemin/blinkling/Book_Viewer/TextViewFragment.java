@@ -92,6 +92,7 @@ public class TextViewFragment extends Fragment {
     private Display mDisplay;
     public static int font;
     public static int textsize;
+    int pagestyle;
     View rootView;
     public static ViewGroup textviewPage;
 
@@ -121,7 +122,7 @@ public class TextViewFragment extends Fragment {
 
         int bgcolor = intPref.getInt("background", 0);
         font = intPref.getInt("font_edit", 0);
-        int pagestyle = intPref.getInt("pagestyle_edit", 8);
+        pagestyle = intPref.getInt("pagestyle_edit", 8);
         textsize = intPref.getInt("textsize", 1);
 
         Typeface typeFace;
@@ -421,16 +422,29 @@ public class TextViewFragment extends Fragment {
     //눈깜박임에 따른 페이지 down 함수
     public void change_down_location() {
         // 절대값을 통해 text뷰의 스크롤뷰에서의 위치 파악
-        if (location[1] < 0)
-            location[1] = (-1) * location[1];
+        if (pagestyle%10 == 7) {
+            int cur = mPager.getCurrentItem();
+            mPager.setCurrentItem(++cur);
+            try {
+                Thread.sleep(100);
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
 
-        // 위치 변경
-        scrollView.scrollTo(0, location[1] + 60);
-        location[1] += 60;
-        try {
-            Thread.sleep(100);
-        } catch (InterruptedException e) {
-            e.printStackTrace();
+        }
+        else{
+            if (location[1] < 0)
+                location[1] = (-1) * location[1];
+
+            // 위치 변경
+            scrollView.scrollTo(0, location[1] + 60);
+            location[1] += 60;
+            try {
+                Thread.sleep(100);
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
+
         }
 
     }

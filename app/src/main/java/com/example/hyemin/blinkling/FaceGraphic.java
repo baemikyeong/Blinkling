@@ -23,6 +23,8 @@ import android.graphics.Paint;
 import android.widget.Toast;
 
 import com.example.hyemin.blinkling.camera.GraphicOverlay;
+import com.example.hyemin.blinkling.event.EyeClosedEvent;
+import com.example.hyemin.blinkling.event.EyeOpenEvent;
 import com.example.hyemin.blinkling.event.NeutralFaceEvent;
 import com.example.hyemin.blinkling.event.RightEyeClosedEvent;
 import com.google.android.gms.vision.face.Face;
@@ -152,9 +154,14 @@ class FaceGraphic extends GraphicOverlay.Graphic {
 
         // 눈 크기 초기화 없이 시간 초기화
         if (check_time != 1) {
-            if (leftClosed && face.getIsLeftEyeOpenProbability() > 0.5) {
+            if (leftClosed && face.getIsLeftEyeOpenProbability() > 0.8) {
                 leftClosed = false;
             } else if (!leftClosed && face.getIsLeftEyeOpenProbability() < 0.5) {
+                try {
+                    Thread.sleep(50);
+                } catch (InterruptedException e) {
+                    e.printStackTrace();
+                }
                 if (!leftClosed && face.getIsLeftEyeOpenProbability() < 0.5)
                     leftClosed = true;
                 else leftClosed = false;
@@ -162,6 +169,11 @@ class FaceGraphic extends GraphicOverlay.Graphic {
             if (rightClosed && face.getIsRightEyeOpenProbability() > 0.5) {
                 rightClosed = false;
             } else if (!rightClosed && face.getIsRightEyeOpenProbability() < 0.5) {
+                try {
+                    Thread.sleep(50);
+                } catch (InterruptedException e) {
+                    e.printStackTrace();
+                }
                 if (!rightClosed && face.getIsRightEyeOpenProbability() < 0.5)
                     rightClosed = true;
                 else rightClosed = false;
@@ -170,6 +182,11 @@ class FaceGraphic extends GraphicOverlay.Graphic {
             if (leftClosed && face.getIsLeftEyeOpenProbability() > leftClosed_size) {
                 leftClosed = false;
             } else if (!leftClosed && face.getIsLeftEyeOpenProbability() < leftClosed_size) {
+                try {
+                    Thread.sleep(50);
+                } catch (InterruptedException e) {
+                    e.printStackTrace();
+                }
                 if (!leftClosed && face.getIsLeftEyeOpenProbability() < leftClosed_size)
                     leftClosed = true;
                 else leftClosed = false;
@@ -177,6 +194,11 @@ class FaceGraphic extends GraphicOverlay.Graphic {
             if (rightClosed && face.getIsRightEyeOpenProbability() > rightClosed_size) {
                 rightClosed = false;
             } else if (!rightClosed && face.getIsRightEyeOpenProbability() < rightClosed_size) {
+                try {
+                    Thread.sleep(50);
+                } catch (InterruptedException e) {
+                    e.printStackTrace();
+                }
                 if (!rightClosed && face.getIsRightEyeOpenProbability() < rightClosed_size)
                     rightClosed = true;
                 else rightClosed = false;
@@ -184,9 +206,9 @@ class FaceGraphic extends GraphicOverlay.Graphic {
         }
 
         if (leftClosed && rightClosed) {
-            EventBus.getDefault().post(new RightEyeClosedEvent());
+            EventBus.getDefault().post(new EyeClosedEvent());
         } else if (!leftClosed && !rightClosed) {
-            EventBus.getDefault().post(new NeutralFaceEvent());
+            EventBus.getDefault().post(new EyeOpenEvent());
         }
     }
 }

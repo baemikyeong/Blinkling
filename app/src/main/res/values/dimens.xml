@@ -26,6 +26,6 @@
     <dimen name="lvSectionDividerMarginTop">5dp</dimen>
 
     <dimen name="activity_horizontal_margin">0dp</dimen>
-    <dimen name="activity_vertical_margin">130dp</dimen>
+    <dimen name="activity_vertical_margin">250dp</dimen>
 
 </resources>

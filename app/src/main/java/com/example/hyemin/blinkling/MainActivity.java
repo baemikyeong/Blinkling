@@ -19,6 +19,7 @@ import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.FrameLayout;
+import android.widget.RelativeLayout;
 import android.widget.Toast;
 
 import com.example.hyemin.blinkling.BookShelf.BookshelfFragment;
@@ -56,6 +57,7 @@ public class MainActivity extends ActionBarActivity {
 
         FrameLayout fl = (FrameLayout) findViewById(R.id.main_container);
         fl.removeAllViews();
+
 
         super.onConfigurationChanged(newConfig);
 
@@ -122,6 +124,9 @@ public class MainActivity extends ActionBarActivity {
 
         FrameLayout fl = (FrameLayout) findViewById(R.id.main_container);
         fl.removeAllViews();
+
+        RelativeLayout l = (RelativeLayout) findViewById(R.id.activity_main);
+
 
         if (!fragmentPopped) {                  //fragment not in back stack, create it.
             FragmentTransaction ft = manager.beginTransaction();

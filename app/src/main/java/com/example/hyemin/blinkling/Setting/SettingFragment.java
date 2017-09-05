@@ -210,7 +210,7 @@ public class SettingFragment extends Fragment {
                 SetPageStyleFragment page_dialog = new SetPageStyleFragment();
                 page_dialog.show(getFragmentManager(), "Edit pagestyle");
                 break;
-            case 7:
+            case 8:
                 Intent intent = new Intent(getActivity(), Face_Activity.class);
 
                 if (mCameraSource != null) {

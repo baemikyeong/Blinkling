@@ -36,7 +36,6 @@ public class BookshelfFragment extends Fragment {
     String strPathComp = "";
     String InStoragePath = Environment.getExternalStorageDirectory().getAbsolutePath() +"/Blinkling";
 
-
     public BookshelfFragment() {
         // Required empty public constructor
     }
@@ -107,21 +106,20 @@ public class BookshelfFragment extends Fragment {
         // Environment.getRootDirectory().getAbsolutePath()
 
 
-        mArrayListFile = new ArrayList<String>();
-
+      //  mArrayListFile = new ArrayList<String>();
+        mArrayListFile = new ArrayList<>();
         //String InStoragePath = Environment.getExternalStorageDirectory().getAbsolutePath();
         File files = new File(InStoragePath);
         Activity root = getActivity();
         //ArrayAdapter<String> arrayAdapter = new ArrayAdapter<String>(root, simple_list_item_1, mArrayListFile);
 
-        if (files.listFiles().length > 0) {
-            for (File file : files.listFiles()) {
-                mArrayListFile.add(file.getName());
+        if(files.listFiles() != null) {
+            if (files.listFiles().length > 0) {
+                for (File file : files.listFiles()) {
+                    mArrayListFile.add(file.getName());
+                }
             }
-        } else {
-            files = null;
         }
-
         //(getActivity(, android.R.layout.simple_list_item_1, mList);
 
 //        m_adapter = new ArrayAdapter(getActivity(), android.R.layout.simple_list_item_1, mArrayListFile);
