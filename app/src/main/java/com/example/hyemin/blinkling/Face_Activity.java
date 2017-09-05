@@ -180,6 +180,8 @@ public final class Face_Activity extends Activity {
             Toast.makeText(this, "눈 뜸", Toast.LENGTH_SHORT).show();
             indivisual_blink_time = endTime - startTime;
             Toast.makeText(this, "시간" + indivisual_blink_time, Toast.LENGTH_SHORT).show();
+            editor1.putLong("time_blink", indivisual_blink_time);
+            editor1.commit();
         }
         startChecked = false;
         starttimecheck++;
@@ -230,15 +232,6 @@ public final class Face_Activity extends Activity {
             mCameraSource = null;
         }
 
-        if (initial_check == true) {
-
-            editor1.putFloat("LValue", left_thred1);
-            editor1.putFloat("RValue", right_thred1);
-            editor1.내ㅕputLong("time_blink", indivisual_blink_time);
-            editor1.commit();
-
-        }
-
         left_thred1 = 0;
         right_thred1 = 0;
         startActivity(intent);
@@ -251,6 +244,9 @@ public final class Face_Activity extends Activity {
         initial_check = true;
         face_check = new GraphicFaceTracker(mGraphicOverlay);
         Toast.makeText(this, "성공" + right_thred1 + "와" + left_thred1, Toast.LENGTH_SHORT).show();
+        editor1.putFloat("LValue", left_thred1);
+        editor1.putFloat("RValue", right_thred1);
+        editor1.commit();
 
     }
 
