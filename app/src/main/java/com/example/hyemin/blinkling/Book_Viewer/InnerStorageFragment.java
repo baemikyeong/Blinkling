@@ -73,8 +73,7 @@ public class InnerStorageFragment extends ListFragment {
         if (ext.equals(Environment.MEDIA_MOUNTED)) {
             findFolder();
             Activity root = getActivity();
-//            Toast toast = Toast.makeText(root, "There is  SDcard!", Toast.LENGTH_SHORT);
-//           toast.show();
+
 
         } else {
             Activity root = getActivity();
@@ -128,8 +127,7 @@ public class InnerStorageFragment extends ListFragment {
             strPathComp = mPath + "/" + strFolder;
 
         Activity root = getActivity();
-//        Toast toast = Toast.makeText(root, strPathComp, Toast.LENGTH_SHORT);
-//        toast.show();
+
         return strPathComp;//       /선택된 폴더 이름 리턴
     }
 
@@ -154,8 +152,7 @@ public class InnerStorageFragment extends ListFragment {
 //            strPath = strPath.substring(0,pos);
             mBookName = strPath; //
 
-//            Toast toast = Toast.makeText(root, mBookName, Toast.LENGTH_SHORT);
-//            toast.show();
+
 
 //그러니까 경로의 마지막부분인 파일이름으로 읽는걸 들어가야 한다.
             //  newInstance(mBookName);

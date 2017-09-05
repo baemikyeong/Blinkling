@@ -15,24 +15,16 @@
  */
 package com.example.hyemin.blinkling;
 
-import android.app.Activity;
-import android.content.SharedPreferences;
 import android.graphics.Canvas;
 import android.graphics.Color;
 import android.graphics.Paint;
-import android.widget.Toast;
 
 import com.example.hyemin.blinkling.camera.GraphicOverlay;
 import com.example.hyemin.blinkling.event.EyeClosedEvent;
 import com.example.hyemin.blinkling.event.EyeOpenEvent;
-import com.example.hyemin.blinkling.event.NeutralFaceEvent;
-import com.example.hyemin.blinkling.event.RightEyeClosedEvent;
 import com.google.android.gms.vision.face.Face;
 
 import org.greenrobot.eventbus.EventBus;
-
-import static android.app.PendingIntent.getActivities;
-import static android.app.PendingIntent.getActivity;
 
 /**
  * Graphic instance for rendering face position, orientation, and landmarks within an associated

@@ -42,7 +42,6 @@ public class FaceTracker extends Tracker<Face> {
     private double left_thres;
     private double right_thres;
     private boolean initial_check = false;
-    private Face mface;
     private long user_time;
 
     public void set_indi(double left, double right, long time){

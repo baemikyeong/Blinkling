@@ -24,6 +24,7 @@ import android.util.Log;
 import android.util.TypedValue;
 import android.view.Display;
 import android.view.LayoutInflater;
+import android.view.Menu;
 import android.view.MotionEvent;
 import android.view.View;
 import android.view.ViewGroup;
@@ -34,6 +35,7 @@ import android.widget.ProgressBar;
 import android.widget.ScrollView;
 import android.widget.TableLayout;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.example.hyemin.blinkling.MainActivity;
 import com.example.hyemin.blinkling.R;
@@ -78,7 +80,6 @@ public class TextViewFragment extends Fragment {
     private SharedPreferences bookmarkPref;
     private SharedPreferences.Editor bookEdit;
     private int book_mark;
-    private String bookName = "";
     private SharedPreferences intPref;
     private SharedPreferences.Editor editor1;
     private WindowManager.LayoutParams params;
@@ -95,6 +96,9 @@ public class TextViewFragment extends Fragment {
     int pagestyle;
     View rootView;
     public static ViewGroup textviewPage;
+    private int bookmark_position;
+    private String bookName = "";
+
 
     @Override
     public void onCreate(@Nullable Bundle savedInstanceState) {
@@ -256,6 +260,15 @@ public class TextViewFragment extends Fragment {
         }
 
         return rootView;
+    }
+
+    public void onPrepareOptionsMenu(Menu menu) {
+        menu.findItem(R.id.voice_btn).setVisible(false);
+        menu.findItem(R.id.eye_btn).setVisible(false);
+        menu.findItem(R.id.light_btn).setVisible(false);
+        menu.findItem(R.id.notebook_add).setVisible(false);
+        menu.findItem(R.id.notebook_delete).setVisible(false);
+        super.onPrepareOptionsMenu(menu);
     }
 
     private int getScreenWidth(){
@@ -627,6 +640,27 @@ public class TextViewFragment extends Fragment {
                 .setFacing(CameraSource.CAMERA_FACING_FRONT)
                 .setRequestedFps(30f)
                 .build();
+    }
+
+    // 책갈피 추가함수
+    public int book_mark_add(TextView txt_v){//북마크 좌표 저장 메소드
+        Toast toast = null;
+        //book_mark의 전역변수 설정 후, db에 저장 필요
+        // book_mark는 int형 변수
+
+        txt_v = tv;
+        txt_v.getLocationOnScreen(location);
+        bookmark_position = location[1];
+        if(bookmark_position < 0) bookmark_position = (-1)*bookmark_position;
+
+        toast.makeText(getActivity(), "북마크추가함수입니다", Toast.LENGTH_SHORT).show();
+
+        return bookmark_position;
+    }
+
+
+    public TextView getTxtBook(){
+        return tv;
     }
 
 }

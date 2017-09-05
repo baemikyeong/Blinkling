@@ -1,25 +1,5 @@
 [
     {
-        "merged": "/Users/dayeon/Blinkling/app/build/intermediates/res/merged/debug/layout-v21/notification_template_custom_big.xml",
-        "source": "/Users/dayeon/.android/build-cache/08f0b85e835f6a143412367b800bd932d6600384/output/res/layout-v21/notification_template_custom_big.xml"
-    },
-    {
-        "merged": "/Users/seohyemin/Downloads/Blinkling-dayon/C:\\Users\\dy889\\Documents\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_action_tombstone.xml",
-        "source": "/Users/seohyemin/Downloads/Blinkling-dayon/C:\\Users\\dy889\\.android\\build-cache\\eaa9472fc91e028a5a27b3d20e7a0c3fbad5c383\\output\\res\\layout-v21\\notification_action_tombstone.xml"
-    },
-    {
-        "merged": "/Users/seohyemin/Downloads/Blinkling-dayon/C:\\Users\\dy889\\Documents\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_template_custom_big.xml",
-        "source": "/Users/seohyemin/Downloads/Blinkling-dayon/C:\\Users\\dy889\\.android\\build-cache\\eaa9472fc91e028a5a27b3d20e7a0c3fbad5c383\\output\\res\\layout-v21\\notification_template_custom_big.xml"
-    },
-    {
-        "merged": "/Users/dayeon/Blinkling/app/build/intermediates/res/merged/debug/layout-v21/place_autocomplete_fragment.xml",
-        "source": "/Users/dayeon/.android/build-cache/7a72835b32aa344f5f9782770720c650a8305813/output/res/layout-v21/place_autocomplete_fragment.xml"
-    },
-    {
-        "merged": "/Users/seohyemin/Downloads/Blinkling-dayon/C:\\Users\\dy889\\Documents\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_action.xml",
-        "source": "/Users/seohyemin/Downloads/Blinkling-dayon/C:\\Users\\dy889\\.android\\build-cache\\eaa9472fc91e028a5a27b3d20e7a0c3fbad5c383\\output\\res\\layout-v21\\notification_action.xml"
-    },
-    {
         "merged": "/Users/mac/Blinkling/app/build/intermediates/res/merged/debug/layout-v21/notification_template_custom_big.xml",
         "source": "/Users/mac/.android/build-cache/913d8db17f1c25b6ee67b77b63f40d3096bd505a/output/res/layout-v21/notification_template_custom_big.xml"
     },
@@ -32,71 +12,11 @@
         "source": "/Users/mac/.android/build-cache/e2dd64302fde5b64c830d10090ab66d13dc3747f/output/res/layout-v21/place_autocomplete_fragment.xml"
     },
     {
-        "merged": "/Users/mac/Downloads/Blinkling-dayon/app/build/intermediates/res/merged/debug/layout-v21/notification_action.xml",
-        "source": "/Users/mac/.android/build-cache/913d8db17f1c25b6ee67b77b63f40d3096bd505a/output/res/layout-v21/notification_action.xml"
-    },
-    {
-        "merged": "/Users/seohyemin/Downloads/Blinkling-dayon/app/build/intermediates/res/merged/debug/layout-v21/notification_action_tombstone.xml",
-        "source": "/Users/seohyemin/.android/build-cache/c7bc4f7edfba7ff92a9519a276f8d2da7169785b/output/res/layout-v21/notification_action_tombstone.xml"
-    },
-    {
-        "merged": "/Users/mac/Blinkling/app/build/intermediates/res/merged/debug/layout-v21/notification_action_tombstone.xml",
-        "source": "/Users/mac/.android/build-cache/913d8db17f1c25b6ee67b77b63f40d3096bd505a/output/res/layout-v21/notification_action_tombstone.xml"
-    },
-    {
-        "merged": "/Users/mac/Downloads/Blinkling-dayon/app/build/intermediates/res/merged/debug/layout-v21/place_autocomplete_fragment.xml",
-        "source": "/Users/mac/.android/build-cache/e2dd64302fde5b64c830d10090ab66d13dc3747f/output/res/layout-v21/place_autocomplete_fragment.xml"
-    },
-    {
-        "merged": "/Users/seohyemin/Downloads/Blinkling-dayon/app/build/intermediates/res/merged/debug/layout-v21/place_autocomplete_fragment.xml",
-        "source": "/Users/seohyemin/.android/build-cache/7513a969dcc805b7f0f9997c9c0130190965a6d4/output/res/layout-v21/place_autocomplete_fragment.xml"
-    },
-    {
-        "merged": "/Users/seohyemin/Downloads/Blinkling-dayon/C:\\Users\\dy889\\Documents\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_template_icon_group.xml",
-        "source": "/Users/seohyemin/Downloads/Blinkling-dayon/C:\\Users\\dy889\\.android\\build-cache\\eaa9472fc91e028a5a27b3d20e7a0c3fbad5c383\\output\\res\\layout-v21\\notification_template_icon_group.xml"
-    },
-    {
-        "merged": "/Users/seohyemin/Downloads/Blinkling-dayon/app/build/intermediates/res/merged/debug/layout-v21/notification_action.xml",
-        "source": "/Users/seohyemin/.android/build-cache/c7bc4f7edfba7ff92a9519a276f8d2da7169785b/output/res/layout-v21/notification_action.xml"
-    },
-    {
-        "merged": "/Users/seohyemin/Downloads/Blinkling-dayon/app/build/intermediates/res/merged/debug/layout-v21/notification_template_custom_big.xml",
-        "source": "/Users/seohyemin/.android/build-cache/c7bc4f7edfba7ff92a9519a276f8d2da7169785b/output/res/layout-v21/notification_template_custom_big.xml"
-    },
-    {
-        "merged": "/Users/seohyemin/Downloads/Blinkling-dayon/C:\\Users\\dy889\\Documents\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\place_autocomplete_fragment.xml",
-        "source": "/Users/seohyemin/Downloads/Blinkling-dayon/C:\\Users\\dy889\\.android\\build-cache\\5be27fb41eebb647131b34037f6ce6ef3d2567cf\\output\\res\\layout-v21\\place_autocomplete_fragment.xml"
-    },
-    {
-        "merged": "/Users/mac/Downloads/Blinkling-dayon/app/build/intermediates/res/merged/debug/layout-v21/notification_template_icon_group.xml",
-        "source": "/Users/mac/.android/build-cache/913d8db17f1c25b6ee67b77b63f40d3096bd505a/output/res/layout-v21/notification_template_icon_group.xml"
-    },
-    {
-        "merged": "/Users/mac/Downloads/Blinkling-dayon/app/build/intermediates/res/merged/debug/layout-v21/notification_action_tombstone.xml",
-        "source": "/Users/mac/.android/build-cache/913d8db17f1c25b6ee67b77b63f40d3096bd505a/output/res/layout-v21/notification_action_tombstone.xml"
-    },
-    {
-        "merged": "/Users/dayeon/Blinkling/app/build/intermediates/res/merged/debug/layout-v21/notification_action.xml",
-        "source": "/Users/dayeon/.android/build-cache/08f0b85e835f6a143412367b800bd932d6600384/output/res/layout-v21/notification_action.xml"
-    },
-    {
-        "merged": "/Users/dayeon/Blinkling/app/build/intermediates/res/merged/debug/layout-v21/notification_action_tombstone.xml",
-        "source": "/Users/dayeon/.android/build-cache/08f0b85e835f6a143412367b800bd932d6600384/output/res/layout-v21/notification_action_tombstone.xml"
-    },
-    {
         "merged": "/Users/mac/Blinkling/app/build/intermediates/res/merged/debug/layout-v21/notification_template_icon_group.xml",
         "source": "/Users/mac/.android/build-cache/913d8db17f1c25b6ee67b77b63f40d3096bd505a/output/res/layout-v21/notification_template_icon_group.xml"
     },
     {
-        "merged": "/Users/mac/Downloads/Blinkling-dayon/app/build/intermediates/res/merged/debug/layout-v21/notification_template_custom_big.xml",
-        "source": "/Users/mac/.android/build-cache/913d8db17f1c25b6ee67b77b63f40d3096bd505a/output/res/layout-v21/notification_template_custom_big.xml"
-    },
-    {
-        "merged": "/Users/dayeon/Blinkling/app/build/intermediates/res/merged/debug/layout-v21/notification_template_icon_group.xml",
-        "source": "/Users/dayeon/.android/build-cache/08f0b85e835f6a143412367b800bd932d6600384/output/res/layout-v21/notification_template_icon_group.xml"
-    },
-    {
-        "merged": "/Users/seohyemin/Downloads/Blinkling-dayon/app/build/intermediates/res/merged/debug/layout-v21/notification_template_icon_group.xml",
-        "source": "/Users/seohyemin/.android/build-cache/c7bc4f7edfba7ff92a9519a276f8d2da7169785b/output/res/layout-v21/notification_template_icon_group.xml"
+        "merged": "/Users/mac/Blinkling/app/build/intermediates/res/merged/debug/layout-v21/notification_action_tombstone.xml",
+        "source": "/Users/mac/.android/build-cache/913d8db17f1c25b6ee67b77b63f40d3096bd505a/output/res/layout-v21/notification_action_tombstone.xml"
     }
 ]

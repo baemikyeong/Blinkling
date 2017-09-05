@@ -2,6 +2,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     tools:context=".MainActivity">
+
     <item
         android:id="@+id/notebook_add"
         android:icon="@drawable/plus"
@@ -12,21 +13,21 @@
 
     <item
         android:id="@+id/eye_btn"
-        android:icon="@drawable/bookmark"
+        android:icon="@drawable/ic_remove_red_eye_black_24dp"
         app:showAsAction="ifRoom"
         android:title="눈">
     </item>
 
     <item
         android:id="@+id/light_btn"
-        android:icon="@drawable/bookmark"
+        android:icon="@drawable/ic_lightbulb_outline_black_24dp"
         app:showAsAction="ifRoom"
         android:title="라이트">
     </item>
 
     <item
         android:id="@+id/voice_btn"
-        android:icon="@drawable/bookmark"
+        android:icon="@drawable/ic_mic_black_24dp"
         app:showAsAction="ifRoom"
         android:title="음성녹음">
     </item>
@@ -37,10 +38,27 @@
         app:showAsAction="ifRoom"
         android:title="북마크">
     </item>
+
     <item
         android:id="@+id/notebook_delete"
         android:icon="@drawable/garbage"
         app:showAsAction="ifRoom"
         android:title="삭제">
+    </item>
+
+    <item
+        android:id="@+id/bookmark_delete"
+        android:icon="@drawable/ic_clear_black_24dp"
+        app:showAsAction="ifRoom"
+        android:title="북마크 삭제"
+        >
+    </item>
+
+    <item
+        android:id="@+id/bookmark_edit"
+        android:icon="@drawable/ic_content_cut_black_24dp"
+        app:showAsAction="ifRoom"
+        android:title="북마크 편집">
+
     </item>
 </menu>

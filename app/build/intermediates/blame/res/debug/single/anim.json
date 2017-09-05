@@ -4,216 +4,52 @@
         "source": "/Users/mac/.android/build-cache/2357a626681079792d0b0f8329e66fe5b38ee637/output/res/anim/design_snackbar_in.xml"
     },
     {
-        "merged": "/Users/seohyemin/Downloads/Blinkling-dayon/C:\\Users\\dy889\\Documents\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_bottom_sheet_slide_in.xml",
-        "source": "/Users/seohyemin/Downloads/Blinkling-dayon/C:\\Users\\dy889\\.android\\build-cache\\2318f7de2f290e7ceeae07216c4454185a81ae35\\output\\res\\anim\\design_bottom_sheet_slide_in.xml"
-    },
-    {
-        "merged": "/Users/dayeon/Blinkling/app/build/intermediates/res/merged/debug/anim/abc_fade_out.xml",
-        "source": "/Users/dayeon/.android/build-cache/08f0b85e835f6a143412367b800bd932d6600384/output/res/anim/abc_fade_out.xml"
-    },
-    {
-        "merged": "/Users/dayeon/Blinkling/app/build/intermediates/res/merged/debug/anim/abc_slide_out_bottom.xml",
-        "source": "/Users/dayeon/.android/build-cache/08f0b85e835f6a143412367b800bd932d6600384/output/res/anim/abc_slide_out_bottom.xml"
-    },
-    {
         "merged": "/Users/mac/Blinkling/app/build/intermediates/res/merged/debug/anim/abc_slide_out_bottom.xml",
         "source": "/Users/mac/.android/build-cache/913d8db17f1c25b6ee67b77b63f40d3096bd505a/output/res/anim/abc_slide_out_bottom.xml"
     },
     {
-        "merged": "/Users/seohyemin/Downloads/Blinkling-dayon/app/build/intermediates/res/merged/debug/anim/design_fab_out.xml",
-        "source": "/Users/seohyemin/.android/build-cache/b5526703288357c323e2e1ef12cac4fa78843af5/output/res/anim/design_fab_out.xml"
+        "merged": "/Users/mac/Blinkling/app/build/intermediates/res/merged/debug/anim/abc_fade_in.xml",
+        "source": "/Users/mac/.android/build-cache/913d8db17f1c25b6ee67b77b63f40d3096bd505a/output/res/anim/abc_fade_in.xml"
     },
     {
-        "merged": "/Users/seohyemin/Downloads/Blinkling-dayon/C:\\Users\\dy889\\Documents\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_fab_out.xml",
-        "source": "/Users/seohyemin/Downloads/Blinkling-dayon/C:\\Users\\dy889\\.android\\build-cache\\2318f7de2f290e7ceeae07216c4454185a81ae35\\output\\res\\anim\\design_fab_out.xml"
-    },
-    {
-        "merged": "/Users/dayeon/Blinkling/app/build/intermediates/res/merged/debug/anim/abc_shrink_fade_out_from_bottom.xml",
-        "source": "/Users/dayeon/.android/build-cache/08f0b85e835f6a143412367b800bd932d6600384/output/res/anim/abc_shrink_fade_out_from_bottom.xml"
-    },
-    {
-        "merged": "/Users/dayeon/Blinkling/app/build/intermediates/res/merged/debug/anim/design_bottom_sheet_slide_in.xml",
-        "source": "/Users/dayeon/.android/build-cache/d7955f365574be11571c6d760671cfed3e81f806/output/res/anim/design_bottom_sheet_slide_in.xml"
-    },
-    {
-        "merged": "/Users/seohyemin/Downloads/Blinkling-dayon/app/build/intermediates/res/merged/debug/anim/abc_slide_in_bottom.xml",
-        "source": "/Users/seohyemin/.android/build-cache/c7bc4f7edfba7ff92a9519a276f8d2da7169785b/output/res/anim/abc_slide_in_bottom.xml"
-    },
-    {
-        "merged": "/Users/seohyemin/Downloads/Blinkling-dayon/app/build/intermediates/res/merged/debug/anim/abc_shrink_fade_out_from_bottom.xml",
-        "source": "/Users/seohyemin/.android/build-cache/c7bc4f7edfba7ff92a9519a276f8d2da7169785b/output/res/anim/abc_shrink_fade_out_from_bottom.xml"
-    },
-    {
-        "merged": "/Users/seohyemin/Downloads/Blinkling-dayon/C:\\Users\\dy889\\Documents\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_out_bottom.xml",
-        "source": "/Users/seohyemin/Downloads/Blinkling-dayon/C:\\Users\\dy889\\.android\\build-cache\\eaa9472fc91e028a5a27b3d20e7a0c3fbad5c383\\output\\res\\anim\\abc_slide_out_bottom.xml"
-    },
-    {
-        "merged": "/Users/mac/Blinkling/app/build/intermediates/res/merged/debug/anim/abc_grow_fade_in_from_bottom.xml",
-        "source": "/Users/mac/.android/build-cache/913d8db17f1c25b6ee67b77b63f40d3096bd505a/output/res/anim/abc_grow_fade_in_from_bottom.xml"
-    },
-    {
-        "merged": "/Users/mac/Blinkling/app/build/intermediates/res/merged/debug/anim/design_snackbar_out.xml",
-        "source": "/Users/mac/.android/build-cache/2357a626681079792d0b0f8329e66fe5b38ee637/output/res/anim/design_snackbar_out.xml"
-    },
-    {
-        "merged": "/Users/dayeon/Blinkling/app/build/intermediates/res/merged/debug/anim/abc_slide_in_bottom.xml",
-        "source": "/Users/dayeon/.android/build-cache/08f0b85e835f6a143412367b800bd932d6600384/output/res/anim/abc_slide_in_bottom.xml"
-    },
-    {
-        "merged": "/Users/mac/Blinkling/app/build/intermediates/res/merged/debug/anim/abc_popup_enter.xml",
-        "source": "/Users/mac/.android/build-cache/913d8db17f1c25b6ee67b77b63f40d3096bd505a/output/res/anim/abc_popup_enter.xml"
-    },
-    {
-        "merged": "/Users/mac/Downloads/Blinkling-dayon/app/build/intermediates/res/merged/debug/anim/design_bottom_sheet_slide_in.xml",
-        "source": "/Users/mac/.android/build-cache/2357a626681079792d0b0f8329e66fe5b38ee637/output/res/anim/design_bottom_sheet_slide_in.xml"
-    },
-    {
-        "merged": "/Users/seohyemin/Downloads/Blinkling-dayon/C:\\Users\\dy889\\Documents\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_popup_exit.xml",
-        "source": "/Users/seohyemin/Downloads/Blinkling-dayon/C:\\Users\\dy889\\.android\\build-cache\\eaa9472fc91e028a5a27b3d20e7a0c3fbad5c383\\output\\res\\anim\\abc_popup_exit.xml"
-    },
-    {
-        "merged": "/Users/mac/Downloads/Blinkling-dayon/app/build/intermediates/res/merged/debug/anim/design_bottom_sheet_slide_out.xml",
+        "merged": "/Users/mac/Blinkling/app/build/intermediates/res/merged/debug/anim/design_bottom_sheet_slide_out.xml",
         "source": "/Users/mac/.android/build-cache/2357a626681079792d0b0f8329e66fe5b38ee637/output/res/anim/design_bottom_sheet_slide_out.xml"
     },
     {
-        "merged": "/Users/mac/Blinkling/app/build/intermediates/res/merged/debug/anim/abc_slide_out_top.xml",
-        "source": "/Users/mac/.android/build-cache/913d8db17f1c25b6ee67b77b63f40d3096bd505a/output/res/anim/abc_slide_out_top.xml"
-    },
-    {
-        "merged": "/Users/mac/Downloads/Blinkling-dayon/app/build/intermediates/res/merged/debug/anim/design_snackbar_out.xml",
-        "source": "/Users/mac/.android/build-cache/2357a626681079792d0b0f8329e66fe5b38ee637/output/res/anim/design_snackbar_out.xml"
-    },
-    {
-        "merged": "/Users/mac/Downloads/Blinkling-dayon/app/build/intermediates/res/merged/debug/anim/design_snackbar_in.xml",
-        "source": "/Users/mac/.android/build-cache/2357a626681079792d0b0f8329e66fe5b38ee637/output/res/anim/design_snackbar_in.xml"
-    },
-    {
-        "merged": "/Users/seohyemin/Downloads/Blinkling-dayon/C:\\Users\\dy889\\Documents\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_in_bottom.xml",
-        "source": "/Users/seohyemin/Downloads/Blinkling-dayon/C:\\Users\\dy889\\.android\\build-cache\\eaa9472fc91e028a5a27b3d20e7a0c3fbad5c383\\output\\res\\anim\\abc_slide_in_bottom.xml"
-    },
-    {
-        "merged": "/Users/seohyemin/Downloads/Blinkling-dayon/app/build/intermediates/res/merged/debug/anim/abc_fade_in.xml",
-        "source": "/Users/seohyemin/.android/build-cache/c7bc4f7edfba7ff92a9519a276f8d2da7169785b/output/res/anim/abc_fade_in.xml"
-    },
-    {
-        "merged": "/Users/seohyemin/Downloads/Blinkling-dayon/app/build/intermediates/res/merged/debug/anim/abc_grow_fade_in_from_bottom.xml",
-        "source": "/Users/seohyemin/.android/build-cache/c7bc4f7edfba7ff92a9519a276f8d2da7169785b/output/res/anim/abc_grow_fade_in_from_bottom.xml"
-    },
-    {
-        "merged": "/Users/seohyemin/Downloads/Blinkling-dayon/C:\\Users\\dy889\\Documents\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_out_top.xml",
-        "source": "/Users/seohyemin/Downloads/Blinkling-dayon/C:\\Users\\dy889\\.android\\build-cache\\eaa9472fc91e028a5a27b3d20e7a0c3fbad5c383\\output\\res\\anim\\abc_slide_out_top.xml"
-    },
-    {
-        "merged": "/Users/mac/Downloads/Blinkling-dayon/app/build/intermediates/res/merged/debug/anim/abc_shrink_fade_out_from_bottom.xml",
-        "source": "/Users/mac/.android/build-cache/913d8db17f1c25b6ee67b77b63f40d3096bd505a/output/res/anim/abc_shrink_fade_out_from_bottom.xml"
-    },
-    {
-        "merged": "/Users/dayeon/Blinkling/app/build/intermediates/res/merged/debug/anim/abc_grow_fade_in_from_bottom.xml",
-        "source": "/Users/dayeon/.android/build-cache/08f0b85e835f6a143412367b800bd932d6600384/output/res/anim/abc_grow_fade_in_from_bottom.xml"
+        "merged": "/Users/mac/Blinkling/app/build/intermediates/res/merged/debug/anim/abc_fade_out.xml",
+        "source": "/Users/mac/.android/build-cache/913d8db17f1c25b6ee67b77b63f40d3096bd505a/output/res/anim/abc_fade_out.xml"
     },
     {
         "merged": "/Users/mac/Blinkling/app/build/intermediates/res/merged/debug/anim/abc_shrink_fade_out_from_bottom.xml",
         "source": "/Users/mac/.android/build-cache/913d8db17f1c25b6ee67b77b63f40d3096bd505a/output/res/anim/abc_shrink_fade_out_from_bottom.xml"
     },
     {
-        "merged": "/Users/seohyemin/Downloads/Blinkling-dayon/C:\\Users\\dy889\\Documents\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_fade_out.xml",
-        "source": "/Users/seohyemin/Downloads/Blinkling-dayon/C:\\Users\\dy889\\.android\\build-cache\\eaa9472fc91e028a5a27b3d20e7a0c3fbad5c383\\output\\res\\anim\\abc_fade_out.xml"
+        "merged": "/Users/mac/Blinkling/app/build/intermediates/res/merged/debug/anim/abc_popup_exit.xml",
+        "source": "/Users/mac/.android/build-cache/913d8db17f1c25b6ee67b77b63f40d3096bd505a/output/res/anim/abc_popup_exit.xml"
     },
     {
         "merged": "/Users/mac/Blinkling/app/build/intermediates/res/merged/debug/anim/design_bottom_sheet_slide_in.xml",
         "source": "/Users/mac/.android/build-cache/2357a626681079792d0b0f8329e66fe5b38ee637/output/res/anim/design_bottom_sheet_slide_in.xml"
     },
     {
-        "merged": "/Users/seohyemin/Downloads/Blinkling-dayon/C:\\Users\\dy889\\Documents\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_snackbar_out.xml",
-        "source": "/Users/seohyemin/Downloads/Blinkling-dayon/C:\\Users\\dy889\\.android\\build-cache\\2318f7de2f290e7ceeae07216c4454185a81ae35\\output\\res\\anim\\design_snackbar_out.xml"
-    },
-    {
-        "merged": "/Users/seohyemin/Downloads/Blinkling-dayon/C:\\Users\\dy889\\Documents\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_popup_enter.xml",
-        "source": "/Users/seohyemin/Downloads/Blinkling-dayon/C:\\Users\\dy889\\.android\\build-cache\\eaa9472fc91e028a5a27b3d20e7a0c3fbad5c383\\output\\res\\anim\\abc_popup_enter.xml"
-    },
-    {
-        "merged": "/Users/seohyemin/Downloads/Blinkling-dayon/app/build/intermediates/res/merged/debug/anim/abc_slide_out_top.xml",
-        "source": "/Users/seohyemin/.android/build-cache/c7bc4f7edfba7ff92a9519a276f8d2da7169785b/output/res/anim/abc_slide_out_top.xml"
-    },
-    {
-        "merged": "/Users/mac/Downloads/Blinkling-dayon/app/build/intermediates/res/merged/debug/anim/abc_slide_out_top.xml",
-        "source": "/Users/mac/.android/build-cache/913d8db17f1c25b6ee67b77b63f40d3096bd505a/output/res/anim/abc_slide_out_top.xml"
-    },
-    {
-        "merged": "/Users/dayeon/Blinkling/app/build/intermediates/res/merged/debug/anim/design_fab_out.xml",
-        "source": "/Users/dayeon/.android/build-cache/d7955f365574be11571c6d760671cfed3e81f806/output/res/anim/design_fab_out.xml"
+        "merged": "/Users/mac/Blinkling/app/build/intermediates/res/merged/debug/anim/abc_grow_fade_in_from_bottom.xml",
+        "source": "/Users/mac/.android/build-cache/913d8db17f1c25b6ee67b77b63f40d3096bd505a/output/res/anim/abc_grow_fade_in_from_bottom.xml"
     },
     {
         "merged": "/Users/mac/Blinkling/app/build/intermediates/res/merged/debug/anim/abc_slide_in_bottom.xml",
         "source": "/Users/mac/.android/build-cache/913d8db17f1c25b6ee67b77b63f40d3096bd505a/output/res/anim/abc_slide_in_bottom.xml"
     },
     {
+        "merged": "/Users/mac/Blinkling/app/build/intermediates/res/merged/debug/anim/design_snackbar_out.xml",
+        "source": "/Users/mac/.android/build-cache/2357a626681079792d0b0f8329e66fe5b38ee637/output/res/anim/design_snackbar_out.xml"
+    },
+    {
         "merged": "/Users/mac/Blinkling/app/build/intermediates/res/merged/debug/anim/design_fab_in.xml",
         "source": "/Users/mac/.android/build-cache/2357a626681079792d0b0f8329e66fe5b38ee637/output/res/anim/design_fab_in.xml"
     },
     {
-        "merged": "/Users/mac/Downloads/Blinkling-dayon/app/build/intermediates/res/merged/debug/anim/abc_fade_out.xml",
-        "source": "/Users/mac/.android/build-cache/913d8db17f1c25b6ee67b77b63f40d3096bd505a/output/res/anim/abc_fade_out.xml"
-    },
-    {
-        "merged": "/Users/seohyemin/Downloads/Blinkling-dayon/app/build/intermediates/res/merged/debug/anim/design_snackbar_out.xml",
-        "source": "/Users/seohyemin/.android/build-cache/b5526703288357c323e2e1ef12cac4fa78843af5/output/res/anim/design_snackbar_out.xml"
-    },
-    {
-        "merged": "/Users/seohyemin/Downloads/Blinkling-dayon/C:\\Users\\dy889\\Documents\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_in_top.xml",
-        "source": "/Users/seohyemin/Downloads/Blinkling-dayon/C:\\Users\\dy889\\.android\\build-cache\\eaa9472fc91e028a5a27b3d20e7a0c3fbad5c383\\output\\res\\anim\\abc_slide_in_top.xml"
-    },
-    {
-        "merged": "/Users/mac/Downloads/Blinkling-dayon/app/build/intermediates/res/merged/debug/anim/abc_slide_in_top.xml",
-        "source": "/Users/mac/.android/build-cache/913d8db17f1c25b6ee67b77b63f40d3096bd505a/output/res/anim/abc_slide_in_top.xml"
-    },
-    {
-        "merged": "/Users/seohyemin/Downloads/Blinkling-dayon/app/build/intermediates/res/merged/debug/anim/abc_popup_enter.xml",
-        "source": "/Users/seohyemin/.android/build-cache/c7bc4f7edfba7ff92a9519a276f8d2da7169785b/output/res/anim/abc_popup_enter.xml"
-    },
-    {
-        "merged": "/Users/mac/Downloads/Blinkling-dayon/app/build/intermediates/res/merged/debug/anim/design_fab_out.xml",
-        "source": "/Users/mac/.android/build-cache/2357a626681079792d0b0f8329e66fe5b38ee637/output/res/anim/design_fab_out.xml"
-    },
-    {
-        "merged": "/Users/seohyemin/Downloads/Blinkling-dayon/C:\\Users\\dy889\\Documents\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_grow_fade_in_from_bottom.xml",
-        "source": "/Users/seohyemin/Downloads/Blinkling-dayon/C:\\Users\\dy889\\.android\\build-cache\\eaa9472fc91e028a5a27b3d20e7a0c3fbad5c383\\output\\res\\anim\\abc_grow_fade_in_from_bottom.xml"
-    },
-    {
-        "merged": "/Users/dayeon/Blinkling/app/build/intermediates/res/merged/debug/anim/design_snackbar_in.xml",
-        "source": "/Users/dayeon/.android/build-cache/d7955f365574be11571c6d760671cfed3e81f806/output/res/anim/design_snackbar_in.xml"
-    },
-    {
-        "merged": "/Users/mac/Downloads/Blinkling-dayon/app/build/intermediates/res/merged/debug/anim/abc_slide_in_bottom.xml",
-        "source": "/Users/mac/.android/build-cache/913d8db17f1c25b6ee67b77b63f40d3096bd505a/output/res/anim/abc_slide_in_bottom.xml"
-    },
-    {
-        "merged": "/Users/dayeon/Blinkling/app/build/intermediates/res/merged/debug/anim/abc_popup_exit.xml",
-        "source": "/Users/dayeon/.android/build-cache/08f0b85e835f6a143412367b800bd932d6600384/output/res/anim/abc_popup_exit.xml"
-    },
-    {
-        "merged": "/Users/seohyemin/Downloads/Blinkling-dayon/app/build/intermediates/res/merged/debug/anim/design_bottom_sheet_slide_out.xml",
-        "source": "/Users/seohyemin/.android/build-cache/b5526703288357c323e2e1ef12cac4fa78843af5/output/res/anim/design_bottom_sheet_slide_out.xml"
-    },
-    {
-        "merged": "/Users/seohyemin/Downloads/Blinkling-dayon/app/build/intermediates/res/merged/debug/anim/design_bottom_sheet_slide_in.xml",
-        "source": "/Users/seohyemin/.android/build-cache/b5526703288357c323e2e1ef12cac4fa78843af5/output/res/anim/design_bottom_sheet_slide_in.xml"
-    },
-    {
-        "merged": "/Users/seohyemin/Downloads/Blinkling-dayon/app/build/intermediates/res/merged/debug/anim/design_snackbar_in.xml",
-        "source": "/Users/seohyemin/.android/build-cache/b5526703288357c323e2e1ef12cac4fa78843af5/output/res/anim/design_snackbar_in.xml"
-    },
-    {
-        "merged": "/Users/mac/Downloads/Blinkling-dayon/app/build/intermediates/res/merged/debug/anim/abc_fade_in.xml",
-        "source": "/Users/mac/.android/build-cache/913d8db17f1c25b6ee67b77b63f40d3096bd505a/output/res/anim/abc_fade_in.xml"
-    },
-    {
-        "merged": "/Users/dayeon/Blinkling/app/build/intermediates/res/merged/debug/anim/design_snackbar_out.xml",
-        "source": "/Users/dayeon/.android/build-cache/d7955f365574be11571c6d760671cfed3e81f806/output/res/anim/design_snackbar_out.xml"
-    },
-    {
-        "merged": "/Users/mac/Downloads/Blinkling-dayon/app/build/intermediates/res/merged/debug/anim/abc_popup_exit.xml",
-        "source": "/Users/mac/.android/build-cache/913d8db17f1c25b6ee67b77b63f40d3096bd505a/output/res/anim/abc_popup_exit.xml"
+        "merged": "/Users/mac/Blinkling/app/build/intermediates/res/merged/debug/anim/abc_popup_enter.xml",
+        "source": "/Users/mac/.android/build-cache/913d8db17f1c25b6ee67b77b63f40d3096bd505a/output/res/anim/abc_popup_enter.xml"
     },
     {
         "merged": "/Users/mac/Blinkling/app/build/intermediates/res/merged/debug/anim/abc_slide_in_top.xml",
@@ -224,99 +60,7 @@
         "source": "/Users/mac/.android/build-cache/2357a626681079792d0b0f8329e66fe5b38ee637/output/res/anim/design_fab_out.xml"
     },
     {
-        "merged": "/Users/dayeon/Blinkling/app/build/intermediates/res/merged/debug/anim/abc_popup_enter.xml",
-        "source": "/Users/dayeon/.android/build-cache/08f0b85e835f6a143412367b800bd932d6600384/output/res/anim/abc_popup_enter.xml"
-    },
-    {
-        "merged": "/Users/seohyemin/Downloads/Blinkling-dayon/C:\\Users\\dy889\\Documents\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_snackbar_in.xml",
-        "source": "/Users/seohyemin/Downloads/Blinkling-dayon/C:\\Users\\dy889\\.android\\build-cache\\2318f7de2f290e7ceeae07216c4454185a81ae35\\output\\res\\anim\\design_snackbar_in.xml"
-    },
-    {
-        "merged": "/Users/seohyemin/Downloads/Blinkling-dayon/app/build/intermediates/res/merged/debug/anim/design_fab_in.xml",
-        "source": "/Users/seohyemin/.android/build-cache/b5526703288357c323e2e1ef12cac4fa78843af5/output/res/anim/design_fab_in.xml"
-    },
-    {
-        "merged": "/Users/seohyemin/Downloads/Blinkling-dayon/app/build/intermediates/res/merged/debug/anim/abc_slide_out_bottom.xml",
-        "source": "/Users/seohyemin/.android/build-cache/c7bc4f7edfba7ff92a9519a276f8d2da7169785b/output/res/anim/abc_slide_out_bottom.xml"
-    },
-    {
-        "merged": "/Users/dayeon/Blinkling/app/build/intermediates/res/merged/debug/anim/abc_fade_in.xml",
-        "source": "/Users/dayeon/.android/build-cache/08f0b85e835f6a143412367b800bd932d6600384/output/res/anim/abc_fade_in.xml"
-    },
-    {
-        "merged": "/Users/seohyemin/Downloads/Blinkling-dayon/C:\\Users\\dy889\\Documents\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_shrink_fade_out_from_bottom.xml",
-        "source": "/Users/seohyemin/Downloads/Blinkling-dayon/C:\\Users\\dy889\\.android\\build-cache\\eaa9472fc91e028a5a27b3d20e7a0c3fbad5c383\\output\\res\\anim\\abc_shrink_fade_out_from_bottom.xml"
-    },
-    {
-        "merged": "/Users/seohyemin/Downloads/Blinkling-dayon/app/build/intermediates/res/merged/debug/anim/abc_fade_out.xml",
-        "source": "/Users/seohyemin/.android/build-cache/c7bc4f7edfba7ff92a9519a276f8d2da7169785b/output/res/anim/abc_fade_out.xml"
-    },
-    {
-        "merged": "/Users/mac/Downloads/Blinkling-dayon/app/build/intermediates/res/merged/debug/anim/design_fab_in.xml",
-        "source": "/Users/mac/.android/build-cache/2357a626681079792d0b0f8329e66fe5b38ee637/output/res/anim/design_fab_in.xml"
-    },
-    {
-        "merged": "/Users/mac/Downloads/Blinkling-dayon/app/build/intermediates/res/merged/debug/anim/abc_slide_out_bottom.xml",
-        "source": "/Users/mac/.android/build-cache/913d8db17f1c25b6ee67b77b63f40d3096bd505a/output/res/anim/abc_slide_out_bottom.xml"
-    },
-    {
-        "merged": "/Users/dayeon/Blinkling/app/build/intermediates/res/merged/debug/anim/design_bottom_sheet_slide_out.xml",
-        "source": "/Users/dayeon/.android/build-cache/d7955f365574be11571c6d760671cfed3e81f806/output/res/anim/design_bottom_sheet_slide_out.xml"
-    },
-    {
-        "merged": "/Users/dayeon/Blinkling/app/build/intermediates/res/merged/debug/anim/design_fab_in.xml",
-        "source": "/Users/dayeon/.android/build-cache/d7955f365574be11571c6d760671cfed3e81f806/output/res/anim/design_fab_in.xml"
-    },
-    {
-        "merged": "/Users/mac/Blinkling/app/build/intermediates/res/merged/debug/anim/abc_fade_in.xml",
-        "source": "/Users/mac/.android/build-cache/913d8db17f1c25b6ee67b77b63f40d3096bd505a/output/res/anim/abc_fade_in.xml"
-    },
-    {
-        "merged": "/Users/seohyemin/Downloads/Blinkling-dayon/C:\\Users\\dy889\\Documents\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_fade_in.xml",
-        "source": "/Users/seohyemin/Downloads/Blinkling-dayon/C:\\Users\\dy889\\.android\\build-cache\\eaa9472fc91e028a5a27b3d20e7a0c3fbad5c383\\output\\res\\anim\\abc_fade_in.xml"
-    },
-    {
-        "merged": "/Users/seohyemin/Downloads/Blinkling-dayon/C:\\Users\\dy889\\Documents\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_bottom_sheet_slide_out.xml",
-        "source": "/Users/seohyemin/Downloads/Blinkling-dayon/C:\\Users\\dy889\\.android\\build-cache\\2318f7de2f290e7ceeae07216c4454185a81ae35\\output\\res\\anim\\design_bottom_sheet_slide_out.xml"
-    },
-    {
-        "merged": "/Users/mac/Blinkling/app/build/intermediates/res/merged/debug/anim/design_bottom_sheet_slide_out.xml",
-        "source": "/Users/mac/.android/build-cache/2357a626681079792d0b0f8329e66fe5b38ee637/output/res/anim/design_bottom_sheet_slide_out.xml"
-    },
-    {
-        "merged": "/Users/mac/Downloads/Blinkling-dayon/app/build/intermediates/res/merged/debug/anim/abc_popup_enter.xml",
-        "source": "/Users/mac/.android/build-cache/913d8db17f1c25b6ee67b77b63f40d3096bd505a/output/res/anim/abc_popup_enter.xml"
-    },
-    {
-        "merged": "/Users/dayeon/Blinkling/app/build/intermediates/res/merged/debug/anim/abc_slide_in_top.xml",
-        "source": "/Users/dayeon/.android/build-cache/08f0b85e835f6a143412367b800bd932d6600384/output/res/anim/abc_slide_in_top.xml"
-    },
-    {
-        "merged": "/Users/mac/Blinkling/app/build/intermediates/res/merged/debug/anim/abc_fade_out.xml",
-        "source": "/Users/mac/.android/build-cache/913d8db17f1c25b6ee67b77b63f40d3096bd505a/output/res/anim/abc_fade_out.xml"
-    },
-    {
-        "merged": "/Users/mac/Blinkling/app/build/intermediates/res/merged/debug/anim/abc_popup_exit.xml",
-        "source": "/Users/mac/.android/build-cache/913d8db17f1c25b6ee67b77b63f40d3096bd505a/output/res/anim/abc_popup_exit.xml"
-    },
-    {
-        "merged": "/Users/dayeon/Blinkling/app/build/intermediates/res/merged/debug/anim/abc_slide_out_top.xml",
-        "source": "/Users/dayeon/.android/build-cache/08f0b85e835f6a143412367b800bd932d6600384/output/res/anim/abc_slide_out_top.xml"
-    },
-    {
-        "merged": "/Users/seohyemin/Downloads/Blinkling-dayon/app/build/intermediates/res/merged/debug/anim/abc_popup_exit.xml",
-        "source": "/Users/seohyemin/.android/build-cache/c7bc4f7edfba7ff92a9519a276f8d2da7169785b/output/res/anim/abc_popup_exit.xml"
-    },
-    {
-        "merged": "/Users/seohyemin/Downloads/Blinkling-dayon/C:\\Users\\dy889\\Documents\\Blinkling\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_fab_in.xml",
-        "source": "/Users/seohyemin/Downloads/Blinkling-dayon/C:\\Users\\dy889\\.android\\build-cache\\2318f7de2f290e7ceeae07216c4454185a81ae35\\output\\res\\anim\\design_fab_in.xml"
-    },
-    {
-        "merged": "/Users/seohyemin/Downloads/Blinkling-dayon/app/build/intermediates/res/merged/debug/anim/abc_slide_in_top.xml",
-        "source": "/Users/seohyemin/.android/build-cache/c7bc4f7edfba7ff92a9519a276f8d2da7169785b/output/res/anim/abc_slide_in_top.xml"
-    },
-    {
-        "merged": "/Users/mac/Downloads/Blinkling-dayon/app/build/intermediates/res/merged/debug/anim/abc_grow_fade_in_from_bottom.xml",
-        "source": "/Users/mac/.android/build-cache/913d8db17f1c25b6ee67b77b63f40d3096bd505a/output/res/anim/abc_grow_fade_in_from_bottom.xml"
+        "merged": "/Users/mac/Blinkling/app/build/intermediates/res/merged/debug/anim/abc_slide_out_top.xml",
+        "source": "/Users/mac/.android/build-cache/913d8db17f1c25b6ee67b77b63f40d3096bd505a/output/res/anim/abc_slide_out_top.xml"
     }
 ]
