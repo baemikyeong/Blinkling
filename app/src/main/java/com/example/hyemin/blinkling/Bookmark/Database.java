@@ -14,12 +14,14 @@ public class Database {
         public final static String TABLE_NAME = "bookmark_table";
 
         //필드
-        //public static final String ID = _ID;
+        public static final String ID = _ID;
         public static final String TITLE = "title";
         public static final String DOCUMENT = "document";
         public static final String CREATED_AT = "created_at";
         public static final String UPDATED_AT = "updated_at";
-        public static final String POSITION = "position";
+        public static final String POS = "pos";
+
+        public static final String WHERE_BY_ID = _ID + "=?";
 
         //생성자
         public static final String _createSql =
@@ -29,6 +31,6 @@ public class Database {
                         + DOCUMENT + " text,"
                         + CREATED_AT + " text,"
                         + UPDATED_AT + " text,"
-                        + POSITION + " text);";
+                        + POS + " text);";
     }
 }

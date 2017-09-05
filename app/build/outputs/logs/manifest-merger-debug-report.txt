@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/seohyemin/Blinkling-master/app/src/main/AndroidManifest.xml:2:1-49:12
+ADDED from /Users/seohyemin/Blinkling-master/app/src/main/AndroidManifest.xml:2:1-46:12
 	package
 		ADDED from /Users/seohyemin/Blinkling-master/app/src/main/AndroidManifest.xml:3:5-43
 		INJECTED from /Users/seohyemin/Blinkling-master/app/src/main/AndroidManifest.xml
@@ -46,7 +46,7 @@ MERGED from [com.google.android.gms:play-services-maps:10.2.1] /Users/seohyemin/
 	android:name
 		ADDED from /Users/seohyemin/Blinkling-master/app/src/main/AndroidManifest.xml:12:22-64
 application
-ADDED from /Users/seohyemin/Blinkling-master/app/src/main/AndroidManifest.xml:14:5-47:19
+ADDED from /Users/seohyemin/Blinkling-master/app/src/main/AndroidManifest.xml:14:5-44:19
 MERGED from [com.android.support:design:25.3.1] /Users/seohyemin/.android/build-cache/b5526703288357c323e2e1ef12cac4fa78843af5/output/AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:transition:25.3.1] /Users/seohyemin/.android/build-cache/b4cc17e96e3ea8ca9eef30c049aa6397b5c9c54a/output/AndroidManifest.xml:26:5-20
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/seohyemin/.android/build-cache/8268025a4292d0fa862b73a3d222229c0d35acec/output/AndroidManifest.xml:9:5-20
@@ -146,18 +146,14 @@ ADDED from /Users/seohyemin/Blinkling-master/app/src/main/AndroidManifest.xml:35
 		ADDED from /Users/seohyemin/Blinkling-master/app/src/main/AndroidManifest.xml:37:13-59
 	android:name
 		ADDED from /Users/seohyemin/Blinkling-master/app/src/main/AndroidManifest.xml:36:13-42
-activity#com.example.hyemin.blinkling.Bookmark.a
-ADDED from /Users/seohyemin/Blinkling-master/app/src/main/AndroidManifest.xml:40:9-41:25
-	android:name
-		ADDED from /Users/seohyemin/Blinkling-master/app/src/main/AndroidManifest.xml:40:19-45
 service#com.example.hyemin.blinkling.Service.ScreenFilterService
-ADDED from /Users/seohyemin/Blinkling-master/app/src/main/AndroidManifest.xml:43:9-46:39
+ADDED from /Users/seohyemin/Blinkling-master/app/src/main/AndroidManifest.xml:40:9-43:39
 	android:enabled
-		ADDED from /Users/seohyemin/Blinkling-master/app/src/main/AndroidManifest.xml:45:13-35
+		ADDED from /Users/seohyemin/Blinkling-master/app/src/main/AndroidManifest.xml:42:13-35
 	android:exported
-		ADDED from /Users/seohyemin/Blinkling-master/app/src/main/AndroidManifest.xml:46:13-36
+		ADDED from /Users/seohyemin/Blinkling-master/app/src/main/AndroidManifest.xml:43:13-36
 	android:name
-		ADDED from /Users/seohyemin/Blinkling-master/app/src/main/AndroidManifest.xml:44:13-56
+		ADDED from /Users/seohyemin/Blinkling-master/app/src/main/AndroidManifest.xml:41:13-56
 uses-sdk
 INJECTED from /Users/seohyemin/Blinkling-master/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 MERGED from [com.android.support:design:25.3.1] /Users/seohyemin/.android/build-cache/b5526703288357c323e2e1ef12cac4fa78843af5/output/AndroidManifest.xml:21:5-23:62

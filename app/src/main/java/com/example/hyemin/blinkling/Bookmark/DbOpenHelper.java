@@ -13,11 +13,22 @@ import android.database.sqlite.SQLiteOpenHelper;
 
 public class DbOpenHelper {
 
-    private static final String DATABASE_NAME = "Bookmark_DB";
-    private static final int DATABASE_VERSION = 1;
+    private static final String DATABASE_NAME = "Bookmark_DB"; //DB이름
+    private static final int DATABASE_VERSION = 1;//db 업데이트 할 때 사용함
     public static SQLiteDatabase mDB;
     private DataBaseHelper mDBHelper;
     private Context mCtx;
+    //생성자
+    public static final String _createSql =
+            "CREATE TABLE if not exists " + ExamDbContract.ExamDbEntry.TABLE_NAME + "("
+                    + ExamDbContract.ExamDbEntry._ID + " integer primary key autoincrement, "
+                    + ExamDbContract.ExamDbEntry.TITLE + " text,"
+                    + ExamDbContract.ExamDbEntry.DOCUMENT + " text not null,"
+                    + ExamDbContract.ExamDbEntry.CREATED_AT + " text not null,"
+                    + ExamDbContract.ExamDbEntry.UPDATED_AT + " text not null,"
+                    + ExamDbContract.ExamDbEntry.POS + " text not null);";
+
+
 
     public class DataBaseHelper extends SQLiteOpenHelper {
 
@@ -79,7 +90,7 @@ public class DbOpenHelper {
         values.put(Database.CreateDB.DOCUMENT, document);
         values.put(Database.CreateDB.CREATED_AT, created_at);
         values.put(Database.CreateDB.UPDATED_AT, updated_at);
-        values.put(Database.CreateDB.POSITION, position);
+        values.put(Database.CreateDB.POS, position);
         return mDB.insert(Database.CreateDB.TABLE_NAME, null, values);
     }
 
@@ -98,17 +109,21 @@ public class DbOpenHelper {
         values.put(Database.CreateDB.DOCUMENT, document);
         values.put(Database.CreateDB.CREATED_AT, created_at);
         values.put(Database.CreateDB.UPDATED_AT, updated_at);
-        values.put(Database.CreateDB.POSITION, position);
+        values.put(Database.CreateDB.POS, position);
         return mDB.update(Database.CreateDB.TABLE_NAME, values, "_id="+id, null) > 0;
     }
 
+
     //입력한 id값을 가진 DB를 지우는 메소드
-    public boolean deleteColumn(long id) {
-        return mDB.delete(Database.CreateDB.TABLE_NAME, "_id=" + id, null) > 0;
+    public boolean deleteColumn(final long id) {
+        String[] whereArgs = {id + ""};
+       return mDB.delete(Database.CreateDB.TABLE_NAME, "_id=" + id, null) > 0;
+        //return mDB.delete(Database.CreateDB.TABLE_NAME, Database.CreateDB.WHERE_BY_ID, whereArgs );
     }
 
     //입력한 전화번호 값을 가진 DB를 지우는 메소드
     public boolean deleteColumn(String title) {
+
         return mDB.delete(Database.CreateDB.TABLE_NAME, "TITLE="+title, null) > 0;
     }
 

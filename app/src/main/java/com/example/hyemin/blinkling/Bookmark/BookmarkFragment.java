@@ -12,10 +12,7 @@ import android.view.Menu;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.EditText;
-import android.widget.ListView;
 import android.widget.Spinner;
-
-import com.example.hyemin.blinkling.Bookmarks.ListViewAdapter;
 import com.example.hyemin.blinkling.R;
 
 import java.util.ArrayList;
@@ -24,9 +21,7 @@ import java.util.List;
 public class BookmarkFragment extends Fragment {
     private FragmentTabHost mTabHost;
     private EditText et_searchText;
-    ListViewAdapter adapter;
     ViewPager viewPager;
-    ListView listview;
 
     public BookmarkFragment() {
     }
@@ -38,6 +33,7 @@ public class BookmarkFragment extends Fragment {
     }
 
     public void onPrepareOptionsMenu(Menu menu){
+        menu.findItem(R.id.bookmark_btn).setVisible(false);
         menu.findItem(R.id.voice_btn).setVisible(false);
         menu.findItem(R.id.eye_btn).setVisible(false);
         menu.findItem(R.id.light_btn).setVisible(false);
@@ -49,11 +45,6 @@ public class BookmarkFragment extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.fragment_bookmark,container, false);
-        /*adapter = new ListViewAdapter();
-
-        listview = (ListView) viewPager.findViewById(R.id.listView1);
-        listview.setAdapter(adapter);
-        */
 
         // Setting ViewPager for each Tabs
         viewPager = (ViewPager) view.findViewById(R.id.viewpager);
@@ -104,8 +95,8 @@ public class BookmarkFragment extends Fragment {
     private void setupViewPager(ViewPager viewPager) {
 
         Adapter adapter = new Adapter(getChildFragmentManager());
-        adapter.addFragment(new Web_Tab_Fragment(), "WEB");
-        adapter.addFragment(new Book_Tab_Fragment(), "BOOK");
+        adapter.addFragment(new BookTab_Fragment(), "BOOK");
+        adapter.addFragment(new WebTab_Fragment(), "WEB");
         viewPager.setAdapter(adapter);
 
     }

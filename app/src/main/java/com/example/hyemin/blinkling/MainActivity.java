@@ -5,6 +5,7 @@ import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.content.res.Configuration;
+import android.database.SQLException;
 import android.net.Uri;
 import android.os.Build;
 import android.os.Bundle;
@@ -25,12 +26,18 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.example.hyemin.blinkling.BookShelf.BookshelfFragment;
+import com.example.hyemin.blinkling.Bookmark.BookTab_Fragment;
 import com.example.hyemin.blinkling.Bookmark.BookmarkFragment;
+import com.example.hyemin.blinkling.Bookmark.CustomAdapter;
 import com.example.hyemin.blinkling.Bookmark.DateFormatter;
 import com.example.hyemin.blinkling.Bookmark.DbOpenHelper;
+import com.example.hyemin.blinkling.Bookmark.ExamDbFacade;
+import com.example.hyemin.blinkling.Bookmark.InfoClass;
 import com.example.hyemin.blinkling.Service.ScreenFilterService;
 import com.example.hyemin.blinkling.Setting.SettingFragment;
 import com.example.hyemin.blinkling.Webview.WebviewFragment;
+
+import java.util.ArrayList;
 
 public class MainActivity extends ActionBarActivity {
     private static final String TAG = "AppPermission";
@@ -39,13 +46,18 @@ public class MainActivity extends ActionBarActivity {
     private Fragment fragment;
     private FragmentManager fragmentManager;
     private Toolbar toolbar;
-    boolean light;//초기상태는 불이 꺼진 상태
+    private boolean light;//초기상태는 불이 꺼진 상태
     DbOpenHelper db_helper;
-    private TextView tv;
     TextViewFragment txt_fragment;
     private String book_title;
     private int bookmark_pos;
     private String T_date;
+    private boolean isEditing = false;
+    BookTab_Fragment bookTab_fragment = new BookTab_Fragment();
+    ExamDbFacade mFacade;
+    ArrayList<InfoClass> insertResult;
+    CustomAdapter mAdapter;
+    BookTab_Fragment bf;
 
 
     @Override
@@ -58,6 +70,12 @@ public class MainActivity extends ActionBarActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        mFacade = new ExamDbFacade(getApplicationContext());
+        mAdapter = new CustomAdapter(getApplicationContext(), mFacade.getCursor(), false);
+
+        //데이터베이스 생성 및 오픈
+       // mDbOpenHelper = new DbOpenHelper(this);
+
         toolbar = (Toolbar) findViewById(R.id.tool_bar);
         setSupportActionBar(toolbar);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
@@ -68,6 +86,12 @@ public class MainActivity extends ActionBarActivity {
         fragment = new BookshelfFragment();
         final FragmentTransaction transaction = fragmentManager.beginTransaction();
         transaction.add(R.id.main_container, fragment).commit();
+
+       // FragmentManager fm = getSupportFragmentManager();
+        //fm.beginTransaction().add(R.id.main_container, fragment,"BK").commit();
+
+
+     //   getSupportFragmentManager().beginTransaction().add(R.id.frg_webtab, new BookTab_Fragment(), "tag").commit();
 
         getSupportActionBar().setTitle("블링클링");
         bottomNavigation = (BottomNavigationView) findViewById(R.id.bottom_navigation);
@@ -81,6 +105,7 @@ public class MainActivity extends ActionBarActivity {
                                 break;
 
                             case R.id.navigation_write:
+
                                 fragment = new BookmarkFragment();
                                 break;
 
@@ -94,7 +119,7 @@ public class MainActivity extends ActionBarActivity {
 
                         }
                         replaceFragment(fragment);
-                        return true;
+                         return true;
                     }
                 });
 
@@ -148,6 +173,14 @@ public class MainActivity extends ActionBarActivity {
             }
             case R.id.bookmark_btn: {
                 addBookmark();
+                return true;
+            }
+            case R.id.bookmark_delete: {
+                bookTab_fragment.checkBookmarkDelete();
+                return true;
+            }
+            case R.id.bookmark_edit: {
+
                 return true;
             }
 
@@ -217,11 +250,23 @@ public class MainActivity extends ActionBarActivity {
             // app-defined int constant
 
         } else {
-
             start();
         }
     }
+/*
+   public ExamDbFacade getFacade(){
+     //   mFacade = new ExamDbFacade(getApplicationContext());
+        return mFacade;
+    }
 
+    public CustomAdapter getAdapter(){
+       // mAdapter = new CustomAdapter(this, mFacade.getCursor(), false);
+        return mAdapter;
+    }
+*/
+    public boolean checkEditButton(){
+        return isEditing;
+    }
 
     @Override
     public void onRequestPermissionsResult(int requestCode, String[] permissions, int[] grantResults) {
@@ -259,7 +304,13 @@ public class MainActivity extends ActionBarActivity {
         txt_fragment = (TextViewFragment) getSupportFragmentManager().findFragmentById(R.id.main_container);
         TextView txt = txt_fragment.getTxtBook();
 
+/*        bookTab_fragment = (BookTab_Fragment) getSupportFragmentManager().findFragmentById(R.id.fragment_web__tab_);
+        mFacade = bookTab_fragment.getFacade();
+        mAdapter = bookTab_fragment.getAdapter();*/
+
         bookmark_pos = txt_fragment.book_mark_add(txt); //북마크로 저장 할 좌표를 bookmark_pos에 저장함
+
+      //  bf = (BookTab_Fragment)getSupportFragmentManager().findFragmentByTag("BK");
 
         final EditText editText = new EditText(this);
         AlertDialog.Builder dialog = new AlertDialog.Builder(MainActivity.this);
@@ -274,23 +325,27 @@ public class MainActivity extends ActionBarActivity {
                                 int position = bookmark_pos; //북마크 좌표
                                 String document = book_title; //문서의 이름
                                 String time_date = T_date; //저장된 시각
-                                if (db_helper == null) {
+                              /*  if (db_helper == null) {
                                     db_helper = new DbOpenHelper(getApplicationContext());
                                     db_helper.open();
-                                }
+                                }*/
 
-                                db_helper.insertColumn(title,document,time_date,time_date,Integer.toString(position));
-                                //InfoClass infoClass = new InfoClass()
-                              //  Bookmarnfo bi = new Bookmark_Info(title,type,document);
-/*
+                              BookTab_Fragment bookTab_fragment = new BookTab_Fragment();
+                                Bundle bundle = new Bundle();
+                                bundle.putString("title", title);
+                                bundle.putString("document", document);
+                                bundle.putString("time_date", time_date);
+                                bundle.putString("position",Integer.toString(position));
+                                bookTab_fragment.setArguments(bundle);
 
-                                Bookmark_Info bi = new Bookmark_Info();
-                                bi.setTitle(title);
-                                bi.setType(type);
-                                bi.setDoc(document);
-                                bookmark_db.addBookmark(bi);*/
+                                insertResult = mFacade.insert(title,document,time_date,time_date,Integer.toString(position));
+                                mAdapter.changeCursor(mFacade.getCursor());
+
+                                //입력된 데이터를 insertColumn을 통해 add
+                              //  db_helper.insertColumn(title,document,time_date,time_date,Integer.toString(position));
 
 
+                             //   bf.getInsertValue();
                             }
                         }).setNeutralButton("취소", new DialogInterface.OnClickListener() {
             @Override

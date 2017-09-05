@@ -57,7 +57,6 @@
             android:name="com.example.hyemin.blinkling.Face_Activity"
             android:permission="android.permission.CAMERA"
             android:screenOrientation="fullSensor" />
-        <activity android:name="com.example.hyemin.blinkling.Bookmark.a" />
 
         <service
             android:name="com.example.hyemin.blinkling.Service.ScreenFilterService"

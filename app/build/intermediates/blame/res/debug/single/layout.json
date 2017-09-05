@@ -80,10 +80,6 @@
         "source": "/Users/seohyemin/Blinkling-master/app/src/main/res/layout/fragment_bookshelf.xml"
     },
     {
-        "merged": "/Users/seohyemin/Blinkling-master/app/build/intermediates/res/merged/debug/layout/bookmark_listview_item.xml",
-        "source": "/Users/seohyemin/Blinkling-master/app/src/main/res/layout/bookmark_listview_item.xml"
-    },
-    {
         "merged": "/Users/seohyemin/Blinkling-master/app/build/intermediates/res/merged/debug/layout/abc_select_dialog_material.xml",
         "source": "/Users/seohyemin/.android/build-cache/c7bc4f7edfba7ff92a9519a276f8d2da7169785b/output/res/layout/abc_select_dialog_material.xml"
     },
@@ -258,10 +254,6 @@
     {
         "merged": "/Users/seohyemin/Blinkling-master/app/build/intermediates/res/merged/debug/layout/design_navigation_menu.xml",
         "source": "/Users/seohyemin/.android/build-cache/b5526703288357c323e2e1ef12cac4fa78843af5/output/res/layout/design_navigation_menu.xml"
-    },
-    {
-        "merged": "/Users/seohyemin/Blinkling-master/app/build/intermediates/res/merged/debug/layout/maina.xml",
-        "source": "/Users/seohyemin/Blinkling-master/app/src/main/res/layout/maina.xml"
     },
     {
         "merged": "/Users/seohyemin/Blinkling-master/app/build/intermediates/res/merged/debug/layout/lv_header_layout.xml",

@@ -1,5 +1,8 @@
 package com.example.hyemin.blinkling.Bookmark;
 
+import android.graphics.drawable.Drawable;
+import android.widget.ImageView;
+
 /**
  * Created by seohyemin on 2017. 8. 29..
  */
@@ -11,6 +14,7 @@ public class InfoClass {
     public String created_at;
     public String updated_at;
     public String position;
+    public Drawable image;
 
     //생성자
     public InfoClass(){}
@@ -31,6 +35,13 @@ public class InfoClass {
         this.created_at = created_at;
         this.updated_at = updated_at;
         this.position = position;
+    }
+    public Drawable getImage(){
+        return image;
+    }
+
+    public void setImage(Drawable image){
+        this.image = image;
     }
 
     public int get_id() {

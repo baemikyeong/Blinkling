@@ -1,5 +1,9 @@
 [
     {
+        "merged": "/Users/seohyemin/Blinkling-master/app/build/intermediates/res/merged/debug/drawable-hdpi/ic_content_cut_black_24dp.png",
+        "source": "/Users/seohyemin/Blinkling-master/app/src/main/res/drawable-hdpi/ic_content_cut_black_24dp.png"
+    },
+    {
         "merged": "/Users/seohyemin/Blinkling-master/app/build/intermediates/res/merged/debug/drawable-hdpi/ic_mic_black_24dp.png",
         "source": "/Users/seohyemin/Blinkling-master/app/src/main/res/drawable-hdpi/ic_mic_black_24dp.png"
     },
@@ -26,5 +30,9 @@
     {
         "merged": "/Users/seohyemin/Blinkling-master/app/build/intermediates/res/merged/debug/drawable-hdpi/ic_turned_in_black_24dp.png",
         "source": "/Users/seohyemin/Blinkling-master/app/src/main/res/drawable-hdpi/ic_turned_in_black_24dp.png"
+    },
+    {
+        "merged": "/Users/seohyemin/Blinkling-master/app/build/intermediates/res/merged/debug/drawable-hdpi/ic_clear_black_24dp.png",
+        "source": "/Users/seohyemin/Blinkling-master/app/src/main/res/drawable-hdpi/ic_clear_black_24dp.png"
     }
 ]

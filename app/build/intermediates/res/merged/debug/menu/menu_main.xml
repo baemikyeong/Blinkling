@@ -45,4 +45,20 @@
         app:showAsAction="ifRoom"
         android:title="삭제">
     </item>
+
+    <item
+        android:id="@+id/bookmark_delete"
+        android:icon="@drawable/ic_clear_black_24dp"
+        app:showAsAction="ifRoom"
+        android:title="북마크 삭제"
+        >
+    </item>
+
+    <item
+        android:id="@+id/bookmark_edit"
+        android:icon="@drawable/ic_content_cut_black_24dp"
+        app:showAsAction="ifRoom"
+        android:title="북마크 편집">
+
+    </item>
 </menu>
