@@ -22,9 +22,14 @@ import android.widget.SeekBar;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.example.hyemin.blinkling.MainActivity;
 import com.example.hyemin.blinkling.R;
+import com.example.hyemin.blinkling.Service.ScreenFilterService;
 
 import java.nio.channels.SeekableByteChannel;
+
+import static com.google.android.gms.cast.CastRemoteDisplayLocalService.startService;
+import static com.google.android.gms.cast.CastRemoteDisplayLocalService.stopService;
 
 public class SetBluelightFragment extends DialogFragment {
 
@@ -97,6 +102,13 @@ public class SetBluelightFragment extends DialogFragment {
 
                         editor1.putInt("bluelight_edit",nCurrent[0]);
                         editor1.commit();
+
+                        // 블루라이트가 현재 실행 중이라면, 실시간으로 변동사항 반영
+                        Intent service = new Intent(getActivity(), ScreenFilterService.class);
+                        if(MainActivity.light == true){
+                            getActivity().stopService(service);
+                            getActivity().startService(service);
+                        }
 
                     }
 

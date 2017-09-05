@@ -13,6 +13,8 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.EditText;
 import android.widget.Spinner;
+
+import com.example.hyemin.blinkling.MainActivity;
 import com.example.hyemin.blinkling.R;
 
 import java.util.ArrayList;
@@ -130,4 +132,18 @@ public class BookmarkFragment extends Fragment {
         }
     }
 
+
+    @Override
+    public void onResume() {
+        super.onResume();
+        if (MainActivity.bottomNavigation.getSelectedItemId() != R.id.navigation_write)
+            MainActivity.bottomNavigation.getMenu().findItem(R.id.navigation_write).setChecked(true);
+
+    }
+
+//
+//    public void addItem(Drawable icon, String title, String desc){
+//
+//        adapter.addItem(icon, title, desc);
+//    }
 }

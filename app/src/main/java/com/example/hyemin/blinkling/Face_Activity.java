@@ -32,6 +32,11 @@ import android.widget.Toast;
 
 import com.example.hyemin.blinkling.camera.CameraSourcePreview;
 import com.example.hyemin.blinkling.camera.GraphicOverlay;
+import com.example.hyemin.blinkling.event.EyeClosedEvent;
+import com.example.hyemin.blinkling.event.EyeOpenEvent;
+import com.example.hyemin.blinkling.event.NeutralFaceEvent;
+import com.example.hyemin.blinkling.event.RightEyeClosedEvent;
+import com.example.hyemin.blinkling.util.PlayServicesUtil;
 import com.google.android.gms.common.ConnectionResult;
 import com.google.android.gms.common.GoogleApiAvailability;
 import com.google.android.gms.vision.CameraSource;
@@ -39,6 +44,10 @@ import com.google.android.gms.vision.MultiProcessor;
 import com.google.android.gms.vision.Tracker;
 import com.google.android.gms.vision.face.Face;
 import com.google.android.gms.vision.face.FaceDetector;
+
+import org.greenrobot.eventbus.EventBus;
+import org.greenrobot.eventbus.Subscribe;
+import org.greenrobot.eventbus.ThreadMode;
 
 import java.io.IOException;
 
@@ -57,8 +66,8 @@ public final class Face_Activity extends Activity {
 
 
     // 눈 감았을때의 오른쪽, 왼쪽 눈의 크기 저장
-    public static float right_thred1=0;
-    public static float left_thred1=0;
+    public static float right_thred1 = 0;
+    public static float left_thred1 = 0;
 
     // 초기화 여부 판단
     public static boolean initial_check;
@@ -78,7 +87,9 @@ public final class Face_Activity extends Activity {
     private SharedPreferences.Editor editor1;
 
     long indivisual_blink_time;
-
+    boolean startChecked = false;
+    int starttimecheck = 100;
+    long startTime = 0, endTime = 0;
 
     //==============================================================================================
     // Activity Methods
@@ -92,12 +103,17 @@ public final class Face_Activity extends Activity {
         super.onCreate(icicle);
         setContentView(R.layout.main);
 
+        PlayServicesUtil.isPlayServicesAvailable(this, 69);
+
+        // register the event bus
+        EventBus.getDefault().register(this);
+
         initial_check = false;
         mPreview = (CameraSourcePreview) findViewById(R.id.preview);
         mGraphicOverlay = (GraphicOverlay) findViewById(R.id.faceOverlay);
 
         indivisual_blink_time = 0;
-        intPref = getSharedPreferences("mPred",Activity.MODE_PRIVATE);
+        intPref = getSharedPreferences("mPred", Activity.MODE_PRIVATE);
         editor1 = intPref.edit();
 
         // Check for the camera permission before accessing the camera.  If the
@@ -143,6 +159,32 @@ public final class Face_Activity extends Activity {
                 .show();
     }
 
+    @Subscribe(threadMode = ThreadMode.MAIN)
+    public void onEyeClosed(EyeClosedEvent e) {
+        // change_up_location();
+        if (starttimecheck == 1) {
+            startTime = System.currentTimeMillis(); // 시간재기
+            Toast.makeText(this,"시간측정을 시작합니다", Toast.LENGTH_SHORT).show();
+            startChecked = true;
+            starttimecheck++;
+        }
+
+    }
+
+    @Subscribe(threadMode = ThreadMode.MAIN)
+    public void onEyeOpened(EyeOpenEvent e) {
+
+        if (starttimecheck == 2 && startChecked == true) {
+            // 시간 멈추기
+            endTime = System.currentTimeMillis();
+            Toast.makeText(this, "눈 뜸", Toast.LENGTH_SHORT).show();
+            indivisual_blink_time = endTime - startTime;
+            Toast.makeText(this, "시간" + indivisual_blink_time, Toast.LENGTH_SHORT).show();
+        }
+        startChecked = false;
+        starttimecheck++;
+    }
+
     /**
      * Creates and starts the camera.  Note that this uses a higher resolution in comparison
      * to other detection examples to enable the barcode detector to detect small barcodes
@@ -179,20 +221,20 @@ public final class Face_Activity extends Activity {
                 .build();
     }
 
-    public void onClickBack (View v ){
+    public void onClickBack(View v) {
 
-        Intent intent=new Intent(this,MainActivity.class);
+        Intent intent = new Intent(this, MainActivity.class);
 
         if (mCameraSource != null) {
             mCameraSource.release();
             mCameraSource = null;
         }
 
-        if(initial_check == true) {
+        if (initial_check == true) {
 
-            editor1.putFloat("LValue",left_thred1);
-            editor1.putFloat("RValue",right_thred1);
-            editor1.putLong("time_blink",indivisual_blink_time);
+            editor1.putFloat("LValue", left_thred1);
+            editor1.putFloat("RValue", right_thred1);
+            editor1.putLong("time_blink", indivisual_blink_time);
             editor1.commit();
 
         }
@@ -203,24 +245,22 @@ public final class Face_Activity extends Activity {
 
     }
 
-    public void onClickInit (View v ) throws InterruptedException {
+    public void onClickInit(View v) throws InterruptedException {
         face_check.onDone();
         check = 1;
         initial_check = true;
         face_check = new GraphicFaceTracker(mGraphicOverlay);
-        Toast.makeText(this, "성공" + right_thred1 + "dhk" + left_thred1, Toast.LENGTH_SHORT).show();
+        Toast.makeText(this, "성공" + right_thred1 + "와" + left_thred1, Toast.LENGTH_SHORT).show();
 
     }
 
-    public void onClickInit_time (View v ) throws InterruptedException {
-        // 정확도를 위해 두 번 check
+    public void onClickInit_time(View v) throws InterruptedException {
+
         face_check.onDone();
         face_check = new GraphicFaceTracker(mGraphicOverlay);
-        face_check.mFaceGraphic.set_closed_size((double)left_thred1, (double)right_thred1);
-        face_check.mFaceGraphic.set_check_time();
-        indivisual_blink_time = face_check.mFaceGraphic.return_time();
-        Toast.makeText(this, "시간" + indivisual_blink_time, Toast.LENGTH_SHORT).show();
+        face_check.mFaceGraphic.set_closed_size((double) left_thred1, (double) right_thred1);
 
+        starttimecheck = 1;
     }
 
 
@@ -361,30 +401,30 @@ public final class Face_Activity extends Activity {
             mOverlay = overlay;
             mFaceGraphic = new FaceGraphic(overlay);
 
-            if(check == 1){
+            if (check == 1) {
                 return_check();
             }
         }
 
-        public void return_check(){
+        public void return_check() {
 
 
-            double r,l;
+            double r, l;
 
             r = mFaceGraphic.return_right();
             l = mFaceGraphic.return_left();
 
             // 정확도를 위해 보다 작은 값으로 눈의 크기 저장
-            if( right_thred1 != 0 && (float)r<=right_thred1)
-                right_thred1 = (float)r;
-            if( left_thred1 != 0 && (float)l<=left_thred1)
-                left_thred1 = (float)l;
+            if (right_thred1 != 0 && (float) r <= right_thred1)
+                right_thred1 = (float) r;
+            if (left_thred1 != 0 && (float) l <= left_thred1)
+                left_thred1 = (float) l;
 
             // 눈의크기가 저장이 되어있지 않은 경우, 비교 없이 값 자체 저장
-            if(right_thred1 == 0)
-                right_thred1 = (float)r;
-            if(left_thred1 == 0)
-                left_thred1 = (float)l;
+            if (right_thred1 == 0)
+                right_thred1 = (float) r;
+            if (left_thred1 == 0)
+                left_thred1 = (float) l;
 
 
         }

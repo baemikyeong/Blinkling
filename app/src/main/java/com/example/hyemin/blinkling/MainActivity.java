@@ -9,9 +9,9 @@ import android.database.SQLException;
 import android.net.Uri;
 import android.os.Build;
 import android.os.Bundle;
+import android.os.Environment;
 import android.provider.Settings;
 import android.support.design.widget.BottomNavigationView;
-import android.support.v4.app.ActivityCompat;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentTransaction;
@@ -33,20 +33,29 @@ import com.example.hyemin.blinkling.Bookmark.DateFormatter;
 import com.example.hyemin.blinkling.Bookmark.DbOpenHelper;
 import com.example.hyemin.blinkling.Bookmark.ExamDbFacade;
 import com.example.hyemin.blinkling.Bookmark.InfoClass;
+import android.widget.FrameLayout;
+import android.widget.RelativeLayout;
+import android.widget.Toast;
+
+import com.example.hyemin.blinkling.BookShelf.BookshelfFragment;
+import com.example.hyemin.blinkling.Book_Viewer.InnerStorageFragment;
+import com.example.hyemin.blinkling.Book_Viewer.TextViewFragment;
+import com.example.hyemin.blinkling.Bookmark.BookmarkFragment;
+import com.example.hyemin.blinkling.Service.AudioService;
 import com.example.hyemin.blinkling.Service.ScreenFilterService;
 import com.example.hyemin.blinkling.Setting.SettingFragment;
 import com.example.hyemin.blinkling.Webview.WebviewFragment;
 
 import java.util.ArrayList;
+import java.io.File;
+
+import static android.Manifest.permission.READ_EXTERNAL_STORAGE;
+import static android.Manifest.permission.RECORD_AUDIO;
 
 public class MainActivity extends ActionBarActivity {
+
     private static final String TAG = "AppPermission";
     private final int MY_PERMISSION_REQUEST_STORAGE = 100;
-    private BottomNavigationView bottomNavigation;
-    private Fragment fragment;
-    private FragmentManager fragmentManager;
-    private Toolbar toolbar;
-    private boolean light;//초기상태는 불이 꺼진 상태
     DbOpenHelper db_helper;
     TextViewFragment txt_fragment;
     private String book_title;
@@ -59,10 +68,25 @@ public class MainActivity extends ActionBarActivity {
     CustomAdapter mAdapter;
     BookTab_Fragment bf;
 
+    private boolean isRecording = false;
+    private static final int REQUEST_RECORD_AUDIO_PERMISSION = 200;
+    String InStoragePath = Environment.getExternalStorageDirectory().getAbsolutePath() +"/Blinkling";
+
+    public static BottomNavigationView bottomNavigation;
+    private Fragment fragment;
+    private FragmentManager fragmentManager;
+    private Toolbar toolbar;
+    public static boolean light;//초기상태는 불이 꺼진 상태
+    public static FrameLayout aframe;
 
     @Override
     public void onConfigurationChanged(Configuration newConfig) {
+
+        FrameLayout fl = (FrameLayout) findViewById(R.id.main_container);
+        fl.removeAllViews();
+
         super.onConfigurationChanged(newConfig);
+
     }
 
     @Override
@@ -73,10 +97,11 @@ public class MainActivity extends ActionBarActivity {
         mFacade = new ExamDbFacade(getApplicationContext());
         mAdapter = new CustomAdapter(getApplicationContext(), mFacade.getCursor(), false);
 
-        //데이터베이스 생성 및 오픈
-       // mDbOpenHelper = new DbOpenHelper(this);
+        makeDirectory(InStoragePath);
 
         toolbar = (Toolbar) findViewById(R.id.tool_bar);
+        aframe = (FrameLayout) findViewById(R.id.main_container);
+
         setSupportActionBar(toolbar);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         getSupportActionBar().setHomeAsUpIndicator(R.drawable.folder);
@@ -87,12 +112,6 @@ public class MainActivity extends ActionBarActivity {
         final FragmentTransaction transaction = fragmentManager.beginTransaction();
         transaction.add(R.id.main_container, fragment).commit();
 
-       // FragmentManager fm = getSupportFragmentManager();
-        //fm.beginTransaction().add(R.id.main_container, fragment,"BK").commit();
-
-
-     //   getSupportFragmentManager().beginTransaction().add(R.id.frg_webtab, new BookTab_Fragment(), "tag").commit();
-
         getSupportActionBar().setTitle("블링클링");
         bottomNavigation = (BottomNavigationView) findViewById(R.id.bottom_navigation);
         bottomNavigation.setOnNavigationItemSelectedListener(
@@ -102,6 +121,7 @@ public class MainActivity extends ActionBarActivity {
                         switch (item.getItemId()) {
                             case R.id.navigation_home:
                                 fragment = new BookshelfFragment();
+
                                 break;
 
                             case R.id.navigation_write:
@@ -131,7 +151,13 @@ public class MainActivity extends ActionBarActivity {
         FragmentManager manager = getSupportFragmentManager();
         boolean fragmentPopped = manager.popBackStackImmediate(backStateName, 0);
 
-        if (!fragmentPopped) { //fragment not in back stack, create it.
+        FrameLayout fl = (FrameLayout) findViewById(R.id.main_container);
+        fl.removeAllViews();
+
+        RelativeLayout l = (RelativeLayout) findViewById(R.id.activity_main);
+
+
+        if (!fragmentPopped) {                  //fragment not in back stack, create it.
             FragmentTransaction ft = manager.beginTransaction();
             ft.replace(R.id.main_container, fragment);
             ft.addToBackStack(backStateName);
@@ -148,10 +174,17 @@ public class MainActivity extends ActionBarActivity {
         int id = item.getItemId();
         switch (id) {
             case android.R.id.home: {
+                //FragmentManager fm = getSupportFragmentManager();
+
+                FrameLayout fl = (FrameLayout) findViewById(R.id.main_container);
+                fl.removeAllViews();
+
+                fragmentManager.popBackStack();
                 return true;
             }
-            case R.id.notebook_add: {
-                checkPermission();
+            case R.id.notebook_add: {/////
+
+                checkPermission(READ_EXTERNAL_STORAGE);
             }
             case R.id.notebook_delete: {
                 Toast toast;
@@ -166,7 +199,25 @@ public class MainActivity extends ActionBarActivity {
                 return true;
             }
             case R.id.voice_btn: {
+
+                Intent intent = new Intent(this, AudioService.class);
                 Toast toast;
+                // Requesting permission to RECORD_AUDIO
+
+                //ActivityCompat.requestPermissions(this, permissions, REQUEST_RECORD_AUDIO_PERMISSION);
+                checkPermission(RECORD_AUDIO);
+
+                if (isRecording == false) {
+                    startService(intent);
+                    //   Toast.makeText(this, "녹음시작", Toast.LENGTH_SHORT).show();
+                    isRecording = true;
+                } else {
+                    stopService(intent);
+                    // Toast.makeText(this, "녹음종료", Toast.LENGTH_SHORT).show();
+                    isRecording = false;
+                }
+
+
                 toast = Toast.makeText(this, item.getTitle() + " Clicked voice button!", Toast.LENGTH_SHORT);
                 toast.show();
                 return true;
@@ -191,13 +242,14 @@ public class MainActivity extends ActionBarActivity {
                         Intent intent = new Intent(Settings.ACTION_MANAGE_OVERLAY_PERMISSION,
                                 Uri.parse("package:" + getPackageName()));
                         startActivityForResult(intent, 1234);
-                    }
-                    if (!light) {
-                        startService(service);
-                        light = true;
                     } else {
-                        stopService(service);
-                        light = false;
+                        if (!light) {
+                            startService(service);
+                            light = true;
+                        } else {
+                            stopService(service);
+                            light = false;
+                        }
                     }
                 }
                 Toast toast;
@@ -211,15 +263,16 @@ public class MainActivity extends ActionBarActivity {
 
     }
 
-
     public void changeToText(String valueBookName) {
 
         Fragment frag = new TextViewFragment();
         Bundle bundle = new Bundle();
 
-        bundle.putString("bookname", valueBookName);
+        bundle.putString("bookname", valueBookName);//번들에 값을 넣음
         frag.setArguments(bundle);
 
+        FrameLayout fl = (FrameLayout) findViewById(R.id.main_container);
+        fl.removeAllViews();
 
         final FragmentTransaction transaction = fragmentManager.beginTransaction();
         transaction.replace(R.id.main_container, frag).commit();
@@ -230,43 +283,58 @@ public class MainActivity extends ActionBarActivity {
 
 
     @TargetApi(Build.VERSION_CODES.M)
-    private void checkPermission() {
-        Log.i(TAG, "CheckPermission : " + ActivityCompat.checkSelfPermission(this, android.Manifest.permission.READ_EXTERNAL_STORAGE));
-        if (checkSelfPermission(android.Manifest.permission.READ_EXTERNAL_STORAGE)
-                != PackageManager.PERMISSION_GRANTED
-                || checkSelfPermission(android.Manifest.permission.WRITE_EXTERNAL_STORAGE)
-                != PackageManager.PERMISSION_GRANTED) {
+    private void checkPermission(String requestCode) {
+        // Log.i(TAG, "CheckPermission : " +  ActivityCompat.checkSelfPermission(this, READ_EXTERNAL_STORAGE));
+        switch (requestCode) {
+            case READ_EXTERNAL_STORAGE:
+                if (checkSelfPermission(READ_EXTERNAL_STORAGE)
+                        != PackageManager.PERMISSION_GRANTED
+                        || checkSelfPermission(android.Manifest.permission.WRITE_EXTERNAL_STORAGE)
+                        != PackageManager.PERMISSION_GRANTED) {
 
-            // Should we show an explanation?
-            if (shouldShowRequestPermissionRationale(android.Manifest.permission.READ_EXTERNAL_STORAGE)) {
-                // Explain to the user why we need to write the permission.
-                Toast.makeText(this, "Read/Write external storage", Toast.LENGTH_SHORT).show();
-            }
+                    // Should we show an explanation?
+                    if (shouldShowRequestPermissionRationale(READ_EXTERNAL_STORAGE)) {
+                        // Explain to the user why we need to write the permission.
+                        Toast.makeText(this, "Read/Write external storage", Toast.LENGTH_SHORT).show();
+                    }
 
-            requestPermissions(new String[]{android.Manifest.permission.READ_EXTERNAL_STORAGE, android.Manifest.permission.WRITE_EXTERNAL_STORAGE},
-                    MY_PERMISSION_REQUEST_STORAGE);
+                    requestPermissions(new String[]{READ_EXTERNAL_STORAGE, android.Manifest.permission.WRITE_EXTERNAL_STORAGE},
+                            MY_PERMISSION_REQUEST_STORAGE);
 
-            // MY_PERMISSION_REQUEST_STORAGE is an
-            // app-defined int constant
+                    // MY_PERMISSION_REQUEST_STORAGE is an
+                    // app-defined int constant
 
-        } else {
-            start();
+                } else {
+                    InnerStorageFragment_start();
+
+                }
+
+
+            case RECORD_AUDIO:
+                if (checkSelfPermission(RECORD_AUDIO)
+                        != PackageManager.PERMISSION_GRANTED) {
+
+
+                    // Should we show an explanation?
+                    if (shouldShowRequestPermissionRationale(RECORD_AUDIO)) {
+                        // Explain to the user why we need to write the permission.
+                        Toast.makeText(this, "Record audio", Toast.LENGTH_SHORT).show();
+                    }
+
+                    requestPermissions(new String[]{RECORD_AUDIO, android.Manifest.permission.RECORD_AUDIO},
+                            MY_PERMISSION_REQUEST_STORAGE);
+
+                    // MY_PERMISSION_REQUEST_STORAGE is an
+                    // app-defined int constant
+
+                } else {
+                    //실행
+
+                }
+
         }
     }
-/*
-   public ExamDbFacade getFacade(){
-     //   mFacade = new ExamDbFacade(getApplicationContext());
-        return mFacade;
-    }
 
-    public CustomAdapter getAdapter(){
-       // mAdapter = new CustomAdapter(this, mFacade.getCursor(), false);
-        return mAdapter;
-    }
-*/
-    public boolean checkEditButton(){
-        return isEditing;
-    }
 
     @Override
     public void onRequestPermissionsResult(int requestCode, String[] permissions, int[] grantResults) {
@@ -275,7 +343,7 @@ public class MainActivity extends ActionBarActivity {
                 if (grantResults[0] == PackageManager.PERMISSION_GRANTED
                         && grantResults[1] == PackageManager.PERMISSION_GRANTED) {
 
-                    start();
+                    InnerStorageFragment_start();
 
                     // permission was granted, yay! do the
                     // calendar task you need to do.
@@ -292,7 +360,20 @@ public class MainActivity extends ActionBarActivity {
         }
     }
 
-    public void start() {
+    private File makeDirectory(String dir_path){
+        File dir = new File(dir_path);
+        if (!dir.exists())
+        {
+            dir.mkdirs();
+            Log.i( TAG , "!dir.exists" );
+        }else{
+            Log.i( TAG , "dir.exists" );
+        }
+
+        return dir;
+    }
+
+    public void InnerStorageFragment_start() {
         fragment = new InnerStorageFragment();
         replaceFragment(fragment);
     }

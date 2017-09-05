@@ -22,6 +22,9 @@
 
 package com.example.hyemin.blinkling.tracker;
 
+import android.app.Activity;
+import android.content.SharedPreferences;
+
 import com.example.hyemin.blinkling.event.*;
 import com.google.android.gms.vision.Detector;
 import com.google.android.gms.vision.Tracker;
@@ -40,16 +43,18 @@ public class FaceTracker extends Tracker<Face> {
     private double right_thres;
     private boolean initial_check = false;
     private Face mface;
+    private long user_time;
 
-
-    public void set_indi(double left, double right){
+    public void set_indi(double left, double right, long time){
         left_thres = left;
         right_thres = right;
         initial_check = true;
+        user_time = time;
     }
 
     @Override
     public void onUpdate(Detector.Detections<Face> detections, Face face) {
+
         if(initial_check == false) {
             if (leftClosed && face.getIsLeftEyeOpenProbability() > PROB_THRESHOLD) {
                 leftClosed = false;
@@ -89,13 +94,20 @@ public class FaceTracker extends Tracker<Face> {
             }
         }
 
-        if (leftClosed && !rightClosed) {
-            EventBus.getDefault().post(new LeftEyeClosedEvent());
-        } else if (rightClosed && !leftClosed) {
-            EventBus.getDefault().post(new RightEyeClosedEvent());
-        } else if (leftClosed && rightClosed) {
+        //오른쪽, 왼쪽 눈 감음 구분
+//        if (leftClosed && !rightClosed) {
+//            EventBus.getDefault().post(new LeftEyeClosedEvent());
+//        } else if (rightClosed && !leftClosed) {
+//            EventBus.getDefault().post(new RightEyeClosedEvent());
+//        } else if (leftClosed && rightClosed) {
+//            EventBus.getDefault().post(new NeutralFaceEvent());
+//        }
+
+        // 오른쪽 왼쪽 눈감음 따로 인식 가능 (현재는 필요하지 않기 때문에 생략)
+        if (leftClosed && rightClosed) {
+           EventBus.getDefault().post(new RightEyeClosedEvent());
+        } else if (!leftClosed && !rightClosed) {
             EventBus.getDefault().post(new NeutralFaceEvent());
         }
-
     }
 }

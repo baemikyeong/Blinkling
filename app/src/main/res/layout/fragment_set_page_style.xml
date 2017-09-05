@@ -9,7 +9,7 @@
 
     <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="294dp">
+        android:layout_height="274dp">
 
         <RadioGroup
             android:id="@+id/radiopagestyle"
@@ -30,7 +30,7 @@
                 android:id="@+id/radio_pagestyle2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="슬라이딩 형식" />
+                android:text="스크롤링 형식" />
 
         </RadioGroup>
     </RelativeLayout>

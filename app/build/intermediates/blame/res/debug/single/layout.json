@@ -4,16 +4,8 @@
         "source": "/Users/seohyemin/.android/build-cache/86e41c47417d80a7dd799f3286469399e5a52229/output/res/layout/cast_intro_overlay.xml"
     },
     {
-        "merged": "/Users/seohyemin/Blinkling-master/app/build/intermediates/res/merged/debug/layout/design_layout_tab_icon.xml",
-        "source": "/Users/seohyemin/.android/build-cache/b5526703288357c323e2e1ef12cac4fa78843af5/output/res/layout/design_layout_tab_icon.xml"
-    },
-    {
         "merged": "/Users/seohyemin/Blinkling-master/app/build/intermediates/res/merged/debug/layout/select_dialog_singlechoice_material.xml",
         "source": "/Users/seohyemin/.android/build-cache/c7bc4f7edfba7ff92a9519a276f8d2da7169785b/output/res/layout/select_dialog_singlechoice_material.xml"
-    },
-    {
-        "merged": "/Users/seohyemin/Blinkling-master/app/build/intermediates/res/merged/debug/layout/abc_action_bar_view_list_nav_layout.xml",
-        "source": "/Users/seohyemin/.android/build-cache/c7bc4f7edfba7ff92a9519a276f8d2da7169785b/output/res/layout/abc_action_bar_view_list_nav_layout.xml"
     },
     {
         "merged": "/Users/seohyemin/Blinkling-master/app/build/intermediates/res/merged/debug/layout/place_autocomplete_fragment.xml",
@@ -28,32 +20,8 @@
         "source": "/Users/seohyemin/.android/build-cache/b5526703288357c323e2e1ef12cac4fa78843af5/output/res/layout/design_navigation_item_header.xml"
     },
     {
-        "merged": "/Users/seohyemin/Blinkling-master/app/build/intermediates/res/merged/debug/layout/abc_alert_dialog_title_material.xml",
-        "source": "/Users/seohyemin/.android/build-cache/c7bc4f7edfba7ff92a9519a276f8d2da7169785b/output/res/layout/abc_alert_dialog_title_material.xml"
-    },
-    {
-        "merged": "/Users/seohyemin/Blinkling-master/app/build/intermediates/res/merged/debug/layout/activity_main.xml",
-        "source": "/Users/seohyemin/Blinkling-master/app/src/main/res/layout/activity_main.xml"
-    },
-    {
-        "merged": "/Users/seohyemin/Blinkling-master/app/build/intermediates/res/merged/debug/layout/place_autocomplete_progress.xml",
-        "source": "/Users/seohyemin/.android/build-cache/7513a969dcc805b7f0f9997c9c0130190965a6d4/output/res/layout/place_autocomplete_progress.xml"
-    },
-    {
-        "merged": "/Users/seohyemin/Blinkling-master/app/build/intermediates/res/merged/debug/layout/abc_action_menu_item_layout.xml",
-        "source": "/Users/seohyemin/.android/build-cache/c7bc4f7edfba7ff92a9519a276f8d2da7169785b/output/res/layout/abc_action_menu_item_layout.xml"
-    },
-    {
         "merged": "/Users/seohyemin/Blinkling-master/app/build/intermediates/res/merged/debug/layout/notification_action_tombstone.xml",
         "source": "/Users/seohyemin/.android/build-cache/c7bc4f7edfba7ff92a9519a276f8d2da7169785b/output/res/layout/notification_action_tombstone.xml"
-    },
-    {
-        "merged": "/Users/seohyemin/Blinkling-master/app/build/intermediates/res/merged/debug/layout/design_layout_snackbar_include.xml",
-        "source": "/Users/seohyemin/.android/build-cache/b5526703288357c323e2e1ef12cac4fa78843af5/output/res/layout/design_layout_snackbar_include.xml"
-    },
-    {
-        "merged": "/Users/seohyemin/Blinkling-master/app/build/intermediates/res/merged/debug/layout/main.xml",
-        "source": "/Users/seohyemin/Blinkling-master/app/src/main/res/layout/main.xml"
     },
     {
         "merged": "/Users/seohyemin/Blinkling-master/app/build/intermediates/res/merged/debug/layout/fragment_webview.xml",
@@ -64,16 +32,12 @@
         "source": "/Users/seohyemin/.android/build-cache/c7bc4f7edfba7ff92a9519a276f8d2da7169785b/output/res/layout/abc_search_dropdown_item_icons_2line.xml"
     },
     {
-        "merged": "/Users/seohyemin/Blinkling-master/app/build/intermediates/res/merged/debug/layout/notification_template_part_time.xml",
-        "source": "/Users/seohyemin/.android/build-cache/c7bc4f7edfba7ff92a9519a276f8d2da7169785b/output/res/layout/notification_template_part_time.xml"
-    },
-    {
-        "merged": "/Users/seohyemin/Blinkling-master/app/build/intermediates/res/merged/debug/layout/abc_alert_dialog_button_bar_material.xml",
-        "source": "/Users/seohyemin/.android/build-cache/c7bc4f7edfba7ff92a9519a276f8d2da7169785b/output/res/layout/abc_alert_dialog_button_bar_material.xml"
-    },
-    {
         "merged": "/Users/seohyemin/Blinkling-master/app/build/intermediates/res/merged/debug/layout/fragment_web__tab_.xml",
         "source": "/Users/seohyemin/Blinkling-master/app/src/main/res/layout/fragment_web__tab_.xml"
+    },
+    {
+        "merged": "/Users/seohyemin/Blinkling-master/app/build/intermediates/res/merged/debug/layout/notification_template_part_time.xml",
+        "source": "/Users/seohyemin/.android/build-cache/c7bc4f7edfba7ff92a9519a276f8d2da7169785b/output/res/layout/notification_template_part_time.xml"
     },
     {
         "merged": "/Users/seohyemin/Blinkling-master/app/build/intermediates/res/merged/debug/layout/fragment_bookshelf.xml",
@@ -84,24 +48,12 @@
         "source": "/Users/seohyemin/.android/build-cache/c7bc4f7edfba7ff92a9519a276f8d2da7169785b/output/res/layout/abc_select_dialog_material.xml"
     },
     {
-        "merged": "/Users/seohyemin/Blinkling-master/app/build/intermediates/res/merged/debug/layout/abc_action_mode_bar.xml",
-        "source": "/Users/seohyemin/.android/build-cache/c7bc4f7edfba7ff92a9519a276f8d2da7169785b/output/res/layout/abc_action_mode_bar.xml"
-    },
-    {
         "merged": "/Users/seohyemin/Blinkling-master/app/build/intermediates/res/merged/debug/layout/abc_screen_content_include.xml",
         "source": "/Users/seohyemin/.android/build-cache/c7bc4f7edfba7ff92a9519a276f8d2da7169785b/output/res/layout/abc_screen_content_include.xml"
     },
     {
-        "merged": "/Users/seohyemin/Blinkling-master/app/build/intermediates/res/merged/debug/layout/fragment_set_background.xml",
-        "source": "/Users/seohyemin/Blinkling-master/app/src/main/res/layout/fragment_set_background.xml"
-    },
-    {
         "merged": "/Users/seohyemin/Blinkling-master/app/build/intermediates/res/merged/debug/layout/fragment_set_brightness.xml",
         "source": "/Users/seohyemin/Blinkling-master/app/src/main/res/layout/fragment_set_brightness.xml"
-    },
-    {
-        "merged": "/Users/seohyemin/Blinkling-master/app/build/intermediates/res/merged/debug/layout/fragment_set_page_style.xml",
-        "source": "/Users/seohyemin/Blinkling-master/app/src/main/res/layout/fragment_set_page_style.xml"
     },
     {
         "merged": "/Users/seohyemin/Blinkling-master/app/build/intermediates/res/merged/debug/layout/abc_popup_menu_header_item_layout.xml",
@@ -112,52 +64,12 @@
         "source": "/Users/seohyemin/.android/build-cache/86e41c47417d80a7dd799f3286469399e5a52229/output/res/layout/cast_tracks_chooser_dialog_layout.xml"
     },
     {
-        "merged": "/Users/seohyemin/Blinkling-master/app/build/intermediates/res/merged/debug/layout/design_navigation_item.xml",
-        "source": "/Users/seohyemin/.android/build-cache/b5526703288357c323e2e1ef12cac4fa78843af5/output/res/layout/design_navigation_item.xml"
-    },
-    {
-        "merged": "/Users/seohyemin/Blinkling-master/app/build/intermediates/res/merged/debug/layout/notification_template_part_chronometer.xml",
-        "source": "/Users/seohyemin/.android/build-cache/c7bc4f7edfba7ff92a9519a276f8d2da7169785b/output/res/layout/notification_template_part_chronometer.xml"
-    },
-    {
-        "merged": "/Users/seohyemin/Blinkling-master/app/build/intermediates/res/merged/debug/layout/mr_chooser_dialog.xml",
-        "source": "/Users/seohyemin/.android/build-cache/26e1f3a36311761421d8a35c144f8427dceb418a/output/res/layout/mr_chooser_dialog.xml"
-    },
-    {
-        "merged": "/Users/seohyemin/Blinkling-master/app/build/intermediates/res/merged/debug/layout/fragment_book__tab_.xml",
-        "source": "/Users/seohyemin/Blinkling-master/app/src/main/res/layout/fragment_book__tab_.xml"
-    },
-    {
-        "merged": "/Users/seohyemin/Blinkling-master/app/build/intermediates/res/merged/debug/layout/cast_help_text.xml",
-        "source": "/Users/seohyemin/.android/build-cache/86e41c47417d80a7dd799f3286469399e5a52229/output/res/layout/cast_help_text.xml"
-    },
-    {
-        "merged": "/Users/seohyemin/Blinkling-master/app/build/intermediates/res/merged/debug/layout/select_dialog_item_material.xml",
-        "source": "/Users/seohyemin/.android/build-cache/c7bc4f7edfba7ff92a9519a276f8d2da7169785b/output/res/layout/select_dialog_item_material.xml"
-    },
-    {
         "merged": "/Users/seohyemin/Blinkling-master/app/build/intermediates/res/merged/debug/layout/fragment_inner_storage.xml",
         "source": "/Users/seohyemin/Blinkling-master/app/src/main/res/layout/fragment_inner_storage.xml"
     },
     {
-        "merged": "/Users/seohyemin/Blinkling-master/app/build/intermediates/res/merged/debug/layout/fragment_text_view.xml",
-        "source": "/Users/seohyemin/Blinkling-master/app/src/main/res/layout/fragment_text_view.xml"
-    },
-    {
         "merged": "/Users/seohyemin/Blinkling-master/app/build/intermediates/res/merged/debug/layout/design_layout_snackbar.xml",
         "source": "/Users/seohyemin/.android/build-cache/b5526703288357c323e2e1ef12cac4fa78843af5/output/res/layout/design_layout_snackbar.xml"
-    },
-    {
-        "merged": "/Users/seohyemin/Blinkling-master/app/build/intermediates/res/merged/debug/layout/mr_playback_control.xml",
-        "source": "/Users/seohyemin/.android/build-cache/26e1f3a36311761421d8a35c144f8427dceb418a/output/res/layout/mr_playback_control.xml"
-    },
-    {
-        "merged": "/Users/seohyemin/Blinkling-master/app/build/intermediates/res/merged/debug/layout/mr_controller_material_dialog_b.xml",
-        "source": "/Users/seohyemin/.android/build-cache/26e1f3a36311761421d8a35c144f8427dceb418a/output/res/layout/mr_controller_material_dialog_b.xml"
-    },
-    {
-        "merged": "/Users/seohyemin/Blinkling-master/app/build/intermediates/res/merged/debug/layout/design_navigation_item_separator.xml",
-        "source": "/Users/seohyemin/.android/build-cache/b5526703288357c323e2e1ef12cac4fa78843af5/output/res/layout/design_navigation_item_separator.xml"
     },
     {
         "merged": "/Users/seohyemin/Blinkling-master/app/build/intermediates/res/merged/debug/layout/abc_list_menu_item_checkbox.xml",
@@ -176,10 +88,6 @@
         "source": "/Users/seohyemin/.android/build-cache/b5526703288357c323e2e1ef12cac4fa78843af5/output/res/layout/design_bottom_navigation_item.xml"
     },
     {
-        "merged": "/Users/seohyemin/Blinkling-master/app/build/intermediates/res/merged/debug/layout/abc_activity_chooser_view.xml",
-        "source": "/Users/seohyemin/.android/build-cache/c7bc4f7edfba7ff92a9519a276f8d2da7169785b/output/res/layout/abc_activity_chooser_view.xml"
-    },
-    {
         "merged": "/Users/seohyemin/Blinkling-master/app/build/intermediates/res/merged/debug/layout/listview_item.xml",
         "source": "/Users/seohyemin/Blinkling-master/app/src/main/res/layout/listview_item.xml"
     },
@@ -196,52 +104,24 @@
         "source": "/Users/seohyemin/.android/build-cache/c7bc4f7edfba7ff92a9519a276f8d2da7169785b/output/res/layout/abc_expanded_menu_layout.xml"
     },
     {
-        "merged": "/Users/seohyemin/Blinkling-master/app/build/intermediates/res/merged/debug/layout/place_autocomplete_item_prediction.xml",
-        "source": "/Users/seohyemin/.android/build-cache/7513a969dcc805b7f0f9997c9c0130190965a6d4/output/res/layout/place_autocomplete_item_prediction.xml"
-    },
-    {
-        "merged": "/Users/seohyemin/Blinkling-master/app/build/intermediates/res/merged/debug/layout/fragment_set_font.xml",
-        "source": "/Users/seohyemin/Blinkling-master/app/src/main/res/layout/fragment_set_font.xml"
+        "merged": "/Users/seohyemin/Blinkling-master/app/build/intermediates/res/merged/debug/layout/abc_search_view.xml",
+        "source": "/Users/seohyemin/.android/build-cache/c7bc4f7edfba7ff92a9519a276f8d2da7169785b/output/res/layout/abc_search_view.xml"
     },
     {
         "merged": "/Users/seohyemin/Blinkling-master/app/build/intermediates/res/merged/debug/layout/abc_screen_toolbar.xml",
         "source": "/Users/seohyemin/.android/build-cache/c7bc4f7edfba7ff92a9519a276f8d2da7169785b/output/res/layout/abc_screen_toolbar.xml"
     },
     {
-        "merged": "/Users/seohyemin/Blinkling-master/app/build/intermediates/res/merged/debug/layout/abc_search_view.xml",
-        "source": "/Users/seohyemin/.android/build-cache/c7bc4f7edfba7ff92a9519a276f8d2da7169785b/output/res/layout/abc_search_view.xml"
-    },
-    {
-        "merged": "/Users/seohyemin/Blinkling-master/app/build/intermediates/res/merged/debug/layout/activity_sdcard.xml",
-        "source": "/Users/seohyemin/Blinkling-master/app/src/main/res/layout/activity_sdcard.xml"
-    },
-    {
-        "merged": "/Users/seohyemin/Blinkling-master/app/build/intermediates/res/merged/debug/layout/abc_list_menu_item_layout.xml",
-        "source": "/Users/seohyemin/.android/build-cache/c7bc4f7edfba7ff92a9519a276f8d2da7169785b/output/res/layout/abc_list_menu_item_layout.xml"
+        "merged": "/Users/seohyemin/Blinkling-master/app/build/intermediates/res/merged/debug/layout/fragment_set_font.xml",
+        "source": "/Users/seohyemin/Blinkling-master/app/src/main/res/layout/fragment_set_font.xml"
     },
     {
         "merged": "/Users/seohyemin/Blinkling-master/app/build/intermediates/res/merged/debug/layout/place_autocomplete_item_powered_by_google.xml",
         "source": "/Users/seohyemin/.android/build-cache/7513a969dcc805b7f0f9997c9c0130190965a6d4/output/res/layout/place_autocomplete_item_powered_by_google.xml"
     },
     {
-        "merged": "/Users/seohyemin/Blinkling-master/app/build/intermediates/res/merged/debug/layout/notification_template_icon_group.xml",
-        "source": "/Users/seohyemin/.android/build-cache/c7bc4f7edfba7ff92a9519a276f8d2da7169785b/output/res/layout/notification_template_icon_group.xml"
-    },
-    {
         "merged": "/Users/seohyemin/Blinkling-master/app/build/intermediates/res/merged/debug/layout/select_dialog_multichoice_material.xml",
         "source": "/Users/seohyemin/.android/build-cache/c7bc4f7edfba7ff92a9519a276f8d2da7169785b/output/res/layout/select_dialog_multichoice_material.xml"
-    },
-    {
-        "merged": "/Users/seohyemin/Blinkling-master/app/build/intermediates/res/merged/debug/layout/notification_template_media.xml",
-        "source": "/Users/seohyemin/.android/build-cache/c7bc4f7edfba7ff92a9519a276f8d2da7169785b/output/res/layout/notification_template_media.xml"
-    },
-    {
-        "merged": "/Users/seohyemin/Blinkling-master/app/build/intermediates/res/merged/debug/layout/cast_mini_controller.xml",
-        "source": "/Users/seohyemin/.android/build-cache/86e41c47417d80a7dd799f3286469399e5a52229/output/res/layout/cast_mini_controller.xml"
-    },
-    {
-        "merged": "/Users/seohyemin/Blinkling-master/app/build/intermediates/res/merged/debug/layout/abc_list_menu_item_icon.xml",
-        "source": "/Users/seohyemin/.android/build-cache/c7bc4f7edfba7ff92a9519a276f8d2da7169785b/output/res/layout/abc_list_menu_item_icon.xml"
     },
     {
         "merged": "/Users/seohyemin/Blinkling-master/app/build/intermediates/res/merged/debug/layout/abc_alert_dialog_material.xml",
@@ -296,16 +176,180 @@
         "source": "/Users/seohyemin/.android/build-cache/b5526703288357c323e2e1ef12cac4fa78843af5/output/res/layout/design_menu_item_action_area.xml"
     },
     {
-        "merged": "/Users/seohyemin/Blinkling-master/app/build/intermediates/res/merged/debug/layout/fragment_setting.xml",
-        "source": "/Users/seohyemin/Blinkling-master/app/src/main/res/layout/fragment_setting.xml"
-    },
-    {
         "merged": "/Users/seohyemin/Blinkling-master/app/build/intermediates/res/merged/debug/layout/fragment_tabs.xml",
         "source": "/Users/seohyemin/Blinkling-master/app/src/main/res/layout/fragment_tabs.xml"
     },
     {
+        "merged": "/Users/seohyemin/Blinkling-master/app/build/intermediates/res/merged/debug/layout/fragment_setting.xml",
+        "source": "/Users/seohyemin/Blinkling-master/app/src/main/res/layout/fragment_setting.xml"
+    },
+    {
         "merged": "/Users/seohyemin/Blinkling-master/app/build/intermediates/res/merged/debug/layout/mr_chooser_list_item.xml",
         "source": "/Users/seohyemin/.android/build-cache/26e1f3a36311761421d8a35c144f8427dceb418a/output/res/layout/mr_chooser_list_item.xml"
+    },
+    {
+        "merged": "/Users/seohyemin/Blinkling-master/app/build/intermediates/res/merged/debug/layout/abc_action_menu_layout.xml",
+        "source": "/Users/seohyemin/.android/build-cache/c7bc4f7edfba7ff92a9519a276f8d2da7169785b/output/res/layout/abc_action_menu_layout.xml"
+    },
+    {
+        "merged": "/Users/seohyemin/Blinkling-master/app/build/intermediates/res/merged/debug/layout/notification_template_lines_media.xml",
+        "source": "/Users/seohyemin/.android/build-cache/c7bc4f7edfba7ff92a9519a276f8d2da7169785b/output/res/layout/notification_template_lines_media.xml"
+    },
+    {
+        "merged": "/Users/seohyemin/Blinkling-master/app/build/intermediates/res/merged/debug/layout/tool_bar.xml",
+        "source": "/Users/seohyemin/Blinkling-master/app/src/main/res/layout/tool_bar.xml"
+    },
+    {
+        "merged": "/Users/seohyemin/Blinkling-master/app/build/intermediates/res/merged/debug/layout/cast_expanded_controller_activity.xml",
+        "source": "/Users/seohyemin/.android/build-cache/86e41c47417d80a7dd799f3286469399e5a52229/output/res/layout/cast_expanded_controller_activity.xml"
+    },
+    {
+        "merged": "/Users/seohyemin/Blinkling-master/app/build/intermediates/res/merged/debug/layout/cast_tracks_chooser_dialog_row_layout.xml",
+        "source": "/Users/seohyemin/.android/build-cache/86e41c47417d80a7dd799f3286469399e5a52229/output/res/layout/cast_tracks_chooser_dialog_row_layout.xml"
+    },
+    {
+        "merged": "/Users/seohyemin/Blinkling-master/app/build/intermediates/res/merged/debug/layout/design_layout_tab_icon.xml",
+        "source": "/Users/seohyemin/.android/build-cache/b5526703288357c323e2e1ef12cac4fa78843af5/output/res/layout/design_layout_tab_icon.xml"
+    },
+    {
+        "merged": "/Users/seohyemin/Blinkling-master/app/build/intermediates/res/merged/debug/layout/abc_action_bar_view_list_nav_layout.xml",
+        "source": "/Users/seohyemin/.android/build-cache/c7bc4f7edfba7ff92a9519a276f8d2da7169785b/output/res/layout/abc_action_bar_view_list_nav_layout.xml"
+    },
+    {
+        "merged": "/Users/seohyemin/Blinkling-master/app/build/intermediates/res/merged/debug/layout/abc_alert_dialog_title_material.xml",
+        "source": "/Users/seohyemin/.android/build-cache/c7bc4f7edfba7ff92a9519a276f8d2da7169785b/output/res/layout/abc_alert_dialog_title_material.xml"
+    },
+    {
+        "merged": "/Users/seohyemin/Blinkling-master/app/build/intermediates/res/merged/debug/layout/activity_main.xml",
+        "source": "/Users/seohyemin/Blinkling-master/app/src/main/res/layout/activity_main.xml"
+    },
+    {
+        "merged": "/Users/seohyemin/Blinkling-master/app/build/intermediates/res/merged/debug/layout/place_autocomplete_progress.xml",
+        "source": "/Users/seohyemin/.android/build-cache/7513a969dcc805b7f0f9997c9c0130190965a6d4/output/res/layout/place_autocomplete_progress.xml"
+    },
+    {
+        "merged": "/Users/seohyemin/Blinkling-master/app/build/intermediates/res/merged/debug/layout/abc_action_menu_item_layout.xml",
+        "source": "/Users/seohyemin/.android/build-cache/c7bc4f7edfba7ff92a9519a276f8d2da7169785b/output/res/layout/abc_action_menu_item_layout.xml"
+    },
+    {
+        "merged": "/Users/seohyemin/Blinkling-master/app/build/intermediates/res/merged/debug/layout/design_layout_snackbar_include.xml",
+        "source": "/Users/seohyemin/.android/build-cache/b5526703288357c323e2e1ef12cac4fa78843af5/output/res/layout/design_layout_snackbar_include.xml"
+    },
+    {
+        "merged": "/Users/seohyemin/Blinkling-master/app/build/intermediates/res/merged/debug/layout/main.xml",
+        "source": "/Users/seohyemin/Blinkling-master/app/src/main/res/layout/main.xml"
+    },
+    {
+        "merged": "/Users/seohyemin/Blinkling-master/app/build/intermediates/res/merged/debug/layout/abc_alert_dialog_button_bar_material.xml",
+        "source": "/Users/seohyemin/.android/build-cache/c7bc4f7edfba7ff92a9519a276f8d2da7169785b/output/res/layout/abc_alert_dialog_button_bar_material.xml"
+    },
+    {
+        "merged": "/Users/seohyemin/Blinkling-master/app/build/intermediates/res/merged/debug/layout/fragment_set_size.xml",
+        "source": "/Users/seohyemin/Blinkling-master/app/src/main/res/layout/fragment_set_size.xml"
+    },
+    {
+        "merged": "/Users/seohyemin/Blinkling-master/app/build/intermediates/res/merged/debug/layout/abc_action_mode_bar.xml",
+        "source": "/Users/seohyemin/.android/build-cache/c7bc4f7edfba7ff92a9519a276f8d2da7169785b/output/res/layout/abc_action_mode_bar.xml"
+    },
+    {
+        "merged": "/Users/seohyemin/Blinkling-master/app/build/intermediates/res/merged/debug/layout/fragment_set_background.xml",
+        "source": "/Users/seohyemin/Blinkling-master/app/src/main/res/layout/fragment_set_background.xml"
+    },
+    {
+        "merged": "/Users/seohyemin/Blinkling-master/app/build/intermediates/res/merged/debug/layout/fragment_set_page_style.xml",
+        "source": "/Users/seohyemin/Blinkling-master/app/src/main/res/layout/fragment_set_page_style.xml"
+    },
+    {
+        "merged": "/Users/seohyemin/Blinkling-master/app/build/intermediates/res/merged/debug/layout/design_navigation_item.xml",
+        "source": "/Users/seohyemin/.android/build-cache/b5526703288357c323e2e1ef12cac4fa78843af5/output/res/layout/design_navigation_item.xml"
+    },
+    {
+        "merged": "/Users/seohyemin/Blinkling-master/app/build/intermediates/res/merged/debug/layout/notification_template_part_chronometer.xml",
+        "source": "/Users/seohyemin/.android/build-cache/c7bc4f7edfba7ff92a9519a276f8d2da7169785b/output/res/layout/notification_template_part_chronometer.xml"
+    },
+    {
+        "merged": "/Users/seohyemin/Blinkling-master/app/build/intermediates/res/merged/debug/layout/fragment_text_pagerview.xml",
+        "source": "/Users/seohyemin/Blinkling-master/app/src/main/res/layout/fragment_text_pagerview.xml"
+    },
+    {
+        "merged": "/Users/seohyemin/Blinkling-master/app/build/intermediates/res/merged/debug/layout/mr_chooser_dialog.xml",
+        "source": "/Users/seohyemin/.android/build-cache/26e1f3a36311761421d8a35c144f8427dceb418a/output/res/layout/mr_chooser_dialog.xml"
+    },
+    {
+        "merged": "/Users/seohyemin/Blinkling-master/app/build/intermediates/res/merged/debug/layout/fragment_book__tab_.xml",
+        "source": "/Users/seohyemin/Blinkling-master/app/src/main/res/layout/fragment_book__tab_.xml"
+    },
+    {
+        "merged": "/Users/seohyemin/Blinkling-master/app/build/intermediates/res/merged/debug/layout/cast_help_text.xml",
+        "source": "/Users/seohyemin/.android/build-cache/86e41c47417d80a7dd799f3286469399e5a52229/output/res/layout/cast_help_text.xml"
+    },
+    {
+        "merged": "/Users/seohyemin/Blinkling-master/app/build/intermediates/res/merged/debug/layout/select_dialog_item_material.xml",
+        "source": "/Users/seohyemin/.android/build-cache/c7bc4f7edfba7ff92a9519a276f8d2da7169785b/output/res/layout/select_dialog_item_material.xml"
+    },
+    {
+        "merged": "/Users/seohyemin/Blinkling-master/app/build/intermediates/res/merged/debug/layout/mr_playback_control.xml",
+        "source": "/Users/seohyemin/.android/build-cache/26e1f3a36311761421d8a35c144f8427dceb418a/output/res/layout/mr_playback_control.xml"
+    },
+    {
+        "merged": "/Users/seohyemin/Blinkling-master/app/build/intermediates/res/merged/debug/layout/mr_controller_material_dialog_b.xml",
+        "source": "/Users/seohyemin/.android/build-cache/26e1f3a36311761421d8a35c144f8427dceb418a/output/res/layout/mr_controller_material_dialog_b.xml"
+    },
+    {
+        "merged": "/Users/seohyemin/Blinkling-master/app/build/intermediates/res/merged/debug/layout/gridview_res.xml",
+        "source": "/Users/seohyemin/Blinkling-master/app/src/main/res/layout/gridview_res.xml"
+    },
+    {
+        "merged": "/Users/seohyemin/Blinkling-master/app/build/intermediates/res/merged/debug/layout/design_navigation_item_separator.xml",
+        "source": "/Users/seohyemin/.android/build-cache/b5526703288357c323e2e1ef12cac4fa78843af5/output/res/layout/design_navigation_item_separator.xml"
+    },
+    {
+        "merged": "/Users/seohyemin/Blinkling-master/app/build/intermediates/res/merged/debug/layout/gridview_item.xml",
+        "source": "/Users/seohyemin/Blinkling-master/app/src/main/res/layout/gridview_item.xml"
+    },
+    {
+        "merged": "/Users/seohyemin/Blinkling-master/app/build/intermediates/res/merged/debug/layout/abc_activity_chooser_view.xml",
+        "source": "/Users/seohyemin/.android/build-cache/c7bc4f7edfba7ff92a9519a276f8d2da7169785b/output/res/layout/abc_activity_chooser_view.xml"
+    },
+    {
+        "merged": "/Users/seohyemin/Blinkling-master/app/build/intermediates/res/merged/debug/layout/fragment.xml",
+        "source": "/Users/seohyemin/Blinkling-master/app/src/main/res/layout/fragment.xml"
+    },
+    {
+        "merged": "/Users/seohyemin/Blinkling-master/app/build/intermediates/res/merged/debug/layout/text_view.xml",
+        "source": "/Users/seohyemin/Blinkling-master/app/src/main/res/layout/text_view.xml"
+    },
+    {
+        "merged": "/Users/seohyemin/Blinkling-master/app/build/intermediates/res/merged/debug/layout/place_autocomplete_item_prediction.xml",
+        "source": "/Users/seohyemin/.android/build-cache/7513a969dcc805b7f0f9997c9c0130190965a6d4/output/res/layout/place_autocomplete_item_prediction.xml"
+    },
+    {
+        "merged": "/Users/seohyemin/Blinkling-master/app/build/intermediates/res/merged/debug/layout/activity_sdcard.xml",
+        "source": "/Users/seohyemin/Blinkling-master/app/src/main/res/layout/activity_sdcard.xml"
+    },
+    {
+        "merged": "/Users/seohyemin/Blinkling-master/app/build/intermediates/res/merged/debug/layout/abc_list_menu_item_layout.xml",
+        "source": "/Users/seohyemin/.android/build-cache/c7bc4f7edfba7ff92a9519a276f8d2da7169785b/output/res/layout/abc_list_menu_item_layout.xml"
+    },
+    {
+        "merged": "/Users/seohyemin/Blinkling-master/app/build/intermediates/res/merged/debug/layout/notification_template_icon_group.xml",
+        "source": "/Users/seohyemin/.android/build-cache/c7bc4f7edfba7ff92a9519a276f8d2da7169785b/output/res/layout/notification_template_icon_group.xml"
+    },
+    {
+        "merged": "/Users/seohyemin/Blinkling-master/app/build/intermediates/res/merged/debug/layout/notification_template_media.xml",
+        "source": "/Users/seohyemin/.android/build-cache/c7bc4f7edfba7ff92a9519a276f8d2da7169785b/output/res/layout/notification_template_media.xml"
+    },
+    {
+        "merged": "/Users/seohyemin/Blinkling-master/app/build/intermediates/res/merged/debug/layout/cast_mini_controller.xml",
+        "source": "/Users/seohyemin/.android/build-cache/86e41c47417d80a7dd799f3286469399e5a52229/output/res/layout/cast_mini_controller.xml"
+    },
+    {
+        "merged": "/Users/seohyemin/Blinkling-master/app/build/intermediates/res/merged/debug/layout/abc_list_menu_item_icon.xml",
+        "source": "/Users/seohyemin/.android/build-cache/c7bc4f7edfba7ff92a9519a276f8d2da7169785b/output/res/layout/abc_list_menu_item_icon.xml"
+    },
+    {
+        "merged": "/Users/seohyemin/Blinkling-master/app/build/intermediates/res/merged/debug/layout/fragment_text_scrollview.xml",
+        "source": "/Users/seohyemin/Blinkling-master/app/src/main/res/layout/fragment_text_scrollview.xml"
     },
     {
         "merged": "/Users/seohyemin/Blinkling-master/app/build/intermediates/res/merged/debug/layout/design_navigation_item_subheader.xml",
@@ -320,28 +364,12 @@
         "source": "/Users/seohyemin/.android/build-cache/c7bc4f7edfba7ff92a9519a276f8d2da7169785b/output/res/layout/abc_list_menu_item_radio.xml"
     },
     {
-        "merged": "/Users/seohyemin/Blinkling-master/app/build/intermediates/res/merged/debug/layout/abc_action_menu_layout.xml",
-        "source": "/Users/seohyemin/.android/build-cache/c7bc4f7edfba7ff92a9519a276f8d2da7169785b/output/res/layout/abc_action_menu_layout.xml"
-    },
-    {
         "merged": "/Users/seohyemin/Blinkling-master/app/build/intermediates/res/merged/debug/layout/abc_action_mode_close_item_material.xml",
         "source": "/Users/seohyemin/.android/build-cache/c7bc4f7edfba7ff92a9519a276f8d2da7169785b/output/res/layout/abc_action_mode_close_item_material.xml"
     },
     {
-        "merged": "/Users/seohyemin/Blinkling-master/app/build/intermediates/res/merged/debug/layout/notification_template_lines_media.xml",
-        "source": "/Users/seohyemin/.android/build-cache/c7bc4f7edfba7ff92a9519a276f8d2da7169785b/output/res/layout/notification_template_lines_media.xml"
-    },
-    {
-        "merged": "/Users/seohyemin/Blinkling-master/app/build/intermediates/res/merged/debug/layout/tool_bar.xml",
-        "source": "/Users/seohyemin/Blinkling-master/app/src/main/res/layout/tool_bar.xml"
-    },
-    {
         "merged": "/Users/seohyemin/Blinkling-master/app/build/intermediates/res/merged/debug/layout/abc_screen_simple.xml",
         "source": "/Users/seohyemin/.android/build-cache/c7bc4f7edfba7ff92a9519a276f8d2da7169785b/output/res/layout/abc_screen_simple.xml"
-    },
-    {
-        "merged": "/Users/seohyemin/Blinkling-master/app/build/intermediates/res/merged/debug/layout/cast_expanded_controller_activity.xml",
-        "source": "/Users/seohyemin/.android/build-cache/86e41c47417d80a7dd799f3286469399e5a52229/output/res/layout/cast_expanded_controller_activity.xml"
     },
     {
         "merged": "/Users/seohyemin/Blinkling-master/app/build/intermediates/res/merged/debug/layout/lv_layout.xml",
@@ -358,9 +386,5 @@
     {
         "merged": "/Users/seohyemin/Blinkling-master/app/build/intermediates/res/merged/debug/layout/design_navigation_menu_item.xml",
         "source": "/Users/seohyemin/.android/build-cache/b5526703288357c323e2e1ef12cac4fa78843af5/output/res/layout/design_navigation_menu_item.xml"
-    },
-    {
-        "merged": "/Users/seohyemin/Blinkling-master/app/build/intermediates/res/merged/debug/layout/cast_tracks_chooser_dialog_row_layout.xml",
-        "source": "/Users/seohyemin/.android/build-cache/86e41c47417d80a7dd799f3286469399e5a52229/output/res/layout/cast_tracks_chooser_dialog_row_layout.xml"
     }
 ]

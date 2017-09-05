@@ -16,6 +16,7 @@ import android.widget.RadioButton;
 import android.widget.RadioGroup;
 import android.widget.SeekBar;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.example.hyemin.blinkling.R;
 
@@ -65,6 +66,7 @@ public class SetFontFragment extends DialogFragment {
                     public void onClick(DialogInterface dialog, int id) {
 
                         editor1.putInt("font_edit", rg.getCheckedRadioButtonId());
+                        Toast.makeText(getActivity(), rg.getCheckedRadioButtonId()+"hgh", Toast.LENGTH_SHORT).show();
                         editor1.commit();
 
                     }
