@@ -265,7 +265,7 @@ public class BookshelfFragment extends Fragment {
     }
 
     public void onPrepareOptionsMenu(Menu menu) {
-        menu.findItem(R.id.bookmark_btn).setVisible(false);
+       menu.findItem(R.id.bookmark_btn).setVisible(false);
         menu.findItem(R.id.voice_btn).setVisible(false);
         menu.findItem(R.id.eye_btn).setVisible(false);
         menu.findItem(R.id.light_btn).setVisible(false);

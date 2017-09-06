@@ -33,7 +33,6 @@ public class ExamDbFacade {
         ContentValues values = new ContentValues();
 
         // 삽입할 문자열을 파라메터로 받아서 저장합니다.
-    //    values.put("data", insert);
         values.put(ExamDbContract.ExamDbEntry.TITLE, title);
         values.put(ExamDbContract.ExamDbEntry.DOCUMENT, document);
         values.put(ExamDbContract.ExamDbEntry.CREATED_AT, created_at);
@@ -144,12 +143,27 @@ public class ExamDbFacade {
     }
 
 
-    public void delete(int anInt) {
+    //해당하는 id의 리스트를 삭제하는 메소드
+    public void delete(int id) {
         SQLiteDatabase db = mHelper.getWritableDatabase();
 
-        db.delete(ExamDbContract.ExamDbEntry.TABLE_NAME, ExamDbContract.ExamDbEntry.ID + " = ?", new String[]{String.valueOf(anInt)});
+        db.delete(ExamDbContract.ExamDbEntry.TABLE_NAME, ExamDbContract.ExamDbEntry.ID + " = ?", new String[]{String.valueOf(id)});
         db.close();
+    }
 
+    public void editTitle(int id, String newTitle){
+        SQLiteDatabase db = mHelper.getWritableDatabase();
+        ContentValues values = new ContentValues();
+
+        // 삽입할 문자열을 파라메터로 받아서 저장합니다.
+        values.put(ExamDbContract.ExamDbEntry.TITLE, newTitle);
+
+        /**
+         * public int update (String table, ContentValues values, String whereClause, String[] whereArgs)
+         * table : 갱신할 데이터가 존재하는 테이블, values : 변경할 값들,
+         * whereClause : 조건절 (key), whereArgs : 값들
+         */
+        db.update(ExamDbContract.ExamDbEntry.TABLE_NAME, values, ExamDbContract.ExamDbEntry.ID + " = ?", new String[]{String.valueOf(id)});
     }
 
     public Cursor getAll(){

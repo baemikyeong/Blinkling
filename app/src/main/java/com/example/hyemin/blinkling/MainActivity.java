@@ -5,7 +5,6 @@ import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.content.res.Configuration;
-import android.database.SQLException;
 import android.net.Uri;
 import android.os.Build;
 import android.os.Bundle;
@@ -33,6 +32,7 @@ import com.example.hyemin.blinkling.Bookmark.DateFormatter;
 import com.example.hyemin.blinkling.Bookmark.DbOpenHelper;
 import com.example.hyemin.blinkling.Bookmark.ExamDbFacade;
 import com.example.hyemin.blinkling.Bookmark.InfoClass;
+
 import android.widget.FrameLayout;
 import android.widget.RelativeLayout;
 import android.widget.Toast;
@@ -56,21 +56,17 @@ public class MainActivity extends ActionBarActivity {
 
     private static final String TAG = "AppPermission";
     private final int MY_PERMISSION_REQUEST_STORAGE = 100;
-    DbOpenHelper db_helper;
     TextViewFragment txt_fragment;
     private String book_title;
     private int bookmark_pos;
     private String T_date;
-    private boolean isEditing = false;
     BookTab_Fragment bookTab_fragment = new BookTab_Fragment();
     ExamDbFacade mFacade;
     ArrayList<InfoClass> insertResult;
     CustomAdapter mAdapter;
-    BookTab_Fragment bf;
-
     private boolean isRecording = false;
     private static final int REQUEST_RECORD_AUDIO_PERMISSION = 200;
-    String InStoragePath = Environment.getExternalStorageDirectory().getAbsolutePath() +"/Blinkling";
+    String InStoragePath = Environment.getExternalStorageDirectory().getAbsolutePath() + "/Blinkling";
 
     public static BottomNavigationView bottomNavigation;
     private Fragment fragment;
@@ -139,7 +135,7 @@ public class MainActivity extends ActionBarActivity {
 
                         }
                         replaceFragment(fragment);
-                         return true;
+                        return true;
                     }
                 });
 
@@ -182,7 +178,7 @@ public class MainActivity extends ActionBarActivity {
                 fragmentManager.popBackStack();
                 return true;
             }
-            case R.id.notebook_add: {/////
+            case R.id.notebook_add: {
 
                 checkPermission(READ_EXTERNAL_STORAGE);
             }
@@ -227,7 +223,6 @@ public class MainActivity extends ActionBarActivity {
                 return true;
             }
             case R.id.bookmark_delete: {
-                bookTab_fragment.checkBookmarkDelete();
                 return true;
             }
             case R.id.bookmark_edit: {
@@ -360,14 +355,13 @@ public class MainActivity extends ActionBarActivity {
         }
     }
 
-    private File makeDirectory(String dir_path){
+    private File makeDirectory(String dir_path) {
         File dir = new File(dir_path);
-        if (!dir.exists())
-        {
+        if (!dir.exists()) {
             dir.mkdirs();
-            Log.i( TAG , "!dir.exists" );
-        }else{
-            Log.i( TAG , "dir.exists" );
+            Log.i(TAG, "!dir.exists");
+        } else {
+            Log.i(TAG, "dir.exists");
         }
 
         return dir;
@@ -384,14 +378,7 @@ public class MainActivity extends ActionBarActivity {
 
         txt_fragment = (TextViewFragment) getSupportFragmentManager().findFragmentById(R.id.main_container);
         TextView txt = txt_fragment.getTxtBook();
-
-/*        bookTab_fragment = (BookTab_Fragment) getSupportFragmentManager().findFragmentById(R.id.fragment_web__tab_);
-        mFacade = bookTab_fragment.getFacade();
-        mAdapter = bookTab_fragment.getAdapter();*/
-
         bookmark_pos = txt_fragment.book_mark_add(txt); //북마크로 저장 할 좌표를 bookmark_pos에 저장함
-
-      //  bf = (BookTab_Fragment)getSupportFragmentManager().findFragmentByTag("BK");
 
         final EditText editText = new EditText(this);
         AlertDialog.Builder dialog = new AlertDialog.Builder(MainActivity.this);
@@ -406,27 +393,23 @@ public class MainActivity extends ActionBarActivity {
                                 int position = bookmark_pos; //북마크 좌표
                                 String document = book_title; //문서의 이름
                                 String time_date = T_date; //저장된 시각
-                              /*  if (db_helper == null) {
-                                    db_helper = new DbOpenHelper(getApplicationContext());
-                                    db_helper.open();
-                                }*/
 
-                              BookTab_Fragment bookTab_fragment = new BookTab_Fragment();
+                                if (mFacade == null) {
+                                    mFacade = new ExamDbFacade(getApplicationContext());
+                                    mAdapter = new CustomAdapter(getApplicationContext(), mFacade.getCursor(), false);
+                                }
+
+                                BookTab_Fragment bookTab_fragment = new BookTab_Fragment();
                                 Bundle bundle = new Bundle();
                                 bundle.putString("title", title);
                                 bundle.putString("document", document);
                                 bundle.putString("time_date", time_date);
-                                bundle.putString("position",Integer.toString(position));
+                                bundle.putString("position", Integer.toString(position));
                                 bookTab_fragment.setArguments(bundle);
 
-                                insertResult = mFacade.insert(title,document,time_date,time_date,Integer.toString(position));
+                                insertResult = mFacade.insert(title, document, time_date, time_date, Integer.toString(position));
                                 mAdapter.changeCursor(mFacade.getCursor());
 
-                                //입력된 데이터를 insertColumn을 통해 add
-                              //  db_helper.insertColumn(title,document,time_date,time_date,Integer.toString(position));
-
-
-                             //   bf.getInsertValue();
                             }
                         }).setNeutralButton("취소", new DialogInterface.OnClickListener() {
             @Override

@@ -5187,27 +5187,28 @@ containing a value of this type.
         public static final int mr_controller_stop=0x7f080060;
         public static final int mr_system_route_name=0x7f080061;
         public static final int mr_user_route_category_name=0x7f080062;
-        public static final int no_camera_permission=0x7f08008e;
-        public static final int ok=0x7f08008f;
-        public static final int password_toggle_content_description=0x7f080090;
-        public static final int path_password_eye=0x7f080091;
-        public static final int path_password_eye_mask_strike_through=0x7f080092;
-        public static final int path_password_eye_mask_visible=0x7f080093;
-        public static final int path_password_strike_through=0x7f080094;
-        public static final int permission_camera_rationale=0x7f080095;
+        public static final int msg_error=0x7f08008e;
+        public static final int no_camera_permission=0x7f08008f;
+        public static final int ok=0x7f080090;
+        public static final int password_toggle_content_description=0x7f080091;
+        public static final int path_password_eye=0x7f080092;
+        public static final int path_password_eye_mask_strike_through=0x7f080093;
+        public static final int path_password_eye_mask_visible=0x7f080094;
+        public static final int path_password_strike_through=0x7f080095;
+        public static final int permission_camera_rationale=0x7f080096;
         public static final int place_autocomplete_clear_button=0x7f080063;
         public static final int place_autocomplete_search_hint=0x7f080064;
-        public static final int search_fragment=0x7f080096;
+        public static final int search_fragment=0x7f080097;
         public static final int search_menu_title=0x7f080065;
         public static final int status_bar_notification_info_overflow=0x7f080066;
         public static final int store_picture_message=0x7f080067;
         public static final int store_picture_title=0x7f080068;
-        public static final int tagmanager_preview_dialog_button=0x7f080097;
-        public static final int tagmanager_preview_dialog_message=0x7f080098;
-        public static final int tagmanager_preview_dialog_title=0x7f080099;
-        public static final int title_friends=0x7f08009a;
-        public static final int title_home=0x7f08009b;
-        public static final int title_profile=0x7f08009c;
+        public static final int tagmanager_preview_dialog_button=0x7f080098;
+        public static final int tagmanager_preview_dialog_message=0x7f080099;
+        public static final int tagmanager_preview_dialog_title=0x7f08009a;
+        public static final int title_friends=0x7f08009b;
+        public static final int title_home=0x7f08009c;
+        public static final int title_profile=0x7f08009d;
         public static final int wallet_buy_button_place_holder=0x7f080069;
     }
     public static final class style {
@@ -5217,9 +5218,6 @@ containing a value of this type.
         public static final int Animation_AppCompat_DropDownUp=0x7f0a00a5;
         public static final int Animation_Design_BottomSheetDialog=0x7f0a00a6;
         public static final int AppBaseTheme=0x7f0a00a7;
-        /**    <item name="android:navigationBarColor"
-            tools:targetApi="lollipop">#ffcdd5</item>
-         */
         public static final int AppTheme=0x7f0a00a8;
         public static final int Base_AlertDialog_AppCompat=0x7f0a00a9;
         public static final int Base_AlertDialog_AppCompat_Light=0x7f0a00aa;

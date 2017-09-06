@@ -11,9 +11,7 @@ import android.database.sqlite.SQLiteOpenHelper;
 public class ExamDbHelper extends SQLiteOpenHelper{
     private static final String DATABASE_NAME = "ExamDb"; //DB이름
     private static final int DATABASE_VERSION = 1;//db 업데이트 할 때 사용함
-    public static SQLiteDatabase mDB;
-    private DbOpenHelper.DataBaseHelper mDBHelper;
-    private Context mCtx;
+
     //생성자
     public static final String _createSql =
             "CREATE TABLE if not exists " + ExamDbContract.ExamDbEntry.TABLE_NAME + "("
