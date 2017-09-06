@@ -67,6 +67,7 @@ public class MainActivity extends ActionBarActivity {
     ArrayList<InfoClass> insertResult;
     CustomAdapter mAdapter;
     BookTab_Fragment bf;
+    Fragment current_fragment;
 
     private boolean isRecording = false;
     private static final int REQUEST_RECORD_AUDIO_PERMISSION = 200;
@@ -75,6 +76,7 @@ public class MainActivity extends ActionBarActivity {
     public static BottomNavigationView bottomNavigation;
     private Fragment fragment;
     private FragmentManager fragmentManager;
+    FragmentTransaction transaction;
     private Toolbar toolbar;
     public static boolean light;//초기상태는 불이 꺼진 상태
     public static FrameLayout aframe;
@@ -82,9 +84,12 @@ public class MainActivity extends ActionBarActivity {
     @Override
     public void onConfigurationChanged(Configuration newConfig) {
 
-        FrameLayout fl = (FrameLayout) findViewById(R.id.main_container);
-        fl.removeAllViews();
-
+    //    FrameLayout fl = (FrameLayout) findViewById(R.id.main_container);
+    //    fl.removeAllViews();
+//        FragmentManager manager = getSupportFragmentManager();
+//        FragmentTransaction ft = manager.beginTransaction();
+//        ft.hide(current_fragment);
+        transaction.hide(current_fragment);
         super.onConfigurationChanged(newConfig);
 
     }
@@ -109,9 +114,9 @@ public class MainActivity extends ActionBarActivity {
         light = false;
         fragmentManager = getSupportFragmentManager();
         fragment = new BookshelfFragment();
-        final FragmentTransaction transaction = fragmentManager.beginTransaction();
-        transaction.add(R.id.main_container, fragment).commit();
-
+        transaction = fragmentManager.beginTransaction();
+        transaction.replace(R.id.main_container, fragment).commit();
+        current_fragment = fragment;
         getSupportActionBar().setTitle("블링클링");
         bottomNavigation = (BottomNavigationView) findViewById(R.id.bottom_navigation);
         bottomNavigation.setOnNavigationItemSelectedListener(
@@ -149,19 +154,28 @@ public class MainActivity extends ActionBarActivity {
         String backStateName = fragment.getClass().getName();
 
         FragmentManager manager = getSupportFragmentManager();
-        boolean fragmentPopped = manager.popBackStackImmediate(backStateName, 0);
+        boolean fragmentPopped = fragmentManager.popBackStackImmediate(backStateName, 0);
 
-        FrameLayout fl = (FrameLayout) findViewById(R.id.main_container);
-        fl.removeAllViews();
+      //  FrameLayout fl = (FrameLayout) findViewById(R.id.main_container);
+      //  fl.removeAllViews();
 
         RelativeLayout l = (RelativeLayout) findViewById(R.id.activity_main);
 
 
         if (!fragmentPopped) {                  //fragment not in back stack, create it.
-            FragmentTransaction ft = manager.beginTransaction();
-            ft.replace(R.id.main_container, fragment);
-            ft.addToBackStack(backStateName);
-            ft.commit();
+//            FragmentTransaction ft = manager.beginTransaction();
+//            ft.hide(current_fragment);
+//            ft.replace(R.id.main_container, fragment);
+//            current_fragment = fragment;
+//            ft.addToBackStack(backStateName);
+//            ft.commit();
+
+            transaction = manager.beginTransaction();
+            transaction.hide(current_fragment);
+            transaction.replace(R.id.main_container, fragment);
+            current_fragment = fragment;
+            transaction.addToBackStack(backStateName);
+            transaction.commit();
         }
     }
 
@@ -176,8 +190,10 @@ public class MainActivity extends ActionBarActivity {
             case android.R.id.home: {
                 //FragmentManager fm = getSupportFragmentManager();
 
-                FrameLayout fl = (FrameLayout) findViewById(R.id.main_container);
-                fl.removeAllViews();
+              //  FrameLayout fl = (FrameLayout) findViewById(R.id.main_container);
+              //  fl.removeAllViews();
+
+                transaction.hide(current_fragment);
 
                 fragmentManager.popBackStack();
                 return true;
@@ -271,11 +287,12 @@ public class MainActivity extends ActionBarActivity {
         bundle.putString("bookname", valueBookName);//번들에 값을 넣음
         frag.setArguments(bundle);
 
-        FrameLayout fl = (FrameLayout) findViewById(R.id.main_container);
-        fl.removeAllViews();
+//        FrameLayout fl = (FrameLayout) findViewById(R.id.main_container);
+//        fl.removeAllViews();
 
-        final FragmentTransaction transaction = fragmentManager.beginTransaction();
-        transaction.replace(R.id.main_container, frag).commit();
+     //   final FragmentTransaction transaction = fragmentManager.beginTransaction();
+        replaceFragment(frag);
+       // transaction.replace(R.id.main_container, frag).commit();
 
         book_title = valueBookName;
 
