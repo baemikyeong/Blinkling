@@ -1,12 +1,14 @@
-package com.example.hyemin.blinkling.Book_Viewer;
+package com.example.hyemin.blinkling.BookShelf;
 
 
 import android.app.Activity;
 import android.content.ActivityNotFoundException;
 import android.content.Intent;
+import android.graphics.Bitmap;
 import android.net.Uri;
 import android.os.Bundle;
 import android.os.Environment;
+import android.support.annotation.MainThread;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.ListFragment;
 import android.util.Log;
@@ -14,16 +16,22 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
+import android.widget.FrameLayout;
 import android.widget.ListView;
 import android.widget.Toast;
 
+import com.example.hyemin.blinkling.Book_Viewer.TextViewFragment;
+import com.example.hyemin.blinkling.MainActivity;
 import com.example.hyemin.blinkling.R;
 
 import java.io.File;
 import java.io.FileInputStream;
+import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.IOException;
 import java.util.ArrayList;
+
+import static java.lang.Thread.sleep;
 
 
 /**
@@ -55,6 +63,7 @@ public class InnerStorageFragment extends ListFragment {
         Bundle args = new Bundle();
         args.putString("bookname",param1);
         frag.setArguments(args);
+
         return frag;
     }
 
@@ -169,6 +178,9 @@ public class InnerStorageFragment extends ListFragment {
 
 
                 fileMove(InStoragePath + "/" + mBookName, InStoragePath+"/Blinkling" + "/" + mBookName);
+
+                boolean a = true;
+                ( (MainActivity)getActivity()).changeToText(mBookName, a);
 
 
 //                FileInputStream fis = new FileInputStream(InStoragePath+ "/" + mBookName);

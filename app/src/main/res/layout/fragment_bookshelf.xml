@@ -3,7 +3,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:layout_marginTop="?attr/actionBarSize"
-    tools:context="com.example.hyemin.blinkling.Book_Viewer.InnerStorageFragment">
+    tools:context="com.example.hyemin.blinkling.BookShelf.InnerStorageFragment">
 
     <!-- TODO: Update blank fragment layout -->
     <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"

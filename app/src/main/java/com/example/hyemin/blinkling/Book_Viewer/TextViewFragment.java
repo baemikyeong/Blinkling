@@ -7,6 +7,7 @@ import android.content.Context;
 import android.content.DialogInterface;
 import android.content.SharedPreferences;
 import android.content.pm.PackageManager;
+import android.graphics.Bitmap;
 import android.graphics.Color;
 import android.graphics.Paint;
 import android.graphics.Typeface;
@@ -29,6 +30,7 @@ import android.view.MotionEvent;
 import android.view.View;
 import android.view.ViewGroup;
 import android.view.WindowManager;
+import android.widget.FrameLayout;
 import android.widget.HorizontalScrollView;
 import android.widget.LinearLayout;
 import android.widget.ProgressBar;
@@ -53,6 +55,8 @@ import org.greenrobot.eventbus.ThreadMode;
 
 import java.io.BufferedReader;
 import java.io.File;
+import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
 import java.io.FileReader;
 import java.io.IOException;
 import java.util.HashMap;
@@ -94,7 +98,7 @@ public class TextViewFragment extends Fragment {
     public static int font;
     public static int textsize;
     int pagestyle;
-    View rootView;
+    public static View rootView;
     public static ViewGroup textviewPage;
     private int bookmark_position;
     private String bookName = "";
@@ -249,6 +253,7 @@ public class TextViewFragment extends Fragment {
             });
 
             readTxt();
+
         }
 
         if (isCameraPermissionGranted()) {
@@ -431,6 +436,8 @@ public class TextViewFragment extends Fragment {
         }
 
     }
+
+
 
     //눈깜박임에 따른 페이지 down 함수
     public void change_down_location() {
@@ -640,6 +647,19 @@ public class TextViewFragment extends Fragment {
                 .setFacing(CameraSource.CAMERA_FACING_FRONT)
                 .setRequestedFps(30f)
                 .build();
+    }
+
+    public void capture(){
+        LinearLayout aframe = (LinearLayout)rootView.findViewById(R.id.scroll_txt);
+        aframe.buildDrawingCache();
+        Bitmap captureView = aframe.getDrawingCache();
+        FileOutputStream fos;
+        try {
+            fos = new FileOutputStream(Environment.getExternalStorageDirectory().toString()+"/capture.jpeg");
+            captureView.compress(Bitmap.CompressFormat.JPEG, 100, fos);
+        } catch (FileNotFoundException e) {
+            e.printStackTrace();
+        }
     }
 
     // 책갈피 추가함수

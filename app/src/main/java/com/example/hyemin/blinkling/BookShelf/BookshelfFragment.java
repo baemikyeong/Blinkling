@@ -191,8 +191,8 @@ public class BookshelfFragment extends Fragment {
 //            frag.setArguments(bundle);
 
             if(txt != -1){
-
-                ( (MainActivity)getActivity()).changeToText(mBookName);
+                boolean a = false;
+                ( (MainActivity)getActivity()).changeToText(mBookName, a);
             }
             else if(pdf != -1){
                 File file = new File(dir, mBookName);

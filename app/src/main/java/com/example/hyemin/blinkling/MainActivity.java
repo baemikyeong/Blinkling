@@ -5,7 +5,7 @@ import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.content.res.Configuration;
-import android.database.SQLException;
+import android.graphics.Bitmap;
 import android.net.Uri;
 import android.os.Build;
 import android.os.Bundle;
@@ -21,7 +21,9 @@ import android.support.v7.widget.Toolbar;
 import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
 import android.widget.EditText;
+import android.widget.LinearLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -35,17 +37,16 @@ import com.example.hyemin.blinkling.Bookmark.ExamDbFacade;
 import com.example.hyemin.blinkling.Bookmark.InfoClass;
 import android.widget.FrameLayout;
 import android.widget.RelativeLayout;
-import android.widget.Toast;
 
-import com.example.hyemin.blinkling.BookShelf.BookshelfFragment;
-import com.example.hyemin.blinkling.Book_Viewer.InnerStorageFragment;
+import com.example.hyemin.blinkling.BookShelf.InnerStorageFragment;
 import com.example.hyemin.blinkling.Book_Viewer.TextViewFragment;
-import com.example.hyemin.blinkling.Bookmark.BookmarkFragment;
 import com.example.hyemin.blinkling.Service.AudioService;
 import com.example.hyemin.blinkling.Service.ScreenFilterService;
 import com.example.hyemin.blinkling.Setting.SettingFragment;
 import com.example.hyemin.blinkling.Webview.WebviewFragment;
 
+import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
 import java.util.ArrayList;
 import java.io.File;
 
@@ -184,6 +185,12 @@ public class MainActivity extends ActionBarActivity {
         return true;
     }
 
+    public void back_fragment(){
+        transaction.hide(current_fragment);
+
+        fragmentManager.popBackStack();
+    }
+
     public boolean onOptionsItemSelected(MenuItem item) {
         int id = item.getItemId();
         switch (id) {
@@ -279,11 +286,11 @@ public class MainActivity extends ActionBarActivity {
 
     }
 
-    public void changeToText(String valueBookName) {
+
+    public void changeToText(String valueBookName, Boolean a) {
 
         Fragment frag = new TextViewFragment();
         Bundle bundle = new Bundle();
-
         bundle.putString("bookname", valueBookName);//번들에 값을 넣음
         frag.setArguments(bundle);
 
@@ -293,8 +300,27 @@ public class MainActivity extends ActionBarActivity {
      //   final FragmentTransaction transaction = fragmentManager.beginTransaction();
         replaceFragment(frag);
        // transaction.replace(R.id.main_container, frag).commit();
-
         book_title = valueBookName;
+
+        if(a == true){
+//            Toast.makeText(this, "t", Toast.LENGTH_SHORT).show();
+//            TextViewFragment frage = (TextViewFragment)frag;
+//            frage.capture();
+//            txt_fragment = (TextViewFragment) getSupportFragmentManager().findFragmentById(R.id.main_container);
+//            FrameLayout aframe = (FrameLayout)txt_fragment.rootView.findViewById(R.id.scroll_text);
+//            aframe.buildDrawingCache();
+//            Bitmap captureView = aframe.getDrawingCache();
+//            FileOutputStream fos;
+//            try {
+//                fos = new FileOutputStream(Environment.getExternalStorageDirectory().toString()+"/capture.jpeg");
+//                captureView.compress(Bitmap.CompressFormat.JPEG, 100, fos);
+//            } catch (FileNotFoundException e) {
+//                e.printStackTrace();
+//            }
+            fragment = new BookshelfFragment();
+
+            replaceFragment(fragment);
+        }
 
     }
 
