@@ -4,7 +4,7 @@
 
     <item
         android:id="@+id/navigation_home"
-        android:icon="@drawable/book"
+        android:icon="@drawable/ic_book_default"
         android:title="My Bookshelf"
         android:enabled="true"
         app:showAsAction="ifRoom"
@@ -12,21 +12,21 @@
 
     <item
         android:id="@+id/navigation_write"
-        android:icon="@drawable/bookmarkstar"
+        android:icon="@drawable/ic_mybookmark_default"
         android:enabled="true"
         app:showAsAction="ifRoom"
         android:title="Bookmark" />
 
     <item
         android:id="@+id/navigation_friends"
-        android:icon="@drawable/gridworld"
+        android:icon="@drawable/ic_web_default"
         android:title="webview"
         android:enabled="true"
         app:showAsAction="ifRoom"/>
 
     <item
         android:id="@+id/navigation_foodbank"
-        android:icon="@drawable/settings"
+        android:icon="@drawable/ic_settings_default"
         android:title="setting"
         android:enabled="true"
         app:showAsAction="ifRoom"/>

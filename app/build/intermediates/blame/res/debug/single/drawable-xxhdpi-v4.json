@@ -60,12 +60,12 @@
         "source": "/Users/mac/.android/build-cache/693066f5460604d04bca0de7d54ae2c516c35b5a/output/res/drawable-xxhdpi-v4/ic_cast_off_light.png"
     },
     {
-        "merged": "/Users/mac/Blinkling/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/ic_media_route_on_05_light.png",
-        "source": "/Users/mac/.android/build-cache/693066f5460604d04bca0de7d54ae2c516c35b5a/output/res/drawable-xxhdpi-v4/ic_media_route_on_05_light.png"
-    },
-    {
         "merged": "/Users/mac/Blinkling/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/ic_media_route_on_15_light.png",
         "source": "/Users/mac/.android/build-cache/693066f5460604d04bca0de7d54ae2c516c35b5a/output/res/drawable-xxhdpi-v4/ic_media_route_on_15_light.png"
+    },
+    {
+        "merged": "/Users/mac/Blinkling/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/ic_media_route_on_05_light.png",
+        "source": "/Users/mac/.android/build-cache/693066f5460604d04bca0de7d54ae2c516c35b5a/output/res/drawable-xxhdpi-v4/ic_media_route_on_05_light.png"
     },
     {
         "merged": "/Users/mac/Blinkling/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/ic_media_route_connecting_19_dark.png",

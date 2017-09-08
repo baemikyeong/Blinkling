@@ -26,9 +26,8 @@ import java.util.ArrayList;
 public class BookshelfFragment extends Fragment {
     File dir = Environment.getExternalStorageDirectory().getAbsoluteFile();
     GridView mFileGridView;
-    ArrayList<String> mArrayListFile;
-    GridViewAdapter gridadapter;
-
+    ArrayList<String> mArrayListFile;//파일
+    final static GridViewAdapter gridadapter = new GridViewAdapter();
     String valBookName = "";
     String mPath = "";
     String mRoot = "";
@@ -47,20 +46,22 @@ public class BookshelfFragment extends Fragment {
         // Inflate the layout for this fragment
         View rootView = inflater.inflate(R.layout.fragment_bookshelf, container, false);
         mFileGridView = (GridView) rootView.findViewById(android.R.id.list);
-        gridadapter = new GridViewAdapter();
+
         mFileGridView.setAdapter(gridadapter);
 
-        gridadapter.addItem(ContextCompat.getDrawable(getActivity(), R.drawable.book1)
-                , "book1") ;
+//        gridadapter.addItem(ContextCompat.getDrawable(getActivity(), R.drawable.book1)
+//                , "book1") ;
+//
+//        gridadapter.addItem(ContextCompat.getDrawable(getActivity(), R.drawable.book2)
+//                ,"book2") ;
+//
+//        gridadapter.addItem(ContextCompat.getDrawable(getActivity(), R.drawable.book3)
+//                ,"book3") ;
+//
+//        gridadapter.addItem(ContextCompat.getDrawable(getActivity(), R.drawable.book4)
+//               ,"book4") ;
 
-        gridadapter.addItem(ContextCompat.getDrawable(getActivity(), R.drawable.book2)
-                ,"book2") ;
 
-        gridadapter.addItem(ContextCompat.getDrawable(getActivity(), R.drawable.book3)
-                ,"book3") ;
-
-        gridadapter.addItem(ContextCompat.getDrawable(getActivity(), R.drawable.book4)
-                ,"book4") ;
 
         Activity root = getActivity();
         Toast toast;
@@ -69,31 +70,32 @@ public class BookshelfFragment extends Fragment {
         mRoot = InStoragePath;
         //  ( (MainActivity)getActivity()).changeToBookshelf();
         //    findFolder();
-
+//없어도 될것같애!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
         // SD카드 접근시임
-        String ext = Environment.getExternalStorageState();
-        if (ext.equals(Environment.MEDIA_MOUNTED)) {
-            findFolder();
-            //  Activity root = getActivity();
-//            Toast toast = Toast.makeText(root, "There is  SDcard!", Toast.LENGTH_SHORT);
-//           toast.show();
-
-        } else {
-            // Activity root = getActivity();
-            toast = Toast.makeText(root, "There is no SDcard!", Toast.LENGTH_SHORT);
-            toast.show();
-        }
+//        String ext = Environment.getExternalStorageState();
+//        if (ext.equals(Environment.MEDIA_MOUNTED)) {
+//            findFolder();
+//            //  Activity root = getActivity();
+////            Toast toast = Toast.makeText(root, "There is  SDcard!", Toast.LENGTH_SHORT);
+////           toast.show();
+//
+//        } else {
+//            // Activity root = getActivity();
+//            toast = Toast.makeText(root, "There is no SDcard!", Toast.LENGTH_SHORT);
+//            toast.show();
+//        }
 
         mFileGridView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView parent, View v, int position, long id) {
-                String strItem = mArrayListFile.get(position);//position은 0부터 시작 position 번째 아이템 이름을 리턴함
-                String strPath = getAbsolutePath(strItem);// 선택된 폴더의 전체 경로를 구한다
-                String[] fileList = getFileList(strPath);//선택된 폴더에 존재하는 파일 목록을 구한다
-                ShowFileList(fileList); //파일 목록을 ListView 에 표시
+                String strItem = gridadapter.getGridViewItemList().get(position).getTitle(); //position은 0부터 시작 position 번째 아이템 이름을 리턴함
+                ( (MainActivity)getActivity()).changeToText(strItem);
+                //String strPath = getAbsolutePath(strItem);// 선택된 폴더의 전체 경로를 구한다
+                //String[] fileList = getFileList(strPath);//선택된 폴더에 존재하는 파일 목록을 구한다
+                // ShowFileList(fileList); //파일 목록을 ListView 에 표시
             }
         });
-
+//  String strItem = gridadapter.getGridViewItemList().get(position);
 
         //  mFileGridView.setAdapter(new gridAdapter());
 
@@ -101,12 +103,24 @@ public class BookshelfFragment extends Fragment {
         return rootView;
     }
 
+    public void setBookshelf(String mBookName_main){
+//        gridadapter = new GridViewAdapter();
+//        mFileGridView.setAdapter(gridadapter);
+        gridadapter.addItem(ContextCompat.getDrawable(getActivity(), R.drawable.book1)
+                ,  mBookName_main) ;
+        gridadapter.notifyDataSetChanged();
+        mBookName = mBookName_main;
+
+    }
+
+
+
 
     private void findFolder() {
         // Environment.getRootDirectory().getAbsolutePath()
 
 
-      //  mArrayListFile = new ArrayList<String>();
+        //  mArrayListFile = new ArrayList<String>();
         mArrayListFile = new ArrayList<>();
         //String InStoragePath = Environment.getExternalStorageDirectory().getAbsolutePath();
         File files = new File(InStoragePath);

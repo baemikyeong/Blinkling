@@ -6,16 +6,14 @@
 
     <!-- TODO: Update blank fragment layout -->
     <RelativeLayout
-        android:layout_width="match_parent"
-        android:layout_height="284dp">
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
 
         <TextView
             android:id="@+id/bright_gauge"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="TextView"
-            android:layout_alignParentBottom="true"
-            android:layout_marginBottom="82dp"
             android:layout_centerHorizontal="true"/>
 
         <SeekBar

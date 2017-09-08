@@ -17,6 +17,7 @@ import android.widget.ArrayAdapter;
 import android.widget.ListView;
 import android.widget.Toast;
 
+import com.example.hyemin.blinkling.MainActivity;
 import com.example.hyemin.blinkling.R;
 
 import java.io.File;
@@ -35,7 +36,7 @@ public class InnerStorageFragment extends ListFragment {
     ArrayList<String> mArrayListFile;
     String mPath = "";
     String mRoot = "";
-    String mBookName = "";
+    String mBookName = "";//사용자가 클릭한 북네임
     String strPathComp = "";
     // String InStoragePath = Environment.getRootDirectory().getAbsolutePath();
     String InStoragePath = Environment.getExternalStorageDirectory().getAbsolutePath();
@@ -169,6 +170,12 @@ public class InnerStorageFragment extends ListFragment {
 
 
                 fileMove(InStoragePath + "/" + mBookName, InStoragePath+"/Blinkling" + "/" + mBookName);
+//mBookName이 이름을 북쉘프에 띄워야해!!
+
+                ((MainActivity)getActivity()).sendBookname(mBookName);
+
+
+
 
 
 //                FileInputStream fis = new FileInputStream(InStoragePath+ "/" + mBookName);
@@ -183,7 +190,7 @@ public class InnerStorageFragment extends ListFragment {
 //
 //                fis.close();
 //                fos.close();
-
+                return null;
 
                 //   ( (MainActivity)getActivity()).changeToText(mBookName);//진짜 북네임임 이 값을 북쉘프로 넘겨야되ㅁ
             }

@@ -81,6 +81,8 @@ public class MainActivity extends ActionBarActivity {
     public static boolean light;//초기상태는 불이 꺼진 상태
     public static FrameLayout aframe;
 
+    public String mBookName_main = "";
+
     @Override
     public void onConfigurationChanged(Configuration newConfig) {
 
@@ -454,4 +456,13 @@ public class MainActivity extends ActionBarActivity {
         dialog.create().show();
 
     }
+
+    public void sendBookname(String mBookName){
+//        BookshelfFragment tf = (BookshelfFragment) getSupportFragmentManager().findFragmentById(R.id.main_container);
+//        tf.setBookshelf(mBookName);
+
+        ((BookshelfFragment) getSupportFragmentManager().findFragmentByTag("fragBookshelf")).setBookshelf(mBookName);
+
+    }
+
 }

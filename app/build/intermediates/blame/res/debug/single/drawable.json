@@ -1,23 +1,23 @@
 [
     {
-        "merged": "/Users/mac/Blinkling/app/build/intermediates/res/merged/debug/drawable/abc_btn_radio_material.xml",
-        "source": "/Users/mac/.android/build-cache/913d8db17f1c25b6ee67b77b63f40d3096bd505a/output/res/drawable/abc_btn_radio_material.xml"
+        "merged": "/Users/mac/Blinkling/app/build/intermediates/res/merged/debug/drawable/design_fab_background.xml",
+        "source": "/Users/mac/.android/build-cache/2357a626681079792d0b0f8329e66fe5b38ee637/output/res/drawable/design_fab_background.xml"
     },
     {
         "merged": "/Users/mac/Blinkling/app/build/intermediates/res/merged/debug/drawable/mr_ic_media_route_connecting_light.xml",
         "source": "/Users/mac/.android/build-cache/693066f5460604d04bca0de7d54ae2c516c35b5a/output/res/drawable/mr_ic_media_route_connecting_light.xml"
     },
     {
-        "merged": "/Users/mac/Blinkling/app/build/intermediates/res/merged/debug/drawable/design_fab_background.xml",
-        "source": "/Users/mac/.android/build-cache/2357a626681079792d0b0f8329e66fe5b38ee637/output/res/drawable/design_fab_background.xml"
-    },
-    {
-        "merged": "/Users/mac/Blinkling/app/build/intermediates/res/merged/debug/drawable/plus.png",
-        "source": "/Users/mac/Blinkling/app/src/main/res/drawable/plus.png"
+        "merged": "/Users/mac/Blinkling/app/build/intermediates/res/merged/debug/drawable/abc_btn_radio_material.xml",
+        "source": "/Users/mac/.android/build-cache/913d8db17f1c25b6ee67b77b63f40d3096bd505a/output/res/drawable/abc_btn_radio_material.xml"
     },
     {
         "merged": "/Users/mac/Blinkling/app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_icon_light.xml",
         "source": "/Users/mac/.android/build-cache/46cde47e55c49a49e2a966d8d336fb318d076378/output/res/drawable/common_google_signin_btn_icon_light.xml"
+    },
+    {
+        "merged": "/Users/mac/Blinkling/app/build/intermediates/res/merged/debug/drawable/plus.png",
+        "source": "/Users/mac/Blinkling/app/src/main/res/drawable/plus.png"
     },
     {
         "merged": "/Users/mac/Blinkling/app/build/intermediates/res/merged/debug/drawable/mr_ic_media_route_connecting_dark.xml",
@@ -60,16 +60,16 @@
         "source": "/Users/mac/Blinkling/app/src/main/res/drawable/gridworld.png"
     },
     {
-        "merged": "/Users/mac/Blinkling/app/build/intermediates/res/merged/debug/drawable/mr_ic_close_dark.xml",
-        "source": "/Users/mac/.android/build-cache/693066f5460604d04bca0de7d54ae2c516c35b5a/output/res/drawable/mr_ic_close_dark.xml"
+        "merged": "/Users/mac/Blinkling/app/build/intermediates/res/merged/debug/drawable/cast_ic_expanded_controller_skip_previous.xml",
+        "source": "/Users/mac/.android/build-cache/d3ff796d1a0a0be6c348fb13321312629f76eaaf/output/res/drawable/cast_ic_expanded_controller_skip_previous.xml"
     },
     {
         "merged": "/Users/mac/Blinkling/app/build/intermediates/res/merged/debug/drawable/mr_ic_close_light.xml",
         "source": "/Users/mac/.android/build-cache/693066f5460604d04bca0de7d54ae2c516c35b5a/output/res/drawable/mr_ic_close_light.xml"
     },
     {
-        "merged": "/Users/mac/Blinkling/app/build/intermediates/res/merged/debug/drawable/cast_ic_expanded_controller_skip_previous.xml",
-        "source": "/Users/mac/.android/build-cache/d3ff796d1a0a0be6c348fb13321312629f76eaaf/output/res/drawable/cast_ic_expanded_controller_skip_previous.xml"
+        "merged": "/Users/mac/Blinkling/app/build/intermediates/res/merged/debug/drawable/mr_ic_close_dark.xml",
+        "source": "/Users/mac/.android/build-cache/693066f5460604d04bca0de7d54ae2c516c35b5a/output/res/drawable/mr_ic_close_dark.xml"
     },
     {
         "merged": "/Users/mac/Blinkling/app/build/intermediates/res/merged/debug/drawable/cast_ic_expanded_controller_rewind30.xml",
@@ -408,10 +408,6 @@
         "source": "/Users/mac/.android/build-cache/d3ff796d1a0a0be6c348fb13321312629f76eaaf/output/res/drawable/cast_ic_notification_rewind10.xml"
     },
     {
-        "merged": "/Users/mac/Blinkling/app/build/intermediates/res/merged/debug/drawable/mainimage.png",
-        "source": "/Users/mac/Blinkling/app/src/main/res/drawable/mainimage.png"
-    },
-    {
         "merged": "/Users/mac/Blinkling/app/build/intermediates/res/merged/debug/drawable/abc_cab_background_top_material.xml",
         "source": "/Users/mac/.android/build-cache/913d8db17f1c25b6ee67b77b63f40d3096bd505a/output/res/drawable/abc_cab_background_top_material.xml"
     },
@@ -466,6 +462,10 @@
     {
         "merged": "/Users/mac/Blinkling/app/build/intermediates/res/merged/debug/drawable/mr_ic_media_route_mono_light.xml",
         "source": "/Users/mac/.android/build-cache/693066f5460604d04bca0de7d54ae2c516c35b5a/output/res/drawable/mr_ic_media_route_mono_light.xml"
+    },
+    {
+        "merged": "/Users/mac/Blinkling/app/build/intermediates/res/merged/debug/drawable/splashview.png",
+        "source": "/Users/mac/Blinkling/app/src/main/res/drawable/splashview.png"
     },
     {
         "merged": "/Users/mac/Blinkling/app/build/intermediates/res/merged/debug/drawable/cast_ic_mini_controller_forward30.xml",

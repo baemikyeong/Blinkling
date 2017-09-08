@@ -10,38 +10,34 @@
         android:title="추가">
     </item>
 
-
     <item
         android:id="@+id/eye_btn"
-        android:icon="@drawable/ic_remove_red_eye_black_24dp"
-        app:showAsAction="ifRoom"
-        android:title="눈">
+        android:icon="@drawable/ic_eye_default"
+        android:title="눈인식">
     </item>
 
     <item
         android:id="@+id/light_btn"
-        android:icon="@drawable/ic_lightbulb_outline_black_24dp"
-        app:showAsAction="ifRoom"
-        android:title="라이트">
+        android:icon="@drawable/ic_bluelight_default"
+        android:title="블루라이트">
     </item>
 
     <item
         android:id="@+id/voice_btn"
-        android:icon="@drawable/ic_mic_black_24dp"
-        app:showAsAction="ifRoom"
-        android:title="음성녹음">
+        android:icon="@drawable/ic_mic_default"
+        android:title="녹음">
     </item>
 
     <item
         android:id="@+id/bookmark_btn"
-        android:icon="@drawable/bookmark"
+        android:icon="@drawable/ic_bookmark_default"
         app:showAsAction="ifRoom"
         android:title="북마크">
     </item>
 
     <item
         android:id="@+id/notebook_delete"
-        android:icon="@drawable/garbage"
+        android:icon="@drawable/ic_delete_default"
         app:showAsAction="ifRoom"
         android:title="삭제">
     </item>
