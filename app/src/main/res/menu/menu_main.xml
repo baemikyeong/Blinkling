@@ -6,41 +6,41 @@
         android:id="@+id/notebook_add"
         android:icon="@drawable/plus"
         app:showAsAction="ifRoom"
-        android:title="추가">
+        android:title="추�?">
     </item>
 
 
     <item
         android:id="@+id/eye_btn"
-        android:icon="@drawable/bookmark"
+        android:icon="@drawable/ic_eye_default"
         app:showAsAction="ifRoom"
-        android:title="눈">
+        android:title="??>
     </item>
 
     <item
         android:id="@+id/light_btn"
-        android:icon="@drawable/bookmark"
+        android:icon="@drawable/ic_bluelight_default"
         app:showAsAction="ifRoom"
-        android:title="라이트">
+        android:title="?�이??>
     </item>
 
     <item
         android:id="@+id/voice_btn"
-        android:icon="@drawable/bookmark"
+        android:icon="@drawable/ic_mic_default"
         app:showAsAction="ifRoom"
-        android:title="음성녹음">
+        android:title="?�성?�음">
     </item>
 
     <item
         android:id="@+id/bookmark_btn"
-        android:icon="@drawable/bookmark"
+        android:icon="@drawable/ic_bookmark_default"
         app:showAsAction="ifRoom"
-        android:title="북마크">
+        android:title="북마??>
     </item>
     <item
         android:id="@+id/notebook_delete"
-        android:icon="@drawable/garbage"
+        android:icon="@drawable/ic_delete_default"
         app:showAsAction="ifRoom"
-        android:title="삭제">
+        android:title="??��">
     </item>
 </menu>

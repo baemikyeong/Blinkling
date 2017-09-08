@@ -1,4 +1,4 @@
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+﻿<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
@@ -7,52 +7,66 @@
     <!-- TODO: Update blank fragment layout -->
     <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="231dp">
+        android:layout_height="match_parent">
 
         <RadioGroup
             android:id="@+id/radiofont"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+
             android:layout_marginStart="22dp"
-            android:layout_centerVertical="true"
-            android:layout_alignParentStart="true">
+            android:layout_marginEnd="22dp">
+            <!--android:layout_centerVertical="true"-->
 
             <RadioButton
                 android:id="@+id/radio_font1"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/settingsListHeight" 
                 android:checked="true"
-                android:text="고딕체" />
+                android:text="고딕체"
+                android:textSize="@dimen/settingsTextSize"
+                android:buttonTint="@color/colorPrimary" />
 
             <RadioButton
                 android:id="@+id/radio_font2"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="굴림체" />
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/settingsListHeight" 
+                android:text="굴림체" 
+                android:textSize="@dimen/settingsTextSize"
+                android:buttonTint="@color/colorPrimary"/>
 
             <RadioButton
                 android:id="@+id/radio_font3"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="바탕체" />
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/settingsListHeight" 
+                android:text="바탕체" 
+                android:textSize="@dimen/settingsTextSize"
+                android:buttonTint="@color/colorPrimary"/>
 
             <RadioButton
                 android:id="@+id/radio_font4"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="산돌광수체" />
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/settingsListHeight" 
+                android:text="산돌광수체" 
+                android:textSize="@dimen/settingsTextSize"
+                android:buttonTint="@color/colorPrimary"/>
 
             <RadioButton
                 android:id="@+id/radio_font5"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="도리도리체" />
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/settingsListHeight" 
+                android:text="도리도리체" 
+                android:textSize="@dimen/settingsTextSize"
+                android:buttonTint="@color/colorPrimary"/>
 
             <RadioButton
                 android:id="@+id/radio_font6"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="랄랄라체" />
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/settingsListHeight" 
+                android:text="랄랄라체"
+                android:textSize="@dimen/settingsTextSize"
+                android:buttonTint="@color/colorPrimary"/>
 
         </RadioGroup>
     </RelativeLayout>

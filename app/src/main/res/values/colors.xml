@@ -1,8 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorAccent">#ffc3a0</color>
-    <color name="colorPrimary">#ffcdd5</color>
-    <color name="colorPrimaryDark">#ff5e76</color>
+
+<!--Main-->
+    <color name="colorPrimary">#a08989</color><!---->
+    <color name="colorPrimaryDark">#736262</color><!---->
+
+<!--Selection-->
+    <color name="colorGrey">#efefef</color><!---->
+
+
     <color name="colorPrimaryLight">#8a3aaf</color>
     <color name="colorWhite">#ffffff</color>
     <color name="colorBlack">#000000</color>
