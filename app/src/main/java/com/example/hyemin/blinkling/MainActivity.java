@@ -5,7 +5,6 @@ import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.content.res.Configuration;
-import android.database.SQLException;
 import android.net.Uri;
 import android.os.Build;
 import android.os.Bundle;
@@ -22,10 +21,14 @@ import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.EditText;
+import android.widget.FrameLayout;
+import android.widget.RelativeLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
 import com.example.hyemin.blinkling.BookShelf.BookshelfFragment;
+import com.example.hyemin.blinkling.Book_Viewer.InnerStorageFragment;
+import com.example.hyemin.blinkling.Book_Viewer.TextViewFragment;
 import com.example.hyemin.blinkling.Bookmark.BookTab_Fragment;
 import com.example.hyemin.blinkling.Bookmark.BookmarkFragment;
 import com.example.hyemin.blinkling.Bookmark.CustomAdapter;
@@ -33,21 +36,13 @@ import com.example.hyemin.blinkling.Bookmark.DateFormatter;
 import com.example.hyemin.blinkling.Bookmark.DbOpenHelper;
 import com.example.hyemin.blinkling.Bookmark.ExamDbFacade;
 import com.example.hyemin.blinkling.Bookmark.InfoClass;
-import android.widget.FrameLayout;
-import android.widget.RelativeLayout;
-import android.widget.Toast;
-
-import com.example.hyemin.blinkling.BookShelf.BookshelfFragment;
-import com.example.hyemin.blinkling.Book_Viewer.InnerStorageFragment;
-import com.example.hyemin.blinkling.Book_Viewer.TextViewFragment;
-import com.example.hyemin.blinkling.Bookmark.BookmarkFragment;
 import com.example.hyemin.blinkling.Service.AudioService;
 import com.example.hyemin.blinkling.Service.ScreenFilterService;
 import com.example.hyemin.blinkling.Setting.SettingFragment;
 import com.example.hyemin.blinkling.Webview.WebviewFragment;
 
-import java.util.ArrayList;
 import java.io.File;
+import java.util.ArrayList;
 
 import static android.Manifest.permission.READ_EXTERNAL_STORAGE;
 import static android.Manifest.permission.RECORD_AUDIO;
@@ -78,6 +73,9 @@ public class MainActivity extends ActionBarActivity {
     private Toolbar toolbar;
     public static boolean light;//초기상태는 불이 꺼진 상태
     public static FrameLayout aframe;
+
+    public String mBookName_main = "";
+
 
     @Override
     public void onConfigurationChanged(Configuration newConfig) {
@@ -110,7 +108,7 @@ public class MainActivity extends ActionBarActivity {
         fragmentManager = getSupportFragmentManager();
         fragment = new BookshelfFragment();
         final FragmentTransaction transaction = fragmentManager.beginTransaction();
-        transaction.add(R.id.main_container, fragment).commit();
+        transaction.add(R.id.main_container, fragment,"fragBookshelf").commit();
 
         getSupportActionBar().setTitle("블링클링");
         bottomNavigation = (BottomNavigationView) findViewById(R.id.bottom_navigation);
@@ -373,6 +371,7 @@ public class MainActivity extends ActionBarActivity {
         return dir;
     }
 
+
     public void InnerStorageFragment_start() {
         fragment = new InnerStorageFragment();
         replaceFragment(fragment);
@@ -435,6 +434,14 @@ public class MainActivity extends ActionBarActivity {
         });
 
         dialog.create().show();
+
+    }
+
+    public void sendBookname(String mBookName){
+//        BookshelfFragment tf = (BookshelfFragment) getSupportFragmentManager().findFragmentById(R.id.main_container);
+//        tf.setBookshelf(mBookName);
+
+        ((BookshelfFragment) getSupportFragmentManager().findFragmentByTag("fragBookshelf")).setBookshelf(mBookName);
 
     }
 }

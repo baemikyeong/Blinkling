@@ -17,6 +17,8 @@ import java.util.ArrayList;
  * Created by dayeon on 2017. 8. 28..
  */
 
+
+
 public class GridViewAdapter extends BaseAdapter {
     private ArrayList<GridViewItem> gridViewItemList = new ArrayList<GridViewItem>() ;
 
@@ -24,7 +26,13 @@ public class GridViewAdapter extends BaseAdapter {
 
     }
 
+//    public void setArrayList(ArrayList<GridViewItem> arrays) {
+//        gridViewItemList = arrays;
+//    }
+    public ArrayList<GridViewItem> getGridViewItemList(){
+        return gridViewItemList;
 
+    }
 
     // Adapter에 사용되는 데이터의 개수를 리턴. : 필수 구현
     @Override
