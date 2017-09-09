@@ -24,6 +24,8 @@ import com.example.hyemin.blinkling.R;
 
 import java.util.ArrayList;
 
+import static android.provider.BaseColumns._ID;
+
 
 /**
  * A simple {@link Fragment} subclass.
@@ -40,6 +42,13 @@ public class BookTab_Fragment extends ListFragment {
     ArrayList<InfoClass> insertResult;
     ArrayList<InfoClass> selectResult;
     Spinner s;
+    // 정렬
+    public static final String ORDER_BY_DEFAULT = _ID + " asc";
+    public static final String ORDER_BY_DEFAULT_DESC = ExamDbContract.ExamDbEntry.TITLE + " desc";
+    public static final String ORDER_BY_TITLE = ExamDbContract.ExamDbEntry.TITLE + " asc, " + _ID + " asc";
+    public static final String ORDER_BY_DATE_DESC = ExamDbContract.ExamDbEntry.CREATED_AT + " desc, " + _ID + " desc";
+    public static final String ORDER_BY_TITLE_DESC = ExamDbContract.ExamDbEntry.TITLE + " desc, " + _ID + " desc";
+
 
     public BookTab_Fragment() {
         // Required empty public constructor
@@ -52,33 +61,53 @@ public class BookTab_Fragment extends ListFragment {
 
         //데이터베이스 생성 및 오픈
         mFacade = new ExamDbFacade(getActivity());
+
         mAdapter = new CustomAdapter_book(getActivity(), mFacade.getCursor(), false);
+
         mCursor = mFacade.getCursor();
         mListView = (ListView) view.findViewById(android.R.id.list);
 
         mListView.setAdapter(mAdapter);
 
 
-        s = (Spinner) view.findViewById(R.id.spinner1);//스피너 설정
+        s = (Spinner) view.findViewById(R.id.spinner2);//스피너 설정
 
         s.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
             @Override
             public void onItemSelected(AdapterView<?> adapterView, View view, int position, long l) {
-                switch (position){
-                   /* case 0:
-                        Toast.makeText(getActivity(),"최신순",Toast.LENGTH_SHORT).show();
-                        break;*/
-                    case 1:
-                        Toast.makeText(getActivity(),"이름별",Toast.LENGTH_SHORT).show();
+                switch (position) {
+                    case 0: {
+                        mCursor = mFacade.getAll();
+                        mAdapter.swapCursor(mCursor);
+                        mListView.setAdapter(mAdapter);
                         break;
-                    case 2:
-                        Toast.makeText(getActivity(),"문서별",Toast.LENGTH_SHORT).show();
+                    }
+                    case 1: {
+                        mCursor = mFacade.order_desc();
+                        mAdapter.swapCursor(mCursor);
+                        mListView.setAdapter(mAdapter);
                         break;
+                    }
+                    case 2: {
+                        mCursor = mFacade.order_alp_asc();
+                        mAdapter.swapCursor(mCursor);
+                        mListView.setAdapter(mAdapter);
+                        break;
+                    }
+                    case 3: {
+                        mCursor = mFacade.order_doc_asc();
+                        mAdapter.swapCursor(mCursor);
+                        mListView.setAdapter(mAdapter);
+                        break;
+                    }
                 }
             }
+
             @Override
             public void onNothingSelected(AdapterView<?> adapterView) {
-                Toast.makeText(getActivity(),"최신순",Toast.LENGTH_SHORT).show();
+                mCursor = mFacade.getAll();
+                mAdapter.swapCursor(mCursor);
+                mListView.setAdapter(mAdapter);
             }
         });
 

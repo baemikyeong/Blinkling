@@ -30,9 +30,10 @@ public final class R {
         public static final int design_appbar_state_list_animator=0x7f060000;
     }
     public static final class array {
-        public static final int cast_expanded_controller_default_control_buttons=0x7f0e0000;
-        public static final int cast_mini_controller_default_control_buttons=0x7f0e0001;
-        public static final int city=0x7f0e0002;
+        public static final int audio=0x7f0e0000;
+        public static final int book=0x7f0e0001;
+        public static final int cast_expanded_controller_default_control_buttons=0x7f0e0002;
+        public static final int cast_mini_controller_default_control_buttons=0x7f0e0003;
     }
     public static final class attr {
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
@@ -4883,8 +4884,8 @@ containing a value of this type.
         public static final int snackbar_text=0x7f0f00f3;
         public static final int snap=0x7f0f0033;
         public static final int spacer=0x7f0f009e;
-        public static final int spinner1=0x7f0f0103;
-        public static final int spinner2=0x7f0f0127;
+        public static final int spinner1=0x7f0f0128;
+        public static final int spinner2=0x7f0f0103;
         public static final int spinner3=0x7f0f00fe;
         public static final int split_action_bar=0x7f0f0016;
         public static final int spread=0x7f0f001e;
@@ -4942,7 +4943,7 @@ containing a value of this type.
         public static final int useLogo=0x7f0f002e;
         public static final int vertical_divider=0x7f0f013d;
         public static final int view=0x7f0f0102;
-        public static final int view2=0x7f0f0128;
+        public static final int view2=0x7f0f0127;
         public static final int view3=0x7f0f00ff;
         public static final int view_offset_helper=0x7f0f001c;
         public static final int viewpager=0x7f0f0106;
@@ -5261,9 +5262,6 @@ containing a value of this type.
         public static final int Animation_AppCompat_DropDownUp=0x7f0a00a5;
         public static final int Animation_Design_BottomSheetDialog=0x7f0a00a6;
         public static final int AppBaseTheme=0x7f0a00a7;
-        /**    <item name="android:navigationBarColor"
-            tools:targetApi="lollipop">#ffcdd5</item>
-         */
         public static final int AppTheme=0x7f0a00a8;
         public static final int Base_AlertDialog_AppCompat=0x7f0a00a9;
         public static final int Base_AlertDialog_AppCompat_Light=0x7f0a00aa;

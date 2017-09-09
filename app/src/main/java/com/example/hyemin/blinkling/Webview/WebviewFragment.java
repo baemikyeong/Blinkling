@@ -109,11 +109,13 @@ public class WebviewFragment extends Fragment {
             super.onPageFinished(view, url);
         }
         });
-        if(checkURL == null){
+        if(((MainActivity)getActivity()).web_bookmark_url == null){
+           // Toast.makeText(getActivity(), "null", Toast.LENGTH_SHORT).show();
             webView.loadUrl("http://www.naver.com");
         }
         else{
-            webView.loadUrl(checkURL);
+            webView.loadUrl(((MainActivity)getActivity()).web_bookmark_url);
+            ((MainActivity)getActivity()).web_bookmark_url = null;
         }
 
 

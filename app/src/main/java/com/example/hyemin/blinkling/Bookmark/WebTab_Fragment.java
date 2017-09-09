@@ -37,11 +37,12 @@ public class WebTab_Fragment extends Fragment {
     private CustomAdapter_web mAdapter;
     private ListView mListView;
     private ExamDbFacade_web mFacade;
-    EditText editSearch;
+    EditText search_web;
     // Long click된 item의 index(position)을 기록한다.
     int selectedPos = -1;
     ArrayList<InfoClass_web> insertResult;
     ArrayList<InfoClass_web> selectResult;
+    Spinner s;
 
     public WebTab_Fragment() {
         // Required empty public constructor
@@ -51,10 +52,40 @@ public class WebTab_Fragment extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        View view = inflater.inflate(R.layout.fragment_book_tab, container, false);
+        View view = inflater.inflate(R.layout.fragment_web_tab_, container, false);
 
-        Spinner s = (Spinner) view.findViewById(R.id.spinner1);
+        s = (Spinner) view.findViewById(R.id.spinner1);//스피너 설정
 
+        s.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
+            @Override
+            public void onItemSelected(AdapterView<?> adapterView, View view, int position, long l) {
+                switch (position) {
+                    case 0: {
+                        mCursor = mFacade.getAll();
+                        mAdapter.swapCursor(mCursor);
+                        mListView.setAdapter(mAdapter);
+                        break;
+                    }
+                    case 1: {
+                        mCursor = mFacade.order_desc();
+                        mAdapter.swapCursor(mCursor);
+                        mListView.setAdapter(mAdapter);
+                        break;
+                    }
+                    case 2: {
+                        mCursor = mFacade.order_alp_asc();
+                        mAdapter.swapCursor(mCursor);
+                        mListView.setAdapter(mAdapter);
+                        break;
+                    }
+                }
+            }
+
+            @Override
+            public void onNothingSelected(AdapterView<?> adapterView) {
+
+            }
+        });
         //데이터베이스 생성 및 오픈
         mFacade = new ExamDbFacade_web(getActivity());
         mAdapter = new CustomAdapter_web(getActivity(), mFacade.getCursor(), false);
@@ -63,8 +94,8 @@ public class WebTab_Fragment extends Fragment {
 
         mListView.setAdapter(mAdapter);
 
-        editSearch = (EditText) view.findViewById(R.id.search);//검색창 설정
-        editSearch.addTextChangedListener(new TextWatcher() {
+        search_web = (EditText) view.findViewById(R.id.search_web);//검색창 설정
+        search_web.addTextChangedListener(new TextWatcher() {
             @Override
             public void beforeTextChanged(CharSequence charSequence, int i, int i1, int i2) {
 
@@ -114,9 +145,12 @@ public class WebTab_Fragment extends Fragment {
         mAdapter.changeCursor(mFacade.getCursor());
 
         //롱클릭했을때 웹마크 이름 편집
-        mListView.setOnItemLongClickListener(new AdapterView.OnItemLongClickListener() {
+        mListView.setOnItemLongClickListener(new AdapterView.OnItemLongClickListener()
+
+        {
             @Override
-            public boolean onItemLongClick(AdapterView<?> adapterView, final View v, int position, long arg3) {
+            public boolean onItemLongClick(AdapterView<?> adapterView, final View v,
+                                           int position, long arg3) {
                 final int pos = position;
 
                 mCursor.moveToPosition(pos);
@@ -192,9 +226,9 @@ public class WebTab_Fragment extends Fragment {
 
                 String url = mCursor.getString(mCursor.getColumnIndex(ExamDbContract_web.ExamDbEntry.POS));
 
-              // Toast.makeText(getActivity(),url,Toast.LENGTH_SHORT).show();
+                // Toast.makeText(getActivity(),url,Toast.LENGTH_SHORT).show();
 
-            ((MainActivity)getActivity()).goWebview(url);
+                ((MainActivity) getActivity()).goWebview(url);
 //                FragmentManager fm = getFragmentManager();
 //                WebviewFragment w_frag = (WebviewFragment)fm.findFragmentById(R.id.webView_frag);
 //                w_frag.goPage(url);

@@ -395,16 +395,8 @@ public class TextViewFragment extends Fragment {
 
     private void readTxt() {
 
-        File dir = Environment.getExternalStorageDirectory().getAbsoluteFile();
-        //File yourFile = new File(dir, "path/to/the/file/inside/the/sdcard.ext");
 
-        //Get the text file
-        //Intent intent = getIntent();
-
-
-        //  String bookName = getArguments().getString("bookname");
-        //Toast.makeText(this, textName, Toast.LENGTH_SHORT).show();
-        File file = new File(dir, bookName);
+        File file = new File(Environment.getExternalStorageDirectory().getAbsoluteFile() + "/Blinkling" , bookName);
         // i have kept text.txt in the sd-card
 
         if (file.exists())   // check if file exist

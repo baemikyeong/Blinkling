@@ -15,9 +15,10 @@ int anim design_fab_out 0x7f05000d
 int anim design_snackbar_in 0x7f05000e
 int anim design_snackbar_out 0x7f05000f
 int animator design_appbar_state_list_animator 0x7f060000
-int array cast_expanded_controller_default_control_buttons 0x7f0e0000
-int array cast_mini_controller_default_control_buttons 0x7f0e0001
-int array city 0x7f0e0002
+int array audio 0x7f0e0000
+int array book 0x7f0e0001
+int array cast_expanded_controller_default_control_buttons 0x7f0e0002
+int array cast_mini_controller_default_control_buttons 0x7f0e0003
 int attr MediaRouteControllerWindowBackground 0x7f010000
 int attr actionBarDivider 0x7f01008b
 int attr actionBarItemBackground 0x7f01008c
@@ -1658,8 +1659,8 @@ int id snackbar_action 0x7f0f00f4
 int id snackbar_text 0x7f0f00f3
 int id snap 0x7f0f0033
 int id spacer 0x7f0f009e
-int id spinner1 0x7f0f0103
-int id spinner2 0x7f0f0127
+int id spinner1 0x7f0f0128
+int id spinner2 0x7f0f0103
 int id spinner3 0x7f0f00fe
 int id split_action_bar 0x7f0f0016
 int id spread 0x7f0f001e
@@ -1717,7 +1718,7 @@ int id url 0x7f0f006d
 int id useLogo 0x7f0f002e
 int id vertical_divider 0x7f0f013d
 int id view 0x7f0f0102
-int id view2 0x7f0f0128
+int id view2 0x7f0f0127
 int id view3 0x7f0f00ff
 int id view_offset_helper 0x7f0f001c
 int id viewpager 0x7f0f0106

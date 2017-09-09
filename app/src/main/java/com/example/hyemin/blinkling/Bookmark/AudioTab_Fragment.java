@@ -36,6 +36,7 @@ public class AudioTab_Fragment extends Fragment {
     int selectedPos = -1;
     ArrayList<InfoClass_audio> insertResult;
     ArrayList<InfoClass_audio> selectResult;
+    Spinner s;
 
     public AudioTab_Fragment() {
         // Required empty public constructor
@@ -49,8 +50,38 @@ public class AudioTab_Fragment extends Fragment {
 
         View view = inflater.inflate(R.layout.fragment_audio_tab_, container, false);
 
-        Spinner s = (Spinner) view.findViewById(R.id.spinner1);
+        s = (Spinner) view.findViewById(R.id.spinner3);//스피너 설정
 
+        s.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
+            @Override
+            public void onItemSelected(AdapterView<?> adapterView, View view, int position, long l) {
+                switch (position) {
+                    case 0: {
+                        mCursor = mFacade.getAll();
+                        mAdapter.swapCursor(mCursor);
+                        mListView.setAdapter(mAdapter);
+                        break;
+                    }
+                    case 1: {
+                        mCursor = mFacade.order_desc();
+                        mAdapter.swapCursor(mCursor);
+                        mListView.setAdapter(mAdapter);
+                        break;
+                    }
+                    case 2: {
+                        mCursor = mFacade.order_alp_asc();
+                        mAdapter.swapCursor(mCursor);
+                        mListView.setAdapter(mAdapter);
+                        break;
+                    }
+                }
+            }
+
+            @Override
+            public void onNothingSelected(AdapterView<?> adapterView) {
+
+            }
+        });
         //데이터베이스 생성 및 오픈
         mFacade = new ExamDbFacade_audio(getActivity());
         mAdapter = new CustomAdapter_audio(getActivity(), mFacade.getCursor(), false);

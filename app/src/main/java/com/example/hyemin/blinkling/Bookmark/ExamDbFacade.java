@@ -188,10 +188,28 @@ public class ExamDbFacade {
 
     public Cursor getAll() {
         SQLiteDatabase db = mHelper.getReadableDatabase();
-        Cursor c = db.rawQuery("SELECT _ID, title, document, updated_at FROM " + ExamDbContract.ExamDbEntry.TABLE_NAME, null);
+        Cursor c = db.rawQuery("SELECT _ID, title, document, updated_at FROM " + ExamDbContract.ExamDbEntry.TABLE_NAME+" order by _ID asc", null);
         return c;
     }
 
+    public Cursor order_desc() {//최신순
+        SQLiteDatabase db = mHelper.getReadableDatabase();
+        Cursor c = db.rawQuery("SELECT _ID, title, document, updated_at FROM " + ExamDbContract.ExamDbEntry.TABLE_NAME +" order by _ID desc", null);
+        return c;
+
+    }
+    public Cursor order_alp_asc() {//알파벳순
+        SQLiteDatabase db = mHelper.getReadableDatabase();
+        Cursor c = db.rawQuery("SELECT _ID, title, document, updated_at FROM " + ExamDbContract.ExamDbEntry.TABLE_NAME +" order by title asc", null);
+        return c;
+
+    }
+    public Cursor order_doc_asc() {//문서별
+        SQLiteDatabase db = mHelper.getReadableDatabase();
+        Cursor c = db.rawQuery("SELECT _ID, title, document, updated_at FROM " + ExamDbContract.ExamDbEntry.TABLE_NAME +" order by document asc", null);
+        return c;
+
+    }
     /**
      * CursorAdapter 에 데이터를 제공하기 위한 메소드 입니다.
      * db 에 존재하는 모든 데이터를 리턴합니다.

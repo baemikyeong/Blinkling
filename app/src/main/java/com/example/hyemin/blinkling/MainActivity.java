@@ -74,8 +74,9 @@ public class MainActivity extends ActionBarActivity {
     CustomAdapter_book mAdapter;
     CustomAdapter_web mAdapter_web;
     String url;
-    BookTab_Fragment bf;
     Fragment current_fragment;
+
+    private boolean init = true;
 
     private boolean isRecording = false;
     private static final int REQUEST_RECORD_AUDIO_PERMISSION = 200;
@@ -89,7 +90,7 @@ public class MainActivity extends ActionBarActivity {
     private Toolbar toolbar;
     public static boolean light;//초기상태는 불이 꺼진 상태
     public static FrameLayout aframe;
-
+    public String web_bookmark_url;
     public String mBookName_main = "";
 
     @Override
@@ -409,10 +410,11 @@ public class MainActivity extends ActionBarActivity {
     public void goWebview(String url) {
         fragment2 = new WebviewFragment();
 
+        web_bookmark_url = url;
+
         final FragmentTransaction transaction = fragmentManager.beginTransaction();
         transaction.replace(R.id.main_container, fragment2, "web_frag").commit();
 
-        webview_fragment = (WebviewFragment) getSupportFragmentManager().findFragmentByTag("web_frag");
         if (webview_fragment != null && webview_fragment.isAdded()) {
             webview_fragment.goPage(url);
         }
