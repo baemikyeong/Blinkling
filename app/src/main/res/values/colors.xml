@@ -3,7 +3,7 @@
 
         <!--Main-->
         <color name="colorPrimary">#a08989</color><!---->
-        <color name="colorPrimaryDark">#736262</color><!---->
+        <color name="colorPrimaryDark">#7b6b6b</color><!---->
 
         <!--Selection-->
         <color name="colorGrey">#efefef</color><!---->

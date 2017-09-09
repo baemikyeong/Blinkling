@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Sat Sep 09 15:42:35 KST 2017
+#Sat Sep 09 15:55:48 KST 2017
 20.base=/Users/mac/Blinkling/app/build/intermediates/res/resources-debug.ap_
 143.base=/Users/mac/Blinkling/app/build/intermediates/res/resources-debug.ap_
 493.base=/Users/mac/Blinkling/app/build/intermediates/res/resources-debug.ap_
