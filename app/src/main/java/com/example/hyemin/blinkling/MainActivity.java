@@ -5,7 +5,6 @@ import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.content.res.Configuration;
-import android.database.SQLException;
 import android.net.Uri;
 import android.os.Build;
 import android.os.Bundle;
@@ -22,10 +21,14 @@ import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.EditText;
+import android.widget.FrameLayout;
+import android.widget.RelativeLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
 import com.example.hyemin.blinkling.BookShelf.BookshelfFragment;
+import com.example.hyemin.blinkling.Book_Viewer.InnerStorageFragment;
+import com.example.hyemin.blinkling.Book_Viewer.TextViewFragment;
 import com.example.hyemin.blinkling.Bookmark.BookTab_Fragment;
 import com.example.hyemin.blinkling.Bookmark.BookmarkFragment;
 import com.example.hyemin.blinkling.Bookmark.CustomAdapter;
@@ -33,21 +36,13 @@ import com.example.hyemin.blinkling.Bookmark.DateFormatter;
 import com.example.hyemin.blinkling.Bookmark.DbOpenHelper;
 import com.example.hyemin.blinkling.Bookmark.ExamDbFacade;
 import com.example.hyemin.blinkling.Bookmark.InfoClass;
-import android.widget.FrameLayout;
-import android.widget.RelativeLayout;
-import android.widget.Toast;
-
-import com.example.hyemin.blinkling.BookShelf.BookshelfFragment;
-import com.example.hyemin.blinkling.Book_Viewer.InnerStorageFragment;
-import com.example.hyemin.blinkling.Book_Viewer.TextViewFragment;
-import com.example.hyemin.blinkling.Bookmark.BookmarkFragment;
 import com.example.hyemin.blinkling.Service.AudioService;
 import com.example.hyemin.blinkling.Service.ScreenFilterService;
 import com.example.hyemin.blinkling.Setting.SettingFragment;
 import com.example.hyemin.blinkling.Webview.WebviewFragment;
 
-import java.util.ArrayList;
 import java.io.File;
+import java.util.ArrayList;
 
 import static android.Manifest.permission.READ_EXTERNAL_STORAGE;
 import static android.Manifest.permission.RECORD_AUDIO;
@@ -71,7 +66,7 @@ public class MainActivity extends ActionBarActivity {
 
     private boolean isRecording = false;
     private static final int REQUEST_RECORD_AUDIO_PERMISSION = 200;
-    String InStoragePath = Environment.getExternalStorageDirectory().getAbsolutePath() +"/Blinkling";
+    String InStoragePath = Environment.getExternalStorageDirectory().getAbsolutePath() + "/Blinkling";
 
     public static BottomNavigationView bottomNavigation;
     private Fragment fragment;
@@ -86,8 +81,8 @@ public class MainActivity extends ActionBarActivity {
     @Override
     public void onConfigurationChanged(Configuration newConfig) {
 
-    //    FrameLayout fl = (FrameLayout) findViewById(R.id.main_container);
-    //    fl.removeAllViews();
+        //    FrameLayout fl = (FrameLayout) findViewById(R.id.main_container);
+        //    fl.removeAllViews();
 //        FragmentManager manager = getSupportFragmentManager();
 //        FragmentTransaction ft = manager.beginTransaction();
 //        ft.hide(current_fragment);
@@ -116,9 +111,11 @@ public class MainActivity extends ActionBarActivity {
         light = false;
         fragmentManager = getSupportFragmentManager();
         fragment = new BookshelfFragment();
-        transaction = fragmentManager.beginTransaction();
-        transaction.replace(R.id.main_container, fragment).commit();
         current_fragment = fragment;
+        final FragmentTransaction transaction = fragmentManager.beginTransaction();
+        transaction.add(R.id.main_container, fragment,"fragBookshelf").commit();
+
+        //current_fragment = fragment; 
         getSupportActionBar().setTitle("블링클링");
         bottomNavigation = (BottomNavigationView) findViewById(R.id.bottom_navigation);
         bottomNavigation.setOnNavigationItemSelectedListener(
@@ -146,7 +143,7 @@ public class MainActivity extends ActionBarActivity {
 
                         }
                         replaceFragment(fragment);
-                         return true;
+                        return true;
                     }
                 });
 
@@ -158,8 +155,8 @@ public class MainActivity extends ActionBarActivity {
         FragmentManager manager = getSupportFragmentManager();
         boolean fragmentPopped = fragmentManager.popBackStackImmediate(backStateName, 0);
 
-      //  FrameLayout fl = (FrameLayout) findViewById(R.id.main_container);
-      //  fl.removeAllViews();
+        //  FrameLayout fl = (FrameLayout) findViewById(R.id.main_container);
+        //  fl.removeAllViews();
 
         RelativeLayout l = (RelativeLayout) findViewById(R.id.activity_main);
 
@@ -192,8 +189,8 @@ public class MainActivity extends ActionBarActivity {
             case android.R.id.home: {
                 //FragmentManager fm = getSupportFragmentManager();
 
-              //  FrameLayout fl = (FrameLayout) findViewById(R.id.main_container);
-              //  fl.removeAllViews();
+                //  FrameLayout fl = (FrameLayout) findViewById(R.id.main_container);
+                //  fl.removeAllViews();
 
                 transaction.hide(current_fragment);
 
@@ -292,9 +289,9 @@ public class MainActivity extends ActionBarActivity {
 //        FrameLayout fl = (FrameLayout) findViewById(R.id.main_container);
 //        fl.removeAllViews();
 
-     //   final FragmentTransaction transaction = fragmentManager.beginTransaction();
+        //   final FragmentTransaction transaction = fragmentManager.beginTransaction();
         replaceFragment(frag);
-       // transaction.replace(R.id.main_container, frag).commit();
+        // transaction.replace(R.id.main_container, frag).commit();
 
         book_title = valueBookName;
 
@@ -379,14 +376,13 @@ public class MainActivity extends ActionBarActivity {
         }
     }
 
-    private File makeDirectory(String dir_path){
+    private File makeDirectory(String dir_path) {
         File dir = new File(dir_path);
-        if (!dir.exists())
-        {
+        if (!dir.exists()) {
             dir.mkdirs();
-            Log.i( TAG , "!dir.exists" );
-        }else{
-            Log.i( TAG , "dir.exists" );
+            Log.i(TAG, "!dir.exists");
+        } else {
+            Log.i(TAG, "dir.exists");
         }
 
         return dir;
@@ -410,7 +406,7 @@ public class MainActivity extends ActionBarActivity {
 
         bookmark_pos = txt_fragment.book_mark_add(txt); //북마크로 저장 할 좌표를 bookmark_pos에 저장함
 
-      //  bf = (BookTab_Fragment)getSupportFragmentManager().findFragmentByTag("BK");
+        //  bf = (BookTab_Fragment)getSupportFragmentManager().findFragmentByTag("BK");
 
         final EditText editText = new EditText(this);
         AlertDialog.Builder dialog = new AlertDialog.Builder(MainActivity.this);
@@ -430,22 +426,22 @@ public class MainActivity extends ActionBarActivity {
                                     db_helper.open();
                                 }*/
 
-                              BookTab_Fragment bookTab_fragment = new BookTab_Fragment();
+                                BookTab_Fragment bookTab_fragment = new BookTab_Fragment();
                                 Bundle bundle = new Bundle();
                                 bundle.putString("title", title);
                                 bundle.putString("document", document);
                                 bundle.putString("time_date", time_date);
-                                bundle.putString("position",Integer.toString(position));
+                                bundle.putString("position", Integer.toString(position));
                                 bookTab_fragment.setArguments(bundle);
 
-                                insertResult = mFacade.insert(title,document,time_date,time_date,Integer.toString(position));
+                                insertResult = mFacade.insert(title, document, time_date, time_date, Integer.toString(position));
                                 mAdapter.changeCursor(mFacade.getCursor());
 
                                 //입력된 데이터를 insertColumn을 통해 add
-                              //  db_helper.insertColumn(title,document,time_date,time_date,Integer.toString(position));
+                                //  db_helper.insertColumn(title,document,time_date,time_date,Integer.toString(position));
 
 
-                             //   bf.getInsertValue();
+                                //   bf.getInsertValue();
                             }
                         }).setNeutralButton("취소", new DialogInterface.OnClickListener() {
             @Override
@@ -457,7 +453,7 @@ public class MainActivity extends ActionBarActivity {
 
     }
 
-    public void sendBookname(String mBookName){
+    public void sendBookname(String mBookName) {
 //        BookshelfFragment tf = (BookshelfFragment) getSupportFragmentManager().findFragmentById(R.id.main_container);
 //        tf.setBookshelf(mBookName);
 

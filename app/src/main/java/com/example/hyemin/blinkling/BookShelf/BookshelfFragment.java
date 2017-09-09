@@ -18,7 +18,7 @@ import android.widget.GridView;
 import android.widget.Toast;
 
 import com.example.hyemin.blinkling.MainActivity;
-import com.example.hyemin.blinkling.R;
+import com.example.hyemin.blinkling.*;
 
 import java.io.File;
 import java.util.ArrayList;
@@ -92,7 +92,6 @@ public class BookshelfFragment extends Fragment {
                 ( (MainActivity)getActivity()).changeToText(strItem);
                 //String strPath = getAbsolutePath(strItem);// 선택된 폴더의 전체 경로를 구한다
                 //String[] fileList = getFileList(strPath);//선택된 폴더에 존재하는 파일 목록을 구한다
-                // ShowFileList(fileList); //파일 목록을 ListView 에 표시
             }
         });
 //  String strItem = gridadapter.getGridViewItemList().get(position);
@@ -108,7 +107,8 @@ public class BookshelfFragment extends Fragment {
 //        mFileGridView.setAdapter(gridadapter);
         gridadapter.addItem(ContextCompat.getDrawable(getActivity(), R.drawable.book1)
                 ,  mBookName_main) ;
-        gridadapter.notifyDataSetChanged();
+
+       gridadapter.notifyDataSetChanged();
         mBookName = mBookName_main;
 
     }

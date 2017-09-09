@@ -26,7 +26,7 @@ public class GridViewAdapter extends BaseAdapter {
 
     }
 
-    //    public void setArrayList(ArrayList<GridViewItem> arrays) {
+
 //        gridViewItemList = arrays;
 //    }
     public ArrayList<GridViewItem> getGridViewItemList(){
