@@ -34,9 +34,12 @@ public class BookshelfFragment extends Fragment {
     String mBookName = "";
     String strPathComp = "";
     String InStoragePath = Environment.getExternalStorageDirectory().getAbsolutePath() +"/Blinkling";
+//    boolean init = true;
 
     public BookshelfFragment() {
         // Required empty public constructor
+
+
     }
 
 
@@ -46,28 +49,22 @@ public class BookshelfFragment extends Fragment {
         // Inflate the layout for this fragment
         View rootView = inflater.inflate(R.layout.fragment_bookshelf, container, false);
         mFileGridView = (GridView) rootView.findViewById(android.R.id.list);
-
         mFileGridView.setAdapter(gridadapter);
 
-//        gridadapter.addItem(ContextCompat.getDrawable(getActivity(), R.drawable.book1)
-//                , "book1") ;
-//
-//        gridadapter.addItem(ContextCompat.getDrawable(getActivity(), R.drawable.book2)
-//                ,"book2") ;
-//
-//        gridadapter.addItem(ContextCompat.getDrawable(getActivity(), R.drawable.book3)
-//                ,"book3") ;
-//
-//        gridadapter.addItem(ContextCompat.getDrawable(getActivity(), R.drawable.book4)
-//               ,"book4") ;
+
+//        if(init == true) {
+            String[] Blinklist = getBlinklingList();
+            showToBookShelf(Blinklist);
+//            init = false;
+//        }
 
 
 
-        Activity root = getActivity();
-        Toast toast;
+//        Activity root = getActivity();
+//        Toast toast;
 
 
-        mRoot = InStoragePath;
+      //  mRoot = InStoragePath;
         //  ( (MainActivity)getActivity()).changeToBookshelf();
         //    findFolder();
 //없어도 될것같애!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
@@ -171,6 +168,55 @@ public class BookshelfFragment extends Fragment {
         return strPathComp;//       /선택된 폴더 이름 리턴
     }
 
+
+
+
+
+    public String[] getBlinklingList(){
+        Activity root = getActivity();
+        File fileRoot = new File(InStoragePath);
+        if(fileRoot.isDirectory() == false){
+            //파일이라면!!즉 처음 블링클링 안에 아무것도 없는 초기상태
+///////////////////////////////////////////////////////////여기토스트수정///////////////////////////////////////////////////////////////////////////////////////
+            Toast toast = Toast.makeText(root, "블링클링 폴더에 아무것도 없음", Toast.LENGTH_SHORT);
+            toast.show();
+            return null;
+        }
+    else{
+            String[] stringFileList = fileRoot.list();
+            return stringFileList;
+        }
+    }
+
+
+
+
+//
+//    public void setBookshelf(String mBookName_main){
+////        gridadapter = new GridViewAdapter();
+////        mFileGridView.setAdapter(gridadapter);
+//        gridadapter.addItem(ContextCompat.getDrawable(getActivity(), R.drawable.book1)
+//                ,  mBookName_main) ;
+//
+//        gridadapter.notifyDataSetChanged();
+//        mBookName = mBookName_main;
+//
+//    }
+
+
+
+    public void showToBookShelf(String []stringFileList){
+
+        if(gridadapter.isEmpty() == true) {
+            for (int i = 0; i < stringFileList.length; i++) {
+                gridadapter.addItem(ContextCompat.getDrawable(getActivity(), R.drawable.book1)
+                        , stringFileList[i]);
+            }
+            gridadapter.notifyDataSetChanged();
+        }
+
+
+    }
 
     public String[] getFileList(String strPath) {
         // 폴더 경로를 지정해서 File 객체 생성
@@ -277,6 +323,13 @@ public class BookshelfFragment extends Fragment {
             MainActivity.bottomNavigation.getMenu().findItem(R.id.navigation_home).setChecked(true);
 
     }
+
+//    @Override
+//    public void onDestroy(){
+//        super.onDestroy();
+//
+//
+//    }
 
     public void onPrepareOptionsMenu(Menu menu) {
         menu.findItem(R.id.bookmark_btn).setVisible(false);

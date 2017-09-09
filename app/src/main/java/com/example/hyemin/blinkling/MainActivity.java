@@ -64,6 +64,8 @@ public class MainActivity extends ActionBarActivity {
     BookTab_Fragment bf;
     Fragment current_fragment;
 
+    private boolean init = true;
+
     private boolean isRecording = false;
     private static final int REQUEST_RECORD_AUDIO_PERMISSION = 200;
     String InStoragePath = Environment.getExternalStorageDirectory().getAbsolutePath() + "/Blinkling";
@@ -114,6 +116,8 @@ public class MainActivity extends ActionBarActivity {
         current_fragment = fragment;
         final FragmentTransaction transaction = fragmentManager.beginTransaction();
         transaction.add(R.id.main_container, fragment,"fragBookshelf").commit();
+
+
 
         //current_fragment = fragment; 
         getSupportActionBar().setTitle("블링클링");
