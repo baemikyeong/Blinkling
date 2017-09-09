@@ -229,19 +229,6 @@ public class InnerStorageFragment extends ListFragment {
     }
 
 
-//    FileInputStream fis = new FileInputStream(InStoragePath+ "/" + mBookName);
-//                FileOutputStream fos = new FileOutputStream("/sdcard/이동할폴더명/파일명");
-//
-//                int data = 0;
-//
-//                while((data=fis.read())!=-1)
-//                {
-//                    fos.write(data);
-//                }
-//
-//                fis.close();
-//                fos.close();
-
     public static void fileMove(String inFileName, String outFileName) {
         try {
             FileInputStream fis = new FileInputStream(inFileName);
@@ -255,7 +242,7 @@ public class InnerStorageFragment extends ListFragment {
             fos.close();
 
             //복사한뒤 원본파일을 삭제함
-            // fileDelete(inFileName);
+            fileDelete(inFileName);
 
         } catch (IOException e) {
             // TODO Auto-generated catch block
