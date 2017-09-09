@@ -17,6 +17,7 @@ import com.example.hyemin.blinkling.R;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Locale;
 
 /**
  * Created by seohyemin on 2017. 8. 29..
@@ -76,6 +77,10 @@ public class CustomAdapter extends CursorAdapter {
         return InfoArr;
     }
 
+    public void filter(String charText){
+        charText = charText.toLowerCase(Locale.getDefault());
+
+    }
 
     /**
      * ViewHolder Class 생성
