@@ -55,10 +55,10 @@
     </item>
 
     <item
-        android:id="@+id/bookmark_edit"
+        android:id="@+id/webmark_add"
         android:icon="@drawable/ic_content_cut_black_24dp"
         app:showAsAction="ifRoom"
-        android:title="북마크 편집">
+        android:title="웹마크 추가">
 
     </item>
 </menu>

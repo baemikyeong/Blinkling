@@ -11,6 +11,7 @@ import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.AdapterView;
 import android.widget.EditText;
 import android.widget.Spinner;
 
@@ -57,6 +58,13 @@ public class BookmarkFragment extends Fragment {
         tabs.setupWithViewPager(viewPager);
 
         Spinner s = (Spinner)view.findViewById(R.id.spinner1);
+
+    /*    s.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+            @Override
+            public void onItemClick(AdapterView<?> adapterView, View view, int position, long id) {
+
+            }
+        });*/
         /*s.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
             @Override
             public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
@@ -99,6 +107,7 @@ public class BookmarkFragment extends Fragment {
         Adapter adapter = new Adapter(getChildFragmentManager());
         adapter.addFragment(new BookTab_Fragment(), "BOOK");
         adapter.addFragment(new WebTab_Fragment(), "WEB");
+        adapter.addFragment(new AudioTab_Fragment(), "AUDIO");
         viewPager.setAdapter(adapter);
 
     }

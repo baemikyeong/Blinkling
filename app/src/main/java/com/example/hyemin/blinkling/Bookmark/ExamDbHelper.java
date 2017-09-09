@@ -4,6 +4,8 @@ import android.content.Context;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 
+import static android.provider.BaseColumns._ID;
+
 /**
  * Created by seohyemin on 2017. 9. 2..
  */
@@ -11,6 +13,13 @@ import android.database.sqlite.SQLiteOpenHelper;
 public class ExamDbHelper extends SQLiteOpenHelper{
     private static final String DATABASE_NAME = "ExamDb"; //DB이름
     private static final int DATABASE_VERSION = 1;//db 업데이트 할 때 사용함
+
+    // 정렬
+    public static final String ORDER_BY_DEFAULT = _ID + " asc";
+    public static final String ORDER_BY_DEFAULT_DESC = _ID + " desc";
+    public static final String ORDER_BY_NAME = ExamDbContract.ExamDbEntry.TITLE + " asc, " + _ID + " asc";
+    //public static final String ORDER_BY_DATE_DESC = CREATED_AT + " desc, " + _ID + " desc";
+    public static final String ORDER_BY_NAME_DESC = ExamDbContract.ExamDbEntry.TITLE + " desc, " + _ID + " desc";
 
     //생성자
     public static final String _createSql =

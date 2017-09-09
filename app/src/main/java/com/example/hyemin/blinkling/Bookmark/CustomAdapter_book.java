@@ -23,7 +23,7 @@ import java.util.Locale;
  * Created by seohyemin on 2017. 8. 29..
  */
 
-public class CustomAdapter extends CursorAdapter {
+public class CustomAdapter_book extends CursorAdapter {
     private LayoutInflater mInflater;
     ArrayList<InfoClass> InfoArr = new ArrayList<InfoClass>();
     /**
@@ -32,7 +32,7 @@ public class CustomAdapter extends CursorAdapter {
      * @param c : 데이터로 사용할 커서 객체
      * @param autoRequery : false
      */
-    public CustomAdapter(Context context, Cursor c, boolean autoRequery) {
+    public CustomAdapter_book(Context context, Cursor c, boolean autoRequery) {
         super(context,c,autoRequery);
 
         mInflater = LayoutInflater.from(context);

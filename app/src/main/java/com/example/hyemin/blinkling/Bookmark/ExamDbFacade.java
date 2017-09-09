@@ -17,7 +17,7 @@ public class ExamDbFacade {
     private Context mContext;
     private InfoClass mInfoClass;
 
-    public ExamDbFacade(Context context){
+    public ExamDbFacade(Context context) {
         mHelper = ExamDbHelper.getInstance(context);
         mContext = context;
     }
@@ -54,6 +54,7 @@ public class ExamDbFacade {
 
     /**
      * 테이블에 존재하는 모든 데이터들을 리턴합니다.
+     *
      * @return
      */
     public ArrayList<InfoClass> select() {
@@ -98,7 +99,7 @@ public class ExamDbFacade {
 
     /**
      * 테이블에 존재하는 data 컬럼의 모든 값들을 사용자가 입력한 값으로 업데이트 합니다.
-
+     *
      * @return
      */
     public ArrayList<InfoClass> update(String title, String document, String created_at, String updated_at, String position) {
@@ -151,7 +152,7 @@ public class ExamDbFacade {
         db.close();
     }
 
-    public void editTitle(int id, String newTitle){
+    public void editTitle(int id, String newTitle) {
         SQLiteDatabase db = mHelper.getWritableDatabase();
         ContentValues values = new ContentValues();
 
@@ -166,16 +167,37 @@ public class ExamDbFacade {
         db.update(ExamDbContract.ExamDbEntry.TABLE_NAME, values, ExamDbContract.ExamDbEntry.ID + " = ?", new String[]{String.valueOf(id)});
     }
 
-    public Cursor getAll(){
+    public Cursor getTitle(long id){
         SQLiteDatabase db = mHelper.getReadableDatabase();
-        Cursor c = db.rawQuery("SELECT _ID, title, document, updated_at FROM "+ExamDbContract.ExamDbEntry.TABLE_NAME, null);
+
+        String booktitle;
+        /**
+         * public Cursor query (String table, String[] columns, String selection, String[] selectionArgs, String groupBy, String having, String orderBy)
+         * table : 접근할 테이블명, columns : 가져올 데이터들의 컬럼명,
+         * selection : where 절의 key 들, selectionsArgs : where 절의 value 들
+         *
+         * Cursor 객체는 해당 쿼리의 결과가 담기는 객체입니다.
+         */
+        Cursor cursor = db.query(ExamDbContract.ExamDbEntry.TABLE_NAME,
+                new String[]{ExamDbContract.ExamDbEntry.TITLE},
+                ExamDbContract.ExamDbEntry.ID + " = ?", new String[]{String.valueOf(id)}, null, null, null);
+
+        booktitle = cursor.getString(cursor.getColumnIndex(ExamDbContract.ExamDbEntry.TITLE));
+        return cursor;
+    }
+
+    public Cursor getAll() {
+        SQLiteDatabase db = mHelper.getReadableDatabase();
+        Cursor c = db.rawQuery("SELECT _ID, title, document, updated_at FROM " + ExamDbContract.ExamDbEntry.TABLE_NAME, null);
         return c;
     }
+
     /**
      * CursorAdapter 에 데이터를 제공하기 위한 메소드 입니다.
      * db 에 존재하는 모든 데이터를 리턴합니다.
-     *
+     * <p>
      * CursorAdapter 에 들어가는 cursor 객체는 반드시 _ID 컬럼을 포함해야 합니다.
+     *
      * @return
      */
     public Cursor getCursor() {

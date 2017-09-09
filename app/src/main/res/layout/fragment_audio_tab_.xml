@@ -1,13 +1,48 @@
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/frg_webtab"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.hyemin.blinkling.Bookmark.AudioTab_Fragment">
+    android:paddingBottom="10dip"
+    android:paddingLeft="10dip"
+    android:paddingRight="10dip"
+    android:paddingTop="10dip"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior">
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
+    <EditText
+        android:id="@+id/search_audio"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_toStartOf="@+id/spinner3" />
+
+    <Spinner
+        android:id="@+id/spinner3"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:entries="@array/city"
+        android:gravity="right"
+        android:padding="5dip" />
+
+    <View
+        android:id="@+id/view3"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+        android:layout_height="2dp"
+        android:layout_below="@+id/spinner3"
+        android:layout_centerHorizontal="true"
+        android:background="#cfcbcb" />
 
-</FrameLayout>
+
+    <ListView
+        android:id="@android:id/list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/spinner3"
+        android:descendantFocusability="blocksDescendants"
+        android:fastScrollEnabled="true"
+        android:focusable="false" />
+
+</RelativeLayout>

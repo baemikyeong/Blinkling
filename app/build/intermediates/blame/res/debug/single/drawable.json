@@ -20,12 +20,12 @@
         "source": "/Users/seohyemin/.android/build-cache/c7bc4f7edfba7ff92a9519a276f8d2da7169785b/output/res/drawable/abc_btn_colored_material.xml"
     },
     {
-        "merged": "/Users/seohyemin/Blinkling-master/app/build/intermediates/res/merged/debug/drawable/book4.png",
-        "source": "/Users/seohyemin/Blinkling-master/app/src/main/res/drawable/book4.png"
-    },
-    {
         "merged": "/Users/seohyemin/Blinkling-master/app/build/intermediates/res/merged/debug/drawable/cast_ic_expanded_controller_mute.xml",
         "source": "/Users/seohyemin/.android/build-cache/86e41c47417d80a7dd799f3286469399e5a52229/output/res/drawable/cast_ic_expanded_controller_mute.xml"
+    },
+    {
+        "merged": "/Users/seohyemin/Blinkling-master/app/build/intermediates/res/merged/debug/drawable/book4.png",
+        "source": "/Users/seohyemin/Blinkling-master/app/src/main/res/drawable/book4.png"
     },
     {
         "merged": "/Users/seohyemin/Blinkling-master/app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_icon_light_normal.xml",
@@ -76,12 +76,12 @@
         "source": "/Users/seohyemin/Blinkling-master/app/src/main/res/drawable/book3.png"
     },
     {
-        "merged": "/Users/seohyemin/Blinkling-master/app/build/intermediates/res/merged/debug/drawable/abc_seekbar_tick_mark_material.xml",
-        "source": "/Users/seohyemin/.android/build-cache/c7bc4f7edfba7ff92a9519a276f8d2da7169785b/output/res/drawable/abc_seekbar_tick_mark_material.xml"
-    },
-    {
         "merged": "/Users/seohyemin/Blinkling-master/app/build/intermediates/res/merged/debug/drawable/abc_edit_text_material.xml",
         "source": "/Users/seohyemin/.android/build-cache/c7bc4f7edfba7ff92a9519a276f8d2da7169785b/output/res/drawable/abc_edit_text_material.xml"
+    },
+    {
+        "merged": "/Users/seohyemin/Blinkling-master/app/build/intermediates/res/merged/debug/drawable/abc_seekbar_tick_mark_material.xml",
+        "source": "/Users/seohyemin/.android/build-cache/c7bc4f7edfba7ff92a9519a276f8d2da7169785b/output/res/drawable/abc_seekbar_tick_mark_material.xml"
     },
     {
         "merged": "/Users/seohyemin/Blinkling-master/app/build/intermediates/res/merged/debug/drawable/abc_btn_check_material.xml",
@@ -92,12 +92,12 @@
         "source": "/Users/seohyemin/.android/build-cache/86e41c47417d80a7dd799f3286469399e5a52229/output/res/drawable/cast_ic_mini_controller_pause_large.xml"
     },
     {
-        "merged": "/Users/seohyemin/Blinkling-master/app/build/intermediates/res/merged/debug/drawable/plus.png",
-        "source": "/Users/seohyemin/Blinkling-master/app/src/main/res/drawable/plus.png"
-    },
-    {
         "merged": "/Users/seohyemin/Blinkling-master/app/build/intermediates/res/merged/debug/drawable/cast_ic_expanded_controller_closed_caption.xml",
         "source": "/Users/seohyemin/.android/build-cache/86e41c47417d80a7dd799f3286469399e5a52229/output/res/drawable/cast_ic_expanded_controller_closed_caption.xml"
+    },
+    {
+        "merged": "/Users/seohyemin/Blinkling-master/app/build/intermediates/res/merged/debug/drawable/plus.png",
+        "source": "/Users/seohyemin/Blinkling-master/app/src/main/res/drawable/plus.png"
     },
     {
         "merged": "/Users/seohyemin/Blinkling-master/app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_text_dark_normal.xml",

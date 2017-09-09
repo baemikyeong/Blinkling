@@ -24,4 +24,5 @@ public class ExamDbContract {
 
         public static final String[] columns = {_ID,TITLE,DOCUMENT,UPDATED_AT,CREATED_AT,POS};
     }
+
 }
