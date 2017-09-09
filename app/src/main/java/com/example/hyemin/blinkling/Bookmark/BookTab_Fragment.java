@@ -13,9 +13,11 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.AdapterView;
+import android.widget.ArrayAdapter;
 import android.widget.EditText;
 import android.widget.ListView;
 import android.widget.Spinner;
+import android.widget.Toast;
 
 import com.example.hyemin.blinkling.MainActivity;
 import com.example.hyemin.blinkling.R;
@@ -37,6 +39,7 @@ public class BookTab_Fragment extends ListFragment {
     int selectedPos = -1;
     ArrayList<InfoClass> insertResult;
     ArrayList<InfoClass> selectResult;
+    Spinner s;
 
     public BookTab_Fragment() {
         // Required empty public constructor
@@ -47,7 +50,6 @@ public class BookTab_Fragment extends ListFragment {
         View view = inflater.inflate(R.layout.fragment_book_tab, container, false);
 
 
-        Spinner s = (Spinner) view.findViewById(R.id.spinner1);
         //데이터베이스 생성 및 오픈
         mFacade = new ExamDbFacade(getActivity());
         mAdapter = new CustomAdapter_book(getActivity(), mFacade.getCursor(), false);
@@ -55,6 +57,30 @@ public class BookTab_Fragment extends ListFragment {
         mListView = (ListView) view.findViewById(android.R.id.list);
 
         mListView.setAdapter(mAdapter);
+
+
+        s = (Spinner) view.findViewById(R.id.spinner1);//스피너 설정
+
+        s.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
+            @Override
+            public void onItemSelected(AdapterView<?> adapterView, View view, int position, long l) {
+                switch (position){
+                   /* case 0:
+                        Toast.makeText(getActivity(),"최신순",Toast.LENGTH_SHORT).show();
+                        break;*/
+                    case 1:
+                        Toast.makeText(getActivity(),"이름별",Toast.LENGTH_SHORT).show();
+                        break;
+                    case 2:
+                        Toast.makeText(getActivity(),"문서별",Toast.LENGTH_SHORT).show();
+                        break;
+                }
+            }
+            @Override
+            public void onNothingSelected(AdapterView<?> adapterView) {
+                Toast.makeText(getActivity(),"최신순",Toast.LENGTH_SHORT).show();
+            }
+        });
 
         editSearch = (EditText) view.findViewById(R.id.search);//검색창 설정
         editSearch.addTextChangedListener(new TextWatcher() {
@@ -153,6 +179,13 @@ public class BookTab_Fragment extends ListFragment {
 
         return view;
 
+    }
+
+    public void onItemSelected(AdapterView<?> parent, View view,
+                               int pos, long id) {
+
+        // An item was selected. You can retrieve the selected item using
+        // parent.getItemAtPosition(pos)
     }
 
     public void onActivityCreated(Bundle savedInstanceState) {

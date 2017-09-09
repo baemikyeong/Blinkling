@@ -185,7 +185,7 @@ public class ExamDbFacade_web {
 
     public Cursor getAll() {
         SQLiteDatabase db = mHelper.getReadableDatabase();
-        Cursor c = db.rawQuery("SELECT _ID, title, document, updated_at FROM " + ExamDbContract_web.ExamDbEntry.TABLE_NAME, null);
+        Cursor c = db.rawQuery("SELECT _ID, title, updated_at FROM " + ExamDbContract_web.ExamDbEntry.TABLE_NAME, null);
         return c;
     }
 
