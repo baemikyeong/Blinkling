@@ -34,7 +34,7 @@ public class BookshelfFragment extends Fragment {
     String mBookName = "";
     String strPathComp = "";
     String InStoragePath = Environment.getExternalStorageDirectory().getAbsolutePath() +"/Blinkling";
-//    boolean init = true;
+    boolean init = true;
 
     public BookshelfFragment() {
         // Required empty public constructor
@@ -52,11 +52,11 @@ public class BookshelfFragment extends Fragment {
         mFileGridView.setAdapter(gridadapter);
 
 
-//        if(init == true) {
+        if(init == true) {
             String[] Blinklist = getBlinklingList();
             showToBookShelf(Blinklist);
-//            init = false;
-//        }
+            init = false;
+        }
 
 
 
