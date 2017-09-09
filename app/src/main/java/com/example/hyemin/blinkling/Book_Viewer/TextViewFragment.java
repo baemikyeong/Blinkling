@@ -617,8 +617,14 @@ public class TextViewFragment extends Fragment {
 
         // now that we've got a detector, create a processor pipeline to receive the detection
         // results
+        face_tracker = new FaceTracker();
 
-        mFaceDetector.setProcessor(new LargestFaceFocusingProcessor(mFaceDetector, face_tracker = new FaceTracker()));
+        float right_eye = intPref.getFloat("LValue", 0.7f);
+        float left_eye = intPref.getFloat("RValue", 0.7f);
+        long blink_time = intPref.getLong("time_blink", 500);
+        face_tracker.set_indi(left_eye, right_eye, blink_time);
+
+        mFaceDetector.setProcessor(new LargestFaceFocusingProcessor(mFaceDetector, face_tracker));
 
         // operational...?
         if (!mFaceDetector.isOperational()) {

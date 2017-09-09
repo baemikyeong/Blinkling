@@ -42,7 +42,6 @@ public class FaceTracker extends Tracker<Face> {
     private double left_thres;
     private double right_thres;
     private boolean initial_check = false;
-    private Face mface;
     private long user_time;
 
     public void set_indi(double left, double right, long time){
@@ -55,24 +54,24 @@ public class FaceTracker extends Tracker<Face> {
     @Override
     public void onUpdate(Detector.Detections<Face> detections, Face face) {
 
-        if(initial_check == false) {
-            if (leftClosed && face.getIsLeftEyeOpenProbability() > PROB_THRESHOLD) {
-                leftClosed = false;
-            } else if (!leftClosed && face.getIsLeftEyeOpenProbability() < PROB_THRESHOLD) {
-                leftClosed = true;
-            }
-            if (rightClosed && face.getIsRightEyeOpenProbability() > PROB_THRESHOLD) {
-                rightClosed = false;
-            } else if (!rightClosed && face.getIsRightEyeOpenProbability() < PROB_THRESHOLD) {
-                rightClosed = true;
-            }
-        }
-        else {
+//        if(initial_check == false) {
+//            if (leftClosed && face.getIsLeftEyeOpenProbability() > PROB_THRESHOLD) {
+//                leftClosed = false;
+//            } else if (!leftClosed && face.getIsLeftEyeOpenProbability() < PROB_THRESHOLD) {
+//                leftClosed = true;
+//            }
+//            if (rightClosed && face.getIsRightEyeOpenProbability() > PROB_THRESHOLD) {
+//                rightClosed = false;
+//            } else if (!rightClosed && face.getIsRightEyeOpenProbability() < PROB_THRESHOLD) {
+//                rightClosed = true;
+//            }
+//        }
+//        else {
             if (leftClosed && face.getIsLeftEyeOpenProbability() > left_thres) {
                 leftClosed = false;
             } else if (!leftClosed && face.getIsLeftEyeOpenProbability() < left_thres) {
                 try {
-                    Thread.sleep(500);
+                    Thread.sleep(user_time);
                 } catch (InterruptedException e) {
                     e.printStackTrace();
                 }
@@ -84,14 +83,14 @@ public class FaceTracker extends Tracker<Face> {
                 rightClosed = false;
             } else if (!rightClosed && face.getIsRightEyeOpenProbability() < right_thres) {
                 try {
-                    Thread.sleep(500);
+                    Thread.sleep(user_time);
                 } catch (InterruptedException e) {
                     e.printStackTrace();
                 }
                 if(!rightClosed && face.getIsRightEyeOpenProbability() < right_thres)
                 rightClosed = true;
                 else rightClosed = false;
-            }
+//            }
         }
 
         //오른쪽, 왼쪽 눈 감음 구분

@@ -59,6 +59,7 @@ public class WebviewFragment extends Fragment {
     private int[] location = new int[2];
     EditText url_String;
     View main_view;
+    String checkURL = null;
 
     public WebviewFragment() {
     }
@@ -108,7 +109,13 @@ public class WebviewFragment extends Fragment {
             super.onPageFinished(view, url);
         }
         });
-        webView.loadUrl("http://www.naver.com");
+        if(checkURL == null){
+            webView.loadUrl("http://www.naver.com");
+        }
+        else{
+            webView.loadUrl(checkURL);
+        }
+
 
         button.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
@@ -169,7 +176,10 @@ public class WebviewFragment extends Fragment {
     }
 
     public void goPage(String url){
-        webView.loadUrl(url);
+        checkURL = url;
+     //  webView.setWebViewClient(new WebViewClient());
+        //webView.loadUrl(url);
+
         Toast.makeText(getActivity(),url,Toast.LENGTH_SHORT).show();
     }
 

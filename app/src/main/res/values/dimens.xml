@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources>
+<resources xmlns:tools="http://schemas.android.com/tools">
 
     <dimen name="lvPrimaryTextSize">18sp</dimen>
     <dimen name="lvSecondaryTextSize">14sp</dimen>
@@ -27,5 +27,18 @@
 
     <dimen name="activity_horizontal_margin">0dp</dimen>
     <dimen name="activity_vertical_margin">250dp</dimen>
+
+    <dimen name="settings_RadioGroup_MarginTop">0dp</dimen><!---->
+    <dimen name="settings_RadioGroup_MarginLeft">0dp</dimen><!---->
+
+    <dimen name="bottomNavHeight">56dp</dimen><!--https://material.io/guidelines/components/bottom-navigation.html#bottom-navigation-specs--><!---->
+
+    <dimen name="settings_text_size">16sp</dimen>
+    <dimen name="design_bottom_navigation_text_size" tools:override="true">12sp</dimen><!---->
+    <dimen name="design_bottom_navigation_active_text_size" tools:override="true">14sp</dimen><!---->
+
+    <dimen name="settingsListHeight">72dp</dimen><!---->
+    <dimen name="settingsTextSize">16sp</dimen><!---->
+
 
 </resources>

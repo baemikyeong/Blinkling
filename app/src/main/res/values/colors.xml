@@ -1,25 +1,35 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <color name="colorAccent">#ffc3a0</color>
-    <color name="colorPrimary">#ffcdd5</color>
-    <color name="colorPrimaryDark">#ff5e76</color>
-    <color name="colorPrimaryLight">#8a3aaf</color>
-    <color name="colorWhite">#ffffff</color>
-    <color name="colorBlack">#000000</color>
-    <color name="colorDivider">#2FE897</color>
-    <color name="colorBorder">#a7a4a4</color>
-    <color name="colorExtra">#fffac1</color>
-    <color name="textColorPrimary">#a7a4a4</color>
-    <color name="itemIconTint">#3b3838</color>
+    <resources>
+
+        <!--Main-->
+        <color name="colorPrimary">#a08989</color><!---->
+        <color name="colorPrimaryDark">#736262</color><!---->
+
+        <!--Selection-->
+        <color name="colorGrey">#efefef</color><!---->
 
 
-    <color name="lvHeaderTextColor">#168686</color>
-    <color name="primaryTextColor">#333333</color>
-    <color name="secondaryTextColor">#777777</color>
+        <color name="colorPrimaryLight">#8a3aaf</color>
+        <color name="colorWhite">#ffffff</color>
+        <color name="colorBlack">#000000</color>
+        <color name="colorDivider">#2FE897</color>
+        <color name="colorBorder">#a7a4a4</color>
+        <color name="colorExtra">#fffac1</color>
+        <color name="textColorPrimary">#a7a4a4</color>
+        <color name="itemIconTint">#3b3838</color>
+    
+        <color name="lvHeaderTextColor">#168686</color>
+        <color name="primaryTextColor">#333333</color>
+        <color name="secondaryTextColor">#777777</color>
 
-    <color name="goblinGreen">#168686</color>
-    <color name="lvHeaderDividerColor">#168686</color>
-    <color name="lvDividerColor">#E0E0E0</color>
+        <color name="goblinGreen">#168686</color>
+        <color name="lvHeaderDividerColor">#168686</color>
+        <color name="lvDividerColor">#E0E0E0</color>
 
-</resources>
+
+        <color name="color_Back">#11fdf6bf</color>
+    </resources>
+
+
+
 

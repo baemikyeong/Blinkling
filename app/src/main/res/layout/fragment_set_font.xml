@@ -7,52 +7,63 @@
     <!-- TODO: Update blank fragment layout -->
     <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="231dp">
+        android:layout_height="match_parent">
 
         <RadioGroup
             android:id="@+id/radiofont"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginStart="22dp"
-            android:layout_centerVertical="true"
             android:layout_alignParentStart="true">
 
             <RadioButton
                 android:id="@+id/radio_font1"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/settingsListHeight"
                 android:checked="true"
-                android:text="나눔바른고딕 " />
+                android:text="나눔바른고딕"
+                android:textSize="@dimen/settingsTextSize"
+                android:buttonTint="@color/colorPrimary" />
 
             <RadioButton
                 android:id="@+id/radio_font2"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="나눔손글씨 " />
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/settingsListHeight"
+                android:text="나눔손글씨"
+                android:textSize="@dimen/settingsTextSize"
+                android:buttonTint="@color/colorPrimary"/>
 
             <RadioButton
                 android:id="@+id/radio_font3"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="나눔바른펜 " />
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/settingsListHeight"
+                android:text="나눔바른펜"
+                android:textSize="@dimen/settingsTextSize"
+                android:buttonTint="@color/colorPrimary"/>
 
             <RadioButton
                 android:id="@+id/radio_font4"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="나눔명조 " />
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/settingsListHeight"
+                android:text="나눔명조"
+                android:textSize="@dimen/settingsTextSize"
+                android:buttonTint="@color/colorPrimary"/>
 
             <RadioButton
                 android:id="@+id/radio_font5"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="나눔스퀘어 " />
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/settingsListHeight"
+                android:text="나눔스퀘어"
+                android:textSize="@dimen/settingsTextSize"
+                android:buttonTint="@color/colorPrimary"/>
 
             <RadioButton
                 android:id="@+id/radio_font6"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="나눔손글씨붓 " />
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/settingsListHeight"
+                android:text="나눔손글씨붓"
+                android:textSize="@dimen/settingsTextSize"
+                android:buttonTint="@color/colorPrimary"/>
 
         </RadioGroup>
     </RelativeLayout>

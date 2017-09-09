@@ -21,10 +21,15 @@ import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.EditText;
+import android.widget.FrameLayout;
+import android.widget.RelativeLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
 import com.example.hyemin.blinkling.BookShelf.BookshelfFragment;
+import com.example.hyemin.blinkling.Book_Viewer.InnerStorageFragment;
+import com.example.hyemin.blinkling.Book_Viewer.TextViewFragment;
+import com.example.hyemin.blinkling.Bookmark.BookTab_Fragment;
 import com.example.hyemin.blinkling.Bookmark.BookmarkFragment;
 import com.example.hyemin.blinkling.Bookmark.CustomAdapter_book;
 import com.example.hyemin.blinkling.Bookmark.CustomAdapter_web;
@@ -39,13 +44,14 @@ import android.widget.RelativeLayout;
 import com.example.hyemin.blinkling.Book_Viewer.InnerStorageFragment;
 import com.example.hyemin.blinkling.Book_Viewer.TextViewFragment;
 import com.example.hyemin.blinkling.Bookmark.InfoClass_web;
+
 import com.example.hyemin.blinkling.Service.AudioService;
 import com.example.hyemin.blinkling.Service.ScreenFilterService;
 import com.example.hyemin.blinkling.Setting.SettingFragment;
 import com.example.hyemin.blinkling.Webview.WebviewFragment;
 
-import java.util.ArrayList;
 import java.io.File;
+import java.util.ArrayList;
 
 import static android.Manifest.permission.READ_EXTERNAL_STORAGE;
 import static android.Manifest.permission.RECORD_AUDIO;
@@ -63,10 +69,14 @@ public class MainActivity extends ActionBarActivity {
     ExamDbFacade mFacade;
     ExamDbFacade_web mFacade_web;
     ArrayList<InfoClass> insertResult;
+
     ArrayList<InfoClass_web> insertResult_web;
     CustomAdapter_book mAdapter;
     CustomAdapter_web mAdapter_web;
     String url;
+    BookTab_Fragment bf;
+    Fragment current_fragment;
+
     private boolean isRecording = false;
     private static final int REQUEST_RECORD_AUDIO_PERMISSION = 200;
     String InStoragePath = Environment.getExternalStorageDirectory().getAbsolutePath() + "/Blinkling";
@@ -75,16 +85,22 @@ public class MainActivity extends ActionBarActivity {
     private Fragment fragment;
     private Fragment fragment2;
     private FragmentManager fragmentManager;
+    FragmentTransaction transaction;
     private Toolbar toolbar;
     public static boolean light;//초기상태는 불이 꺼진 상태
     public static FrameLayout aframe;
 
+    public String mBookName_main = "";
+
     @Override
     public void onConfigurationChanged(Configuration newConfig) {
 
-        FrameLayout fl = (FrameLayout) findViewById(R.id.main_container);
-        fl.removeAllViews();
-
+        //    FrameLayout fl = (FrameLayout) findViewById(R.id.main_container);
+        //    fl.removeAllViews();
+//        FragmentManager manager = getSupportFragmentManager();
+//        FragmentTransaction ft = manager.beginTransaction();
+//        ft.hide(current_fragment);
+        transaction.hide(current_fragment);
         super.onConfigurationChanged(newConfig);
 
     }
@@ -110,9 +126,11 @@ public class MainActivity extends ActionBarActivity {
         fragmentManager = getSupportFragmentManager();
         fragment = new BookshelfFragment();
 
+        current_fragment = fragment;
         final FragmentTransaction transaction = fragmentManager.beginTransaction();
-        transaction.add(R.id.main_container, fragment).commit();
+        transaction.add(R.id.main_container, fragment,"fragBookshelf").commit();
 
+        //current_fragment = fragment; 
         getSupportActionBar().setTitle("블링클링");
         bottomNavigation = (BottomNavigationView) findViewById(R.id.bottom_navigation);
         bottomNavigation.setOnNavigationItemSelectedListener(
@@ -149,19 +167,28 @@ public class MainActivity extends ActionBarActivity {
         String backStateName = fragment.getClass().getName();
 
         FragmentManager manager = getSupportFragmentManager();
-        boolean fragmentPopped = manager.popBackStackImmediate(backStateName, 0);
+        boolean fragmentPopped = fragmentManager.popBackStackImmediate(backStateName, 0);
 
-        FrameLayout fl = (FrameLayout) findViewById(R.id.main_container);
-        fl.removeAllViews();
+        //  FrameLayout fl = (FrameLayout) findViewById(R.id.main_container);
+        //  fl.removeAllViews();
 
         RelativeLayout l = (RelativeLayout) findViewById(R.id.activity_main);
 
 
         if (!fragmentPopped) {                  //fragment not in back stack, create it.
-            FragmentTransaction ft = manager.beginTransaction();
-            ft.replace(R.id.main_container, fragment);
-            ft.addToBackStack(backStateName);
-            ft.commit();
+//            FragmentTransaction ft = manager.beginTransaction();
+//            ft.hide(current_fragment);
+//            ft.replace(R.id.main_container, fragment);
+//            current_fragment = fragment;
+//            ft.addToBackStack(backStateName);
+//            ft.commit();
+
+            transaction = manager.beginTransaction();
+            transaction.hide(current_fragment);
+            transaction.replace(R.id.main_container, fragment);
+            current_fragment = fragment;
+            transaction.addToBackStack(backStateName);
+            transaction.commit();
         }
     }
 
@@ -176,8 +203,10 @@ public class MainActivity extends ActionBarActivity {
             case android.R.id.home: {
                 //FragmentManager fm = getSupportFragmentManager();
 
-                FrameLayout fl = (FrameLayout) findViewById(R.id.main_container);
-                fl.removeAllViews();
+                //  FrameLayout fl = (FrameLayout) findViewById(R.id.main_container);
+                //  fl.removeAllViews();
+
+                transaction.hide(current_fragment);
 
                 fragmentManager.popBackStack();
                 return true;
@@ -270,11 +299,12 @@ public class MainActivity extends ActionBarActivity {
         bundle.putString("bookname", valueBookName);//번들에 값을 넣음
         frag.setArguments(bundle);
 
-        FrameLayout fl = (FrameLayout) findViewById(R.id.main_container);
-        fl.removeAllViews();
+//        FrameLayout fl = (FrameLayout) findViewById(R.id.main_container);
+//        fl.removeAllViews();
 
-        final FragmentTransaction transaction = fragmentManager.beginTransaction();
-        transaction.replace(R.id.main_container, frag).commit();
+        //   final FragmentTransaction transaction = fragmentManager.beginTransaction();
+        replaceFragment(frag);
+        // transaction.replace(R.id.main_container, frag).commit();
 
         book_title = valueBookName;
 
@@ -384,7 +414,6 @@ public class MainActivity extends ActionBarActivity {
 
         webview_fragment = (WebviewFragment) getSupportFragmentManager().findFragmentByTag("web_frag");
         if (webview_fragment != null && webview_fragment.isAdded()) {
-
             webview_fragment.goPage(url);
         }
     }
@@ -453,6 +482,7 @@ public class MainActivity extends ActionBarActivity {
                                     mAdapter = new CustomAdapter_book(getApplicationContext(), mFacade.getCursor(), false);
                                 }
 
+
                                 insertResult = mFacade.insert(title, document, time_date, time_date, Integer.toString(position));
                                 mAdapter.changeCursor(mFacade.getCursor());
 
@@ -466,4 +496,13 @@ public class MainActivity extends ActionBarActivity {
         dialog.create().show();
 
     }
+
+    public void sendBookname(String mBookName) {
+//        BookshelfFragment tf = (BookshelfFragment) getSupportFragmentManager().findFragmentById(R.id.main_container);
+//        tf.setBookshelf(mBookName);
+
+        ((BookshelfFragment) getSupportFragmentManager().findFragmentByTag("fragBookshelf")).setBookshelf(mBookName);
+
+    }
+
 }
