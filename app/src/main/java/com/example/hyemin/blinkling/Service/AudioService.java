@@ -3,6 +3,7 @@ package com.example.hyemin.blinkling.Service;
 import android.app.Service;
 import android.content.ContentResolver;
 import android.content.ContentValues;
+import android.content.Context;
 import android.content.Intent;
 import android.media.MediaRecorder;
 import android.net.Uri;
@@ -12,6 +13,8 @@ import android.provider.MediaStore;
 import android.util.Log;
 import android.widget.Toast;
 
+import com.example.hyemin.blinkling.MainActivity;
+
 import java.io.File;
 import java.io.IOException;
 
@@ -19,6 +22,8 @@ public class AudioService extends Service{
     MediaRecorder recorder;
     File audiofile = null;
     static final String TAG = "MediaRecording";
+    MainActivity mainActivity;
+    public static Context mContext;
 
     public IBinder onBind(Intent intent) {
         return null;
@@ -28,6 +33,8 @@ public class AudioService extends Service{
     @Override
     public void onCreate() {
         super.onCreate();
+
+        mContext = this;
 
     }
     @Override
@@ -43,16 +50,25 @@ public class AudioService extends Service{
     }
 
 
-
-    @Override
+    public void stop() {
+        Toast.makeText(this,"recording terminated", Toast.LENGTH_SHORT).show();
+        stopRecording();
+        stopSelf();
+        ((MainActivity)MainActivity.mContext).getSavedAudioFilePath();
+        super.onDestroy();
+        // 서비스가 종료될 때 실행
+    }
+/*    @Override
     public void onDestroy() {
         Toast.makeText(this,"recording terminated", Toast.LENGTH_SHORT).show();
         stopRecording();
         stopSelf();
+        ((MainActivity)MainActivity.mContext).getSavedAudioFilePath();
+
         super.onDestroy();
         // 서비스가 종료될 때 실행
 
-    }
+    }*/
 
 
 
@@ -102,6 +118,16 @@ public class AudioService extends Service{
 
         //sending broadcast message to scan the media file so that it can be available
         sendBroadcast(new Intent(Intent.ACTION_MEDIA_SCANNER_SCAN_FILE, newUri));
-        Toast.makeText(this, "Added File " + newUri, Toast.LENGTH_LONG).show();
+
+      //  Toast.makeText(this, audiofile.getAbsolutePath(),Toast.LENGTH_SHORT).show();
+    //    Toast.makeText(this, "Added File " + newUri, Toast.LENGTH_LONG).show();
+    }
+
+    public void getAudioFilePath(){
+        Intent intent = new Intent(this, MainActivity.class);
+        intent.putExtra("audio_path",MediaStore.Audio.Media.DATA);
+        intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+        startActivity(intent);
+
     }
 }
