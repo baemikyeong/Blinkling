@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #Sat Sep 09 15:55:47 KST 2017
 file.80=/Users/mac/Blinkling/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_0e4eda2345e83a3fa0e4650d6c9716b993da9738/classes.dex
 file.79=/Users/mac/Blinkling/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_8ed91db91a098b4994f48cbce0fe736d7cbdbfbb/classes.dex
@@ -242,3 +243,12 @@ renamed.13=classes50.dex
 renamed.12=classes23.dex
 renamed.11=classes80.dex
 renamed.10=classes13.dex
+=======
+#Sat Sep 09 23:00:09 KST 2017
+base.0=/Users/seohyemin/Blinkling-master/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_0f87486131eae7a0ff6df750c0e2277f0f2ef791
+renamed.1=classes.dex
+renamed.0=classes2.dex
+file.1=/Users/seohyemin/Blinkling-master/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_8689ee2a1adccc04fe351276d05588775a73cc19/classes.dex
+base.1=/Users/seohyemin/Blinkling-master/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_8689ee2a1adccc04fe351276d05588775a73cc19
+file.0=/Users/seohyemin/Blinkling-master/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_0f87486131eae7a0ff6df750c0e2277f0f2ef791/classes.dex
+>>>>>>> 478398bcaf657055d0bf7e8ae33191c501b378c6

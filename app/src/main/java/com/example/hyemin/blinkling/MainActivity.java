@@ -31,11 +31,20 @@ import com.example.hyemin.blinkling.Book_Viewer.InnerStorageFragment;
 import com.example.hyemin.blinkling.Book_Viewer.TextViewFragment;
 import com.example.hyemin.blinkling.Bookmark.BookTab_Fragment;
 import com.example.hyemin.blinkling.Bookmark.BookmarkFragment;
-import com.example.hyemin.blinkling.Bookmark.CustomAdapter;
+import com.example.hyemin.blinkling.Bookmark.CustomAdapter_book;
+import com.example.hyemin.blinkling.Bookmark.CustomAdapter_web;
 import com.example.hyemin.blinkling.Bookmark.DateFormatter;
-import com.example.hyemin.blinkling.Bookmark.DbOpenHelper;
 import com.example.hyemin.blinkling.Bookmark.ExamDbFacade;
+import com.example.hyemin.blinkling.Bookmark.ExamDbFacade_web;
 import com.example.hyemin.blinkling.Bookmark.InfoClass;
+
+import android.widget.FrameLayout;
+import android.widget.RelativeLayout;
+
+import com.example.hyemin.blinkling.Book_Viewer.InnerStorageFragment;
+import com.example.hyemin.blinkling.Book_Viewer.TextViewFragment;
+import com.example.hyemin.blinkling.Bookmark.InfoClass_web;
+
 import com.example.hyemin.blinkling.Service.AudioService;
 import com.example.hyemin.blinkling.Service.ScreenFilterService;
 import com.example.hyemin.blinkling.Setting.SettingFragment;
@@ -51,18 +60,23 @@ public class MainActivity extends ActionBarActivity {
 
     private static final String TAG = "AppPermission";
     private final int MY_PERMISSION_REQUEST_STORAGE = 100;
-    DbOpenHelper db_helper;
     TextViewFragment txt_fragment;
+    WebviewFragment webview_fragment;
     private String book_title;
     private int bookmark_pos;
     private String T_date;
-    private boolean isEditing = false;
-    BookTab_Fragment bookTab_fragment = new BookTab_Fragment();
+    private String T_date_web;
     ExamDbFacade mFacade;
+    ExamDbFacade_web mFacade_web;
     ArrayList<InfoClass> insertResult;
-    CustomAdapter mAdapter;
-    BookTab_Fragment bf;
+
+    ArrayList<InfoClass_web> insertResult_web;
+    CustomAdapter_book mAdapter;
+    CustomAdapter_web mAdapter_web;
+    String url;
     Fragment current_fragment;
+
+    private boolean init = true;
 
     private boolean isRecording = false;
     private static final int REQUEST_RECORD_AUDIO_PERMISSION = 200;
@@ -70,12 +84,13 @@ public class MainActivity extends ActionBarActivity {
 
     public static BottomNavigationView bottomNavigation;
     private Fragment fragment;
+    private Fragment fragment2;
     private FragmentManager fragmentManager;
     FragmentTransaction transaction;
     private Toolbar toolbar;
     public static boolean light;//초기상태는 불이 꺼진 상태
     public static FrameLayout aframe;
-
+    public String web_bookmark_url;
     public String mBookName_main = "";
 
     @Override
@@ -97,7 +112,7 @@ public class MainActivity extends ActionBarActivity {
         setContentView(R.layout.activity_main);
 
         mFacade = new ExamDbFacade(getApplicationContext());
-        mAdapter = new CustomAdapter(getApplicationContext(), mFacade.getCursor(), false);
+        mAdapter = new CustomAdapter_book(getApplicationContext(), mFacade.getCursor(), false);
 
         makeDirectory(InStoragePath);
 
@@ -111,6 +126,7 @@ public class MainActivity extends ActionBarActivity {
         light = false;
         fragmentManager = getSupportFragmentManager();
         fragment = new BookshelfFragment();
+
         current_fragment = fragment;
         final FragmentTransaction transaction = fragmentManager.beginTransaction();
         transaction.add(R.id.main_container, fragment,"fragBookshelf").commit();
@@ -125,7 +141,6 @@ public class MainActivity extends ActionBarActivity {
                         switch (item.getItemId()) {
                             case R.id.navigation_home:
                                 fragment = new BookshelfFragment();
-
                                 break;
 
                             case R.id.navigation_write:
@@ -197,7 +212,7 @@ public class MainActivity extends ActionBarActivity {
                 fragmentManager.popBackStack();
                 return true;
             }
-            case R.id.notebook_add: {/////
+            case R.id.notebook_add: {
 
                 checkPermission(READ_EXTERNAL_STORAGE);
             }
@@ -242,11 +257,10 @@ public class MainActivity extends ActionBarActivity {
                 return true;
             }
             case R.id.bookmark_delete: {
-                bookTab_fragment.checkBookmarkDelete();
                 return true;
             }
-            case R.id.bookmark_edit: {
-
+            case R.id.webmark_add: {
+                addWebmark();
                 return true;
             }
 
@@ -393,20 +407,63 @@ public class MainActivity extends ActionBarActivity {
         replaceFragment(fragment);
     }
 
+    public void goWebview(String url) {
+        fragment2 = new WebviewFragment();
+
+        web_bookmark_url = url;
+
+        final FragmentTransaction transaction = fragmentManager.beginTransaction();
+        transaction.replace(R.id.main_container, fragment2, "web_frag").commit();
+
+        if (webview_fragment != null && webview_fragment.isAdded()) {
+            webview_fragment.goPage(url);
+        }
+    }
+
+    public void addWebmark() {
+        java.util.Calendar cal = java.util.Calendar.getInstance();
+        T_date_web = DateFormatter.format(cal, "yyyy-MM-dd HH:mm:ss");
+
+        webview_fragment = (WebviewFragment) getSupportFragmentManager().findFragmentById(R.id.main_container);
+        url = webview_fragment.getCurrentURL();
+
+        final EditText editText_web = new EditText(this);
+        AlertDialog.Builder dialog = new AlertDialog.Builder(MainActivity.this);
+        dialog.setTitle("웹마크 등록")
+                .setMessage("웹마크 이름을 입력하세요")
+                .setView(editText_web)
+                .setPositiveButton("등록",
+                        new DialogInterface.OnClickListener() {
+                            @Override
+                            public void onClick(DialogInterface dialog, int which) {
+                                String title = editText_web.getText().toString();//웹마크의 이름
+                                String position = url; //북마크 좌표
+                                String time_date = T_date_web; //저장된 시각
+
+                                if (mFacade_web == null) {
+                                    mFacade_web = new ExamDbFacade_web(getApplicationContext());
+                                    mAdapter_web = new CustomAdapter_web(getApplicationContext(), mFacade_web.getCursor(), false);
+                                }
+
+                                insertResult_web = mFacade_web.insert(title, time_date, time_date, position);
+                                mAdapter_web.changeCursor(mFacade_web.getCursor());
+
+                            }
+                        }).setNeutralButton("취소", new DialogInterface.OnClickListener() {
+            @Override
+            public void onClick(DialogInterface dialog, int which) {
+            }
+        });
+        dialog.create().show();
+    }
+
     public void addBookmark() {
         java.util.Calendar cal = java.util.Calendar.getInstance();
         T_date = DateFormatter.format(cal, "yyyy-MM-dd HH:mm:ss");
 
         txt_fragment = (TextViewFragment) getSupportFragmentManager().findFragmentById(R.id.main_container);
         TextView txt = txt_fragment.getTxtBook();
-
-/*        bookTab_fragment = (BookTab_Fragment) getSupportFragmentManager().findFragmentById(R.id.fragment_web__tab_);
-        mFacade = bookTab_fragment.getFacade();
-        mAdapter = bookTab_fragment.getAdapter();*/
-
         bookmark_pos = txt_fragment.book_mark_add(txt); //북마크로 저장 할 좌표를 bookmark_pos에 저장함
-
-        //  bf = (BookTab_Fragment)getSupportFragmentManager().findFragmentByTag("BK");
 
         final EditText editText = new EditText(this);
         AlertDialog.Builder dialog = new AlertDialog.Builder(MainActivity.this);
@@ -421,27 +478,16 @@ public class MainActivity extends ActionBarActivity {
                                 int position = bookmark_pos; //북마크 좌표
                                 String document = book_title; //문서의 이름
                                 String time_date = T_date; //저장된 시각
-                              /*  if (db_helper == null) {
-                                    db_helper = new DbOpenHelper(getApplicationContext());
-                                    db_helper.open();
-                                }*/
 
-                                BookTab_Fragment bookTab_fragment = new BookTab_Fragment();
-                                Bundle bundle = new Bundle();
-                                bundle.putString("title", title);
-                                bundle.putString("document", document);
-                                bundle.putString("time_date", time_date);
-                                bundle.putString("position", Integer.toString(position));
-                                bookTab_fragment.setArguments(bundle);
+                                if (mFacade == null) {
+                                    mFacade = new ExamDbFacade(getApplicationContext());
+                                    mAdapter = new CustomAdapter_book(getApplicationContext(), mFacade.getCursor(), false);
+                                }
+
 
                                 insertResult = mFacade.insert(title, document, time_date, time_date, Integer.toString(position));
                                 mAdapter.changeCursor(mFacade.getCursor());
 
-                                //입력된 데이터를 insertColumn을 통해 add
-                                //  db_helper.insertColumn(title,document,time_date,time_date,Integer.toString(position));
-
-
-                                //   bf.getInsertValue();
                             }
                         }).setNeutralButton("취소", new DialogInterface.OnClickListener() {
             @Override

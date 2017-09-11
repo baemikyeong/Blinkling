@@ -17,7 +17,7 @@ public class ExamDbFacade {
     private Context mContext;
     private InfoClass mInfoClass;
 
-    public ExamDbFacade(Context context){
+    public ExamDbFacade(Context context) {
         mHelper = ExamDbHelper.getInstance(context);
         mContext = context;
     }
@@ -33,7 +33,6 @@ public class ExamDbFacade {
         ContentValues values = new ContentValues();
 
         // 삽입할 문자열을 파라메터로 받아서 저장합니다.
-    //    values.put("data", insert);
         values.put(ExamDbContract.ExamDbEntry.TITLE, title);
         values.put(ExamDbContract.ExamDbEntry.DOCUMENT, document);
         values.put(ExamDbContract.ExamDbEntry.CREATED_AT, created_at);
@@ -55,6 +54,7 @@ public class ExamDbFacade {
 
     /**
      * 테이블에 존재하는 모든 데이터들을 리턴합니다.
+     *
      * @return
      */
     public ArrayList<InfoClass> select() {
@@ -99,7 +99,7 @@ public class ExamDbFacade {
 
     /**
      * 테이블에 존재하는 data 컬럼의 모든 값들을 사용자가 입력한 값으로 업데이트 합니다.
-
+     *
      * @return
      */
     public ArrayList<InfoClass> update(String title, String document, String created_at, String updated_at, String position) {
@@ -144,24 +144,78 @@ public class ExamDbFacade {
     }
 
 
-    public void delete(int anInt) {
+    //해당하는 id의 리스트를 삭제하는 메소드
+    public void delete(int id) {
         SQLiteDatabase db = mHelper.getWritableDatabase();
 
-        db.delete(ExamDbContract.ExamDbEntry.TABLE_NAME, ExamDbContract.ExamDbEntry.ID + " = ?", new String[]{String.valueOf(anInt)});
+        db.delete(ExamDbContract.ExamDbEntry.TABLE_NAME, ExamDbContract.ExamDbEntry.ID + " = ?", new String[]{String.valueOf(id)});
         db.close();
-
     }
 
-    public Cursor getAll(){
+    public void editTitle(int id, String newTitle) {
+        SQLiteDatabase db = mHelper.getWritableDatabase();
+        ContentValues values = new ContentValues();
+
+        // 삽입할 문자열을 파라메터로 받아서 저장합니다.
+        values.put(ExamDbContract.ExamDbEntry.TITLE, newTitle);
+
+        /**
+         * public int update (String table, ContentValues values, String whereClause, String[] whereArgs)
+         * table : 갱신할 데이터가 존재하는 테이블, values : 변경할 값들,
+         * whereClause : 조건절 (key), whereArgs : 값들
+         */
+        db.update(ExamDbContract.ExamDbEntry.TABLE_NAME, values, ExamDbContract.ExamDbEntry.ID + " = ?", new String[]{String.valueOf(id)});
+    }
+
+    public Cursor getTitle(long id){
         SQLiteDatabase db = mHelper.getReadableDatabase();
-        Cursor c = db.rawQuery("SELECT _ID, title, document, updated_at FROM "+ExamDbContract.ExamDbEntry.TABLE_NAME, null);
+
+        String booktitle;
+        /**
+         * public Cursor query (String table, String[] columns, String selection, String[] selectionArgs, String groupBy, String having, String orderBy)
+         * table : 접근할 테이블명, columns : 가져올 데이터들의 컬럼명,
+         * selection : where 절의 key 들, selectionsArgs : where 절의 value 들
+         *
+         * Cursor 객체는 해당 쿼리의 결과가 담기는 객체입니다.
+         */
+        Cursor cursor = db.query(ExamDbContract.ExamDbEntry.TABLE_NAME,
+                new String[]{ExamDbContract.ExamDbEntry.TITLE},
+                ExamDbContract.ExamDbEntry.ID + " = ?", new String[]{String.valueOf(id)}, null, null, null);
+
+        booktitle = cursor.getString(cursor.getColumnIndex(ExamDbContract.ExamDbEntry.TITLE));
+        return cursor;
+    }
+
+    public Cursor getAll() {
+        SQLiteDatabase db = mHelper.getReadableDatabase();
+        Cursor c = db.rawQuery("SELECT _ID, title, document, updated_at FROM " + ExamDbContract.ExamDbEntry.TABLE_NAME+" order by _ID asc", null);
         return c;
+    }
+
+    public Cursor order_desc() {//최신순
+        SQLiteDatabase db = mHelper.getReadableDatabase();
+        Cursor c = db.rawQuery("SELECT _ID, title, document, updated_at FROM " + ExamDbContract.ExamDbEntry.TABLE_NAME +" order by _ID desc", null);
+        return c;
+
+    }
+    public Cursor order_alp_asc() {//알파벳순
+        SQLiteDatabase db = mHelper.getReadableDatabase();
+        Cursor c = db.rawQuery("SELECT _ID, title, document, updated_at FROM " + ExamDbContract.ExamDbEntry.TABLE_NAME +" order by title asc", null);
+        return c;
+
+    }
+    public Cursor order_doc_asc() {//문서별
+        SQLiteDatabase db = mHelper.getReadableDatabase();
+        Cursor c = db.rawQuery("SELECT _ID, title, document, updated_at FROM " + ExamDbContract.ExamDbEntry.TABLE_NAME +" order by document asc", null);
+        return c;
+
     }
     /**
      * CursorAdapter 에 데이터를 제공하기 위한 메소드 입니다.
      * db 에 존재하는 모든 데이터를 리턴합니다.
-     *
+     * <p>
      * CursorAdapter 에 들어가는 cursor 객체는 반드시 _ID 컬럼을 포함해야 합니다.
+     *
      * @return
      */
     public Cursor getCursor() {

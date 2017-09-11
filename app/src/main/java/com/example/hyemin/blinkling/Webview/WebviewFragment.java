@@ -28,6 +28,7 @@ import android.widget.EditText;
 import android.widget.ImageButton;
 import android.widget.ProgressBar;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.example.hyemin.blinkling.MainActivity;
 import com.example.hyemin.blinkling.R;
@@ -47,7 +48,7 @@ import java.io.IOException;
 
 public class WebviewFragment extends Fragment {
 
-    private WebView webView;
+    public WebView webView;
     private ProgressBar mPBar;
     private FaceDetector mFaceDetector;                     // 얼굴 인식
     private CameraSource mCameraSource;                     // 카메라 객체
@@ -58,11 +59,10 @@ public class WebviewFragment extends Fragment {
     private int[] location = new int[2];
     EditText url_String;
     View main_view;
+    String checkURL = null;
 
     public WebviewFragment() {
     }
-
-
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -109,8 +109,14 @@ public class WebviewFragment extends Fragment {
             super.onPageFinished(view, url);
         }
         });
-        webView.loadUrl("http://www.naver.com");
-
+        if(((MainActivity)getActivity()).web_bookmark_url == null){
+           // Toast.makeText(getActivity(), "null", Toast.LENGTH_SHORT).show();
+            webView.loadUrl("http://www.naver.com");
+        }
+        else{
+            webView.loadUrl(((MainActivity)getActivity()).web_bookmark_url);
+            ((MainActivity)getActivity()).web_bookmark_url = null;
+        }
 
 
         button.setOnClickListener(new View.OnClickListener() {
@@ -169,6 +175,20 @@ public class WebviewFragment extends Fragment {
         //webView.setWebViewClient(new WebViewClient());
         view.loadUrl(url);
 
+    }
+
+    public void goPage(String url){
+        checkURL = url;
+     //  webView.setWebViewClient(new WebViewClient());
+        //webView.loadUrl(url);
+
+        Toast.makeText(getActivity(),url,Toast.LENGTH_SHORT).show();
+    }
+
+
+    public String getCurrentURL(){
+        //현재 페이지의 url를 리턴하는 메소드
+        return url_String.getText().toString();
     }
 
 
