@@ -420,12 +420,12 @@
         "source": "/Users/seohyemin/Blinkling-master/app/src/main/res/drawable/folder.png"
     },
     {
-        "merged": "/Users/seohyemin/Blinkling-master/app/build/intermediates/res/merged/debug/drawable/cast_ic_notification_rewind30.xml",
-        "source": "/Users/seohyemin/.android/build-cache/86e41c47417d80a7dd799f3286469399e5a52229/output/res/drawable/cast_ic_notification_rewind30.xml"
-    },
-    {
         "merged": "/Users/seohyemin/Blinkling-master/app/build/intermediates/res/merged/debug/drawable/notebook_setting.png",
         "source": "/Users/seohyemin/Blinkling-master/app/src/main/res/drawable/notebook_setting.png"
+    },
+    {
+        "merged": "/Users/seohyemin/Blinkling-master/app/build/intermediates/res/merged/debug/drawable/cast_ic_notification_rewind30.xml",
+        "source": "/Users/seohyemin/.android/build-cache/86e41c47417d80a7dd799f3286469399e5a52229/output/res/drawable/cast_ic_notification_rewind30.xml"
     },
     {
         "merged": "/Users/seohyemin/Blinkling-master/app/build/intermediates/res/merged/debug/drawable/notification_icon_background.xml",
