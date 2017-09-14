@@ -6,55 +6,50 @@
     <item
         android:id="@+id/notebook_add"
         android:icon="@drawable/plus"
-        app:showAsAction="ifRoom"
-        android:title="추가">
-    </item>
+        android:title="추가"
+        app:showAsAction="always"></item>
 
     <item
         android:id="@+id/eye_btn"
         android:icon="@drawable/ic_eye_default"
-        android:title="눈인식">
-    </item>
+        android:title="눈인식"
+        app:showAsAction="always"></item>
 
     <item
         android:id="@+id/light_btn"
         android:icon="@drawable/ic_bluelight_default"
-        android:title="블루라이트">
-    </item>
+        android:title="블루라이트"
+        app:showAsAction="always"></item>
 
     <item
         android:id="@+id/voice_btn"
         android:icon="@drawable/ic_mic_default"
-        android:title="녹음">
-    </item>
+        android:title="녹음"
+        app:showAsAction="always"></item>
 
     <item
         android:id="@+id/bookmark_btn"
         android:icon="@drawable/ic_bookmark_default"
-        app:showAsAction="ifRoom"
-        android:title="북마크">
-    </item>
+        android:title="북마크"
+        app:showAsAction="always"></item>
 
     <item
         android:id="@+id/notebook_delete"
-        android:icon="@drawable/ic_delete_default"
-        app:showAsAction="ifRoom"
-        android:title="삭제">
-    </item>
+        android:icon="@drawable/ic_clear_black_24dp"
+        android:title="삭제"
+        app:showAsAction="always"></item>
 
     <item
         android:id="@+id/bookmark_delete"
         android:icon="@drawable/ic_clear_black_24dp"
-        app:showAsAction="ifRoom"
         android:title="북마크 삭제"
-        >
-    </item>
+        app:showAsAction="always"></item>
 
     <item
         android:id="@+id/webmark_add"
-        android:icon="@drawable/ic_content_cut_black_24dp"
-        app:showAsAction="ifRoom"
-        android:title="웹마크 추가">
+        android:icon="@drawable/ic_bookmark_default"
+        android:title="웹마크 추가"
+        app:showAsAction="always">
 
     </item>
 </menu>

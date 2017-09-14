@@ -140,6 +140,7 @@
     <bool name="abc_config_actionMenuItemAllCaps">true</bool>
     <bool name="abc_config_closeDialogWhenTouchOutside">true</bool>
     <bool name="abc_config_showMenuShortcutsWhenKeyboardPresent">false</bool>
+    <color name="ColorWebback">#D6D7D7</color>
     <color name="abc_input_method_navigation_guard">@android:color/black</color>
     <color name="abc_search_url_text_normal">#7fa87f</color>
     <color name="abc_search_url_text_pressed">@android:color/black</color>
@@ -1186,7 +1187,7 @@
     </style>
     <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
         
-        <item name="colorAccent">#FF4081</item>
+        <item name="colorAccent">#a08989</item>
         <item name="colorPrimary">#a08989</item>
         <item name="colorPrimaryDark">#736262</item>
      

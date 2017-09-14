@@ -22,7 +22,7 @@
             <RadioButton
                 android:id="@+id/radio_pagestyle1"
                 android:layout_width="match_parent"
-                android:layout_height="@dimen/settingsListHeight"
+                android:layout_height="wrap_content"
                 android:checked="true"
                 android:text="페이지형식"
                 android:textSize="@dimen/settingsTextSize"
@@ -31,7 +31,7 @@
             <RadioButton
                 android:id="@+id/radio_pagestyle2"
                 android:layout_width="match_parent"
-                android:layout_height="@dimen/settingsListHeight"
+                android:layout_height="wrap_content"
                 android:text="스크롤링 형식"
                 android:textSize="@dimen/settingsTextSize"
                 android:buttonTint="@color/colorPrimary" />

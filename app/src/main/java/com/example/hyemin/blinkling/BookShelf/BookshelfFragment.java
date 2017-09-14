@@ -1,8 +1,12 @@
 package com.example.hyemin.blinkling.BookShelf;
 
+import android.Manifest;
 import android.app.Activity;
+import android.content.pm.PackageManager;
+import android.os.Build;
 import android.os.Bundle;
 import android.os.Environment;
+import android.support.v4.app.ActivityCompat;
 import android.support.v4.app.Fragment;
 import android.support.v4.content.ContextCompat;
 import android.view.LayoutInflater;
@@ -18,6 +22,8 @@ import com.example.hyemin.blinkling.R;
 import java.io.File;
 import java.util.ArrayList;
 
+import static android.Manifest.permission.READ_EXTERNAL_STORAGE;
+
 public class BookshelfFragment extends Fragment {
     File dir = Environment.getExternalStorageDirectory().getAbsoluteFile();
     GridView mFileGridView;
@@ -26,11 +32,19 @@ public class BookshelfFragment extends Fragment {
     String mBookName = "";
     String InStoragePath = Environment.getExternalStorageDirectory().getAbsolutePath() +"/Blinkling";
   boolean init = true;
+    private final int MY_PERMISSION_REQUEST_STORAGE = 100;
 
     public BookshelfFragment() {
         // Required empty public constructor
     }
 
+    @Override
+    public void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setHasOptionsMenu(true);
+
+
+    }
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
@@ -39,12 +53,18 @@ public class BookshelfFragment extends Fragment {
         mFileGridView = (GridView) rootView.findViewById(android.R.id.list);
         mFileGridView.setAdapter(gridadapter);
 
+        int permissionCheck = ContextCompat.checkSelfPermission(getActivity(), Manifest.permission.WRITE_EXTERNAL_STORAGE);
 
-        if(init == true) {
-            String[] Blinklist = getBlinklingList();
-            showToBookShelf(Blinklist);
-            init = false;
+        if (permissionCheck != PackageManager.PERMISSION_GRANTED) {
+            ActivityCompat.requestPermissions(getActivity(), new String[]{Manifest.permission.WRITE_EXTERNAL_STORAGE}, MY_PERMISSION_REQUEST_STORAGE);
+        } else {
+            if (init == true) {
+                String[] Blinklist = getBlinklingList();
+                showToBookShelf(Blinklist);
+                init = false;
+            }
         }
+
 
 
         mFileGridView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
@@ -60,6 +80,23 @@ public class BookshelfFragment extends Fragment {
         return rootView;
     }
 
+    @Override
+    public void onRequestPermissionsResult(int requestCode, String permissions[], int[] grantResults) {
+        switch (requestCode) {
+            case MY_PERMISSION_REQUEST_STORAGE:
+                if ((grantResults.length > 0) && (grantResults[0] == PackageManager.PERMISSION_GRANTED)) {
+                    if (init == true) {
+                        String[] Blinklist = getBlinklingList();
+                        showToBookShelf(Blinklist);
+                        init = false;
+                    }
+                }
+                break;
+
+            default:
+                break;
+        }
+    }
     public void setBookshelf(String mBookName_main){
 //        gridadapter = new GridViewAdapter();
 //        mFileGridView.setAdapter(gridadapter);
@@ -116,10 +153,12 @@ public class BookshelfFragment extends Fragment {
 
 
     public void onPrepareOptionsMenu(Menu menu) {
-       menu.findItem(R.id.bookmark_btn).setVisible(false);
+        menu.findItem(R.id.bookmark_btn).setVisible(false);
         menu.findItem(R.id.voice_btn).setVisible(false);
         menu.findItem(R.id.eye_btn).setVisible(false);
         menu.findItem(R.id.light_btn).setVisible(false);
+        menu.findItem(R.id.bookmark_delete).setVisible(false);
+        menu.findItem(R.id.webmark_add).setVisible(false);
         super.onPrepareOptionsMenu(menu);
     }
 }

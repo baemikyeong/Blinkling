@@ -7,10 +7,12 @@ import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
 import android.os.Environment;
+import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.ListFragment;
 import android.util.Log;
 import android.view.LayoutInflater;
+import android.view.Menu;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
@@ -42,6 +44,12 @@ public class InnerStorageFragment extends ListFragment {
     String InStoragePath = Environment.getExternalStorageDirectory().getAbsolutePath();
 
 
+    @Override
+    public void onCreate(@Nullable Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setHasOptionsMenu(true);
+    }
+
     //    Fragment frag = new TextViewFragment();
 //    Bundle bundle = new Bundle();
 //            bundle.putString("bookname",mBookName);
@@ -59,6 +67,17 @@ public class InnerStorageFragment extends ListFragment {
         return frag;
     }
 
+    public void onPrepareOptionsMenu(Menu menu) {
+        menu.findItem(R.id.bookmark_btn).setVisible(false);
+        menu.findItem(R.id.voice_btn).setVisible(false);
+        menu.findItem(R.id.eye_btn).setVisible(false);
+        menu.findItem(R.id.light_btn).setVisible(false);
+        menu.findItem(R.id.notebook_add).setVisible(false);
+        menu.findItem(R.id.notebook_delete).setVisible(false);
+        menu.findItem(R.id.bookmark_delete).setVisible(false);
+        menu.findItem(R.id.webmark_add).setVisible(false);
+        super.onPrepareOptionsMenu(menu);
+    }
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {

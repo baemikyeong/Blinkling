@@ -46,8 +46,8 @@ public class SetTextSizeFragment extends DialogFragment {
 
         AlertDialog.Builder builder = new AlertDialog.Builder(getActivity());
 
-        builder.setTitle("배경색");
-        builder.setMessage("문서를 볼 때의 배경색을 지정합니다.");
+        builder.setTitle("글씨 크기");
+        builder.setMessage("문서를 볼 때의 글씨 크기를 지정합니다.");
 
         LayoutInflater inflater = getActivity().getLayoutInflater();
         final View view = inflater.inflate(R.layout.fragment_set_size, null);
@@ -65,6 +65,7 @@ public class SetTextSizeFragment extends DialogFragment {
 
                         editor1.putInt("textsize", rg.getCheckedRadioButtonId());
                         editor1.commit();
+                        Toast.makeText(getActivity(), "this"+rg.getCheckedRadioButtonId(), Toast.LENGTH_SHORT).show();
 
                     }
 

@@ -103,6 +103,8 @@ public class TextViewFragment extends Fragment {
     @Override
     public void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        setHasOptionsMenu(true);
+
 
         if (getArguments() != null) {
             bookName = getArguments().getString("bookname");
@@ -131,8 +133,8 @@ public class TextViewFragment extends Fragment {
 
         Typeface typeFace;
 
-        int value = intPref.getInt("brightness_gauge",5);
-        float bright_value = (float)value/10;
+        int value = intPref.getInt("brightness_gauge", 5);
+        float bright_value = (float) value / 10;
 
         //원래 밝기 저장
         params = getActivity().getWindow().getAttributes();
@@ -142,31 +144,31 @@ public class TextViewFragment extends Fragment {
         // 밝기 설정 적용
         getActivity().getWindow().setAttributes(params);
 
-        if (pagestyle%10 == 7) { // 뷰페이저와 스크롤 뷰 구분
+        if (pagestyle % 10 == 7) { // 뷰페이저와 스크롤 뷰 구분
             rootView = inflater.inflate(R.layout.fragment_text_pagerview, container, false);
-            textviewPage = (ViewGroup) getActivity().getLayoutInflater().inflate(R.layout.fragment, (ViewGroup) getActivity().getWindow().getDecorView().findViewById(android.R.id.content) , false);
+            textviewPage = (ViewGroup) getActivity().getLayoutInflater().inflate(R.layout.fragment, (ViewGroup) getActivity().getWindow().getDecorView().findViewById(android.R.id.content), false);
             tv = (TextView) textviewPage.findViewById(R.id.mText);
-            mProgressBar = (ProgressBar)rootView.findViewById(R.id.progress);
+            mProgressBar = (ProgressBar) rootView.findViewById(R.id.progress);
 
             // Instantiate a ViewPager and a PagerAdapter.
-            mPager = (ViewPager)rootView.findViewById(R.id.pager);
+            mPager = (ViewPager) rootView.findViewById(R.id.pager);
         } else {
             rootView = inflater.inflate(R.layout.fragment_text_scrollview, container, false);
             scrollView = (ScrollView) rootView.findViewById(R.id.scroll_text);
             tv = (TextView) rootView.findViewById(R.id.txtview);
         }
 
-        switch(textsize%10) {
-            case 0:
+        switch (textsize % 10) {
+            case 5:
                 tv.setTextSize(TypedValue.COMPLEX_UNIT_DIP, 12);
                 break;
-            case 1:
+            case 6:
                 tv.setTextSize(TypedValue.COMPLEX_UNIT_DIP, 15);
                 break;
-            case 2:
+            case 7:
                 tv.setTextSize(TypedValue.COMPLEX_UNIT_DIP, 18);
                 break;
-            case 3:
+            case 8:
                 tv.setTextSize(TypedValue.COMPLEX_UNIT_DIP, 23);
                 break;
         }
@@ -174,25 +176,25 @@ public class TextViewFragment extends Fragment {
         switch (bgcolor % 10) {
             case 1: // 연한 베이지
                 tv.setBackgroundColor(Color.rgb(245, 241, 222));
-                if(mPager != null)
+                if (mPager != null)
                     mPager.setBackgroundColor(Color.rgb(245, 241, 222));
                 rootView.setBackgroundColor(Color.rgb(245, 241, 222));
                 break;
             case 2: // 연한 그레이
                 tv.setBackgroundColor(Color.rgb(204, 204, 204));
-                if(mPager != null)
+                if (mPager != null)
                     mPager.setBackgroundColor(Color.rgb(204, 204, 204));
                 rootView.setBackgroundColor(Color.rgb(204, 204, 204));
                 break;
             case 3: // 흰색
                 tv.setBackgroundColor(Color.rgb(255, 255, 255));
-                if(mPager != null)
+                if (mPager != null)
                     mPager.setBackgroundColor(Color.rgb(255, 255, 255));
                 rootView.setBackgroundColor(Color.rgb(255, 255, 255));
                 break;
             case 4: // 검정색
                 tv.setBackgroundColor(Color.rgb(0, 0, 0));
-                if(mPager != null)
+                if (mPager != null)
                     mPager.setBackgroundColor(Color.rgb(0, 0, 0));
                 rootView.setBackgroundColor(Color.rgb(0, 0, 0));
                 break;
@@ -226,14 +228,14 @@ public class TextViewFragment extends Fragment {
                 break;
         }
 
-        if (pagestyle%10 == 7) { // 뷰페이저와 스크롤 뷰 구분
+        if (pagestyle % 10 == 7) { // 뷰페이저와 스크롤 뷰 구분
 
             readTxt();
 
             // obtaining screen dimensions
             mDisplay = getActivity().getWindowManager().getDefaultDisplay();
 
-            ViewAndPaint  vp = new ViewAndPaint(tv.getPaint(), textviewPage, getScreenWidth(), getMaxLineCount(tv), mContentString);
+            ViewAndPaint vp = new ViewAndPaint(tv.getPaint(), textviewPage, getScreenWidth(), getMaxLineCount(tv), mContentString);
 
             PagerTask pt = new PagerTask(this);
             pt.execute(vp);
@@ -263,21 +265,20 @@ public class TextViewFragment extends Fragment {
     }
 
     public void onPrepareOptionsMenu(Menu menu) {
-        menu.findItem(R.id.voice_btn).setVisible(false);
-        menu.findItem(R.id.eye_btn).setVisible(false);
-        menu.findItem(R.id.light_btn).setVisible(false);
         menu.findItem(R.id.notebook_add).setVisible(false);
         menu.findItem(R.id.notebook_delete).setVisible(false);
+        menu.findItem(R.id.bookmark_delete).setVisible(false);
+        menu.findItem(R.id.webmark_add).setVisible(false);
         super.onPrepareOptionsMenu(menu);
     }
 
-    private int getScreenWidth(){
+    private int getScreenWidth() {
         float horizontalMargin = getResources().getDimension(R.dimen.activity_horizontal_margin) * 2;
         int screenWidth = (int) (mDisplay.getWidth() - horizontalMargin);
         return screenWidth;
     }
 
-    private int getMaxLineCount(TextView view){
+    private int getMaxLineCount(TextView view) {
         float verticalMargin = getResources().getDimension(R.dimen.activity_vertical_margin) * 2;
         int screenHeight = mDisplay.getHeight();
         TextPaint paint = view.getPaint();
@@ -287,7 +288,7 @@ public class TextViewFragment extends Fragment {
         float textHeight = fm.top - fm.bottom;
         textHeight = Math.abs(textHeight);
 
-        int maxLineCount = (int) ((screenHeight - verticalMargin ) / textHeight);
+        int maxLineCount = (int) ((screenHeight - verticalMargin) / textHeight);
 
         // add extra spaces at the bottom, remove 2 lines
         maxLineCount -= 2;
@@ -295,7 +296,7 @@ public class TextViewFragment extends Fragment {
         return maxLineCount;
     }
 
-    private void initViewPager(){
+    private void initViewPager() {
         mPagerAdapter = new MyPagerAdapter(getActivity().getSupportFragmentManager(), 1);
         mPager.setAdapter(mPagerAdapter);
         mPager.setOnPageChangeListener(new ViewPager.SimpleOnPageChangeListener() {
@@ -306,19 +307,19 @@ public class TextViewFragment extends Fragment {
         });
     }
 
-    public void onPageProcessedUpdate(ProgressTracker progress){
+    public void onPageProcessedUpdate(ProgressTracker progress) {
         mPages = progress.pages;
         // init the pager if necessary
-        if (mPagerAdapter == null){
+        if (mPagerAdapter == null) {
             initViewPager();
             hideProgress();
-        }else {
-            ((MyPagerAdapter)mPagerAdapter).incrementPageCount();
+        } else {
+            ((MyPagerAdapter) mPagerAdapter).incrementPageCount();
         }
         addPageIndicator(progress.totalPages);
     }
 
-    private void hideProgress(){
+    private void hideProgress() {
         mProgressBar.setVisibility(View.GONE);
     }
 
@@ -326,7 +327,7 @@ public class TextViewFragment extends Fragment {
         mPageIndicator = (LinearLayout) rootView.findViewById(R.id.pageIndicator);
         View view = new View(getActivity());
         ViewGroup.LayoutParams params = new TableLayout.LayoutParams(ViewGroup.LayoutParams.WRAP_CONTENT, ViewGroup.LayoutParams.MATCH_PARENT, 1f);
-        view.setLayoutParams(params );
+        view.setLayoutParams(params);
         view.setBackgroundDrawable(getResources().getDrawable(pageNumber == 0 ? R.drawable.current_page_indicator : R.drawable.indicator_background));
         view.setTag(pageNumber);
         mPageIndicator.addView(view);
@@ -338,12 +339,12 @@ public class TextViewFragment extends Fragment {
             View selectedIndexIndicator = mPageIndicator.getChildAt(position);
             selectedIndexIndicator.setBackgroundDrawable(getResources().getDrawable(R.drawable.current_page_indicator));
             // dicolorize the neighbours
-            if (position > 0){
-                View leftView = mPageIndicator.getChildAt(position -1);
+            if (position > 0) {
+                View leftView = mPageIndicator.getChildAt(position - 1);
                 leftView.setBackgroundDrawable(getResources().getDrawable(R.drawable.indicator_background));
             }
-            if (position < mPages.size()){
-                View rightView = mPageIndicator.getChildAt(position +1);
+            if (position < mPages.size()) {
+                View rightView = mPageIndicator.getChildAt(position + 1);
                 rightView.setBackgroundDrawable(getResources().getDrawable(R.drawable.indicator_background));
             }
 
@@ -352,7 +353,7 @@ public class TextViewFragment extends Fragment {
         }
     }
 
-    public static String getContents(int pageNumber){
+    public static String getContents(int pageNumber) {
         String page = String.valueOf(pageNumber);
         String textBoundaries = mPages.get(page);
         if (textBoundaries != null) {
@@ -372,7 +373,7 @@ public class TextViewFragment extends Fragment {
         public int maxLineCount;
         public String contentString;
 
-        public ViewAndPaint(TextPaint paint, ViewGroup textviewPage, int screenWidth, int maxLineCount, String contentString){
+        public ViewAndPaint(TextPaint paint, ViewGroup textviewPage, int screenWidth, int maxLineCount, String contentString) {
             this.paint = paint;
             this.textviewPage = textviewPage;
             this.maxLineCount = maxLineCount;
@@ -396,7 +397,7 @@ public class TextViewFragment extends Fragment {
     private void readTxt() {
 
 
-        File file = new File(Environment.getExternalStorageDirectory().getAbsoluteFile() + "/Blinkling" , bookName);
+        File file = new File(Environment.getExternalStorageDirectory().getAbsoluteFile() + "/Blinkling", bookName);
         // i have kept text.txt in the sd-card
 
         if (file.exists())   // check if file exist
@@ -427,7 +428,7 @@ public class TextViewFragment extends Fragment {
     //눈깜박임에 따른 페이지 down 함수
     public void change_down_location() {
         // 절대값을 통해 text뷰의 스크롤뷰에서의 위치 파악
-        if (pagestyle%10 == 7) {
+        if (pagestyle % 10 == 7) {
             int cur = mPager.getCurrentItem();
             mPager.setCurrentItem(++cur);
             try {
@@ -436,8 +437,7 @@ public class TextViewFragment extends Fragment {
                 e.printStackTrace();
             }
 
-        }
-        else{
+        } else {
             if (location[1] < 0)
                 location[1] = (-1) * location[1];
 
@@ -635,7 +635,7 @@ public class TextViewFragment extends Fragment {
     }
 
     // 책갈피 추가함수
-    public int book_mark_add(TextView txt_v){//북마크 좌표 저장 메소드
+    public int book_mark_add(TextView txt_v) {//북마크 좌표 저장 메소드
         Toast toast = null;
         //book_mark의 전역변수 설정 후, db에 저장 필요
         // book_mark는 int형 변수
@@ -643,7 +643,7 @@ public class TextViewFragment extends Fragment {
         txt_v = tv;
         txt_v.getLocationOnScreen(location);
         bookmark_position = location[1];
-        if(bookmark_position < 0) bookmark_position = (-1)*bookmark_position;
+        if (bookmark_position < 0) bookmark_position = (-1) * bookmark_position;
 
         toast.makeText(getActivity(), "북마크추가함수입니다", Toast.LENGTH_SHORT).show();
 
@@ -651,7 +651,7 @@ public class TextViewFragment extends Fragment {
     }
 
 
-    public TextView getTxtBook(){
+    public TextView getTxtBook() {
         return tv;
     }
 
