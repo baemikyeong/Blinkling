@@ -23,7 +23,7 @@
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
         android:layout_alignParentTop="true"
-        android:entries="@array/audio"
+        android:entries="@array/book"
         android:gravity="right"
         android:padding="5dip" />
 

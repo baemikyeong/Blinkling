@@ -74,6 +74,12 @@ public class AudioTab_Fragment extends Fragment {
                         mListView.setAdapter(mAdapter);
                         break;
                     }
+                    case 3: {
+                        mCursor = mFacade.order_doc_asc();
+                        mAdapter.swapCursor(mCursor);
+                        mListView.setAdapter(mAdapter);
+                        break;
+                    }
                 }
             }
 

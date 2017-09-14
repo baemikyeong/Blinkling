@@ -388,16 +388,16 @@
         "source": "/Users/mac/.android/build-cache/d3ff796d1a0a0be6c348fb13321312629f76eaaf/output/res/drawable-hdpi-v4/quantum_ic_skip_next_white_24.png"
     },
     {
+        "merged": "/Users/mac/Blinkling/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/powered_by_google_light.png",
+        "source": "/Users/mac/.android/build-cache/e2dd64302fde5b64c830d10090ab66d13dc3747f/output/res/drawable-hdpi-v4/powered_by_google_light.png"
+    },
+    {
         "merged": "/Users/mac/Blinkling/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/abc_popup_background_mtrl_mult.9.png",
         "source": "/Users/mac/.android/build-cache/913d8db17f1c25b6ee67b77b63f40d3096bd505a/output/res/drawable-hdpi-v4/abc_popup_background_mtrl_mult.9.png"
     },
     {
         "merged": "/Users/mac/Blinkling/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/abc_list_divider_mtrl_alpha.9.png",
         "source": "/Users/mac/.android/build-cache/913d8db17f1c25b6ee67b77b63f40d3096bd505a/output/res/drawable-hdpi-v4/abc_list_divider_mtrl_alpha.9.png"
-    },
-    {
-        "merged": "/Users/mac/Blinkling/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/powered_by_google_light.png",
-        "source": "/Users/mac/.android/build-cache/e2dd64302fde5b64c830d10090ab66d13dc3747f/output/res/drawable-hdpi-v4/powered_by_google_light.png"
     },
     {
         "merged": "/Users/mac/Blinkling/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/places_ic_search.png",

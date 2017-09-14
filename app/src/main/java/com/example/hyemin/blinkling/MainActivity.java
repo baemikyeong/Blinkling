@@ -1,6 +1,7 @@
 package com.example.hyemin.blinkling;
 
 import android.annotation.TargetApi;
+import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.pm.PackageManager;
@@ -33,10 +34,12 @@ import com.example.hyemin.blinkling.Book_Viewer.InnerStorageFragment;
 import com.example.hyemin.blinkling.Book_Viewer.TextViewFragment;
 import com.example.hyemin.blinkling.Bookmark.BookTab_Fragment;
 import com.example.hyemin.blinkling.Bookmark.BookmarkFragment;
+import com.example.hyemin.blinkling.Bookmark.CustomAdapter_audio;
 import com.example.hyemin.blinkling.Bookmark.CustomAdapter_book;
 import com.example.hyemin.blinkling.Bookmark.CustomAdapter_web;
 import com.example.hyemin.blinkling.Bookmark.DateFormatter;
 import com.example.hyemin.blinkling.Bookmark.ExamDbFacade;
+import com.example.hyemin.blinkling.Bookmark.ExamDbFacade_audio;
 import com.example.hyemin.blinkling.Bookmark.ExamDbFacade_web;
 import com.example.hyemin.blinkling.Bookmark.InfoClass;
 
@@ -45,6 +48,7 @@ import android.widget.RelativeLayout;
 
 import com.example.hyemin.blinkling.Book_Viewer.InnerStorageFragment;
 import com.example.hyemin.blinkling.Book_Viewer.TextViewFragment;
+import com.example.hyemin.blinkling.Bookmark.InfoClass_audio;
 import com.example.hyemin.blinkling.Bookmark.InfoClass_web;
 
 import com.example.hyemin.blinkling.Service.AudioService;
@@ -62,6 +66,7 @@ public class MainActivity extends ActionBarActivity {
 
     private static final String TAG = "AppPermission";
     private final int MY_PERMISSION_REQUEST_STORAGE = 100;
+    public static Context mContext;
     TextViewFragment txt_fragment;
     WebviewFragment webview_fragment;
     private String book_title;
@@ -70,11 +75,13 @@ public class MainActivity extends ActionBarActivity {
     private String T_date_web;
     ExamDbFacade mFacade;
     ExamDbFacade_web mFacade_web;
+    ExamDbFacade_audio mFacade_audio;
     ArrayList<InfoClass> insertResult;
-
+    ArrayList<InfoClass_audio> insertResult_audio;
     ArrayList<InfoClass_web> insertResult_web;
     CustomAdapter_book mAdapter;
     CustomAdapter_web mAdapter_web;
+    CustomAdapter_audio mAdapter_audio;
     String url;
     Fragment current_fragment;
 
@@ -94,6 +101,8 @@ public class MainActivity extends ActionBarActivity {
     public static FrameLayout aframe;
     public String web_bookmark_url;
     public String mBookName_main = "";
+    String audio_path;
+    AudioService audioService;
 
     @Override
     public void onConfigurationChanged(Configuration newConfig) {
@@ -112,6 +121,8 @@ public class MainActivity extends ActionBarActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        mContext = this;
 
         mFacade = new ExamDbFacade(getApplicationContext());
         mAdapter = new CustomAdapter_book(getApplicationContext(), mFacade.getCursor(), false);
@@ -203,7 +214,7 @@ public class MainActivity extends ActionBarActivity {
                 return true;
             }
             case R.id.voice_btn: {
-
+                audioService();
                 Intent intent = new Intent(this, AudioService.class);
                 Toast toast;
                 // Requesting permission to RECORD_AUDIO
@@ -389,6 +400,26 @@ public class MainActivity extends ActionBarActivity {
 //        }
 //    }
 
+    public void audioService(){
+        Intent intent = new Intent(this, AudioService.class);
+        Toast toast;
+        // Requesting permission to RECORD_AUDIO
+
+        //ActivityCompat.requestPermissions(this, permissions, REQUEST_RECORD_AUDIO_PERMISSION);
+//        checkPermission(RECORD_AUDIO);
+
+        if (isRecording == false) {
+            startService(intent);
+            //   Toast.makeText(this, "녹음시작", Toast.LENGTH_SHORT).show();
+            isRecording = true;
+        } else {
+            stopService(intent);
+            addAudiomark();
+            // Toast.makeText(this, "녹음종료", Toast.LENGTH_SHORT).show();
+            isRecording = false;
+        }
+    }
+
     private File makeDirectory(String dir_path) {
         File dir = new File(dir_path);
         if (!dir.exists()) {
@@ -456,6 +487,51 @@ public class MainActivity extends ActionBarActivity {
         dialog.create().show();
     }
 
+    public void addAudiomark() {
+        java.util.Calendar cal = java.util.Calendar.getInstance();
+        T_date = DateFormatter.format(cal, "yyyy-MM-dd HH:mm:ss");
+
+        txt_fragment = (TextViewFragment) getSupportFragmentManager().findFragmentById(R.id.main_container);
+        TextView txt = txt_fragment.getTxtBook();
+        bookmark_pos = txt_fragment.book_mark_add(txt); //북마크로 저장 할 좌표를 bookmark_pos에 저장함
+
+        final EditText editText_audio = new EditText(this);
+        AlertDialog.Builder dialog = new AlertDialog.Builder(MainActivity.this);
+        dialog.setTitle("음성메모 등록")
+                .setMessage("음성메모의 이름을 입력하세요")
+                .setView(editText_audio)
+                .setPositiveButton("등록",
+                        new DialogInterface.OnClickListener() {
+                            @Override
+                            public void onClick(DialogInterface dialog, int which) {
+                                String title = editText_audio.getText().toString();//음성메모의 이름
+                                int position = bookmark_pos; //저장할 문서의 좌표위치
+                                String document = book_title; //문서의 이름
+                                String file_path = audio_path;//음성메모가 저장된 폴더의 경로
+                                String time_date = T_date; //저장된 시각
+
+
+                                if (mFacade_audio == null) {
+                                    mFacade_audio = new ExamDbFacade_audio(getApplicationContext());
+                                    mAdapter_audio = new CustomAdapter_audio(getApplicationContext(), mFacade_audio.getCursor(), false);
+                                }
+
+
+
+                                insertResult_audio = mFacade_audio.insert(title, document, time_date, file_path, time_date, Integer.toString(position));
+                                mAdapter_audio.changeCursor(mFacade_audio.getCursor());
+
+                            }
+                        }).setNeutralButton("취소", new DialogInterface.OnClickListener() {
+            @Override
+            public void onClick(DialogInterface dialog, int which) {
+            }
+        });
+
+        dialog.create().show();
+
+    }
+
     public void addBookmark() {
         java.util.Calendar cal = java.util.Calendar.getInstance();
         T_date = DateFormatter.format(cal, "yyyy-MM-dd HH:mm:ss");
@@ -496,6 +572,12 @@ public class MainActivity extends ActionBarActivity {
 
         dialog.create().show();
 
+    }
+
+    public void getSavedAudioFilePath(){
+        ((AudioService)AudioService.mContext).getAudioFilePath();
+        Intent intent = getIntent();
+        audio_path = intent.getStringExtra("audio_path");
     }
 
     public void sendBookname(String mBookName) {

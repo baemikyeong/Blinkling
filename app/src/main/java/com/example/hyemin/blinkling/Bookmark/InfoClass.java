@@ -64,7 +64,7 @@ public class InfoClass {
         return document;
     }
 
-    public void setContact(String document) {
+    public void setDocument(String document) {
         this.document = document;
     }
 

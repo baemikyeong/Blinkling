@@ -26,8 +26,10 @@ public class ExamDbHelper_audio extends SQLiteOpenHelper{
             "CREATE TABLE if not exists " + ExamDbContract_audio.ExamDbEntry.TABLE_NAME + "("
                     + ExamDbContract_audio.ExamDbEntry._ID + " integer primary key autoincrement, "
                     + ExamDbContract_audio.ExamDbEntry.TITLE + " text,"
+                    + ExamDbContract_audio.ExamDbEntry.PATH+" text,"
                     + ExamDbContract_audio.ExamDbEntry.CREATED_AT + " text not null,"
                     + ExamDbContract_audio.ExamDbEntry.UPDATED_AT + " text not null,"
+                    + ExamDbContract_audio.ExamDbEntry.DOCUMENT+" text,"
                     + ExamDbContract_audio.ExamDbEntry.POS + " text not null);";
 
     private static ExamDbHelper_audio sSingleton = null;
