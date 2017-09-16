@@ -316,13 +316,8 @@ public class MainActivity extends ActionBarActivity {
         bundle.putString("bookname", valueBookName);//번들에 값을 넣음
         frag.setArguments(bundle);
 
-//        FrameLayout fl = (FrameLayout) findViewById(R.id.main_container);
-//        fl.removeAllViews();
-
-        //   final FragmentTransaction transaction = fragmentManager.beginTransaction();
         replaceFragment(frag);
-        // transaction.replace(R.id.main_container, frag).commit();
-        //  getSupportActionBar().setTitle(valueBookName);
+
         book_title = valueBookName;
 
     }

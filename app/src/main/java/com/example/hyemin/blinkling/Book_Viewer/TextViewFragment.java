@@ -59,6 +59,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 import static com.google.android.gms.wearable.DataMap.TAG;
+import static java.lang.Thread.sleep;
 
 
 /**
@@ -98,7 +99,7 @@ public class TextViewFragment extends Fragment {
     public static ViewGroup textviewPage;
     private int bookmark_position;
     private String bookName = "";
-
+    int a = 1;
 
     @Override
     public void onCreate(@Nullable Bundle savedInstanceState) {
@@ -396,7 +397,6 @@ public class TextViewFragment extends Fragment {
 
     private void readTxt() {
 
-
         File file = new File(Environment.getExternalStorageDirectory().getAbsoluteFile() + "/Blinkling", bookName);
         // i have kept text.txt in the sd-card
 
@@ -431,24 +431,14 @@ public class TextViewFragment extends Fragment {
         if (pagestyle % 10 == 7) {
             int cur = mPager.getCurrentItem();
             mPager.setCurrentItem(++cur);
-            try {
-                Thread.sleep(100);
-            } catch (InterruptedException e) {
-                e.printStackTrace();
-            }
 
         } else {
             if (location[1] < 0)
                 location[1] = (-1) * location[1];
 
             // 위치 변경
-            scrollView.scrollTo(0, location[1] + 60);
-            location[1] += 60;
-            try {
-                Thread.sleep(100);
-            } catch (InterruptedException e) {
-                e.printStackTrace();
-            }
+            scrollView.scrollTo(0, location[1] + 120);
+            location[1] += 120;
 
         }
 
@@ -469,6 +459,7 @@ public class TextViewFragment extends Fragment {
      *
      * @return <code>true</code> if granted
      */
+
     private boolean isCameraPermissionGranted() {
         return ActivityCompat.checkSelfPermission(getActivity().getApplicationContext(), android.Manifest.permission.CAMERA) == PackageManager.PERMISSION_GRANTED;
     }
@@ -574,16 +565,22 @@ public class TextViewFragment extends Fragment {
            change_down_location();
        }
    */
+
     @Subscribe(threadMode = ThreadMode.MAIN)
     public void onRightEyeClosed(RightEyeClosedEvent e) {
         // change_up_location();
+        change_down_location();
+        try {
+            sleep(100);
+        } catch (InterruptedException e1) {
+            e1.printStackTrace();
+        }
 
     }
 
     @Subscribe(threadMode = ThreadMode.MAIN)
     public void onNeutralFace(NeutralFaceEvent e) {
 
-        change_down_location();
 
     }
 
@@ -630,7 +627,7 @@ public class TextViewFragment extends Fragment {
         mCameraSource = new CameraSource.Builder(getActivity().getApplicationContext(), mFaceDetector)
                 .setRequestedPreviewSize(640, 480)
                 .setFacing(CameraSource.CAMERA_FACING_FRONT)
-                .setRequestedFps(30f)
+                .setRequestedFps(25f)
                 .build();
     }
 

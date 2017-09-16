@@ -2,8 +2,8 @@
     <resources>
 
         <!--Main-->
-        <color name="colorPrimary">#a08989</color><!---->
-        <color name="colorPrimaryDark">#7b6b6b</color><!---->
+        <color name="colorPrimary">#8f694a</color><!---->
+        <color name="colorPrimaryDark">#8f694a</color><!---->
 
         <!--Selection-->
         <color name="colorGrey">#efefef</color><!---->

@@ -35,7 +35,7 @@ public class AudioService extends Service{
     public void onCreate() {
         super.onCreate();
 
-        File file = new File(Environment.getExternalStorageDirectory().getAbsoluteFile() + "/Blinkling", bookName);
+      //  File file = new File(Environment.getExternalStorageDirectory().getAbsoluteFile() + "/Blinkling", bookName);
         // i have kept text.txt in the sd-card
 
         //File 생성자를 통해 다음과 같이 file을 저장할 directory를 생성한다.
