@@ -24,6 +24,7 @@ public class AudioService extends Service{
     static final String TAG = "MediaRecording";
     MainActivity mainActivity;
     public static Context mContext;
+    File temp;
 
     public IBinder onBind(Intent intent) {
         return null;
@@ -34,9 +35,25 @@ public class AudioService extends Service{
     public void onCreate() {
         super.onCreate();
 
+        File file = new File(Environment.getExternalStorageDirectory().getAbsoluteFile() + "/Blinkling", bookName);
+        // i have kept text.txt in the sd-card
+
+        //File 생성자를 통해 다음과 같이 file을 저장할 directory를 생성한다.
+        File storeDir = new File(Environment.getExternalStoragePublicDirectory(Environment.DIRECTORY_DOCUMENTS),"AudioDirectory");
+        if(!storeDir.exists()){
+            if(!storeDir.mkdirs()){
+                Log.d("MyDocApp", "failed to create directory");
+                return;
+
+            }
+        }
+
+
+
         mContext = this;
 
     }
+
     @Override
     public int onStartCommand(Intent intent, int flags, int startId) {
         // 서비스가 호출될 때마다 실행
@@ -50,25 +67,18 @@ public class AudioService extends Service{
     }
 
 
-    public void stop() {
-        Toast.makeText(this,"recording terminated", Toast.LENGTH_SHORT).show();
-        stopRecording();
-        stopSelf();
-        ((MainActivity)MainActivity.mContext).getSavedAudioFilePath();
-        super.onDestroy();
-        // 서비스가 종료될 때 실행
-    }
-/*    @Override
+
+   @Override
     public void onDestroy() {
         Toast.makeText(this,"recording terminated", Toast.LENGTH_SHORT).show();
         stopRecording();
         stopSelf();
-        ((MainActivity)MainActivity.mContext).getSavedAudioFilePath();
+      //  ((MainActivity)MainActivity.mContext).getSavedAudioFilePath();
 
         super.onDestroy();
         // 서비스가 종료될 때 실행
 
-    }*/
+    }
 
 
 
@@ -92,15 +102,26 @@ public class AudioService extends Service{
         recorder.start();
     }
 
+
     public void stopRecording() {
 
         if(recorder != null){
-            recorder.stop();
+            addRecorder();
+           // recorder.stop();
             recorder.release();
             recorder = null;
             addRecordingToMediaLibrary();
         }
     }
+
+    public void addRecorder(){
+        recorder.stop();
+        Intent intent = new Intent(this, MainActivity.class);
+        intent.putExtra("audio_path", audiofile.getAbsolutePath());
+        startActivity(intent);
+        ((MainActivity)MainActivity.mContext).addAudiomark();
+    }
+
 
     protected void addRecordingToMediaLibrary() {
         //creating content values of size 4
@@ -123,11 +144,11 @@ public class AudioService extends Service{
     //    Toast.makeText(this, "Added File " + newUri, Toast.LENGTH_LONG).show();
     }
 
-    public void getAudioFilePath(){
+ /*   public void getAudioFilePath(){
         Intent intent = new Intent(this, MainActivity.class);
         intent.putExtra("audio_path",MediaStore.Audio.Media.DATA);
         intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
         startActivity(intent);
 
-    }
+    }*/
 }

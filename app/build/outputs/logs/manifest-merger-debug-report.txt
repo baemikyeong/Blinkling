@@ -168,6 +168,7 @@ ADDED from /Users/mac/Blinkling/app/src/main/AndroidManifest.xml:43:9-46:39
 		ADDED from /Users/mac/Blinkling/app/src/main/AndroidManifest.xml:44:13-49
 uses-sdk
 INJECTED from /Users/mac/Blinkling/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.android.support:multidex:1.0.1] /Users/mac/.android/build-cache/297d361ad5c8d5df37a5803fce2e629bce7c2038/output/AndroidManifest.xml:18:5-42
 MERGED from [com.android.support:design:25.3.1] /Users/mac/.android/build-cache/2357a626681079792d0b0f8329e66fe5b38ee637/output/AndroidManifest.xml:21:5-23:62
 MERGED from [com.android.support:recyclerview-v7:25.3.1] /Users/mac/.android/build-cache/d2ad08c8fcc37bf76b719449c94ded608952f7e7/output/AndroidManifest.xml:20:5-43
 MERGED from [com.android.support:transition:25.3.1] /Users/mac/.android/build-cache/35d6017021fb3a5d14f62790f786c1f775dd19e8/output/AndroidManifest.xml:20:5-44

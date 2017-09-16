@@ -123,6 +123,8 @@ public class MainActivity extends ActionBarActivity {
         setContentView(R.layout.activity_main);
 
         mContext = this;
+        Intent intent = getIntent();
+        audio_path = intent.getStringExtra("audio_path");
 
         mFacade = new ExamDbFacade(getApplicationContext());
         mAdapter = new CustomAdapter_book(getApplicationContext(), mFacade.getCursor(), false);
@@ -414,7 +416,7 @@ public class MainActivity extends ActionBarActivity {
             isRecording = true;
         } else {
             stopService(intent);
-            addAudiomark();
+        //    addAudiomark();
             // Toast.makeText(this, "녹음종료", Toast.LENGTH_SHORT).show();
             isRecording = false;
         }
@@ -488,6 +490,7 @@ public class MainActivity extends ActionBarActivity {
     }
 
     public void addAudiomark() {
+
         java.util.Calendar cal = java.util.Calendar.getInstance();
         T_date = DateFormatter.format(cal, "yyyy-MM-dd HH:mm:ss");
 
@@ -574,11 +577,11 @@ public class MainActivity extends ActionBarActivity {
 
     }
 
-    public void getSavedAudioFilePath(){
+   /* public void getSavedAudioFilePath(){
         ((AudioService)AudioService.mContext).getAudioFilePath();
         Intent intent = getIntent();
         audio_path = intent.getStringExtra("audio_path");
-    }
+    }*/
 
     public void sendBookname(String mBookName) {
 //        BookshelfFragment tf = (BookshelfFragment) getSupportFragmentManager().findFragmentById(R.id.main_container);

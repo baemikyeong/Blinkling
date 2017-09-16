@@ -32,12 +32,12 @@
         "source": "/Users/mac/Blinkling/app/src/main/res/drawable-mdpi/ic_search_default.png"
     },
     {
-        "merged": "/Users/mac/Blinkling/app/build/intermediates/res/merged/debug/drawable-mdpi/ic_mic_pressed.png",
-        "source": "/Users/mac/Blinkling/app/src/main/res/drawable-mdpi/ic_mic_pressed.png"
-    },
-    {
         "merged": "/Users/mac/Blinkling/app/build/intermediates/res/merged/debug/drawable-mdpi/ic_book_default.png",
         "source": "/Users/mac/Blinkling/app/src/main/res/drawable-mdpi/ic_book_default.png"
+    },
+    {
+        "merged": "/Users/mac/Blinkling/app/build/intermediates/res/merged/debug/drawable-mdpi/ic_mic_pressed.png",
+        "source": "/Users/mac/Blinkling/app/src/main/res/drawable-mdpi/ic_mic_pressed.png"
     },
     {
         "merged": "/Users/mac/Blinkling/app/build/intermediates/res/merged/debug/drawable-mdpi/ic_bookmark_default.png",
