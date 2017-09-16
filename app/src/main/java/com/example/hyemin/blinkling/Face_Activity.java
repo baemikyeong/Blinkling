@@ -182,9 +182,10 @@ public final class Face_Activity extends Activity {
             Toast.makeText(this, "시간" + indivisual_blink_time, Toast.LENGTH_SHORT).show();
             editor1.putLong("time_blink", indivisual_blink_time);
             editor1.commit();
+            starttimecheck++;
         }
         startChecked = false;
-        starttimecheck++;
+       // starttimecheck++;
     }
 
     /**
@@ -219,7 +220,7 @@ public final class Face_Activity extends Activity {
         mCameraSource = new CameraSource.Builder(context, detector)
                 .setRequestedPreviewSize(640, 480)
                 .setFacing(CameraSource.CAMERA_FACING_FRONT)
-                .setRequestedFps(10.0f)
+                .setRequestedFps(40.0f)
                 .build();
     }
 

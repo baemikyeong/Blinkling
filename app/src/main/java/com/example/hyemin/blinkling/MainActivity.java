@@ -84,7 +84,7 @@ public class MainActivity extends ActionBarActivity {
     CustomAdapter_audio mAdapter_audio;
     String url;
     Fragment current_fragment;
-
+    int fragment_type;
     private boolean init = true;
     boolean ready = false;
     private boolean isRecording = false;
@@ -142,7 +142,7 @@ public class MainActivity extends ActionBarActivity {
         light = false;
         fragmentManager = getSupportFragmentManager();
         fragment = new BookshelfFragment();
-
+        fragment_type = 1;
         current_fragment = fragment;
         final FragmentTransaction transaction = fragmentManager.beginTransaction();
         transaction.add(R.id.main_container, fragment, "fragBookshelf").commit();
@@ -157,19 +157,23 @@ public class MainActivity extends ActionBarActivity {
                         switch (item.getItemId()) {
                             case R.id.navigation_home:
                                 fragment = new BookshelfFragment();
+                                fragment_type = 1;
                                 break;
 
                             case R.id.navigation_write:
 
                                 fragment = new BookmarkFragment();
+                                fragment_type = 2;
                                 break;
 
                             case R.id.navigation_friends:
                                 fragment = new WebviewFragment();
+                                fragment_type = 3;
                                 break;
 
                             case R.id.navigation_foodbank:
                                 fragment = new SettingFragment();
+                                fragment_type = 4;
                                 break;
 
                         }
@@ -213,6 +217,8 @@ public class MainActivity extends ActionBarActivity {
                 Toast toast;
                 toast = Toast.makeText(this, item.getTitle() + " Clicked eye button!", Toast.LENGTH_SHORT);
                 toast.show();
+                if(fragment_type == 1 && fragment_type == 3)
+                  //  fragment.eye_setting();
                 return true;
             }
             case R.id.voice_btn: {
