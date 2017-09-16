@@ -175,8 +175,8 @@
     <color name="colorDivider">#2FE897</color>
     <color name="colorExtra">#fffac1</color>
     <color name="colorGrey">#efefef</color>
-    <color name="colorPrimary">#a08989</color>
-    <color name="colorPrimaryDark">#7b6b6b</color>
+    <color name="colorPrimary">#8f694a</color>
+    <color name="colorPrimaryDark">#8f694a</color>
     <color name="colorPrimaryLight">#8a3aaf</color>
     <color name="colorWhite">#ffffff</color>
     <color name="color_Back">#11fdf6bf</color>
@@ -1189,7 +1189,7 @@
         <!-- Customize your theme here. -->
         <item name="colorAccent">#a08989</item>
         <item name="colorPrimary">#a08989</item><!---->
-        <item name="colorPrimaryDark">#736262</item><!---->
+        <item name="colorPrimaryDark">#000000</item><!---->
      <!--   <item name="android:navigationBarColor"
             tools:targetApi="lollipop">#ffcdd5</item>-->
     </style>

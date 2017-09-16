@@ -1,10 +1,8 @@
 package com.example.hyemin.blinkling;
 
-import android.annotation.TargetApi;
 import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
-import android.content.pm.PackageManager;
 import android.content.res.Configuration;
 import android.net.Uri;
 import android.os.Build;
@@ -12,11 +10,9 @@ import android.os.Bundle;
 import android.os.Environment;
 import android.provider.Settings;
 import android.support.design.widget.BottomNavigationView;
-import android.support.v4.app.ActivityCompat;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentTransaction;
-import android.support.v4.content.ContextCompat;
 import android.support.v7.app.ActionBarActivity;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.widget.Toolbar;
@@ -32,7 +28,6 @@ import android.widget.Toast;
 import com.example.hyemin.blinkling.BookShelf.BookshelfFragment;
 import com.example.hyemin.blinkling.Book_Viewer.InnerStorageFragment;
 import com.example.hyemin.blinkling.Book_Viewer.TextViewFragment;
-import com.example.hyemin.blinkling.Bookmark.BookTab_Fragment;
 import com.example.hyemin.blinkling.Bookmark.BookmarkFragment;
 import com.example.hyemin.blinkling.Bookmark.CustomAdapter_audio;
 import com.example.hyemin.blinkling.Bookmark.CustomAdapter_book;
@@ -42,15 +37,8 @@ import com.example.hyemin.blinkling.Bookmark.ExamDbFacade;
 import com.example.hyemin.blinkling.Bookmark.ExamDbFacade_audio;
 import com.example.hyemin.blinkling.Bookmark.ExamDbFacade_web;
 import com.example.hyemin.blinkling.Bookmark.InfoClass;
-
-import android.widget.FrameLayout;
-import android.widget.RelativeLayout;
-
-import com.example.hyemin.blinkling.Book_Viewer.InnerStorageFragment;
-import com.example.hyemin.blinkling.Book_Viewer.TextViewFragment;
 import com.example.hyemin.blinkling.Bookmark.InfoClass_audio;
 import com.example.hyemin.blinkling.Bookmark.InfoClass_web;
-
 import com.example.hyemin.blinkling.Service.AudioService;
 import com.example.hyemin.blinkling.Service.ScreenFilterService;
 import com.example.hyemin.blinkling.Setting.SettingFragment;
@@ -58,9 +46,6 @@ import com.example.hyemin.blinkling.Webview.WebviewFragment;
 
 import java.io.File;
 import java.util.ArrayList;
-
-import static android.Manifest.permission.READ_EXTERNAL_STORAGE;
-import static android.Manifest.permission.RECORD_AUDIO;
 
 public class MainActivity extends ActionBarActivity {
 
@@ -123,6 +108,8 @@ public class MainActivity extends ActionBarActivity {
         setContentView(R.layout.activity_main);
 
         mContext = this;
+        Intent intent = getIntent();
+        audio_path = intent.getStringExtra("audio_path");
 
         mFacade = new ExamDbFacade(getApplicationContext());
         mAdapter = new CustomAdapter_book(getApplicationContext(), mFacade.getCursor(), false);
@@ -283,6 +270,7 @@ public class MainActivity extends ActionBarActivity {
         FragmentManager manager = getSupportFragmentManager();
         boolean fragmentPopped = fragmentManager.popBackStackImmediate(backStateName, 0);
 
+
         //  FrameLayout fl = (FrameLayout) findViewById(R.id.main_container);
         //  fl.removeAllViews();
 
@@ -314,13 +302,10 @@ public class MainActivity extends ActionBarActivity {
         bundle.putString("bookname", valueBookName);//번들에 값을 넣음
         frag.setArguments(bundle);
 
-//        FrameLayout fl = (FrameLayout) findViewById(R.id.main_container);
-//        fl.removeAllViews();
+        fragmentManager.popBackStackImmediate(frag.getClass().getName(), fragmentManager.POP_BACK_STACK_INCLUSIVE);
 
-        //   final FragmentTransaction transaction = fragmentManager.beginTransaction();
         replaceFragment(frag);
-        // transaction.replace(R.id.main_container, frag).commit();
-        //  getSupportActionBar().setTitle(valueBookName);
+
         book_title = valueBookName;
 
     }
@@ -414,7 +399,7 @@ public class MainActivity extends ActionBarActivity {
             isRecording = true;
         } else {
             stopService(intent);
-            addAudiomark();
+        //    addAudiomark();
             // Toast.makeText(this, "녹음종료", Toast.LENGTH_SHORT).show();
             isRecording = false;
         }
@@ -488,6 +473,7 @@ public class MainActivity extends ActionBarActivity {
     }
 
     public void addAudiomark() {
+
         java.util.Calendar cal = java.util.Calendar.getInstance();
         T_date = DateFormatter.format(cal, "yyyy-MM-dd HH:mm:ss");
 
@@ -574,11 +560,11 @@ public class MainActivity extends ActionBarActivity {
 
     }
 
-    public void getSavedAudioFilePath(){
+   /* public void getSavedAudioFilePath(){
         ((AudioService)AudioService.mContext).getAudioFilePath();
         Intent intent = getIntent();
         audio_path = intent.getStringExtra("audio_path");
-    }
+    }*/
 
     public void sendBookname(String mBookName) {
 //        BookshelfFragment tf = (BookshelfFragment) getSupportFragmentManager().findFragmentById(R.id.main_container);

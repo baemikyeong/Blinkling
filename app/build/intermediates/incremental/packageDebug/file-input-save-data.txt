@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Sat Sep 16 18:30:16 KST 2017
+#Sat Sep 16 19:13:45 KST 2017
 20.base=/Users/dayeon/Blinkling/app/build/intermediates/res/resources-debug.ap_
 143.base=/Users/dayeon/Blinkling/app/build/intermediates/res/resources-debug.ap_
 493.base=/Users/dayeon/Blinkling/app/build/intermediates/res/resources-debug.ap_

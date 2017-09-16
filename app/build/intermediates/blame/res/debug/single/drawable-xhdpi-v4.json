@@ -668,12 +668,12 @@
         "source": "/Users/dayeon/.android/build-cache/fee9a8ac9094c6137990dbc59faa44e10f656845/output/res/drawable-xhdpi-v4/ic_media_route_on_22_light.png"
     },
     {
-        "merged": "/Users/dayeon/Blinkling/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/ic_media_route_on_12_light.png",
-        "source": "/Users/dayeon/.android/build-cache/fee9a8ac9094c6137990dbc59faa44e10f656845/output/res/drawable-xhdpi-v4/ic_media_route_on_12_light.png"
-    },
-    {
         "merged": "/Users/dayeon/Blinkling/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/ic_media_route_on_10_dark.png",
         "source": "/Users/dayeon/.android/build-cache/fee9a8ac9094c6137990dbc59faa44e10f656845/output/res/drawable-xhdpi-v4/ic_media_route_on_10_dark.png"
+    },
+    {
+        "merged": "/Users/dayeon/Blinkling/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/ic_media_route_on_12_light.png",
+        "source": "/Users/dayeon/.android/build-cache/fee9a8ac9094c6137990dbc59faa44e10f656845/output/res/drawable-xhdpi-v4/ic_media_route_on_12_light.png"
     },
     {
         "merged": "/Users/dayeon/Blinkling/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/ic_media_route_connecting_07_light.png",

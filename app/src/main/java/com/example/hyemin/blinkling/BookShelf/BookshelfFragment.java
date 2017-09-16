@@ -2,12 +2,15 @@ package com.example.hyemin.blinkling.BookShelf;
 
 import android.Manifest;
 import android.app.Activity;
+import android.app.AlertDialog;
+import android.content.DialogInterface;
 import android.content.pm.PackageManager;
 import android.os.Bundle;
 import android.os.Environment;
 import android.support.v4.app.ActivityCompat;
 import android.support.v4.app.Fragment;
 import android.support.v4.content.ContextCompat;
+import android.text.Html;
 import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.View;
@@ -76,6 +79,48 @@ public class BookshelfFragment extends Fragment {
             public void onItemClick(AdapterView parent, View v, int position, long id) {
                 String strItem = gridadapter.getGridViewItemList().get(position).getTitle(); //position은 0부터 시작 position 번째 아이템 이름을 리턴함
                 ( (MainActivity)getActivity()).changeToText(strItem);
+            }
+        });
+
+
+
+        mFileGridView.setOnItemLongClickListener(new AdapterView.OnItemLongClickListener() {
+            @Override
+            public boolean onItemLongClick(AdapterView<?> adapterView, final View v, final int position, long arg3) {
+               final int pos = position;
+                //
+                //
+//                Activity root = getActivity();
+//                Toast toast = Toast.makeText(root, "ㄱ릭레길게 없음", Toast.LENGTH_SHORT);
+//                toast.show();
+
+                String message = "해당 데이터를 삭제하시겠습니까?<br />";
+
+                DialogInterface.OnClickListener deleteListener = new DialogInterface.OnClickListener() {
+
+                    @Override
+                    public void onClick(DialogInterface arg0, int arg1) {
+                        // 선택된 아이템을 리스트에서 삭제한다.
+                        gridadapter.getGridViewItemList().remove(position);
+                        // Adapter에 데이터가 바뀐걸 알리고 리스트뷰에 다시 그린다.
+                        gridadapter.notifyDataSetChanged();
+
+                    }
+
+                };
+
+
+                new AlertDialog.Builder(getActivity())
+                        .setTitle("문서 삭제")
+                        .setMessage(Html.fromHtml(message))
+                        .setPositiveButton("삭제", deleteListener)
+                        .show();
+
+
+
+
+                return true;
+
             }
         });
 
