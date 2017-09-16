@@ -8,12 +8,140 @@
         "source": "/Users/mac/Blinkling/app/src/main/res/drawable-hdpi/ic_search_default.png"
     },
     {
-        "merged": "/Users/mac/Blinkling/app/build/intermediates/res/merged/debug/drawable-hdpi/ic_bluelight_pressed.png",
-        "source": "/Users/mac/Blinkling/app/src/main/res/drawable-hdpi/ic_bluelight_pressed.png"
+        "merged": "/Users/seohyemin/Blinkling-master/app/build/intermediates/res/merged/debug/drawable-hdpi/ic_web_default.png",
+        "source": "/Users/seohyemin/Blinkling-master/app/src/main/res/drawable-hdpi/ic_web_default.png"
+    },
+    {
+        "merged": "/Users/seohyemin/Blinkling-master/app/build/intermediates/res/merged/debug/drawable-hdpi/ic_mic_black_24dp.png",
+        "source": "/Users/seohyemin/Blinkling-master/app/src/main/res/drawable-hdpi/ic_mic_black_24dp.png"
     },
     {
         "merged": "/Users/mac/Blinkling/app/build/intermediates/res/merged/debug/drawable-hdpi/ic_delete_default.png",
         "source": "/Users/mac/Blinkling/app/src/main/res/drawable-hdpi/ic_delete_default.png"
+    },
+    {
+        "merged": "/Users/seohyemin/Blinkling-master/app/build/intermediates/res/merged/debug/drawable-hdpi/ic_page_default.png",
+        "source": "/Users/seohyemin/Blinkling-master/app/src/main/res/drawable-hdpi/ic_page_default.png"
+    },
+    {
+        "merged": "/Users/seohyemin/Blinkling-master/app/build/intermediates/res/merged/debug/drawable-hdpi/ic_customizing_default.png",
+        "source": "/Users/seohyemin/Blinkling-master/app/src/main/res/drawable-hdpi/ic_customizing_default.png"
+    },
+    {
+        "merged": "/Users/seohyemin/Blinkling-master/app/build/intermediates/res/merged/debug/drawable-hdpi/ic_search_white_default.png",
+        "source": "/Users/seohyemin/Blinkling-master/app/src/main/res/drawable-hdpi/ic_search_white_default.png"
+    },
+    {
+        "merged": "/Users/seohyemin/Blinkling-master/app/build/intermediates/res/merged/debug/drawable-hdpi/ic_mic_pressed.png",
+        "source": "/Users/seohyemin/Blinkling-master/app/src/main/res/drawable-hdpi/ic_mic_pressed.png"
+    },
+    {
+        "merged": "/Users/seohyemin/Blinkling-master/app/build/intermediates/res/merged/debug/drawable-hdpi/bookshelf2.png",
+        "source": "/Users/seohyemin/Blinkling-master/app/src/main/res/drawable-hdpi/bookshelf2.png"
+    },
+    {
+        "merged": "/Users/mac/Blinkling/app/build/intermediates/res/merged/debug/drawable-hdpi/ic_clear_black_24dp.png",
+        "source": "/Users/mac/Blinkling/app/src/main/res/drawable-hdpi/ic_clear_black_24dp.png"
+    },
+    {
+        "merged": "/Users/seohyemin/Blinkling-master/app/build/intermediates/res/merged/debug/drawable-hdpi/ic_mybookmark_default.png",
+        "source": "/Users/seohyemin/Blinkling-master/app/src/main/res/drawable-hdpi/ic_mybookmark_default.png"
+    },
+    {
+        "merged": "/Users/seohyemin/Blinkling-master/app/build/intermediates/res/merged/debug/drawable-hdpi/bookshlef3.png",
+        "source": "/Users/seohyemin/Blinkling-master/app/src/main/res/drawable-hdpi/bookshlef3.png"
+    },
+    {
+        "merged": "/Users/seohyemin/Blinkling-master/app/build/intermediates/res/merged/debug/drawable-hdpi/ic_eye_pressed.png",
+        "source": "/Users/seohyemin/Blinkling-master/app/src/main/res/drawable-hdpi/ic_eye_pressed.png"
+    },
+    {
+        "merged": "/Users/mac/Blinkling/app/build/intermediates/res/merged/debug/drawable-hdpi/ic_search_white_default.png",
+        "source": "/Users/mac/Blinkling/app/src/main/res/drawable-hdpi/ic_search_white_default.png"
+    },
+    {
+        "merged": "/Users/seohyemin/Blinkling-master/app/build/intermediates/res/merged/debug/drawable-hdpi/ic_bookmark_pressed.png",
+        "source": "/Users/seohyemin/Blinkling-master/app/src/main/res/drawable-hdpi/ic_bookmark_pressed.png"
+    },
+    {
+        "merged": "/Users/mac/Blinkling/app/build/intermediates/res/merged/debug/drawable-hdpi/ic_remove_red_eye_black_24dp.png",
+        "source": "/Users/mac/Blinkling/app/src/main/res/drawable-hdpi/ic_remove_red_eye_black_24dp.png"
+    },
+    {
+        "merged": "/Users/seohyemin/Blinkling-master/app/build/intermediates/res/merged/debug/drawable-hdpi/ic_browser_default.png",
+        "source": "/Users/seohyemin/Blinkling-master/app/src/main/res/drawable-hdpi/ic_browser_default.png"
+    },
+    {
+        "merged": "/Users/mac/Blinkling/app/build/intermediates/res/merged/debug/drawable-hdpi/bookshlef1.png",
+        "source": "/Users/mac/Blinkling/app/src/main/res/drawable-hdpi/bookshlef1.png"
+    },
+    {
+        "merged": "/Users/seohyemin/Blinkling-master/app/build/intermediates/res/merged/debug/drawable-hdpi/ic_content_cut_black_24dp.png",
+        "source": "/Users/seohyemin/Blinkling-master/app/src/main/res/drawable-hdpi/ic_content_cut_black_24dp.png"
+    },
+    {
+        "merged": "/Users/mac/Blinkling/app/build/intermediates/res/merged/debug/drawable-hdpi/ic_browser_default.png",
+        "source": "/Users/mac/Blinkling/app/src/main/res/drawable-hdpi/ic_browser_default.png"
+    },
+    {
+        "merged": "/Users/mac/Blinkling/app/build/intermediates/res/merged/debug/drawable-hdpi/ic_book_pressed.png",
+        "source": "/Users/mac/Blinkling/app/src/main/res/drawable-hdpi/ic_book_pressed.png"
+    },
+    {
+        "merged": "/Users/seohyemin/Blinkling-master/app/build/intermediates/res/merged/debug/drawable-hdpi/ic_bookmark_default.png",
+        "source": "/Users/seohyemin/Blinkling-master/app/src/main/res/drawable-hdpi/ic_bookmark_default.png"
+    },
+    {
+        "merged": "/Users/mac/Blinkling/app/build/intermediates/res/merged/debug/drawable-hdpi/ic_page_default.png",
+        "source": "/Users/mac/Blinkling/app/src/main/res/drawable-hdpi/ic_page_default.png"
+    },
+    {
+        "merged": "/Users/mac/Blinkling/app/build/intermediates/res/merged/debug/drawable-hdpi/bookshelf2.png",
+        "source": "/Users/mac/Blinkling/app/src/main/res/drawable-hdpi/bookshelf2.png"
+    },
+    {
+        "merged": "/Users/seohyemin/Blinkling-master/app/build/intermediates/res/merged/debug/drawable-hdpi/ic_mic_default.png",
+        "source": "/Users/seohyemin/Blinkling-master/app/src/main/res/drawable-hdpi/ic_mic_default.png"
+    },
+    {
+        "merged": "/Users/seohyemin/Blinkling-master/app/build/intermediates/res/merged/debug/drawable-hdpi/ic_remove_red_eye_black_24dp.png",
+        "source": "/Users/seohyemin/Blinkling-master/app/src/main/res/drawable-hdpi/ic_remove_red_eye_black_24dp.png"
+    },
+    {
+        "merged": "/Users/seohyemin/Blinkling-master/app/build/intermediates/res/merged/debug/drawable-hdpi/ic_mybookmark_pressed.png",
+        "source": "/Users/seohyemin/Blinkling-master/app/src/main/res/drawable-hdpi/ic_mybookmark_pressed.png"
+    },
+    {
+        "merged": "/Users/mac/Blinkling/app/build/intermediates/res/merged/debug/drawable-hdpi/bookshlef3.png",
+        "source": "/Users/mac/Blinkling/app/src/main/res/drawable-hdpi/bookshlef3.png"
+    },
+    {
+        "merged": "/Users/mac/Blinkling/app/build/intermediates/res/merged/debug/drawable-hdpi/ic_bookmark_default.png",
+        "source": "/Users/mac/Blinkling/app/src/main/res/drawable-hdpi/ic_bookmark_default.png"
+    },
+    {
+        "merged": "/Users/seohyemin/Blinkling-master/app/build/intermediates/res/merged/debug/drawable-hdpi/ic_book_pressed.png",
+        "source": "/Users/seohyemin/Blinkling-master/app/src/main/res/drawable-hdpi/ic_book_pressed.png"
+    },
+    {
+        "merged": "/Users/mac/Blinkling/app/build/intermediates/res/merged/debug/drawable-hdpi/ic_mybookmark_pressed.png",
+        "source": "/Users/mac/Blinkling/app/src/main/res/drawable-hdpi/ic_mybookmark_pressed.png"
+    },
+    {
+        "merged": "/Users/mac/Blinkling/app/build/intermediates/res/merged/debug/drawable-hdpi/ic_lightbulb_outline_black_24dp.png",
+        "source": "/Users/mac/Blinkling/app/src/main/res/drawable-hdpi/ic_lightbulb_outline_black_24dp.png"
+    },
+    {
+        "merged": "/Users/mac/Blinkling/app/build/intermediates/res/merged/debug/drawable-hdpi/ic_mic_pressed.png",
+        "source": "/Users/mac/Blinkling/app/src/main/res/drawable-hdpi/ic_mic_pressed.png"
+    },
+    {
+        "merged": "/Users/mac/Blinkling/app/build/intermediates/res/merged/debug/drawable-hdpi/ic_web_pressed.png",
+        "source": "/Users/mac/Blinkling/app/src/main/res/drawable-hdpi/ic_web_pressed.png"
+    },
+    {
+        "merged": "/Users/mac/Blinkling/app/build/intermediates/res/merged/debug/drawable-hdpi/ic_bluelight_pressed.png",
+        "source": "/Users/mac/Blinkling/app/src/main/res/drawable-hdpi/ic_bluelight_pressed.png"
     },
     {
         "merged": "/Users/mac/Blinkling/app/build/intermediates/res/merged/debug/drawable-hdpi/ic_settings_default.png",
@@ -24,6 +152,10 @@
         "source": "/Users/mac/Blinkling/app/src/main/res/drawable-hdpi/ic_back_default.png"
     },
     {
+        "merged": "/Users/seohyemin/Blinkling-master/app/build/intermediates/res/merged/debug/drawable-hdpi/ic_bluelight_default.png",
+        "source": "/Users/seohyemin/Blinkling-master/app/src/main/res/drawable-hdpi/ic_bluelight_default.png"
+    },
+    {
         "merged": "/Users/mac/Blinkling/app/build/intermediates/res/merged/debug/drawable-hdpi/ic_turned_in_black_24dp.png",
         "source": "/Users/mac/Blinkling/app/src/main/res/drawable-hdpi/ic_turned_in_black_24dp.png"
     },
@@ -32,8 +164,8 @@
         "source": "/Users/mac/Blinkling/app/src/main/res/drawable-hdpi/ic_book_default.png"
     },
     {
-        "merged": "/Users/mac/Blinkling/app/build/intermediates/res/merged/debug/drawable-hdpi/ic_clear_black_24dp.png",
-        "source": "/Users/mac/Blinkling/app/src/main/res/drawable-hdpi/ic_clear_black_24dp.png"
+        "merged": "/Users/seohyemin/Blinkling-master/app/build/intermediates/res/merged/debug/drawable-hdpi/bookshlef1.png",
+        "source": "/Users/seohyemin/Blinkling-master/app/src/main/res/drawable-hdpi/bookshlef1.png"
     },
     {
         "merged": "/Users/mac/Blinkling/app/build/intermediates/res/merged/debug/drawable-hdpi/ic_mic_black_24dp.png",
@@ -44,24 +176,48 @@
         "source": "/Users/mac/Blinkling/app/src/main/res/drawable-hdpi/ic_content_cut_black_24dp.png"
     },
     {
-        "merged": "/Users/mac/Blinkling/app/build/intermediates/res/merged/debug/drawable-hdpi/ic_search_white_default.png",
-        "source": "/Users/mac/Blinkling/app/src/main/res/drawable-hdpi/ic_search_white_default.png"
+        "merged": "/Users/seohyemin/Blinkling-master/app/build/intermediates/res/merged/debug/drawable-hdpi/ic_settings_pressed.png",
+        "source": "/Users/seohyemin/Blinkling-master/app/src/main/res/drawable-hdpi/ic_settings_pressed.png"
+    },
+    {
+        "merged": "/Users/seohyemin/Blinkling-master/app/build/intermediates/res/merged/debug/drawable-hdpi/ic_mic_pressed_on.png",
+        "source": "/Users/seohyemin/Blinkling-master/app/src/main/res/drawable-hdpi/ic_mic_pressed_on.png"
+    },
+    {
+        "merged": "/Users/seohyemin/Blinkling-master/app/build/intermediates/res/merged/debug/drawable-hdpi/ic_book_default.png",
+        "source": "/Users/seohyemin/Blinkling-master/app/src/main/res/drawable-hdpi/ic_book_default.png"
     },
     {
         "merged": "/Users/mac/Blinkling/app/build/intermediates/res/merged/debug/drawable-hdpi/ic_mic_default.png",
         "source": "/Users/mac/Blinkling/app/src/main/res/drawable-hdpi/ic_mic_default.png"
     },
     {
-        "merged": "/Users/mac/Blinkling/app/build/intermediates/res/merged/debug/drawable-hdpi/ic_mybookmark_default.png",
-        "source": "/Users/mac/Blinkling/app/src/main/res/drawable-hdpi/ic_mybookmark_default.png"
+        "merged": "/Users/seohyemin/Blinkling-master/app/build/intermediates/res/merged/debug/drawable-hdpi/ic_back_default.png",
+        "source": "/Users/seohyemin/Blinkling-master/app/src/main/res/drawable-hdpi/ic_back_default.png"
     },
     {
-        "merged": "/Users/mac/Blinkling/app/build/intermediates/res/merged/debug/drawable-hdpi/ic_remove_red_eye_black_24dp.png",
-        "source": "/Users/mac/Blinkling/app/src/main/res/drawable-hdpi/ic_remove_red_eye_black_24dp.png"
+        "merged": "/Users/seohyemin/Blinkling-master/app/build/intermediates/res/merged/debug/drawable-hdpi/ic_lightbulb_outline_black_24dp.png",
+        "source": "/Users/seohyemin/Blinkling-master/app/src/main/res/drawable-hdpi/ic_lightbulb_outline_black_24dp.png"
+    },
+    {
+        "merged": "/Users/seohyemin/Blinkling-master/app/build/intermediates/res/merged/debug/drawable-hdpi/ic_turned_in_black_24dp.png",
+        "source": "/Users/seohyemin/Blinkling-master/app/src/main/res/drawable-hdpi/ic_turned_in_black_24dp.png"
+    },
+    {
+        "merged": "/Users/seohyemin/Blinkling-master/app/build/intermediates/res/merged/debug/drawable-hdpi/ic_delete_default.png",
+        "source": "/Users/seohyemin/Blinkling-master/app/src/main/res/drawable-hdpi/ic_delete_default.png"
     },
     {
         "merged": "/Users/mac/Blinkling/app/build/intermediates/res/merged/debug/drawable-hdpi/ic_eye_default.png",
         "source": "/Users/mac/Blinkling/app/src/main/res/drawable-hdpi/ic_eye_default.png"
+    },
+    {
+        "merged": "/Users/mac/Blinkling/app/build/intermediates/res/merged/debug/drawable-hdpi/ic_mybookmark_default.png",
+        "source": "/Users/mac/Blinkling/app/src/main/res/drawable-hdpi/ic_mybookmark_default.png"
+    },
+    {
+        "merged": "/Users/seohyemin/Blinkling-master/app/build/intermediates/res/merged/debug/drawable-hdpi/ic_web_pressed.png",
+        "source": "/Users/seohyemin/Blinkling-master/app/src/main/res/drawable-hdpi/ic_web_pressed.png"
     },
     {
         "merged": "/Users/mac/Blinkling/app/build/intermediates/res/merged/debug/drawable-hdpi/ic_bookmark_pressed.png",
@@ -72,8 +228,12 @@
         "source": "/Users/mac/Blinkling/app/src/main/res/drawable-hdpi/ic_settings_pressed.png"
     },
     {
-        "merged": "/Users/mac/Blinkling/app/build/intermediates/res/merged/debug/drawable-hdpi/bookshlef1.png",
-        "source": "/Users/mac/Blinkling/app/src/main/res/drawable-hdpi/bookshlef1.png"
+        "merged": "/Users/seohyemin/Blinkling-master/app/build/intermediates/res/merged/debug/drawable-hdpi/ic_clear_black_24dp.png",
+        "source": "/Users/seohyemin/Blinkling-master/app/src/main/res/drawable-hdpi/ic_clear_black_24dp.png"
+    },
+    {
+        "merged": "/Users/seohyemin/Blinkling-master/app/build/intermediates/res/merged/debug/drawable-hdpi/ic_search_default.png",
+        "source": "/Users/seohyemin/Blinkling-master/app/src/main/res/drawable-hdpi/ic_search_default.png"
     },
     {
         "merged": "/Users/mac/Blinkling/app/build/intermediates/res/merged/debug/drawable-hdpi/ic_left_default.png",
@@ -92,51 +252,31 @@
         "source": "/Users/mac/Blinkling/app/src/main/res/drawable-hdpi/splash.png"
     },
     {
-        "merged": "/Users/mac/Blinkling/app/build/intermediates/res/merged/debug/drawable-hdpi/ic_browser_default.png",
-        "source": "/Users/mac/Blinkling/app/src/main/res/drawable-hdpi/ic_browser_default.png"
+        "merged": "/Users/seohyemin/Blinkling-master/app/build/intermediates/res/merged/debug/drawable-hdpi/splash.png",
+        "source": "/Users/seohyemin/Blinkling-master/app/src/main/res/drawable-hdpi/splash.png"
     },
     {
-        "merged": "/Users/mac/Blinkling/app/build/intermediates/res/merged/debug/drawable-hdpi/ic_book_pressed.png",
-        "source": "/Users/mac/Blinkling/app/src/main/res/drawable-hdpi/ic_book_pressed.png"
+        "merged": "/Users/seohyemin/Blinkling-master/app/build/intermediates/res/merged/debug/drawable-hdpi/ic_bluelight_pressed.png",
+        "source": "/Users/seohyemin/Blinkling-master/app/src/main/res/drawable-hdpi/ic_bluelight_pressed.png"
     },
     {
-        "merged": "/Users/mac/Blinkling/app/build/intermediates/res/merged/debug/drawable-hdpi/ic_page_default.png",
-        "source": "/Users/mac/Blinkling/app/src/main/res/drawable-hdpi/ic_page_default.png"
+        "merged": "/Users/seohyemin/Blinkling-master/app/build/intermediates/res/merged/debug/drawable-hdpi/ic_settings_default.png",
+        "source": "/Users/seohyemin/Blinkling-master/app/src/main/res/drawable-hdpi/ic_settings_default.png"
     },
     {
-        "merged": "/Users/mac/Blinkling/app/build/intermediates/res/merged/debug/drawable-hdpi/bookshelf2.png",
-        "source": "/Users/mac/Blinkling/app/src/main/res/drawable-hdpi/bookshelf2.png"
-    },
-    {
-        "merged": "/Users/mac/Blinkling/app/build/intermediates/res/merged/debug/drawable-hdpi/bookshlef3.png",
-        "source": "/Users/mac/Blinkling/app/src/main/res/drawable-hdpi/bookshlef3.png"
-    },
-    {
-        "merged": "/Users/mac/Blinkling/app/build/intermediates/res/merged/debug/drawable-hdpi/ic_bookmark_default.png",
-        "source": "/Users/mac/Blinkling/app/src/main/res/drawable-hdpi/ic_bookmark_default.png"
-    },
-    {
-        "merged": "/Users/mac/Blinkling/app/build/intermediates/res/merged/debug/drawable-hdpi/ic_mybookmark_pressed.png",
-        "source": "/Users/mac/Blinkling/app/src/main/res/drawable-hdpi/ic_mybookmark_pressed.png"
+        "merged": "/Users/seohyemin/Blinkling-master/app/build/intermediates/res/merged/debug/drawable-hdpi/ic_eye_default.png",
+        "source": "/Users/seohyemin/Blinkling-master/app/src/main/res/drawable-hdpi/ic_eye_default.png"
     },
     {
         "merged": "/Users/mac/Blinkling/app/build/intermediates/res/merged/debug/drawable-hdpi/ic_eye_pressed.png",
         "source": "/Users/mac/Blinkling/app/src/main/res/drawable-hdpi/ic_eye_pressed.png"
     },
     {
-        "merged": "/Users/mac/Blinkling/app/build/intermediates/res/merged/debug/drawable-hdpi/ic_mic_pressed.png",
-        "source": "/Users/mac/Blinkling/app/src/main/res/drawable-hdpi/ic_mic_pressed.png"
-    },
-    {
-        "merged": "/Users/mac/Blinkling/app/build/intermediates/res/merged/debug/drawable-hdpi/ic_lightbulb_outline_black_24dp.png",
-        "source": "/Users/mac/Blinkling/app/src/main/res/drawable-hdpi/ic_lightbulb_outline_black_24dp.png"
-    },
-    {
         "merged": "/Users/mac/Blinkling/app/build/intermediates/res/merged/debug/drawable-hdpi/ic_bluelight_default.png",
         "source": "/Users/mac/Blinkling/app/src/main/res/drawable-hdpi/ic_bluelight_default.png"
     },
     {
-        "merged": "/Users/mac/Blinkling/app/build/intermediates/res/merged/debug/drawable-hdpi/ic_web_pressed.png",
-        "source": "/Users/mac/Blinkling/app/src/main/res/drawable-hdpi/ic_web_pressed.png"
+        "merged": "/Users/seohyemin/Blinkling-master/app/build/intermediates/res/merged/debug/drawable-hdpi/ic_left_default.png",
+        "source": "/Users/seohyemin/Blinkling-master/app/src/main/res/drawable-hdpi/ic_left_default.png"
     }
 ]
