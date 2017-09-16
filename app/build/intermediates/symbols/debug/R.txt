@@ -1389,7 +1389,6 @@ int id bookImage 0x7f0f012f
 int id bookTitle 0x7f0f0130
 int id book_now 0x7f0f0082
 int id bookmark_btn 0x7f0f0184
-int id bookmark_delete 0x7f0f0186
 int id bottom 0x7f0f003c
 int id bottom_navigation 0x7f0f00c8
 int id bright_gauge 0x7f0f010e
@@ -1567,7 +1566,6 @@ int id never 0x7f0f0067
 int id none 0x7f0f0025
 int id normal 0x7f0f0027
 int id notebook_add 0x7f0f0180
-int id notebook_delete 0x7f0f0185
 int id notification_background 0x7f0f016b
 int id notification_main_column 0x7f0f0166
 int id notification_main_column_container 0x7f0f0165
@@ -1726,7 +1724,7 @@ int id voice_btn 0x7f0f0183
 int id volume_item_container 0x7f0f0155
 int id webView1 0x7f0f012d
 int id webView_frag 0x7f0f0129
-int id webmark_add 0x7f0f0187
+int id webmark_add 0x7f0f0185
 int id wide 0x7f0f0076
 int id withText 0x7f0f0068
 int id wrap 0x7f0f001f

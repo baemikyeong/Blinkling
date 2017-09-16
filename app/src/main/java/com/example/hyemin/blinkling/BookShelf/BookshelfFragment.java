@@ -25,12 +25,9 @@ import java.util.List;
 
 import static android.R.id.list;
 
-import static android.Manifest.permission.READ_EXTERNAL_STORAGE;
-
 public class BookshelfFragment extends Fragment {
     File dir = Environment.getExternalStorageDirectory().getAbsoluteFile();
     GridView mFileGridView;
-    ArrayList<String> mArrayListFile;//파일
     final static GridViewAdapter gridadapter = new GridViewAdapter();
     String mBookName = "";
     String InStoragePath = Environment.getExternalStorageDirectory().getAbsolutePath() +"/Blinkling";
@@ -105,8 +102,6 @@ public class BookshelfFragment extends Fragment {
         }
     }
     public void setBookshelf(String mBookName_main){
-//        gridadapter = new GridViewAdapter();
-//        mFileGridView.setAdapter(gridadapter);
         gridadapter.addItem(ContextCompat.getDrawable(getActivity(), R.drawable.book1)
                 ,  mBookName_main) ;
 
@@ -115,81 +110,12 @@ public class BookshelfFragment extends Fragment {
 
     }
 
-//    String path="C:\";
-//    File dirFile=new File(path);
-//    File []fileList=dirFile.listFiles();
-//for(File tempFile : fileList) {
-//        if(tempFile.isFile()) {
-//            String tempPath=tempFile.getParent();
-//            String tempFileName=tempFile.getName();
-//            System.out.println("Path="+tempPath);
-//            System.out.println("FileName="+tempFileName);
-//            /*** Do something withd tempPath and temp FileName ^^; ***/
-//        }
-//    }
-
-//    public File[] getBlinklingList(){
-//       Activity root = getActivity();
-//        File fileRoot = new File(InStoragePath);
-//        if(fileRoot.isDirectory() == false){
-//            //파일이라면!!즉 처음 블링클링 안에 아무것도 없는 초기상태
-/////////////////////////////////////////////////////////////여기토스트수정///////////////////////////////////////////////////////////////////////////////////////
-//            Toast toast = Toast.makeText(root, "블링클링 폴더에 아무것도 없음", Toast.LENGTH_SHORT);
-//            toast.show();
-//            return null;
-//        }
-//
-//
-//        File[] stringFileList = fileRoot.listFiles();
-//
-//
-////        for( File ffile : stringFileList) {
-////            if(ffile.isFile()){
-////                mFileList.add( ffile.getName() );
-////            }
-////            else {
-////                Toast toast = Toast.makeText(root, "파일이 없음", Toast.LENGTH_SHORT);
-////                toast.show();
-////            }
-////        }
-//
-////            return mFileList;
-//        return stringFileList;
-//        }
-
-
     public String[] getBlinklingList(){
-        Activity root = getActivity();
         File fileRoot = new File(InStoragePath);
-//        if(fileRoot.isDirectory() == false){
-//            //파일이라면!!즉 처음 블링클링 안에 아무것도 없는 초기상태
-/////////////////////////////////////////////////////////////여기토스트수정///////////////////////////////////////////////////////////////////////////////////////
-//            Toast toast = Toast.makeText(root, "블링클링 폴더에 아무것도 없음", Toast.LENGTH_SHORT);
-//            toast.show();
-//            return null;
-//        }
-
         String[] stringFileList = fileRoot.list();
         return stringFileList;
 
     }
-
-
-
-//    public void showToBookShelf(File[] stringFileList){
-//
-//        if(gridadapter.isEmpty() == true) {
-//            for (int i = 0; i < stringFileList.length; i++) {
-//                gridadapter.addItem(ContextCompat.getDrawable(getActivity(), R.drawable.book1)
-//                        , stringFileList[i].getName());
-//            }
-//            gridadapter.notifyDataSetChanged();
-//        }
-//
-//
-//    }
-
-
 
     public void showToBookShelf(String []stringFileList){
 
@@ -203,8 +129,6 @@ public class BookshelfFragment extends Fragment {
 
 
     }
-
-
 
     @Override
     public void onResume() {
@@ -220,7 +144,6 @@ public class BookshelfFragment extends Fragment {
         menu.findItem(R.id.voice_btn).setVisible(false);
         menu.findItem(R.id.eye_btn).setVisible(false);
         menu.findItem(R.id.light_btn).setVisible(false);
-        menu.findItem(R.id.bookmark_delete).setVisible(false);
         menu.findItem(R.id.webmark_add).setVisible(false);
         super.onPrepareOptionsMenu(menu);
     }

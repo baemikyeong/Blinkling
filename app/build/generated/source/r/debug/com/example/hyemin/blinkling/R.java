@@ -4614,7 +4614,6 @@ containing a value of this type.
         public static final int bookTitle=0x7f0f0130;
         public static final int book_now=0x7f0f0082;
         public static final int bookmark_btn=0x7f0f0184;
-        public static final int bookmark_delete=0x7f0f0186;
         public static final int bottom=0x7f0f003c;
         public static final int bottom_navigation=0x7f0f00c8;
         public static final int bright_gauge=0x7f0f010e;
@@ -4792,7 +4791,6 @@ containing a value of this type.
         public static final int none=0x7f0f0025;
         public static final int normal=0x7f0f0027;
         public static final int notebook_add=0x7f0f0180;
-        public static final int notebook_delete=0x7f0f0185;
         public static final int notification_background=0x7f0f016b;
         public static final int notification_main_column=0x7f0f0166;
         public static final int notification_main_column_container=0x7f0f0165;
@@ -4951,7 +4949,7 @@ containing a value of this type.
         public static final int volume_item_container=0x7f0f0155;
         public static final int webView1=0x7f0f012d;
         public static final int webView_frag=0x7f0f0129;
-        public static final int webmark_add=0x7f0f0187;
+        public static final int webmark_add=0x7f0f0185;
         public static final int wide=0x7f0f0076;
         public static final int withText=0x7f0f0068;
         public static final int wrap=0x7f0f001f;
@@ -5261,6 +5259,9 @@ containing a value of this type.
         public static final int Animation_AppCompat_DropDownUp=0x7f0a00a5;
         public static final int Animation_Design_BottomSheetDialog=0x7f0a00a6;
         public static final int AppBaseTheme=0x7f0a00a7;
+        /**    <item name="android:navigationBarColor"
+            tools:targetApi="lollipop">#ffcdd5</item>
+         */
         public static final int AppTheme=0x7f0a00a8;
         public static final int Base_AlertDialog_AppCompat=0x7f0a00a9;
         public static final int Base_AlertDialog_AppCompat_Light=0x7f0a00aa;

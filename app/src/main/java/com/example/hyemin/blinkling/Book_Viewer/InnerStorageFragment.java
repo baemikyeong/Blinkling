@@ -39,8 +39,6 @@ public class InnerStorageFragment extends ListFragment {
     String mPath = "";
     String mRoot = "";
     String mBookName = "";//사용자가 클릭한 북네임
-    String strPathComp = "";
-    // String InStoragePath = Environment.getRootDirectory().getAbsolutePath();
     String InStoragePath = Environment.getExternalStorageDirectory().getAbsolutePath();
 
 
@@ -50,12 +48,6 @@ public class InnerStorageFragment extends ListFragment {
         setHasOptionsMenu(true);
     }
 
-    //    Fragment frag = new TextViewFragment();
-//    Bundle bundle = new Bundle();
-//            bundle.putString("bookname",mBookName);
-//            frag.setArguments(bundle);
-//
-//             ( (MainActivity)getActivity()).changeToText();
     public InnerStorageFragment() {
         // Required empty public constructor
     }
@@ -73,8 +65,6 @@ public class InnerStorageFragment extends ListFragment {
         menu.findItem(R.id.eye_btn).setVisible(false);
         menu.findItem(R.id.light_btn).setVisible(false);
         menu.findItem(R.id.notebook_add).setVisible(false);
-        menu.findItem(R.id.notebook_delete).setVisible(false);
-        menu.findItem(R.id.bookmark_delete).setVisible(false);
         menu.findItem(R.id.webmark_add).setVisible(false);
         super.onPrepareOptionsMenu(menu);
     }
@@ -85,15 +75,11 @@ public class InnerStorageFragment extends ListFragment {
         View rootView = inflater.inflate(R.layout.fragment_inner_storage, container, false);
         mFileListView = (ListView) rootView.findViewById(android.R.id.list);
         mRoot = InStoragePath;
-        //  ( (MainActivity)getActivity()).changeToBookshelf();
-        //    findFolder();
 
         // SD카드 접근시임
         String ext = Environment.getExternalStorageState();
         if (ext.equals(Environment.MEDIA_MOUNTED)) {
             findFolder();
-            Activity root = getActivity();
-
 
         } else {
             Activity root = getActivity();
@@ -101,19 +87,14 @@ public class InnerStorageFragment extends ListFragment {
             toast.show();
         }
 
-
-
         return rootView;
     }
 
 
     private void findFolder() {
-        // Environment.getRootDirectory().getAbsolutePath()
-
 
         mArrayListFile = new ArrayList<String>();
 
-        //String InStoragePath = Environment.getExternalStorageDirectory().getAbsolutePath();
         File files = new File(InStoragePath);
         Activity root = getActivity();
         ArrayAdapter<String> arrayAdapter = new ArrayAdapter<String>(root, android.R.layout.simple_list_item_1, mArrayListFile);
@@ -122,8 +103,6 @@ public class InnerStorageFragment extends ListFragment {
             for (File file : files.listFiles()) {
                 mArrayListFile.add(file.getName());
             }
-        } else {
-            files = null;
         }
         setListAdapter(arrayAdapter);
     }
@@ -146,8 +125,6 @@ public class InnerStorageFragment extends ListFragment {
         } else
             strPathComp = mPath + "/" + strFolder;
 
-        Activity root = getActivity();
-
         return strPathComp;//       /선택된 폴더 이름 리턴
     }
 
@@ -159,8 +136,6 @@ public class InnerStorageFragment extends ListFragment {
         // 해당 경로가 폴더가 아니라면 함수 탈출
         if (fileRoot.isDirectory() == false) {//false즉 마지막 파일이라면 (디렉터리가 아니라)
             Activity root = getActivity();
-//            Toast toast = Toast.makeText(root, "IF문", Toast.LENGTH_SHORT);
-//            toast.show();
             //sd카드에는 텍스트 파일만 있다고 가정,   strPath이름의 텍스트 파일을 읽을거야
             int pos = strPath.lastIndexOf("/");
             strPath = strPath.substring(pos+1);//pos=시작인덱스, 포스부터 쭉 서브스트링을 리턴
@@ -168,50 +143,18 @@ public class InnerStorageFragment extends ListFragment {
             int txt = strPath.lastIndexOf("txt");
             int pdf = strPath.lastIndexOf("pdf");
 
-//            pos = strPath.lastIndexOf(".");
-//            strPath = strPath.substring(0,pos);
             mBookName = strPath; //
 
-
-
-//그러니까 경로의 마지막부분인 파일이름으로 읽는걸 들어가야 한다.
-            //  newInstance(mBookName);
-//            Fragment frag = new TextViewFragment();
-//            Bundle bundle = new Bundle();
-//            bundle.putString("bookname",mBookName);
-//            frag.setArguments(bundle);
-
             if(txt != -1){
-//                Fragment fragment = new BookshelfFragment(); // Fragment 생성
-//                Bundle bundle = new Bundle(1); // 파라미터는 전달할 데이터 개수
-//                bundle.putString("keyBook", mBookName); // key , value
-//                fragment.setArguments(bundle);
-
 
                 fileMove(InStoragePath + "/" + mBookName, InStoragePath+"/Blinkling" + "/" + mBookName);
-//mBookName이 이름을 북쉘프에 띄워야해!!
+
+                //mBookName이 이름을 북쉘프에 띄워야해!!
 
                 ((MainActivity)getActivity()).sendBookname(mBookName);
 
-
-
-
-
-//                FileInputStream fis = new FileInputStream(InStoragePath+ "/" + mBookName);
-//                FileOutputStream fos = new FileOutputStream("/sdcard/이동할폴더명/파일명");
-//
-//                int data = 0;
-//
-//                while((data=fis.read())!=-1)
-//                {
-//                    fos.write(data);
-//                }
-//
-//                fis.close();
-//                fos.close();
                 return null;
 
-                //   ( (MainActivity)getActivity()).changeToText(mBookName);//진짜 북네임임 이 값을 북쉘프로 넘겨야되ㅁ
             }
             else if(pdf != -1){
                 File file = new File(dir, mBookName);
@@ -241,7 +184,6 @@ public class InnerStorageFragment extends ListFragment {
             return null;
         }
         mPath = strPath; //InStoragePath + strPath
-        //    mTextMsg.setText(mPath);
         // 파일 목록을 구한다
         String[] fileList = fileRoot.list();
         return fileList;

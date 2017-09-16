@@ -38,9 +38,6 @@ public class WebTab_Fragment extends Fragment {
     private ListView mListView;
     private ExamDbFacade_web mFacade;
     EditText search_web;
-    // Long click된 item의 index(position)을 기록한다.
-    int selectedPos = -1;
-    ArrayList<InfoClass_web> insertResult;
     ArrayList<InfoClass_web> selectResult;
     Spinner s;
 
@@ -193,24 +190,7 @@ public class WebTab_Fragment extends Fragment {
 
         // Inflate the layout for this fragment
         return view;
-    }/*
-
-    public interface OnHeadlineSelectedListener {
-        public void onArticleSelected(int position);
-    }*/
-
-
-/*    public void onAttach(Activity activity) {
-        super.onAttach(activity);
-
-        try{
-            mCallback = (OnHeadlineSelectedListener) activity;
-        } catch (ClassCastException e) {
-            throw new ClassCastException(activity.toString()+"must implement OnHeadlineSelectedListener");
-
-        }
-
-    }*/
+    }
 
     public void onActivityCreated(Bundle savedInstanceState) {
         super.onActivityCreated(savedInstanceState);
@@ -221,20 +201,12 @@ public class WebTab_Fragment extends Fragment {
             @Override
             public void onItemClick(AdapterView<?> adapterView, View view, int position, long id) {
                 final int pos = position;
-
+                mCursor = mFacade.getCursor();
                 mCursor.moveToPosition(pos);
 
                 String url = mCursor.getString(mCursor.getColumnIndex(ExamDbContract_web.ExamDbEntry.POS));
 
-                // Toast.makeText(getActivity(),url,Toast.LENGTH_SHORT).show();
-
                 ((MainActivity) getActivity()).goWebview(url);
-//                FragmentManager fm = getFragmentManager();
-//                WebviewFragment w_frag = (WebviewFragment)fm.findFragmentById(R.id.webView_frag);
-//                w_frag.goPage(url);
-
-              /*  mCallback.onArticleSelected(pos);
-                mHostActivity.goWebview(url);*/
 
             }
         });

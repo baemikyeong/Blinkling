@@ -39,6 +39,7 @@ import android.widget.Toast;
 
 import com.example.hyemin.blinkling.MainActivity;
 import com.example.hyemin.blinkling.R;
+import com.example.hyemin.blinkling.event.EyeSettingEvent;
 import com.example.hyemin.blinkling.event.NeutralFaceEvent;
 import com.example.hyemin.blinkling.event.RightEyeClosedEvent;
 import com.example.hyemin.blinkling.tracker.FaceTracker;
@@ -69,20 +70,12 @@ public class TextViewFragment extends Fragment {
 
     private static final int REQUEST_CAMERA_PERM = 69;      // 카메라 퍼미션을 위한 코드
     public static TextView tv;                              // 텍스트 뷰를 띄워줄 뷰
-    private HorizontalScrollView horizon_scrollView;
     private ScrollView scrollView;                          // 텍스트 뷰를 스크롤 뷰를 이용해 화면에 출력
-    private ViewPager viewpager;                            // 텍스트 뷰를 뷰페이저를 이용해 화면에 출력
     private int[] location = new int[2];                    // 사용자가 현재 보고 있는 화면의 위치 저장
     private FaceDetector mFaceDetector;                     // 얼굴 인식
     private CameraSource mCameraSource;                     // 카메라 객체
     private FaceTracker face_tracker;                       // 눈 파악
-    private double left_thres = 0;                          // 사용자의 초기값
-    private double right_thres = 0;
-    private SharedPreferences bookmarkPref;
-    private SharedPreferences.Editor bookEdit;
-    private int book_mark;
     private SharedPreferences intPref;
-    private SharedPreferences.Editor editor1;
     private WindowManager.LayoutParams params;
     private float brightness; // 밝기값은 float형으로 저장되어 있습니다.
     private ViewPager mPager;
@@ -99,7 +92,7 @@ public class TextViewFragment extends Fragment {
     public static ViewGroup textviewPage;
     private int bookmark_position;
     private String bookName = "";
-    int a = 1;
+    Boolean eyesetting = true;
 
     @Override
     public void onCreate(@Nullable Bundle savedInstanceState) {
@@ -123,9 +116,8 @@ public class TextViewFragment extends Fragment {
                              Bundle savedInstanceState) {
 
         PlayServicesUtil.isPlayServicesAvailable(getActivity(), 69);
-
+        eyesetting = ((MainActivity)getActivity()).eyesetting;
         intPref = this.getActivity().getSharedPreferences("mPred", Activity.MODE_PRIVATE);//이거
-        editor1 = intPref.edit();
 
         int bgcolor = intPref.getInt("background", 0);
         font = intPref.getInt("font_edit", 0);
@@ -267,9 +259,25 @@ public class TextViewFragment extends Fragment {
 
     public void onPrepareOptionsMenu(Menu menu) {
         menu.findItem(R.id.notebook_add).setVisible(false);
-        menu.findItem(R.id.notebook_delete).setVisible(false);
-        menu.findItem(R.id.bookmark_delete).setVisible(false);
         menu.findItem(R.id.webmark_add).setVisible(false);
+
+        if(eyesetting == false)
+            menu.findItem(R.id.eye_btn).setIcon(R.drawable.ic_eye_pressed);
+        else
+            menu.findItem(R.id.eye_btn).setIcon(R.drawable.ic_eye_default);
+
+        if((((MainActivity)getActivity()).lightsetting) == true){
+            menu.findItem(R.id.light_btn).setIcon(R.drawable.ic_bluelight_default);
+        }
+        else
+            menu.findItem(R.id.light_btn).setIcon(R.drawable.ic_bluelight_pressed);
+
+        if((((MainActivity)getActivity()).recordingsetting) == true){
+            menu.findItem(R.id.voice_btn).setIcon(R.drawable.ic_mic_pressed);
+        }
+        else
+            menu.findItem(R.id.voice_btn).setIcon(R.drawable.ic_mic_pressed_on);
+
         super.onPrepareOptionsMenu(menu);
     }
 
@@ -437,8 +445,8 @@ public class TextViewFragment extends Fragment {
                 location[1] = (-1) * location[1];
 
             // 위치 변경
-            scrollView.scrollTo(0, location[1] + 120);
-            location[1] += 120;
+            scrollView.scrollTo(0, location[1] + 300);
+            location[1] += 300;
 
         }
 
@@ -568,14 +576,20 @@ public class TextViewFragment extends Fragment {
 
     @Subscribe(threadMode = ThreadMode.MAIN)
     public void onRightEyeClosed(RightEyeClosedEvent e) {
-        // change_up_location();
-        change_down_location();
-        try {
-            sleep(100);
-        } catch (InterruptedException e1) {
-            e1.printStackTrace();
+        if(eyesetting == true) {
+            // change_up_location();
+            change_down_location();
+            try {
+                sleep(100);
+            } catch (InterruptedException e1) {
+                e1.printStackTrace();
+            }
         }
+    }
 
+    @Subscribe(threadMode = ThreadMode.MAIN)
+    public void onEyeSetting(EyeSettingEvent e) {
+        eyesetting = ((MainActivity)getActivity()).eyesetting;
     }
 
     @Subscribe(threadMode = ThreadMode.MAIN)
@@ -610,7 +624,7 @@ public class TextViewFragment extends Fragment {
 
         float right_eye = intPref.getFloat("LValue", 0.7f);
         float left_eye = intPref.getFloat("RValue", 0.7f);
-        long blink_time = intPref.getLong("time_blink", 500);
+        long blink_time = intPref.getLong("time_blink", 900);
         face_tracker.set_indi(left_eye, right_eye, blink_time);
 
         mFaceDetector.setProcessor(new LargestFaceFocusingProcessor(mFaceDetector, face_tracker));
@@ -627,7 +641,7 @@ public class TextViewFragment extends Fragment {
         mCameraSource = new CameraSource.Builder(getActivity().getApplicationContext(), mFaceDetector)
                 .setRequestedPreviewSize(640, 480)
                 .setFacing(CameraSource.CAMERA_FACING_FRONT)
-                .setRequestedFps(25f)
+                .setRequestedFps(15f)
                 .build();
     }
 
