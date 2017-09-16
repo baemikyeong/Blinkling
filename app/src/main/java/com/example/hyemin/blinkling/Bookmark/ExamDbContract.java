@@ -8,7 +8,6 @@ import android.provider.BaseColumns;
  */
 
 public class ExamDbContract {
-
     /**
      * 아래의 엔트리 클래스가 구현하는 BaseColumns 는 모든 테이블이 기본적으로 구현해야 하는
      * 식별자인 id 값과 추후 데이터의 개수를 카운트하는데 사용하는 count 가 담겨있습니다.

@@ -15,6 +15,8 @@ import android.widget.TextView;
 
 import com.example.hyemin.blinkling.R;
 
+import org.w3c.dom.Text;
+
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Locale;
@@ -47,6 +49,7 @@ public class CustomAdapter_book extends CursorAdapter {
         holder.document = (TextView) v.findViewById(R.id.tv_doc);
         holder.date = (TextView) v.findViewById(R.id.tv_date);
         holder.image = (ImageView) v.findViewById(R.id.iv_img);
+        holder.pos = (TextView) v.findViewById(R.id.tv_pos);
 
         v.setTag(holder);
 
@@ -58,13 +61,14 @@ public class CustomAdapter_book extends CursorAdapter {
         ViewHolder viewHolder = (ViewHolder)view.getTag();
         String title = cursor.getString(cursor.getColumnIndexOrThrow(ExamDbContract.ExamDbEntry.TITLE));
         String document = cursor.getString(cursor.getColumnIndexOrThrow(ExamDbContract.ExamDbEntry.DOCUMENT));
-       // String pos = cursor.getString(cursor.getColumnIndexOrThrow(ExamDbContract.ExamDbEntry.POS));
+        String pos = cursor.getString(cursor.getColumnIndexOrThrow(ExamDbContract.ExamDbEntry.POS));
        // String creat = cursor.getString(cursor.getColumnIndexOrThrow(ExamDbContract.ExamDbEntry.CREATED_AT));
         String update = cursor.getString(cursor.getColumnIndexOrThrow(ExamDbContract.ExamDbEntry.UPDATED_AT));
 
         viewHolder.title.setText(title);
         viewHolder.document.setText(document);
         viewHolder.date.setText(update);
+        viewHolder.pos.setText(pos);
 
     }
 
@@ -90,6 +94,7 @@ public class CustomAdapter_book extends CursorAdapter {
         TextView document;
         TextView date;
         ImageView image;
+        TextView pos;
 
     }
 

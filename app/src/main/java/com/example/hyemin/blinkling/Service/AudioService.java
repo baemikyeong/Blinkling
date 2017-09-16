@@ -50,32 +50,27 @@ public class AudioService extends Service{
     }
 
 
-    public void stop() {
-        Toast.makeText(this,"recording terminated", Toast.LENGTH_SHORT).show();
-        stopRecording();
-        stopSelf();
-        ((MainActivity)MainActivity.mContext).getSavedAudioFilePath();
-        super.onDestroy();
-        // 서비스가 종료될 때 실행
-    }
-/*    @Override
+
+  @Override
     public void onDestroy() {
         Toast.makeText(this,"recording terminated", Toast.LENGTH_SHORT).show();
         stopRecording();
         stopSelf();
-        ((MainActivity)MainActivity.mContext).getSavedAudioFilePath();
+       // ((MainActivity)MainActivity.mContext).getSavedAudioFilePath();
 
         super.onDestroy();
         // 서비스가 종료될 때 실행
 
-    }*/
+    }
 
 
 
 
     public void startRecording() throws IOException {
         //Creating file
-        File dir = Environment.getExternalStorageDirectory();
+    //    File dir = new File(Environment.getExternalStorageDirectory().getAbsolutePath() + "/Audio_Dir");
+
+      File dir = Environment.getExternalStorageDirectory();
         try {
             audiofile = File.createTempFile("sound", ".3gp", dir);
         } catch (IOException e) {
@@ -91,6 +86,7 @@ public class AudioService extends Service{
         recorder.prepare();
         recorder.start();
     }
+
 
     public void stopRecording() {
 

@@ -29,7 +29,7 @@ public class ExamDbHelper extends SQLiteOpenHelper{
                     + ExamDbContract.ExamDbEntry.DOCUMENT + " text not null,"
                     + ExamDbContract.ExamDbEntry.CREATED_AT + " text not null,"
                     + ExamDbContract.ExamDbEntry.UPDATED_AT + " text not null,"
-                    + ExamDbContract.ExamDbEntry.POS + " text not null);";
+                    + ExamDbContract.ExamDbEntry.POS + " text);";
 
     private static ExamDbHelper sSingleton = null;
 

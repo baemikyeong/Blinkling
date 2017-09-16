@@ -36,7 +36,7 @@ public class BookshelfFragment extends Fragment {
     String InStoragePath = Environment.getExternalStorageDirectory().getAbsolutePath() +"/Blinkling";
   boolean init = true;
     private final int MY_PERMISSION_REQUEST_STORAGE = 100;
-
+    int pos = 0;
     List mFileList;
 
     public BookshelfFragment() {
@@ -78,7 +78,7 @@ public class BookshelfFragment extends Fragment {
             @Override
             public void onItemClick(AdapterView parent, View v, int position, long id) {
                 String strItem = gridadapter.getGridViewItemList().get(position).getTitle(); //position은 0부터 시작 position 번째 아이템 이름을 리턴함
-                ( (MainActivity)getActivity()).changeToText(strItem);
+                ( (MainActivity)getActivity()).changeToText(strItem,pos);
             }
         });
 

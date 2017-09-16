@@ -90,6 +90,7 @@ public class MainActivity extends ActionBarActivity {
     private boolean isRecording = false;
     private static final int REQUEST_RECORD_AUDIO_PERMISSION = 200;
     String InStoragePath = Environment.getExternalStorageDirectory().getAbsolutePath() + "/Blinkling";
+    String AudioStorage = Environment.getExternalStorageDirectory().getAbsolutePath() + "/Audio_Dir";
 
     public static BottomNavigationView bottomNavigation;
     private Fragment fragment;
@@ -103,6 +104,7 @@ public class MainActivity extends ActionBarActivity {
     public String mBookName_main = "";
     String audio_path;
     AudioService audioService;
+    public boolean hasPosition = false;
 
     @Override
     public void onConfigurationChanged(Configuration newConfig) {
@@ -128,6 +130,7 @@ public class MainActivity extends ActionBarActivity {
         mAdapter = new CustomAdapter_book(getApplicationContext(), mFacade.getCursor(), false);
 
         makeDirectory(InStoragePath);
+        makeDirectory(AudioStorage);
 
         toolbar = (Toolbar) findViewById(R.id.tool_bar);
         aframe = (FrameLayout) findViewById(R.id.main_container);
@@ -306,7 +309,7 @@ public class MainActivity extends ActionBarActivity {
         }
     }
 
-    public void changeToText(String valueBookName) {
+    /*public void changeToText(String valueBookName) {
 
         Fragment frag = new TextViewFragment();
         Bundle bundle = new Bundle();
@@ -318,95 +321,41 @@ public class MainActivity extends ActionBarActivity {
 //        fl.removeAllViews();
 
         //   final FragmentTransaction transaction = fragmentManager.beginTransaction();
-        replaceFragment(frag);
+            replaceFragment(frag);
+
         // transaction.replace(R.id.main_container, frag).commit();
         //  getSupportActionBar().setTitle(valueBookName);
         book_title = valueBookName;
 
     }
-//
-//
-//    @TargetApi(Build.VERSION_CODES.M)
-//    private void checkPermission(String requestCode) {
-//        // Log.i(TAG, "CheckPermission : " +  ActivityCompat.checkSelfPermission(this, READ_EXTERNAL_STORAGE));
-//        switch (requestCode) {
-////            case READ_EXTERNAL_STORAGE:
-////                if (checkSelfPermission(READ_EXTERNAL_STORAGE)
-////                        != PackageManager.PERMISSION_GRANTED
-////                        || checkSelfPermission(android.Manifest.permission.WRITE_EXTERNAL_STORAGE)
-////                        != PackageManager.PERMISSION_GRANTED) {
-////
-////                    // Should we show an explanation?
-////                    if (shouldShowRequestPermissionRationale(READ_EXTERNAL_STORAGE)) {
-////                        // Explain to the user why we need to write the permission.
-////                        Toast.makeText(this, "Read/Write external storage", Toast.LENGTH_SHORT).show();
-////                    }
-////
-////                    requestPermissions(new String[]{READ_EXTERNAL_STORAGE, android.Manifest.permission.WRITE_EXTERNAL_STORAGE},
-////                            MY_PERMISSION_REQUEST_STORAGE);
-////
-////                    // MY_PERMISSION_REQUEST_STORAGE is an
-////                    // app-defined int constant
-////                }
-////
-////
-//////                } else {
-//////                    InnerStorageFragment_start();
-//////
-//////                }
-//
-//            case RECORD_AUDIO:
-//                if (checkSelfPermission(RECORD_AUDIO)
-//                        != PackageManager.PERMISSION_GRANTED) {
-//
-//
-//                    // Should we show an explanation?
-//                    if (shouldShowRequestPermissionRationale(RECORD_AUDIO)) {
-//                        // Explain to the user why we need to write the permission.
-//                        Toast.makeText(this, "Record audio", Toast.LENGTH_SHORT).show();
-//                    }
-//
-//                   // requestPermissions(new String[]{RECORD_AUDIO, android.Manifest.permission.RECORD_AUDIO},
-//                   //         MY_PERMISSION_REQUEST_STORAGE);
-//
-//                    // MY_PERMISSION_REQUEST_STORAGE is an
-//                    // app-defined int constant
-//
-//                } else {
-//                    //실행
-//
-//                }
-//
-//        }
-//    }
-//
-//
-//    @Override
-//    public void onRequestPermissionsResult(int requestCode, String[] permissions, int[] grantResults) {
-//        switch (requestCode) {
-//            case MY_PERMISSION_REQUEST_STORAGE:
-//                if (grantResults[0] == PackageManager.PERMISSION_GRANTED
-//                        && grantResults[1] == PackageManager.PERMISSION_GRANTED) {
-//
-//                } else {
-//
-//                    Log.d(TAG, "Permission always deny");
-//
-//                    // permission denied, boo! Disable the
-//                    // functionality that depends on this permission.
-//                    Toast.makeText(this, "permission denied", Toast.LENGTH_SHORT).show();
-//                }
-//                break;
-//        }
-//    }
+*/
+    //디비 목록에서 책 열때 사용
+    public void changeToText(String valueBookName, int pos){
+        Fragment frag = new TextViewFragment();
+        Bundle bundle = new Bundle();
+
+        bundle.putInt("book_position", pos);
+        Toast.makeText(this,pos+"다2", Toast.LENGTH_SHORT).show();
+
+        bundle.putString("bookname", valueBookName);//번들에 값을 넣음
+        frag.setArguments(bundle);
+
+//        FrameLayout fl = (FrameLayout) findViewById(R.id.main_container);
+//        fl.removeAllViews();
+
+        //   final FragmentTransaction transaction = fragmentManager.beginTransaction();
+        replaceFragment(frag);
+
+        // transaction.replace(R.id.main_container, frag).commit();
+        //  getSupportActionBar().setTitle(valueBookName);
+        book_title = valueBookName;
+    }
+
 
     public void audioService(){
         Intent intent = new Intent(this, AudioService.class);
         Toast toast;
         // Requesting permission to RECORD_AUDIO
-
-        //ActivityCompat.requestPermissions(this, permissions, REQUEST_RECORD_AUDIO_PERMISSION);
-//        checkPermission(RECORD_AUDIO);
 
         if (isRecording == false) {
             startService(intent);
@@ -574,11 +523,11 @@ public class MainActivity extends ActionBarActivity {
 
     }
 
-    public void getSavedAudioFilePath(){
+    /*public void getSavedAudioFilePath(){
         ((AudioService)AudioService.mContext).getAudioFilePath();
         Intent intent = getIntent();
         audio_path = intent.getStringExtra("audio_path");
-    }
+    }*/
 
     public void sendBookname(String mBookName) {
 //        BookshelfFragment tf = (BookshelfFragment) getSupportFragmentManager().findFragmentById(R.id.main_container);

@@ -228,9 +228,15 @@ public class BookTab_Fragment extends ListFragment {
                 final int pos = position;
 
                 mCursor.moveToPosition(pos);
-                String book_title = mCursor.getString(mCursor.getColumnIndex(ExamDbContract.ExamDbEntry.ID));
+                String book_title = mCursor.getString(mCursor.getColumnIndex(ExamDbContract.ExamDbEntry.DOCUMENT));
+               // String book_pos = mCursor.getString(mCursor.getColumnIndex(ExamDbContract.ExamDbEntry.POS));
+                String book_pos = mCursor.getString(mCursor.getColumnIndexOrThrow(ExamDbContract.ExamDbEntry.POS));
 
-                ((MainActivity) getActivity()).changeToText(book_title);
+
+                int book_position = Integer.parseInt(book_pos);
+                Toast.makeText(getActivity(),book_position+"다1", Toast.LENGTH_SHORT).show();
+
+                ((MainActivity) getActivity()).changeToText(book_title,book_position);
 
             }
         });

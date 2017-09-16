@@ -2,6 +2,7 @@ package com.example.hyemin.blinkling.Book_Viewer;
 
 
 import android.Manifest;
+import android.annotation.SuppressLint;
 import android.app.Activity;
 import android.content.Context;
 import android.content.DialogInterface;
@@ -98,6 +99,7 @@ public class TextViewFragment extends Fragment {
     public static ViewGroup textviewPage;
     private int bookmark_position;
     private String bookName = "";
+    private int book_position;
 
 
     @Override
@@ -105,24 +107,33 @@ public class TextViewFragment extends Fragment {
         super.onCreate(savedInstanceState);
         setHasOptionsMenu(true);
 
-
-        if (getArguments() != null) {
-            bookName = getArguments().getString("bookname");
-        }
     }
-
 
     public TextViewFragment() {
         // Required empty public constructor
     }
-
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
 
         PlayServicesUtil.isPlayServicesAvailable(getActivity(), 69);
+        if (getArguments() != null) {
 
+            bookName = getArguments().getString("bookname");
+            book_position = getArguments().getInt("book_position");
+
+            Toast.makeText(getActivity(), book_position + "다3", Toast.LENGTH_SHORT).show();
+
+       }
+      /*  if(getArguments() == null){
+            book_position = 0;
+        }*/
+     /*   if(book_position == 0){
+            book_position = 0;
+        }else {
+
+        }*/
         intPref = this.getActivity().getSharedPreferences("mPred", Activity.MODE_PRIVATE);//이거
         editor1 = intPref.edit();
 
@@ -155,9 +166,21 @@ public class TextViewFragment extends Fragment {
         } else {
             rootView = inflater.inflate(R.layout.fragment_text_scrollview, container, false);
             scrollView = (ScrollView) rootView.findViewById(R.id.scroll_text);
+
             tv = (TextView) rootView.findViewById(R.id.txtview);
+
         }
 
+
+        scrollView.post(new Runnable() {
+
+            @Override
+            public void run() {
+                scrollView.smoothScrollTo(0,book_position);
+                Toast.makeText(getActivity(),book_position+"다4", Toast.LENGTH_SHORT).show();
+
+            }
+        });
         switch (textsize % 10) {
             case 5:
                 tv.setTextSize(TypedValue.COMPLEX_UNIT_DIP, 12);
@@ -249,8 +272,9 @@ public class TextViewFragment extends Fragment {
                     return false;
                 }
             });
-
             readTxt();
+
+
         }
 
         if (isCameraPermissionGranted()) {
@@ -419,6 +443,7 @@ public class TextViewFragment extends Fragment {
             //Set the text
             tv.setText(text);
             mContentString = text.toString();
+
         } else {
             tv.setText("Sorry file doesn't exist!!");
         }
@@ -451,6 +476,19 @@ public class TextViewFragment extends Fragment {
             }
 
         }
+
+    }
+
+    public void onActivityCreated(Bundle savedInstanceState) {
+        super.onActivityCreated(savedInstanceState);
+
+
+    }
+    // 해당 포지션으로 페이지 down하는 함수
+    public void goToPosition(int pos){
+        if (location[1] < 0)
+            location[1] = (-1) * location[1];
+        scrollView.scrollTo(0,book_position);
 
     }
 

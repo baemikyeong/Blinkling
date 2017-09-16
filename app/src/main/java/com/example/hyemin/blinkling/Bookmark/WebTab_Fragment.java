@@ -220,8 +220,9 @@ public class WebTab_Fragment extends Fragment {
 
             @Override
             public void onItemClick(AdapterView<?> adapterView, View view, int position, long id) {
-                final int pos = position;
+                int pos = position;
 
+                mCursor = mFacade.getCursor();
                 mCursor.moveToPosition(pos);
 
                 String url = mCursor.getString(mCursor.getColumnIndex(ExamDbContract_web.ExamDbEntry.POS));
