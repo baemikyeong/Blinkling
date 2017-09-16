@@ -79,7 +79,7 @@ public class TextViewFragment extends Fragment {
     private WindowManager.LayoutParams params;
     private float brightness; // 밝기값은 float형으로 저장되어 있습니다.
     private ViewPager mPager;
-    private FragmentPagerAdapter mPagerAdapter;
+    private FragmentPagerAdapter mPagerAdapter = null;
     private static Map<String, String> mPages = new HashMap<String, String>();
     private LinearLayout mPageIndicator;
     private ProgressBar mProgressBar;
@@ -137,7 +137,7 @@ public class TextViewFragment extends Fragment {
         // 밝기 설정 적용
         getActivity().getWindow().setAttributes(params);
 
-        if (pagestyle % 10 == 7) { // 뷰페이저와 스크롤 뷰 구분
+        if (pagestyle == 1) { // 뷰페이저와 스크롤 뷰 구분
             rootView = inflater.inflate(R.layout.fragment_text_pagerview, container, false);
             textviewPage = (ViewGroup) getActivity().getLayoutInflater().inflate(R.layout.fragment, (ViewGroup) getActivity().getWindow().getDecorView().findViewById(android.R.id.content), false);
             tv = (TextView) textviewPage.findViewById(R.id.mText);
@@ -151,42 +151,46 @@ public class TextViewFragment extends Fragment {
             tv = (TextView) rootView.findViewById(R.id.txtview);
         }
 
-        switch (textsize % 10) {
-            case 5:
-                tv.setTextSize(TypedValue.COMPLEX_UNIT_DIP, 12);
-                break;
-            case 6:
-                tv.setTextSize(TypedValue.COMPLEX_UNIT_DIP, 15);
-                break;
-            case 7:
-                tv.setTextSize(TypedValue.COMPLEX_UNIT_DIP, 18);
-                break;
-            case 8:
+        switch (textsize) {
+            case 1:
                 tv.setTextSize(TypedValue.COMPLEX_UNIT_DIP, 23);
+                break;
+            case 2:
+                tv.setTextSize(TypedValue.COMPLEX_UNIT_DIP, 25);
+                break;
+            case 3:
+                tv.setTextSize(TypedValue.COMPLEX_UNIT_DIP, 30);
+                break;
+            case 4:
+                tv.setTextSize(TypedValue.COMPLEX_UNIT_DIP, 40);
                 break;
         }
 
-        switch (bgcolor % 10) {
+        switch (bgcolor) {
             case 1: // 연한 베이지
                 tv.setBackgroundColor(Color.rgb(245, 241, 222));
+                tv.setTextColor(Color.rgb(0,0,0));
                 if (mPager != null)
                     mPager.setBackgroundColor(Color.rgb(245, 241, 222));
                 rootView.setBackgroundColor(Color.rgb(245, 241, 222));
                 break;
             case 2: // 연한 그레이
                 tv.setBackgroundColor(Color.rgb(204, 204, 204));
+                tv.setTextColor(Color.rgb(0,0,0));
                 if (mPager != null)
                     mPager.setBackgroundColor(Color.rgb(204, 204, 204));
                 rootView.setBackgroundColor(Color.rgb(204, 204, 204));
                 break;
             case 3: // 흰색
                 tv.setBackgroundColor(Color.rgb(255, 255, 255));
+                tv.setTextColor(Color.rgb(0,0,0));
                 if (mPager != null)
                     mPager.setBackgroundColor(Color.rgb(255, 255, 255));
                 rootView.setBackgroundColor(Color.rgb(255, 255, 255));
                 break;
             case 4: // 검정색
                 tv.setBackgroundColor(Color.rgb(0, 0, 0));
+                tv.setTextColor(Color.rgb(255,255,255));
                 if (mPager != null)
                     mPager.setBackgroundColor(Color.rgb(0, 0, 0));
                 rootView.setBackgroundColor(Color.rgb(0, 0, 0));
@@ -194,7 +198,7 @@ public class TextViewFragment extends Fragment {
         }
 
 
-        switch (font % 10) {
+        switch (font-1) {
             case 0: // 나눔바른고딕
                 typeFace = Typeface.createFromAsset(getActivity().getAssets(), "fonts/NanumBarunGothic.otf");
                 tv.setTypeface(typeFace);
@@ -221,7 +225,7 @@ public class TextViewFragment extends Fragment {
                 break;
         }
 
-        if (pagestyle % 10 == 7) { // 뷰페이저와 스크롤 뷰 구분
+        if (pagestyle == 1) { // 뷰페이저와 스크롤 뷰 구분
 
             readTxt();
 

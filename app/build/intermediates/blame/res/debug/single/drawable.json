@@ -420,12 +420,12 @@
         "source": "/Users/mac/.android/build-cache/d3ff796d1a0a0be6c348fb13321312629f76eaaf/output/res/drawable/cast_expanded_controller_seekbar_thumb.xml"
     },
     {
-        "merged": "/Users/mac/Blinkling/app/build/intermediates/res/merged/debug/drawable/cast_ic_notification_disconnect.xml",
-        "source": "/Users/mac/.android/build-cache/d3ff796d1a0a0be6c348fb13321312629f76eaaf/output/res/drawable/cast_ic_notification_disconnect.xml"
-    },
-    {
         "merged": "/Users/mac/Blinkling/app/build/intermediates/res/merged/debug/drawable/notebook_add.png",
         "source": "/Users/mac/Blinkling/app/src/main/res/drawable/notebook_add.png"
+    },
+    {
+        "merged": "/Users/mac/Blinkling/app/build/intermediates/res/merged/debug/drawable/cast_ic_notification_disconnect.xml",
+        "source": "/Users/mac/.android/build-cache/d3ff796d1a0a0be6c348fb13321312629f76eaaf/output/res/drawable/cast_ic_notification_disconnect.xml"
     },
     {
         "merged": "/Users/mac/Blinkling/app/build/intermediates/res/merged/debug/drawable/cast_ic_notification_skip_prev.xml",

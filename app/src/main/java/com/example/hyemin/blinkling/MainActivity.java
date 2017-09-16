@@ -1,5 +1,7 @@
 package com.example.hyemin.blinkling;
 
+import android.*;
+import android.Manifest;
 import android.annotation.TargetApi;
 import android.content.Context;
 import android.content.DialogInterface;
@@ -136,6 +138,9 @@ public class MainActivity extends ActionBarActivity {
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         getSupportActionBar().setHomeAsUpIndicator(R.drawable.ic_back_default);
 
+        if (ContextCompat.checkSelfPermission(this, android.Manifest.permission.RECORD_AUDIO) != PackageManager.PERMISSION_GRANTED) {
+            ActivityCompat.requestPermissions(this, new String[]{Manifest.permission.RECORD_AUDIO}, REQUEST_RECORD_AUDIO_PERMISSION);
+        }
 
         light = false;
         fragmentManager = getSupportFragmentManager();
@@ -207,17 +212,8 @@ public class MainActivity extends ActionBarActivity {
                 return true;
             }
             case R.id.voice_btn: {
+                recordingsetting = !recordingsetting;
                 audioService();
-                Intent intent = new Intent(this, AudioService.class);
-
-                if (recordingsetting == false) {
-                    startService(intent);
-                    recordingsetting = true;
-                } else {
-                    stopService(intent);
-                    recordingsetting = false;
-                }
-                invalidateOptionsMenu();
                 return true;
             }
             case R.id.bookmark_btn: {
@@ -255,6 +251,31 @@ public class MainActivity extends ActionBarActivity {
 
     }
 
+    @Override
+    public void onRequestPermissionsResult(int requestCode, String[] permissions, int[] grantResults) {
+        if (requestCode == REQUEST_RECORD_AUDIO_PERMISSION) {
+            if (grantResults[0] == PackageManager.PERMISSION_GRANTED) {
+                //start audio recording or whatever you planned to do
+            }else if (grantResults[0] == PackageManager.PERMISSION_DENIED){
+                if (ActivityCompat.shouldShowRequestPermissionRationale(this, android.Manifest.permission.RECORD_AUDIO)) {
+                    //Show an explanation to the user *asynchronously*
+                    AlertDialog.Builder builder = new AlertDialog.Builder(this);
+                    builder.setMessage("This permission is important to record audio.")
+                            .setTitle("Important permission required");
+                    builder.setPositiveButton("OK", new DialogInterface.OnClickListener() {
+                        public void onClick(DialogInterface dialog, int id) {
+                            ActivityCompat.requestPermissions(MainActivity.this, new String[]{android.Manifest.permission.RECORD_AUDIO}, REQUEST_RECORD_AUDIO_PERMISSION);
+                        }
+                    });
+                    ActivityCompat.requestPermissions(this, new String[]{android.Manifest.permission.RECORD_AUDIO}, REQUEST_RECORD_AUDIO_PERMISSION);
+                }else{
+                    Toast.makeText(this, "permission이 필요합니다", Toast.LENGTH_SHORT).show();
+                    //Never ask again and handle your app without permission.
+                }
+            }
+        }
+    }
+
     private void replaceFragment(Fragment fragment) {
         String backStateName = fragment.getClass().getName();
 
@@ -288,13 +309,12 @@ public class MainActivity extends ActionBarActivity {
     public void audioService(){
         Intent intent = new Intent(this, AudioService.class);
 
-        if (isRecording == false) {
+        if (recordingsetting == false) {
             startService(intent);
-            isRecording = true;
         } else {
             stopService(intent);
-            isRecording = false;
         }
+        invalidateOptionsMenu();
     }
 
     private File makeDirectory(String dir_path) {

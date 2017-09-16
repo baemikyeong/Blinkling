@@ -1,15 +1,21 @@
 package com.example.hyemin.blinkling.Service;
 
+import android.Manifest;
 import android.app.Service;
 import android.content.ContentResolver;
 import android.content.ContentValues;
 import android.content.Context;
+import android.content.DialogInterface;
 import android.content.Intent;
+import android.content.pm.PackageManager;
 import android.media.MediaRecorder;
 import android.net.Uri;
 import android.os.Environment;
 import android.os.IBinder;
 import android.provider.MediaStore;
+import android.support.v4.app.ActivityCompat;
+import android.support.v4.content.ContextCompat;
+import android.support.v7.app.AlertDialog;
 import android.util.Log;
 import android.widget.Toast;
 
@@ -17,6 +23,8 @@ import com.example.hyemin.blinkling.MainActivity;
 
 import java.io.File;
 import java.io.IOException;
+
+import static android.app.PendingIntent.getActivity;
 
 public class AudioService extends Service{
     MediaRecorder recorder;
@@ -47,9 +55,6 @@ public class AudioService extends Service{
 
             }
         }
-
-
-
         mContext = this;
 
     }
@@ -106,8 +111,8 @@ public class AudioService extends Service{
     public void stopRecording() {
 
         if(recorder != null){
-            addRecorder();
-           // recorder.stop();
+           // addRecorder();
+            recorder.stop();
             recorder.release();
             recorder = null;
             addRecordingToMediaLibrary();
@@ -121,6 +126,8 @@ public class AudioService extends Service{
         startActivity(intent);
         ((MainActivity)MainActivity.mContext).addAudiomark();
     }
+
+
 
 
     protected void addRecordingToMediaLibrary() {

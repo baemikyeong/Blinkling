@@ -53,8 +53,16 @@ public class SetPageStyleFragment extends DialogFragment {
         final View view = inflater.inflate(R.layout.fragment_set_page_style, null);
         final RadioGroup rg = (RadioGroup)view.findViewById(R.id.radiopagestyle);
 
-        final int[] nCurrent = {intPref.getInt("pagestyle_edit", 1)};
-        rg.check(nCurrent[0]);
+        final int[] nCurrent = {intPref.getInt("pagestyle_edit", 2)};
+
+        switch (nCurrent[0]) {
+            case 1:
+                rg.check(R.id.radio_pagestyle1);
+                break;
+            case 2:
+                rg.check(R.id.radio_pagestyle2);
+                break;
+        }
 
         builder.setView(view)
                 .setPositiveButton("확인", new DialogInterface.OnClickListener() {
@@ -63,7 +71,11 @@ public class SetPageStyleFragment extends DialogFragment {
                     @Override
                     public void onClick(DialogInterface dialog, int id) {
 
-                        editor1.putInt("pagestyle_edit", rg.getCheckedRadioButtonId());
+                        if(rg.getCheckedRadioButtonId() == R.id.radio_pagestyle1)
+                            nCurrent[0] = 1;
+                        else if(rg.getCheckedRadioButtonId() == R.id.radio_pagestyle2)
+                            nCurrent[0] = 2;
+                        editor1.putInt("pagestyle_edit", nCurrent[0]);
                         editor1.commit();
 
                     }
