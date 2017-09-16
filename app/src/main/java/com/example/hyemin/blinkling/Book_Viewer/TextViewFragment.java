@@ -107,10 +107,12 @@ public class TextViewFragment extends Fragment {
         super.onCreate(savedInstanceState);
         setHasOptionsMenu(true);
 
+
     }
 
     public TextViewFragment() {
         // Required empty public constructor
+
     }
 
     @Override
@@ -118,14 +120,7 @@ public class TextViewFragment extends Fragment {
                              Bundle savedInstanceState) {
 
         PlayServicesUtil.isPlayServicesAvailable(getActivity(), 69);
-        if (getArguments() != null) {
 
-            bookName = getArguments().getString("bookname");
-            book_position = getArguments().getInt("book_position");
-
-            Toast.makeText(getActivity(), book_position + "다3", Toast.LENGTH_SHORT).show();
-
-       }
       /*  if(getArguments() == null){
             book_position = 0;
         }*/
@@ -134,6 +129,15 @@ public class TextViewFragment extends Fragment {
         }else {
 
         }*/
+        if (getArguments() != null) {
+
+            bookName = getArguments().getString("bookname");
+            book_position = getArguments().getInt("book_position");
+
+            Toast.makeText(getActivity(), book_position + "다3", Toast.LENGTH_SHORT).show();
+
+        }
+
         intPref = this.getActivity().getSharedPreferences("mPred", Activity.MODE_PRIVATE);//이거
         editor1 = intPref.edit();
 

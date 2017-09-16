@@ -234,7 +234,6 @@ public class BookTab_Fragment extends ListFragment {
 
 
                 int book_position = Integer.parseInt(book_pos);
-                Toast.makeText(getActivity(),book_position+"다1", Toast.LENGTH_SHORT).show();
 
                 ((MainActivity) getActivity()).changeToText(book_title,book_position);
 

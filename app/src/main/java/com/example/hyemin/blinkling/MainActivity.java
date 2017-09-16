@@ -332,8 +332,8 @@ public class MainActivity extends ActionBarActivity {
     //디비 목록에서 책 열때 사용
     public void changeToText(String valueBookName, int pos){
         Fragment frag = new TextViewFragment();
-        Bundle bundle = new Bundle();
 
+        Bundle bundle = new Bundle();
         bundle.putInt("book_position", pos);
         Toast.makeText(this,pos+"다2", Toast.LENGTH_SHORT).show();
 

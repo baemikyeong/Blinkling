@@ -78,7 +78,7 @@ public class BookshelfFragment extends Fragment {
             @Override
             public void onItemClick(AdapterView parent, View v, int position, long id) {
                 String strItem = gridadapter.getGridViewItemList().get(position).getTitle(); //position은 0부터 시작 position 번째 아이템 이름을 리턴함
-                ( (MainActivity)getActivity()).changeToText(strItem,pos);
+                ( (MainActivity)getActivity()).changeToText(strItem,0);
             }
         });
 
