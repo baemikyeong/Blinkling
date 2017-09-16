@@ -20,12 +20,12 @@
         "source": "/Users/dayeon/Blinkling/app/src/main/res/drawable-hdpi/bookshlef3.png"
     },
     {
-        "merged": "/Users/dayeon/Blinkling/app/build/intermediates/res/merged/debug/drawable-hdpi/ic_bluelight_pressed.png",
-        "source": "/Users/dayeon/Blinkling/app/src/main/res/drawable-hdpi/ic_bluelight_pressed.png"
-    },
-    {
         "merged": "/Users/mac/Blinkling/app/build/intermediates/res/merged/debug/drawable-hdpi/ic_delete_default.png",
         "source": "/Users/mac/Blinkling/app/src/main/res/drawable-hdpi/ic_delete_default.png"
+    },
+    {
+        "merged": "/Users/dayeon/Blinkling/app/build/intermediates/res/merged/debug/drawable-hdpi/ic_bluelight_pressed.png",
+        "source": "/Users/dayeon/Blinkling/app/src/main/res/drawable-hdpi/ic_bluelight_pressed.png"
     },
     {
         "merged": "/Users/dayeon/Blinkling/app/build/intermediates/res/merged/debug/drawable-hdpi/ic_eye_pressed.png",
@@ -40,12 +40,12 @@
         "source": "/Users/mac/Blinkling/app/src/main/res/drawable-hdpi/ic_clear_black_24dp.png"
     },
     {
-        "merged": "/Users/dayeon/Blinkling/app/build/intermediates/res/merged/debug/drawable-hdpi/ic_lightbulb_outline_black_24dp.png",
-        "source": "/Users/dayeon/Blinkling/app/src/main/res/drawable-hdpi/ic_lightbulb_outline_black_24dp.png"
-    },
-    {
         "merged": "/Users/mac/Blinkling/app/build/intermediates/res/merged/debug/drawable-hdpi/ic_search_white_default.png",
         "source": "/Users/mac/Blinkling/app/src/main/res/drawable-hdpi/ic_search_white_default.png"
+    },
+    {
+        "merged": "/Users/dayeon/Blinkling/app/build/intermediates/res/merged/debug/drawable-hdpi/ic_lightbulb_outline_black_24dp.png",
+        "source": "/Users/dayeon/Blinkling/app/src/main/res/drawable-hdpi/ic_lightbulb_outline_black_24dp.png"
     },
     {
         "merged": "/Users/dayeon/Blinkling/app/build/intermediates/res/merged/debug/drawable-hdpi/ic_customizing_default.png",

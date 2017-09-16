@@ -32,12 +32,12 @@
         "source": "/Users/dayeon/Blinkling/app/src/main/res/drawable-xxhdpi/ic_mybookmark_pressed.png"
     },
     {
-        "merged": "/Users/mac/Blinkling/app/build/intermediates/res/merged/debug/drawable-xxhdpi/splash.png",
-        "source": "/Users/mac/Blinkling/app/src/main/res/drawable-xxhdpi/splash.png"
-    },
-    {
         "merged": "/Users/mac/Blinkling/app/build/intermediates/res/merged/debug/drawable-xxhdpi/ic_bookmark_pressed.png",
         "source": "/Users/mac/Blinkling/app/src/main/res/drawable-xxhdpi/ic_bookmark_pressed.png"
+    },
+    {
+        "merged": "/Users/mac/Blinkling/app/build/intermediates/res/merged/debug/drawable-xxhdpi/splash.png",
+        "source": "/Users/mac/Blinkling/app/src/main/res/drawable-xxhdpi/splash.png"
     },
     {
         "merged": "/Users/mac/Blinkling/app/build/intermediates/res/merged/debug/drawable-xxhdpi/bookshlef1.png",
@@ -56,12 +56,12 @@
         "source": "/Users/dayeon/Blinkling/app/src/main/res/drawable-xxhdpi/ic_customizing_default.png"
     },
     {
-        "merged": "/Users/dayeon/Blinkling/app/build/intermediates/res/merged/debug/drawable-xxhdpi/bookshlef3.png",
-        "source": "/Users/dayeon/Blinkling/app/src/main/res/drawable-xxhdpi/bookshlef3.png"
-    },
-    {
         "merged": "/Users/mac/Blinkling/app/build/intermediates/res/merged/debug/drawable-xxhdpi/ic_web_default.png",
         "source": "/Users/mac/Blinkling/app/src/main/res/drawable-xxhdpi/ic_web_default.png"
+    },
+    {
+        "merged": "/Users/dayeon/Blinkling/app/build/intermediates/res/merged/debug/drawable-xxhdpi/bookshlef3.png",
+        "source": "/Users/dayeon/Blinkling/app/src/main/res/drawable-xxhdpi/bookshlef3.png"
     },
     {
         "merged": "/Users/mac/Blinkling/app/build/intermediates/res/merged/debug/drawable-xxhdpi/ic_left_default.png",
