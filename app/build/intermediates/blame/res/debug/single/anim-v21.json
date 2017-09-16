@@ -1,13 +1,5 @@
 [
     {
-        "merged": "/Users/mac/Blinkling/app/build/intermediates/res/merged/debug/anim-v21/design_bottom_sheet_slide_in.xml",
-        "source": "/Users/mac/.android/build-cache/2357a626681079792d0b0f8329e66fe5b38ee637/output/res/anim-v21/design_bottom_sheet_slide_in.xml"
-    },
-    {
-        "merged": "/Users/mac/Blinkling/app/build/intermediates/res/merged/debug/anim-v21/design_bottom_sheet_slide_out.xml",
-        "source": "/Users/mac/.android/build-cache/2357a626681079792d0b0f8329e66fe5b38ee637/output/res/anim-v21/design_bottom_sheet_slide_out.xml"
-    },
-    {
         "merged": "/Users/dayeon/Blinkling/app/build/intermediates/res/merged/debug/anim-v21/design_bottom_sheet_slide_in.xml",
         "source": "/Users/dayeon/.android/build-cache/d7955f365574be11571c6d760671cfed3e81f806/output/res/anim-v21/design_bottom_sheet_slide_in.xml"
     },

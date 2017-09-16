@@ -15,16 +15,18 @@
         android:id="@+id/search_web"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:layout_alignBottom="@+id/view"
+
+
+        android:layout_alignBottom="@+id/view2"
         android:layout_toStartOf="@+id/spinner1" />
 
     <Spinner
-        android:id="@+id/spinner2"
+        android:id="@+id/spinner1"
         android:layout_width="150dp"
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
         android:layout_alignParentTop="true"
-        android:entries="@array/city"
+        android:entries="@array/audio"
         android:gravity="right"
         android:padding="5dip" />
 
@@ -41,7 +43,7 @@
         android:id="@android:id/list"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/spinner2"
+        android:layout_below="@+id/spinner1"
         android:descendantFocusability="blocksDescendants"
         android:fastScrollEnabled="true"
         android:focusable="false" />

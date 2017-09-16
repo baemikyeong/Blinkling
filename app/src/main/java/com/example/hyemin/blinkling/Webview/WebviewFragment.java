@@ -28,6 +28,7 @@ import android.widget.EditText;
 import android.widget.ImageButton;
 import android.widget.ProgressBar;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.example.hyemin.blinkling.MainActivity;
 import com.example.hyemin.blinkling.R;
@@ -47,8 +48,7 @@ import java.io.IOException;
 
 public class WebviewFragment extends Fragment {
 
-    private WebView webView;
-    private ProgressBar mPBar;
+    public WebView webView;
     private FaceDetector mFaceDetector;                     // 얼굴 인식
     private CameraSource mCameraSource;                     // 카메라 객체
     private FaceTracker face_tracker;                       // 눈 파악
@@ -58,11 +58,10 @@ public class WebviewFragment extends Fragment {
     private int[] location = new int[2];
     EditText url_String;
     View main_view;
+    String checkURL = null;
 
     public WebviewFragment() {
     }
-
-
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -76,9 +75,8 @@ public class WebviewFragment extends Fragment {
 
         main_view = inflater.inflate(R.layout.fragment_webview, container, false);
         webView = (WebView) main_view.findViewById(R.id.webView1);
-        mPBar = (ProgressBar) main_view.findViewById(R.id.progress01);
         WebSettings set = webView.getSettings();
-        Button button = (Button)main_view.findViewById(R.id.btnGo);
+        ImageButton button = (ImageButton)main_view.findViewById(R.id.btnGo);
         ImageButton back_button = (ImageButton)main_view.findViewById(R.id.back);
         url_String = (EditText)main_view.findViewById(R.id.txtURL);
 
@@ -109,8 +107,14 @@ public class WebviewFragment extends Fragment {
             super.onPageFinished(view, url);
         }
         });
-        webView.loadUrl("http://www.naver.com");
-
+        if(((MainActivity)getActivity()).web_bookmark_url == null){
+           // Toast.makeText(getActivity(), "null", Toast.LENGTH_SHORT).show();
+            webView.loadUrl("http://www.naver.com");
+        }
+        else{
+            webView.loadUrl(((MainActivity)getActivity()).web_bookmark_url);
+            ((MainActivity)getActivity()).web_bookmark_url = null;
+        }
 
 
         button.setOnClickListener(new View.OnClickListener() {
@@ -153,11 +157,11 @@ public class WebviewFragment extends Fragment {
         return main_view;
     }
 
-
-
     public void onPrepareOptionsMenu(Menu menu) {
+        menu.findItem(R.id.bookmark_btn).setVisible(false);
         menu.findItem(R.id.notebook_add).setVisible(false);
         menu.findItem(R.id.notebook_delete).setVisible(false);
+        menu.findItem(R.id.bookmark_delete).setVisible(false);
         super.onPrepareOptionsMenu(menu);
     }
 
@@ -169,6 +173,20 @@ public class WebviewFragment extends Fragment {
         //webView.setWebViewClient(new WebViewClient());
         view.loadUrl(url);
 
+    }
+
+    public void goPage(String url){
+        checkURL = url;
+     //  webView.setWebViewClient(new WebViewClient());
+        //webView.loadUrl(url);
+
+        Toast.makeText(getActivity(),url,Toast.LENGTH_SHORT).show();
+    }
+
+
+    public String getCurrentURL(){
+        //현재 페이지의 url를 리턴하는 메소드
+        return url_String.getText().toString();
     }
 
 

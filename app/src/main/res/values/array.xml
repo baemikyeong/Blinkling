@@ -1,8 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string-array name="city">
+    <string-array name="book">
+        <item >등록순</item>
         <item >최신순</item>
         <item >이름순</item>
         <item >문서별</item>
+    </string-array>
+
+    <string-array name="audio">
+        <item >등록순</item>
+        <item >최신순</item>
+        <item >이름순</item>
     </string-array>
 </resources>

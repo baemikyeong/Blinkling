@@ -15,10 +15,12 @@ public class ExamDbContract_audio {
         public static final String TABLE_NAME = "ExamDb_audio";
         public static final String ID = _ID;
         public static final String TITLE = "title";
+        public static final String PATH = "path";
         public static final String CREATED_AT = "created_at";
         public static final String UPDATED_AT = "updated_at";
+        public static final String DOCUMENT = "document";
         public static final String POS = "pos";
 
-        public static final String[] columns = {ID,TITLE,UPDATED_AT,CREATED_AT,POS};
+        public static final String[] columns = {ID,TITLE,PATH,UPDATED_AT,CREATED_AT,DOCUMENT,POS};
     }
 }

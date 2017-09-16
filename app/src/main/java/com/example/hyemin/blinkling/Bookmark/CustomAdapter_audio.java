@@ -44,6 +44,7 @@ public class CustomAdapter_audio extends CursorAdapter {
         holder.title = (TextView) v.findViewById(R.id.tv_title);
         holder.date = (TextView) v.findViewById(R.id.tv_date);
         holder.image = (ImageView) v.findViewById(R.id.iv_img);
+        holder.document = (TextView) v.findViewById(R.id.tv_doc);
 
         v.setTag(holder);
 
@@ -57,9 +58,11 @@ public class CustomAdapter_audio extends CursorAdapter {
         // String pos = cursor.getString(cursor.getColumnIndexOrThrow(ExamDbContract.ExamDbEntry.POS));
         // String creat = cursor.getString(cursor.getColumnIndexOrThrow(ExamDbContract.ExamDbEntry.CREATED_AT));
         String update = cursor.getString(cursor.getColumnIndexOrThrow(ExamDbContract_audio.ExamDbEntry.UPDATED_AT));
+        String document = cursor.getString(cursor.getColumnIndexOrThrow(ExamDbContract_audio.ExamDbEntry.DOCUMENT));
 
         viewHolder.title.setText(title);
         viewHolder.date.setText(update);
+        viewHolder.document.setText(document);
 
     }
 
@@ -84,6 +87,7 @@ public class CustomAdapter_audio extends CursorAdapter {
         TextView title;
         TextView date;
         ImageView image;
+        TextView document;
 
     }
 

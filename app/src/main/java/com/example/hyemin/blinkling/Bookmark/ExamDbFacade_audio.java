@@ -23,7 +23,7 @@ public class ExamDbFacade_audio {
 
     }
 
-    public ArrayList<InfoClass_audio> insert(String title, String created_at, String updated_at, String position) {
+    public ArrayList<InfoClass_audio> insert(String title, String created_at,String path, String updated_at, String position, String document) {
 
         // db는 읽기만 가능한 것과 읽고 쓸 수 있는 것이 있습니다.
         // 삽입은 쓰는 것이므로 getWritableDatabase() 메소드를 이용해야 합니다.
@@ -35,9 +35,12 @@ public class ExamDbFacade_audio {
 
         // 삽입할 문자열을 파라메터로 받아서 저장합니다.
         values.put(ExamDbContract_audio.ExamDbEntry.TITLE, title);
+        values.put(ExamDbContract_audio.ExamDbEntry.PATH, path);
         values.put(ExamDbContract_audio.ExamDbEntry.CREATED_AT, created_at);
         values.put(ExamDbContract_audio.ExamDbEntry.UPDATED_AT, updated_at);
         values.put(ExamDbContract_audio.ExamDbEntry.POS, position);
+        values.put(ExamDbContract_audio.ExamDbEntry.DOCUMENT, document);
+
 
         /**
          *
@@ -88,9 +91,12 @@ public class ExamDbFacade_audio {
             mInfoClass_audio = new InfoClass_audio(
                     cursor.getInt(cursor.getColumnIndex(ExamDbContract_audio.ExamDbEntry.ID)),
                     cursor.getString(cursor.getColumnIndex(ExamDbContract_audio.ExamDbEntry.TITLE)),
+                    cursor.getString(cursor.getColumnIndex(ExamDbContract_audio.ExamDbEntry.PATH)),
                     cursor.getString(cursor.getColumnIndex(ExamDbContract_audio.ExamDbEntry.POS)),
                     cursor.getString(cursor.getColumnIndex(ExamDbContract_audio.ExamDbEntry.CREATED_AT)),
-                    cursor.getString(cursor.getColumnIndex(ExamDbContract_audio.ExamDbEntry.UPDATED_AT))
+                    cursor.getString(cursor.getColumnIndex(ExamDbContract_audio.ExamDbEntry.UPDATED_AT)),
+                    cursor.getString(cursor.getColumnIndex(ExamDbContract_audio.ExamDbEntry.DOCUMENT))
+
             );
             //입력된 값을 가지고 있는 infoclass를 infoarray에 add
             result.add(mInfoClass_audio);
@@ -103,14 +109,16 @@ public class ExamDbFacade_audio {
      *
      * @return
      */
-    public ArrayList<InfoClass_audio> update(String title, String created_at, String updated_at, String position) {
+    public ArrayList<InfoClass_audio> update(String title, String path, String created_at, String updated_at, String position, String document) {
         // 업데이트는 쓰기 기능이 필요합니다.
         SQLiteDatabase db = mHelper.getWritableDatabase();
         ContentValues values = new ContentValues();
 
         values.put(ExamDbContract_audio.ExamDbEntry.TITLE, title);
         values.put(ExamDbContract_audio.ExamDbEntry.CREATED_AT, created_at);
+        values.put(ExamDbContract_audio.ExamDbEntry.PATH, path);
         values.put(ExamDbContract_audio.ExamDbEntry.UPDATED_AT, updated_at);
+        values.put(ExamDbContract_audio.ExamDbEntry.DOCUMENT, document);
         values.put(ExamDbContract_audio.ExamDbEntry.POS, position);
 
         /**
@@ -188,8 +196,29 @@ public class ExamDbFacade_audio {
 
     public Cursor getAll() {
         SQLiteDatabase db = mHelper.getReadableDatabase();
-        Cursor c = db.rawQuery("SELECT _ID, title, document, updated_at FROM " + ExamDbContract_audio.ExamDbEntry.TABLE_NAME, null);
+        Cursor c = db.rawQuery("SELECT _ID, title, document, updated_at FROM " + ExamDbContract_audio.ExamDbEntry.TABLE_NAME+" order by _ID asc", null);
         return c;
+    }
+
+
+    public Cursor order_desc() {//최신순
+        SQLiteDatabase db = mHelper.getReadableDatabase();
+        Cursor c = db.rawQuery("SELECT _ID, title, document, updated_at FROM " + ExamDbContract_audio.ExamDbEntry.TABLE_NAME +" order by _ID desc", null);
+        return c;
+
+    }
+    public Cursor order_alp_asc() {//알파벳순
+        SQLiteDatabase db = mHelper.getReadableDatabase();
+        Cursor c = db.rawQuery("SELECT _ID, title, document, updated_at FROM " + ExamDbContract_audio.ExamDbEntry.TABLE_NAME +" order by title asc", null);
+        return c;
+
+    }
+
+    public Cursor order_doc_asc() {//문서별
+        SQLiteDatabase db = mHelper.getReadableDatabase();
+        Cursor c = db.rawQuery("SELECT _ID, title, document, updated_at FROM " + ExamDbContract.ExamDbEntry.TABLE_NAME +" order by document asc", null);
+        return c;
+
     }
 
     /**

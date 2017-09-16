@@ -21,7 +21,7 @@
             <RadioButton
                 android:id="@+id/radio_bgcolor1"
                 android:layout_width="match_parent"
-                android:layout_height="@dimen/settingsListHeight"
+                android:layout_height="wrap_content"
                 android:text="연한 베이지"
                 android:textSize="@dimen/settingsTextSize"
                 android:buttonTint="@color/colorPrimary"/>
@@ -29,7 +29,7 @@
             <RadioButton
                 android:id="@+id/radio_bgcolor2"
                 android:layout_width="match_parent"
-                android:layout_height="@dimen/settingsListHeight"
+                android:layout_height="wrap_content"
                 android:text="연한 그레이"
                 android:textSize="@dimen/settingsTextSize"
                 android:buttonTint="@color/colorPrimary" />
@@ -37,7 +37,7 @@
             <RadioButton
                 android:id="@+id/radio_bgcolor3"
                 android:layout_width="match_parent"
-                android:layout_height="@dimen/settingsListHeight"
+                android:layout_height="wrap_content"
                 android:text="회색"
                 android:textSize="@dimen/settingsTextSize"
                 android:buttonTint="@color/colorPrimary"/>
@@ -45,7 +45,7 @@
             <RadioButton
                 android:id="@+id/radio_bgcolor4"
                 android:layout_width="match_parent"
-                android:layout_height="@dimen/settingsListHeight"
+                android:layout_height="wrap_content"
                 android:text="검정색"
                 android:textSize="@dimen/settingsTextSize"
                 android:buttonTint="@color/colorPrimary"/>

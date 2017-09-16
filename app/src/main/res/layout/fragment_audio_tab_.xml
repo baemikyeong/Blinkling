@@ -23,7 +23,8 @@
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
         android:layout_alignParentTop="true"
-        android:entries="@array/city"
+
+       android:entries="@array/book"
         android:gravity="right"
         android:padding="5dip" />
 

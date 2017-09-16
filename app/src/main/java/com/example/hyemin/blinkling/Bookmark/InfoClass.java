@@ -1,7 +1,6 @@
 package com.example.hyemin.blinkling.Bookmark;
 
 import android.graphics.drawable.Drawable;
-import android.widget.ImageView;
 
 /**
  * Created by seohyemin on 2017. 8. 29..
@@ -64,7 +63,7 @@ public class InfoClass {
         return document;
     }
 
-    public void setContact(String document) {
+    public void setDocument(String document) {
         this.document = document;
     }
 

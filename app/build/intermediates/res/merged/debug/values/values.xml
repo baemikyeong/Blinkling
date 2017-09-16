@@ -1,5 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:ns1="http://schemas.android.com/tools" xmlns:ns2="urn:oasis:names:tc:xliff:document:1.2">
+    <string-array name="audio">
+        <item>등록순</item>
+        <item>최신순</item>
+        <item>이름순</item>
+    </string-array>
+    <string-array name="book">
+        <item>등록순</item>
+        <item>최신순</item>
+        <item>이름순</item>
+        <item>문서별</item>
+    </string-array>
     <array name="cast_expanded_controller_default_control_buttons"><item>@id/cast_button_type_closed_caption</item>
 <item>@id/cast_button_type_skip_previous</item>
 <item>@id/cast_button_type_skip_next</item>
@@ -9,11 +20,6 @@
 <item>@id/cast_button_type_empty</item>
 <item>@id/cast_button_type_play_pause_toggle</item>
 </array>
-    <string-array name="city">
-        <item>최신순</item>
-        <item>이름순</item>
-        <item>문서별</item>
-    </string-array>
     <attr format="reference" name="MediaRouteControllerWindowBackground"/>
     <attr format="reference" name="castExpandedControllerToolbarStyle"/>
     <attr format="reference" name="constraintSet"/>
@@ -134,6 +140,7 @@
     <bool name="abc_config_actionMenuItemAllCaps">true</bool>
     <bool name="abc_config_closeDialogWhenTouchOutside">true</bool>
     <bool name="abc_config_showMenuShortcutsWhenKeyboardPresent">false</bool>
+    <color name="ColorWebback">#D6D7D7</color>
     <color name="abc_input_method_navigation_guard">@android:color/black</color>
     <color name="abc_search_url_text_normal">#7fa87f</color>
     <color name="abc_search_url_text_pressed">@android:color/black</color>
@@ -169,7 +176,7 @@
     <color name="colorExtra">#fffac1</color>
     <color name="colorGrey">#efefef</color>
     <color name="colorPrimary">#a08989</color>
-    <color name="colorPrimaryDark">#736262</color>
+    <color name="colorPrimaryDark">#7b6b6b</color>
     <color name="colorPrimaryLight">#8a3aaf</color>
     <color name="colorWhite">#ffffff</color>
     <color name="color_Back">#11fdf6bf</color>
@@ -1046,7 +1053,7 @@
     <string name="action_hot_deals">Hot deals</string>
     <string name="action_search">Search</string>
     <string name="alert_msg_delete">"%s"를 삭제하시겠습니까?</string>
-    <string name="alert_title_question">질문</string>
+    <string name="alert_title_question">새로운 이름을 설정해주세요</string>
     <string name="app_name">Android Bottom Navigation View</string>
     <string name="appbar_scrolling_view_behavior" translatable="false">android.support.design.widget.AppBarLayout$ScrollingViewBehavior</string>
     <string name="bookshelf_fragment">Bookshelf Fragment</string>
@@ -1144,6 +1151,7 @@
     <string name="mr_controller_stop">Stop casting</string>
     <string name="mr_system_route_name">System</string>
     <string name="mr_user_route_category_name">Devices</string>
+    <string name="msg_error">"이름을 입력해주세요"</string>
     <string name="no_camera_permission">This application cannot run because it does not have the camera permission.  The application will now exit.</string>
     <string name="ok">OK</string>
     <string name="password_toggle_content_description">Toggle password visibility</string>
@@ -1179,7 +1187,7 @@
     </style>
     <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
         <!-- Customize your theme here. -->
-        <item name="colorAccent">#FF4081</item>
+        <item name="colorAccent">#a08989</item>
         <item name="colorPrimary">#a08989</item><!---->
         <item name="colorPrimaryDark">#736262</item><!---->
      <!--   <item name="android:navigationBarColor"

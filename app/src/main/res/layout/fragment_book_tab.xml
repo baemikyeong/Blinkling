@@ -15,35 +15,27 @@
         android:id="@+id/search"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:layout_alignBottom="@+id/view"
-        android:layout_toStartOf="@+id/spinner1" />
+        android:layout_alignBottom="@+id/view"></EditText>
+
 
     <Spinner
-        android:id="@+id/spinner1"
+        android:id="@+id/spinner2"
         android:layout_width="150dp"
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
-        android:layout_alignParentTop="true"
-        android:entries="@array/city"
-        android:gravity="right"
-        android:padding="5dip" />
+        android:layout_alignParentTop="true"></Spinner>
 
     <View
         android:id="@+id/view"
         android:layout_width="match_parent"
-        android:layout_height="2dp"
-        android:layout_below="@+id/spinner1"
-        android:layout_centerHorizontal="true"
-        android:background="#cfcbcb" />
+        android:layout_height="2dp"></View>
+
 
 
     <ListView
         android:id="@android:id/list"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/spinner1"
-        android:descendantFocusability="blocksDescendants"
-        android:fastScrollEnabled="true"
-        android:focusable="false" />
+        android:layout_height="wrap_content"/>
+
 
 </RelativeLayout>
