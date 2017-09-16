@@ -1,11 +1,11 @@
 [
     {
-        "merged": "/Users/mac/Blinkling/app/build/intermediates/res/merged/debug/layout/fragment_bookmark.xml",
-        "source": "/Users/mac/Blinkling/app/src/main/res/layout/fragment_bookmark.xml"
-    },
-    {
         "merged": "/Users/mac/Blinkling/app/build/intermediates/res/merged/debug/layout/abc_list_menu_item_radio.xml",
         "source": "/Users/mac/.android/build-cache/913d8db17f1c25b6ee67b77b63f40d3096bd505a/output/res/layout/abc_list_menu_item_radio.xml"
+    },
+    {
+        "merged": "/Users/mac/Blinkling/app/build/intermediates/res/merged/debug/layout/fragment_bookmark.xml",
+        "source": "/Users/mac/Blinkling/app/src/main/res/layout/fragment_bookmark.xml"
     },
     {
         "merged": "/Users/mac/Blinkling/app/build/intermediates/res/merged/debug/layout/abc_action_menu_layout.xml",
@@ -132,12 +132,12 @@
         "source": "/Users/mac/.android/build-cache/913d8db17f1c25b6ee67b77b63f40d3096bd505a/output/res/layout/abc_list_menu_item_layout.xml"
     },
     {
-        "merged": "/Users/mac/Blinkling/app/build/intermediates/res/merged/debug/layout/activity_splash.xml",
-        "source": "/Users/mac/Blinkling/app/src/main/res/layout/activity_splash.xml"
-    },
-    {
         "merged": "/Users/mac/Blinkling/app/build/intermediates/res/merged/debug/layout/abc_screen_simple.xml",
         "source": "/Users/mac/.android/build-cache/913d8db17f1c25b6ee67b77b63f40d3096bd505a/output/res/layout/abc_screen_simple.xml"
+    },
+    {
+        "merged": "/Users/mac/Blinkling/app/build/intermediates/res/merged/debug/layout/activity_splash.xml",
+        "source": "/Users/mac/Blinkling/app/src/main/res/layout/activity_splash.xml"
     },
     {
         "merged": "/Users/mac/Blinkling/app/build/intermediates/res/merged/debug/layout/notification_template_part_time.xml",

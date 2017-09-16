@@ -47,10 +47,19 @@ public class FaceTracker extends Tracker<Face> {
     private long user_time;
 
     public void set_indi(double left, double right, long time){
+        if(left>=0.6)
         left_thres = left;
+        else
+            left_thres = 0.6;
+        if(right >= 0.6)
         right_thres = right;
+        else
+            right_thres = 0.6;
         initial_check = true;
+        if(user_time>= 900)
         user_time = time;
+        else
+            user_time = 900;
     }
 
     @Override

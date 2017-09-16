@@ -46,6 +46,8 @@ import org.greenrobot.eventbus.ThreadMode;
 
 import java.io.IOException;
 
+import static java.lang.Thread.sleep;
+
 public class WebviewFragment extends Fragment {
 
     public WebView webView;
@@ -346,13 +348,18 @@ public class WebviewFragment extends Fragment {
 
     @Subscribe(threadMode = ThreadMode.MAIN)
     public void onRightEyeClosed(RightEyeClosedEvent e) {
+        change_down_location();
+
+        try {
+            sleep(100);
+        } catch (InterruptedException e1) {
+            e1.printStackTrace();
+        }
 
     }
 
     @Subscribe(threadMode = ThreadMode.MAIN)
     public void onNeutralFace(NeutralFaceEvent e) {
-
-        change_down_location();
 
     }
 
@@ -393,7 +400,7 @@ public class WebviewFragment extends Fragment {
         mCameraSource = new CameraSource.Builder(getActivity(), mFaceDetector)
                 .setRequestedPreviewSize(640, 480)
                 .setFacing(CameraSource.CAMERA_FACING_FRONT)
-                .setRequestedFps(30f)
+                .setRequestedFps(25f)
                 .build();
     }
 
