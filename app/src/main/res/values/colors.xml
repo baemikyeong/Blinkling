@@ -2,12 +2,12 @@
     <resources>
 
         <!--Main-->
-        <color name="colorPrimary">#8f694a</color><!---->
-        <color name="colorPrimaryDark">#8f694a</color><!---->
+        <color name="colorPrimary">#a08989</color><!---->
+        <color name="colorPrimaryDark">#7b6b6b</color><!---->
 
         <!--Selection-->
         <color name="colorGrey">#efefef</color><!---->
-    <color name = "ColorWebback">#D6D7D7</color>
+        <color name = "ColorWebback">#efefef</color>
 
         <color name="colorPrimaryLight">#8a3aaf</color>
         <color name="colorWhite">#ffffff</color>
@@ -18,12 +18,12 @@
         <color name="textColorPrimary">#a7a4a4</color>
         <color name="itemIconTint">#3b3838</color>
 
-        <color name="lvHeaderTextColor">#168686</color>
+        <color name="lvHeaderTextColor">#9FB4C7</color>
         <color name="primaryTextColor">#333333</color>
         <color name="secondaryTextColor">#777777</color>
 
-        <color name="goblinGreen">#168686</color>
-        <color name="lvHeaderDividerColor">#168686</color>
+        <!--<color name="goblinGreen">#168686</color>-->
+        <color name="lvHeaderDividerColor">#9FB4C7</color>
         <color name="lvDividerColor">#E0E0E0</color>
 
 
