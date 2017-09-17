@@ -481,8 +481,8 @@ public class TextViewFragment extends Fragment {
                 location[1] = (-1) * location[1];
 
             // 위치 변경
-            scrollView.scrollTo(0, location[1] + 300);
-            location[1] += 300;
+            scrollView.smoothScrollTo(0, location[1] + 200);
+            location[1] += 200;
 
         }
 

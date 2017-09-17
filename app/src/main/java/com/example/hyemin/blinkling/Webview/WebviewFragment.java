@@ -250,8 +250,8 @@ public class WebviewFragment extends Fragment {
             location[1] = (-1)*location[1];
 
         // 위치 변경
-        webView.scrollTo(0, location[1]+300);
-        location[1] += 300;
+        webView.scrollTo(0, location[1]+200);
+        location[1] += 200;
 
     }
 
@@ -261,8 +261,8 @@ public class WebviewFragment extends Fragment {
         if(location[1] < 0)
             location[1] = (-1)*location[1];
         // 기존의 위치에서 60 이동
-        webView.scrollTo(0, location[1]-300);
-        location[1] -= 300;
+        webView.scrollTo(0, location[1]-200);
+        location[1] -= 200;
     }
 
     /**
@@ -369,11 +369,11 @@ public class WebviewFragment extends Fragment {
        if(eyesetting == true) {
            change_down_location();
 
-           try {
-               sleep(100);
-           } catch (InterruptedException e1) {
-               e1.printStackTrace();
-           }
+//           try {
+//               sleep(100);
+//           } catch (InterruptedException e1) {
+//               e1.printStackTrace();
+//           }
        }
     }
 
@@ -430,7 +430,7 @@ public class WebviewFragment extends Fragment {
         mCameraSource = new CameraSource.Builder(getActivity(), mFaceDetector)
                 .setRequestedPreviewSize(640, 480)
                 .setFacing(CameraSource.CAMERA_FACING_FRONT)
-                .setRequestedFps(15f)
+                .setRequestedFps(40f)
                 .build();
     }
 

@@ -66,8 +66,8 @@ public final class Face_Activity extends Activity {
 
 
     // 눈 감았을때의 오른쪽, 왼쪽 눈의 크기 저장
-    public static float right_thred1 = 0;
-    public static float left_thred1 = 0;
+    public static float right_thred1 = 0.8f;
+    public static float left_thred1 = 0.8f;
 
     // 초기화 여부 판단
     public static boolean initial_check;
@@ -233,8 +233,8 @@ public final class Face_Activity extends Activity {
             mCameraSource = null;
         }
 
-        left_thred1 = 0;
-        right_thred1 = 0;
+        left_thred1 = 0.8f;
+        right_thred1 = 0.8f;
         startActivity(intent);
 
     }
