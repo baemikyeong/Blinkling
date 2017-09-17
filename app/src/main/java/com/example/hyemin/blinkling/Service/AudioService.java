@@ -18,7 +18,7 @@ import com.example.hyemin.blinkling.MainActivity;
 import java.io.File;
 import java.io.IOException;
 
-public class AudioService extends Service{
+public class AudioService extends Service {
     MediaRecorder recorder;
     File audiofile = null;
     static final String TAG = "MediaRecording";
@@ -37,11 +37,12 @@ public class AudioService extends Service{
         mContext = this;
 
     }
+
     @Override
     public int onStartCommand(Intent intent, int flags, int startId) {
         // 서비스가 호출될 때마다 실행
         try {
-            Toast.makeText(this,"recording started", Toast.LENGTH_SHORT).show();
+            Toast.makeText(this, "recording started", Toast.LENGTH_SHORT).show();
             startRecording();
         } catch (IOException e) {
             e.printStackTrace();
@@ -50,13 +51,12 @@ public class AudioService extends Service{
     }
 
 
-
-  @Override
+    @Override
     public void onDestroy() {
-        Toast.makeText(this,"recording terminated", Toast.LENGTH_SHORT).show();
+        Toast.makeText(this, "recording terminated", Toast.LENGTH_SHORT).show();
         stopRecording();
         stopSelf();
-       // ((MainActivity)MainActivity.mContext).getSavedAudioFilePath();
+        // ((MainActivity)MainActivity.mContext).getSavedAudioFilePath();
 
         super.onDestroy();
         // 서비스가 종료될 때 실행
@@ -64,13 +64,11 @@ public class AudioService extends Service{
     }
 
 
-
-
     public void startRecording() throws IOException {
         //Creating file
-    //    File dir = new File(Environment.getExternalStorageDirectory().getAbsolutePath() + "/Audio_Dir");
+        File dir = new File(Environment.getExternalStorageDirectory().getAbsolutePath() + "/Audio_Dir");
 
-      File dir = Environment.getExternalStorageDirectory();
+      //  File dir = Environment.getExternalStorageDirectory();
         try {
             audiofile = File.createTempFile("sound", ".3gp", dir);
         } catch (IOException e) {
@@ -90,7 +88,7 @@ public class AudioService extends Service{
 
     public void stopRecording() {
 
-        if(recorder != null){
+        if (recorder != null) {
             recorder.stop();
             recorder.release();
             recorder = null;
@@ -115,15 +113,15 @@ public class AudioService extends Service{
         //sending broadcast message to scan the media file so that it can be available
         sendBroadcast(new Intent(Intent.ACTION_MEDIA_SCANNER_SCAN_FILE, newUri));
 
-      //  Toast.makeText(this, audiofile.getAbsolutePath(),Toast.LENGTH_SHORT).show();
-    //    Toast.makeText(this, "Added File " + newUri, Toast.LENGTH_LONG).show();
+        //  Toast.makeText(this, audiofile.getAbsolutePath(),Toast.LENGTH_SHORT).show();
+        //    Toast.makeText(this, "Added File " + newUri, Toast.LENGTH_LONG).show();
     }
 
-    public void getAudioFilePath(){
-        Intent intent = new Intent(this, MainActivity.class);
-        intent.putExtra("audio_path",MediaStore.Audio.Media.DATA);
-        intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
-        startActivity(intent);
-
-    }
+//    public void getAudioFilePath() {
+//        Intent intent = new Intent(this, MainActivity.class);
+//        intent.putExtra("audio_path", MediaStore.Audio.Media.DATA);
+//        intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+//        startActivity(intent);
+//
+//    }
 }

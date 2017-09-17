@@ -218,26 +218,6 @@ public class MainActivity extends ActionBarActivity {
             }
             case R.id.voice_btn: {
                 audioService();
-                Intent intent = new Intent(this, AudioService.class);
-                Toast toast;
-                // Requesting permission to RECORD_AUDIO
-
-                //ActivityCompat.requestPermissions(this, permissions, REQUEST_RECORD_AUDIO_PERMISSION);
-               // checkPermission(RECORD_AUDIO);
-
-                if (isRecording == false) {
-                    startService(intent);
-                    //   Toast.makeText(this, "녹음시작", Toast.LENGTH_SHORT).show();
-                    isRecording = true;
-                } else {
-                    stopService(intent);
-                    // Toast.makeText(this, "녹음종료", Toast.LENGTH_SHORT).show();
-                    isRecording = false;
-                }
-
-
-                toast = Toast.makeText(this, item.getTitle() + " Clicked voice button!", Toast.LENGTH_SHORT);
-                toast.show();
                 return true;
             }
             case R.id.bookmark_btn: {
@@ -363,7 +343,7 @@ public class MainActivity extends ActionBarActivity {
             isRecording = true;
         } else {
             stopService(intent);
-            addAudiomark();
+            //addAudiomark();
             // Toast.makeText(this, "녹음종료", Toast.LENGTH_SHORT).show();
             isRecording = false;
         }
