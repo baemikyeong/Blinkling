@@ -44,6 +44,9 @@
         android:layout_below="@+id/spinner1"
         android:descendantFocusability="blocksDescendants"
         android:fastScrollEnabled="true"
-        android:focusable="false" />
+        android:focusable="false"
+        android:minHeight="@dimen/settingsListHeight"
+        android:paddingBottom="8dp"
+        android:paddingTop="8dp" />
 
 </RelativeLayout>

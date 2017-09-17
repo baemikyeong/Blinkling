@@ -4096,11 +4096,13 @@ containing a value of this type.
         public static final int place_autocomplete_progress_horizontal_margin=0x7f0900c9;
         public static final int place_autocomplete_progress_size=0x7f0900ca;
         public static final int place_autocomplete_separator_start=0x7f0900cb;
-        public static final int settingsListHeight=0x7f0900cc;
-        public static final int settingsTextSize=0x7f0900cd;
-        public static final int settings_RadioGroup_MarginLeft=0x7f0900ce;
-        public static final int settings_RadioGroup_MarginTop=0x7f0900cf;
-        public static final int settings_text_size=0x7f0900d0;
+        public static final int settingsInternalPadding=0x7f0900cc;
+        public static final int settingsListHeight=0x7f0900cd;
+        public static final int settingsListTopPadding=0x7f0900ce;
+        public static final int settingsTextSize=0x7f0900cf;
+        public static final int settings_RadioGroup_MarginLeft=0x7f0900d0;
+        public static final int settings_RadioGroup_MarginTop=0x7f0900d1;
+        public static final int settings_text_size=0x7f0900d2;
     }
     public static final class drawable {
         public static final int abc_ab_share_pack_mtrl_alpha=0x7f020000;
@@ -4616,7 +4618,7 @@ containing a value of this type.
         public static final int bookmark_btn=0x7f0f0185;
         public static final int bottom=0x7f0f003c;
         public static final int bottom_navigation=0x7f0f00c8;
-        public static final int bright_gauge=0x7f0f010e;
+        public static final int bright_gauge=0x7f0f010f;
         public static final int btnGo=0x7f0f012c;
         public static final int button=0x7f0f00e2;
         public static final int button2=0x7f0f0144;
@@ -4866,7 +4868,7 @@ containing a value of this type.
         public static final int search_voice_btn=0x7f0f00c3;
         public static final int search_web=0x7f0f0126;
         public static final int seekBar=0x7f0f010c;
-        public static final int seekBar_bright=0x7f0f010f;
+        public static final int seekBar_bright=0x7f0f010e;
         public static final int seek_bar=0x7f0f00da;
         public static final int seek_bar_controls=0x7f0f00d6;
         public static final int select_dialog_listview=0x7f0f00c4;
@@ -5260,9 +5262,6 @@ containing a value of this type.
         public static final int Animation_AppCompat_DropDownUp=0x7f0a00a5;
         public static final int Animation_Design_BottomSheetDialog=0x7f0a00a6;
         public static final int AppBaseTheme=0x7f0a00a7;
-        /**    <item name="android:navigationBarColor"
-            tools:targetApi="lollipop">#ffcdd5</item>
-         */
         public static final int AppTheme=0x7f0a00a8;
         public static final int Base_AlertDialog_AppCompat=0x7f0a00a9;
         public static final int Base_AlertDialog_AppCompat_Light=0x7f0a00aa;
