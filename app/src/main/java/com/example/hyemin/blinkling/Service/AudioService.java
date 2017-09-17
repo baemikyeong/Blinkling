@@ -1,15 +1,21 @@
 package com.example.hyemin.blinkling.Service;
 
+import android.Manifest;
 import android.app.Service;
 import android.content.ContentResolver;
 import android.content.ContentValues;
 import android.content.Context;
+import android.content.DialogInterface;
 import android.content.Intent;
+import android.content.pm.PackageManager;
 import android.media.MediaRecorder;
 import android.net.Uri;
 import android.os.Environment;
 import android.os.IBinder;
 import android.provider.MediaStore;
+import android.support.v4.app.ActivityCompat;
+import android.support.v4.content.ContextCompat;
+import android.support.v7.app.AlertDialog;
 import android.util.Log;
 import android.widget.Toast;
 
@@ -17,6 +23,7 @@ import com.example.hyemin.blinkling.MainActivity;
 
 import java.io.File;
 import java.io.IOException;
+import static android.app.PendingIntent.getActivity;
 
 public class AudioService extends Service {
     MediaRecorder recorder;
@@ -24,6 +31,8 @@ public class AudioService extends Service {
     static final String TAG = "MediaRecording";
     MainActivity mainActivity;
     public static Context mContext;
+    public String path;
+    File temp;
 
     public IBinder onBind(Intent intent) {
         return null;
@@ -34,6 +43,18 @@ public class AudioService extends Service {
     public void onCreate() {
         super.onCreate();
 
+      //  File file = new File(Environment.getExternalStorageDirectory().getAbsoluteFile() + "/Blinkling", bookName);
+        // i have kept text.txt in the sd-card
+
+        //File 생성자를 통해 다음과 같이 file을 저장할 directory를 생성한다.
+        File storeDir = new File(Environment.getExternalStoragePublicDirectory(Environment.DIRECTORY_DOCUMENTS),"AudioDirectory");
+        if(!storeDir.exists()){
+            if(!storeDir.mkdirs()){
+                Log.d("MyDocApp", "failed to create directory");
+                return;
+
+            }
+        }
         mContext = this;
 
     }
@@ -51,17 +72,16 @@ public class AudioService extends Service {
     }
 
 
-    @Override
     public void onDestroy() {
         Toast.makeText(this, "recording terminated", Toast.LENGTH_SHORT).show();
         stopRecording();
         stopSelf();
         // ((MainActivity)MainActivity.mContext).getSavedAudioFilePath();
-
         super.onDestroy();
         // 서비스가 종료될 때 실행
 
     }
+
 
 
     public void startRecording() throws IOException {
@@ -71,12 +91,14 @@ public class AudioService extends Service {
       //  File dir = Environment.getExternalStorageDirectory();
         try {
             audiofile = File.createTempFile("sound", ".3gp", dir);
+            Toast.makeText(this, audiofile.getName(), Toast.LENGTH_SHORT).show();
         } catch (IOException e) {
             Log.e(TAG, "external storage access error");
             return;
         }
         //Creating MediaRecorder and specifying audio source, output format, encoder & output format
         recorder = new MediaRecorder();
+
         recorder.setAudioSource(MediaRecorder.AudioSource.MIC);
         recorder.setOutputFormat(MediaRecorder.OutputFormat.THREE_GPP);
         recorder.setAudioEncoder(MediaRecorder.AudioEncoder.AMR_NB);
@@ -87,14 +109,22 @@ public class AudioService extends Service {
 
 
     public void stopRecording() {
-
-        if (recorder != null) {
+        if(recorder != null){
             recorder.stop();
             recorder.release();
             recorder = null;
             addRecordingToMediaLibrary();
         }
     }
+
+    public void addRecorder(){
+        recorder.stop();
+        Intent intent = new Intent(this, MainActivity.class);
+        intent.putExtra("audio_path", audiofile.getAbsolutePath());
+        startActivity(intent);
+        ((MainActivity)MainActivity.mContext).addAudiomark();
+    }
+
 
     protected void addRecordingToMediaLibrary() {
         //creating content values of size 4
@@ -104,6 +134,7 @@ public class AudioService extends Service {
         values.put(MediaStore.Audio.Media.DATE_ADDED, (int) (current / 1000));
         values.put(MediaStore.Audio.Media.MIME_TYPE, "audio/3gpp");
         values.put(MediaStore.Audio.Media.DATA, audiofile.getAbsolutePath());
+        path = audiofile.getAbsolutePath();
 
         //creating content resolver and storing it in the external content uri
         ContentResolver contentResolver = getContentResolver();
@@ -117,11 +148,4 @@ public class AudioService extends Service {
         //    Toast.makeText(this, "Added File " + newUri, Toast.LENGTH_LONG).show();
     }
 
-//    public void getAudioFilePath() {
-//        Intent intent = new Intent(this, MainActivity.class);
-//        intent.putExtra("audio_path", MediaStore.Audio.Media.DATA);
-//        intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
-//        startActivity(intent);
-//
-//    }
 }

@@ -235,7 +235,7 @@ public class BookTab_Fragment extends ListFragment {
 
                 int book_position = Integer.parseInt(book_pos);
 
-                ((MainActivity) getActivity()).changeToText(book_title,book_position);
+                ((MainActivity) getActivity()).changeToText(book_title,book_position+88);
 
             }
         });

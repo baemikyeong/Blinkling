@@ -448,10 +448,6 @@
         "source": "/Users/seohyemin/.android/build-cache/c7bc4f7edfba7ff92a9519a276f8d2da7169785b/output/res/drawable/abc_ic_go_search_api_material.xml"
     },
     {
-        "merged": "/Users/seohyemin/Blinkling-master/app/build/intermediates/res/merged/debug/drawable/book2.png",
-        "source": "/Users/seohyemin/Blinkling-master/app/src/main/res/drawable/book2.png"
-    },
-    {
         "merged": "/Users/seohyemin/Blinkling-master/app/build/intermediates/res/merged/debug/drawable/notification_bg.xml",
         "source": "/Users/seohyemin/.android/build-cache/c7bc4f7edfba7ff92a9519a276f8d2da7169785b/output/res/drawable/notification_bg.xml"
     },

@@ -1,5 +1,7 @@
 package com.example.hyemin.blinkling;
 
+import android.*;
+import android.Manifest;
 import android.annotation.TargetApi;
 import android.content.Context;
 import android.content.DialogInterface;
@@ -55,6 +57,10 @@ import com.example.hyemin.blinkling.Service.AudioService;
 import com.example.hyemin.blinkling.Service.ScreenFilterService;
 import com.example.hyemin.blinkling.Setting.SettingFragment;
 import com.example.hyemin.blinkling.Webview.WebviewFragment;
+import com.example.hyemin.blinkling.event.EyeSettingEvent;
+import com.example.hyemin.blinkling.event.RightEyeClosedEvent;
+
+import org.greenrobot.eventbus.EventBus;
 
 import java.io.File;
 import java.util.ArrayList;
@@ -65,7 +71,6 @@ import static android.Manifest.permission.RECORD_AUDIO;
 public class MainActivity extends ActionBarActivity {
 
     private static final String TAG = "AppPermission";
-    private final int MY_PERMISSION_REQUEST_STORAGE = 100;
     public static Context mContext;
     TextViewFragment txt_fragment;
     WebviewFragment webview_fragment;
@@ -84,9 +89,7 @@ public class MainActivity extends ActionBarActivity {
     CustomAdapter_audio mAdapter_audio;
     String url;
     Fragment current_fragment;
-
-    private boolean init = true;
-    boolean ready = false;
+    int fragment_type;
     private boolean isRecording = false;
     private static final int REQUEST_RECORD_AUDIO_PERMISSION = 200;
     String InStoragePath = Environment.getExternalStorageDirectory().getAbsolutePath() + "/Blinkling";
@@ -101,23 +104,19 @@ public class MainActivity extends ActionBarActivity {
     public static boolean light;//초기상태는 불이 꺼진 상태
     public static FrameLayout aframe;
     public String web_bookmark_url;
-    public String mBookName_main = "";
     String audio_path;
-    AudioService audioService;
-    public boolean hasPosition = false;
+    public Boolean eyesetting = true;
+    public Boolean lightsetting = true;
+    public Boolean recordingsetting = true;
 
     @Override
     public void onConfigurationChanged(Configuration newConfig) {
 
-        //    FrameLayout fl = (FrameLayout) findViewById(R.id.main_container);
-        //    fl.removeAllViews();
-//        FragmentManager manager = getSupportFragmentManager();
-//        FragmentTransaction ft = manager.beginTransaction();
-//        ft.hide(current_fragment);
         transaction.hide(current_fragment);
         super.onConfigurationChanged(newConfig);
 
     }
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -125,6 +124,8 @@ public class MainActivity extends ActionBarActivity {
         setContentView(R.layout.activity_main);
 
         mContext = this;
+        Intent intent = getIntent();
+        audio_path = intent.getStringExtra("audio_path");
 
         mFacade = new ExamDbFacade(getApplicationContext());
         mAdapter = new CustomAdapter_book(getApplicationContext(), mFacade.getCursor(), false);
@@ -139,16 +140,18 @@ public class MainActivity extends ActionBarActivity {
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         getSupportActionBar().setHomeAsUpIndicator(R.drawable.ic_back_default);
 
+        if (ContextCompat.checkSelfPermission(this, android.Manifest.permission.RECORD_AUDIO) != PackageManager.PERMISSION_GRANTED) {
+            ActivityCompat.requestPermissions(this, new String[]{Manifest.permission.RECORD_AUDIO}, REQUEST_RECORD_AUDIO_PERMISSION);
+        }
 
         light = false;
         fragmentManager = getSupportFragmentManager();
         fragment = new BookshelfFragment();
-
+        fragment_type = 1;
         current_fragment = fragment;
         final FragmentTransaction transaction = fragmentManager.beginTransaction();
         transaction.add(R.id.main_container, fragment, "fragBookshelf").commit();
 
-        //current_fragment = fragment; 
          getSupportActionBar().setTitle("");
         bottomNavigation = (BottomNavigationView) findViewById(R.id.bottom_navigation);
         bottomNavigation.setOnNavigationItemSelectedListener(
@@ -158,19 +161,23 @@ public class MainActivity extends ActionBarActivity {
                         switch (item.getItemId()) {
                             case R.id.navigation_home:
                                 fragment = new BookshelfFragment();
+                                fragment_type = 1;
                                 break;
 
                             case R.id.navigation_write:
 
                                 fragment = new BookmarkFragment();
+                                fragment_type = 2;
                                 break;
 
                             case R.id.navigation_friends:
                                 fragment = new WebviewFragment();
+                                fragment_type = 3;
                                 break;
 
                             case R.id.navigation_foodbank:
                                 fragment = new SettingFragment();
+                                fragment_type = 4;
                                 break;
 
                         }
@@ -187,15 +194,11 @@ public class MainActivity extends ActionBarActivity {
         return true;
     }
 
+
     public boolean onOptionsItemSelected(MenuItem item) {
         int id = item.getItemId();
         switch (id) {
             case android.R.id.home: {
-                //FragmentManager fm = getSupportFragmentManager();
-
-                //  FrameLayout fl = (FrameLayout) findViewById(R.id.main_container);
-                //  fl.removeAllViews();
-
                 transaction.hide(current_fragment);
 
                 fragmentManager.popBackStack();
@@ -204,27 +207,19 @@ public class MainActivity extends ActionBarActivity {
             case R.id.notebook_add: {
                 InnerStorageFragment_start();
             }
-            case R.id.notebook_delete: {
-                Toast toast;
-                toast = Toast.makeText(this, item.getTitle() + " Clicked delete button!", Toast.LENGTH_SHORT);
-                toast.show();
-                return true;
-            }
             case R.id.eye_btn: {
-                Toast toast;
-                toast = Toast.makeText(this, item.getTitle() + " Clicked eye button!", Toast.LENGTH_SHORT);
-                toast.show();
+                eyesetting = !eyesetting;
+                EventBus.getDefault().post(new EyeSettingEvent());
+                invalidateOptionsMenu(); //cause a redraw
                 return true;
             }
             case R.id.voice_btn: {
+                recordingsetting = !recordingsetting;
                 audioService();
                 return true;
             }
             case R.id.bookmark_btn: {
                 addBookmark();
-                return true;
-            }
-            case R.id.bookmark_delete: {
                 return true;
             }
             case R.id.webmark_add: {
@@ -240,18 +235,16 @@ public class MainActivity extends ActionBarActivity {
                                 Uri.parse("package:" + getPackageName()));
                         startActivityForResult(intent, 1234);
                     } else {
-                        if (!light) {
+                        if (lightsetting) {
                             startService(service);
-                            light = true;
+                            lightsetting = false;
                         } else {
                             stopService(service);
-                            light = false;
+                            lightsetting = true;
                         }
                     }
                 }
-                Toast toast;
-                toast = Toast.makeText(this, item.getTitle() + " Clicked light button!", Toast.LENGTH_SHORT);
-                toast.show();
+                invalidateOptionsMenu();
                 return true;
             }
         }
@@ -260,26 +253,38 @@ public class MainActivity extends ActionBarActivity {
 
     }
 
+    @Override
+    public void onRequestPermissionsResult(int requestCode, String[] permissions, int[] grantResults) {
+        if (requestCode == REQUEST_RECORD_AUDIO_PERMISSION) {
+            if (grantResults[0] == PackageManager.PERMISSION_GRANTED) {
+                //start audio recording or whatever you planned to do
+            }else if (grantResults[0] == PackageManager.PERMISSION_DENIED){
+                if (ActivityCompat.shouldShowRequestPermissionRationale(this, android.Manifest.permission.RECORD_AUDIO)) {
+                    //Show an explanation to the user *asynchronously*
+                    AlertDialog.Builder builder = new AlertDialog.Builder(this);
+                    builder.setMessage("This permission is important to record audio.")
+                            .setTitle("Important permission required");
+                    builder.setPositiveButton("OK", new DialogInterface.OnClickListener() {
+                        public void onClick(DialogInterface dialog, int id) {
+                            ActivityCompat.requestPermissions(MainActivity.this, new String[]{android.Manifest.permission.RECORD_AUDIO}, REQUEST_RECORD_AUDIO_PERMISSION);
+                        }
+                    });
+                    ActivityCompat.requestPermissions(this, new String[]{android.Manifest.permission.RECORD_AUDIO}, REQUEST_RECORD_AUDIO_PERMISSION);
+                }else{
+                    Toast.makeText(this, "permission이 필요합니다", Toast.LENGTH_SHORT).show();
+                    //Never ask again and handle your app without permission.
+                }
+            }
+        }
+    }
+
     private void replaceFragment(Fragment fragment) {
         String backStateName = fragment.getClass().getName();
 
         FragmentManager manager = getSupportFragmentManager();
         boolean fragmentPopped = fragmentManager.popBackStackImmediate(backStateName, 0);
 
-        //  FrameLayout fl = (FrameLayout) findViewById(R.id.main_container);
-        //  fl.removeAllViews();
-
-        RelativeLayout l = (RelativeLayout) findViewById(R.id.activity_main);
-
-
         if (!fragmentPopped) {                  //fragment not in back stack, create it.
-//            FragmentTransaction ft = manager.beginTransaction();
-//            ft.hide(current_fragment);
-//            ft.replace(R.id.main_container, fragment);
-//            current_fragment = fragment;
-//            ft.addToBackStack(backStateName);
-//            ft.commit();
-
             transaction = manager.beginTransaction();
             transaction.hide(current_fragment);
             transaction.replace(R.id.main_container, fragment);
@@ -297,6 +302,7 @@ public class MainActivity extends ActionBarActivity {
         bundle.putString("bookname", valueBookName);//번들에 값을 넣음
         frag.setArguments(bundle);
 
+<<<<<<< HEAD
 //        FrameLayout fl = (FrameLayout) findViewById(R.id.main_container);
 //        fl.removeAllViews();
 
@@ -309,6 +315,7 @@ public class MainActivity extends ActionBarActivity {
 
     }
 */
+
     //디비 목록에서 책 열때 사용
     public void changeToText(String valueBookName, int pos){
         Fragment frag = new TextViewFragment();
@@ -324,6 +331,7 @@ public class MainActivity extends ActionBarActivity {
 //        fl.removeAllViews();
 
         //   final FragmentTransaction transaction = fragmentManager.beginTransaction();
+        fragmentManager.popBackStackImmediate(frag.getClass().getName(), fragmentManager.POP_BACK_STACK_INCLUSIVE);
         replaceFragment(frag);
 
         // transaction.replace(R.id.main_container, frag).commit();
@@ -334,19 +342,14 @@ public class MainActivity extends ActionBarActivity {
 
     public void audioService(){
         Intent intent = new Intent(this, AudioService.class);
-        Toast toast;
-        // Requesting permission to RECORD_AUDIO
 
-        if (isRecording == false) {
+        if (recordingsetting == false) {
             startService(intent);
-            //   Toast.makeText(this, "녹음시작", Toast.LENGTH_SHORT).show();
-            isRecording = true;
         } else {
             stopService(intent);
-            //addAudiomark();
-            // Toast.makeText(this, "녹음종료", Toast.LENGTH_SHORT).show();
-            isRecording = false;
+
         }
+        invalidateOptionsMenu();
     }
 
     private File makeDirectory(String dir_path) {
@@ -417,6 +420,7 @@ public class MainActivity extends ActionBarActivity {
     }
 
     public void addAudiomark() {
+
         java.util.Calendar cal = java.util.Calendar.getInstance();
         T_date = DateFormatter.format(cal, "yyyy-MM-dd HH:mm:ss");
 
@@ -503,18 +507,8 @@ public class MainActivity extends ActionBarActivity {
 
     }
 
-    /*public void getSavedAudioFilePath(){
-        ((AudioService)AudioService.mContext).getAudioFilePath();
-        Intent intent = getIntent();
-        audio_path = intent.getStringExtra("audio_path");
-    }*/
-
     public void sendBookname(String mBookName) {
-//        BookshelfFragment tf = (BookshelfFragment) getSupportFragmentManager().findFragmentById(R.id.main_container);
-//        tf.setBookshelf(mBookName);
-
         ((BookshelfFragment) getSupportFragmentManager().findFragmentByTag("fragBookshelf")).setBookshelf(mBookName);
-
     }
 
 }

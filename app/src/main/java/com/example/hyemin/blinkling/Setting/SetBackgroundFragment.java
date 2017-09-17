@@ -56,9 +56,22 @@ public class SetBackgroundFragment extends DialogFragment {
         LayoutInflater inflater = getActivity().getLayoutInflater();
         final View view = inflater.inflate(R.layout.fragment_set_background, null);
         final RadioGroup rg = (RadioGroup)view.findViewById(R.id.radiobackground);
-
+        final int[] check_item = {1};
         final int[] nCurrent = {intPref.getInt("background", 1)};
-        rg.check(nCurrent[0]);
+        switch (nCurrent[0]){
+            case 1:
+                rg.check(R.id.radio_bgcolor1);
+                break;
+            case 2:
+                rg.check(R.id.radio_bgcolor2);
+                break;
+            case 3:
+                rg.check(R.id.radio_bgcolor3);
+                break;
+            case 4:
+                rg.check(R.id.radio_bgcolor4);
+                break;
+        }
 
         builder.setView(view)
                 .setPositiveButton("확인", new DialogInterface.OnClickListener() {
@@ -66,8 +79,16 @@ public class SetBackgroundFragment extends DialogFragment {
 
                     @Override
                     public void onClick(DialogInterface dialog, int id) {
+                        if(rg.getCheckedRadioButtonId() == R.id.radio_bgcolor1)
+                            check_item[0] = 1;
+                        else if(rg.getCheckedRadioButtonId() == R.id.radio_bgcolor2)
+                            check_item[0] = 2;
+                        else if(rg.getCheckedRadioButtonId() == R.id.radio_bgcolor3)
+                            check_item[0] = 3;
+                        else
+                            check_item[0] = 4;
 
-                        editor1.putInt("background", rg.getCheckedRadioButtonId());
+                        editor1.putInt("background", check_item[0]);
                         editor1.commit();
 
                     }

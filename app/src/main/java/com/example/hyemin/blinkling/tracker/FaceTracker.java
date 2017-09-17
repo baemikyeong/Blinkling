@@ -32,6 +32,8 @@ import com.google.android.gms.vision.face.Face;
 
 import org.greenrobot.eventbus.EventBus;
 
+import static java.lang.Thread.sleep;
+
 
 public class FaceTracker extends Tracker<Face> {
 
@@ -45,10 +47,19 @@ public class FaceTracker extends Tracker<Face> {
     private long user_time;
 
     public void set_indi(double left, double right, long time){
+        if(left>=0.5)
         left_thres = left;
+        else
+            left_thres = 0.5;
+        if(right >= 0.5)
         right_thres = right;
+        else
+            right_thres = 0.5;
         initial_check = true;
+        if(user_time>= 1000)
         user_time = time;
+        else
+            user_time = 1000;
     }
 
     @Override
@@ -71,7 +82,7 @@ public class FaceTracker extends Tracker<Face> {
                 leftClosed = false;
             } else if (!leftClosed && face.getIsLeftEyeOpenProbability() < left_thres) {
                 try {
-                    Thread.sleep(user_time);
+                    sleep(user_time);
                 } catch (InterruptedException e) {
                     e.printStackTrace();
                 }
@@ -83,7 +94,7 @@ public class FaceTracker extends Tracker<Face> {
                 rightClosed = false;
             } else if (!rightClosed && face.getIsRightEyeOpenProbability() < right_thres) {
                 try {
-                    Thread.sleep(user_time);
+                    sleep(user_time);
                 } catch (InterruptedException e) {
                     e.printStackTrace();
                 }
@@ -105,8 +116,14 @@ public class FaceTracker extends Tracker<Face> {
         // 오른쪽 왼쪽 눈감음 따로 인식 가능 (현재는 필요하지 않기 때문에 생략)
         if (leftClosed && rightClosed) {
            EventBus.getDefault().post(new RightEyeClosedEvent());
+            try {
+                sleep(1500);
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
         } else if (!leftClosed && !rightClosed) {
             EventBus.getDefault().post(new NeutralFaceEvent());
+
         }
     }
 }

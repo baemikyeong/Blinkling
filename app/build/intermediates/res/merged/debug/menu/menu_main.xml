@@ -23,31 +23,20 @@
 
     <item
         android:id="@+id/voice_btn"
-        android:icon="@drawable/ic_mic_default"
+        android:icon="@drawable/ic_mic_pressed"
         android:title="녹음"
         app:showAsAction="always"></item>
 
     <item
         android:id="@+id/bookmark_btn"
-        android:icon="@drawable/ic_bookmark_default"
+        android:icon="@drawable/ic_bookmark_pressed"
         android:title="북마크"
         app:showAsAction="always"></item>
 
-    <item
-        android:id="@+id/notebook_delete"
-        android:icon="@drawable/ic_clear_black_24dp"
-        android:title="삭제"
-        app:showAsAction="always"></item>
-
-    <item
-        android:id="@+id/bookmark_delete"
-        android:icon="@drawable/ic_clear_black_24dp"
-        android:title="북마크 삭제"
-        app:showAsAction="always"></item>
 
     <item
         android:id="@+id/webmark_add"
-        android:icon="@drawable/ic_bookmark_default"
+        android:icon="@drawable/ic_bookmark_pressed"
         android:title="웹마크 추가"
         app:showAsAction="always">
 

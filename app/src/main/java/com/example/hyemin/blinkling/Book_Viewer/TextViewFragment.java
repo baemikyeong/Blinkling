@@ -40,6 +40,7 @@ import android.widget.Toast;
 
 import com.example.hyemin.blinkling.MainActivity;
 import com.example.hyemin.blinkling.R;
+import com.example.hyemin.blinkling.event.EyeSettingEvent;
 import com.example.hyemin.blinkling.event.NeutralFaceEvent;
 import com.example.hyemin.blinkling.event.RightEyeClosedEvent;
 import com.example.hyemin.blinkling.tracker.FaceTracker;
@@ -60,6 +61,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 import static com.google.android.gms.wearable.DataMap.TAG;
+import static java.lang.Thread.sleep;
 
 
 /**
@@ -69,24 +71,16 @@ public class TextViewFragment extends Fragment {
 
     private static final int REQUEST_CAMERA_PERM = 69;      // 카메라 퍼미션을 위한 코드
     public static TextView tv;                              // 텍스트 뷰를 띄워줄 뷰
-    private HorizontalScrollView horizon_scrollView;
     private ScrollView scrollView;                          // 텍스트 뷰를 스크롤 뷰를 이용해 화면에 출력
-    private ViewPager viewpager;                            // 텍스트 뷰를 뷰페이저를 이용해 화면에 출력
     private int[] location = new int[2];                    // 사용자가 현재 보고 있는 화면의 위치 저장
     private FaceDetector mFaceDetector;                     // 얼굴 인식
     private CameraSource mCameraSource;                     // 카메라 객체
     private FaceTracker face_tracker;                       // 눈 파악
-    private double left_thres = 0;                          // 사용자의 초기값
-    private double right_thres = 0;
-    private SharedPreferences bookmarkPref;
-    private SharedPreferences.Editor bookEdit;
-    private int book_mark;
     private SharedPreferences intPref;
-    private SharedPreferences.Editor editor1;
     private WindowManager.LayoutParams params;
     private float brightness; // 밝기값은 float형으로 저장되어 있습니다.
     private ViewPager mPager;
-    private FragmentPagerAdapter mPagerAdapter;
+    private FragmentPagerAdapter mPagerAdapter = null;
     private static Map<String, String> mPages = new HashMap<String, String>();
     private LinearLayout mPageIndicator;
     private ProgressBar mProgressBar;
@@ -101,6 +95,7 @@ public class TextViewFragment extends Fragment {
     private String bookName = "";
     private int book_position;
 
+    Boolean eyesetting = true;
 
     @Override
     public void onCreate(@Nullable Bundle savedInstanceState) {
@@ -138,8 +133,8 @@ public class TextViewFragment extends Fragment {
 
         }
 
+        eyesetting = ((MainActivity)getActivity()).eyesetting;
         intPref = this.getActivity().getSharedPreferences("mPred", Activity.MODE_PRIVATE);//이거
-        editor1 = intPref.edit();
 
         int bgcolor = intPref.getInt("background", 0);
         font = intPref.getInt("font_edit", 0);
@@ -159,7 +154,7 @@ public class TextViewFragment extends Fragment {
         // 밝기 설정 적용
         getActivity().getWindow().setAttributes(params);
 
-        if (pagestyle % 10 == 7) { // 뷰페이저와 스크롤 뷰 구분
+        if (pagestyle == 1) { // 뷰페이저와 스크롤 뷰 구분
             rootView = inflater.inflate(R.layout.fragment_text_pagerview, container, false);
             textviewPage = (ViewGroup) getActivity().getLayoutInflater().inflate(R.layout.fragment, (ViewGroup) getActivity().getWindow().getDecorView().findViewById(android.R.id.content), false);
             tv = (TextView) textviewPage.findViewById(R.id.mText);
@@ -181,46 +176,51 @@ public class TextViewFragment extends Fragment {
             @Override
             public void run() {
                 scrollView.smoothScrollTo(0,book_position);
-                Toast.makeText(getActivity(),book_position+"다4", Toast.LENGTH_SHORT).show();
+           //     Toast.makeText(getActivity(),book_position+"다4", Toast.LENGTH_SHORT).show();
 
             }
         });
-        switch (textsize % 10) {
-            case 5:
-                tv.setTextSize(TypedValue.COMPLEX_UNIT_DIP, 12);
-                break;
-            case 6:
-                tv.setTextSize(TypedValue.COMPLEX_UNIT_DIP, 15);
-                break;
-            case 7:
-                tv.setTextSize(TypedValue.COMPLEX_UNIT_DIP, 18);
-                break;
-            case 8:
+
+        switch (textsize) {
+            case 1:
                 tv.setTextSize(TypedValue.COMPLEX_UNIT_DIP, 23);
+                break;
+            case 2:
+                tv.setTextSize(TypedValue.COMPLEX_UNIT_DIP, 25);
+                break;
+            case 3:
+                tv.setTextSize(TypedValue.COMPLEX_UNIT_DIP, 30);
+                break;
+            case 4:
+                tv.setTextSize(TypedValue.COMPLEX_UNIT_DIP, 40);
                 break;
         }
 
-        switch (bgcolor % 10) {
+        switch (bgcolor) {
             case 1: // 연한 베이지
                 tv.setBackgroundColor(Color.rgb(245, 241, 222));
+                tv.setTextColor(Color.rgb(0,0,0));
                 if (mPager != null)
                     mPager.setBackgroundColor(Color.rgb(245, 241, 222));
                 rootView.setBackgroundColor(Color.rgb(245, 241, 222));
                 break;
             case 2: // 연한 그레이
                 tv.setBackgroundColor(Color.rgb(204, 204, 204));
+                tv.setTextColor(Color.rgb(0,0,0));
                 if (mPager != null)
                     mPager.setBackgroundColor(Color.rgb(204, 204, 204));
                 rootView.setBackgroundColor(Color.rgb(204, 204, 204));
                 break;
             case 3: // 흰색
                 tv.setBackgroundColor(Color.rgb(255, 255, 255));
+                tv.setTextColor(Color.rgb(0,0,0));
                 if (mPager != null)
                     mPager.setBackgroundColor(Color.rgb(255, 255, 255));
                 rootView.setBackgroundColor(Color.rgb(255, 255, 255));
                 break;
             case 4: // 검정색
                 tv.setBackgroundColor(Color.rgb(0, 0, 0));
+                tv.setTextColor(Color.rgb(255,255,255));
                 if (mPager != null)
                     mPager.setBackgroundColor(Color.rgb(0, 0, 0));
                 rootView.setBackgroundColor(Color.rgb(0, 0, 0));
@@ -228,7 +228,7 @@ public class TextViewFragment extends Fragment {
         }
 
 
-        switch (font % 10) {
+        switch (font-1) {
             case 0: // 나눔바른고딕
                 typeFace = Typeface.createFromAsset(getActivity().getAssets(), "fonts/NanumBarunGothic.otf");
                 tv.setTypeface(typeFace);
@@ -255,7 +255,7 @@ public class TextViewFragment extends Fragment {
                 break;
         }
 
-        if (pagestyle % 10 == 7) { // 뷰페이저와 스크롤 뷰 구분
+        if (pagestyle == 1) { // 뷰페이저와 스크롤 뷰 구분
 
             readTxt();
 
@@ -294,9 +294,25 @@ public class TextViewFragment extends Fragment {
 
     public void onPrepareOptionsMenu(Menu menu) {
         menu.findItem(R.id.notebook_add).setVisible(false);
-        menu.findItem(R.id.notebook_delete).setVisible(false);
-        menu.findItem(R.id.bookmark_delete).setVisible(false);
         menu.findItem(R.id.webmark_add).setVisible(false);
+
+        if(eyesetting == false)
+            menu.findItem(R.id.eye_btn).setIcon(R.drawable.ic_eye_pressed);
+        else
+            menu.findItem(R.id.eye_btn).setIcon(R.drawable.ic_eye_default);
+
+        if((((MainActivity)getActivity()).lightsetting) == true){
+            menu.findItem(R.id.light_btn).setIcon(R.drawable.ic_bluelight_default);
+        }
+        else
+            menu.findItem(R.id.light_btn).setIcon(R.drawable.ic_bluelight_pressed);
+
+        if((((MainActivity)getActivity()).recordingsetting) == true){
+            menu.findItem(R.id.voice_btn).setIcon(R.drawable.ic_mic_pressed);
+        }
+        else
+            menu.findItem(R.id.voice_btn).setIcon(R.drawable.ic_mic_pressed_on);
+
         super.onPrepareOptionsMenu(menu);
     }
 
@@ -424,7 +440,6 @@ public class TextViewFragment extends Fragment {
 
     private void readTxt() {
 
-
         File file = new File(Environment.getExternalStorageDirectory().getAbsoluteFile() + "/Blinkling", bookName);
         // i have kept text.txt in the sd-card
 
@@ -460,24 +475,14 @@ public class TextViewFragment extends Fragment {
         if (pagestyle % 10 == 7) {
             int cur = mPager.getCurrentItem();
             mPager.setCurrentItem(++cur);
-            try {
-                Thread.sleep(100);
-            } catch (InterruptedException e) {
-                e.printStackTrace();
-            }
 
         } else {
             if (location[1] < 0)
                 location[1] = (-1) * location[1];
 
             // 위치 변경
-            scrollView.scrollTo(0, location[1] + 60);
-            location[1] += 60;
-            try {
-                Thread.sleep(100);
-            } catch (InterruptedException e) {
-                e.printStackTrace();
-            }
+            scrollView.scrollTo(0, location[1] + 300);
+            location[1] += 300;
 
         }
 
@@ -511,6 +516,7 @@ public class TextViewFragment extends Fragment {
      *
      * @return <code>true</code> if granted
      */
+
     private boolean isCameraPermissionGranted() {
         return ActivityCompat.checkSelfPermission(getActivity().getApplicationContext(), android.Manifest.permission.CAMERA) == PackageManager.PERMISSION_GRANTED;
     }
@@ -616,16 +622,28 @@ public class TextViewFragment extends Fragment {
            change_down_location();
        }
    */
+
     @Subscribe(threadMode = ThreadMode.MAIN)
     public void onRightEyeClosed(RightEyeClosedEvent e) {
-        // change_up_location();
+        if(eyesetting == true) {
+            // change_up_location();
+            change_down_location();
+            try {
+                sleep(100);
+            } catch (InterruptedException e1) {
+                e1.printStackTrace();
+            }
+        }
+    }
 
+    @Subscribe(threadMode = ThreadMode.MAIN)
+    public void onEyeSetting(EyeSettingEvent e) {
+        eyesetting = ((MainActivity)getActivity()).eyesetting;
     }
 
     @Subscribe(threadMode = ThreadMode.MAIN)
     public void onNeutralFace(NeutralFaceEvent e) {
 
-        change_down_location();
 
     }
 
@@ -655,7 +673,7 @@ public class TextViewFragment extends Fragment {
 
         float right_eye = intPref.getFloat("LValue", 0.7f);
         float left_eye = intPref.getFloat("RValue", 0.7f);
-        long blink_time = intPref.getLong("time_blink", 500);
+        long blink_time = intPref.getLong("time_blink", 900);
         face_tracker.set_indi(left_eye, right_eye, blink_time);
 
         mFaceDetector.setProcessor(new LargestFaceFocusingProcessor(mFaceDetector, face_tracker));
@@ -672,7 +690,7 @@ public class TextViewFragment extends Fragment {
         mCameraSource = new CameraSource.Builder(getActivity().getApplicationContext(), mFaceDetector)
                 .setRequestedPreviewSize(640, 480)
                 .setFacing(CameraSource.CAMERA_FACING_FRONT)
-                .setRequestedFps(30f)
+                .setRequestedFps(15f)
                 .build();
     }
 

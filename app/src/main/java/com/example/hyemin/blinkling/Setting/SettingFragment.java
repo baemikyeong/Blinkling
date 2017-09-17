@@ -58,8 +58,6 @@ public class SettingFragment extends Fragment {
         menu.findItem(R.id.eye_btn).setVisible(false);
         menu.findItem(R.id.light_btn).setVisible(false);
         menu.findItem(R.id.notebook_add).setVisible(false);
-        menu.findItem(R.id.notebook_delete).setVisible(false);
-        menu.findItem(R.id.bookmark_delete).setVisible(false);
         menu.findItem(R.id.webmark_add).setVisible(false);
         super.onPrepareOptionsMenu(menu);
     }
