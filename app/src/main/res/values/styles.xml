@@ -8,7 +8,7 @@
         <item name="colorPrimaryDark">#736262</item><!---->
         <item name="colorControlNormal">@color/colorPrimary</item> <!--edittext's underline-->
         <item name="colorControlActivated">#736262</item>
-        <item name="colorControlHighlight"></item>
+        <!--<item name="colorControlHighlight"></item>-->
      <!--   <item name="android:navigationBarColor"
             tools:targetApi="lollipop">#ffcdd5</item>-->
     </style>

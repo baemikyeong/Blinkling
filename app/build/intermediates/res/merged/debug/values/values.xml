@@ -140,7 +140,7 @@
     <bool name="abc_config_actionMenuItemAllCaps">true</bool>
     <bool name="abc_config_closeDialogWhenTouchOutside">true</bool>
     <bool name="abc_config_showMenuShortcutsWhenKeyboardPresent">false</bool>
-    <color name="ColorWebback">#D6D7D7</color>
+    <color name="ColorWebback">#efefef</color>
     <color name="abc_input_method_navigation_guard">@android:color/black</color>
     <color name="abc_search_url_text_normal">#7fa87f</color>
     <color name="abc_search_url_text_pressed">@android:color/black</color>
@@ -210,8 +210,8 @@
     <color name="highlighted_text_material_light">#66009688</color>
     <color name="itemIconTint">#3b3838</color>
     <color name="lvDividerColor">#E0E0E0</color>
-    <color name="lvHeaderDividerColor">#168686</color>
-    <color name="lvHeaderTextColor">#168686</color>
+    <color name="lvHeaderDividerColor">#9FB4C7</color>
+    <color name="lvHeaderTextColor">#9FB4C7</color>
     <color name="material_blue_grey_800">#ff37474f</color>
     <color name="material_blue_grey_900">#ff263238</color>
     <color name="material_blue_grey_950">#ff21272b</color>
@@ -1189,9 +1189,12 @@
     </style>
     <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
         
-        <item name="colorAccent">#a08989</item>
-        <item name="colorPrimary">#a08989</item>
-        <item name="colorPrimaryDark">#000000</item>
+        <item name="colorAccent">@color/colorPrimary</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">#736262</item>
+        <item name="colorControlNormal">@color/colorPrimary</item> 
+        <item name="colorControlActivated">#736262</item>
+        
      
     </style>
     <style name="Base.AlertDialog.AppCompat" parent="android:Widget">

@@ -5,7 +5,7 @@
 
     <item
         android:id="@+id/notebook_add"
-        android:icon="@drawable/plus"
+        android:icon="@drawable/ic_browser_default"
         android:title="추가"
         app:showAsAction="always"></item>
 
