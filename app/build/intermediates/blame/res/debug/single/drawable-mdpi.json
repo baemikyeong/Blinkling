@@ -88,6 +88,10 @@
         "source": "/Users/seohyemin/Blinkling-master/app/src/main/res/drawable-mdpi/ic_search_white_default.png"
     },
     {
+        "merged": "/Users/seohyemin/Blinkling-master/app/build/intermediates/res/merged/debug/drawable-mdpi/ic_details.png",
+        "source": "/Users/seohyemin/Blinkling-master/app/src/main/res/drawable-mdpi/ic_details.png"
+    },
+    {
         "merged": "/Users/seohyemin/Blinkling-master/app/build/intermediates/res/merged/debug/drawable-mdpi/ic_page_default.png",
         "source": "/Users/seohyemin/Blinkling-master/app/src/main/res/drawable-mdpi/ic_page_default.png"
     },

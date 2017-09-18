@@ -122,15 +122,6 @@ public class MainActivity extends ActionBarActivity {
     String receivedPath;
 
     @Override
-    public void onConfigurationChanged(Configuration newConfig) {
-
-        transaction.hide(current_fragment);
-        super.onConfigurationChanged(newConfig);
-
-    }
-
-
-    @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
@@ -213,6 +204,16 @@ public class MainActivity extends ActionBarActivity {
         floatingBtnHide();
 
     }
+
+
+    @Override
+    public void onConfigurationChanged(Configuration newConfig) {
+        if(transaction != null && current_fragment != null)
+        transaction.hide(current_fragment);
+        super.onConfigurationChanged(newConfig);
+    }
+
+
 
     public boolean onCreateOptionsMenu(Menu menu) {
       getMenuInflater().inflate(R.menu.menu_main, menu);

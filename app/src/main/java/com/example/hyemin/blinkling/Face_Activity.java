@@ -66,8 +66,8 @@ public final class Face_Activity extends Activity {
 
 
     // 눈 감았을때의 오른쪽, 왼쪽 눈의 크기 저장
-    public static float right_thred1 = 0;
-    public static float left_thred1 = 0;
+    public static float right_thred1 = 0.8f;
+    public static float left_thred1 = 0.8f;
 
     // 초기화 여부 판단
     public static boolean initial_check;
@@ -218,7 +218,7 @@ public final class Face_Activity extends Activity {
         }
 
         mCameraSource = new CameraSource.Builder(context, detector)
-                .setRequestedPreviewSize(640, 480)
+//                .setRequestedPreviewSize(640, 480)
                 .setFacing(CameraSource.CAMERA_FACING_FRONT)
                 .setRequestedFps(40.0f)
                 .build();
@@ -233,8 +233,8 @@ public final class Face_Activity extends Activity {
             mCameraSource = null;
         }
 
-        left_thred1 = 0;
-        right_thred1 = 0;
+        left_thred1 = 0.8f;
+        right_thred1 = 0.8f;
         startActivity(intent);
 
     }
@@ -412,9 +412,9 @@ public final class Face_Activity extends Activity {
             l = mFaceGraphic.return_left();
 
             // 정확도를 위해 보다 작은 값으로 눈의 크기 저장
-            if (right_thred1 != 0 && (float) r <= right_thred1)
+            if (right_thred1 != 0 && (float) r <= right_thred1 && r > (-1))
                 right_thred1 = (float) r;
-            if (left_thred1 != 0 && (float) l <= left_thred1)
+            if (left_thred1 != 0 && (float) l <= left_thred1 && l > (-1) )
                 left_thred1 = (float) l;
 
             // 눈의크기가 저장이 되어있지 않은 경우, 비교 없이 값 자체 저장

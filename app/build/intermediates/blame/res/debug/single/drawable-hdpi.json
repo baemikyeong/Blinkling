@@ -136,6 +136,10 @@
         "source": "/Users/seohyemin/Blinkling-master/app/src/main/res/drawable-hdpi/ic_settings_default.png"
     },
     {
+        "merged": "/Users/seohyemin/Blinkling-master/app/build/intermediates/res/merged/debug/drawable-hdpi/ic_details.png",
+        "source": "/Users/seohyemin/Blinkling-master/app/src/main/res/drawable-hdpi/ic_details.png"
+    },
+    {
         "merged": "/Users/seohyemin/Blinkling-master/app/build/intermediates/res/merged/debug/drawable-hdpi/ic_book_pressed.png",
         "source": "/Users/seohyemin/Blinkling-master/app/src/main/res/drawable-hdpi/ic_book_pressed.png"
     },

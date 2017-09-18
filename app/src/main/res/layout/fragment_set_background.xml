@@ -15,39 +15,44 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_alignParentStart="true"
-            android:layout_marginStart="22dp"
-           >
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginTop="@dimen/settingsListTopPadding">
 
             <RadioButton
                 android:id="@+id/radio_bgcolor1"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="@dimen/settingsListHeight"
                 android:text="연한 베이지"
                 android:textSize="@dimen/settingsTextSize"
+                android:paddingLeft="@dimen/settingsInternalPadding"
                 android:buttonTint="@color/colorPrimary"/>
 
             <RadioButton
                 android:id="@+id/radio_bgcolor2"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="@dimen/settingsListHeight"
                 android:text="연한 그레이"
                 android:textSize="@dimen/settingsTextSize"
+                android:paddingLeft="@dimen/settingsInternalPadding"
                 android:buttonTint="@color/colorPrimary" />
 
             <RadioButton
                 android:id="@+id/radio_bgcolor3"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="흰색"
+                android:layout_height="@dimen/settingsListHeight"
+                android:text="회색"
                 android:textSize="@dimen/settingsTextSize"
+                android:paddingLeft="@dimen/settingsInternalPadding"
                 android:buttonTint="@color/colorPrimary"/>
 
             <RadioButton
                 android:id="@+id/radio_bgcolor4"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="@dimen/settingsListHeight"
                 android:text="검정색"
                 android:textSize="@dimen/settingsTextSize"
+                android:paddingLeft="@dimen/settingsInternalPadding"
                 android:buttonTint="@color/colorPrimary"/>
 
         </RadioGroup>

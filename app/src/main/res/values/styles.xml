@@ -3,12 +3,16 @@
     <!-- Base application theme. -->
     <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
         <!-- Customize your theme here. -->
-        <item name="colorAccent">#a08989</item>
-        <item name="colorPrimary">#a08989</item><!---->
-        <item name="colorPrimaryDark">#000000</item><!---->
+        <item name="colorAccent">@color/colorPrimary</item>
+        <item name="colorPrimary">@color/colorPrimary</item><!---->
+        <item name="colorPrimaryDark">#736262</item><!---->
+        <item name="colorControlNormal">@color/colorPrimary</item> <!--edittext's underline-->
+        <item name="colorControlActivated">#736262</item>
+        <!--<item name="colorControlHighlight"></item>-->
      <!--   <item name="android:navigationBarColor"
             tools:targetApi="lollipop">#ffcdd5</item>-->
     </style>
+
 
 
     <!-- Splash theme. -->

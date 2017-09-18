@@ -88,6 +88,10 @@
         "source": "/Users/seohyemin/Blinkling-master/app/src/main/res/drawable-xhdpi/ic_back_default.png"
     },
     {
+        "merged": "/Users/seohyemin/Blinkling-master/app/build/intermediates/res/merged/debug/drawable-xhdpi/ic_details.png",
+        "source": "/Users/seohyemin/Blinkling-master/app/src/main/res/drawable-xhdpi/ic_details.png"
+    },
+    {
         "merged": "/Users/seohyemin/Blinkling-master/app/build/intermediates/res/merged/debug/drawable-xhdpi/ic_eye_pressed.png",
         "source": "/Users/seohyemin/Blinkling-master/app/src/main/res/drawable-xhdpi/ic_eye_pressed.png"
     },
