@@ -15,6 +15,8 @@ import android.os.Bundle;
 import android.os.Environment;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
+import android.support.design.widget.FloatingActionButton;
+import android.support.design.widget.Snackbar;
 import android.support.v4.app.ActivityCompat;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentPagerAdapter;
@@ -129,7 +131,6 @@ public class TextViewFragment extends Fragment {
             bookName = getArguments().getString("bookname");
             book_position = getArguments().getInt("book_position");
 
-            Toast.makeText(getActivity(), book_position + "다3", Toast.LENGTH_SHORT).show();
 
         }
 
@@ -176,7 +177,6 @@ public class TextViewFragment extends Fragment {
             @Override
             public void run() {
                 scrollView.smoothScrollTo(0,book_position);
-           //     Toast.makeText(getActivity(),book_position+"다4", Toast.LENGTH_SHORT).show();
 
             }
         });
@@ -280,6 +280,8 @@ public class TextViewFragment extends Fragment {
 
 
         }
+
+
 
         if (isCameraPermissionGranted()) {
             // ...create the camera resource

@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:tools="http://schemas.android.com/tools">
 
+    <dimen name="tab_indicator_height">5dp</dimen>
+
+
     <dimen name="lvPrimaryTextSize">18sp</dimen>
     <dimen name="lvSecondaryTextSize">14sp</dimen>
 
@@ -39,6 +42,9 @@
 
     <dimen name="settingsListHeight">72dp</dimen><!---->
     <dimen name="settingsTextSize">16sp</dimen><!---->
+
+    <dimen name="fab_margin">16dp</dimen>
+
 
 
 </resources>

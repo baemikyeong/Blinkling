@@ -32,6 +32,10 @@
         "source": "/Users/seohyemin/Blinkling-master/app/src/main/res/drawable-mdpi/ic_bluelight_default.png"
     },
     {
+        "merged": "/Users/seohyemin/Blinkling-master/app/build/intermediates/res/merged/debug/drawable-mdpi/ic_play_circle_filled_black_24dp.png",
+        "source": "/Users/seohyemin/Blinkling-master/app/src/main/res/drawable-mdpi/ic_play_circle_filled_black_24dp.png"
+    },
+    {
         "merged": "/Users/seohyemin/Blinkling-master/app/build/intermediates/res/merged/debug/drawable-mdpi/splash.png",
         "source": "/Users/seohyemin/Blinkling-master/app/src/main/res/drawable-mdpi/splash.png"
     },

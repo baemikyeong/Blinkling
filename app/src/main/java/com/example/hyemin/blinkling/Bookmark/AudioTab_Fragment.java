@@ -5,9 +5,12 @@ import android.content.DialogInterface;
 import android.database.Cursor;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
+import android.support.v4.app.FragmentActivity;
+import android.support.v4.app.FragmentTransaction;
 import android.support.v7.app.AlertDialog;
 import android.text.Editable;
 import android.text.TextWatcher;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -20,6 +23,8 @@ import com.example.hyemin.blinkling.MainActivity;
 import com.example.hyemin.blinkling.R;
 
 import java.util.ArrayList;
+
+import static com.example.hyemin.blinkling.Service.AudioService.mContext;
 
 /**
  * A simple {@link Fragment} subclass.
@@ -37,6 +42,11 @@ public class AudioTab_Fragment extends Fragment {
     ArrayList<InfoClass_audio> insertResult;
     ArrayList<InfoClass_audio> selectResult;
     Spinner s;
+    String book_title;
+    String book_pos;
+    int book_position;
+    String audio_path;
+
 
     public AudioTab_Fragment() {
         // Required empty public constructor
@@ -143,7 +153,7 @@ public class AudioTab_Fragment extends Fragment {
 
 
         //리스트뷰로 db에 저장된 북마크들을 내보냄
-        selectResult = mFacade.select();
+     //   selectResult = mFacade.select();
         mAdapter.changeCursor(mFacade.getCursor());
 
         //롱클릭했을때 웹마크 이름 편집
@@ -164,7 +174,7 @@ public class AudioTab_Fragment extends Fragment {
                                 String newTitle = editText.getText().toString();//새롭게 설정할 북마크의 이름
 
                                 if (newTitle != null) {
-                                    mFacade.editTitle(mCursor.getInt(mCursor.getColumnIndex(ExamDbContract_audio.ExamDbEntry.ID)), newTitle);
+                              mFacade.editTitle(mCursor.getInt(mCursor.getColumnIndex(ExamDbContract_audio.ExamDbEntry.ID)), newTitle);
 
                                     mCursor = mFacade.getAll();
 
@@ -185,7 +195,7 @@ public class AudioTab_Fragment extends Fragment {
                 });
 
                 alertDlg.create().show();
-                return false;
+                return true;
 
             }
         });
@@ -206,18 +216,36 @@ public class AudioTab_Fragment extends Fragment {
                 final int pos = position;
 
                 mCursor.moveToPosition(pos);
+                book_title = mCursor.getString(mCursor.getColumnIndex(ExamDbContract_audio.ExamDbEntry.DOCUMENT));
+                // String book_pos = mCursor.getString(mCursor.getColumnIndex(ExamDbContract.ExamDbEntry.POS));
+                book_pos = mCursor.getString(mCursor.getColumnIndexOrThrow(ExamDbContract_audio.ExamDbEntry.POS));
 
-                String url = mCursor.getString(mCursor.getColumnIndex(ExamDbContract_audio.ExamDbEntry.POS));
+                audio_path = mCursor.getString(mCursor.getColumnIndexOrThrow(ExamDbContract_audio.ExamDbEntry.COLUMN_NAME_RECORDING_FILE_PATH));
 
-                // Toast.makeText(getActivity(),url,Toast.LENGTH_SHORT).show();
+                book_position = Integer.parseInt(book_pos);
 
-                ((MainActivity) getActivity()).goWebview(url);
-//                FragmentManager fm = getFragmentManager();
-//                WebviewFragment w_frag = (WebviewFragment)fm.findFragmentById(R.id.webView_frag);
-//                w_frag.goPage(url);
+                AlertDialog.Builder dialog = new AlertDialog.Builder(getActivity());
+                dialog.setTitle("음성메모 재생")
+                        .setMessage("해당 페이지로 이동하여 음성메모를 재생하시겠습니까?")
+                        .setPositiveButton("예",
+                                new DialogInterface.OnClickListener() {
+                                    @Override
+                                    public void onClick(DialogInterface dialog, int which) {
 
-              /*  mCallback.onArticleSelected(pos);
-                mHostActivity.goWebview(url);*/
+                                        ((MainActivity) getActivity()).floatingBtnShow(audio_path);
+                                        ((MainActivity) getActivity()).changeToText(book_title,book_position+88);
+
+
+                                    }
+                                }).setNeutralButton("아니오", new DialogInterface.OnClickListener() {
+                    @Override
+                    public void onClick(DialogInterface dialog, int which) {
+                    }
+                });
+
+                dialog.create().show();
+
+
 
             }
         });

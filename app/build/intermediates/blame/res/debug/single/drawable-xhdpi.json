@@ -16,6 +16,10 @@
         "source": "/Users/seohyemin/Blinkling-master/app/src/main/res/drawable-xhdpi/splash.png"
     },
     {
+        "merged": "/Users/seohyemin/Blinkling-master/app/build/intermediates/res/merged/debug/drawable-xhdpi/ic_play_circle_filled_black_24dp.png",
+        "source": "/Users/seohyemin/Blinkling-master/app/src/main/res/drawable-xhdpi/ic_play_circle_filled_black_24dp.png"
+    },
+    {
         "merged": "/Users/seohyemin/Blinkling-master/app/build/intermediates/res/merged/debug/drawable-xhdpi/bookshlef1.png",
         "source": "/Users/seohyemin/Blinkling-master/app/src/main/res/drawable-xhdpi/bookshlef1.png"
     },

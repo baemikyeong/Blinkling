@@ -13,7 +13,7 @@ public class ExamDbContract {
      * 식별자인 id 값과 추후 데이터의 개수를 카운트하는데 사용하는 count 가 담겨있습니다.
      */
     public static class ExamDbEntry implements BaseColumns {
-        public static final String TABLE_NAME = "ExamDb";
+        public static final String TABLE_NAME = "ExamDb_audio";
         public static final String ID = _ID;
         public static final String TITLE = "title";
         public static final String DOCUMENT = "document";

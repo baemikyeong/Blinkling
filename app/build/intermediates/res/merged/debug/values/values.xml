@@ -145,6 +145,7 @@
     <color name="abc_search_url_text_normal">#7fa87f</color>
     <color name="abc_search_url_text_pressed">@android:color/black</color>
     <color name="abc_search_url_text_selected">@android:color/black</color>
+    <color name="accent">#FFC107</color>
     <color name="accent_material_dark">@color/material_deep_teal_200</color>
     <color name="accent_material_light">@color/material_deep_teal_500</color>
     <color name="background_floating_material_dark">@color/material_grey_800</color>
@@ -203,6 +204,7 @@
     <color name="dim_foreground_disabled_material_light">#80323232</color>
     <color name="dim_foreground_material_dark">#ffbebebe</color>
     <color name="dim_foreground_material_light">#ff323232</color>
+    <color name="divider">#FFFFFF</color>
     <color name="foreground_material_dark">@android:color/white</color>
     <color name="foreground_material_light">@android:color/black</color>
     <color name="goblinGreen">#168686</color>
@@ -212,6 +214,7 @@
     <color name="lvDividerColor">#E0E0E0</color>
     <color name="lvHeaderDividerColor">#168686</color>
     <color name="lvHeaderTextColor">#168686</color>
+    <color name="material_blue_500">#5677fc</color>
     <color name="material_blue_grey_800">#ff37474f</color>
     <color name="material_blue_grey_900">#ff263238</color>
     <color name="material_blue_grey_950">#ff21272b</color>
@@ -233,11 +236,15 @@
     <color name="place_autocomplete_search_hint">#BDBDBD</color>
     <color name="place_autocomplete_search_text">#212121</color>
     <color name="place_autocomplete_separator">#1F000000</color>
+    <color name="primary">#F44336</color>
     <color name="primaryTextColor">#333333</color>
+    <color name="primary_dark">#D32F2F</color>
     <color name="primary_dark_material_dark">@android:color/black</color>
     <color name="primary_dark_material_light">@color/material_grey_600</color>
+    <color name="primary_light">#FFCDD2</color>
     <color name="primary_material_dark">@color/material_grey_900</color>
     <color name="primary_material_light">@color/material_grey_100</color>
+    <color name="primary_text">#212121</color>
     <color name="primary_text_default_material_dark">#ffffffff</color>
     <color name="primary_text_default_material_light">#de000000</color>
     <color name="primary_text_disabled_material_dark">#4Dffffff</color>
@@ -245,6 +252,7 @@
     <color name="ripple_material_dark">#33ffffff</color>
     <color name="ripple_material_light">#1f000000</color>
     <color name="secondaryTextColor">#777777</color>
+    <color name="secondary_text">#727272</color>
     <color name="secondary_text_default_material_dark">#b3ffffff</color>
     <color name="secondary_text_default_material_light">#8a000000</color>
     <color name="secondary_text_disabled_material_dark">#36ffffff</color>
@@ -253,6 +261,8 @@
     <color name="switch_thumb_disabled_material_light">#ffbdbdbd</color>
     <color name="switch_thumb_normal_material_dark">#ffbdbdbd</color>
     <color name="switch_thumb_normal_material_light">#fff1f1f1</color>
+    <color name="tab_strip">#B42929</color>
+    <color name="text">#FFFFFF</color>
     <color name="textColorPrimary">#a7a4a4</color>
     <color name="wallet_bright_foreground_disabled_holo_light">#ffb2b2b2</color>
     <color name="wallet_bright_foreground_holo_dark">#fff3f3f3</color>
@@ -265,6 +275,7 @@
     <color name="wallet_hint_foreground_holo_light">#808080</color>
     <color name="wallet_holo_blue_light">#ff33b5e5</color>
     <color name="wallet_link_text_light">#0000ee</color>
+    <color name="white">#FFFFFF</color>
     <declare-styleable name="ActionBar"><attr name="navigationMode">
             
             <enum name="normal" value="0"/>
@@ -488,7 +499,7 @@
             <enum name="normal" value="0"/>
             
             <enum name="mini" value="1"/>
-        </attr><attr name="elevation"/><attr format="dimension" name="pressedTranslationZ"/><attr format="dimension" name="borderWidth"/><attr format="boolean" name="useCompatPadding"/></declare-styleable>
+        </attr><attr name="elevation"/><attr format="dimension" name="pressedTranslationZ"/><attr format="dimension" name="borderWidth"/><attr format="boolean" name="useCompatPadding"/><attr format="color" name="fab_colorPressed"/><attr format="color" name="fab_colorNormal"/><attr format="color" name="fab_colorRipple"/><attr format="color" name="fab_colorDisabled"/><attr format="boolean" name="fab_shadow"/><attr format="enum" name="fab_type"><enum name="normal" value="0"/><enum name="mini" value="1"/></attr></declare-styleable>
     <declare-styleable name="FloatingActionButton_Behavior_Layout"><attr format="boolean" name="behavior_autoHide"/></declare-styleable>
     <declare-styleable name="ForegroundLinearLayout"><attr name="android:foreground"/><attr name="android:foregroundGravity"/><attr format="boolean" name="foregroundInsidePadding"/></declare-styleable>
     <declare-styleable name="GlobalSearch"><attr format="boolean" name="searchEnabled"/><attr format="string" name="searchLabel"/><attr format="string" name="settingsDescription"/><attr format="string" name="defaultIntentAction"/><attr format="string" name="defaultIntentData"/><attr format="string" name="defaultIntentActivity"/></declare-styleable>
@@ -908,6 +919,12 @@
     <dimen name="design_tab_text_size_2line">12sp</dimen>
     <item format="float" name="disabled_alpha_material_dark" type="dimen">0.30</item>
     <item format="float" name="disabled_alpha_material_light" type="dimen">0.26</item>
+    <dimen name="fab_elevation_lollipop">8dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="fab_scroll_threshold">4dp</dimen>
+    <dimen name="fab_shadow_size">12dp</dimen>
+    <dimen name="fab_size_mini">40dp</dimen>
+    <dimen name="fab_size_normal">56dp</dimen>
     <item format="float" name="highlight_alpha_material_colored" type="dimen">0.26</item>
     <item format="float" name="highlight_alpha_material_dark" type="dimen">0.20</item>
     <item format="float" name="highlight_alpha_material_light" type="dimen">0.12</item>
@@ -971,6 +988,7 @@
     <dimen name="settings_RadioGroup_MarginLeft">0dp</dimen>
     <dimen name="settings_RadioGroup_MarginTop">0dp</dimen>
     <dimen name="settings_text_size">16sp</dimen>
+    <dimen name="tab_indicator_height">5dp</dimen>
     <drawable name="notification_template_icon_bg">#3333B5E5</drawable>
     <drawable name="notification_template_icon_low_bg">#0cffffff</drawable>
     <item name="action_bar_activity_content" type="id"/>
@@ -1130,8 +1148,19 @@
     <string name="debug_menu_title">Select a Debug Mode</string>
     <string name="debug_menu_troubleshooting">Troubleshooting</string>
     <string name="decline">Decline</string>
+    <string name="default_file_name">My Recording</string>
+    <string name="define_FloatingActionButton"/>
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="hot_deals_fragment">Hot Deals Fragment</string>
+    <string name="library_FloatingActionButton_author">Oleksandr Melnykov</string>
+    <string name="library_FloatingActionButton_authorWebsite">https://github.com/makovkastar/FloatingActionButton</string>
+    <string name="library_FloatingActionButton_isOpenSource">true</string>
+    <string name="library_FloatingActionButton_libraryDescription">Android Google+ like floating action button which reacts on the list view scrolling events. Becomes visible when the list view is scrolled up and invisible when scrolled down.</string>
+    <string name="library_FloatingActionButton_libraryName">FloatingActionButton</string>
+    <string name="library_FloatingActionButton_libraryVersion">1.0.0</string>
+    <string name="library_FloatingActionButton_libraryWebsite">https://github.com/makovkastar/FloatingActionButton</string>
+    <string name="library_FloatingActionButton_licenseId">mit</string>
+    <string name="library_FloatingActionButton_repositoryLink">https://github.com/makovkastar/FloatingActionButton</string>
     <string name="low_storage_error">Face detector dependencies cannot be downloaded due to low device storage</string>
     <string name="menu">Menu</string>
     <string name="menu_settings">Settings</string>
@@ -1159,9 +1188,18 @@
     <string name="path_password_eye_mask_strike_through" translatable="false">M2,4.27 L19.73,22 L22.27,19.46 L4.54,1.73 L4.54,1 L23,1 L23,23 L1,23 L1,4.27 Z</string>
     <string name="path_password_eye_mask_visible" translatable="false">M2,4.27 L2,4.27 L4.54,1.73 L4.54,1.73 L4.54,1 L23,1 L23,23 L1,23 L1,4.27 Z</string>
     <string name="path_password_strike_through" translatable="false">M3.27,4.27 L19.74,20.74</string>
+    <string name="pause_recording_button">Pause</string>
     <string name="permission_camera_rationale">Access to the camera is needed for detection</string>
     <string name="place_autocomplete_clear_button">Clear search</string>
     <string name="place_autocomplete_search_hint">Search</string>
+    <string name="pref_about_desc">v%s</string>
+    <string name="pref_about_key">pref_about</string>
+    <string name="pref_about_title">About</string>
+    <string name="pref_high_quality_desc">Record in CD Quality</string>
+    <string name="pref_high_quality_key">pref_high_quality</string>
+    <string name="pref_high_quality_title">Enable High Quality Recording</string>
+    <string name="record_in_progress">Recording</string>
+    <string name="record_prompt">Tap the button to start recording</string>
     <string name="search_fragment">Search Fragment</string>
     <string name="search_menu_title">Search</string>
     <string name="status_bar_notification_info_overflow">999+</string>
@@ -1173,6 +1211,7 @@
     <string name="title_friends">Friends</string>
     <string name="title_home">Home</string>
     <string name="title_profile">Profile</string>
+    <string name="toast_recording_finish">Recording saved to</string>
     <string name="wallet_buy_button_place_holder">Buy with Google</string>
     <style name="AlertDialog.AppCompat" parent="Base.AlertDialog.AppCompat"/>
     <style name="AlertDialog.AppCompat.Light" parent="Base.AlertDialog.AppCompat.Light"/>

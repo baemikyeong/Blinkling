@@ -35,6 +35,7 @@ public class InfoClass_audio {
         this.path = path;
         this.created_at = created_at;
         this.updated_at = updated_at;
+        this.created_at = created_at;
         this.position = position;
         this.document = document;
     }

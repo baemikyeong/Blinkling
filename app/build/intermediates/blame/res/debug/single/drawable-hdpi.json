@@ -32,6 +32,10 @@
         "source": "/Users/seohyemin/Blinkling-master/app/src/main/res/drawable-hdpi/bookshlef1.png"
     },
     {
+        "merged": "/Users/seohyemin/Blinkling-master/app/build/intermediates/res/merged/debug/drawable-hdpi/ic_mic_white_36dp.png",
+        "source": "/Users/seohyemin/Blinkling-master/app/src/main/res/drawable-hdpi/ic_mic_white_36dp.png"
+    },
+    {
         "merged": "/Users/seohyemin/Blinkling-master/app/build/intermediates/res/merged/debug/drawable-hdpi/ic_settings_pressed.png",
         "source": "/Users/seohyemin/Blinkling-master/app/src/main/res/drawable-hdpi/ic_settings_pressed.png"
     },
@@ -42,6 +46,10 @@
     {
         "merged": "/Users/seohyemin/Blinkling-master/app/build/intermediates/res/merged/debug/drawable-hdpi/ic_mybookmark_default.png",
         "source": "/Users/seohyemin/Blinkling-master/app/src/main/res/drawable-hdpi/ic_mybookmark_default.png"
+    },
+    {
+        "merged": "/Users/seohyemin/Blinkling-master/app/build/intermediates/res/merged/debug/drawable-hdpi/ic_play_circle_filled_black_24dp.png",
+        "source": "/Users/seohyemin/Blinkling-master/app/src/main/res/drawable-hdpi/ic_play_circle_filled_black_24dp.png"
     },
     {
         "merged": "/Users/seohyemin/Blinkling-master/app/build/intermediates/res/merged/debug/drawable-hdpi/ic_mic_pressed_on.png",

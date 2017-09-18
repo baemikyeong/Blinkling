@@ -8,12 +8,15 @@ import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.content.res.Configuration;
+import android.media.MediaPlayer;
 import android.net.Uri;
 import android.os.Build;
 import android.os.Bundle;
 import android.os.Environment;
 import android.provider.Settings;
 import android.support.design.widget.BottomNavigationView;
+import android.support.design.widget.FloatingActionButton;
+import android.support.design.widget.Snackbar;
 import android.support.v4.app.ActivityCompat;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
@@ -25,6 +28,8 @@ import android.support.v7.widget.Toolbar;
 import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
+import android.view.WindowManager;
 import android.widget.EditText;
 import android.widget.FrameLayout;
 import android.widget.RelativeLayout;
@@ -63,12 +68,14 @@ import com.example.hyemin.blinkling.event.RightEyeClosedEvent;
 import org.greenrobot.eventbus.EventBus;
 
 import java.io.File;
+import java.io.IOException;
 import java.util.ArrayList;
 
 import static android.Manifest.permission.READ_EXTERNAL_STORAGE;
 import static android.Manifest.permission.RECORD_AUDIO;
 
 public class MainActivity extends ActionBarActivity {
+    private static final String LOG_TAG = "PlaybackFragment";
 
     private static final String TAG = "AppPermission";
     public static Context mContext;
@@ -108,6 +115,11 @@ public class MainActivity extends ActionBarActivity {
     public Boolean eyesetting = true;
     public Boolean lightsetting = true;
     public Boolean recordingsetting = true;
+    FloatingActionButton fab;
+    public boolean floating_setter = true;
+    private boolean isPlaying = false;
+    private MediaPlayer mMediaPlayer = null;
+    String receivedPath;
 
     @Override
     public void onConfigurationChanged(Configuration newConfig) {
@@ -122,6 +134,8 @@ public class MainActivity extends ActionBarActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+
 
         mContext = this;
         Intent intent = getIntent();
@@ -186,16 +200,28 @@ public class MainActivity extends ActionBarActivity {
                     }
                 });
 
+        fab = (FloatingActionButton) findViewById(R.id.fab);
+        fab.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                onPlay(isPlaying);
+                isPlaying = !isPlaying;
+
+            }
+        });
+
+        floatingBtnHide();
 
     }
 
     public boolean onCreateOptionsMenu(Menu menu) {
-        getMenuInflater().inflate(R.menu.menu_main, menu);
+      getMenuInflater().inflate(R.menu.menu_main, menu);
+
         return true;
     }
 
 
-    public boolean onOptionsItemSelected(MenuItem item) {
+        public boolean onOptionsItemSelected(MenuItem item) {
         int id = item.getItemId();
         switch (id) {
             case android.R.id.home: {
@@ -294,57 +320,41 @@ public class MainActivity extends ActionBarActivity {
         }
     }
 
-    /*public void changeToText(String valueBookName) {
-
-        Fragment frag = new TextViewFragment();
-        Bundle bundle = new Bundle();
-
-        bundle.putString("bookname", valueBookName);//번들에 값을 넣음
-        frag.setArguments(bundle);
-
-<<<<<<< HEAD
-//        FrameLayout fl = (FrameLayout) findViewById(R.id.main_container);
-//        fl.removeAllViews();
-
-        //   final FragmentTransaction transaction = fragmentManager.beginTransaction();
-            replaceFragment(frag);
-
-        // transaction.replace(R.id.main_container, frag).commit();
-        //  getSupportActionBar().setTitle(valueBookName);
-        book_title = valueBookName;
-
-    }
-*/
-
     //디비 목록에서 책 열때 사용
     public void changeToText(String valueBookName, int pos){
         Fragment frag = new TextViewFragment();
 
         Bundle bundle = new Bundle();
         bundle.putInt("book_position", pos);
-        Toast.makeText(this,pos+"다2", Toast.LENGTH_SHORT).show();
 
         bundle.putString("bookname", valueBookName);//번들에 값을 넣음
         frag.setArguments(bundle);
 
-//        FrameLayout fl = (FrameLayout) findViewById(R.id.main_container);
-//        fl.removeAllViews();
-
-        //   final FragmentTransaction transaction = fragmentManager.beginTransaction();
         fragmentManager.popBackStackImmediate(frag.getClass().getName(), fragmentManager.POP_BACK_STACK_INCLUSIVE);
         replaceFragment(frag);
 
-        // transaction.replace(R.id.main_container, frag).commit();
-        //  getSupportActionBar().setTitle(valueBookName);
         book_title = valueBookName;
     }
 
 
     public void audioService(){
+
+        java.util.Calendar cal = java.util.Calendar.getInstance();
+        T_date = DateFormatter.format(cal, "yyyy-MM-dd HH:mm:ss");
+
+        txt_fragment = (TextViewFragment) getSupportFragmentManager().findFragmentById(R.id.main_container);
+        TextView txt = txt_fragment.getTxtBook();
+        bookmark_pos = txt_fragment.book_mark_add(txt);
+
         Intent intent = new Intent(this, AudioService.class);
+        intent.putExtra("b_pos", Integer.toString(bookmark_pos));
+        intent.putExtra("b_name", book_title);
+        intent.putExtra("b_date", T_date);
 
         if (recordingsetting == false) {
             startService(intent);
+
+
         } else {
             stopService(intent);
 
@@ -419,52 +429,6 @@ public class MainActivity extends ActionBarActivity {
         dialog.create().show();
     }
 
-    public void addAudiomark() {
-
-        java.util.Calendar cal = java.util.Calendar.getInstance();
-        T_date = DateFormatter.format(cal, "yyyy-MM-dd HH:mm:ss");
-
-        txt_fragment = (TextViewFragment) getSupportFragmentManager().findFragmentById(R.id.main_container);
-        TextView txt = txt_fragment.getTxtBook();
-        bookmark_pos = txt_fragment.book_mark_add(txt); //북마크로 저장 할 좌표를 bookmark_pos에 저장함
-
-        final EditText editText_audio = new EditText(this);
-        AlertDialog.Builder dialog = new AlertDialog.Builder(MainActivity.this);
-        dialog.setTitle("음성메모 등록")
-                .setMessage("음성메모의 이름을 입력하세요")
-                .setView(editText_audio)
-                .setPositiveButton("등록",
-                        new DialogInterface.OnClickListener() {
-                            @Override
-                            public void onClick(DialogInterface dialog, int which) {
-                                String title = editText_audio.getText().toString();//음성메모의 이름
-                                int position = bookmark_pos; //저장할 문서의 좌표위치
-                                String document = book_title; //문서의 이름
-                                String file_path = audio_path;//음성메모가 저장된 폴더의 경로
-                                String time_date = T_date; //저장된 시각
-
-
-                                if (mFacade_audio == null) {
-                                    mFacade_audio = new ExamDbFacade_audio(getApplicationContext());
-                                    mAdapter_audio = new CustomAdapter_audio(getApplicationContext(), mFacade_audio.getCursor(), false);
-                                }
-
-
-
-                                insertResult_audio = mFacade_audio.insert(title, document, time_date, file_path, time_date, Integer.toString(position));
-                                mAdapter_audio.changeCursor(mFacade_audio.getCursor());
-
-                            }
-                        }).setNeutralButton("취소", new DialogInterface.OnClickListener() {
-            @Override
-            public void onClick(DialogInterface dialog, int which) {
-            }
-        });
-
-        dialog.create().show();
-
-    }
-
     public void addBookmark() {
         java.util.Calendar cal = java.util.Calendar.getInstance();
         T_date = DateFormatter.format(cal, "yyyy-MM-dd HH:mm:ss");
@@ -509,6 +473,78 @@ public class MainActivity extends ActionBarActivity {
 
     public void sendBookname(String mBookName) {
         ((BookshelfFragment) getSupportFragmentManager().findFragmentByTag("fragBookshelf")).setBookshelf(mBookName);
+    }
+
+    public void floatingBtnHide(){
+        fab.hide();
+    }
+
+    public void floatingBtnShow(String audio_path){
+        fab.show();
+        receivedPath = audio_path;
+
+
+    }
+
+    // Play start/stop
+    private void onPlay(boolean isPlaying){
+        if (!isPlaying) {
+            //currently MediaPlayer is not playing audio
+            if(mMediaPlayer == null) {
+                startPlaying(); //start from beginning
+            } else {
+                resumePlaying(); //resume the currently paused MediaPlayer
+            }
+
+        } else {
+            //pause the MediaPlayer
+            pausePlaying();
+        }
+    }
+
+    private void startPlaying() {
+        mMediaPlayer = new MediaPlayer();
+
+        try {
+            mMediaPlayer.setDataSource(receivedPath);
+            mMediaPlayer.prepare();
+
+            mMediaPlayer.setOnPreparedListener(new MediaPlayer.OnPreparedListener() {
+                @Override
+                public void onPrepared(MediaPlayer mp) {
+                    mMediaPlayer.start();
+                }
+            });
+        } catch (IOException e) {
+            Log.e(LOG_TAG, "prepare() failed");
+        }
+
+        mMediaPlayer.setOnCompletionListener(new MediaPlayer.OnCompletionListener() {
+            @Override
+            public void onCompletion(MediaPlayer mp) {
+                stopPlaying();
+            }
+        });
+
+    }
+
+    private void pausePlaying() {
+        mMediaPlayer.pause();
+    }
+
+    private void resumePlaying() {
+        mMediaPlayer.start();
+    }
+
+    private void stopPlaying() {
+        mMediaPlayer.stop();
+        mMediaPlayer.reset();
+        mMediaPlayer.release();
+        mMediaPlayer = null;
+
+        isPlaying = !isPlaying;
+        floatingBtnHide();
+
     }
 
 }
