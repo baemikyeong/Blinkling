@@ -6,19 +6,23 @@
 
     <ImageView
         android:id="@+id/iv_img"
-        android:layout_width="36dp"
+        android:layout_width="48dp"
         android:layout_height="match_parent"
+        android:padding="12dp"
         android:src="@drawable/ic_bookmark_pressed"
+        android:tint="@color/colorPrimary"
         android:adjustViewBounds="true"
-        android:layout_marginRight="8dp"
+        android:layout_marginLeft="4dp"
        />
 
     <LinearLayout
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_weight="5"
+        android:layout_marginLeft="20dp"
         android:orientation="vertical"
         android:id="@+id/id_lin"
+        android:layout_marginRight="16dp"
         >
 
         <TextView
@@ -27,10 +31,8 @@
             android:layout_height="wrap_content"
             android:layout_weight="2"
             android:gravity="center_vertical"
-            android:textColor="#313131"
-            android:textSize="18sp"
-            android:layout_marginBottom="5dp"
-            android:layout_marginTop="5dp"/>
+            android:textColor="@color/primaryTextColor"
+            android:textSize="16sp"/>
 
 
         <RelativeLayout
