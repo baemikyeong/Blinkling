@@ -23,7 +23,7 @@
         android:orientation="vertical"
         android:id="@+id/id_lin"
         android:layout_marginRight="16dp"
-        />
+        >
 
         <TextView
             android:id="@+id/tv_title"
