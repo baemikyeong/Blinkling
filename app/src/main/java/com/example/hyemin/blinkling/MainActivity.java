@@ -112,7 +112,7 @@ public class MainActivity extends ActionBarActivity {
     public static FrameLayout aframe;
     public String web_bookmark_url;
     String audio_path;
-    public Boolean eyesetting = true;
+    public Boolean eyesetting = false;
     public Boolean lightsetting = true;
     public Boolean recordingsetting = true;
     FloatingActionButton fab;

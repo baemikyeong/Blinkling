@@ -690,9 +690,9 @@ public class TextViewFragment extends Fragment {
         // Create camera source that will capture video frames
         // Use the front camera
         mCameraSource = new CameraSource.Builder(getActivity().getApplicationContext(), mFaceDetector)
-                .setRequestedPreviewSize(640, 480)
+               // .setRequestedPreviewSize(640, 480)
                 .setFacing(CameraSource.CAMERA_FACING_FRONT)
-                .setRequestedFps(15f)
+                .setRequestedFps(40f)
                 .build();
     }
 

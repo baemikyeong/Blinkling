@@ -15,6 +15,7 @@
  */
 package com.example.hyemin.blinkling;
 
+import android.graphics.Bitmap;
 import android.graphics.Canvas;
 import android.graphics.Color;
 import android.graphics.Paint;
@@ -23,6 +24,7 @@ import com.example.hyemin.blinkling.camera.GraphicOverlay;
 import com.example.hyemin.blinkling.event.EyeClosedEvent;
 import com.example.hyemin.blinkling.event.EyeOpenEvent;
 import com.google.android.gms.vision.face.Face;
+import com.google.android.gms.vision.face.Landmark;
 
 import org.greenrobot.eventbus.EventBus;
 
@@ -38,6 +40,7 @@ class FaceGraphic extends GraphicOverlay.Graphic {
     private static final float BOX_STROKE_WIDTH = 5.0f;
     private boolean leftClosed;
     private boolean rightClosed;
+    private Bitmap mBitmap;
 
     private static final int COLOR_CHOICES[] = {
             Color.BLUE,
@@ -123,84 +126,105 @@ class FaceGraphic extends GraphicOverlay.Graphic {
             return;
         }
 
-        // Draws a circle at the position of the detected face, with the face's track id below.
-        float x = translateX(face.getPosition().x + face.getWidth() / 2);
-        float y = translateY(face.getPosition().y + face.getHeight() / 2);
-        canvas.drawCircle(x, y, FACE_POSITION_RADIUS, mFacePositionPaint);
-        canvas.drawText("id: " + mFaceId, x + ID_X_OFFSET, y + ID_Y_OFFSET, mIdPaint);
-        canvas.drawText("happiness: " + String.format("%.2f", face.getIsSmilingProbability()), x - ID_X_OFFSET, y - ID_Y_OFFSET, mIdPaint);
-        canvas.drawText("right eye: " + String.format("%.2f", face.getIsRightEyeOpenProbability()), x + ID_X_OFFSET * 2, y + ID_Y_OFFSET * 2, mIdPaint);
-        canvas.drawText("left eye: " + String.format("%.2f", face.getIsLeftEyeOpenProbability()), x - ID_X_OFFSET * 2, y - ID_Y_OFFSET * 2, mIdPaint);
+        double scale = 1;
+        Paint paint = new Paint();
 
-        // Draws a bounding box around the face.
-        float xOffset = scaleX(face.getWidth() / 2.0f);
-        float yOffset = scaleY(face.getHeight() / 2.0f);
-        float left = x - xOffset;
-        float top = y - yOffset;
-        float right = x + xOffset;
-        float bottom = y + yOffset;
-        canvas.drawRect(left, top, right, bottom, mBoxPaint);
+        if (face.getLandmarks().size() > 5) {
+            // Draws a circle at the position of the detected face, with the face's track id below.
+            float x = translateX(face.getPosition().x + face.getWidth() / 2);
+            float y = translateY(face.getPosition().y + face.getHeight() / 2);
+            canvas.drawCircle(x, y, FACE_POSITION_RADIUS, mFacePositionPaint);
+            canvas.drawText("id: " + mFaceId, x + ID_X_OFFSET, y + ID_Y_OFFSET, mIdPaint);
+            canvas.drawText("happiness: " + String.format("%.2f", face.getIsSmilingProbability()), x - ID_X_OFFSET, y - ID_Y_OFFSET, mIdPaint);
+            canvas.drawText("right eye: " + String.format("%.2f", face.getIsRightEyeOpenProbability()), x + ID_X_OFFSET * 2, y + ID_Y_OFFSET * 2, mIdPaint);
+            canvas.drawText("left eye: " + String.format("%.2f", face.getIsLeftEyeOpenProbability()), x - ID_X_OFFSET * 2, y - ID_Y_OFFSET * 2, mIdPaint);
 
-        right_thred = face.getIsRightEyeOpenProbability();
-        left_thred = face.getIsLeftEyeOpenProbability();
+            for (Landmark landmark : face.getLandmarks()) {
+                int cx = (int) (landmark.getPosition().x * scale);
+                int cy = (int) (landmark.getPosition().y * scale);
+                canvas.drawCircle(cx, cy, 10, paint);
+            }
 
-        // 눈 크기 초기화 없이 시간 초기화
-        if (check_time != 1) {
-            if (leftClosed && face.getIsLeftEyeOpenProbability() > 0.8) {
-                leftClosed = false;
-            } else if (!leftClosed && face.getIsLeftEyeOpenProbability() < 0.5) {
-                try {
-                    Thread.sleep(50);
-                } catch (InterruptedException e) {
-                    e.printStackTrace();
+            // Draws a bounding box around the face.
+            float xOffset = scaleX(face.getWidth() / 2.0f);
+            float yOffset = scaleY(face.getHeight() / 2.0f);
+            float left = x - xOffset;
+            float top = y - yOffset;
+            float right = x + xOffset;
+            float bottom = y + yOffset;
+            canvas.drawRect(left, top, right, bottom, mBoxPaint);
+
+            right_thred = face.getIsRightEyeOpenProbability();
+            left_thred = face.getIsLeftEyeOpenProbability();
+
+            // 눈 크기 초기화 없이 시간 초기화
+            if (check_time != 1) {
+                if (leftClosed && face.getIsLeftEyeOpenProbability() > 0.8) {
+                    leftClosed = false;
+                } else if (!leftClosed && face.getIsLeftEyeOpenProbability() < 0.5) {
+                    try {
+                        Thread.sleep(50);
+                    } catch (InterruptedException e) {
+                        e.printStackTrace();
+                    }
+                    if (!leftClosed && face.getIsLeftEyeOpenProbability() < 0.5)
+                        leftClosed = true;
+                    else leftClosed = false;
                 }
-                if (!leftClosed && face.getIsLeftEyeOpenProbability() < 0.5)
-                    leftClosed = true;
-                else leftClosed = false;
+                if (rightClosed && face.getIsRightEyeOpenProbability() > 0.5) {
+                    rightClosed = false;
+                } else if (!rightClosed && face.getIsRightEyeOpenProbability() < 0.5) {
+                    try {
+                        Thread.sleep(50);
+                    } catch (InterruptedException e) {
+                        e.printStackTrace();
+                    }
+                    if (!rightClosed && face.getIsRightEyeOpenProbability() < 0.5)
+                        rightClosed = true;
+                    else rightClosed = false;
+                }
+            } else { // 눈 크기 초기화 이후 시간 초기화
+                if (leftClosed && face.getIsLeftEyeOpenProbability() > leftClosed_size) {
+                    leftClosed = false;
+                } else if (!leftClosed && face.getIsLeftEyeOpenProbability() < leftClosed_size) {
+                    try {
+                        Thread.sleep(50);
+                    } catch (InterruptedException e) {
+                        e.printStackTrace();
+                    }
+                    if (!leftClosed && face.getIsLeftEyeOpenProbability() < leftClosed_size)
+                        leftClosed = true;
+                    else leftClosed = false;
+                }
+                if (rightClosed && face.getIsRightEyeOpenProbability() > rightClosed_size) {
+                    rightClosed = false;
+                } else if (!rightClosed && face.getIsRightEyeOpenProbability() < rightClosed_size) {
+                    try {
+                        Thread.sleep(50);
+                    } catch (InterruptedException e) {
+                        e.printStackTrace();
+                    }
+                    if (!rightClosed && face.getIsRightEyeOpenProbability() < rightClosed_size)
+                        rightClosed = true;
+                    else rightClosed = false;
+                }
             }
-            if (rightClosed && face.getIsRightEyeOpenProbability() > 0.5) {
-                rightClosed = false;
-            } else if (!rightClosed && face.getIsRightEyeOpenProbability() < 0.5) {
-                try {
-                    Thread.sleep(50);
-                } catch (InterruptedException e) {
-                    e.printStackTrace();
-                }
-                if (!rightClosed && face.getIsRightEyeOpenProbability() < 0.5)
-                    rightClosed = true;
-                else rightClosed = false;
-            }
-        } else { // 눈 크기 초기화 이후 시간 초기화
-            if (leftClosed && face.getIsLeftEyeOpenProbability() > leftClosed_size) {
-                leftClosed = false;
-            } else if (!leftClosed && face.getIsLeftEyeOpenProbability() < leftClosed_size) {
-                try {
-                    Thread.sleep(50);
-                } catch (InterruptedException e) {
-                    e.printStackTrace();
-                }
-                if (!leftClosed && face.getIsLeftEyeOpenProbability() < leftClosed_size)
-                    leftClosed = true;
-                else leftClosed = false;
-            }
-            if (rightClosed && face.getIsRightEyeOpenProbability() > rightClosed_size) {
-                rightClosed = false;
-            } else if (!rightClosed && face.getIsRightEyeOpenProbability() < rightClosed_size) {
-                try {
-                    Thread.sleep(50);
-                } catch (InterruptedException e) {
-                    e.printStackTrace();
-                }
-                if (!rightClosed && face.getIsRightEyeOpenProbability() < rightClosed_size)
-                    rightClosed = true;
-                else rightClosed = false;
+
+            if (leftClosed && rightClosed) {
+                EventBus.getDefault().post(new EyeClosedEvent());
+            } else if (!leftClosed && !rightClosed) {
+                EventBus.getDefault().post(new EyeOpenEvent());
             }
         }
+        else{
 
-        if (leftClosed && rightClosed) {
-            EventBus.getDefault().post(new EyeClosedEvent());
-        } else if (!leftClosed && !rightClosed) {
-            EventBus.getDefault().post(new EyeOpenEvent());
+            float x = translateX(face.getPosition().x + face.getWidth() / 2);
+            float y = translateY(face.getPosition().y + face.getHeight() / 2);
+            canvas.drawText("Y: " + face.getEulerY(), x + ID_X_OFFSET, y + ID_Y_OFFSET, mIdPaint);
+            canvas.drawText("Z: " + face.getEulerZ(), x + ID_X_OFFSET, y + ID_Y_OFFSET, mIdPaint);
         }
     }
-}
+
+    }
+
+

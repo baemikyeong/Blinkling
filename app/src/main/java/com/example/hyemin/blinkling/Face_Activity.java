@@ -199,6 +199,7 @@ public final class Face_Activity extends Activity {
         FaceDetector detector = new FaceDetector.Builder(context)
                 .setProminentFaceOnly(true)
                 .setClassificationType(FaceDetector.ALL_CLASSIFICATIONS)
+                .setLandmarkType(FaceDetector.ALL_LANDMARKS)
                 .build();
 
         detector.setProcessor(
