@@ -39,6 +39,12 @@
         android:icon="@drawable/ic_bookmark_pressed"
         android:title="웹마크 추가"
         app:showAsAction="always">
+    </item>
 
+    <item
+        android:id="@+id/edit_scroll_range"
+        android:icon="@drawable/ic_format_line_spacing_white_24dp"
+        android:title="스크롤 범위"
+        app:showAsAction="always">
     </item>
 </menu>

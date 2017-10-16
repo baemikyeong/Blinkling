@@ -90,13 +90,12 @@ public class TextViewFragment extends Fragment {
     private Display mDisplay;
     public static int font;
     public static int textsize;
-    int pagestyle;
     View rootView;
     public static ViewGroup textviewPage;
     private int bookmark_position;
     private String bookName = "";
     private int book_position;
-
+    private int text_scroll_range;
     Boolean eyesetting = true;
 
     @Override
@@ -134,14 +133,13 @@ public class TextViewFragment extends Fragment {
 
         }
 
-        eyesetting = ((MainActivity)getActivity()).eyesetting;
+        eyesetting = ((MainActivity) getActivity()).eyesetting;
         intPref = this.getActivity().getSharedPreferences("mPred", Activity.MODE_PRIVATE);//이거
 
         int bgcolor = intPref.getInt("background", 0);
         font = intPref.getInt("font_edit", 0);
-        pagestyle = intPref.getInt("pagestyle_edit", 8);
         textsize = intPref.getInt("textsize", 1);
-
+        text_scroll_range = intPref.getInt("scroll_range", 1);
         Typeface typeFace;
 
         int value = intPref.getInt("brightness_gauge", 5);
@@ -155,28 +153,17 @@ public class TextViewFragment extends Fragment {
         // 밝기 설정 적용
         getActivity().getWindow().setAttributes(params);
 
-        if (pagestyle == 1) { // 뷰페이저와 스크롤 뷰 구분
-            rootView = inflater.inflate(R.layout.fragment_text_pagerview, container, false);
-            textviewPage = (ViewGroup) getActivity().getLayoutInflater().inflate(R.layout.fragment, (ViewGroup) getActivity().getWindow().getDecorView().findViewById(android.R.id.content), false);
-            tv = (TextView) textviewPage.findViewById(R.id.mText);
-            mProgressBar = (ProgressBar) rootView.findViewById(R.id.progress);
+        rootView = inflater.inflate(R.layout.fragment_text_scrollview, container, false);
+        scrollView = (ScrollView) rootView.findViewById(R.id.scroll_text);
 
-            // Instantiate a ViewPager and a PagerAdapter.
-            mPager = (ViewPager) rootView.findViewById(R.id.pager);
-        } else {
-            rootView = inflater.inflate(R.layout.fragment_text_scrollview, container, false);
-            scrollView = (ScrollView) rootView.findViewById(R.id.scroll_text);
-
-            tv = (TextView) rootView.findViewById(R.id.txtview);
-
-        }
+        tv = (TextView) rootView.findViewById(R.id.txtview);
 
 
         scrollView.post(new Runnable() {
 
             @Override
             public void run() {
-                scrollView.smoothScrollTo(0,book_position);
+                scrollView.smoothScrollTo(0, book_position);
 
             }
         });
@@ -199,28 +186,28 @@ public class TextViewFragment extends Fragment {
         switch (bgcolor) {
             case 1: // 연한 베이지
                 tv.setBackgroundColor(Color.rgb(245, 241, 222));
-                tv.setTextColor(Color.rgb(0,0,0));
+                tv.setTextColor(Color.rgb(0, 0, 0));
                 if (mPager != null)
                     mPager.setBackgroundColor(Color.rgb(245, 241, 222));
                 rootView.setBackgroundColor(Color.rgb(245, 241, 222));
                 break;
             case 2: // 연한 그레이
                 tv.setBackgroundColor(Color.rgb(204, 204, 204));
-                tv.setTextColor(Color.rgb(0,0,0));
+                tv.setTextColor(Color.rgb(0, 0, 0));
                 if (mPager != null)
                     mPager.setBackgroundColor(Color.rgb(204, 204, 204));
                 rootView.setBackgroundColor(Color.rgb(204, 204, 204));
                 break;
             case 3: // 흰색
                 tv.setBackgroundColor(Color.rgb(255, 255, 255));
-                tv.setTextColor(Color.rgb(0,0,0));
+                tv.setTextColor(Color.rgb(0, 0, 0));
                 if (mPager != null)
                     mPager.setBackgroundColor(Color.rgb(255, 255, 255));
                 rootView.setBackgroundColor(Color.rgb(255, 255, 255));
                 break;
             case 4: // 검정색
                 tv.setBackgroundColor(Color.rgb(0, 0, 0));
-                tv.setTextColor(Color.rgb(255,255,255));
+                tv.setTextColor(Color.rgb(255, 255, 255));
                 if (mPager != null)
                     mPager.setBackgroundColor(Color.rgb(0, 0, 0));
                 rootView.setBackgroundColor(Color.rgb(0, 0, 0));
@@ -228,7 +215,7 @@ public class TextViewFragment extends Fragment {
         }
 
 
-        switch (font-1) {
+        switch (font - 1) {
             case 0: // 나눔바른고딕
                 typeFace = Typeface.createFromAsset(getActivity().getAssets(), "fonts/NanumBarunGothic.otf");
                 tv.setTypeface(typeFace);
@@ -255,32 +242,14 @@ public class TextViewFragment extends Fragment {
                 break;
         }
 
-        if (pagestyle == 1) { // 뷰페이저와 스크롤 뷰 구분
-
-            readTxt();
-
-            // obtaining screen dimensions
-            mDisplay = getActivity().getWindowManager().getDefaultDisplay();
-
-            ViewAndPaint vp = new ViewAndPaint(tv.getPaint(), textviewPage, getScreenWidth(), getMaxLineCount(tv), mContentString);
-
-            PagerTask pt = new PagerTask(this);
-            pt.execute(vp);
-
-        } else {
-
-            // 사용자가 화면을 터치하여 스크롤 뷰의 위치 변경시, 체크
-            scrollView.setOnTouchListener(new View.OnTouchListener() {
-                public boolean onTouch(View v, MotionEvent event) {
-                    tv.getLocationOnScreen(location);
-                    return false;
-                }
-            });
-            readTxt();
-
-
-        }
-
+        // 사용자가 화면을 터치하여 스크롤 뷰의 위치 변경시, 체크
+        scrollView.setOnTouchListener(new View.OnTouchListener() {
+            public boolean onTouch(View v, MotionEvent event) {
+                tv.getLocationOnScreen(location);
+                return false;
+            }
+        });
+        readTxt();
 
 
         if (isCameraPermissionGranted()) {
@@ -298,21 +267,19 @@ public class TextViewFragment extends Fragment {
         menu.findItem(R.id.notebook_add).setVisible(false);
         menu.findItem(R.id.webmark_add).setVisible(false);
 
-        if(eyesetting == false)
+        if (eyesetting == false)
             menu.findItem(R.id.eye_btn).setIcon(R.drawable.ic_eye_pressed);
         else
             menu.findItem(R.id.eye_btn).setIcon(R.drawable.ic_eye_default);
 
-        if((((MainActivity)getActivity()).lightsetting) == true){
+        if ((((MainActivity) getActivity()).lightsetting) == true) {
             menu.findItem(R.id.light_btn).setIcon(R.drawable.ic_bluelight_default);
-        }
-        else
+        } else
             menu.findItem(R.id.light_btn).setIcon(R.drawable.ic_bluelight_pressed);
 
-        if((((MainActivity)getActivity()).recordingsetting) == true){
+        if ((((MainActivity) getActivity()).recordingsetting) == true) {
             menu.findItem(R.id.voice_btn).setIcon(R.drawable.ic_mic_pressed);
-        }
-        else
+        } else
             menu.findItem(R.id.voice_btn).setIcon(R.drawable.ic_mic_pressed_on);
 
         super.onPrepareOptionsMenu(menu);
@@ -340,29 +307,6 @@ public class TextViewFragment extends Fragment {
         maxLineCount -= 2;
 
         return maxLineCount;
-    }
-
-    private void initViewPager() {
-        mPagerAdapter = new MyPagerAdapter(getActivity().getSupportFragmentManager(), 1);
-        mPager.setAdapter(mPagerAdapter);
-        mPager.setOnPageChangeListener(new ViewPager.SimpleOnPageChangeListener() {
-            @Override
-            public void onPageSelected(int position) {
-                showPageIndicator(position);
-            }
-        });
-    }
-
-    public void onPageProcessedUpdate(ProgressTracker progress) {
-        mPages = progress.pages;
-        // init the pager if necessary
-        if (mPagerAdapter == null) {
-            initViewPager();
-            hideProgress();
-        } else {
-            ((MyPagerAdapter) mPagerAdapter).incrementPageCount();
-        }
-        addPageIndicator(progress.totalPages);
     }
 
     private void hideProgress() {
@@ -474,20 +418,30 @@ public class TextViewFragment extends Fragment {
     //눈깜박임에 따른 페이지 down 함수
     public void change_down_location() {
         // 절대값을 통해 text뷰의 스크롤뷰에서의 위치 파악
-        if (pagestyle % 10 == 7) {
-            int cur = mPager.getCurrentItem();
-            mPager.setCurrentItem(++cur);
 
-        } else {
-            if (location[1] < 0)
-                location[1] = (-1) * location[1];
+        int range = 200;
 
-            // 위치 변경
-            scrollView.smoothScrollTo(0, location[1] + 200);
-            location[1] += 200;
-
+        if (location[1] < 0)
+            location[1] = (-1) * location[1];
+        text_scroll_range = intPref.getInt("scroll_range", 1);
+        switch (text_scroll_range) {
+            case 1:
+                range = 200;
+                break;
+            case 2:
+                range = 300;
+                break;
+            case 3:
+                range = 400;
+                break;
+            case 4:
+                range = 500;
+                break;
         }
 
+        // 위치 변경
+        scrollView.smoothScrollTo(0, location[1] + range);
+        location[1] += range;
     }
 
     public void onActivityCreated(Bundle savedInstanceState) {
@@ -495,11 +449,12 @@ public class TextViewFragment extends Fragment {
 
 
     }
+
     // 해당 포지션으로 페이지 down하는 함수
-    public void goToPosition(int pos){
+    public void goToPosition(int pos) {
         if (location[1] < 0)
             location[1] = (-1) * location[1];
-        scrollView.scrollTo(0,book_position);
+        scrollView.scrollTo(0, book_position);
 
     }
 
@@ -627,7 +582,7 @@ public class TextViewFragment extends Fragment {
 
     @Subscribe(threadMode = ThreadMode.MAIN)
     public void onRightEyeClosed(RightEyeClosedEvent e) {
-        if(eyesetting == true) {
+        if (eyesetting == true) {
             // change_up_location();
             change_down_location();
             try {
@@ -640,7 +595,7 @@ public class TextViewFragment extends Fragment {
 
     @Subscribe(threadMode = ThreadMode.MAIN)
     public void onEyeSetting(EyeSettingEvent e) {
-        eyesetting = ((MainActivity)getActivity()).eyesetting;
+        eyesetting = ((MainActivity) getActivity()).eyesetting;
     }
 
     @Subscribe(threadMode = ThreadMode.MAIN)
@@ -690,9 +645,9 @@ public class TextViewFragment extends Fragment {
         // Create camera source that will capture video frames
         // Use the front camera
         mCameraSource = new CameraSource.Builder(getActivity().getApplicationContext(), mFaceDetector)
-                .setRequestedPreviewSize(640, 480)
+                // .setRequestedPreviewSize(640, 480)
                 .setFacing(CameraSource.CAMERA_FACING_FRONT)
-                .setRequestedFps(15f)
+                .setRequestedFps(40f)
                 .build();
     }
 

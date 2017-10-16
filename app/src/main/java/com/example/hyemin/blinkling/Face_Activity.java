@@ -94,7 +94,7 @@ public final class Face_Activity extends Activity {
     boolean startChecked = false;
     int starttimecheck = 100;
     long startTime = 0, endTime = 0;
-
+    static int time = 1000;
     //==============================================================================================
     // Activity Methods
     //==============================================================================================
@@ -133,27 +133,39 @@ public final class Face_Activity extends Activity {
         }
 
 
-        
-        /*try {
-            sleep(3000);
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }*/
 
-
+//
+//        try {
+//            sleep(3000);
+//        } catch (InterruptedException e) {
+//            e.printStackTrace();
+//        }
+//
+//        start_init();
     }
 
-   /* protected void onStart()
-    {
-        super.onStart();
+    public void start_init(){
+        Toast.makeText(this, "눈 크기 측정을 3초 후에 시작합니다. 눈을 감아주세요", Toast.LENGTH_SHORT).show();
+
+        try {
+            onClickInit(getCurrentFocus());
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+        Toast.makeText(this, "눈 크기 측정이 완료 되었습니다. 의식적으로 눈을 깜박여 보세요.", Toast.LENGTH_SHORT).show();
         try {
             sleep(3000);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
+        try {
+            onClickInit_time(getCurrentFocus());
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
 
-        start_init();
-    }*/
+    }
+
     /**
      * Handles the requesting of the camera permission.  This includes
      * showing a "Snackbar" message of why the permission is needed then
@@ -227,6 +239,7 @@ public final class Face_Activity extends Activity {
         FaceDetector detector = new FaceDetector.Builder(context)
                 .setProminentFaceOnly(true)
                 .setClassificationType(FaceDetector.ALL_CLASSIFICATIONS)
+                .setLandmarkType(FaceDetector.ALL_LANDMARKS)
                 .build();
 
         detector.setProcessor(
@@ -268,7 +281,7 @@ public final class Face_Activity extends Activity {
     }
 
     public void onClickInit(View v) throws InterruptedException {
-        face_check.onDone();
+//        face_check.onDone();
         check = 1;
         initial_check = true;
         face_check = new GraphicFaceTracker(mGraphicOverlay);
@@ -288,31 +301,6 @@ public final class Face_Activity extends Activity {
         starttimecheck = 1;
     }
 
-    public void start_init() {
-        Toast.makeText(this, "눈 크기 측정을 3초 후에 시작합니다. 눈을 감아주세요", Toast.LENGTH_SHORT).show();
-        try {
-            sleep(3000);
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
-        try {
-            onClickInit(getCurrentFocus());
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
-        Toast.makeText(this, "눈 크기 측정이 완료 되었습니다. 의식적으로 눈을 깜박여 보세요.", Toast.LENGTH_SHORT).show();
-        try {
-            sleep(3000);
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
-        try {
-            onClickInit_time(getCurrentFocus());
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
-
-    }
 
     /**
      * Restarts the camera.

@@ -6,12 +6,11 @@
 
     <ImageView
         android:id="@+id/iv_img"
-        android:layout_width="36dp"
+        android:layout_width="37dp"
         android:layout_height="match_parent"
-        android:src="@drawable/ic_bookmark_pressed"
-        android:tint="@color/colorPrimary"
+        android:src="@drawable/ic_mybookmark_pressed"
         android:adjustViewBounds="true"
-        android:layout_marginRight="12dp"
+        android:layout_marginRight="8dp"
         />
 
     <LinearLayout
@@ -31,6 +30,10 @@
             android:textColor="@color/primaryTextColor"
             android:textSize="18sp"
             android:layout_marginTop="10dp"/>
+=======
+            android:textColor="#313131"
+            android:textSize="18sp" />
+>>>>>>> 146bf05581494382b84aba7c4fd2d4f0835382b0
 
 
         <TextView
@@ -39,7 +42,7 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:gravity="right"
-                android:textColor="@color/secondaryTextColor"
+                android:textColor="#666666"
                 android:textSize="12sp"
                 android:layout_alignRight="@+id/tv_doc"
                 android:layout_marginBottom="5dp"/>

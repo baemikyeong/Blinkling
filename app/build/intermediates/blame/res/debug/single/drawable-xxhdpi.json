@@ -52,6 +52,10 @@
         "source": "/Users/seohyemin/Blinkling-master/app/src/main/res/drawable-xxhdpi/bookshlef3.png"
     },
     {
+        "merged": "/Users/seohyemin/Blinkling-master/app/build/intermediates/res/merged/debug/drawable-xxhdpi/ic_format_line_spacing_white_24dp.png",
+        "source": "/Users/seohyemin/Blinkling-master/app/src/main/res/drawable-xxhdpi/ic_format_line_spacing_white_24dp.png"
+    },
+    {
         "merged": "/Users/seohyemin/Blinkling-master/app/build/intermediates/res/merged/debug/drawable-xxhdpi/ic_bookmark_default.png",
         "source": "/Users/seohyemin/Blinkling-master/app/src/main/res/drawable-xxhdpi/ic_bookmark_default.png"
     },

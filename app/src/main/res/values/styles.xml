@@ -5,9 +5,9 @@
         <!-- Customize your theme here. -->
         <item name="colorAccent">@color/colorPrimary</item>
         <item name="colorPrimary">@color/colorPrimary</item><!---->
-        <item name="colorPrimaryDark">#736262</item><!---->
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item><!---->
         <item name="colorControlNormal">@color/colorPrimary</item> <!--edittext's underline-->
-        <item name="colorControlActivated">#736262</item>
+        <item name="colorControlActivated">@color/colorPrimaryDark</item>
         <!--<item name="colorControlHighlight"></item>-->
      <!--   <item name="android:navigationBarColor"
             tools:targetApi="lollipop">#ffcdd5</item>-->

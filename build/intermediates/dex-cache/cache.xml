@@ -7,7 +7,7 @@
         jumboMode="true"
         optimize="true"
         revision="25.0.3"
-        sha1="1ab49f8ad3446eb9d12bb37be6d2963a41276789">
+        sha1="4ae0ff5f1da1bec005bdf94b7d70173b8cf4c3ac">
         <dex dex="/Users/seohyemin/Blinkling-master/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_0f87486131eae7a0ff6df750c0e2277f0f2ef791/classes.dex" />
     </item>
     <item
@@ -16,7 +16,7 @@
         jumboMode="true"
         optimize="true"
         revision="25.0.3"
-        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
+        sha1="c82741bc129dd5f99f11a4ab8666ae24262053b6">
         <dex dex="/Users/seohyemin/Blinkling-master/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_8689ee2a1adccc04fe351276d05588775a73cc19/classes.dex" />
     </item>
 

@@ -24,6 +24,7 @@ package com.example.hyemin.blinkling.tracker;
 
 import android.app.Activity;
 import android.content.SharedPreferences;
+import android.util.Log;
 
 import com.example.hyemin.blinkling.event.*;
 import com.google.android.gms.vision.Detector;
@@ -45,6 +46,9 @@ public class FaceTracker extends Tracker<Face> {
     private double right_thres;
     private boolean initial_check = false;
     private long user_time;
+    private float pre_left = 0.6f;
+    private float cur_left = 0.5f;
+    private int a = 1;
 
     public void set_indi(double left, double right, long time){
         //if(left>=0.5)
@@ -65,40 +69,35 @@ public class FaceTracker extends Tracker<Face> {
     @Override
     public void onUpdate(Detector.Detections<Face> detections, Face face) {
 
-//        if(initial_check == false) {
-//            if (leftClosed && face.getIsLeftEyeOpenProbability() > PROB_THRESHOLD) {
-//                leftClosed = false;
-//            } else if (!leftClosed && face.getIsLeftEyeOpenProbability() < PROB_THRESHOLD) {
-//                leftClosed = true;
-//            }
-//            if (rightClosed && face.getIsRightEyeOpenProbability() > PROB_THRESHOLD) {
-//                rightClosed = false;
-//            } else if (!rightClosed && face.getIsRightEyeOpenProbability() < PROB_THRESHOLD) {
-//                rightClosed = true;
-//            }
-//        }
-//        else {
-            if (leftClosed && face.getIsLeftEyeOpenProbability() > left_thres) {
+        cur_left = face.getIsLeftEyeOpenProbability();
+
+            if (leftClosed && cur_left > left_thres) {
                 leftClosed = false;
-            } else if (!leftClosed && face.getIsLeftEyeOpenProbability() < left_thres) {
+            } else if (!leftClosed && cur_left < left_thres && cur_left != -1) {
                 try {
                     sleep(user_time);
                 } catch (InterruptedException e) {
                     e.printStackTrace();
                 }
-                if(!leftClosed && face.getIsLeftEyeOpenProbability() < left_thres)
-                leftClosed = true;
+                if(cur_left != pre_left &&!leftClosed && cur_left < left_thres && cur_left != -1) {
+
+                    leftClosed = true;
+                    Log.d("check", cur_left+"현재1");
+                    Log.d("check", pre_left+"예전1");
+                    pre_left = cur_left;
+                    a=1;
+                }
                 else leftClosed = false;
             }
             if (rightClosed && face.getIsRightEyeOpenProbability() > right_thres) {
                 rightClosed = false;
-            } else if (!rightClosed && face.getIsRightEyeOpenProbability() < right_thres) {
+            } else if (!rightClosed && face.getIsRightEyeOpenProbability() < right_thres && face.getIsRightEyeOpenProbability() != -1) {
                 try {
                     sleep(user_time);
                 } catch (InterruptedException e) {
                     e.printStackTrace();
                 }
-                if(!rightClosed && face.getIsRightEyeOpenProbability() < right_thres)
+                if(!rightClosed && face.getIsRightEyeOpenProbability() < right_thres && face.getIsRightEyeOpenProbability() != -1)
                 rightClosed = true;
                 else rightClosed = false;
 //            }
@@ -106,7 +105,7 @@ public class FaceTracker extends Tracker<Face> {
 
         //오른쪽, 왼쪽 눈 감음 구분
 //        if (leftClosed && !rightClosed) {
-//            EventBus.getDefault().post(new LeftEyeClosedEvent());
+//            EvedntBus.getDefault().post(new LeftEyeClosedEvent());
 //        } else if (rightClosed && !leftClosed) {
 //            EventBus.getDefault().post(new RightEyeClosedEvent());
 //        } else if (leftClosed && rightClosed) {
@@ -114,13 +113,18 @@ public class FaceTracker extends Tracker<Face> {
 //        }
 
         // 오른쪽 왼쪽 눈감음 따로 인식 가능 (현재는 필요하지 않기 때문에 생략)
-        if (leftClosed && rightClosed) {
+        if (leftClosed && rightClosed && a==1) {
            EventBus.getDefault().post(new RightEyeClosedEvent());
-            try {
-                sleep(1500);
-            } catch (InterruptedException e) {
-                e.printStackTrace();
-            }
+//            try {
+//                sleep(1300);
+//            } catch (InterruptedException e) {
+//                e.printStackTrace();
+//            }
+//            Log.d("check", face.getIsLeftEyeOpenProbability()+"왼쪽");
+//            Log.d("check", face.getIsRightEyeOpenProbability()+"오른쪽");
+            a++;
+            Log.d("check", cur_left+"현재2");
+            Log.d("check", pre_left+"예전2");
         } else if (!leftClosed && !rightClosed) {
             EventBus.getDefault().post(new NeutralFaceEvent());
 

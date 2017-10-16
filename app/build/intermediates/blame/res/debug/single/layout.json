@@ -336,6 +336,10 @@
         "source": "/Users/seohyemin/Blinkling-master/app/src/main/res/layout/fragment.xml"
     },
     {
+        "merged": "/Users/seohyemin/Blinkling-master/app/build/intermediates/res/merged/debug/layout/fragment_set_scrollrange.xml",
+        "source": "/Users/seohyemin/Blinkling-master/app/src/main/res/layout/fragment_set_scrollrange.xml"
+    },
+    {
         "merged": "/Users/seohyemin/Blinkling-master/app/build/intermediates/res/merged/debug/layout/text_view.xml",
         "source": "/Users/seohyemin/Blinkling-master/app/src/main/res/layout/text_view.xml"
     },
