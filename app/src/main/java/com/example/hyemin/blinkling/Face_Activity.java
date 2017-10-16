@@ -52,6 +52,8 @@ import org.greenrobot.eventbus.ThreadMode;
 
 import java.io.IOException;
 
+import static java.lang.Thread.sleep;
+
 /**
  * Activity for the face tracker app.  This app detects faces with the rear facing camera, and draws
  * overlay graphics to indicate the position, size, and ID of each face.
@@ -106,8 +108,7 @@ public final class Face_Activity extends Activity {
         setContentView(R.layout.main);
 
 
-
-       // tx1 = (TextView)findViewById(R.id.num);
+        // tx1 = (TextView)findViewById(R.id.num);
 
         PlayServicesUtil.isPlayServicesAvailable(this, 69);
 
@@ -131,13 +132,34 @@ public final class Face_Activity extends Activity {
             requestCameraPermission();
         }
 
+
+        
+        /*try {
+            sleep(3000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }*/
+
+
     }
 
+   /* protected void onStart()
+    {
+        super.onStart();
+        try {
+            sleep(3000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+
+        start_init();
+    }*/
     /**
      * Handles the requesting of the camera permission.  This includes
      * showing a "Snackbar" message of why the permission is needed then
      * sending the request.
      */
+
     private void requestCameraPermission() {
         Log.w(TAG, "Camera permission is not granted. Requesting permission");
 
@@ -170,7 +192,7 @@ public final class Face_Activity extends Activity {
         // change_up_location();
         if (starttimecheck == 1) {
             startTime = System.currentTimeMillis(); // 시간재기
-            Toast.makeText(this,"시간측정을 시작합니다", Toast.LENGTH_SHORT).show();
+            Toast.makeText(this, "시간측정을 시작합니다", Toast.LENGTH_SHORT).show();
             startChecked = true;
             starttimecheck++;
         }
@@ -191,7 +213,7 @@ public final class Face_Activity extends Activity {
             starttimecheck++;
         }
         startChecked = false;
-       // starttimecheck++;
+        // starttimecheck++;
     }
 
     /**
@@ -266,6 +288,31 @@ public final class Face_Activity extends Activity {
         starttimecheck = 1;
     }
 
+    public void start_init() {
+        Toast.makeText(this, "눈 크기 측정을 3초 후에 시작합니다. 눈을 감아주세요", Toast.LENGTH_SHORT).show();
+        try {
+            sleep(3000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+        try {
+            onClickInit(getCurrentFocus());
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+        Toast.makeText(this, "눈 크기 측정이 완료 되었습니다. 의식적으로 눈을 깜박여 보세요.", Toast.LENGTH_SHORT).show();
+        try {
+            sleep(3000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+        try {
+            onClickInit_time(getCurrentFocus());
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+
+    }
 
     /**
      * Restarts the camera.
@@ -420,7 +467,7 @@ public final class Face_Activity extends Activity {
             // 정확도를 위해 보다 작은 값으로 눈의 크기 저장
             if (right_thred1 != 0 && (float) r <= right_thred1 && r > (-1))
                 right_thred1 = (float) r;
-            if (left_thred1 != 0 && (float) l <= left_thred1 && l > (-1) )
+            if (left_thred1 != 0 && (float) l <= left_thred1 && l > (-1))
                 left_thred1 = (float) l;
 
             // 눈의크기가 저장이 되어있지 않은 경우, 비교 없이 값 자체 저장
