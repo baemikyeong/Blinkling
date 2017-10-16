@@ -127,14 +127,6 @@ public final class Face_Activity extends Activity {
             requestCameraPermission();
         }
 
-//
-//        try {
-//            sleep(3000);
-//        } catch (InterruptedException e) {
-//            e.printStackTrace();
-//        }
-//
-//        start_init();
     }
 
     public void start_init(){
