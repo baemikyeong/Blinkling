@@ -186,6 +186,8 @@ public class WebviewFragment extends Fragment {
         else
             menu.findItem(R.id.light_btn).setIcon(R.drawable.ic_bluelight_pressed);
 
+        menu.findItem(R.id.voice_btn).setVisible(false);
+
         if((((MainActivity)getActivity()).recordingsetting) == true){
             menu.findItem(R.id.voice_btn).setIcon(R.drawable.ic_mic_pressed);
         }

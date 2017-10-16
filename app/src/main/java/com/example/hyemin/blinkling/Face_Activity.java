@@ -28,6 +28,7 @@ import android.support.design.widget.Snackbar;
 import android.support.v4.app.ActivityCompat;
 import android.util.Log;
 import android.view.View;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import com.example.hyemin.blinkling.camera.CameraSourcePreview;
@@ -85,6 +86,7 @@ public final class Face_Activity extends Activity {
 
     private SharedPreferences intPref;
     private SharedPreferences.Editor editor1;
+    private TextView tx1;
 
     long indivisual_blink_time;
     boolean startChecked = false;
@@ -102,6 +104,10 @@ public final class Face_Activity extends Activity {
     public void onCreate(Bundle icicle) {
         super.onCreate(icicle);
         setContentView(R.layout.main);
+
+
+
+       // tx1 = (TextView)findViewById(R.id.num);
 
         PlayServicesUtil.isPlayServicesAvailable(this, 69);
 

@@ -24,12 +24,12 @@
         "source": "/Users/seohyemin/.android/build-cache/c7bc4f7edfba7ff92a9519a276f8d2da7169785b/output/res/drawable/abc_btn_colored_material.xml"
     },
     {
-        "merged": "/Users/seohyemin/Blinkling-master/app/build/intermediates/res/merged/debug/drawable/book4.png",
-        "source": "/Users/seohyemin/Blinkling-master/app/src/main/res/drawable/book4.png"
-    },
-    {
         "merged": "/Users/seohyemin/Blinkling-master/app/build/intermediates/res/merged/debug/drawable/cast_ic_expanded_controller_mute.xml",
         "source": "/Users/seohyemin/.android/build-cache/86e41c47417d80a7dd799f3286469399e5a52229/output/res/drawable/cast_ic_expanded_controller_mute.xml"
+    },
+    {
+        "merged": "/Users/seohyemin/Blinkling-master/app/build/intermediates/res/merged/debug/drawable/book4.png",
+        "source": "/Users/seohyemin/Blinkling-master/app/src/main/res/drawable/book4.png"
     },
     {
         "merged": "/Users/seohyemin/Blinkling-master/app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_icon_light_normal.xml",
@@ -76,12 +76,12 @@
         "source": "/Users/seohyemin/.android/build-cache/86e41c47417d80a7dd799f3286469399e5a52229/output/res/drawable/cast_ic_mini_controller_stop_large.xml"
     },
     {
-        "merged": "/Users/seohyemin/Blinkling-master/app/build/intermediates/res/merged/debug/drawable/mr_ic_audiotrack_light.xml",
-        "source": "/Users/seohyemin/.android/build-cache/26e1f3a36311761421d8a35c144f8427dceb418a/output/res/drawable/mr_ic_audiotrack_light.xml"
-    },
-    {
         "merged": "/Users/seohyemin/Blinkling-master/app/build/intermediates/res/merged/debug/drawable/icon_web.png",
         "source": "/Users/seohyemin/Blinkling-master/app/src/main/res/drawable/icon_web.png"
+    },
+    {
+        "merged": "/Users/seohyemin/Blinkling-master/app/build/intermediates/res/merged/debug/drawable/mr_ic_audiotrack_light.xml",
+        "source": "/Users/seohyemin/.android/build-cache/26e1f3a36311761421d8a35c144f8427dceb418a/output/res/drawable/mr_ic_audiotrack_light.xml"
     },
     {
         "merged": "/Users/seohyemin/Blinkling-master/app/build/intermediates/res/merged/debug/drawable/book3.png",
@@ -154,6 +154,10 @@
     {
         "merged": "/Users/seohyemin/Blinkling-master/app/build/intermediates/res/merged/debug/drawable/cast_ic_notification_small_icon.xml",
         "source": "/Users/seohyemin/.android/build-cache/86e41c47417d80a7dd799f3286469399e5a52229/output/res/drawable/cast_ic_notification_small_icon.xml"
+    },
+    {
+        "merged": "/Users/seohyemin/Blinkling-master/app/build/intermediates/res/merged/debug/drawable/theatremic.png",
+        "source": "/Users/seohyemin/Blinkling-master/app/src/main/res/drawable/theatremic.png"
     },
     {
         "merged": "/Users/seohyemin/Blinkling-master/app/build/intermediates/res/merged/debug/drawable/abc_list_selector_holo_light.xml",
@@ -558,6 +562,10 @@
     {
         "merged": "/Users/seohyemin/Blinkling-master/app/build/intermediates/res/merged/debug/drawable/cast_ic_mini_controller_skip_next.xml",
         "source": "/Users/seohyemin/.android/build-cache/86e41c47417d80a7dd799f3286469399e5a52229/output/res/drawable/cast_ic_mini_controller_skip_next.xml"
+    },
+    {
+        "merged": "/Users/seohyemin/Blinkling-master/app/build/intermediates/res/merged/debug/drawable/initiate.png",
+        "source": "/Users/seohyemin/Blinkling-master/app/src/main/res/drawable/initiate.png"
     },
     {
         "merged": "/Users/seohyemin/Blinkling-master/app/build/intermediates/res/merged/debug/drawable/mr_ic_close_light.xml",

@@ -67,6 +67,8 @@
             android:name="com.example.hyemin.blinkling.Service.AudioService"
             android:enabled="true"
             android:exported="true" />
+
+        <activity android:name="com.example.hyemin.blinkling.Popup_Information_Activity" />
         <!-- Include the AdActivity and InAppPurchaseActivity configChanges and themes. -->
         <activity
             android:name="com.google.android.gms.ads.AdActivity"

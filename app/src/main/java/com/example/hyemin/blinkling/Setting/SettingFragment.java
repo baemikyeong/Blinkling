@@ -18,6 +18,7 @@ import android.widget.Toast;
 
 import com.example.hyemin.blinkling.Face_Activity;
 import com.example.hyemin.blinkling.MainActivity;
+import com.example.hyemin.blinkling.Popup_Information_Activity;
 import com.example.hyemin.blinkling.R;
 import com.example.hyemin.blinkling.Setting.SetBackgroundFragment;
 import com.example.hyemin.blinkling.Setting.SetBluelightFragment;
@@ -210,7 +211,10 @@ public class SettingFragment extends Fragment {
                 page_dialog.show(getFragmentManager(), "Edit pagestyle");
                 break;
             case 8:
-                Intent intent = new Intent(getActivity(), Face_Activity.class);
+                //Popup_Information 액티비티 띄우기
+                Intent intent = new Intent(getActivity(), Popup_Information_Activity.class);
+                startActivity(intent);
+              /*  Intent intent = new Intent(getActivity(), Face_Activity.class);
 
                 if (mCameraSource != null) {
                     mCameraSource.release();
@@ -220,7 +224,7 @@ public class SettingFragment extends Fragment {
                 Toast.makeText(getActivity(), "초기화를 시작합니다", Toast.LENGTH_SHORT).show();
                 Toast.makeText(getActivity(), "눈을 감고 Blink_Size 버튼을 두 번 눌러주세요", Toast.LENGTH_SHORT).show();
 
-                startActivity(intent);
+                startActivity(intent); */
                 break;
         }
 

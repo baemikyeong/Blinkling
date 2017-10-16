@@ -707,8 +707,6 @@ public class TextViewFragment extends Fragment {
         bookmark_position = location[1];
         if (bookmark_position < 0) bookmark_position = (-1) * bookmark_position;
 
-        toast.makeText(getActivity(), "북마크추가함수입니다", Toast.LENGTH_SHORT).show();
-
         return bookmark_position;
     }
 

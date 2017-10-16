@@ -136,6 +136,10 @@
         "source": "/Users/seohyemin/.android/build-cache/7513a969dcc805b7f0f9997c9c0130190965a6d4/output/res/layout/place_autocomplete_item_powered_by_google.xml"
     },
     {
+        "merged": "/Users/seohyemin/Blinkling-master/app/build/intermediates/res/merged/debug/layout/fragment_text_with_value.xml",
+        "source": "/Users/seohyemin/Blinkling-master/app/src/main/res/layout/fragment_text_with_value.xml"
+    },
+    {
         "merged": "/Users/seohyemin/Blinkling-master/app/build/intermediates/res/merged/debug/layout/abc_alert_dialog_material.xml",
         "source": "/Users/seohyemin/.android/build-cache/c7bc4f7edfba7ff92a9519a276f8d2da7169785b/output/res/layout/abc_alert_dialog_material.xml"
     },
@@ -362,6 +366,10 @@
     {
         "merged": "/Users/seohyemin/Blinkling-master/app/build/intermediates/res/merged/debug/layout/abc_list_menu_item_icon.xml",
         "source": "/Users/seohyemin/.android/build-cache/c7bc4f7edfba7ff92a9519a276f8d2da7169785b/output/res/layout/abc_list_menu_item_icon.xml"
+    },
+    {
+        "merged": "/Users/seohyemin/Blinkling-master/app/build/intermediates/res/merged/debug/layout/activity_popup_information.xml",
+        "source": "/Users/seohyemin/Blinkling-master/app/src/main/res/layout/activity_popup_information.xml"
     },
     {
         "merged": "/Users/seohyemin/Blinkling-master/app/build/intermediates/res/merged/debug/layout/fragment_text_scrollview.xml",
