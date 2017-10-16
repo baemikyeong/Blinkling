@@ -1,5 +1,9 @@
 [
     {
+        "merged": "/Users/miso/capstone/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi/ic_launcher_round.png",
+        "source": "/Users/miso/capstone/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png"
+    },
+    {
         "merged": "/Users/miso/Blinkling/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi/ic_launcher_round.png",
         "source": "/Users/miso/Blinkling/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png"
     }

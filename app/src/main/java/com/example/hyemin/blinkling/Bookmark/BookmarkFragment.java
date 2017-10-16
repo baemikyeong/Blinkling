@@ -42,6 +42,7 @@ public class BookmarkFragment extends Fragment {
         menu.findItem(R.id.light_btn).setVisible(false);
         menu.findItem(R.id.notebook_add).setVisible(false);
         menu.findItem(R.id.webmark_add).setVisible(false);
+        menu.findItem(R.id.edit_scroll_range).setVisible(false);
         super.onPrepareOptionsMenu(menu);
     }
 

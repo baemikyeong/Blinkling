@@ -8,24 +8,24 @@
         "source": "/Users/miso/.android/build-cache/72b45b2dbfd520e812a0692f1ce1b6f3edebba99/output/res/drawable/common_google_signin_btn_icon_light_focused.xml"
     },
     {
+        "merged": "/Users/miso/capstone/app/build/intermediates/res/merged/debug/drawable/notification_icon_background.xml",
+        "source": "/Users/miso/.android/build-cache/f518a637222202e95c7ee16aa458e17e5c6c2ed1/output/res/drawable/notification_icon_background.xml"
+    },
+    {
         "merged": "/Users/miso/Blinkling/app/build/intermediates/res/merged/debug/drawable/cast_ic_mini_controller_mute.xml",
         "source": "/Users/miso/.android/build-cache/347d0d4156e9f2449bb5d96c9ebf61d7db2d587c/output/res/drawable/cast_ic_mini_controller_mute.xml"
+    },
+    {
+        "merged": "/Users/miso/capstone/app/build/intermediates/res/merged/debug/drawable/ic_expand.xml",
+        "source": "/Users/miso/.android/build-cache/11b4c89eb1c28151106f825047005322c9414aea/output/res/drawable/ic_expand.xml"
     },
     {
         "merged": "/Users/miso/Blinkling/app/build/intermediates/res/merged/debug/drawable/mr_ic_cast_light.xml",
         "source": "/Users/miso/.android/build-cache/11b4c89eb1c28151106f825047005322c9414aea/output/res/drawable/mr_ic_cast_light.xml"
     },
     {
-        "merged": "/Users/miso/Blinkling/app/build/intermediates/res/merged/debug/drawable/cast_ic_mini_controller_skip_next.xml",
-        "source": "/Users/miso/.android/build-cache/347d0d4156e9f2449bb5d96c9ebf61d7db2d587c/output/res/drawable/cast_ic_mini_controller_skip_next.xml"
-    },
-    {
-        "merged": "/Users/miso/Blinkling/app/build/intermediates/res/merged/debug/drawable/notebook_setting.png",
-        "source": "/Users/miso/Blinkling/app/src/main/res/drawable/notebook_setting.png"
-    },
-    {
-        "merged": "/Users/miso/Blinkling/app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_icon_dark_focused.xml",
-        "source": "/Users/miso/.android/build-cache/72b45b2dbfd520e812a0692f1ce1b6f3edebba99/output/res/drawable/common_google_signin_btn_icon_dark_focused.xml"
+        "merged": "/Users/miso/capstone/app/build/intermediates/res/merged/debug/drawable/gridworld.png",
+        "source": "/Users/miso/capstone/app/src/main/res/drawable/gridworld.png"
     },
     {
         "merged": "/Users/miso/Blinkling/app/build/intermediates/res/merged/debug/drawable/cast_ic_mini_controller_play_large.xml",
@@ -36,52 +36,36 @@
         "source": "/Users/miso/.android/build-cache/347d0d4156e9f2449bb5d96c9ebf61d7db2d587c/output/res/drawable/cast_ic_mini_controller_stop_large.xml"
     },
     {
-        "merged": "/Users/miso/Blinkling/app/build/intermediates/res/merged/debug/drawable/cast_ic_expanded_controller_forward30.xml",
-        "source": "/Users/miso/.android/build-cache/347d0d4156e9f2449bb5d96c9ebf61d7db2d587c/output/res/drawable/cast_ic_expanded_controller_forward30.xml"
-    },
-    {
         "merged": "/Users/miso/Blinkling/app/build/intermediates/res/merged/debug/drawable/cast_ic_expanded_controller_stop.xml",
         "source": "/Users/miso/.android/build-cache/347d0d4156e9f2449bb5d96c9ebf61d7db2d587c/output/res/drawable/cast_ic_expanded_controller_stop.xml"
+    },
+    {
+        "merged": "/Users/miso/capstone/app/build/intermediates/res/merged/debug/drawable/abc_list_selector_background_transition_holo_light.xml",
+        "source": "/Users/miso/.android/build-cache/f518a637222202e95c7ee16aa458e17e5c6c2ed1/output/res/drawable/abc_list_selector_background_transition_holo_light.xml"
     },
     {
         "merged": "/Users/miso/Blinkling/app/build/intermediates/res/merged/debug/drawable/cast_ic_notification_forward30.xml",
         "source": "/Users/miso/.android/build-cache/347d0d4156e9f2449bb5d96c9ebf61d7db2d587c/output/res/drawable/cast_ic_notification_forward30.xml"
     },
     {
-        "merged": "/Users/miso/Blinkling/app/build/intermediates/res/merged/debug/drawable/design_password_eye.xml",
-        "source": "/Users/miso/.android/build-cache/1c1cbc250abfe847ccef1096cd2ade5ac239822b/output/res/drawable/design_password_eye.xml"
+        "merged": "/Users/miso/capstone/app/build/intermediates/res/merged/debug/drawable/cast_expanded_controller_actionbar_bg_gradient_light.xml",
+        "source": "/Users/miso/.android/build-cache/347d0d4156e9f2449bb5d96c9ebf61d7db2d587c/output/res/drawable/cast_expanded_controller_actionbar_bg_gradient_light.xml"
     },
     {
-        "merged": "/Users/miso/Blinkling/app/build/intermediates/res/merged/debug/drawable/notification_icon_background.xml",
-        "source": "/Users/miso/.android/build-cache/f518a637222202e95c7ee16aa458e17e5c6c2ed1/output/res/drawable/notification_icon_background.xml"
+        "merged": "/Users/miso/capstone/app/build/intermediates/res/merged/debug/drawable/abc_tab_indicator_material.xml",
+        "source": "/Users/miso/.android/build-cache/f518a637222202e95c7ee16aa458e17e5c6c2ed1/output/res/drawable/abc_tab_indicator_material.xml"
     },
     {
-        "merged": "/Users/miso/Blinkling/app/build/intermediates/res/merged/debug/drawable/cast_ic_expanded_controller_play.xml",
-        "source": "/Users/miso/.android/build-cache/347d0d4156e9f2449bb5d96c9ebf61d7db2d587c/output/res/drawable/cast_ic_expanded_controller_play.xml"
+        "merged": "/Users/miso/capstone/app/build/intermediates/res/merged/debug/drawable/cast_ic_expanded_controller_forward30.xml",
+        "source": "/Users/miso/.android/build-cache/347d0d4156e9f2449bb5d96c9ebf61d7db2d587c/output/res/drawable/cast_ic_expanded_controller_forward30.xml"
     },
     {
-        "merged": "/Users/miso/Blinkling/app/build/intermediates/res/merged/debug/drawable/abc_dialog_material_background.xml",
-        "source": "/Users/miso/.android/build-cache/f518a637222202e95c7ee16aa458e17e5c6c2ed1/output/res/drawable/abc_dialog_material_background.xml"
+        "merged": "/Users/miso/capstone/app/build/intermediates/res/merged/debug/drawable/abc_btn_radio_material.xml",
+        "source": "/Users/miso/.android/build-cache/f518a637222202e95c7ee16aa458e17e5c6c2ed1/output/res/drawable/abc_btn_radio_material.xml"
     },
     {
-        "merged": "/Users/miso/Blinkling/app/build/intermediates/res/merged/debug/drawable/cast_ic_expanded_controller_rewind30.xml",
-        "source": "/Users/miso/.android/build-cache/347d0d4156e9f2449bb5d96c9ebf61d7db2d587c/output/res/drawable/cast_ic_expanded_controller_rewind30.xml"
-    },
-    {
-        "merged": "/Users/miso/Blinkling/app/build/intermediates/res/merged/debug/drawable/abc_ic_clear_material.xml",
-        "source": "/Users/miso/.android/build-cache/f518a637222202e95c7ee16aa458e17e5c6c2ed1/output/res/drawable/abc_ic_clear_material.xml"
-    },
-    {
-        "merged": "/Users/miso/Blinkling/app/build/intermediates/res/merged/debug/drawable/mr_ic_media_route_mono_dark.xml",
-        "source": "/Users/miso/.android/build-cache/11b4c89eb1c28151106f825047005322c9414aea/output/res/drawable/mr_ic_media_route_mono_dark.xml"
-    },
-    {
-        "merged": "/Users/miso/Blinkling/app/build/intermediates/res/merged/debug/drawable/cast_ic_mini_controller_pause_large.xml",
-        "source": "/Users/miso/.android/build-cache/347d0d4156e9f2449bb5d96c9ebf61d7db2d587c/output/res/drawable/cast_ic_mini_controller_pause_large.xml"
-    },
-    {
-        "merged": "/Users/miso/Blinkling/app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_icon_dark.xml",
-        "source": "/Users/miso/.android/build-cache/72b45b2dbfd520e812a0692f1ce1b6f3edebba99/output/res/drawable/common_google_signin_btn_icon_dark.xml"
+        "merged": "/Users/miso/capstone/app/build/intermediates/res/merged/debug/drawable/notification_tile_bg.xml",
+        "source": "/Users/miso/.android/build-cache/f518a637222202e95c7ee16aa458e17e5c6c2ed1/output/res/drawable/notification_tile_bg.xml"
     },
     {
         "merged": "/Users/miso/Blinkling/app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_text_light.xml",
@@ -96,52 +80,44 @@
         "source": "/Users/miso/.android/build-cache/f518a637222202e95c7ee16aa458e17e5c6c2ed1/output/res/drawable/notification_bg_low.xml"
     },
     {
-        "merged": "/Users/miso/Blinkling/app/build/intermediates/res/merged/debug/drawable/cast_skip_ad_label_border.xml",
-        "source": "/Users/miso/.android/build-cache/347d0d4156e9f2449bb5d96c9ebf61d7db2d587c/output/res/drawable/cast_skip_ad_label_border.xml"
-    },
-    {
-        "merged": "/Users/miso/Blinkling/app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_text_dark_focused.xml",
-        "source": "/Users/miso/.android/build-cache/72b45b2dbfd520e812a0692f1ce1b6f3edebba99/output/res/drawable/common_google_signin_btn_text_dark_focused.xml"
-    },
-    {
-        "merged": "/Users/miso/Blinkling/app/build/intermediates/res/merged/debug/drawable/cast_ic_mini_controller_play.xml",
-        "source": "/Users/miso/.android/build-cache/347d0d4156e9f2449bb5d96c9ebf61d7db2d587c/output/res/drawable/cast_ic_mini_controller_play.xml"
-    },
-    {
-        "merged": "/Users/miso/Blinkling/app/build/intermediates/res/merged/debug/drawable/plus.png",
-        "source": "/Users/miso/Blinkling/app/src/main/res/drawable/plus.png"
+        "merged": "/Users/miso/capstone/app/build/intermediates/res/merged/debug/drawable/mr_ic_media_route_on_light.xml",
+        "source": "/Users/miso/.android/build-cache/11b4c89eb1c28151106f825047005322c9414aea/output/res/drawable/mr_ic_media_route_on_light.xml"
     },
     {
         "merged": "/Users/miso/Blinkling/app/build/intermediates/res/merged/debug/drawable/gridworld.png",
         "source": "/Users/miso/Blinkling/app/src/main/res/drawable/gridworld.png"
     },
     {
-        "merged": "/Users/miso/Blinkling/app/build/intermediates/res/merged/debug/drawable/abc_item_background_holo_dark.xml",
-        "source": "/Users/miso/.android/build-cache/f518a637222202e95c7ee16aa458e17e5c6c2ed1/output/res/drawable/abc_item_background_holo_dark.xml"
+        "merged": "/Users/miso/capstone/app/build/intermediates/res/merged/debug/drawable/ic_add_entry.png",
+        "source": "/Users/miso/capstone/app/src/main/res/drawable/ic_add_entry.png"
     },
     {
-        "merged": "/Users/miso/Blinkling/app/build/intermediates/res/merged/debug/drawable/abc_ic_voice_search_api_material.xml",
-        "source": "/Users/miso/.android/build-cache/f518a637222202e95c7ee16aa458e17e5c6c2ed1/output/res/drawable/abc_ic_voice_search_api_material.xml"
+        "merged": "/Users/miso/capstone/app/build/intermediates/res/merged/debug/drawable/abc_ic_go_search_api_material.xml",
+        "source": "/Users/miso/.android/build-cache/f518a637222202e95c7ee16aa458e17e5c6c2ed1/output/res/drawable/abc_ic_go_search_api_material.xml"
+    },
+    {
+        "merged": "/Users/miso/Blinkling/app/build/intermediates/res/merged/debug/drawable/abc_item_background_holo_dark.xml",
+        "source": "/Users/miso/.android/build-cache/f518a637222202e95c7ee16aa458e17e5c6c2ed1/output/res/drawable/abc_item_background_holo_dark.xml"
     },
     {
         "merged": "/Users/miso/Blinkling/app/build/intermediates/res/merged/debug/drawable/cast_ic_notification_small_icon.xml",
         "source": "/Users/miso/.android/build-cache/347d0d4156e9f2449bb5d96c9ebf61d7db2d587c/output/res/drawable/cast_ic_notification_small_icon.xml"
     },
     {
-        "merged": "/Users/miso/Blinkling/app/build/intermediates/res/merged/debug/drawable/cast_ic_expanded_controller_skip_previous.xml",
-        "source": "/Users/miso/.android/build-cache/347d0d4156e9f2449bb5d96c9ebf61d7db2d587c/output/res/drawable/cast_ic_expanded_controller_skip_previous.xml"
+        "merged": "/Users/miso/capstone/app/build/intermediates/res/merged/debug/drawable/splashview.png",
+        "source": "/Users/miso/capstone/app/src/main/res/drawable/splashview.png"
     },
     {
-        "merged": "/Users/miso/Blinkling/app/build/intermediates/res/merged/debug/drawable/cast_ic_notification_skip_prev.xml",
-        "source": "/Users/miso/.android/build-cache/347d0d4156e9f2449bb5d96c9ebf61d7db2d587c/output/res/drawable/cast_ic_notification_skip_prev.xml"
+        "merged": "/Users/miso/capstone/app/build/intermediates/res/merged/debug/drawable/cast_ic_expanded_controller_skip_next.xml",
+        "source": "/Users/miso/.android/build-cache/347d0d4156e9f2449bb5d96c9ebf61d7db2d587c/output/res/drawable/cast_ic_expanded_controller_skip_next.xml"
+    },
+    {
+        "merged": "/Users/miso/capstone/app/build/intermediates/res/merged/debug/drawable/abc_cab_background_internal_bg.xml",
+        "source": "/Users/miso/.android/build-cache/f518a637222202e95c7ee16aa458e17e5c6c2ed1/output/res/drawable/abc_cab_background_internal_bg.xml"
     },
     {
         "merged": "/Users/miso/Blinkling/app/build/intermediates/res/merged/debug/drawable/folder.png",
         "source": "/Users/miso/Blinkling/app/src/main/res/drawable/folder.png"
-    },
-    {
-        "merged": "/Users/miso/Blinkling/app/build/intermediates/res/merged/debug/drawable/seekbar_progress.xml",
-        "source": "/Users/miso/Blinkling/app/src/main/res/drawable/seekbar_progress.xml"
     },
     {
         "merged": "/Users/miso/Blinkling/app/build/intermediates/res/merged/debug/drawable/bookmark.png",
@@ -160,24 +136,36 @@
         "source": "/Users/miso/.android/build-cache/347d0d4156e9f2449bb5d96c9ebf61d7db2d587c/output/res/drawable/cast_ic_mini_controller_rewind30.xml"
     },
     {
-        "merged": "/Users/miso/Blinkling/app/build/intermediates/res/merged/debug/drawable/cast_ic_mini_controller_forward30.xml",
-        "source": "/Users/miso/.android/build-cache/347d0d4156e9f2449bb5d96c9ebf61d7db2d587c/output/res/drawable/cast_ic_mini_controller_forward30.xml"
+        "merged": "/Users/miso/capstone/app/build/intermediates/res/merged/debug/drawable/abc_ic_menu_overflow_material.xml",
+        "source": "/Users/miso/.android/build-cache/f518a637222202e95c7ee16aa458e17e5c6c2ed1/output/res/drawable/abc_ic_menu_overflow_material.xml"
     },
     {
-        "merged": "/Users/miso/Blinkling/app/build/intermediates/res/merged/debug/drawable/mr_ic_play_light.xml",
-        "source": "/Users/miso/.android/build-cache/11b4c89eb1c28151106f825047005322c9414aea/output/res/drawable/mr_ic_play_light.xml"
+        "merged": "/Users/miso/capstone/app/build/intermediates/res/merged/debug/drawable/cast_ic_mini_controller_play.xml",
+        "source": "/Users/miso/.android/build-cache/347d0d4156e9f2449bb5d96c9ebf61d7db2d587c/output/res/drawable/cast_ic_mini_controller_play.xml"
     },
     {
-        "merged": "/Users/miso/Blinkling/app/build/intermediates/res/merged/debug/drawable/cast_ic_notification_forward10.xml",
-        "source": "/Users/miso/.android/build-cache/347d0d4156e9f2449bb5d96c9ebf61d7db2d587c/output/res/drawable/cast_ic_notification_forward10.xml"
+        "merged": "/Users/miso/capstone/app/build/intermediates/res/merged/debug/drawable/cast_skip_ad_label_border.xml",
+        "source": "/Users/miso/.android/build-cache/347d0d4156e9f2449bb5d96c9ebf61d7db2d587c/output/res/drawable/cast_skip_ad_label_border.xml"
     },
     {
-        "merged": "/Users/miso/Blinkling/app/build/intermediates/res/merged/debug/drawable/cast_mini_controller_progress_drawable.xml",
-        "source": "/Users/miso/.android/build-cache/347d0d4156e9f2449bb5d96c9ebf61d7db2d587c/output/res/drawable/cast_mini_controller_progress_drawable.xml"
+        "merged": "/Users/miso/capstone/app/build/intermediates/res/merged/debug/drawable/cast_ic_mini_controller_pause_large.xml",
+        "source": "/Users/miso/.android/build-cache/347d0d4156e9f2449bb5d96c9ebf61d7db2d587c/output/res/drawable/cast_ic_mini_controller_pause_large.xml"
+    },
+    {
+        "merged": "/Users/miso/capstone/app/build/intermediates/res/merged/debug/drawable/abc_edit_text_material.xml",
+        "source": "/Users/miso/.android/build-cache/f518a637222202e95c7ee16aa458e17e5c6c2ed1/output/res/drawable/abc_edit_text_material.xml"
     },
     {
         "merged": "/Users/miso/Blinkling/app/build/intermediates/res/merged/debug/drawable/abc_btn_borderless_material.xml",
         "source": "/Users/miso/.android/build-cache/f518a637222202e95c7ee16aa458e17e5c6c2ed1/output/res/drawable/abc_btn_borderless_material.xml"
+    },
+    {
+        "merged": "/Users/miso/capstone/app/build/intermediates/res/merged/debug/drawable/cast_ic_notification_rewind.xml",
+        "source": "/Users/miso/.android/build-cache/347d0d4156e9f2449bb5d96c9ebf61d7db2d587c/output/res/drawable/cast_ic_notification_rewind.xml"
+    },
+    {
+        "merged": "/Users/miso/capstone/app/build/intermediates/res/merged/debug/drawable/abc_ic_clear_material.xml",
+        "source": "/Users/miso/.android/build-cache/f518a637222202e95c7ee16aa458e17e5c6c2ed1/output/res/drawable/abc_ic_clear_material.xml"
     },
     {
         "merged": "/Users/miso/Blinkling/app/build/intermediates/res/merged/debug/drawable/abc_cab_background_top_material.xml",
@@ -186,6 +174,14 @@
     {
         "merged": "/Users/miso/Blinkling/app/build/intermediates/res/merged/debug/drawable/notification_tile_bg.xml",
         "source": "/Users/miso/.android/build-cache/f518a637222202e95c7ee16aa458e17e5c6c2ed1/output/res/drawable/notification_tile_bg.xml"
+    },
+    {
+        "merged": "/Users/miso/capstone/app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_icon_dark_focused.xml",
+        "source": "/Users/miso/.android/build-cache/72b45b2dbfd520e812a0692f1ce1b6f3edebba99/output/res/drawable/common_google_signin_btn_icon_dark_focused.xml"
+    },
+    {
+        "merged": "/Users/miso/capstone/app/build/intermediates/res/merged/debug/drawable/cast_ic_mini_controller_pause.xml",
+        "source": "/Users/miso/.android/build-cache/347d0d4156e9f2449bb5d96c9ebf61d7db2d587c/output/res/drawable/cast_ic_mini_controller_pause.xml"
     },
     {
         "merged": "/Users/miso/Blinkling/app/build/intermediates/res/merged/debug/drawable/cast_ic_notification_skip_next.xml",
@@ -200,20 +196,24 @@
         "source": "/Users/miso/.android/build-cache/347d0d4156e9f2449bb5d96c9ebf61d7db2d587c/output/res/drawable/cast_expanded_controller_bg_gradient_light.xml"
     },
     {
+        "merged": "/Users/miso/capstone/app/build/intermediates/res/merged/debug/drawable/abc_dialog_material_background.xml",
+        "source": "/Users/miso/.android/build-cache/f518a637222202e95c7ee16aa458e17e5c6c2ed1/output/res/drawable/abc_dialog_material_background.xml"
+    },
+    {
         "merged": "/Users/miso/Blinkling/app/build/intermediates/res/merged/debug/drawable/navigation_empty_icon.xml",
         "source": "/Users/miso/.android/build-cache/1c1cbc250abfe847ccef1096cd2ade5ac239822b/output/res/drawable/navigation_empty_icon.xml"
     },
     {
-        "merged": "/Users/miso/Blinkling/app/build/intermediates/res/merged/debug/drawable/worldwide.png",
-        "source": "/Users/miso/Blinkling/app/src/main/res/drawable/worldwide.png"
+        "merged": "/Users/miso/capstone/app/build/intermediates/res/merged/debug/drawable/abc_ic_voice_search_api_material.xml",
+        "source": "/Users/miso/.android/build-cache/f518a637222202e95c7ee16aa458e17e5c6c2ed1/output/res/drawable/abc_ic_voice_search_api_material.xml"
     },
     {
-        "merged": "/Users/miso/Blinkling/app/build/intermediates/res/merged/debug/drawable/pause.png",
-        "source": "/Users/miso/Blinkling/app/src/main/res/drawable/pause.png"
+        "merged": "/Users/miso/capstone/app/build/intermediates/res/merged/debug/drawable/abc_item_background_holo_dark.xml",
+        "source": "/Users/miso/.android/build-cache/f518a637222202e95c7ee16aa458e17e5c6c2ed1/output/res/drawable/abc_item_background_holo_dark.xml"
     },
     {
-        "merged": "/Users/miso/Blinkling/app/build/intermediates/res/merged/debug/drawable/cast_ic_expanded_controller_closed_caption.xml",
-        "source": "/Users/miso/.android/build-cache/347d0d4156e9f2449bb5d96c9ebf61d7db2d587c/output/res/drawable/cast_ic_expanded_controller_closed_caption.xml"
+        "merged": "/Users/miso/capstone/app/build/intermediates/res/merged/debug/drawable/mr_ic_media_route_on_dark.xml",
+        "source": "/Users/miso/.android/build-cache/11b4c89eb1c28151106f825047005322c9414aea/output/res/drawable/mr_ic_media_route_on_dark.xml"
     },
     {
         "merged": "/Users/miso/Blinkling/app/build/intermediates/res/merged/debug/drawable/abc_btn_colored_material.xml",
@@ -224,32 +224,36 @@
         "source": "/Users/miso/.android/build-cache/f518a637222202e95c7ee16aa458e17e5c6c2ed1/output/res/drawable/abc_item_background_holo_light.xml"
     },
     {
-        "merged": "/Users/miso/Blinkling/app/build/intermediates/res/merged/debug/drawable/mr_ic_cast_dark.xml",
-        "source": "/Users/miso/.android/build-cache/11b4c89eb1c28151106f825047005322c9414aea/output/res/drawable/mr_ic_cast_dark.xml"
-    },
-    {
-        "merged": "/Users/miso/Blinkling/app/build/intermediates/res/merged/debug/drawable/cast_expanded_controller_seekbar_thumb.xml",
-        "source": "/Users/miso/.android/build-cache/347d0d4156e9f2449bb5d96c9ebf61d7db2d587c/output/res/drawable/cast_expanded_controller_seekbar_thumb.xml"
-    },
-    {
-        "merged": "/Users/miso/Blinkling/app/build/intermediates/res/merged/debug/drawable/mr_ic_pause_light.xml",
-        "source": "/Users/miso/.android/build-cache/11b4c89eb1c28151106f825047005322c9414aea/output/res/drawable/mr_ic_pause_light.xml"
-    },
-    {
         "merged": "/Users/miso/Blinkling/app/build/intermediates/res/merged/debug/drawable/mr_dialog_material_background_dark.xml",
         "source": "/Users/miso/.android/build-cache/11b4c89eb1c28151106f825047005322c9414aea/output/res/drawable/mr_dialog_material_background_dark.xml"
     },
     {
-        "merged": "/Users/miso/Blinkling/app/build/intermediates/res/merged/debug/drawable/mr_ic_media_route_on_dark.xml",
-        "source": "/Users/miso/.android/build-cache/11b4c89eb1c28151106f825047005322c9414aea/output/res/drawable/mr_ic_media_route_on_dark.xml"
-    },
-    {
-        "merged": "/Users/miso/Blinkling/app/build/intermediates/res/merged/debug/drawable/cast_ic_notification_play.xml",
-        "source": "/Users/miso/.android/build-cache/347d0d4156e9f2449bb5d96c9ebf61d7db2d587c/output/res/drawable/cast_ic_notification_play.xml"
-    },
-    {
         "merged": "/Users/miso/Blinkling/app/build/intermediates/res/merged/debug/drawable/book.png",
         "source": "/Users/miso/Blinkling/app/src/main/res/drawable/book.png"
+    },
+    {
+        "merged": "/Users/miso/capstone/app/build/intermediates/res/merged/debug/drawable/mr_dialog_material_background_dark.xml",
+        "source": "/Users/miso/.android/build-cache/11b4c89eb1c28151106f825047005322c9414aea/output/res/drawable/mr_dialog_material_background_dark.xml"
+    },
+    {
+        "merged": "/Users/miso/capstone/app/build/intermediates/res/merged/debug/drawable/cast_ic_notification_disconnect.xml",
+        "source": "/Users/miso/.android/build-cache/347d0d4156e9f2449bb5d96c9ebf61d7db2d587c/output/res/drawable/cast_ic_notification_disconnect.xml"
+    },
+    {
+        "merged": "/Users/miso/capstone/app/build/intermediates/res/merged/debug/drawable/mr_ic_close_light.xml",
+        "source": "/Users/miso/.android/build-cache/11b4c89eb1c28151106f825047005322c9414aea/output/res/drawable/mr_ic_close_light.xml"
+    },
+    {
+        "merged": "/Users/miso/capstone/app/build/intermediates/res/merged/debug/drawable/abc_seekbar_thumb_material.xml",
+        "source": "/Users/miso/.android/build-cache/f518a637222202e95c7ee16aa458e17e5c6c2ed1/output/res/drawable/abc_seekbar_thumb_material.xml"
+    },
+    {
+        "merged": "/Users/miso/capstone/app/build/intermediates/res/merged/debug/drawable/abc_item_background_holo_light.xml",
+        "source": "/Users/miso/.android/build-cache/f518a637222202e95c7ee16aa458e17e5c6c2ed1/output/res/drawable/abc_item_background_holo_light.xml"
+    },
+    {
+        "merged": "/Users/miso/capstone/app/build/intermediates/res/merged/debug/drawable/settings.png",
+        "source": "/Users/miso/capstone/app/src/main/res/drawable/settings.png"
     },
     {
         "merged": "/Users/miso/Blinkling/app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_text_disabled.xml",
@@ -260,84 +264,72 @@
         "source": "/Users/miso/Blinkling/app/src/main/res/drawable/splashview.png"
     },
     {
-        "merged": "/Users/miso/Blinkling/app/build/intermediates/res/merged/debug/drawable/mr_ic_media_route_connecting_light.xml",
-        "source": "/Users/miso/.android/build-cache/11b4c89eb1c28151106f825047005322c9414aea/output/res/drawable/mr_ic_media_route_connecting_light.xml"
+        "merged": "/Users/miso/capstone/app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_text_dark_normal.xml",
+        "source": "/Users/miso/.android/build-cache/72b45b2dbfd520e812a0692f1ce1b6f3edebba99/output/res/drawable/common_google_signin_btn_text_dark_normal.xml"
     },
     {
-        "merged": "/Users/miso/Blinkling/app/build/intermediates/res/merged/debug/drawable/abc_spinner_textfield_background_material.xml",
-        "source": "/Users/miso/.android/build-cache/f518a637222202e95c7ee16aa458e17e5c6c2ed1/output/res/drawable/abc_spinner_textfield_background_material.xml"
+        "merged": "/Users/miso/Blinkling/app/build/intermediates/res/merged/debug/drawable/mr_ic_media_route_connecting_light.xml",
+        "source": "/Users/miso/.android/build-cache/11b4c89eb1c28151106f825047005322c9414aea/output/res/drawable/mr_ic_media_route_connecting_light.xml"
     },
     {
         "merged": "/Users/miso/Blinkling/app/build/intermediates/res/merged/debug/drawable/mr_ic_close_dark.xml",
         "source": "/Users/miso/.android/build-cache/11b4c89eb1c28151106f825047005322c9414aea/output/res/drawable/mr_ic_close_dark.xml"
     },
     {
-        "merged": "/Users/miso/Blinkling/app/build/intermediates/res/merged/debug/drawable/book3.png",
-        "source": "/Users/miso/Blinkling/app/src/main/res/drawable/book3.png"
-    },
-    {
-        "merged": "/Users/miso/Blinkling/app/build/intermediates/res/merged/debug/drawable/abc_textfield_search_material.xml",
-        "source": "/Users/miso/.android/build-cache/f518a637222202e95c7ee16aa458e17e5c6c2ed1/output/res/drawable/abc_textfield_search_material.xml"
-    },
-    {
         "merged": "/Users/miso/Blinkling/app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_text_light_focused.xml",
         "source": "/Users/miso/.android/build-cache/72b45b2dbfd520e812a0692f1ce1b6f3edebba99/output/res/drawable/common_google_signin_btn_text_light_focused.xml"
+    },
+    {
+        "merged": "/Users/miso/capstone/app/build/intermediates/res/merged/debug/drawable/mr_ic_media_route_connecting_light.xml",
+        "source": "/Users/miso/.android/build-cache/11b4c89eb1c28151106f825047005322c9414aea/output/res/drawable/mr_ic_media_route_connecting_light.xml"
     },
     {
         "merged": "/Users/miso/Blinkling/app/build/intermediates/res/merged/debug/drawable/bookmarkstar.png",
         "source": "/Users/miso/Blinkling/app/src/main/res/drawable/bookmarkstar.png"
     },
     {
-        "merged": "/Users/miso/Blinkling/app/build/intermediates/res/merged/debug/drawable/abc_seekbar_track_material.xml",
-        "source": "/Users/miso/.android/build-cache/f518a637222202e95c7ee16aa458e17e5c6c2ed1/output/res/drawable/abc_seekbar_track_material.xml"
-    },
-    {
         "merged": "/Users/miso/Blinkling/app/build/intermediates/res/merged/debug/drawable/abc_switch_thumb_material.xml",
         "source": "/Users/miso/.android/build-cache/f518a637222202e95c7ee16aa458e17e5c6c2ed1/output/res/drawable/abc_switch_thumb_material.xml"
+    },
+    {
+        "merged": "/Users/miso/capstone/app/build/intermediates/res/merged/debug/drawable/abc_ratingbar_indicator_material.xml",
+        "source": "/Users/miso/.android/build-cache/f518a637222202e95c7ee16aa458e17e5c6c2ed1/output/res/drawable/abc_ratingbar_indicator_material.xml"
     },
     {
         "merged": "/Users/miso/Blinkling/app/build/intermediates/res/merged/debug/drawable/notebook_find.png",
         "source": "/Users/miso/Blinkling/app/src/main/res/drawable/notebook_find.png"
     },
     {
+        "merged": "/Users/miso/capstone/app/build/intermediates/res/merged/debug/drawable/cast_mini_controller_gradient_light.xml",
+        "source": "/Users/miso/.android/build-cache/347d0d4156e9f2449bb5d96c9ebf61d7db2d587c/output/res/drawable/cast_mini_controller_gradient_light.xml"
+    },
+    {
         "merged": "/Users/miso/Blinkling/app/build/intermediates/res/merged/debug/drawable/cast_ic_notification_connecting.xml",
         "source": "/Users/miso/.android/build-cache/dd16f25307f761836da14ce59f451a337a5d4918/output/res/drawable/cast_ic_notification_connecting.xml"
     },
     {
-        "merged": "/Users/miso/Blinkling/app/build/intermediates/res/merged/debug/drawable/user.png",
-        "source": "/Users/miso/Blinkling/app/src/main/res/drawable/user.png"
-    },
-    {
-        "merged": "/Users/miso/Blinkling/app/build/intermediates/res/merged/debug/drawable/cast_ic_notification_rewind10.xml",
-        "source": "/Users/miso/.android/build-cache/347d0d4156e9f2449bb5d96c9ebf61d7db2d587c/output/res/drawable/cast_ic_notification_rewind10.xml"
-    },
-    {
-        "merged": "/Users/miso/Blinkling/app/build/intermediates/res/merged/debug/drawable/cast_ic_notification_rewind.xml",
-        "source": "/Users/miso/.android/build-cache/347d0d4156e9f2449bb5d96c9ebf61d7db2d587c/output/res/drawable/cast_ic_notification_rewind.xml"
+        "merged": "/Users/miso/capstone/app/build/intermediates/res/merged/debug/drawable/cast_ic_expanded_controller_pause.xml",
+        "source": "/Users/miso/.android/build-cache/347d0d4156e9f2449bb5d96c9ebf61d7db2d587c/output/res/drawable/cast_ic_expanded_controller_pause.xml"
     },
     {
         "merged": "/Users/miso/Blinkling/app/build/intermediates/res/merged/debug/drawable/cast_ic_notification_stop_live_stream.xml",
         "source": "/Users/miso/.android/build-cache/347d0d4156e9f2449bb5d96c9ebf61d7db2d587c/output/res/drawable/cast_ic_notification_stop_live_stream.xml"
     },
     {
-        "merged": "/Users/miso/Blinkling/app/build/intermediates/res/merged/debug/drawable/abc_ic_search_api_material.xml",
-        "source": "/Users/miso/.android/build-cache/f518a637222202e95c7ee16aa458e17e5c6c2ed1/output/res/drawable/abc_ic_search_api_material.xml"
+        "merged": "/Users/miso/capstone/app/build/intermediates/res/merged/debug/drawable/abc_list_selector_holo_light.xml",
+        "source": "/Users/miso/.android/build-cache/f518a637222202e95c7ee16aa458e17e5c6c2ed1/output/res/drawable/abc_list_selector_holo_light.xml"
     },
     {
-        "merged": "/Users/miso/Blinkling/app/build/intermediates/res/merged/debug/drawable/abc_cab_background_internal_bg.xml",
-        "source": "/Users/miso/.android/build-cache/f518a637222202e95c7ee16aa458e17e5c6c2ed1/output/res/drawable/abc_cab_background_internal_bg.xml"
+        "merged": "/Users/miso/capstone/app/build/intermediates/res/merged/debug/drawable/mr_ic_play_dark.xml",
+        "source": "/Users/miso/.android/build-cache/11b4c89eb1c28151106f825047005322c9414aea/output/res/drawable/mr_ic_play_dark.xml"
     },
     {
-        "merged": "/Users/miso/Blinkling/app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_icon_light_normal.xml",
-        "source": "/Users/miso/.android/build-cache/72b45b2dbfd520e812a0692f1ce1b6f3edebba99/output/res/drawable/common_google_signin_btn_icon_light_normal.xml"
+        "merged": "/Users/miso/capstone/app/build/intermediates/res/merged/debug/drawable/notebook_setting.png",
+        "source": "/Users/miso/capstone/app/src/main/res/drawable/notebook_setting.png"
     },
     {
-        "merged": "/Users/miso/Blinkling/app/build/intermediates/res/merged/debug/drawable/abc_text_cursor_material.xml",
-        "source": "/Users/miso/.android/build-cache/f518a637222202e95c7ee16aa458e17e5c6c2ed1/output/res/drawable/abc_text_cursor_material.xml"
-    },
-    {
-        "merged": "/Users/miso/Blinkling/app/build/intermediates/res/merged/debug/drawable/cast_ic_mini_controller_skip_prev.xml",
-        "source": "/Users/miso/.android/build-cache/347d0d4156e9f2449bb5d96c9ebf61d7db2d587c/output/res/drawable/cast_ic_mini_controller_skip_prev.xml"
+        "merged": "/Users/miso/capstone/app/build/intermediates/res/merged/debug/drawable/notebook_find.png",
+        "source": "/Users/miso/capstone/app/src/main/res/drawable/notebook_find.png"
     },
     {
         "merged": "/Users/miso/Blinkling/app/build/intermediates/res/merged/debug/drawable/abc_tab_indicator_material.xml",
@@ -348,36 +340,28 @@
         "source": "/Users/miso/.android/build-cache/f518a637222202e95c7ee16aa458e17e5c6c2ed1/output/res/drawable/abc_ic_menu_overflow_material.xml"
     },
     {
-        "merged": "/Users/miso/Blinkling/app/build/intermediates/res/merged/debug/drawable/mr_ic_pause_dark.xml",
-        "source": "/Users/miso/.android/build-cache/11b4c89eb1c28151106f825047005322c9414aea/output/res/drawable/mr_ic_pause_dark.xml"
+        "merged": "/Users/miso/capstone/app/build/intermediates/res/merged/debug/drawable/cast_ic_notification_small_icon.xml",
+        "source": "/Users/miso/.android/build-cache/347d0d4156e9f2449bb5d96c9ebf61d7db2d587c/output/res/drawable/cast_ic_notification_small_icon.xml"
     },
     {
         "merged": "/Users/miso/Blinkling/app/build/intermediates/res/merged/debug/drawable/abc_list_selector_holo_light.xml",
         "source": "/Users/miso/.android/build-cache/f518a637222202e95c7ee16aa458e17e5c6c2ed1/output/res/drawable/abc_list_selector_holo_light.xml"
     },
     {
-        "merged": "/Users/miso/Blinkling/app/build/intermediates/res/merged/debug/drawable/abc_seekbar_thumb_material.xml",
-        "source": "/Users/miso/.android/build-cache/f518a637222202e95c7ee16aa458e17e5c6c2ed1/output/res/drawable/abc_seekbar_thumb_material.xml"
-    },
-    {
-        "merged": "/Users/miso/Blinkling/app/build/intermediates/res/merged/debug/drawable/cast_expanded_controller_actionbar_bg_gradient_light.xml",
-        "source": "/Users/miso/.android/build-cache/347d0d4156e9f2449bb5d96c9ebf61d7db2d587c/output/res/drawable/cast_expanded_controller_actionbar_bg_gradient_light.xml"
+        "merged": "/Users/miso/capstone/app/build/intermediates/res/merged/debug/drawable/user.png",
+        "source": "/Users/miso/capstone/app/src/main/res/drawable/user.png"
     },
     {
         "merged": "/Users/miso/Blinkling/app/build/intermediates/res/merged/debug/drawable/abc_btn_radio_material.xml",
         "source": "/Users/miso/.android/build-cache/f518a637222202e95c7ee16aa458e17e5c6c2ed1/output/res/drawable/abc_btn_radio_material.xml"
     },
     {
+        "merged": "/Users/miso/capstone/app/build/intermediates/res/merged/debug/drawable/cast_ic_notification_skip_prev.xml",
+        "source": "/Users/miso/.android/build-cache/347d0d4156e9f2449bb5d96c9ebf61d7db2d587c/output/res/drawable/cast_ic_notification_skip_prev.xml"
+    },
+    {
         "merged": "/Users/miso/Blinkling/app/build/intermediates/res/merged/debug/drawable/abc_list_selector_background_transition_holo_light.xml",
         "source": "/Users/miso/.android/build-cache/f518a637222202e95c7ee16aa458e17e5c6c2ed1/output/res/drawable/abc_list_selector_background_transition_holo_light.xml"
-    },
-    {
-        "merged": "/Users/miso/Blinkling/app/build/intermediates/res/merged/debug/drawable/mr_ic_media_route_on_light.xml",
-        "source": "/Users/miso/.android/build-cache/11b4c89eb1c28151106f825047005322c9414aea/output/res/drawable/mr_ic_media_route_on_light.xml"
-    },
-    {
-        "merged": "/Users/miso/Blinkling/app/build/intermediates/res/merged/debug/drawable/bookshelf_back.png",
-        "source": "/Users/miso/Blinkling/app/src/main/res/drawable/bookshelf_back.png"
     },
     {
         "merged": "/Users/miso/Blinkling/app/build/intermediates/res/merged/debug/drawable/abc_ratingbar_material.xml",
@@ -392,44 +376,56 @@
         "source": "/Users/miso/.android/build-cache/347d0d4156e9f2449bb5d96c9ebf61d7db2d587c/output/res/drawable/cast_expanded_controller_seekbar_track.xml"
     },
     {
+        "merged": "/Users/miso/capstone/app/build/intermediates/res/merged/debug/drawable/back.png",
+        "source": "/Users/miso/capstone/app/src/main/res/drawable/back.png"
+    },
+    {
+        "merged": "/Users/miso/capstone/app/build/intermediates/res/merged/debug/drawable/cast_ic_mini_controller_stop.xml",
+        "source": "/Users/miso/.android/build-cache/347d0d4156e9f2449bb5d96c9ebf61d7db2d587c/output/res/drawable/cast_ic_mini_controller_stop.xml"
+    },
+    {
         "merged": "/Users/miso/Blinkling/app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_text_light_normal.xml",
         "source": "/Users/miso/.android/build-cache/72b45b2dbfd520e812a0692f1ce1b6f3edebba99/output/res/drawable/common_google_signin_btn_text_light_normal.xml"
     },
     {
-        "merged": "/Users/miso/Blinkling/app/build/intermediates/res/merged/debug/drawable/mr_ic_audiotrack_light.xml",
-        "source": "/Users/miso/.android/build-cache/11b4c89eb1c28151106f825047005322c9414aea/output/res/drawable/mr_ic_audiotrack_light.xml"
+        "merged": "/Users/miso/capstone/app/build/intermediates/res/merged/debug/drawable/cast_ic_notification_forward10.xml",
+        "source": "/Users/miso/.android/build-cache/347d0d4156e9f2449bb5d96c9ebf61d7db2d587c/output/res/drawable/cast_ic_notification_forward10.xml"
     },
     {
-        "merged": "/Users/miso/Blinkling/app/build/intermediates/res/merged/debug/drawable/design_snackbar_background.xml",
-        "source": "/Users/miso/.android/build-cache/1c1cbc250abfe847ccef1096cd2ade5ac239822b/output/res/drawable/design_snackbar_background.xml"
+        "merged": "/Users/miso/capstone/app/build/intermediates/res/merged/debug/drawable/mr_ic_cast_light.xml",
+        "source": "/Users/miso/.android/build-cache/11b4c89eb1c28151106f825047005322c9414aea/output/res/drawable/mr_ic_cast_light.xml"
+    },
+    {
+        "merged": "/Users/miso/capstone/app/build/intermediates/res/merged/debug/drawable/cast_ic_notification_rewind30.xml",
+        "source": "/Users/miso/.android/build-cache/347d0d4156e9f2449bb5d96c9ebf61d7db2d587c/output/res/drawable/cast_ic_notification_rewind30.xml"
     },
     {
         "merged": "/Users/miso/Blinkling/app/build/intermediates/res/merged/debug/drawable/mr_dialog_material_background_light.xml",
         "source": "/Users/miso/.android/build-cache/11b4c89eb1c28151106f825047005322c9414aea/output/res/drawable/mr_dialog_material_background_light.xml"
     },
     {
-        "merged": "/Users/miso/Blinkling/app/build/intermediates/res/merged/debug/drawable/notification_bg.xml",
-        "source": "/Users/miso/.android/build-cache/f518a637222202e95c7ee16aa458e17e5c6c2ed1/output/res/drawable/notification_bg.xml"
+        "merged": "/Users/miso/capstone/app/build/intermediates/res/merged/debug/drawable/cast_ic_expanded_controller_rewind30.xml",
+        "source": "/Users/miso/.android/build-cache/347d0d4156e9f2449bb5d96c9ebf61d7db2d587c/output/res/drawable/cast_ic_expanded_controller_rewind30.xml"
     },
     {
         "merged": "/Users/miso/Blinkling/app/build/intermediates/res/merged/debug/drawable/abc_edit_text_material.xml",
         "source": "/Users/miso/.android/build-cache/f518a637222202e95c7ee16aa458e17e5c6c2ed1/output/res/drawable/abc_edit_text_material.xml"
     },
     {
+        "merged": "/Users/miso/capstone/app/build/intermediates/res/merged/debug/drawable/ic_collapse.xml",
+        "source": "/Users/miso/.android/build-cache/11b4c89eb1c28151106f825047005322c9414aea/output/res/drawable/ic_collapse.xml"
+    },
+    {
+        "merged": "/Users/miso/capstone/app/build/intermediates/res/merged/debug/drawable/cast_ic_expanded_controller_skip_previous.xml",
+        "source": "/Users/miso/.android/build-cache/347d0d4156e9f2449bb5d96c9ebf61d7db2d587c/output/res/drawable/cast_ic_expanded_controller_skip_previous.xml"
+    },
+    {
         "merged": "/Users/miso/Blinkling/app/build/intermediates/res/merged/debug/drawable/cast_ic_expanded_controller_pause.xml",
         "source": "/Users/miso/.android/build-cache/347d0d4156e9f2449bb5d96c9ebf61d7db2d587c/output/res/drawable/cast_ic_expanded_controller_pause.xml"
     },
     {
-        "merged": "/Users/miso/Blinkling/app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_text_dark.xml",
-        "source": "/Users/miso/.android/build-cache/72b45b2dbfd520e812a0692f1ce1b6f3edebba99/output/res/drawable/common_google_signin_btn_text_dark.xml"
-    },
-    {
-        "merged": "/Users/miso/Blinkling/app/build/intermediates/res/merged/debug/drawable/abc_ic_ab_back_material.xml",
-        "source": "/Users/miso/.android/build-cache/f518a637222202e95c7ee16aa458e17e5c6c2ed1/output/res/drawable/abc_ic_ab_back_material.xml"
-    },
-    {
-        "merged": "/Users/miso/Blinkling/app/build/intermediates/res/merged/debug/drawable/mr_ic_close_light.xml",
-        "source": "/Users/miso/.android/build-cache/11b4c89eb1c28151106f825047005322c9414aea/output/res/drawable/mr_ic_close_light.xml"
+        "merged": "/Users/miso/capstone/app/build/intermediates/res/merged/debug/drawable/design_bottom_navigation_item_background.xml",
+        "source": "/Users/miso/.android/build-cache/1c1cbc250abfe847ccef1096cd2ade5ac239822b/output/res/drawable/design_bottom_navigation_item_background.xml"
     },
     {
         "merged": "/Users/miso/Blinkling/app/build/intermediates/res/merged/debug/drawable/back.png",
@@ -440,16 +436,20 @@
         "source": "/Users/miso/.android/build-cache/347d0d4156e9f2449bb5d96c9ebf61d7db2d587c/output/res/drawable/cast_ic_expanded_controller_mute.xml"
     },
     {
+        "merged": "/Users/miso/capstone/app/build/intermediates/res/merged/debug/drawable/cast_expanded_controller_seekbar_thumb.xml",
+        "source": "/Users/miso/.android/build-cache/347d0d4156e9f2449bb5d96c9ebf61d7db2d587c/output/res/drawable/cast_expanded_controller_seekbar_thumb.xml"
+    },
+    {
         "merged": "/Users/miso/Blinkling/app/build/intermediates/res/merged/debug/drawable/design_fab_background.xml",
         "source": "/Users/miso/.android/build-cache/1c1cbc250abfe847ccef1096cd2ade5ac239822b/output/res/drawable/design_fab_background.xml"
     },
     {
-        "merged": "/Users/miso/Blinkling/app/build/intermediates/res/merged/debug/drawable/cast_ic_expanded_controller_skip_next.xml",
-        "source": "/Users/miso/.android/build-cache/347d0d4156e9f2449bb5d96c9ebf61d7db2d587c/output/res/drawable/cast_ic_expanded_controller_skip_next.xml"
+        "merged": "/Users/miso/capstone/app/build/intermediates/res/merged/debug/drawable/mr_ic_pause_light.xml",
+        "source": "/Users/miso/.android/build-cache/11b4c89eb1c28151106f825047005322c9414aea/output/res/drawable/mr_ic_pause_light.xml"
     },
     {
-        "merged": "/Users/miso/Blinkling/app/build/intermediates/res/merged/debug/drawable/cast_ic_notification_rewind30.xml",
-        "source": "/Users/miso/.android/build-cache/347d0d4156e9f2449bb5d96c9ebf61d7db2d587c/output/res/drawable/cast_ic_notification_rewind30.xml"
+        "merged": "/Users/miso/capstone/app/build/intermediates/res/merged/debug/drawable/book4.png",
+        "source": "/Users/miso/capstone/app/src/main/res/drawable/book4.png"
     },
     {
         "merged": "/Users/miso/Blinkling/app/build/intermediates/res/merged/debug/drawable/cast_ic_mini_controller_stop.xml",
@@ -458,6 +458,10 @@
     {
         "merged": "/Users/miso/Blinkling/app/build/intermediates/res/merged/debug/drawable/abc_btn_default_mtrl_shape.xml",
         "source": "/Users/miso/.android/build-cache/f518a637222202e95c7ee16aa458e17e5c6c2ed1/output/res/drawable/abc_btn_default_mtrl_shape.xml"
+    },
+    {
+        "merged": "/Users/miso/capstone/app/build/intermediates/res/merged/debug/drawable/book.png",
+        "source": "/Users/miso/capstone/app/src/main/res/drawable/book.png"
     },
     {
         "merged": "/Users/miso/Blinkling/app/build/intermediates/res/merged/debug/drawable/abc_ic_go_search_api_material.xml",
@@ -488,16 +492,20 @@
         "source": "/Users/miso/.android/build-cache/f518a637222202e95c7ee16aa458e17e5c6c2ed1/output/res/drawable/abc_vector_test.xml"
     },
     {
+        "merged": "/Users/miso/capstone/app/build/intermediates/res/merged/debug/drawable/abc_textfield_search_material.xml",
+        "source": "/Users/miso/.android/build-cache/f518a637222202e95c7ee16aa458e17e5c6c2ed1/output/res/drawable/abc_textfield_search_material.xml"
+    },
+    {
         "merged": "/Users/miso/Blinkling/app/build/intermediates/res/merged/debug/drawable/ic_add_entry.png",
         "source": "/Users/miso/Blinkling/app/src/main/res/drawable/ic_add_entry.png"
     },
     {
-        "merged": "/Users/miso/Blinkling/app/build/intermediates/res/merged/debug/drawable/mr_ic_media_route_connecting_dark.xml",
-        "source": "/Users/miso/.android/build-cache/11b4c89eb1c28151106f825047005322c9414aea/output/res/drawable/mr_ic_media_route_connecting_dark.xml"
+        "merged": "/Users/miso/capstone/app/build/intermediates/res/merged/debug/drawable/cast_ic_expanded_controller_play.xml",
+        "source": "/Users/miso/.android/build-cache/347d0d4156e9f2449bb5d96c9ebf61d7db2d587c/output/res/drawable/cast_ic_expanded_controller_play.xml"
     },
     {
-        "merged": "/Users/miso/Blinkling/app/build/intermediates/res/merged/debug/drawable/notebook_add.png",
-        "source": "/Users/miso/Blinkling/app/src/main/res/drawable/notebook_add.png"
+        "merged": "/Users/miso/capstone/app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_icon_light_focused.xml",
+        "source": "/Users/miso/.android/build-cache/72b45b2dbfd520e812a0692f1ce1b6f3edebba99/output/res/drawable/common_google_signin_btn_icon_light_focused.xml"
     },
     {
         "merged": "/Users/miso/Blinkling/app/build/intermediates/res/merged/debug/drawable/book4.png",
@@ -508,8 +516,580 @@
         "source": "/Users/miso/.android/build-cache/11b4c89eb1c28151106f825047005322c9414aea/output/res/drawable/ic_expand.xml"
     },
     {
+        "merged": "/Users/miso/capstone/app/build/intermediates/res/merged/debug/drawable/pause.png",
+        "source": "/Users/miso/capstone/app/src/main/res/drawable/pause.png"
+    },
+    {
+        "merged": "/Users/miso/capstone/app/build/intermediates/res/merged/debug/drawable/cast_ic_mini_controller_skip_prev.xml",
+        "source": "/Users/miso/.android/build-cache/347d0d4156e9f2449bb5d96c9ebf61d7db2d587c/output/res/drawable/cast_ic_mini_controller_skip_prev.xml"
+    },
+    {
+        "merged": "/Users/miso/Blinkling/app/build/intermediates/res/merged/debug/drawable/abc_list_selector_holo_dark.xml",
+        "source": "/Users/miso/.android/build-cache/f518a637222202e95c7ee16aa458e17e5c6c2ed1/output/res/drawable/abc_list_selector_holo_dark.xml"
+    },
+    {
+        "merged": "/Users/miso/capstone/app/build/intermediates/res/merged/debug/drawable/abc_spinner_textfield_background_material.xml",
+        "source": "/Users/miso/.android/build-cache/f518a637222202e95c7ee16aa458e17e5c6c2ed1/output/res/drawable/abc_spinner_textfield_background_material.xml"
+    },
+    {
+        "merged": "/Users/miso/Blinkling/app/build/intermediates/res/merged/debug/drawable/abc_ratingbar_indicator_material.xml",
+        "source": "/Users/miso/.android/build-cache/f518a637222202e95c7ee16aa458e17e5c6c2ed1/output/res/drawable/abc_ratingbar_indicator_material.xml"
+    },
+    {
+        "merged": "/Users/miso/capstone/app/build/intermediates/res/merged/debug/drawable/abc_ratingbar_small_material.xml",
+        "source": "/Users/miso/.android/build-cache/f518a637222202e95c7ee16aa458e17e5c6c2ed1/output/res/drawable/abc_ratingbar_small_material.xml"
+    },
+    {
+        "merged": "/Users/miso/capstone/app/build/intermediates/res/merged/debug/drawable/cast_ic_mini_controller_stop_large.xml",
+        "source": "/Users/miso/.android/build-cache/347d0d4156e9f2449bb5d96c9ebf61d7db2d587c/output/res/drawable/cast_ic_mini_controller_stop_large.xml"
+    },
+    {
+        "merged": "/Users/miso/Blinkling/app/build/intermediates/res/merged/debug/drawable/cast_ic_notification_disconnect.xml",
+        "source": "/Users/miso/.android/build-cache/347d0d4156e9f2449bb5d96c9ebf61d7db2d587c/output/res/drawable/cast_ic_notification_disconnect.xml"
+    },
+    {
+        "merged": "/Users/miso/capstone/app/build/intermediates/res/merged/debug/drawable/cast_ic_notification_forward30.xml",
+        "source": "/Users/miso/.android/build-cache/347d0d4156e9f2449bb5d96c9ebf61d7db2d587c/output/res/drawable/cast_ic_notification_forward30.xml"
+    },
+    {
+        "merged": "/Users/miso/capstone/app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_text_dark_focused.xml",
+        "source": "/Users/miso/.android/build-cache/72b45b2dbfd520e812a0692f1ce1b6f3edebba99/output/res/drawable/common_google_signin_btn_text_dark_focused.xml"
+    },
+    {
+        "merged": "/Users/miso/capstone/app/build/intermediates/res/merged/debug/drawable/mr_ic_pause_dark.xml",
+        "source": "/Users/miso/.android/build-cache/11b4c89eb1c28151106f825047005322c9414aea/output/res/drawable/mr_ic_pause_dark.xml"
+    },
+    {
+        "merged": "/Users/miso/capstone/app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_text_light_normal.xml",
+        "source": "/Users/miso/.android/build-cache/72b45b2dbfd520e812a0692f1ce1b6f3edebba99/output/res/drawable/common_google_signin_btn_text_light_normal.xml"
+    },
+    {
+        "merged": "/Users/miso/Blinkling/app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_icon_disabled.xml",
+        "source": "/Users/miso/.android/build-cache/72b45b2dbfd520e812a0692f1ce1b6f3edebba99/output/res/drawable/common_google_signin_btn_icon_disabled.xml"
+    },
+    {
+        "merged": "/Users/miso/Blinkling/app/build/intermediates/res/merged/debug/drawable/abc_ratingbar_small_material.xml",
+        "source": "/Users/miso/.android/build-cache/f518a637222202e95c7ee16aa458e17e5c6c2ed1/output/res/drawable/abc_ratingbar_small_material.xml"
+    },
+    {
+        "merged": "/Users/miso/capstone/app/build/intermediates/res/merged/debug/drawable/cast_ic_mini_controller_forward30.xml",
+        "source": "/Users/miso/.android/build-cache/347d0d4156e9f2449bb5d96c9ebf61d7db2d587c/output/res/drawable/cast_ic_mini_controller_forward30.xml"
+    },
+    {
+        "merged": "/Users/miso/capstone/app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_text_disabled.xml",
+        "source": "/Users/miso/.android/build-cache/72b45b2dbfd520e812a0692f1ce1b6f3edebba99/output/res/drawable/common_google_signin_btn_text_disabled.xml"
+    },
+    {
+        "merged": "/Users/miso/capstone/app/build/intermediates/res/merged/debug/drawable/mr_ic_cast_dark.xml",
+        "source": "/Users/miso/.android/build-cache/11b4c89eb1c28151106f825047005322c9414aea/output/res/drawable/mr_ic_cast_dark.xml"
+    },
+    {
+        "merged": "/Users/miso/capstone/app/build/intermediates/res/merged/debug/drawable/notification_bg_low.xml",
+        "source": "/Users/miso/.android/build-cache/f518a637222202e95c7ee16aa458e17e5c6c2ed1/output/res/drawable/notification_bg_low.xml"
+    },
+    {
+        "merged": "/Users/miso/capstone/app/build/intermediates/res/merged/debug/drawable/cast_ic_notification_rewind10.xml",
+        "source": "/Users/miso/.android/build-cache/347d0d4156e9f2449bb5d96c9ebf61d7db2d587c/output/res/drawable/cast_ic_notification_rewind10.xml"
+    },
+    {
+        "merged": "/Users/miso/capstone/app/build/intermediates/res/merged/debug/drawable/abc_btn_borderless_material.xml",
+        "source": "/Users/miso/.android/build-cache/f518a637222202e95c7ee16aa458e17e5c6c2ed1/output/res/drawable/abc_btn_borderless_material.xml"
+    },
+    {
+        "merged": "/Users/miso/capstone/app/build/intermediates/res/merged/debug/drawable/abc_ic_search_api_material.xml",
+        "source": "/Users/miso/.android/build-cache/f518a637222202e95c7ee16aa458e17e5c6c2ed1/output/res/drawable/abc_ic_search_api_material.xml"
+    },
+    {
+        "merged": "/Users/miso/Blinkling/app/build/intermediates/res/merged/debug/drawable/cast_ic_mini_controller_skip_next.xml",
+        "source": "/Users/miso/.android/build-cache/347d0d4156e9f2449bb5d96c9ebf61d7db2d587c/output/res/drawable/cast_ic_mini_controller_skip_next.xml"
+    },
+    {
+        "merged": "/Users/miso/capstone/app/build/intermediates/res/merged/debug/drawable/design_password_eye.xml",
+        "source": "/Users/miso/.android/build-cache/1c1cbc250abfe847ccef1096cd2ade5ac239822b/output/res/drawable/design_password_eye.xml"
+    },
+    {
+        "merged": "/Users/miso/capstone/app/build/intermediates/res/merged/debug/drawable/design_fab_background.xml",
+        "source": "/Users/miso/.android/build-cache/1c1cbc250abfe847ccef1096cd2ade5ac239822b/output/res/drawable/design_fab_background.xml"
+    },
+    {
+        "merged": "/Users/miso/Blinkling/app/build/intermediates/res/merged/debug/drawable/notebook_setting.png",
+        "source": "/Users/miso/Blinkling/app/src/main/res/drawable/notebook_setting.png"
+    },
+    {
+        "merged": "/Users/miso/Blinkling/app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_icon_dark_focused.xml",
+        "source": "/Users/miso/.android/build-cache/72b45b2dbfd520e812a0692f1ce1b6f3edebba99/output/res/drawable/common_google_signin_btn_icon_dark_focused.xml"
+    },
+    {
+        "merged": "/Users/miso/capstone/app/build/intermediates/res/merged/debug/drawable/book1.png",
+        "source": "/Users/miso/capstone/app/src/main/res/drawable/book1.png"
+    },
+    {
+        "merged": "/Users/miso/Blinkling/app/build/intermediates/res/merged/debug/drawable/cast_ic_expanded_controller_forward30.xml",
+        "source": "/Users/miso/.android/build-cache/347d0d4156e9f2449bb5d96c9ebf61d7db2d587c/output/res/drawable/cast_ic_expanded_controller_forward30.xml"
+    },
+    {
+        "merged": "/Users/miso/Blinkling/app/build/intermediates/res/merged/debug/drawable/design_password_eye.xml",
+        "source": "/Users/miso/.android/build-cache/1c1cbc250abfe847ccef1096cd2ade5ac239822b/output/res/drawable/design_password_eye.xml"
+    },
+    {
+        "merged": "/Users/miso/capstone/app/build/intermediates/res/merged/debug/drawable/abc_vector_test.xml",
+        "source": "/Users/miso/.android/build-cache/f518a637222202e95c7ee16aa458e17e5c6c2ed1/output/res/drawable/abc_vector_test.xml"
+    },
+    {
+        "merged": "/Users/miso/capstone/app/build/intermediates/res/merged/debug/drawable/navigation_empty_icon.xml",
+        "source": "/Users/miso/.android/build-cache/1c1cbc250abfe847ccef1096cd2ade5ac239822b/output/res/drawable/navigation_empty_icon.xml"
+    },
+    {
+        "merged": "/Users/miso/Blinkling/app/build/intermediates/res/merged/debug/drawable/notification_icon_background.xml",
+        "source": "/Users/miso/.android/build-cache/f518a637222202e95c7ee16aa458e17e5c6c2ed1/output/res/drawable/notification_icon_background.xml"
+    },
+    {
+        "merged": "/Users/miso/Blinkling/app/build/intermediates/res/merged/debug/drawable/cast_ic_expanded_controller_play.xml",
+        "source": "/Users/miso/.android/build-cache/347d0d4156e9f2449bb5d96c9ebf61d7db2d587c/output/res/drawable/cast_ic_expanded_controller_play.xml"
+    },
+    {
+        "merged": "/Users/miso/Blinkling/app/build/intermediates/res/merged/debug/drawable/cast_ic_expanded_controller_rewind30.xml",
+        "source": "/Users/miso/.android/build-cache/347d0d4156e9f2449bb5d96c9ebf61d7db2d587c/output/res/drawable/cast_ic_expanded_controller_rewind30.xml"
+    },
+    {
+        "merged": "/Users/miso/Blinkling/app/build/intermediates/res/merged/debug/drawable/abc_dialog_material_background.xml",
+        "source": "/Users/miso/.android/build-cache/f518a637222202e95c7ee16aa458e17e5c6c2ed1/output/res/drawable/abc_dialog_material_background.xml"
+    },
+    {
+        "merged": "/Users/miso/capstone/app/build/intermediates/res/merged/debug/drawable/abc_ratingbar_material.xml",
+        "source": "/Users/miso/.android/build-cache/f518a637222202e95c7ee16aa458e17e5c6c2ed1/output/res/drawable/abc_ratingbar_material.xml"
+    },
+    {
+        "merged": "/Users/miso/Blinkling/app/build/intermediates/res/merged/debug/drawable/abc_ic_clear_material.xml",
+        "source": "/Users/miso/.android/build-cache/f518a637222202e95c7ee16aa458e17e5c6c2ed1/output/res/drawable/abc_ic_clear_material.xml"
+    },
+    {
+        "merged": "/Users/miso/capstone/app/build/intermediates/res/merged/debug/drawable/cast_ic_notification_skip_next.xml",
+        "source": "/Users/miso/.android/build-cache/347d0d4156e9f2449bb5d96c9ebf61d7db2d587c/output/res/drawable/cast_ic_notification_skip_next.xml"
+    },
+    {
+        "merged": "/Users/miso/capstone/app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_text_light.xml",
+        "source": "/Users/miso/.android/build-cache/72b45b2dbfd520e812a0692f1ce1b6f3edebba99/output/res/drawable/common_google_signin_btn_text_light.xml"
+    },
+    {
+        "merged": "/Users/miso/capstone/app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_icon_light.xml",
+        "source": "/Users/miso/.android/build-cache/72b45b2dbfd520e812a0692f1ce1b6f3edebba99/output/res/drawable/common_google_signin_btn_icon_light.xml"
+    },
+    {
+        "merged": "/Users/miso/Blinkling/app/build/intermediates/res/merged/debug/drawable/mr_ic_media_route_mono_dark.xml",
+        "source": "/Users/miso/.android/build-cache/11b4c89eb1c28151106f825047005322c9414aea/output/res/drawable/mr_ic_media_route_mono_dark.xml"
+    },
+    {
+        "merged": "/Users/miso/Blinkling/app/build/intermediates/res/merged/debug/drawable/cast_ic_mini_controller_pause_large.xml",
+        "source": "/Users/miso/.android/build-cache/347d0d4156e9f2449bb5d96c9ebf61d7db2d587c/output/res/drawable/cast_ic_mini_controller_pause_large.xml"
+    },
+    {
+        "merged": "/Users/miso/Blinkling/app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_icon_dark.xml",
+        "source": "/Users/miso/.android/build-cache/72b45b2dbfd520e812a0692f1ce1b6f3edebba99/output/res/drawable/common_google_signin_btn_icon_dark.xml"
+    },
+    {
+        "merged": "/Users/miso/capstone/app/build/intermediates/res/merged/debug/drawable/notebook_add.png",
+        "source": "/Users/miso/capstone/app/src/main/res/drawable/notebook_add.png"
+    },
+    {
+        "merged": "/Users/miso/capstone/app/build/intermediates/res/merged/debug/drawable/record_progress_bar_background.xml",
+        "source": "/Users/miso/capstone/app/src/main/res/drawable/record_progress_bar_background.xml"
+    },
+    {
+        "merged": "/Users/miso/capstone/app/build/intermediates/res/merged/debug/drawable/cast_ic_mini_controller_skip_next.xml",
+        "source": "/Users/miso/.android/build-cache/347d0d4156e9f2449bb5d96c9ebf61d7db2d587c/output/res/drawable/cast_ic_mini_controller_skip_next.xml"
+    },
+    {
+        "merged": "/Users/miso/Blinkling/app/build/intermediates/res/merged/debug/drawable/cast_skip_ad_label_border.xml",
+        "source": "/Users/miso/.android/build-cache/347d0d4156e9f2449bb5d96c9ebf61d7db2d587c/output/res/drawable/cast_skip_ad_label_border.xml"
+    },
+    {
+        "merged": "/Users/miso/capstone/app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_text_dark.xml",
+        "source": "/Users/miso/.android/build-cache/72b45b2dbfd520e812a0692f1ce1b6f3edebba99/output/res/drawable/common_google_signin_btn_text_dark.xml"
+    },
+    {
+        "merged": "/Users/miso/capstone/app/build/intermediates/res/merged/debug/drawable/book3.png",
+        "source": "/Users/miso/capstone/app/src/main/res/drawable/book3.png"
+    },
+    {
+        "merged": "/Users/miso/Blinkling/app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_text_dark_focused.xml",
+        "source": "/Users/miso/.android/build-cache/72b45b2dbfd520e812a0692f1ce1b6f3edebba99/output/res/drawable/common_google_signin_btn_text_dark_focused.xml"
+    },
+    {
+        "merged": "/Users/miso/Blinkling/app/build/intermediates/res/merged/debug/drawable/cast_ic_mini_controller_play.xml",
+        "source": "/Users/miso/.android/build-cache/347d0d4156e9f2449bb5d96c9ebf61d7db2d587c/output/res/drawable/cast_ic_mini_controller_play.xml"
+    },
+    {
+        "merged": "/Users/miso/Blinkling/app/build/intermediates/res/merged/debug/drawable/plus.png",
+        "source": "/Users/miso/Blinkling/app/src/main/res/drawable/plus.png"
+    },
+    {
+        "merged": "/Users/miso/capstone/app/build/intermediates/res/merged/debug/drawable/bookshelf_back.png",
+        "source": "/Users/miso/capstone/app/src/main/res/drawable/bookshelf_back.png"
+    },
+    {
+        "merged": "/Users/miso/Blinkling/app/build/intermediates/res/merged/debug/drawable/abc_ic_voice_search_api_material.xml",
+        "source": "/Users/miso/.android/build-cache/f518a637222202e95c7ee16aa458e17e5c6c2ed1/output/res/drawable/abc_ic_voice_search_api_material.xml"
+    },
+    {
+        "merged": "/Users/miso/Blinkling/app/build/intermediates/res/merged/debug/drawable/cast_ic_expanded_controller_skip_previous.xml",
+        "source": "/Users/miso/.android/build-cache/347d0d4156e9f2449bb5d96c9ebf61d7db2d587c/output/res/drawable/cast_ic_expanded_controller_skip_previous.xml"
+    },
+    {
+        "merged": "/Users/miso/Blinkling/app/build/intermediates/res/merged/debug/drawable/cast_ic_notification_skip_prev.xml",
+        "source": "/Users/miso/.android/build-cache/347d0d4156e9f2449bb5d96c9ebf61d7db2d587c/output/res/drawable/cast_ic_notification_skip_prev.xml"
+    },
+    {
+        "merged": "/Users/miso/capstone/app/build/intermediates/res/merged/debug/drawable/cast_mini_controller_progress_drawable.xml",
+        "source": "/Users/miso/.android/build-cache/347d0d4156e9f2449bb5d96c9ebf61d7db2d587c/output/res/drawable/cast_mini_controller_progress_drawable.xml"
+    },
+    {
+        "merged": "/Users/miso/capstone/app/build/intermediates/res/merged/debug/drawable/abc_btn_default_mtrl_shape.xml",
+        "source": "/Users/miso/.android/build-cache/f518a637222202e95c7ee16aa458e17e5c6c2ed1/output/res/drawable/abc_btn_default_mtrl_shape.xml"
+    },
+    {
+        "merged": "/Users/miso/Blinkling/app/build/intermediates/res/merged/debug/drawable/seekbar_progress.xml",
+        "source": "/Users/miso/Blinkling/app/src/main/res/drawable/seekbar_progress.xml"
+    },
+    {
+        "merged": "/Users/miso/capstone/app/build/intermediates/res/merged/debug/drawable/garbage.png",
+        "source": "/Users/miso/capstone/app/src/main/res/drawable/garbage.png"
+    },
+    {
+        "merged": "/Users/miso/capstone/app/build/intermediates/res/merged/debug/drawable/design_snackbar_background.xml",
+        "source": "/Users/miso/.android/build-cache/1c1cbc250abfe847ccef1096cd2ade5ac239822b/output/res/drawable/design_snackbar_background.xml"
+    },
+    {
+        "merged": "/Users/miso/Blinkling/app/build/intermediates/res/merged/debug/drawable/cast_ic_mini_controller_forward30.xml",
+        "source": "/Users/miso/.android/build-cache/347d0d4156e9f2449bb5d96c9ebf61d7db2d587c/output/res/drawable/cast_ic_mini_controller_forward30.xml"
+    },
+    {
+        "merged": "/Users/miso/Blinkling/app/build/intermediates/res/merged/debug/drawable/mr_ic_play_light.xml",
+        "source": "/Users/miso/.android/build-cache/11b4c89eb1c28151106f825047005322c9414aea/output/res/drawable/mr_ic_play_light.xml"
+    },
+    {
+        "merged": "/Users/miso/Blinkling/app/build/intermediates/res/merged/debug/drawable/cast_ic_notification_forward10.xml",
+        "source": "/Users/miso/.android/build-cache/347d0d4156e9f2449bb5d96c9ebf61d7db2d587c/output/res/drawable/cast_ic_notification_forward10.xml"
+    },
+    {
+        "merged": "/Users/miso/Blinkling/app/build/intermediates/res/merged/debug/drawable/cast_mini_controller_progress_drawable.xml",
+        "source": "/Users/miso/.android/build-cache/347d0d4156e9f2449bb5d96c9ebf61d7db2d587c/output/res/drawable/cast_mini_controller_progress_drawable.xml"
+    },
+    {
+        "merged": "/Users/miso/capstone/app/build/intermediates/res/merged/debug/drawable/abc_ic_ab_back_material.xml",
+        "source": "/Users/miso/.android/build-cache/f518a637222202e95c7ee16aa458e17e5c6c2ed1/output/res/drawable/abc_ic_ab_back_material.xml"
+    },
+    {
+        "merged": "/Users/miso/capstone/app/build/intermediates/res/merged/debug/drawable/record_progress_bar.xml",
+        "source": "/Users/miso/capstone/app/src/main/res/drawable/record_progress_bar.xml"
+    },
+    {
+        "merged": "/Users/miso/capstone/app/build/intermediates/res/merged/debug/drawable/cast_ic_mini_controller_closed_caption.xml",
+        "source": "/Users/miso/.android/build-cache/347d0d4156e9f2449bb5d96c9ebf61d7db2d587c/output/res/drawable/cast_ic_mini_controller_closed_caption.xml"
+    },
+    {
+        "merged": "/Users/miso/capstone/app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_icon_light_normal.xml",
+        "source": "/Users/miso/.android/build-cache/72b45b2dbfd520e812a0692f1ce1b6f3edebba99/output/res/drawable/common_google_signin_btn_icon_light_normal.xml"
+    },
+    {
+        "merged": "/Users/miso/capstone/app/build/intermediates/res/merged/debug/drawable/cast_ic_expanded_controller_mute.xml",
+        "source": "/Users/miso/.android/build-cache/347d0d4156e9f2449bb5d96c9ebf61d7db2d587c/output/res/drawable/cast_ic_expanded_controller_mute.xml"
+    },
+    {
+        "merged": "/Users/miso/Blinkling/app/build/intermediates/res/merged/debug/drawable/worldwide.png",
+        "source": "/Users/miso/Blinkling/app/src/main/res/drawable/worldwide.png"
+    },
+    {
+        "merged": "/Users/miso/Blinkling/app/build/intermediates/res/merged/debug/drawable/pause.png",
+        "source": "/Users/miso/Blinkling/app/src/main/res/drawable/pause.png"
+    },
+    {
+        "merged": "/Users/miso/Blinkling/app/build/intermediates/res/merged/debug/drawable/cast_ic_expanded_controller_closed_caption.xml",
+        "source": "/Users/miso/.android/build-cache/347d0d4156e9f2449bb5d96c9ebf61d7db2d587c/output/res/drawable/cast_ic_expanded_controller_closed_caption.xml"
+    },
+    {
+        "merged": "/Users/miso/Blinkling/app/build/intermediates/res/merged/debug/drawable/mr_ic_cast_dark.xml",
+        "source": "/Users/miso/.android/build-cache/11b4c89eb1c28151106f825047005322c9414aea/output/res/drawable/mr_ic_cast_dark.xml"
+    },
+    {
+        "merged": "/Users/miso/Blinkling/app/build/intermediates/res/merged/debug/drawable/cast_expanded_controller_seekbar_thumb.xml",
+        "source": "/Users/miso/.android/build-cache/347d0d4156e9f2449bb5d96c9ebf61d7db2d587c/output/res/drawable/cast_expanded_controller_seekbar_thumb.xml"
+    },
+    {
+        "merged": "/Users/miso/Blinkling/app/build/intermediates/res/merged/debug/drawable/mr_ic_pause_light.xml",
+        "source": "/Users/miso/.android/build-cache/11b4c89eb1c28151106f825047005322c9414aea/output/res/drawable/mr_ic_pause_light.xml"
+    },
+    {
+        "merged": "/Users/miso/capstone/app/build/intermediates/res/merged/debug/drawable/mr_ic_media_route_connecting_dark.xml",
+        "source": "/Users/miso/.android/build-cache/11b4c89eb1c28151106f825047005322c9414aea/output/res/drawable/mr_ic_media_route_connecting_dark.xml"
+    },
+    {
+        "merged": "/Users/miso/Blinkling/app/build/intermediates/res/merged/debug/drawable/mr_ic_media_route_on_dark.xml",
+        "source": "/Users/miso/.android/build-cache/11b4c89eb1c28151106f825047005322c9414aea/output/res/drawable/mr_ic_media_route_on_dark.xml"
+    },
+    {
+        "merged": "/Users/miso/capstone/app/build/intermediates/res/merged/debug/drawable/icon_web.png",
+        "source": "/Users/miso/capstone/app/src/main/res/drawable/icon_web.png"
+    },
+    {
+        "merged": "/Users/miso/Blinkling/app/build/intermediates/res/merged/debug/drawable/cast_ic_notification_play.xml",
+        "source": "/Users/miso/.android/build-cache/347d0d4156e9f2449bb5d96c9ebf61d7db2d587c/output/res/drawable/cast_ic_notification_play.xml"
+    },
+    {
+        "merged": "/Users/miso/capstone/app/build/intermediates/res/merged/debug/drawable/abc_switch_thumb_material.xml",
+        "source": "/Users/miso/.android/build-cache/f518a637222202e95c7ee16aa458e17e5c6c2ed1/output/res/drawable/abc_switch_thumb_material.xml"
+    },
+    {
+        "merged": "/Users/miso/capstone/app/build/intermediates/res/merged/debug/drawable/cast_ic_expanded_controller_closed_caption.xml",
+        "source": "/Users/miso/.android/build-cache/347d0d4156e9f2449bb5d96c9ebf61d7db2d587c/output/res/drawable/cast_ic_expanded_controller_closed_caption.xml"
+    },
+    {
+        "merged": "/Users/miso/capstone/app/build/intermediates/res/merged/debug/drawable/play_button.png",
+        "source": "/Users/miso/capstone/app/src/main/res/drawable/play_button.png"
+    },
+    {
+        "merged": "/Users/miso/capstone/app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_icon_disabled.xml",
+        "source": "/Users/miso/.android/build-cache/72b45b2dbfd520e812a0692f1ce1b6f3edebba99/output/res/drawable/common_google_signin_btn_icon_disabled.xml"
+    },
+    {
+        "merged": "/Users/miso/capstone/app/build/intermediates/res/merged/debug/drawable/notification_bg.xml",
+        "source": "/Users/miso/.android/build-cache/f518a637222202e95c7ee16aa458e17e5c6c2ed1/output/res/drawable/notification_bg.xml"
+    },
+    {
+        "merged": "/Users/miso/capstone/app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_icon_dark_normal.xml",
+        "source": "/Users/miso/.android/build-cache/72b45b2dbfd520e812a0692f1ce1b6f3edebba99/output/res/drawable/common_google_signin_btn_icon_dark_normal.xml"
+    },
+    {
+        "merged": "/Users/miso/Blinkling/app/build/intermediates/res/merged/debug/drawable/abc_spinner_textfield_background_material.xml",
+        "source": "/Users/miso/.android/build-cache/f518a637222202e95c7ee16aa458e17e5c6c2ed1/output/res/drawable/abc_spinner_textfield_background_material.xml"
+    },
+    {
+        "merged": "/Users/miso/capstone/app/build/intermediates/res/merged/debug/drawable/cast_ic_mini_controller_mute.xml",
+        "source": "/Users/miso/.android/build-cache/347d0d4156e9f2449bb5d96c9ebf61d7db2d587c/output/res/drawable/cast_ic_mini_controller_mute.xml"
+    },
+    {
+        "merged": "/Users/miso/capstone/app/build/intermediates/res/merged/debug/drawable/abc_seekbar_track_material.xml",
+        "source": "/Users/miso/.android/build-cache/f518a637222202e95c7ee16aa458e17e5c6c2ed1/output/res/drawable/abc_seekbar_track_material.xml"
+    },
+    {
+        "merged": "/Users/miso/Blinkling/app/build/intermediates/res/merged/debug/drawable/book3.png",
+        "source": "/Users/miso/Blinkling/app/src/main/res/drawable/book3.png"
+    },
+    {
+        "merged": "/Users/miso/Blinkling/app/build/intermediates/res/merged/debug/drawable/abc_textfield_search_material.xml",
+        "source": "/Users/miso/.android/build-cache/f518a637222202e95c7ee16aa458e17e5c6c2ed1/output/res/drawable/abc_textfield_search_material.xml"
+    },
+    {
+        "merged": "/Users/miso/Blinkling/app/build/intermediates/res/merged/debug/drawable/abc_seekbar_track_material.xml",
+        "source": "/Users/miso/.android/build-cache/f518a637222202e95c7ee16aa458e17e5c6c2ed1/output/res/drawable/abc_seekbar_track_material.xml"
+    },
+    {
+        "merged": "/Users/miso/capstone/app/build/intermediates/res/merged/debug/drawable/cast_expanded_controller_bg_gradient_light.xml",
+        "source": "/Users/miso/.android/build-cache/347d0d4156e9f2449bb5d96c9ebf61d7db2d587c/output/res/drawable/cast_expanded_controller_bg_gradient_light.xml"
+    },
+    {
+        "merged": "/Users/miso/Blinkling/app/build/intermediates/res/merged/debug/drawable/user.png",
+        "source": "/Users/miso/Blinkling/app/src/main/res/drawable/user.png"
+    },
+    {
+        "merged": "/Users/miso/capstone/app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_icon_dark.xml",
+        "source": "/Users/miso/.android/build-cache/72b45b2dbfd520e812a0692f1ce1b6f3edebba99/output/res/drawable/common_google_signin_btn_icon_dark.xml"
+    },
+    {
+        "merged": "/Users/miso/Blinkling/app/build/intermediates/res/merged/debug/drawable/cast_ic_notification_rewind10.xml",
+        "source": "/Users/miso/.android/build-cache/347d0d4156e9f2449bb5d96c9ebf61d7db2d587c/output/res/drawable/cast_ic_notification_rewind10.xml"
+    },
+    {
+        "merged": "/Users/miso/capstone/app/build/intermediates/res/merged/debug/drawable/cast_ic_notification_pause.xml",
+        "source": "/Users/miso/.android/build-cache/347d0d4156e9f2449bb5d96c9ebf61d7db2d587c/output/res/drawable/cast_ic_notification_pause.xml"
+    },
+    {
+        "merged": "/Users/miso/Blinkling/app/build/intermediates/res/merged/debug/drawable/cast_ic_notification_rewind.xml",
+        "source": "/Users/miso/.android/build-cache/347d0d4156e9f2449bb5d96c9ebf61d7db2d587c/output/res/drawable/cast_ic_notification_rewind.xml"
+    },
+    {
+        "merged": "/Users/miso/Blinkling/app/build/intermediates/res/merged/debug/drawable/abc_ic_search_api_material.xml",
+        "source": "/Users/miso/.android/build-cache/f518a637222202e95c7ee16aa458e17e5c6c2ed1/output/res/drawable/abc_ic_search_api_material.xml"
+    },
+    {
+        "merged": "/Users/miso/Blinkling/app/build/intermediates/res/merged/debug/drawable/abc_cab_background_internal_bg.xml",
+        "source": "/Users/miso/.android/build-cache/f518a637222202e95c7ee16aa458e17e5c6c2ed1/output/res/drawable/abc_cab_background_internal_bg.xml"
+    },
+    {
+        "merged": "/Users/miso/Blinkling/app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_icon_light_normal.xml",
+        "source": "/Users/miso/.android/build-cache/72b45b2dbfd520e812a0692f1ce1b6f3edebba99/output/res/drawable/common_google_signin_btn_icon_light_normal.xml"
+    },
+    {
+        "merged": "/Users/miso/Blinkling/app/build/intermediates/res/merged/debug/drawable/abc_text_cursor_material.xml",
+        "source": "/Users/miso/.android/build-cache/f518a637222202e95c7ee16aa458e17e5c6c2ed1/output/res/drawable/abc_text_cursor_material.xml"
+    },
+    {
+        "merged": "/Users/miso/capstone/app/build/intermediates/res/merged/debug/drawable/mr_dialog_material_background_light.xml",
+        "source": "/Users/miso/.android/build-cache/11b4c89eb1c28151106f825047005322c9414aea/output/res/drawable/mr_dialog_material_background_light.xml"
+    },
+    {
+        "merged": "/Users/miso/Blinkling/app/build/intermediates/res/merged/debug/drawable/cast_ic_mini_controller_skip_prev.xml",
+        "source": "/Users/miso/.android/build-cache/347d0d4156e9f2449bb5d96c9ebf61d7db2d587c/output/res/drawable/cast_ic_mini_controller_skip_prev.xml"
+    },
+    {
+        "merged": "/Users/miso/capstone/app/build/intermediates/res/merged/debug/drawable/abc_btn_colored_material.xml",
+        "source": "/Users/miso/.android/build-cache/f518a637222202e95c7ee16aa458e17e5c6c2ed1/output/res/drawable/abc_btn_colored_material.xml"
+    },
+    {
+        "merged": "/Users/miso/capstone/app/build/intermediates/res/merged/debug/drawable/cast_expanded_controller_seekbar_track.xml",
+        "source": "/Users/miso/.android/build-cache/347d0d4156e9f2449bb5d96c9ebf61d7db2d587c/output/res/drawable/cast_expanded_controller_seekbar_track.xml"
+    },
+    {
+        "merged": "/Users/miso/capstone/app/build/intermediates/res/merged/debug/drawable/cast_ic_expanded_controller_stop.xml",
+        "source": "/Users/miso/.android/build-cache/347d0d4156e9f2449bb5d96c9ebf61d7db2d587c/output/res/drawable/cast_ic_expanded_controller_stop.xml"
+    },
+    {
+        "merged": "/Users/miso/Blinkling/app/build/intermediates/res/merged/debug/drawable/mr_ic_pause_dark.xml",
+        "source": "/Users/miso/.android/build-cache/11b4c89eb1c28151106f825047005322c9414aea/output/res/drawable/mr_ic_pause_dark.xml"
+    },
+    {
+        "merged": "/Users/miso/Blinkling/app/build/intermediates/res/merged/debug/drawable/abc_seekbar_thumb_material.xml",
+        "source": "/Users/miso/.android/build-cache/f518a637222202e95c7ee16aa458e17e5c6c2ed1/output/res/drawable/abc_seekbar_thumb_material.xml"
+    },
+    {
+        "merged": "/Users/miso/capstone/app/build/intermediates/res/merged/debug/drawable/cast_ic_notification_play.xml",
+        "source": "/Users/miso/.android/build-cache/347d0d4156e9f2449bb5d96c9ebf61d7db2d587c/output/res/drawable/cast_ic_notification_play.xml"
+    },
+    {
+        "merged": "/Users/miso/Blinkling/app/build/intermediates/res/merged/debug/drawable/cast_expanded_controller_actionbar_bg_gradient_light.xml",
+        "source": "/Users/miso/.android/build-cache/347d0d4156e9f2449bb5d96c9ebf61d7db2d587c/output/res/drawable/cast_expanded_controller_actionbar_bg_gradient_light.xml"
+    },
+    {
+        "merged": "/Users/miso/capstone/app/build/intermediates/res/merged/debug/drawable/mr_ic_media_route_mono_light.xml",
+        "source": "/Users/miso/.android/build-cache/11b4c89eb1c28151106f825047005322c9414aea/output/res/drawable/mr_ic_media_route_mono_light.xml"
+    },
+    {
+        "merged": "/Users/miso/capstone/app/build/intermediates/res/merged/debug/drawable/cast_ic_notification_stop_live_stream.xml",
+        "source": "/Users/miso/.android/build-cache/347d0d4156e9f2449bb5d96c9ebf61d7db2d587c/output/res/drawable/cast_ic_notification_stop_live_stream.xml"
+    },
+    {
+        "merged": "/Users/miso/Blinkling/app/build/intermediates/res/merged/debug/drawable/mr_ic_media_route_on_light.xml",
+        "source": "/Users/miso/.android/build-cache/11b4c89eb1c28151106f825047005322c9414aea/output/res/drawable/mr_ic_media_route_on_light.xml"
+    },
+    {
+        "merged": "/Users/miso/Blinkling/app/build/intermediates/res/merged/debug/drawable/bookshelf_back.png",
+        "source": "/Users/miso/Blinkling/app/src/main/res/drawable/bookshelf_back.png"
+    },
+    {
+        "merged": "/Users/miso/capstone/app/build/intermediates/res/merged/debug/drawable/cast_ic_mini_controller_play_large.xml",
+        "source": "/Users/miso/.android/build-cache/347d0d4156e9f2449bb5d96c9ebf61d7db2d587c/output/res/drawable/cast_ic_mini_controller_play_large.xml"
+    },
+    {
+        "merged": "/Users/miso/capstone/app/build/intermediates/res/merged/debug/drawable/bookmark.png",
+        "source": "/Users/miso/capstone/app/src/main/res/drawable/bookmark.png"
+    },
+    {
+        "merged": "/Users/miso/capstone/app/build/intermediates/res/merged/debug/drawable/mr_ic_play_light.xml",
+        "source": "/Users/miso/.android/build-cache/11b4c89eb1c28151106f825047005322c9414aea/output/res/drawable/mr_ic_play_light.xml"
+    },
+    {
+        "merged": "/Users/miso/Blinkling/app/build/intermediates/res/merged/debug/drawable/mr_ic_audiotrack_light.xml",
+        "source": "/Users/miso/.android/build-cache/11b4c89eb1c28151106f825047005322c9414aea/output/res/drawable/mr_ic_audiotrack_light.xml"
+    },
+    {
+        "merged": "/Users/miso/capstone/app/build/intermediates/res/merged/debug/drawable/cast_ic_notification_forward.xml",
+        "source": "/Users/miso/.android/build-cache/347d0d4156e9f2449bb5d96c9ebf61d7db2d587c/output/res/drawable/cast_ic_notification_forward.xml"
+    },
+    {
+        "merged": "/Users/miso/Blinkling/app/build/intermediates/res/merged/debug/drawable/design_snackbar_background.xml",
+        "source": "/Users/miso/.android/build-cache/1c1cbc250abfe847ccef1096cd2ade5ac239822b/output/res/drawable/design_snackbar_background.xml"
+    },
+    {
+        "merged": "/Users/miso/capstone/app/build/intermediates/res/merged/debug/drawable/abc_btn_check_material.xml",
+        "source": "/Users/miso/.android/build-cache/f518a637222202e95c7ee16aa458e17e5c6c2ed1/output/res/drawable/abc_btn_check_material.xml"
+    },
+    {
+        "merged": "/Users/miso/capstone/app/build/intermediates/res/merged/debug/drawable/plus.png",
+        "source": "/Users/miso/capstone/app/src/main/res/drawable/plus.png"
+    },
+    {
+        "merged": "/Users/miso/capstone/app/build/intermediates/res/merged/debug/drawable/worldwide.png",
+        "source": "/Users/miso/capstone/app/src/main/res/drawable/worldwide.png"
+    },
+    {
+        "merged": "/Users/miso/Blinkling/app/build/intermediates/res/merged/debug/drawable/notification_bg.xml",
+        "source": "/Users/miso/.android/build-cache/f518a637222202e95c7ee16aa458e17e5c6c2ed1/output/res/drawable/notification_bg.xml"
+    },
+    {
+        "merged": "/Users/miso/capstone/app/build/intermediates/res/merged/debug/drawable/cast_ic_mini_controller_rewind30.xml",
+        "source": "/Users/miso/.android/build-cache/347d0d4156e9f2449bb5d96c9ebf61d7db2d587c/output/res/drawable/cast_ic_mini_controller_rewind30.xml"
+    },
+    {
+        "merged": "/Users/miso/capstone/app/build/intermediates/res/merged/debug/drawable/abc_seekbar_tick_mark_material.xml",
+        "source": "/Users/miso/.android/build-cache/f518a637222202e95c7ee16aa458e17e5c6c2ed1/output/res/drawable/abc_seekbar_tick_mark_material.xml"
+    },
+    {
+        "merged": "/Users/miso/Blinkling/app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_text_dark.xml",
+        "source": "/Users/miso/.android/build-cache/72b45b2dbfd520e812a0692f1ce1b6f3edebba99/output/res/drawable/common_google_signin_btn_text_dark.xml"
+    },
+    {
+        "merged": "/Users/miso/Blinkling/app/build/intermediates/res/merged/debug/drawable/abc_ic_ab_back_material.xml",
+        "source": "/Users/miso/.android/build-cache/f518a637222202e95c7ee16aa458e17e5c6c2ed1/output/res/drawable/abc_ic_ab_back_material.xml"
+    },
+    {
+        "merged": "/Users/miso/capstone/app/build/intermediates/res/merged/debug/drawable/bookmarkstar.png",
+        "source": "/Users/miso/capstone/app/src/main/res/drawable/bookmarkstar.png"
+    },
+    {
+        "merged": "/Users/miso/Blinkling/app/build/intermediates/res/merged/debug/drawable/mr_ic_close_light.xml",
+        "source": "/Users/miso/.android/build-cache/11b4c89eb1c28151106f825047005322c9414aea/output/res/drawable/mr_ic_close_light.xml"
+    },
+    {
+        "merged": "/Users/miso/Blinkling/app/build/intermediates/res/merged/debug/drawable/cast_ic_expanded_controller_skip_next.xml",
+        "source": "/Users/miso/.android/build-cache/347d0d4156e9f2449bb5d96c9ebf61d7db2d587c/output/res/drawable/cast_ic_expanded_controller_skip_next.xml"
+    },
+    {
+        "merged": "/Users/miso/Blinkling/app/build/intermediates/res/merged/debug/drawable/cast_ic_notification_rewind30.xml",
+        "source": "/Users/miso/.android/build-cache/347d0d4156e9f2449bb5d96c9ebf61d7db2d587c/output/res/drawable/cast_ic_notification_rewind30.xml"
+    },
+    {
+        "merged": "/Users/miso/capstone/app/build/intermediates/res/merged/debug/drawable/folder.png",
+        "source": "/Users/miso/capstone/app/src/main/res/drawable/folder.png"
+    },
+    {
+        "merged": "/Users/miso/capstone/app/build/intermediates/res/merged/debug/drawable/abc_list_selector_background_transition_holo_dark.xml",
+        "source": "/Users/miso/.android/build-cache/f518a637222202e95c7ee16aa458e17e5c6c2ed1/output/res/drawable/abc_list_selector_background_transition_holo_dark.xml"
+    },
+    {
+        "merged": "/Users/miso/capstone/app/build/intermediates/res/merged/debug/drawable/abc_text_cursor_material.xml",
+        "source": "/Users/miso/.android/build-cache/f518a637222202e95c7ee16aa458e17e5c6c2ed1/output/res/drawable/abc_text_cursor_material.xml"
+    },
+    {
+        "merged": "/Users/miso/capstone/app/build/intermediates/res/merged/debug/drawable/mr_ic_media_route_mono_dark.xml",
+        "source": "/Users/miso/.android/build-cache/11b4c89eb1c28151106f825047005322c9414aea/output/res/drawable/mr_ic_media_route_mono_dark.xml"
+    },
+    {
+        "merged": "/Users/miso/Blinkling/app/build/intermediates/res/merged/debug/drawable/mr_ic_media_route_connecting_dark.xml",
+        "source": "/Users/miso/.android/build-cache/11b4c89eb1c28151106f825047005322c9414aea/output/res/drawable/mr_ic_media_route_connecting_dark.xml"
+    },
+    {
+        "merged": "/Users/miso/Blinkling/app/build/intermediates/res/merged/debug/drawable/notebook_add.png",
+        "source": "/Users/miso/Blinkling/app/src/main/res/drawable/notebook_add.png"
+    },
+    {
+        "merged": "/Users/miso/capstone/app/build/intermediates/res/merged/debug/drawable/abc_ic_arrow_drop_right_black_24dp.xml",
+        "source": "/Users/miso/.android/build-cache/f518a637222202e95c7ee16aa458e17e5c6c2ed1/output/res/drawable/abc_ic_arrow_drop_right_black_24dp.xml"
+    },
+    {
+        "merged": "/Users/miso/capstone/app/build/intermediates/res/merged/debug/drawable/seekbar_progress.xml",
+        "source": "/Users/miso/capstone/app/src/main/res/drawable/seekbar_progress.xml"
+    },
+    {
         "merged": "/Users/miso/Blinkling/app/build/intermediates/res/merged/debug/drawable/play_button.png",
         "source": "/Users/miso/Blinkling/app/src/main/res/drawable/play_button.png"
+    },
+    {
+        "merged": "/Users/miso/capstone/app/build/intermediates/res/merged/debug/drawable/mr_ic_audiotrack_light.xml",
+        "source": "/Users/miso/.android/build-cache/11b4c89eb1c28151106f825047005322c9414aea/output/res/drawable/mr_ic_audiotrack_light.xml"
+    },
+    {
+        "merged": "/Users/miso/capstone/app/build/intermediates/res/merged/debug/drawable/mr_ic_close_dark.xml",
+        "source": "/Users/miso/.android/build-cache/11b4c89eb1c28151106f825047005322c9414aea/output/res/drawable/mr_ic_close_dark.xml"
     },
     {
         "merged": "/Users/miso/Blinkling/app/build/intermediates/res/merged/debug/drawable/abc_ic_arrow_drop_right_black_24dp.xml",
@@ -520,12 +1100,16 @@
         "source": "/Users/miso/.android/build-cache/72b45b2dbfd520e812a0692f1ce1b6f3edebba99/output/res/drawable/common_google_signin_btn_text_dark_normal.xml"
     },
     {
-        "merged": "/Users/miso/Blinkling/app/build/intermediates/res/merged/debug/drawable/abc_list_selector_holo_dark.xml",
+        "merged": "/Users/miso/capstone/app/build/intermediates/res/merged/debug/drawable/abc_list_selector_holo_dark.xml",
         "source": "/Users/miso/.android/build-cache/f518a637222202e95c7ee16aa458e17e5c6c2ed1/output/res/drawable/abc_list_selector_holo_dark.xml"
     },
     {
         "merged": "/Users/miso/Blinkling/app/build/intermediates/res/merged/debug/drawable/garbage.png",
         "source": "/Users/miso/Blinkling/app/src/main/res/drawable/garbage.png"
+    },
+    {
+        "merged": "/Users/miso/capstone/app/build/intermediates/res/merged/debug/drawable/cast_ic_notification_connecting.xml",
+        "source": "/Users/miso/.android/build-cache/dd16f25307f761836da14ce59f451a337a5d4918/output/res/drawable/cast_ic_notification_connecting.xml"
     },
     {
         "merged": "/Users/miso/Blinkling/app/build/intermediates/res/merged/debug/drawable/cast_mini_controller_gradient_light.xml",
@@ -540,10 +1124,6 @@
         "source": "/Users/miso/Blinkling/app/src/main/res/drawable/settings.png"
     },
     {
-        "merged": "/Users/miso/Blinkling/app/build/intermediates/res/merged/debug/drawable/abc_ratingbar_indicator_material.xml",
-        "source": "/Users/miso/.android/build-cache/f518a637222202e95c7ee16aa458e17e5c6c2ed1/output/res/drawable/abc_ratingbar_indicator_material.xml"
-    },
-    {
         "merged": "/Users/miso/Blinkling/app/build/intermediates/res/merged/debug/drawable/cast_ic_mini_controller_pause.xml",
         "source": "/Users/miso/.android/build-cache/347d0d4156e9f2449bb5d96c9ebf61d7db2d587c/output/res/drawable/cast_ic_mini_controller_pause.xml"
     },
@@ -552,24 +1132,20 @@
         "source": "/Users/miso/.android/build-cache/72b45b2dbfd520e812a0692f1ce1b6f3edebba99/output/res/drawable/common_google_signin_btn_icon_dark_normal.xml"
     },
     {
-        "merged": "/Users/miso/Blinkling/app/build/intermediates/res/merged/debug/drawable/cast_ic_notification_forward.xml",
-        "source": "/Users/miso/.android/build-cache/347d0d4156e9f2449bb5d96c9ebf61d7db2d587c/output/res/drawable/cast_ic_notification_forward.xml"
+        "merged": "/Users/miso/capstone/app/build/intermediates/res/merged/debug/drawable/abc_cab_background_top_material.xml",
+        "source": "/Users/miso/.android/build-cache/f518a637222202e95c7ee16aa458e17e5c6c2ed1/output/res/drawable/abc_cab_background_top_material.xml"
     },
     {
-        "merged": "/Users/miso/Blinkling/app/build/intermediates/res/merged/debug/drawable/cast_ic_notification_disconnect.xml",
-        "source": "/Users/miso/.android/build-cache/347d0d4156e9f2449bb5d96c9ebf61d7db2d587c/output/res/drawable/cast_ic_notification_disconnect.xml"
+        "merged": "/Users/miso/Blinkling/app/build/intermediates/res/merged/debug/drawable/cast_ic_notification_forward.xml",
+        "source": "/Users/miso/.android/build-cache/347d0d4156e9f2449bb5d96c9ebf61d7db2d587c/output/res/drawable/cast_ic_notification_forward.xml"
     },
     {
         "merged": "/Users/miso/Blinkling/app/build/intermediates/res/merged/debug/drawable/abc_seekbar_tick_mark_material.xml",
         "source": "/Users/miso/.android/build-cache/f518a637222202e95c7ee16aa458e17e5c6c2ed1/output/res/drawable/abc_seekbar_tick_mark_material.xml"
     },
     {
-        "merged": "/Users/miso/Blinkling/app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_icon_disabled.xml",
-        "source": "/Users/miso/.android/build-cache/72b45b2dbfd520e812a0692f1ce1b6f3edebba99/output/res/drawable/common_google_signin_btn_icon_disabled.xml"
-    },
-    {
-        "merged": "/Users/miso/Blinkling/app/build/intermediates/res/merged/debug/drawable/abc_ratingbar_small_material.xml",
-        "source": "/Users/miso/.android/build-cache/f518a637222202e95c7ee16aa458e17e5c6c2ed1/output/res/drawable/abc_ratingbar_small_material.xml"
+        "merged": "/Users/miso/capstone/app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_text_light_focused.xml",
+        "source": "/Users/miso/.android/build-cache/72b45b2dbfd520e812a0692f1ce1b6f3edebba99/output/res/drawable/common_google_signin_btn_text_light_focused.xml"
     },
     {
         "merged": "/Users/miso/Blinkling/app/build/intermediates/res/merged/debug/drawable/mr_ic_media_route_mono_light.xml",

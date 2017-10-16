@@ -51,6 +51,8 @@ import org.greenrobot.eventbus.ThreadMode;
 
 import java.io.IOException;
 
+import static java.lang.Thread.sleep;
+
 /**
  * Activity for the face tracker app.  This app detects faces with the rear facing camera, and draws
  * overlay graphics to indicate the position, size, and ID of each face.
@@ -90,7 +92,7 @@ public final class Face_Activity extends Activity {
     boolean startChecked = false;
     int starttimecheck = 100;
     long startTime = 0, endTime = 0;
-
+    static int time = 1000;
     //==============================================================================================
     // Activity Methods
     //==============================================================================================
@@ -125,8 +127,41 @@ public final class Face_Activity extends Activity {
             requestCameraPermission();
         }
 
+//
+//        try {
+//            sleep(3000);
+//        } catch (InterruptedException e) {
+//            e.printStackTrace();
+//        }
+//
+//        start_init();
     }
 
+    public void start_init(){
+        Toast.makeText(this, "눈 크기 측정을 3초 후에 시작합니다. 눈을 감아주세요", Toast.LENGTH_SHORT).show();
+        try {
+            sleep(3000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+        try {
+            onClickInit(getCurrentFocus());
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+        Toast.makeText(this, "눈 크기 측정이 완료 되었습니다. 의식적으로 눈을 깜박여 보세요.", Toast.LENGTH_SHORT).show();
+        try {
+            sleep(3000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+        try {
+            onClickInit_time(getCurrentFocus());
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+
+    }
     /**
      * Handles the requesting of the camera permission.  This includes
      * showing a "Snackbar" message of why the permission is needed then
@@ -241,7 +276,7 @@ public final class Face_Activity extends Activity {
     }
 
     public void onClickInit(View v) throws InterruptedException {
-        face_check.onDone();
+//        face_check.onDone();
         check = 1;
         initial_check = true;
         face_check = new GraphicFaceTracker(mGraphicOverlay);

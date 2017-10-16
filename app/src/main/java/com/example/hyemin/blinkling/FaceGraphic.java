@@ -129,7 +129,6 @@ class FaceGraphic extends GraphicOverlay.Graphic {
         double scale = 1;
         Paint paint = new Paint();
 
-        if (face.getLandmarks().size() > 5) {
             // Draws a circle at the position of the detected face, with the face's track id below.
             float x = translateX(face.getPosition().x + face.getWidth() / 2);
             float y = translateY(face.getPosition().y + face.getHeight() / 2);
@@ -138,12 +137,6 @@ class FaceGraphic extends GraphicOverlay.Graphic {
             canvas.drawText("happiness: " + String.format("%.2f", face.getIsSmilingProbability()), x - ID_X_OFFSET, y - ID_Y_OFFSET, mIdPaint);
             canvas.drawText("right eye: " + String.format("%.2f", face.getIsRightEyeOpenProbability()), x + ID_X_OFFSET * 2, y + ID_Y_OFFSET * 2, mIdPaint);
             canvas.drawText("left eye: " + String.format("%.2f", face.getIsLeftEyeOpenProbability()), x - ID_X_OFFSET * 2, y - ID_Y_OFFSET * 2, mIdPaint);
-
-            for (Landmark landmark : face.getLandmarks()) {
-                int cx = (int) (landmark.getPosition().x * scale);
-                int cy = (int) (landmark.getPosition().y * scale);
-                canvas.drawCircle(cx, cy, 10, paint);
-            }
 
             // Draws a bounding box around the face.
             float xOffset = scaleX(face.getWidth() / 2.0f);
@@ -216,14 +209,7 @@ class FaceGraphic extends GraphicOverlay.Graphic {
                 EventBus.getDefault().post(new EyeOpenEvent());
             }
         }
-        else{
 
-            float x = translateX(face.getPosition().x + face.getWidth() / 2);
-            float y = translateY(face.getPosition().y + face.getHeight() / 2);
-            canvas.drawText("Y: " + face.getEulerY(), x + ID_X_OFFSET, y + ID_Y_OFFSET, mIdPaint);
-            canvas.drawText("Z: " + face.getEulerZ(), x + ID_X_OFFSET, y + ID_Y_OFFSET, mIdPaint);
-        }
-    }
 
     }
 

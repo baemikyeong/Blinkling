@@ -1,5 +1,17 @@
 [
     {
+        "merged": "/Users/miso/capstone/app/build/intermediates/res/merged/debug/menu/menu_main.xml",
+        "source": "/Users/miso/capstone/app/src/main/res/menu/menu_main.xml"
+    },
+    {
+        "merged": "/Users/miso/capstone/app/build/intermediates/res/merged/debug/menu/floating_button.xml",
+        "source": "/Users/miso/capstone/app/src/main/res/menu/floating_button.xml"
+    },
+    {
+        "merged": "/Users/miso/capstone/app/build/intermediates/res/merged/debug/menu/bottom_menu.xml",
+        "source": "/Users/miso/capstone/app/src/main/res/menu/bottom_menu.xml"
+    },
+    {
         "merged": "/Users/miso/Blinkling/app/build/intermediates/res/merged/debug/menu/menu_main.xml",
         "source": "/Users/miso/Blinkling/app/src/main/res/menu/menu_main.xml"
     },

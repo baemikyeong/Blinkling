@@ -177,7 +177,7 @@
     <color name="colorExtra">#fffac1</color>
     <color name="colorGrey">#efefef</color>
     <color name="colorPrimary">#8f694a</color>
-    <color name="colorPrimaryDark">#8f694a</color>
+    <color name="colorPrimaryDark">#86664b</color>
     <color name="colorPrimaryLight">#8a3aaf</color>
     <color name="colorWhite">#ffffff</color>
     <color name="color_Back">#11fdf6bf</color>
@@ -1230,9 +1230,9 @@
         <!-- Customize your theme here. -->
         <item name="colorAccent">@color/colorPrimary</item>
         <item name="colorPrimary">@color/colorPrimary</item><!---->
-        <item name="colorPrimaryDark">#736262</item><!---->
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item><!---->
         <item name="colorControlNormal">@color/colorPrimary</item> <!--edittext's underline-->
-        <item name="colorControlActivated">#736262</item>
+        <item name="colorControlActivated">@color/colorPrimaryDark</item>
         <!--<item name="colorControlHighlight"></item>-->
      <!--   <item name="android:navigationBarColor"
             tools:targetApi="lollipop">#ffcdd5</item>-->

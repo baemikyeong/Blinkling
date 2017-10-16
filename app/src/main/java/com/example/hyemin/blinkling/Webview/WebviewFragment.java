@@ -66,6 +66,7 @@ public class WebviewFragment extends Fragment {
     String checkURL = null;
     private SharedPreferences intPref;
     Boolean eyesetting = true;
+    private int text_scroll_range;
 
     public WebviewFragment() {
     }
@@ -249,9 +250,27 @@ public class WebviewFragment extends Fragment {
         if(location[1] < 0)
             location[1] = (-1)*location[1];
 
+        int range = 200;
+
+        text_scroll_range = intPref.getInt("scroll_range", 1);
+        switch (text_scroll_range) {
+            case 1:
+                range = 200;
+                break;
+            case 2:
+                range = 300;
+                break;
+            case 3:
+                range = 400;
+                break;
+            case 4:
+                range = 500;
+                break;
+        }
+
         // 위치 변경
-        webView.scrollTo(0, location[1]+200);
-        location[1] += 200;
+        webView.scrollTo(0, location[1]+ range);
+        location[1] += range;
 
     }
 

@@ -4,44 +4,64 @@
         "source": "/Users/miso/.android/build-cache/f518a637222202e95c7ee16aa458e17e5c6c2ed1/output/res/anim/abc_shrink_fade_out_from_bottom.xml"
     },
     {
+        "merged": "/Users/miso/capstone/app/build/intermediates/res/merged/debug/anim/design_bottom_sheet_slide_in.xml",
+        "source": "/Users/miso/.android/build-cache/1c1cbc250abfe847ccef1096cd2ade5ac239822b/output/res/anim/design_bottom_sheet_slide_in.xml"
+    },
+    {
         "merged": "/Users/miso/Blinkling/app/build/intermediates/res/merged/debug/anim/abc_popup_enter.xml",
         "source": "/Users/miso/.android/build-cache/f518a637222202e95c7ee16aa458e17e5c6c2ed1/output/res/anim/abc_popup_enter.xml"
     },
     {
-        "merged": "/Users/miso/Blinkling/app/build/intermediates/res/merged/debug/anim/design_fab_out.xml",
-        "source": "/Users/miso/.android/build-cache/1c1cbc250abfe847ccef1096cd2ade5ac239822b/output/res/anim/design_fab_out.xml"
-    },
-    {
-        "merged": "/Users/miso/Blinkling/app/build/intermediates/res/merged/debug/anim/abc_slide_out_bottom.xml",
-        "source": "/Users/miso/.android/build-cache/f518a637222202e95c7ee16aa458e17e5c6c2ed1/output/res/anim/abc_slide_out_bottom.xml"
+        "merged": "/Users/miso/capstone/app/build/intermediates/res/merged/debug/anim/design_snackbar_out.xml",
+        "source": "/Users/miso/.android/build-cache/1c1cbc250abfe847ccef1096cd2ade5ac239822b/output/res/anim/design_snackbar_out.xml"
     },
     {
         "merged": "/Users/miso/Blinkling/app/build/intermediates/res/merged/debug/anim/design_bottom_sheet_slide_in.xml",
         "source": "/Users/miso/.android/build-cache/1c1cbc250abfe847ccef1096cd2ade5ac239822b/output/res/anim/design_bottom_sheet_slide_in.xml"
     },
     {
+        "merged": "/Users/miso/capstone/app/build/intermediates/res/merged/debug/anim/abc_grow_fade_in_from_bottom.xml",
+        "source": "/Users/miso/.android/build-cache/f518a637222202e95c7ee16aa458e17e5c6c2ed1/output/res/anim/abc_grow_fade_in_from_bottom.xml"
+    },
+    {
         "merged": "/Users/miso/Blinkling/app/build/intermediates/res/merged/debug/anim/abc_slide_in_bottom.xml",
         "source": "/Users/miso/.android/build-cache/f518a637222202e95c7ee16aa458e17e5c6c2ed1/output/res/anim/abc_slide_in_bottom.xml"
+    },
+    {
+        "merged": "/Users/miso/capstone/app/build/intermediates/res/merged/debug/anim/design_bottom_sheet_slide_out.xml",
+        "source": "/Users/miso/.android/build-cache/1c1cbc250abfe847ccef1096cd2ade5ac239822b/output/res/anim/design_bottom_sheet_slide_out.xml"
     },
     {
         "merged": "/Users/miso/Blinkling/app/build/intermediates/res/merged/debug/anim/abc_grow_fade_in_from_bottom.xml",
         "source": "/Users/miso/.android/build-cache/f518a637222202e95c7ee16aa458e17e5c6c2ed1/output/res/anim/abc_grow_fade_in_from_bottom.xml"
     },
     {
+        "merged": "/Users/miso/capstone/app/build/intermediates/res/merged/debug/anim/abc_slide_in_top.xml",
+        "source": "/Users/miso/.android/build-cache/f518a637222202e95c7ee16aa458e17e5c6c2ed1/output/res/anim/abc_slide_in_top.xml"
+    },
+    {
+        "merged": "/Users/miso/capstone/app/build/intermediates/res/merged/debug/anim/abc_slide_out_bottom.xml",
+        "source": "/Users/miso/.android/build-cache/f518a637222202e95c7ee16aa458e17e5c6c2ed1/output/res/anim/abc_slide_out_bottom.xml"
+    },
+    {
+        "merged": "/Users/miso/capstone/app/build/intermediates/res/merged/debug/anim/design_fab_in.xml",
+        "source": "/Users/miso/.android/build-cache/1c1cbc250abfe847ccef1096cd2ade5ac239822b/output/res/anim/design_fab_in.xml"
+    },
+    {
+        "merged": "/Users/miso/capstone/app/build/intermediates/res/merged/debug/anim/abc_popup_exit.xml",
+        "source": "/Users/miso/.android/build-cache/f518a637222202e95c7ee16aa458e17e5c6c2ed1/output/res/anim/abc_popup_exit.xml"
+    },
+    {
         "merged": "/Users/miso/Blinkling/app/build/intermediates/res/merged/debug/anim/design_bottom_sheet_slide_out.xml",
         "source": "/Users/miso/.android/build-cache/1c1cbc250abfe847ccef1096cd2ade5ac239822b/output/res/anim/design_bottom_sheet_slide_out.xml"
     },
     {
-        "merged": "/Users/miso/Blinkling/app/build/intermediates/res/merged/debug/anim/abc_slide_out_top.xml",
-        "source": "/Users/miso/.android/build-cache/f518a637222202e95c7ee16aa458e17e5c6c2ed1/output/res/anim/abc_slide_out_top.xml"
+        "merged": "/Users/miso/capstone/app/build/intermediates/res/merged/debug/anim/abc_fade_out.xml",
+        "source": "/Users/miso/.android/build-cache/f518a637222202e95c7ee16aa458e17e5c6c2ed1/output/res/anim/abc_fade_out.xml"
     },
     {
         "merged": "/Users/miso/Blinkling/app/build/intermediates/res/merged/debug/anim/abc_fade_out.xml",
         "source": "/Users/miso/.android/build-cache/f518a637222202e95c7ee16aa458e17e5c6c2ed1/output/res/anim/abc_fade_out.xml"
-    },
-    {
-        "merged": "/Users/miso/Blinkling/app/build/intermediates/res/merged/debug/anim/design_snackbar_in.xml",
-        "source": "/Users/miso/.android/build-cache/1c1cbc250abfe847ccef1096cd2ade5ac239822b/output/res/anim/design_snackbar_in.xml"
     },
     {
         "merged": "/Users/miso/Blinkling/app/build/intermediates/res/merged/debug/anim/abc_slide_in_top.xml",
@@ -52,6 +72,50 @@
         "source": "/Users/miso/.android/build-cache/f518a637222202e95c7ee16aa458e17e5c6c2ed1/output/res/anim/abc_fade_in.xml"
     },
     {
+        "merged": "/Users/miso/Blinkling/app/build/intermediates/res/merged/debug/anim/abc_popup_exit.xml",
+        "source": "/Users/miso/.android/build-cache/f518a637222202e95c7ee16aa458e17e5c6c2ed1/output/res/anim/abc_popup_exit.xml"
+    },
+    {
+        "merged": "/Users/miso/Blinkling/app/build/intermediates/res/merged/debug/anim/design_fab_out.xml",
+        "source": "/Users/miso/.android/build-cache/1c1cbc250abfe847ccef1096cd2ade5ac239822b/output/res/anim/design_fab_out.xml"
+    },
+    {
+        "merged": "/Users/miso/capstone/app/build/intermediates/res/merged/debug/anim/abc_slide_in_bottom.xml",
+        "source": "/Users/miso/.android/build-cache/f518a637222202e95c7ee16aa458e17e5c6c2ed1/output/res/anim/abc_slide_in_bottom.xml"
+    },
+    {
+        "merged": "/Users/miso/Blinkling/app/build/intermediates/res/merged/debug/anim/abc_slide_out_bottom.xml",
+        "source": "/Users/miso/.android/build-cache/f518a637222202e95c7ee16aa458e17e5c6c2ed1/output/res/anim/abc_slide_out_bottom.xml"
+    },
+    {
+        "merged": "/Users/miso/capstone/app/build/intermediates/res/merged/debug/anim/abc_popup_enter.xml",
+        "source": "/Users/miso/.android/build-cache/f518a637222202e95c7ee16aa458e17e5c6c2ed1/output/res/anim/abc_popup_enter.xml"
+    },
+    {
+        "merged": "/Users/miso/capstone/app/build/intermediates/res/merged/debug/anim/abc_fade_in.xml",
+        "source": "/Users/miso/.android/build-cache/f518a637222202e95c7ee16aa458e17e5c6c2ed1/output/res/anim/abc_fade_in.xml"
+    },
+    {
+        "merged": "/Users/miso/capstone/app/build/intermediates/res/merged/debug/anim/design_fab_out.xml",
+        "source": "/Users/miso/.android/build-cache/1c1cbc250abfe847ccef1096cd2ade5ac239822b/output/res/anim/design_fab_out.xml"
+    },
+    {
+        "merged": "/Users/miso/capstone/app/build/intermediates/res/merged/debug/anim/abc_slide_out_top.xml",
+        "source": "/Users/miso/.android/build-cache/f518a637222202e95c7ee16aa458e17e5c6c2ed1/output/res/anim/abc_slide_out_top.xml"
+    },
+    {
+        "merged": "/Users/miso/capstone/app/build/intermediates/res/merged/debug/anim/design_snackbar_in.xml",
+        "source": "/Users/miso/.android/build-cache/1c1cbc250abfe847ccef1096cd2ade5ac239822b/output/res/anim/design_snackbar_in.xml"
+    },
+    {
+        "merged": "/Users/miso/Blinkling/app/build/intermediates/res/merged/debug/anim/abc_slide_out_top.xml",
+        "source": "/Users/miso/.android/build-cache/f518a637222202e95c7ee16aa458e17e5c6c2ed1/output/res/anim/abc_slide_out_top.xml"
+    },
+    {
+        "merged": "/Users/miso/Blinkling/app/build/intermediates/res/merged/debug/anim/design_snackbar_in.xml",
+        "source": "/Users/miso/.android/build-cache/1c1cbc250abfe847ccef1096cd2ade5ac239822b/output/res/anim/design_snackbar_in.xml"
+    },
+    {
         "merged": "/Users/miso/Blinkling/app/build/intermediates/res/merged/debug/anim/design_snackbar_out.xml",
         "source": "/Users/miso/.android/build-cache/1c1cbc250abfe847ccef1096cd2ade5ac239822b/output/res/anim/design_snackbar_out.xml"
     },
@@ -60,7 +124,7 @@
         "source": "/Users/miso/.android/build-cache/1c1cbc250abfe847ccef1096cd2ade5ac239822b/output/res/anim/design_fab_in.xml"
     },
     {
-        "merged": "/Users/miso/Blinkling/app/build/intermediates/res/merged/debug/anim/abc_popup_exit.xml",
-        "source": "/Users/miso/.android/build-cache/f518a637222202e95c7ee16aa458e17e5c6c2ed1/output/res/anim/abc_popup_exit.xml"
+        "merged": "/Users/miso/capstone/app/build/intermediates/res/merged/debug/anim/abc_shrink_fade_out_from_bottom.xml",
+        "source": "/Users/miso/.android/build-cache/f518a637222202e95c7ee16aa458e17e5c6c2ed1/output/res/anim/abc_shrink_fade_out_from_bottom.xml"
     }
 ]

@@ -1,11 +1,31 @@
 [
     {
+        "merged": "/Users/miso/capstone/app/build/intermediates/res/merged/debug/layout-v21/notification_template_icon_group.xml",
+        "source": "/Users/miso/.android/build-cache/f518a637222202e95c7ee16aa458e17e5c6c2ed1/output/res/layout-v21/notification_template_icon_group.xml"
+    },
+    {
         "merged": "/Users/miso/Blinkling/app/build/intermediates/res/merged/debug/layout-v21/notification_action_tombstone.xml",
+        "source": "/Users/miso/.android/build-cache/f518a637222202e95c7ee16aa458e17e5c6c2ed1/output/res/layout-v21/notification_action_tombstone.xml"
+    },
+    {
+        "merged": "/Users/miso/capstone/app/build/intermediates/res/merged/debug/layout-v21/notification_action_tombstone.xml",
         "source": "/Users/miso/.android/build-cache/f518a637222202e95c7ee16aa458e17e5c6c2ed1/output/res/layout-v21/notification_action_tombstone.xml"
     },
     {
         "merged": "/Users/miso/Blinkling/app/build/intermediates/res/merged/debug/layout-v21/notification_template_custom_big.xml",
         "source": "/Users/miso/.android/build-cache/f518a637222202e95c7ee16aa458e17e5c6c2ed1/output/res/layout-v21/notification_template_custom_big.xml"
+    },
+    {
+        "merged": "/Users/miso/capstone/app/build/intermediates/res/merged/debug/layout-v21/notification_template_custom_big.xml",
+        "source": "/Users/miso/.android/build-cache/f518a637222202e95c7ee16aa458e17e5c6c2ed1/output/res/layout-v21/notification_template_custom_big.xml"
+    },
+    {
+        "merged": "/Users/miso/capstone/app/build/intermediates/res/merged/debug/layout-v21/notification_action.xml",
+        "source": "/Users/miso/.android/build-cache/f518a637222202e95c7ee16aa458e17e5c6c2ed1/output/res/layout-v21/notification_action.xml"
+    },
+    {
+        "merged": "/Users/miso/capstone/app/build/intermediates/res/merged/debug/layout-v21/place_autocomplete_fragment.xml",
+        "source": "/Users/miso/.android/build-cache/3246c5d7fe51547e150062effadac18210e53e30/output/res/layout-v21/place_autocomplete_fragment.xml"
     },
     {
         "merged": "/Users/miso/Blinkling/app/build/intermediates/res/merged/debug/layout-v21/notification_template_icon_group.xml",

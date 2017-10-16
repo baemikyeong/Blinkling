@@ -4,7 +4,15 @@
         "source": "/Users/miso/.android/build-cache/f518a637222202e95c7ee16aa458e17e5c6c2ed1/output/res/color-v11/abc_background_cache_hint_selector_material_light.xml"
     },
     {
+        "merged": "/Users/miso/capstone/app/build/intermediates/res/merged/debug/color-v11/abc_background_cache_hint_selector_material_light.xml",
+        "source": "/Users/miso/.android/build-cache/f518a637222202e95c7ee16aa458e17e5c6c2ed1/output/res/color-v11/abc_background_cache_hint_selector_material_light.xml"
+    },
+    {
         "merged": "/Users/miso/Blinkling/app/build/intermediates/res/merged/debug/color-v11/abc_background_cache_hint_selector_material_dark.xml",
+        "source": "/Users/miso/.android/build-cache/f518a637222202e95c7ee16aa458e17e5c6c2ed1/output/res/color-v11/abc_background_cache_hint_selector_material_dark.xml"
+    },
+    {
+        "merged": "/Users/miso/capstone/app/build/intermediates/res/merged/debug/color-v11/abc_background_cache_hint_selector_material_dark.xml",
         "source": "/Users/miso/.android/build-cache/f518a637222202e95c7ee16aa458e17e5c6c2ed1/output/res/color-v11/abc_background_cache_hint_selector_material_dark.xml"
     }
 ]

@@ -1,15 +1,15 @@
 [
     {
-        "merged": "/Users/miso/Blinkling/app/build/intermediates/res/merged/debug/drawable-mdpi/bookshelf2.png",
-        "source": "/Users/miso/Blinkling/app/src/main/res/drawable-mdpi/bookshelf2.png"
+        "merged": "/Users/miso/capstone/app/build/intermediates/res/merged/debug/drawable-mdpi/ic_web_default.png",
+        "source": "/Users/miso/capstone/app/src/main/res/drawable-mdpi/ic_web_default.png"
     },
     {
         "merged": "/Users/miso/Blinkling/app/build/intermediates/res/merged/debug/drawable-mdpi/ic_details.png",
         "source": "/Users/miso/Blinkling/app/src/main/res/drawable-mdpi/ic_details.png"
     },
     {
-        "merged": "/Users/miso/Blinkling/app/build/intermediates/res/merged/debug/drawable-mdpi/ic_mic_pressed_on.png",
-        "source": "/Users/miso/Blinkling/app/src/main/res/drawable-mdpi/ic_mic_pressed_on.png"
+        "merged": "/Users/miso/capstone/app/build/intermediates/res/merged/debug/drawable-mdpi/ic_mic_pressed.png",
+        "source": "/Users/miso/capstone/app/src/main/res/drawable-mdpi/ic_mic_pressed.png"
     },
     {
         "merged": "/Users/miso/Blinkling/app/build/intermediates/res/merged/debug/drawable-mdpi/ic_mic_brown.png",
@@ -18,6 +18,158 @@
     {
         "merged": "/Users/miso/Blinkling/app/build/intermediates/res/merged/debug/drawable-mdpi/ic_browser_default.png",
         "source": "/Users/miso/Blinkling/app/src/main/res/drawable-mdpi/ic_browser_default.png"
+    },
+    {
+        "merged": "/Users/miso/capstone/app/build/intermediates/res/merged/debug/drawable-mdpi/ic_mybookmark_pressed.png",
+        "source": "/Users/miso/capstone/app/src/main/res/drawable-mdpi/ic_mybookmark_pressed.png"
+    },
+    {
+        "merged": "/Users/miso/capstone/app/build/intermediates/res/merged/debug/drawable-mdpi/ic_mic_brown.png",
+        "source": "/Users/miso/capstone/app/src/main/res/drawable-mdpi/ic_mic_brown.png"
+    },
+    {
+        "merged": "/Users/miso/capstone/app/build/intermediates/res/merged/debug/drawable-mdpi/bookshelf2.png",
+        "source": "/Users/miso/capstone/app/src/main/res/drawable-mdpi/bookshelf2.png"
+    },
+    {
+        "merged": "/Users/miso/Blinkling/app/build/intermediates/res/merged/debug/drawable-mdpi/ic_web_default.png",
+        "source": "/Users/miso/Blinkling/app/src/main/res/drawable-mdpi/ic_web_default.png"
+    },
+    {
+        "merged": "/Users/miso/Blinkling/app/build/intermediates/res/merged/debug/drawable-mdpi/ic_mybookmark_pressed.png",
+        "source": "/Users/miso/Blinkling/app/src/main/res/drawable-mdpi/ic_mybookmark_pressed.png"
+    },
+    {
+        "merged": "/Users/miso/capstone/app/build/intermediates/res/merged/debug/drawable-mdpi/ic_settings_default.png",
+        "source": "/Users/miso/capstone/app/src/main/res/drawable-mdpi/ic_settings_default.png"
+    },
+    {
+        "merged": "/Users/miso/capstone/app/build/intermediates/res/merged/debug/drawable-mdpi/ic_bookmark_default.png",
+        "source": "/Users/miso/capstone/app/src/main/res/drawable-mdpi/ic_bookmark_default.png"
+    },
+    {
+        "merged": "/Users/miso/Blinkling/app/build/intermediates/res/merged/debug/drawable-mdpi/ic_mic_default.png",
+        "source": "/Users/miso/Blinkling/app/src/main/res/drawable-mdpi/ic_mic_default.png"
+    },
+    {
+        "merged": "/Users/miso/capstone/app/build/intermediates/res/merged/debug/drawable-mdpi/ic_bluelight_pressed.png",
+        "source": "/Users/miso/capstone/app/src/main/res/drawable-mdpi/ic_bluelight_pressed.png"
+    },
+    {
+        "merged": "/Users/miso/capstone/app/build/intermediates/res/merged/debug/drawable-mdpi/bookshlef1.png",
+        "source": "/Users/miso/capstone/app/src/main/res/drawable-mdpi/bookshlef1.png"
+    },
+    {
+        "merged": "/Users/miso/capstone/app/build/intermediates/res/merged/debug/drawable-mdpi/ic_web_pressed.png",
+        "source": "/Users/miso/capstone/app/src/main/res/drawable-mdpi/ic_web_pressed.png"
+    },
+    {
+        "merged": "/Users/miso/capstone/app/build/intermediates/res/merged/debug/drawable-mdpi/ic_delete_default.png",
+        "source": "/Users/miso/capstone/app/src/main/res/drawable-mdpi/ic_delete_default.png"
+    },
+    {
+        "merged": "/Users/miso/capstone/app/build/intermediates/res/merged/debug/drawable-mdpi/ic_customizing_default.png",
+        "source": "/Users/miso/capstone/app/src/main/res/drawable-mdpi/ic_customizing_default.png"
+    },
+    {
+        "merged": "/Users/miso/capstone/app/build/intermediates/res/merged/debug/drawable-mdpi/ic_back_default.png",
+        "source": "/Users/miso/capstone/app/src/main/res/drawable-mdpi/ic_back_default.png"
+    },
+    {
+        "merged": "/Users/miso/capstone/app/build/intermediates/res/merged/debug/drawable-mdpi/ic_book_default.png",
+        "source": "/Users/miso/capstone/app/src/main/res/drawable-mdpi/ic_book_default.png"
+    },
+    {
+        "merged": "/Users/miso/Blinkling/app/build/intermediates/res/merged/debug/drawable-mdpi/ic_search_white_default.png",
+        "source": "/Users/miso/Blinkling/app/src/main/res/drawable-mdpi/ic_search_white_default.png"
+    },
+    {
+        "merged": "/Users/miso/capstone/app/build/intermediates/res/merged/debug/drawable-mdpi/ic_mybookmark_default.png",
+        "source": "/Users/miso/capstone/app/src/main/res/drawable-mdpi/ic_mybookmark_default.png"
+    },
+    {
+        "merged": "/Users/miso/Blinkling/app/build/intermediates/res/merged/debug/drawable-mdpi/splash.png",
+        "source": "/Users/miso/Blinkling/app/src/main/res/drawable-mdpi/splash.png"
+    },
+    {
+        "merged": "/Users/miso/Blinkling/app/build/intermediates/res/merged/debug/drawable-mdpi/ic_mybookmark_default.png",
+        "source": "/Users/miso/Blinkling/app/src/main/res/drawable-mdpi/ic_mybookmark_default.png"
+    },
+    {
+        "merged": "/Users/miso/capstone/app/build/intermediates/res/merged/debug/drawable-mdpi/ic_search_white_default.png",
+        "source": "/Users/miso/capstone/app/src/main/res/drawable-mdpi/ic_search_white_default.png"
+    },
+    {
+        "merged": "/Users/miso/capstone/app/build/intermediates/res/merged/debug/drawable-mdpi/ic_page_default.png",
+        "source": "/Users/miso/capstone/app/src/main/res/drawable-mdpi/ic_page_default.png"
+    },
+    {
+        "merged": "/Users/miso/capstone/app/build/intermediates/res/merged/debug/drawable-mdpi/ic_details.png",
+        "source": "/Users/miso/capstone/app/src/main/res/drawable-mdpi/ic_details.png"
+    },
+    {
+        "merged": "/Users/miso/Blinkling/app/build/intermediates/res/merged/debug/drawable-mdpi/ic_bookmark_pressed.png",
+        "source": "/Users/miso/Blinkling/app/src/main/res/drawable-mdpi/ic_bookmark_pressed.png"
+    },
+    {
+        "merged": "/Users/miso/Blinkling/app/build/intermediates/res/merged/debug/drawable-mdpi/ic_bluelight_default.png",
+        "source": "/Users/miso/Blinkling/app/src/main/res/drawable-mdpi/ic_bluelight_default.png"
+    },
+    {
+        "merged": "/Users/miso/Blinkling/app/build/intermediates/res/merged/debug/drawable-mdpi/ic_play_circle_filled_black_24dp.png",
+        "source": "/Users/miso/Blinkling/app/src/main/res/drawable-mdpi/ic_play_circle_filled_black_24dp.png"
+    },
+    {
+        "merged": "/Users/miso/Blinkling/app/build/intermediates/res/merged/debug/drawable-mdpi/ic_left_default.png",
+        "source": "/Users/miso/Blinkling/app/src/main/res/drawable-mdpi/ic_left_default.png"
+    },
+    {
+        "merged": "/Users/miso/Blinkling/app/build/intermediates/res/merged/debug/drawable-mdpi/ic_eye_pressed.png",
+        "source": "/Users/miso/Blinkling/app/src/main/res/drawable-mdpi/ic_eye_pressed.png"
+    },
+    {
+        "merged": "/Users/miso/Blinkling/app/build/intermediates/res/merged/debug/drawable-mdpi/ic_customizing_default.png",
+        "source": "/Users/miso/Blinkling/app/src/main/res/drawable-mdpi/ic_customizing_default.png"
+    },
+    {
+        "merged": "/Users/miso/Blinkling/app/build/intermediates/res/merged/debug/drawable-mdpi/ic_delete_default.png",
+        "source": "/Users/miso/Blinkling/app/src/main/res/drawable-mdpi/ic_delete_default.png"
+    },
+    {
+        "merged": "/Users/miso/Blinkling/app/build/intermediates/res/merged/debug/drawable-mdpi/bookshlef1.png",
+        "source": "/Users/miso/Blinkling/app/src/main/res/drawable-mdpi/bookshlef1.png"
+    },
+    {
+        "merged": "/Users/miso/capstone/app/build/intermediates/res/merged/debug/drawable-mdpi/ic_settings_pressed.png",
+        "source": "/Users/miso/capstone/app/src/main/res/drawable-mdpi/ic_settings_pressed.png"
+    },
+    {
+        "merged": "/Users/miso/Blinkling/app/build/intermediates/res/merged/debug/drawable-mdpi/bookshelf2.png",
+        "source": "/Users/miso/Blinkling/app/src/main/res/drawable-mdpi/bookshelf2.png"
+    },
+    {
+        "merged": "/Users/miso/capstone/app/build/intermediates/res/merged/debug/drawable-mdpi/ic_bluelight_default.png",
+        "source": "/Users/miso/capstone/app/src/main/res/drawable-mdpi/ic_bluelight_default.png"
+    },
+    {
+        "merged": "/Users/miso/capstone/app/build/intermediates/res/merged/debug/drawable-mdpi/ic_mic_pressed_on.png",
+        "source": "/Users/miso/capstone/app/src/main/res/drawable-mdpi/ic_mic_pressed_on.png"
+    },
+    {
+        "merged": "/Users/miso/capstone/app/build/intermediates/res/merged/debug/drawable-mdpi/ic_eye_default.png",
+        "source": "/Users/miso/capstone/app/src/main/res/drawable-mdpi/ic_eye_default.png"
+    },
+    {
+        "merged": "/Users/miso/Blinkling/app/build/intermediates/res/merged/debug/drawable-mdpi/ic_mic_pressed_on.png",
+        "source": "/Users/miso/Blinkling/app/src/main/res/drawable-mdpi/ic_mic_pressed_on.png"
+    },
+    {
+        "merged": "/Users/miso/capstone/app/build/intermediates/res/merged/debug/drawable-mdpi/ic_book_pressed.png",
+        "source": "/Users/miso/capstone/app/src/main/res/drawable-mdpi/ic_book_pressed.png"
+    },
+    {
+        "merged": "/Users/miso/capstone/app/build/intermediates/res/merged/debug/drawable-mdpi/bookshlef3.png",
+        "source": "/Users/miso/capstone/app/src/main/res/drawable-mdpi/bookshlef3.png"
     },
     {
         "merged": "/Users/miso/Blinkling/app/build/intermediates/res/merged/debug/drawable-mdpi/ic_back_default.png",
@@ -32,16 +184,8 @@
         "source": "/Users/miso/Blinkling/app/src/main/res/drawable-mdpi/ic_book_default.png"
     },
     {
-        "merged": "/Users/miso/Blinkling/app/build/intermediates/res/merged/debug/drawable-mdpi/ic_web_default.png",
-        "source": "/Users/miso/Blinkling/app/src/main/res/drawable-mdpi/ic_web_default.png"
-    },
-    {
         "merged": "/Users/miso/Blinkling/app/build/intermediates/res/merged/debug/drawable-mdpi/ic_eye_default.png",
         "source": "/Users/miso/Blinkling/app/src/main/res/drawable-mdpi/ic_eye_default.png"
-    },
-    {
-        "merged": "/Users/miso/Blinkling/app/build/intermediates/res/merged/debug/drawable-mdpi/ic_mybookmark_pressed.png",
-        "source": "/Users/miso/Blinkling/app/src/main/res/drawable-mdpi/ic_mybookmark_pressed.png"
     },
     {
         "merged": "/Users/miso/Blinkling/app/build/intermediates/res/merged/debug/drawable-mdpi/ic_bookmark_default.png",
@@ -52,79 +196,67 @@
         "source": "/Users/miso/Blinkling/app/src/main/res/drawable-mdpi/ic_settings_default.png"
     },
     {
-        "merged": "/Users/miso/Blinkling/app/build/intermediates/res/merged/debug/drawable-mdpi/ic_mic_default.png",
-        "source": "/Users/miso/Blinkling/app/src/main/res/drawable-mdpi/ic_mic_default.png"
-    },
-    {
         "merged": "/Users/miso/Blinkling/app/build/intermediates/res/merged/debug/drawable-mdpi/ic_page_default.png",
         "source": "/Users/miso/Blinkling/app/src/main/res/drawable-mdpi/ic_page_default.png"
+    },
+    {
+        "merged": "/Users/miso/capstone/app/build/intermediates/res/merged/debug/drawable-mdpi/ic_play_circle_filled_black_24dp.png",
+        "source": "/Users/miso/capstone/app/src/main/res/drawable-mdpi/ic_play_circle_filled_black_24dp.png"
     },
     {
         "merged": "/Users/miso/Blinkling/app/build/intermediates/res/merged/debug/drawable-mdpi/bookshlef3.png",
         "source": "/Users/miso/Blinkling/app/src/main/res/drawable-mdpi/bookshlef3.png"
     },
     {
-        "merged": "/Users/miso/Blinkling/app/build/intermediates/res/merged/debug/drawable-mdpi/ic_search_white_default.png",
-        "source": "/Users/miso/Blinkling/app/src/main/res/drawable-mdpi/ic_search_white_default.png"
+        "merged": "/Users/miso/capstone/app/build/intermediates/res/merged/debug/drawable-mdpi/ic_browser_default.png",
+        "source": "/Users/miso/capstone/app/src/main/res/drawable-mdpi/ic_browser_default.png"
     },
     {
-        "merged": "/Users/miso/Blinkling/app/build/intermediates/res/merged/debug/drawable-mdpi/splash.png",
-        "source": "/Users/miso/Blinkling/app/src/main/res/drawable-mdpi/splash.png"
+        "merged": "/Users/miso/capstone/app/build/intermediates/res/merged/debug/drawable-mdpi/ic_format_line_spacing_white_24dp.png",
+        "source": "/Users/miso/capstone/app/src/main/res/drawable-mdpi/ic_format_line_spacing_white_24dp.png"
     },
     {
-        "merged": "/Users/miso/Blinkling/app/build/intermediates/res/merged/debug/drawable-mdpi/ic_mybookmark_default.png",
-        "source": "/Users/miso/Blinkling/app/src/main/res/drawable-mdpi/ic_mybookmark_default.png"
+        "merged": "/Users/miso/capstone/app/build/intermediates/res/merged/debug/drawable-mdpi/ic_search_default.png",
+        "source": "/Users/miso/capstone/app/src/main/res/drawable-mdpi/ic_search_default.png"
+    },
+    {
+        "merged": "/Users/miso/capstone/app/build/intermediates/res/merged/debug/drawable-mdpi/ic_mic_default.png",
+        "source": "/Users/miso/capstone/app/src/main/res/drawable-mdpi/ic_mic_default.png"
     },
     {
         "merged": "/Users/miso/Blinkling/app/build/intermediates/res/merged/debug/drawable-mdpi/ic_web_pressed.png",
         "source": "/Users/miso/Blinkling/app/src/main/res/drawable-mdpi/ic_web_pressed.png"
     },
     {
-        "merged": "/Users/miso/Blinkling/app/build/intermediates/res/merged/debug/drawable-mdpi/ic_bookmark_pressed.png",
-        "source": "/Users/miso/Blinkling/app/src/main/res/drawable-mdpi/ic_bookmark_pressed.png"
-    },
-    {
-        "merged": "/Users/miso/Blinkling/app/build/intermediates/res/merged/debug/drawable-mdpi/ic_bluelight_default.png",
-        "source": "/Users/miso/Blinkling/app/src/main/res/drawable-mdpi/ic_bluelight_default.png"
-    },
-    {
         "merged": "/Users/miso/Blinkling/app/build/intermediates/res/merged/debug/drawable-mdpi/ic_book_pressed.png",
         "source": "/Users/miso/Blinkling/app/src/main/res/drawable-mdpi/ic_book_pressed.png"
     },
     {
-        "merged": "/Users/miso/Blinkling/app/build/intermediates/res/merged/debug/drawable-mdpi/ic_play_circle_filled_black_24dp.png",
-        "source": "/Users/miso/Blinkling/app/src/main/res/drawable-mdpi/ic_play_circle_filled_black_24dp.png"
-    },
-    {
-        "merged": "/Users/miso/Blinkling/app/build/intermediates/res/merged/debug/drawable-mdpi/ic_left_default.png",
-        "source": "/Users/miso/Blinkling/app/src/main/res/drawable-mdpi/ic_left_default.png"
+        "merged": "/Users/miso/capstone/app/build/intermediates/res/merged/debug/drawable-mdpi/ic_eye_pressed.png",
+        "source": "/Users/miso/capstone/app/src/main/res/drawable-mdpi/ic_eye_pressed.png"
     },
     {
         "merged": "/Users/miso/Blinkling/app/build/intermediates/res/merged/debug/drawable-mdpi/ic_settings_pressed.png",
         "source": "/Users/miso/Blinkling/app/src/main/res/drawable-mdpi/ic_settings_pressed.png"
     },
     {
-        "merged": "/Users/miso/Blinkling/app/build/intermediates/res/merged/debug/drawable-mdpi/ic_eye_pressed.png",
-        "source": "/Users/miso/Blinkling/app/src/main/res/drawable-mdpi/ic_eye_pressed.png"
+        "merged": "/Users/miso/capstone/app/build/intermediates/res/merged/debug/drawable-mdpi/ic_bookmark_pressed.png",
+        "source": "/Users/miso/capstone/app/src/main/res/drawable-mdpi/ic_bookmark_pressed.png"
     },
     {
         "merged": "/Users/miso/Blinkling/app/build/intermediates/res/merged/debug/drawable-mdpi/ic_search_default.png",
         "source": "/Users/miso/Blinkling/app/src/main/res/drawable-mdpi/ic_search_default.png"
     },
     {
-        "merged": "/Users/miso/Blinkling/app/build/intermediates/res/merged/debug/drawable-mdpi/ic_customizing_default.png",
-        "source": "/Users/miso/Blinkling/app/src/main/res/drawable-mdpi/ic_customizing_default.png"
+        "merged": "/Users/miso/capstone/app/build/intermediates/res/merged/debug/drawable-mdpi/splash.png",
+        "source": "/Users/miso/capstone/app/src/main/res/drawable-mdpi/splash.png"
     },
     {
         "merged": "/Users/miso/Blinkling/app/build/intermediates/res/merged/debug/drawable-mdpi/ic_mic_pressed.png",
         "source": "/Users/miso/Blinkling/app/src/main/res/drawable-mdpi/ic_mic_pressed.png"
     },
     {
-        "merged": "/Users/miso/Blinkling/app/build/intermediates/res/merged/debug/drawable-mdpi/ic_delete_default.png",
-        "source": "/Users/miso/Blinkling/app/src/main/res/drawable-mdpi/ic_delete_default.png"
-    },
-    {
-        "merged": "/Users/miso/Blinkling/app/build/intermediates/res/merged/debug/drawable-mdpi/bookshlef1.png",
-        "source": "/Users/miso/Blinkling/app/src/main/res/drawable-mdpi/bookshlef1.png"
+        "merged": "/Users/miso/capstone/app/build/intermediates/res/merged/debug/drawable-mdpi/ic_left_default.png",
+        "source": "/Users/miso/capstone/app/src/main/res/drawable-mdpi/ic_left_default.png"
     }
 ]
