@@ -40,24 +40,24 @@
         "source": "/Users/miso/capstone/app/src/main/res/drawable-xxhdpi/ic_format_line_spacing_white_24dp.png"
     },
     {
-        "merged": "/Users/miso/Blinkling/app/build/intermediates/res/merged/debug/drawable-xxhdpi/ic_eye_default.png",
-        "source": "/Users/miso/Blinkling/app/src/main/res/drawable-xxhdpi/ic_eye_default.png"
+        "merged": "/Users/miso/capstone/app/build/intermediates/res/merged/debug/drawable-xxhdpi/ic_settings_default.png",
+        "source": "/Users/miso/capstone/app/src/main/res/drawable-xxhdpi/ic_settings_default.png"
     },
     {
         "merged": "/Users/miso/capstone/app/build/intermediates/res/merged/debug/drawable-xxhdpi/ic_bluelight_default.png",
         "source": "/Users/miso/capstone/app/src/main/res/drawable-xxhdpi/ic_bluelight_default.png"
     },
     {
-        "merged": "/Users/miso/capstone/app/build/intermediates/res/merged/debug/drawable-xxhdpi/ic_settings_default.png",
-        "source": "/Users/miso/capstone/app/src/main/res/drawable-xxhdpi/ic_settings_default.png"
-    },
-    {
-        "merged": "/Users/miso/capstone/app/build/intermediates/res/merged/debug/drawable-xxhdpi/ic_browser_default.png",
-        "source": "/Users/miso/capstone/app/src/main/res/drawable-xxhdpi/ic_browser_default.png"
+        "merged": "/Users/miso/Blinkling/app/build/intermediates/res/merged/debug/drawable-xxhdpi/ic_eye_default.png",
+        "source": "/Users/miso/Blinkling/app/src/main/res/drawable-xxhdpi/ic_eye_default.png"
     },
     {
         "merged": "/Users/miso/capstone/app/build/intermediates/res/merged/debug/drawable-xxhdpi/ic_left_default.png",
         "source": "/Users/miso/capstone/app/src/main/res/drawable-xxhdpi/ic_left_default.png"
+    },
+    {
+        "merged": "/Users/miso/capstone/app/build/intermediates/res/merged/debug/drawable-xxhdpi/ic_browser_default.png",
+        "source": "/Users/miso/capstone/app/src/main/res/drawable-xxhdpi/ic_browser_default.png"
     },
     {
         "merged": "/Users/miso/capstone/app/build/intermediates/res/merged/debug/drawable-xxhdpi/ic_mic_pressed.png",

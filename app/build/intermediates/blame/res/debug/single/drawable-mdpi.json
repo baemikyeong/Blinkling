@@ -36,12 +36,12 @@
         "source": "/Users/miso/Blinkling/app/src/main/res/drawable-mdpi/ic_web_default.png"
     },
     {
-        "merged": "/Users/miso/Blinkling/app/build/intermediates/res/merged/debug/drawable-mdpi/ic_mybookmark_pressed.png",
-        "source": "/Users/miso/Blinkling/app/src/main/res/drawable-mdpi/ic_mybookmark_pressed.png"
-    },
-    {
         "merged": "/Users/miso/capstone/app/build/intermediates/res/merged/debug/drawable-mdpi/ic_settings_default.png",
         "source": "/Users/miso/capstone/app/src/main/res/drawable-mdpi/ic_settings_default.png"
+    },
+    {
+        "merged": "/Users/miso/Blinkling/app/build/intermediates/res/merged/debug/drawable-mdpi/ic_mybookmark_pressed.png",
+        "source": "/Users/miso/Blinkling/app/src/main/res/drawable-mdpi/ic_mybookmark_pressed.png"
     },
     {
         "merged": "/Users/miso/capstone/app/build/intermediates/res/merged/debug/drawable-mdpi/ic_bookmark_default.png",

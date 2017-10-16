@@ -64,12 +64,12 @@
         "source": "/Users/miso/Blinkling/app/src/main/res/drawable-xhdpi/splash.png"
     },
     {
-        "merged": "/Users/miso/Blinkling/app/build/intermediates/res/merged/debug/drawable-xhdpi/ic_mic_pressed_on.png",
-        "source": "/Users/miso/Blinkling/app/src/main/res/drawable-xhdpi/ic_mic_pressed_on.png"
-    },
-    {
         "merged": "/Users/miso/Blinkling/app/build/intermediates/res/merged/debug/drawable-xhdpi/ic_eye_default.png",
         "source": "/Users/miso/Blinkling/app/src/main/res/drawable-xhdpi/ic_eye_default.png"
+    },
+    {
+        "merged": "/Users/miso/Blinkling/app/build/intermediates/res/merged/debug/drawable-xhdpi/ic_mic_pressed_on.png",
+        "source": "/Users/miso/Blinkling/app/src/main/res/drawable-xhdpi/ic_mic_pressed_on.png"
     },
     {
         "merged": "/Users/miso/capstone/app/build/intermediates/res/merged/debug/drawable-xhdpi/ic_mic_default.png",
