@@ -25,12 +25,15 @@
             android:id="@+id/tv_title"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="5dp"
-            android:layout_marginTop="5dp"
             android:layout_weight="2"
             android:gravity="center_vertical"
+            android:textColor="@color/primaryTextColor"
+            android:textSize="18sp"
+            android:layout_marginTop="10dp"/>
+=======
             android:textColor="#313131"
             android:textSize="18sp" />
+>>>>>>> 146bf05581494382b84aba7c4fd2d4f0835382b0
 
 
         <TextView

@@ -28,6 +28,7 @@ import android.support.design.widget.Snackbar;
 import android.support.v4.app.ActivityCompat;
 import android.util.Log;
 import android.view.View;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import com.example.hyemin.blinkling.camera.CameraSourcePreview;
@@ -87,12 +88,14 @@ public final class Face_Activity extends Activity {
 
     private SharedPreferences intPref;
     private SharedPreferences.Editor editor1;
+    private TextView tx1;
 
     long indivisual_blink_time;
     boolean startChecked = false;
     int starttimecheck = 100;
     long startTime = 0, endTime = 0;
     static int time = 1000;
+    public int auto_start=1;
     //==============================================================================================
     // Activity Methods
     //==============================================================================================
@@ -104,6 +107,9 @@ public final class Face_Activity extends Activity {
     public void onCreate(Bundle icicle) {
         super.onCreate(icicle);
         setContentView(R.layout.main);
+
+
+        // tx1 = (TextView)findViewById(R.id.num);
 
         PlayServicesUtil.isPlayServicesAvailable(this, 69);
 
@@ -118,6 +124,7 @@ public final class Face_Activity extends Activity {
         intPref = getSharedPreferences("mPred", Activity.MODE_PRIVATE);
         editor1 = intPref.edit();
 
+       // checking = 0;
         // Check for the camera permission before accessing the camera.  If the
         // permission is not granted yet, request permission.
         int rc = ActivityCompat.checkSelfPermission(this, Manifest.permission.CAMERA);
@@ -126,16 +133,19 @@ public final class Face_Activity extends Activity {
         } else {
             requestCameraPermission();
         }
+        auto_start = 2;
+
+    /*    if(checking == 0) {
+            Intent intent = new Intent(Face_Activity.this, Popup_Information_Activity.class);
+            startActivity(intent);
+            checking = 1;
+        }*/
 
     }
 
     public void start_init(){
         Toast.makeText(this, "눈 크기 측정을 3초 후에 시작합니다. 눈을 감아주세요", Toast.LENGTH_SHORT).show();
-        try {
-            sleep(3000);
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
+
         try {
             onClickInit(getCurrentFocus());
         } catch (InterruptedException e) {
@@ -154,11 +164,13 @@ public final class Face_Activity extends Activity {
         }
 
     }
+
     /**
      * Handles the requesting of the camera permission.  This includes
      * showing a "Snackbar" message of why the permission is needed then
      * sending the request.
      */
+
     private void requestCameraPermission() {
         Log.w(TAG, "Camera permission is not granted. Requesting permission");
 
@@ -191,9 +203,13 @@ public final class Face_Activity extends Activity {
         // change_up_location();
         if (starttimecheck == 1) {
             startTime = System.currentTimeMillis(); // 시간재기
-            Toast.makeText(this,"시간측정을 시작합니다", Toast.LENGTH_SHORT).show();
+            Toast.makeText(this, "시간측정을 시작합니다", Toast.LENGTH_SHORT).show();
             startChecked = true;
             starttimecheck++;
+        }
+        if(auto_start == 2){
+            start_init();
+            auto_start = 3;
         }
 
     }
@@ -212,7 +228,7 @@ public final class Face_Activity extends Activity {
             starttimecheck++;
         }
         startChecked = false;
-       // starttimecheck++;
+        // starttimecheck++;
     }
 
     /**
@@ -295,8 +311,7 @@ public final class Face_Activity extends Activity {
     @Override
     protected void onResume() {
         super.onResume();
-
-        startCameraSource();
+            startCameraSource();
     }
 
     /**
@@ -378,6 +393,7 @@ public final class Face_Activity extends Activity {
      */
     private void startCameraSource() {
 
+
         // check that the device has play services available.
         int code = GoogleApiAvailability.getInstance().isGooglePlayServicesAvailable(
                 getApplicationContext());
@@ -442,7 +458,7 @@ public final class Face_Activity extends Activity {
             // 정확도를 위해 보다 작은 값으로 눈의 크기 저장
             if (right_thred1 != 0 && (float) r <= right_thred1 && r > (-1))
                 right_thred1 = (float) r;
-            if (left_thred1 != 0 && (float) l <= left_thred1 && l > (-1) )
+            if (left_thred1 != 0 && (float) l <= left_thred1 && l > (-1))
                 left_thred1 = (float) l;
 
             // 눈의크기가 저장이 되어있지 않은 경우, 비교 없이 값 자체 저장

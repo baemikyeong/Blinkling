@@ -22,11 +22,13 @@ import android.util.Log;
 import android.view.SurfaceHolder;
 import android.view.SurfaceView;
 import android.view.ViewGroup;
+import android.hardware.Camera;
 
 import com.google.android.gms.common.images.Size;
 import com.google.android.gms.vision.CameraSource;
 
 import java.io.IOException;
+import java.util.List;
 
 public class CameraSourcePreview extends ViewGroup {
     private static final String TAG = "CameraSourcePreview";
@@ -38,6 +40,8 @@ public class CameraSourcePreview extends ViewGroup {
     private CameraSource mCameraSource;
 
     private GraphicOverlay mOverlay;
+    List<String> sceneModeList;
+    List<String> focusModeList;
 
     public CameraSourcePreview(Context context, AttributeSet attrs) {
         super(context, attrs);
@@ -48,6 +52,7 @@ public class CameraSourcePreview extends ViewGroup {
         mSurfaceView = new SurfaceView(context);
         mSurfaceView.getHolder().addCallback(new SurfaceCallback());
         addView(mSurfaceView);
+        //sceneModeList = parameters.getSupportedSceneModes();
     }
 
     public void start(CameraSource cameraSource) throws IOException {
@@ -119,6 +124,10 @@ public class CameraSourcePreview extends ViewGroup {
 
         @Override
         public void surfaceChanged(SurfaceHolder holder, int format, int width, int height) {
+            if(mCameraSource == null) return;
+
+          //  Camera.Parameters parameters = mCameraSource.getParameters();
+
         }
     }
 
@@ -177,4 +186,8 @@ public class CameraSourcePreview extends ViewGroup {
         Log.d(TAG, "isPortraitMode returning false by default");
         return false;
     }
+
+    /*public void setParameters(Camera.Parameters params){
+
+    }*/
 }
