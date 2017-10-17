@@ -24,6 +24,7 @@ import android.content.Intent;
 import android.content.SharedPreferences;
 import android.content.pm.PackageManager;
 import android.os.Bundle;
+import android.os.Handler;
 import android.support.design.widget.Snackbar;
 import android.support.v4.app.ActivityCompat;
 import android.util.Log;
@@ -96,6 +97,7 @@ public final class Face_Activity extends Activity {
     long startTime = 0, endTime = 0;
     static int time = 1000;
     public int auto_start=1;
+    Handler handler;
     //==============================================================================================
     // Activity Methods
     //==============================================================================================
@@ -135,6 +137,8 @@ public final class Face_Activity extends Activity {
         }
         auto_start = 2;
 
+        handler = new Handler();
+
     /*    if(checking == 0) {
             Intent intent = new Intent(Face_Activity.this, Popup_Information_Activity.class);
             startActivity(intent);
@@ -153,23 +157,30 @@ public final class Face_Activity extends Activity {
 
     public void start_init(){
         Toast.makeText(this, "눈 크기 측정을 3초 후에 시작합니다. 눈을 감아주세요", Toast.LENGTH_SHORT).show();
-
         try {
             onClickInit(getCurrentFocus());
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
-        Toast.makeText(this, "눈 크기 측정이 완료 되었습니다. 의식적으로 눈을 깜박여 보세요.", Toast.LENGTH_SHORT).show();
-        try {
-            sleep(3000);
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
-        try {
-            onClickInit_time(getCurrentFocus());
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
+        Toast.makeText(this, "눈 크기 측정을 완료했습니다. 5초후 눈 깜빡임 시간을 측정합니다", Toast.LENGTH_SHORT).show();
+        handler.postDelayed(new Runnable() {
+            @Override
+            public void run() {
+               /* try {
+                    sleep(3000);
+                } catch (InterruptedException e) {
+                    e.printStackTrace();
+                }*/
+                try {
+                    onClickInit_time(getCurrentFocus());
+
+                } catch (InterruptedException e) {
+                    e.printStackTrace();
+                }
+            }
+        },15000);
+      //  Toast.makeText(this, "눈 크기 측정이 완료 되었습니다. 의식적으로 눈을 깜박여 보세요.", Toast.LENGTH_SHORT).show();
+
 
     }
 
@@ -211,7 +222,7 @@ public final class Face_Activity extends Activity {
         // change_up_location();
         if (starttimecheck == 1) {
             startTime = System.currentTimeMillis(); // 시간재기
-            Toast.makeText(this, "시간측정을 시작합니다", Toast.LENGTH_SHORT).show();
+            Toast.makeText(this, "시간측정을 시작합니다. 페이지를 스크롤링 하기 원하는 시간만큼 눈을 한번 깜빡여주세요", Toast.LENGTH_SHORT).show();
             startChecked = true;
             starttimecheck++;
         }
