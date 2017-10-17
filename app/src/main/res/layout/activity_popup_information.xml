@@ -4,16 +4,16 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
-    tools:context="com.example.hyemin.blinkling.Popup_Information_Activity">
+    tools:context="com.example.hyemin.blinkling.Popup_Information_Activity"
+    android:background="@color/colorBlack">
 
     <ImageView
         android:id="@+id/img1"
         android:layout_width="match_parent"
         android:layout_height="500dp"
-        android:layout_alignParentStart="true"
+        android:src="@drawable/info"
         android:layout_above="@+id/button1"
-        android:layout_alignParentEnd="true"
-        android:src="@drawable/initiate"/>
+        android:layout_alignParentStart="true" />
 
     <Button
         android:layout_width="wrap_content"

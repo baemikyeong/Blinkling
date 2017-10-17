@@ -23,7 +23,7 @@ public class Popup_Information_Activity extends AppCompatActivity {
         iv = (ImageView) findViewById(R.id.img1);
         goTo_Initialization = (Button) findViewById(R.id.button1);
 
-        iv.setImageResource(R.drawable.initiate);
+        iv.setImageResource(R.drawable.info);
         goTo_Initialization.setOnClickListener(new MyListener());
 
 

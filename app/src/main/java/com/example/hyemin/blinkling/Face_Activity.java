@@ -95,6 +95,7 @@ public final class Face_Activity extends Activity {
     int starttimecheck = 100;
     long startTime = 0, endTime = 0;
     static int time = 1000;
+    public int auto_start=1;
     //==============================================================================================
     // Activity Methods
     //==============================================================================================
@@ -123,6 +124,7 @@ public final class Face_Activity extends Activity {
         intPref = getSharedPreferences("mPred", Activity.MODE_PRIVATE);
         editor1 = intPref.edit();
 
+       // checking = 0;
         // Check for the camera permission before accessing the camera.  If the
         // permission is not granted yet, request permission.
         int rc = ActivityCompat.checkSelfPermission(this, Manifest.permission.CAMERA);
@@ -131,8 +133,13 @@ public final class Face_Activity extends Activity {
         } else {
             requestCameraPermission();
         }
+        auto_start = 2;
 
-
+    /*    if(checking == 0) {
+            Intent intent = new Intent(Face_Activity.this, Popup_Information_Activity.class);
+            startActivity(intent);
+            checking = 1;
+        }*/
 
 //
 //        try {
@@ -207,6 +214,10 @@ public final class Face_Activity extends Activity {
             Toast.makeText(this, "시간측정을 시작합니다", Toast.LENGTH_SHORT).show();
             startChecked = true;
             starttimecheck++;
+        }
+        if(auto_start == 2){
+            start_init();
+            auto_start = 3;
         }
 
     }
@@ -308,8 +319,7 @@ public final class Face_Activity extends Activity {
     @Override
     protected void onResume() {
         super.onResume();
-
-        startCameraSource();
+            startCameraSource();
     }
 
     /**
@@ -390,6 +400,7 @@ public final class Face_Activity extends Activity {
      * again when the camera source is created.
      */
     private void startCameraSource() {
+
 
         // check that the device has play services available.
         int code = GoogleApiAvailability.getInstance().isGooglePlayServicesAvailable(
