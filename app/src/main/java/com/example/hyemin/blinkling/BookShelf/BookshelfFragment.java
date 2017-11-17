@@ -9,6 +9,10 @@ import android.os.Bundle;
 import android.os.Environment;
 import android.support.v4.app.ActivityCompat;
 import android.support.v4.app.Fragment;
+import android.app.FragmentManager;
+import android.app.FragmentTransaction;
+
+
 import android.support.v4.content.ContextCompat;
 import android.text.Html;
 import android.view.LayoutInflater;
@@ -17,6 +21,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.AdapterView;
 import android.widget.GridView;
+import android.widget.Toast;
 
 import com.example.hyemin.blinkling.MainActivity;
 import com.example.hyemin.blinkling.R;
@@ -27,7 +32,7 @@ import java.util.List;
 
 import static android.R.id.list;
 
-public class BookshelfFragment extends Fragment {
+public class BookshelfFragment extends android.support.v4.app.Fragment {
     File dir = Environment.getExternalStorageDirectory().getAbsoluteFile();
     GridView mFileGridView;
     ArrayList<String> mArrayListFile;//파일
@@ -88,6 +93,7 @@ public class BookshelfFragment extends Fragment {
             @Override
             public boolean onItemLongClick(AdapterView<?> adapterView, final View v, final int position, long arg3) {
                 final int pos = position;
+
                 //
                 //
 //                Activity root = getActivity();
@@ -100,31 +106,23 @@ public class BookshelfFragment extends Fragment {
 
                     @Override
                     public void onClick(DialogInterface arg0, int arg1) {
+                        String selected_file = gridadapter.getGridViewItemList().get(position).getTitle();
                         // 선택된 아이템을 리스트에서 삭제한다.
                         gridadapter.getGridViewItemList().remove(position);
+                        ((MainActivity) getActivity()).getDeleteFile(selected_file);
                         // Adapter에 데이터가 바뀐걸 알리고 리스트뷰에 다시 그린다.
                         gridadapter.notifyDataSetChanged();
-
                     }
-
                 };
-
-
                 new AlertDialog.Builder(getActivity())
                         .setTitle("문서 삭제")
                         .setMessage(Html.fromHtml(message))
                         .setPositiveButton("삭제", deleteListener)
                         .show();
-
-
-
-
                 return true;
 
             }
         });
-
-
 
         return rootView;
     }

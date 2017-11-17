@@ -10,6 +10,7 @@ import android.os.Environment;
 import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.ListFragment;
+import android.support.v4.app.FragmentTransaction;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.Menu;
@@ -51,6 +52,7 @@ public class InnerStorageFragment extends ListFragment {
     public InnerStorageFragment() {
         // Required empty public constructor
     }
+
     public static Fragment newInstance(String param1) {
         TextViewFragment frag = new TextViewFragment();
         Bundle args = new Bundle();
@@ -59,6 +61,7 @@ public class InnerStorageFragment extends ListFragment {
         return frag;
     }
 
+
     public void onPrepareOptionsMenu(Menu menu) {
         menu.findItem(R.id.bookmark_btn).setVisible(false);
         menu.findItem(R.id.voice_btn).setVisible(false);
@@ -66,8 +69,12 @@ public class InnerStorageFragment extends ListFragment {
         menu.findItem(R.id.light_btn).setVisible(false);
         menu.findItem(R.id.notebook_add).setVisible(false);
         menu.findItem(R.id.webmark_add).setVisible(false);
+        menu.findItem(R.id.edit_scroll_range).setVisible(false);
+
         super.onPrepareOptionsMenu(menu);
     }
+
+
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
@@ -107,12 +114,31 @@ public class InnerStorageFragment extends ListFragment {
         setListAdapter(arrayAdapter);
     }
 
-    public void onListItemClick(ListView Find_ListView, View view, int position, long id) {
-        String strItem = mArrayListFile.get(position);//position은 0부터 시작 position 번째 아이템 이름을 리턴함
-        String strPath = getAbsolutePath(strItem);// 선택된 폴더의 전체 경로를 구한다
-        String[] fileList = getFileList(strPath);//선택된 폴더에 존재하는 파일 목록을 구한다
+    public void onListItemClick(ListView Find_ListView, View view, int position, long id) { // 폴더 클릭이벤트
+        String strItem = mArrayListFile.get(position); // position은 0부터 시작 position 번째 아이템 이름을 리턴함
+        //Toast.makeText(getActivity(), strItem+"번 아이템 클릭", Toast.LENGTH_SHORT).show();// 폴더 이름 토스트 됨
+        String strPath = getAbsolutePath(strItem); // 선택된 폴더의 전체 경로를 구한다
+
+        String[] fileList = getFileList(strPath); // 선택된 폴더에 존재하는 파일 목록을 구한다. getFileList에서 블링클링 폴더에 파일 이동시킴
+     // Toast.makeText(getActivity(), fileList[0]+"번 파일", Toast.LENGTH_SHORT).show();// 폴더 안의 파일 줄 0번째 파일 이름 토스트 됨
         ShowFileList(fileList); //파일 목록을 ListView 에 표시
     }
+
+    public String[] fileList_check(String[] book_list){
+        int i = 0;
+        String temp = null;
+
+        while(true){
+            if(book_list[i].equals(temp)){
+
+            }
+            temp = book_list[i];
+
+
+        }
+    }
+
+
 
     public String getAbsolutePath(String strFolder) {
         String strPathComp;
@@ -143,14 +169,12 @@ public class InnerStorageFragment extends ListFragment {
             int txt = strPath.lastIndexOf("txt");
             int pdf = strPath.lastIndexOf("pdf");
 
-            mBookName = strPath; //
+            mBookName = strPath;
 
             if(txt != -1){
-
-                fileMove(InStoragePath + "/" + mBookName, InStoragePath+"/Blinkling" + "/" + mBookName);
+                fileMove(InStoragePath + "/" + mBookName, InStoragePath+"/Blinkling" + "/" + mBookName); //블링클링 폴더에 book 옮
 
                 //mBookName이 이름을 북쉘프에 띄워야해!!
-
                 ((MainActivity)getActivity()).sendBookname(mBookName);
 
                 return null;
@@ -203,7 +227,7 @@ public class InnerStorageFragment extends ListFragment {
             fos.close();
 
             //복사한뒤 원본파일을 삭제함
-            fileDelete(inFileName);
+           // fileDelete(inFileName);
 
         } catch (IOException e) {
             // TODO Auto-generated catch block
@@ -216,6 +240,12 @@ public class InnerStorageFragment extends ListFragment {
         I.delete();
     }
 
+
+    public static void fileDelete_in_Blinkling(String deleteFileName) {
+        File I = new File(Environment.getExternalStorageDirectory().getAbsolutePath()+"/Blinkling"+"/"+deleteFileName);
+       // Toast.makeText(getActivity(),deleteFileName,Toast.LENGTH_SHORT ).show();
+        I.delete();
+    }
 
 
     public void ShowFileList(String[] fileList) {
@@ -231,6 +261,8 @@ public class InnerStorageFragment extends ListFragment {
         for (int i = 0; i < fileList.length; i++) {
             Log.d("tag", fileList[i]);
             mArrayListFile.add(fileList[i]);
+         //   Toast.makeText(getActivity(),fileList[i]+"번 책 추가 됨", Toast.LENGTH_SHORT).show();// 리스트에 파일 add 확인
+
         }
         ArrayAdapter adapter = (ArrayAdapter) getListView().getAdapter();
         adapter.notifyDataSetChanged();

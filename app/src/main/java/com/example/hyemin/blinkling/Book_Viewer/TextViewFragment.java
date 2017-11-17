@@ -585,11 +585,11 @@ public class TextViewFragment extends Fragment {
         if (eyesetting == true) {
             // change_up_location();
             change_down_location();
-            try {
-                sleep(100);
-            } catch (InterruptedException e1) {
-                e1.printStackTrace();
-            }
+//            try {
+//                sleep(10);
+//            } catch (InterruptedException e1) {
+//                e1.printStackTrace();
+//            }
         }
     }
 
@@ -647,7 +647,7 @@ public class TextViewFragment extends Fragment {
         mCameraSource = new CameraSource.Builder(getActivity().getApplicationContext(), mFaceDetector)
                 // .setRequestedPreviewSize(640, 480)
                 .setFacing(CameraSource.CAMERA_FACING_FRONT)
-                .setRequestedFps(40f)
+                .setRequestedFps(40.0f)
                 .build();
     }
 

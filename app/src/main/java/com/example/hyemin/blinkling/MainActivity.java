@@ -38,6 +38,7 @@ import android.widget.Toast;
 import com.example.hyemin.blinkling.BookShelf.BookshelfFragment;
 import com.example.hyemin.blinkling.Book_Viewer.InnerStorageFragment;
 import com.example.hyemin.blinkling.Book_Viewer.TextViewFragment;
+import com.example.hyemin.blinkling.Bookmark.BookTab_Fragment;
 import com.example.hyemin.blinkling.Bookmark.BookmarkFragment;
 import com.example.hyemin.blinkling.Bookmark.CustomAdapter_audio;
 import com.example.hyemin.blinkling.Bookmark.CustomAdapter_book;
@@ -70,6 +71,7 @@ public class MainActivity extends ActionBarActivity {
     public static Context mContext;
     TextViewFragment txt_fragment;
     WebviewFragment webview_fragment;
+    InnerStorageFragment innerStorage_fragment;
     private String book_title;
     private int bookmark_pos;
     private String T_date;
@@ -90,10 +92,12 @@ public class MainActivity extends ActionBarActivity {
     private static final int REQUEST_RECORD_AUDIO_PERMISSION = 200;
     String InStoragePath = Environment.getExternalStorageDirectory().getAbsolutePath() + "/Blinkling";
     String AudioStorage = Environment.getExternalStorageDirectory().getAbsolutePath() + "/Audio_Dir";
+    String fileToDelete;
 
     public static BottomNavigationView bottomNavigation;
     private Fragment fragment;
     private Fragment fragment2;
+    private Fragment fragment_i;
     private FragmentManager fragmentManager;
     FragmentTransaction transaction;
     private Toolbar toolbar;
@@ -340,11 +344,11 @@ public class MainActivity extends ActionBarActivity {
         builder.setTitle("스크롤 정도 변경\n");
         builder.setMessage("스크롤 정도를 어느정도로 할 지, 결정합니다.");
         builder.setView(view);
-        final RadioGroup rg = (RadioGroup)view.findViewById(R.id.radioscrollrange);
+        final RadioGroup rg = (RadioGroup) view.findViewById(R.id.radioscrollrange);
 
         final int[] check_item = {intPref.getInt("scroll_range", 1)};
 
-        switch (check_item[0]){
+        switch (check_item[0]) {
             case 1:
                 rg.check(R.id.radio_small1);
                 break;
@@ -362,11 +366,11 @@ public class MainActivity extends ActionBarActivity {
         builder.setPositiveButton("확인", new DialogInterface.OnClickListener() {
             public void onClick(DialogInterface dialog, int item) {
 
-                if(rg.getCheckedRadioButtonId() == R.id.radio_small1)
+                if (rg.getCheckedRadioButtonId() == R.id.radio_small1)
                     check_item[0] = 1;
-                else if(rg.getCheckedRadioButtonId() == R.id.radio_small2)
+                else if (rg.getCheckedRadioButtonId() == R.id.radio_small2)
                     check_item[0] = 2;
-                else if(rg.getCheckedRadioButtonId() == R.id.radio_small3)
+                else if (rg.getCheckedRadioButtonId() == R.id.radio_small3)
                     check_item[0] = 3;
                 else
                     check_item[0] = 4;
@@ -432,12 +436,22 @@ public class MainActivity extends ActionBarActivity {
 
         web_bookmark_url = url;
 
-        final FragmentTransaction transaction = fragmentManager.beginTransaction();
-        transaction.replace(R.id.main_container, fragment2, "web_frag").commit();
+        replaceFragment(fragment2);
 
         if (webview_fragment != null && webview_fragment.isAdded()) {
             webview_fragment.goPage(url);
         }
+    }
+
+    public void getDeleteFile(String fname) {
+        fragment_i = new InnerStorageFragment();
+
+        fileToDelete = fname;
+        //   FragmentTransaction transaction = getSupportFragmentManager().beginTransaction();
+        //  transaction.replace(R.id.main_container, fragment_i, "inner_frag").commit();
+        innerStorage_fragment = (InnerStorageFragment) getSupportFragmentManager().findFragmentById(R.id.inner);
+
+        innerStorage_fragment.fileDelete_in_Blinkling(fileToDelete);
     }
 
     public void addWebmark() {

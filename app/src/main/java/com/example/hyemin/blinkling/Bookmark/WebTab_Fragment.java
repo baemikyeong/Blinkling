@@ -32,7 +32,6 @@ import java.util.ArrayList;
  */
 public class WebTab_Fragment extends Fragment {
     public static final String TAG = "BK";
-    MainActivity mHostActivity;
     private Cursor mCursor;
     private CustomAdapter_web mAdapter;
     private ListView mListView;
