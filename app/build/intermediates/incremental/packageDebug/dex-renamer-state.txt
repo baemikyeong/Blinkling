@@ -1,7 +1,7 @@
-#Thu Nov 23 16:20:42 KST 2017
-base.0=/Users/joorimun/Documents/Projects/Blinkling/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_29ef9e5e995cf870ac52ec7c1442f81f0c102b1e
-renamed.1=classes2.dex
-renamed.0=classes.dex
-file.1=/Users/joorimun/Documents/Projects/Blinkling/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_0970412d979c2a7af36e0255fdfcb2b05709f7a1/classes.dex
-base.1=/Users/joorimun/Documents/Projects/Blinkling/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_0970412d979c2a7af36e0255fdfcb2b05709f7a1
-file.0=/Users/joorimun/Documents/Projects/Blinkling/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_29ef9e5e995cf870ac52ec7c1442f81f0c102b1e/classes.dex
+#Thu Nov 23 20:14:20 KST 2017
+base.0=/Users/joorimun/Downloads/Blinkling-7a074daabd590e51d93426add3a571b5a4731d2a/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_cdd01c8e9215da4d8fec9992cd1b88e8cf1d0a10
+renamed.1=classes.dex
+renamed.0=classes2.dex
+file.1=/Users/joorimun/Downloads/Blinkling-7a074daabd590e51d93426add3a571b5a4731d2a/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_f96966f52566ebfb239d148620b47acbe66455c3/classes.dex
+base.1=/Users/joorimun/Downloads/Blinkling-7a074daabd590e51d93426add3a571b5a4731d2a/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_f96966f52566ebfb239d148620b47acbe66455c3
+file.0=/Users/joorimun/Downloads/Blinkling-7a074daabd590e51d93426add3a571b5a4731d2a/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_cdd01c8e9215da4d8fec9992cd1b88e8cf1d0a10/classes.dex

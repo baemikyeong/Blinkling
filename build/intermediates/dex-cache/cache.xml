@@ -3,21 +3,21 @@
 
     <item
         is-multidex="true"
-        jar="/Users/joorimun/Documents/Projects/Blinkling/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jar="/Users/joorimun/Downloads/Blinkling-7a074daabd590e51d93426add3a571b5a4731d2a/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.3"
-        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
-        <dex dex="/Users/joorimun/Documents/Projects/Blinkling/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_0970412d979c2a7af36e0255fdfcb2b05709f7a1/classes.dex" />
+        sha1="83c8545b39f961501a3aaf0c817263cf22aead27">
+        <dex dex="/Users/joorimun/Downloads/Blinkling-7a074daabd590e51d93426add3a571b5a4731d2a/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_f96966f52566ebfb239d148620b47acbe66455c3/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/Users/joorimun/Documents/Projects/Blinkling/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jar="/Users/joorimun/Downloads/Blinkling-7a074daabd590e51d93426add3a571b5a4731d2a/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.3"
-        sha1="e24bb0723947d54b1fc6fd096879912651f92570">
-        <dex dex="/Users/joorimun/Documents/Projects/Blinkling/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_29ef9e5e995cf870ac52ec7c1442f81f0c102b1e/classes.dex" />
+        sha1="c82741bc129dd5f99f11a4ab8666ae24262053b6">
+        <dex dex="/Users/joorimun/Downloads/Blinkling-7a074daabd590e51d93426add3a571b5a4731d2a/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_cdd01c8e9215da4d8fec9992cd1b88e8cf1d0a10/classes.dex" />
     </item>
 
 </items>

@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Blinkling.iml" filepath="$PROJECT_DIR$/Blinkling.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Blinkling-7a074daabd590e51d93426add3a571b5a4731d2a.iml" filepath="$PROJECT_DIR$/Blinkling-7a074daabd590e51d93426add3a571b5a4731d2a.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>

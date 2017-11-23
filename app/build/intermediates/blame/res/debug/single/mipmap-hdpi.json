@@ -1,10 +1,26 @@
 [
     {
-        "merged": "/Users/joorimun/Documents/Projects/Blinkling/app/build/intermediates/res/merged/debug/mipmap-hdpi/ic_launcher_round.png",
-        "source": "/Users/joorimun/Documents/Projects/Blinkling/app/src/main/res/mipmap-hdpi/ic_launcher_round.png"
+        "merged": "/Users/miso/capstone/app/build/intermediates/res/merged/debug/mipmap-hdpi/ic_launcher_round.png",
+        "source": "/Users/miso/capstone/app/src/main/res/mipmap-hdpi/ic_launcher_round.png"
     },
     {
-        "merged": "/Users/joorimun/Documents/Projects/Blinkling/app/build/intermediates/res/merged/debug/mipmap-hdpi/ic_launcher.png",
-        "source": "/Users/joorimun/Documents/Projects/Blinkling/app/src/main/res/mipmap-hdpi/ic_launcher.png"
+        "merged": "/Users/seohyemin/Blinkling-master/app/build/intermediates/res/merged/debug/mipmap-hdpi/ic_launcher.png",
+        "source": "/Users/seohyemin/Blinkling-master/app/src/main/res/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/seohyemin/Blinkling-master/app/build/intermediates/res/merged/debug/mipmap-hdpi/ic_launcher_round.png",
+        "source": "/Users/seohyemin/Blinkling-master/app/src/main/res/mipmap-hdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/Users/joorimun/Downloads/Blinkling-7a074daabd590e51d93426add3a571b5a4731d2a/app/build/intermediates/res/merged/debug/mipmap-hdpi/ic_launcher.png",
+        "source": "/Users/joorimun/Downloads/Blinkling-7a074daabd590e51d93426add3a571b5a4731d2a/app/src/main/res/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/joorimun/Downloads/Blinkling-7a074daabd590e51d93426add3a571b5a4731d2a/app/build/intermediates/res/merged/debug/mipmap-hdpi/ic_launcher_round.png",
+        "source": "/Users/joorimun/Downloads/Blinkling-7a074daabd590e51d93426add3a571b5a4731d2a/app/src/main/res/mipmap-hdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/Users/miso/capstone/app/build/intermediates/res/merged/debug/mipmap-hdpi/ic_launcher.png",
+        "source": "/Users/miso/capstone/app/src/main/res/mipmap-hdpi/ic_launcher.png"
     }
 ]

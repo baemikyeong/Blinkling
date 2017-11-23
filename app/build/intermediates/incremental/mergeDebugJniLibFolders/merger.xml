@@ -1,2 +1,2 @@
 <?xml version="1.0" encoding="utf-8"?>
-<merger version="3"><dataSet config="main"><source path="/Users/joorimun/Documents/Projects/Blinkling/app/src/main/jniLibs"/></dataSet><dataSet config="debug"><source path="/Users/joorimun/Documents/Projects/Blinkling/app/src/debug/jniLibs"/></dataSet></merger>
+<merger version="3"><dataSet config="main"><source path="/Users/joorimun/Downloads/Blinkling-7a074daabd590e51d93426add3a571b5a4731d2a/app/src/main/jniLibs"/></dataSet><dataSet config="debug"><source path="/Users/joorimun/Downloads/Blinkling-7a074daabd590e51d93426add3a571b5a4731d2a/app/src/debug/jniLibs"/></dataSet></merger>
