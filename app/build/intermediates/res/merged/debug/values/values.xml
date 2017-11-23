@@ -175,9 +175,9 @@
     <color name="colorBorder">#a7a4a4</color>
     <color name="colorDivider">#2FE897</color>
     <color name="colorExtra">#fffac1</color>
-    <color name="colorGrey">#efefef</color>
-    <color name="colorPrimary">#8f694a</color>
-    <color name="colorPrimaryDark">#86664b</color>
+    <color name="colorGrey">#F4F4F6</color>
+    <color name="colorPrimary">#604440</color>
+    <color name="colorPrimaryDark">#604848</color>
     <color name="colorPrimaryLight">#8a3aaf</color>
     <color name="colorWhite">#ffffff</color>
     <color name="color_Back">#11fdf6bf</color>
@@ -2464,7 +2464,7 @@
         <item name="android:paddingRight">@dimen/abc_action_bar_overflow_padding_end_material</item>
     </style>
     <style name="SplashTheme" parent="Theme.AppCompat.NoActionBar">
-        <item name="android:windowBackground">@drawable/splashview</item>
+        <item name="android:windowBackground">@drawable/spl</item>
     </style>
     <style name="TextAppearance.AppCompat" parent="Base.TextAppearance.AppCompat"/>
     <style name="TextAppearance.AppCompat.Body1" parent="Base.TextAppearance.AppCompat.Body1"/>

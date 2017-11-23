@@ -1,9 +1,5 @@
 [
     {
-        "merged": "/Users/seohyemin/Blinkling-master/app/build/intermediates/res/merged/debug/layout-sw600dp-v13/design_layout_snackbar.xml",
-        "source": "/Users/seohyemin/.android/build-cache/b5526703288357c323e2e1ef12cac4fa78843af5/output/res/layout-sw600dp-v13/design_layout_snackbar.xml"
-    },
-    {
         "merged": "/Users/miso/capstone/app/build/intermediates/res/merged/debug/layout-sw600dp-v13/design_layout_snackbar.xml",
         "source": "/Users/miso/.android/build-cache/1c1cbc250abfe847ccef1096cd2ade5ac239822b/output/res/layout-sw600dp-v13/design_layout_snackbar.xml"
     }

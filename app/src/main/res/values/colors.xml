@@ -2,12 +2,14 @@
 <resources>
 
     <!--Main-->
-    <color name="colorPrimary">#8f694a</color><!---->
-    <color name="colorPrimaryDark">#86664b</color><!---->
+    <!--<color name="colorPrimary">#8f694a</color>--><!---->
+    <color name="colorPrimary">#604440</color><!--997759.-->
+    <color name="colorPrimaryDark">#604848</color><!---->
 
-        <!--Selection-->
-        <color name="colorGrey">#efefef</color><!---->
-        <color name = "ColorWebback">#efefef</color>
+    <!--Selection-->
+    <!--<color name="colorGrey">#efefef</color>--><!---->
+    <color name="colorGrey">#F4F4F6</color>
+    <color name = "ColorWebback">#efefef</color>
 
     <color name="colorPrimaryLight">#8a3aaf</color>
     <color name="colorWhite">#ffffff</color>

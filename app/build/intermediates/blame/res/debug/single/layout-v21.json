@@ -8,10 +8,6 @@
         "source": "/Users/miso/.android/build-cache/f518a637222202e95c7ee16aa458e17e5c6c2ed1/output/res/layout-v21/notification_action_tombstone.xml"
     },
     {
-        "merged": "/Users/seohyemin/Blinkling-master/app/build/intermediates/res/merged/debug/layout-v21/notification_template_icon_group.xml",
-        "source": "/Users/seohyemin/.android/build-cache/c7bc4f7edfba7ff92a9519a276f8d2da7169785b/output/res/layout-v21/notification_template_icon_group.xml"
-    },
-    {
         "merged": "/Users/miso/capstone/app/build/intermediates/res/merged/debug/layout-v21/notification_template_custom_big.xml",
         "source": "/Users/miso/.android/build-cache/f518a637222202e95c7ee16aa458e17e5c6c2ed1/output/res/layout-v21/notification_template_custom_big.xml"
     },
@@ -20,23 +16,7 @@
         "source": "/Users/miso/.android/build-cache/f518a637222202e95c7ee16aa458e17e5c6c2ed1/output/res/layout-v21/notification_action.xml"
     },
     {
-        "merged": "/Users/seohyemin/Blinkling-master/app/build/intermediates/res/merged/debug/layout-v21/notification_action_tombstone.xml",
-        "source": "/Users/seohyemin/.android/build-cache/c7bc4f7edfba7ff92a9519a276f8d2da7169785b/output/res/layout-v21/notification_action_tombstone.xml"
-    },
-    {
         "merged": "/Users/miso/capstone/app/build/intermediates/res/merged/debug/layout-v21/place_autocomplete_fragment.xml",
         "source": "/Users/miso/.android/build-cache/3246c5d7fe51547e150062effadac18210e53e30/output/res/layout-v21/place_autocomplete_fragment.xml"
-    },
-    {
-        "merged": "/Users/seohyemin/Blinkling-master/app/build/intermediates/res/merged/debug/layout-v21/place_autocomplete_fragment.xml",
-        "source": "/Users/seohyemin/.android/build-cache/7513a969dcc805b7f0f9997c9c0130190965a6d4/output/res/layout-v21/place_autocomplete_fragment.xml"
-    },
-    {
-        "merged": "/Users/seohyemin/Blinkling-master/app/build/intermediates/res/merged/debug/layout-v21/notification_template_custom_big.xml",
-        "source": "/Users/seohyemin/.android/build-cache/c7bc4f7edfba7ff92a9519a276f8d2da7169785b/output/res/layout-v21/notification_template_custom_big.xml"
-    },
-    {
-        "merged": "/Users/seohyemin/Blinkling-master/app/build/intermediates/res/merged/debug/layout-v21/notification_action.xml",
-        "source": "/Users/seohyemin/.android/build-cache/c7bc4f7edfba7ff92a9519a276f8d2da7169785b/output/res/layout-v21/notification_action.xml"
     }
 ]
