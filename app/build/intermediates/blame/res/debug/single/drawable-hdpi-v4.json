@@ -8,12 +8,12 @@
         "source": "/Users/miso/.android/build-cache/f518a637222202e95c7ee16aa458e17e5c6c2ed1/output/res/drawable-hdpi-v4/abc_ic_star_half_black_16dp.png"
     },
     {
-        "merged": "/Users/miso/capstone/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/ic_media_play.png",
-        "source": "/Users/miso/.android/build-cache/11b4c89eb1c28151106f825047005322c9414aea/output/res/drawable-hdpi-v4/ic_media_play.png"
-    },
-    {
         "merged": "/Users/seohyemin/Blinkling-master/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/powered_by_google_light.png",
         "source": "/Users/seohyemin/.android/build-cache/7513a969dcc805b7f0f9997c9c0130190965a6d4/output/res/drawable-hdpi-v4/powered_by_google_light.png"
+    },
+    {
+        "merged": "/Users/miso/capstone/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/ic_media_play.png",
+        "source": "/Users/miso/.android/build-cache/11b4c89eb1c28151106f825047005322c9414aea/output/res/drawable-hdpi-v4/ic_media_play.png"
     },
     {
         "merged": "/Users/seohyemin/Blinkling-master/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/quantum_ic_skip_previous_white_24.png",
@@ -68,12 +68,12 @@
         "source": "/Users/miso/.android/build-cache/347d0d4156e9f2449bb5d96c9ebf61d7db2d587c/output/res/drawable-hdpi-v4/cast_ic_stop_circle_filled_white.png"
     },
     {
-        "merged": "/Users/seohyemin/Blinkling-master/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/cast_ic_notification_1.png",
-        "source": "/Users/seohyemin/.android/build-cache/a63aeda5c260b0c882b36a17e7e207d7f54c34ad/output/res/drawable-hdpi-v4/cast_ic_notification_1.png"
-    },
-    {
         "merged": "/Users/seohyemin/Blinkling-master/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/current_page_indicator.xml",
         "source": "/Users/seohyemin/Blinkling-master/app/src/main/res/drawable-hdpi/current_page_indicator.xml"
+    },
+    {
+        "merged": "/Users/seohyemin/Blinkling-master/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/cast_ic_notification_1.png",
+        "source": "/Users/seohyemin/.android/build-cache/a63aeda5c260b0c882b36a17e7e207d7f54c34ad/output/res/drawable-hdpi-v4/cast_ic_notification_1.png"
     },
     {
         "merged": "/Users/miso/capstone/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/cast_ic_stop_circle_filled_grey600.png",
@@ -84,12 +84,12 @@
         "source": "/Users/seohyemin/.android/build-cache/c7bc4f7edfba7ff92a9519a276f8d2da7169785b/output/res/drawable-hdpi-v4/abc_textfield_activated_mtrl_alpha.9.png"
     },
     {
-        "merged": "/Users/miso/capstone/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/abc_btn_radio_to_on_mtrl_015.png",
-        "source": "/Users/miso/.android/build-cache/f518a637222202e95c7ee16aa458e17e5c6c2ed1/output/res/drawable-hdpi-v4/abc_btn_radio_to_on_mtrl_015.png"
-    },
-    {
         "merged": "/Users/seohyemin/Blinkling-master/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/abc_scrubber_primary_mtrl_alpha.9.png",
         "source": "/Users/seohyemin/.android/build-cache/c7bc4f7edfba7ff92a9519a276f8d2da7169785b/output/res/drawable-hdpi-v4/abc_scrubber_primary_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "/Users/miso/capstone/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/abc_btn_radio_to_on_mtrl_015.png",
+        "source": "/Users/miso/.android/build-cache/f518a637222202e95c7ee16aa458e17e5c6c2ed1/output/res/drawable-hdpi-v4/abc_btn_radio_to_on_mtrl_015.png"
     },
     {
         "merged": "/Users/miso/capstone/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/design_ic_visibility.png",
@@ -116,12 +116,12 @@
         "source": "/Users/miso/.android/build-cache/347d0d4156e9f2449bb5d96c9ebf61d7db2d587c/output/res/drawable-hdpi-v4/quantum_ic_closed_caption_white_36.png"
     },
     {
-        "merged": "/Users/miso/capstone/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/quantum_ic_refresh_white_24.png",
-        "source": "/Users/miso/.android/build-cache/347d0d4156e9f2449bb5d96c9ebf61d7db2d587c/output/res/drawable-hdpi-v4/quantum_ic_refresh_white_24.png"
-    },
-    {
         "merged": "/Users/seohyemin/Blinkling-master/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/quantum_ic_refresh_white_24.png",
         "source": "/Users/seohyemin/.android/build-cache/86e41c47417d80a7dd799f3286469399e5a52229/output/res/drawable-hdpi-v4/quantum_ic_refresh_white_24.png"
+    },
+    {
+        "merged": "/Users/miso/capstone/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/quantum_ic_refresh_white_24.png",
+        "source": "/Users/miso/.android/build-cache/347d0d4156e9f2449bb5d96c9ebf61d7db2d587c/output/res/drawable-hdpi-v4/quantum_ic_refresh_white_24.png"
     },
     {
         "merged": "/Users/miso/capstone/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/ic_media_pause.png",

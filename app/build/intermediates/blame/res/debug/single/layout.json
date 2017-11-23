@@ -20,12 +20,12 @@
         "source": "/Users/miso/.android/build-cache/1c1cbc250abfe847ccef1096cd2ade5ac239822b/output/res/layout/design_navigation_item.xml"
     },
     {
-        "merged": "/Users/miso/capstone/app/build/intermediates/res/merged/debug/layout/abc_action_bar_up_container.xml",
-        "source": "/Users/miso/.android/build-cache/f518a637222202e95c7ee16aa458e17e5c6c2ed1/output/res/layout/abc_action_bar_up_container.xml"
-    },
-    {
         "merged": "/Users/seohyemin/Blinkling-master/app/build/intermediates/res/merged/debug/layout/fragment_webview.xml",
         "source": "/Users/seohyemin/Blinkling-master/app/src/main/res/layout/fragment_webview.xml"
+    },
+    {
+        "merged": "/Users/miso/capstone/app/build/intermediates/res/merged/debug/layout/abc_action_bar_up_container.xml",
+        "source": "/Users/miso/.android/build-cache/f518a637222202e95c7ee16aa458e17e5c6c2ed1/output/res/layout/abc_action_bar_up_container.xml"
     },
     {
         "merged": "/Users/seohyemin/Blinkling-master/app/build/intermediates/res/merged/debug/layout/abc_search_dropdown_item_icons_2line.xml",
@@ -92,12 +92,12 @@
         "source": "/Users/seohyemin/.android/build-cache/b5526703288357c323e2e1ef12cac4fa78843af5/output/res/layout/design_layout_tab_text.xml"
     },
     {
-        "merged": "/Users/seohyemin/Blinkling-master/app/build/intermediates/res/merged/debug/layout/fragment_web_tab_.xml",
-        "source": "/Users/seohyemin/Blinkling-master/app/src/main/res/layout/fragment_web_tab_.xml"
-    },
-    {
         "merged": "/Users/miso/capstone/app/build/intermediates/res/merged/debug/layout/gridview_item.xml",
         "source": "/Users/miso/capstone/app/src/main/res/layout/gridview_item.xml"
+    },
+    {
+        "merged": "/Users/seohyemin/Blinkling-master/app/build/intermediates/res/merged/debug/layout/fragment_web_tab_.xml",
+        "source": "/Users/seohyemin/Blinkling-master/app/src/main/res/layout/fragment_web_tab_.xml"
     },
     {
         "merged": "/Users/seohyemin/Blinkling-master/app/build/intermediates/res/merged/debug/layout/listview_item.xml",
@@ -116,16 +116,16 @@
         "source": "/Users/miso/.android/build-cache/f518a637222202e95c7ee16aa458e17e5c6c2ed1/output/res/layout/abc_action_bar_title_item.xml"
     },
     {
-        "merged": "/Users/seohyemin/Blinkling-master/app/build/intermediates/res/merged/debug/layout/abc_search_view.xml",
-        "source": "/Users/seohyemin/.android/build-cache/c7bc4f7edfba7ff92a9519a276f8d2da7169785b/output/res/layout/abc_search_view.xml"
+        "merged": "/Users/seohyemin/Blinkling-master/app/build/intermediates/res/merged/debug/layout/fragment_set_font.xml",
+        "source": "/Users/seohyemin/Blinkling-master/app/src/main/res/layout/fragment_set_font.xml"
     },
     {
         "merged": "/Users/seohyemin/Blinkling-master/app/build/intermediates/res/merged/debug/layout/abc_screen_toolbar.xml",
         "source": "/Users/seohyemin/.android/build-cache/c7bc4f7edfba7ff92a9519a276f8d2da7169785b/output/res/layout/abc_screen_toolbar.xml"
     },
     {
-        "merged": "/Users/seohyemin/Blinkling-master/app/build/intermediates/res/merged/debug/layout/fragment_set_font.xml",
-        "source": "/Users/seohyemin/Blinkling-master/app/src/main/res/layout/fragment_set_font.xml"
+        "merged": "/Users/seohyemin/Blinkling-master/app/build/intermediates/res/merged/debug/layout/abc_search_view.xml",
+        "source": "/Users/seohyemin/.android/build-cache/c7bc4f7edfba7ff92a9519a276f8d2da7169785b/output/res/layout/abc_search_view.xml"
     },
     {
         "merged": "/Users/miso/capstone/app/build/intermediates/res/merged/debug/layout/fragment_text_pagerview.xml",
@@ -136,12 +136,12 @@
         "source": "/Users/miso/.android/build-cache/f518a637222202e95c7ee16aa458e17e5c6c2ed1/output/res/layout/abc_activity_chooser_view.xml"
     },
     {
-        "merged": "/Users/seohyemin/Blinkling-master/app/build/intermediates/res/merged/debug/layout/select_dialog_multichoice_material.xml",
-        "source": "/Users/seohyemin/.android/build-cache/c7bc4f7edfba7ff92a9519a276f8d2da7169785b/output/res/layout/select_dialog_multichoice_material.xml"
-    },
-    {
         "merged": "/Users/seohyemin/Blinkling-master/app/build/intermediates/res/merged/debug/layout/place_autocomplete_item_powered_by_google.xml",
         "source": "/Users/seohyemin/.android/build-cache/7513a969dcc805b7f0f9997c9c0130190965a6d4/output/res/layout/place_autocomplete_item_powered_by_google.xml"
+    },
+    {
+        "merged": "/Users/seohyemin/Blinkling-master/app/build/intermediates/res/merged/debug/layout/select_dialog_multichoice_material.xml",
+        "source": "/Users/seohyemin/.android/build-cache/c7bc4f7edfba7ff92a9519a276f8d2da7169785b/output/res/layout/select_dialog_multichoice_material.xml"
     },
     {
         "merged": "/Users/seohyemin/Blinkling-master/app/build/intermediates/res/merged/debug/layout/abc_alert_dialog_material.xml",
@@ -160,24 +160,24 @@
         "source": "/Users/seohyemin/Blinkling-master/app/src/main/res/layout/lv_header_layout.xml"
     },
     {
-        "merged": "/Users/seohyemin/Blinkling-master/app/build/intermediates/res/merged/debug/layout/abc_action_bar_up_container.xml",
-        "source": "/Users/seohyemin/.android/build-cache/c7bc4f7edfba7ff92a9519a276f8d2da7169785b/output/res/layout/abc_action_bar_up_container.xml"
-    },
-    {
         "merged": "/Users/seohyemin/Blinkling-master/app/build/intermediates/res/merged/debug/layout/abc_activity_chooser_view_list_item.xml",
         "source": "/Users/seohyemin/.android/build-cache/c7bc4f7edfba7ff92a9519a276f8d2da7169785b/output/res/layout/abc_activity_chooser_view_list_item.xml"
+    },
+    {
+        "merged": "/Users/seohyemin/Blinkling-master/app/build/intermediates/res/merged/debug/layout/abc_action_bar_up_container.xml",
+        "source": "/Users/seohyemin/.android/build-cache/c7bc4f7edfba7ff92a9519a276f8d2da7169785b/output/res/layout/abc_action_bar_up_container.xml"
     },
     {
         "merged": "/Users/miso/capstone/app/build/intermediates/res/merged/debug/layout/notification_template_lines_media.xml",
         "source": "/Users/miso/.android/build-cache/f518a637222202e95c7ee16aa458e17e5c6c2ed1/output/res/layout/notification_template_lines_media.xml"
     },
     {
-        "merged": "/Users/seohyemin/Blinkling-master/app/build/intermediates/res/merged/debug/layout/fragment_bookmark.xml",
-        "source": "/Users/seohyemin/Blinkling-master/app/src/main/res/layout/fragment_bookmark.xml"
-    },
-    {
         "merged": "/Users/miso/capstone/app/build/intermediates/res/merged/debug/layout/abc_list_menu_item_layout.xml",
         "source": "/Users/miso/.android/build-cache/f518a637222202e95c7ee16aa458e17e5c6c2ed1/output/res/layout/abc_list_menu_item_layout.xml"
+    },
+    {
+        "merged": "/Users/seohyemin/Blinkling-master/app/build/intermediates/res/merged/debug/layout/fragment_bookmark.xml",
+        "source": "/Users/seohyemin/Blinkling-master/app/src/main/res/layout/fragment_bookmark.xml"
     },
     {
         "merged": "/Users/seohyemin/Blinkling-master/app/build/intermediates/res/merged/debug/layout/mr_controller_volume_item.xml",
@@ -292,12 +292,12 @@
         "source": "/Users/miso/.android/build-cache/f518a637222202e95c7ee16aa458e17e5c6c2ed1/output/res/layout/abc_popup_menu_header_item_layout.xml"
     },
     {
-        "merged": "/Users/seohyemin/Blinkling-master/app/build/intermediates/res/merged/debug/layout/fragment_text_pagerview.xml",
-        "source": "/Users/seohyemin/Blinkling-master/app/src/main/res/layout/fragment_text_pagerview.xml"
-    },
-    {
         "merged": "/Users/seohyemin/Blinkling-master/app/build/intermediates/res/merged/debug/layout/design_navigation_item.xml",
         "source": "/Users/seohyemin/.android/build-cache/b5526703288357c323e2e1ef12cac4fa78843af5/output/res/layout/design_navigation_item.xml"
+    },
+    {
+        "merged": "/Users/seohyemin/Blinkling-master/app/build/intermediates/res/merged/debug/layout/fragment_text_pagerview.xml",
+        "source": "/Users/seohyemin/Blinkling-master/app/src/main/res/layout/fragment_text_pagerview.xml"
     },
     {
         "merged": "/Users/seohyemin/Blinkling-master/app/build/intermediates/res/merged/debug/layout/mr_chooser_dialog.xml",
@@ -308,12 +308,12 @@
         "source": "/Users/miso/capstone/app/src/main/res/layout/fragment_tabs.xml"
     },
     {
-        "merged": "/Users/miso/capstone/app/build/intermediates/res/merged/debug/layout/fragment_inner_storage.xml",
-        "source": "/Users/miso/capstone/app/src/main/res/layout/fragment_inner_storage.xml"
-    },
-    {
         "merged": "/Users/miso/capstone/app/build/intermediates/res/merged/debug/layout/place_autocomplete_item_powered_by_google.xml",
         "source": "/Users/miso/.android/build-cache/3246c5d7fe51547e150062effadac18210e53e30/output/res/layout/place_autocomplete_item_powered_by_google.xml"
+    },
+    {
+        "merged": "/Users/miso/capstone/app/build/intermediates/res/merged/debug/layout/fragment_inner_storage.xml",
+        "source": "/Users/miso/capstone/app/src/main/res/layout/fragment_inner_storage.xml"
     },
     {
         "merged": "/Users/seohyemin/Blinkling-master/app/build/intermediates/res/merged/debug/layout/mr_playback_control.xml",

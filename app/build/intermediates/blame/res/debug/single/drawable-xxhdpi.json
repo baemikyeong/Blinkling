@@ -12,12 +12,12 @@
         "source": "/Users/seohyemin/Blinkling-master/app/src/main/res/drawable-xxhdpi/ic_mybookmark_default.png"
     },
     {
-        "merged": "/Users/seohyemin/Blinkling-master/app/build/intermediates/res/merged/debug/drawable-xxhdpi/ic_page_default.png",
-        "source": "/Users/seohyemin/Blinkling-master/app/src/main/res/drawable-xxhdpi/ic_page_default.png"
-    },
-    {
         "merged": "/Users/seohyemin/Blinkling-master/app/build/intermediates/res/merged/debug/drawable-xxhdpi/ic_delete_default.png",
         "source": "/Users/seohyemin/Blinkling-master/app/src/main/res/drawable-xxhdpi/ic_delete_default.png"
+    },
+    {
+        "merged": "/Users/seohyemin/Blinkling-master/app/build/intermediates/res/merged/debug/drawable-xxhdpi/ic_page_default.png",
+        "source": "/Users/seohyemin/Blinkling-master/app/src/main/res/drawable-xxhdpi/ic_page_default.png"
     },
     {
         "merged": "/Users/miso/capstone/app/build/intermediates/res/merged/debug/drawable-xxhdpi/ic_web_default.png",

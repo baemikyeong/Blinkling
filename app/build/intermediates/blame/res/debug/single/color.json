@@ -4,32 +4,32 @@
         "source": "/Users/miso/.android/build-cache/f518a637222202e95c7ee16aa458e17e5c6c2ed1/output/res/color/abc_primary_text_disable_only_material_light.xml"
     },
     {
-        "merged": "/Users/seohyemin/Blinkling-master/app/build/intermediates/res/merged/debug/color/design_tint_password_toggle.xml",
-        "source": "/Users/seohyemin/.android/build-cache/b5526703288357c323e2e1ef12cac4fa78843af5/output/res/color/design_tint_password_toggle.xml"
-    },
-    {
         "merged": "/Users/seohyemin/Blinkling-master/app/build/intermediates/res/merged/debug/color/design_error.xml",
         "source": "/Users/seohyemin/.android/build-cache/b5526703288357c323e2e1ef12cac4fa78843af5/output/res/color/design_error.xml"
     },
     {
-        "merged": "/Users/seohyemin/Blinkling-master/app/build/intermediates/res/merged/debug/color/common_google_signin_btn_tint.xml",
-        "source": "/Users/seohyemin/.android/build-cache/0d2115ebae371fcb313058a3bc5c308dbec866f8/output/res/color/common_google_signin_btn_tint.xml"
+        "merged": "/Users/seohyemin/Blinkling-master/app/build/intermediates/res/merged/debug/color/design_tint_password_toggle.xml",
+        "source": "/Users/seohyemin/.android/build-cache/b5526703288357c323e2e1ef12cac4fa78843af5/output/res/color/design_tint_password_toggle.xml"
     },
     {
         "merged": "/Users/seohyemin/Blinkling-master/app/build/intermediates/res/merged/debug/color/abc_tint_edittext.xml",
         "source": "/Users/seohyemin/.android/build-cache/c7bc4f7edfba7ff92a9519a276f8d2da7169785b/output/res/color/abc_tint_edittext.xml"
     },
     {
+        "merged": "/Users/seohyemin/Blinkling-master/app/build/intermediates/res/merged/debug/color/common_google_signin_btn_tint.xml",
+        "source": "/Users/seohyemin/.android/build-cache/0d2115ebae371fcb313058a3bc5c308dbec866f8/output/res/color/common_google_signin_btn_tint.xml"
+    },
+    {
         "merged": "/Users/miso/capstone/app/build/intermediates/res/merged/debug/color/abc_btn_colored_text_material.xml",
         "source": "/Users/miso/.android/build-cache/f518a637222202e95c7ee16aa458e17e5c6c2ed1/output/res/color/abc_btn_colored_text_material.xml"
     },
     {
-        "merged": "/Users/seohyemin/Blinkling-master/app/build/intermediates/res/merged/debug/color/common_google_signin_btn_text_light.xml",
-        "source": "/Users/seohyemin/.android/build-cache/0d2115ebae371fcb313058a3bc5c308dbec866f8/output/res/color/common_google_signin_btn_text_light.xml"
-    },
-    {
         "merged": "/Users/seohyemin/Blinkling-master/app/build/intermediates/res/merged/debug/color/abc_secondary_text_material_light.xml",
         "source": "/Users/seohyemin/.android/build-cache/c7bc4f7edfba7ff92a9519a276f8d2da7169785b/output/res/color/abc_secondary_text_material_light.xml"
+    },
+    {
+        "merged": "/Users/seohyemin/Blinkling-master/app/build/intermediates/res/merged/debug/color/common_google_signin_btn_text_light.xml",
+        "source": "/Users/seohyemin/.android/build-cache/0d2115ebae371fcb313058a3bc5c308dbec866f8/output/res/color/common_google_signin_btn_text_light.xml"
     },
     {
         "merged": "/Users/seohyemin/Blinkling-master/app/build/intermediates/res/merged/debug/color/wallet_primary_text_holo_light.xml",
@@ -44,12 +44,12 @@
         "source": "/Users/miso/.android/build-cache/f518a637222202e95c7ee16aa458e17e5c6c2ed1/output/res/color/abc_tint_switch_track.xml"
     },
     {
-        "merged": "/Users/miso/capstone/app/build/intermediates/res/merged/debug/color/wallet_primary_text_holo_light.xml",
-        "source": "/Users/miso/.android/build-cache/270508964904fb66a7a5b848eb6827e26bf42f7d/output/res/color/wallet_primary_text_holo_light.xml"
-    },
-    {
         "merged": "/Users/miso/capstone/app/build/intermediates/res/merged/debug/color/switch_thumb_material_dark.xml",
         "source": "/Users/miso/.android/build-cache/f518a637222202e95c7ee16aa458e17e5c6c2ed1/output/res/color/switch_thumb_material_dark.xml"
+    },
+    {
+        "merged": "/Users/miso/capstone/app/build/intermediates/res/merged/debug/color/wallet_primary_text_holo_light.xml",
+        "source": "/Users/miso/.android/build-cache/270508964904fb66a7a5b848eb6827e26bf42f7d/output/res/color/wallet_primary_text_holo_light.xml"
     },
     {
         "merged": "/Users/seohyemin/Blinkling-master/app/build/intermediates/res/merged/debug/color/abc_btn_colored_borderless_text_material.xml",
