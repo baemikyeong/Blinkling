@@ -23,7 +23,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="@dimen/settingsListHeight"
                 android:checked="true"
-                android:text="1"
+                android:text="lv.1"
                 android:textSize="@dimen/settingsTextSize"
                 android:paddingLeft="@dimen/settingsInternalPadding"
                 android:buttonTint="@color/colorPrimary" />
@@ -32,7 +32,7 @@
                 android:id="@+id/radio_small2"
                 android:layout_width="match_parent"
                 android:layout_height="@dimen/settingsListHeight"
-                android:text="2"
+                android:text="lv.2"
                 android:textSize="@dimen/settingsTextSize"
                 android:paddingLeft="@dimen/settingsInternalPadding"
                 android:buttonTint="@color/colorPrimary"/>
@@ -41,7 +41,7 @@
                 android:id="@+id/radio_small3"
                 android:layout_width="match_parent"
                 android:layout_height="@dimen/settingsListHeight"
-                android:text="3"
+                android:text="lv.3"
                 android:textSize="@dimen/settingsTextSize"
                 android:paddingLeft="@dimen/settingsInternalPadding"
                 android:buttonTint="@color/colorPrimary"/>
@@ -50,7 +50,16 @@
                 android:id="@+id/radio_small4"
                 android:layout_width="match_parent"
                 android:layout_height="@dimen/settingsListHeight"
-                android:text="4"
+                android:text="lv.4"
+                android:textSize="@dimen/settingsTextSize"
+                android:paddingLeft="@dimen/settingsInternalPadding"
+                android:buttonTint="@color/colorPrimary"/>
+
+            <RadioButton
+                android:id="@+id/radio_small5"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/settingsListHeight"
+                android:text="1페이지"
                 android:textSize="@dimen/settingsTextSize"
                 android:paddingLeft="@dimen/settingsInternalPadding"
                 android:buttonTint="@color/colorPrimary"/>
