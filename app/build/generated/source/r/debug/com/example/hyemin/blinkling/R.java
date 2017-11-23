@@ -4262,13 +4262,13 @@ containing a value of this type.
         public static final int abc_textfield_search_material=0x7f020051;
         public static final int abc_vector_test=0x7f020052;
         public static final int avd_hide_password=0x7f020053;
-        public static final int avd_hide_password_1=0x7f0201d5;
-        public static final int avd_hide_password_2=0x7f0201d6;
-        public static final int avd_hide_password_3=0x7f0201d7;
+        public static final int avd_hide_password_1=0x7f0201d6;
+        public static final int avd_hide_password_2=0x7f0201d7;
+        public static final int avd_hide_password_3=0x7f0201d8;
         public static final int avd_show_password=0x7f020054;
-        public static final int avd_show_password_1=0x7f0201d8;
-        public static final int avd_show_password_2=0x7f0201d9;
-        public static final int avd_show_password_3=0x7f0201da;
+        public static final int avd_show_password_1=0x7f0201d9;
+        public static final int avd_show_password_2=0x7f0201da;
+        public static final int avd_show_password_3=0x7f0201db;
         public static final int back=0x7f020055;
         public static final int book=0x7f020056;
         public static final int book1=0x7f020057;
@@ -4592,8 +4592,8 @@ containing a value of this type.
         public static final int notification_bg_normal=0x7f020195;
         public static final int notification_bg_normal_pressed=0x7f020196;
         public static final int notification_icon_background=0x7f020197;
-        public static final int notification_template_icon_bg=0x7f0201d3;
-        public static final int notification_template_icon_low_bg=0x7f0201d4;
+        public static final int notification_template_icon_bg=0x7f0201d4;
+        public static final int notification_template_icon_low_bg=0x7f0201d5;
         public static final int notification_tile_bg=0x7f020198;
         public static final int notify_panel_notification_icon_bg=0x7f020199;
         public static final int pause=0x7f02019a;
@@ -4648,11 +4648,12 @@ containing a value of this type.
         public static final int record_progress_bar_background=0x7f0201cb;
         public static final int seekbar_progress=0x7f0201cc;
         public static final int settings=0x7f0201cd;
-        public static final int splash=0x7f0201ce;
-        public static final int splashview=0x7f0201cf;
-        public static final int theatremic=0x7f0201d0;
-        public static final int user=0x7f0201d1;
-        public static final int worldwide=0x7f0201d2;
+        public static final int spl=0x7f0201ce;
+        public static final int splash=0x7f0201cf;
+        public static final int splashview=0x7f0201d0;
+        public static final int theatremic=0x7f0201d1;
+        public static final int user=0x7f0201d2;
+        public static final int worldwide=0x7f0201d3;
     }
     public static final class id {
         public static final int action0=0x7f10016b;

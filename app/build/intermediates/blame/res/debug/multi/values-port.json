@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "/Users/seohyemin/Blinkling-master/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-port/values-port.xml",
+        "outputFile": "/Users/joorimun/Documents/Projects/Blinkling/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-port/values-port.xml",
         "map": [
             {
                 "to": {
@@ -11,7 +11,7 @@
                     "endOffset": 106
                 },
                 "from": {
-                    "file": "/Users/seohyemin/.android/build-cache/c7bc4f7edfba7ff92a9519a276f8d2da7169785b/output/res/values-port/values-port.xml",
+                    "file": "/Users/joorimun/.android/build-cache/5f5ed5ec4224808be8cfc7ecf9712aa9a2798fec/output/res/values-port/values-port.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,

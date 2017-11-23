@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "/Users/seohyemin/Blinkling-master/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v12/values-v12.xml",
+        "outputFile": "/Users/joorimun/Documents/Projects/Blinkling/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v12/values-v12.xml",
         "map": [
             {
                 "to": {
@@ -12,7 +12,7 @@
                     "endOffset": 274
                 },
                 "from": {
-                    "file": "/Users/seohyemin/.android/build-cache/c7bc4f7edfba7ff92a9519a276f8d2da7169785b/output/res/values-v12/values-v12.xml",
+                    "file": "/Users/joorimun/.android/build-cache/5f5ed5ec4224808be8cfc7ecf9712aa9a2798fec/output/res/values-v12/values-v12.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,
@@ -33,7 +33,7 @@
                     "endOffset": 474
                 },
                 "from": {
-                    "file": "/Users/seohyemin/.android/build-cache/c7bc4f7edfba7ff92a9519a276f8d2da7169785b/output/res/values-v12/values-v12.xml",
+                    "file": "/Users/joorimun/.android/build-cache/5f5ed5ec4224808be8cfc7ecf9712aa9a2798fec/output/res/values-v12/values-v12.xml",
                     "position": {
                         "startLine": 5,
                         "startColumn": 4,
@@ -53,7 +53,7 @@
                     "endOffset": 593
                 },
                 "from": {
-                    "file": "/Users/seohyemin/.android/build-cache/c7bc4f7edfba7ff92a9519a276f8d2da7169785b/output/res/values-v12/values-v12.xml",
+                    "file": "/Users/joorimun/.android/build-cache/5f5ed5ec4224808be8cfc7ecf9712aa9a2798fec/output/res/values-v12/values-v12.xml",
                     "position": {
                         "startLine": 8,
                         "startColumn": 4,
@@ -72,7 +72,7 @@
                     "endOffset": 688
                 },
                 "from": {
-                    "file": "/Users/seohyemin/.android/build-cache/c7bc4f7edfba7ff92a9519a276f8d2da7169785b/output/res/values-v12/values-v12.xml",
+                    "file": "/Users/joorimun/.android/build-cache/5f5ed5ec4224808be8cfc7ecf9712aa9a2798fec/output/res/values-v12/values-v12.xml",
                     "position": {
                         "startLine": 9,
                         "startColumn": 4,

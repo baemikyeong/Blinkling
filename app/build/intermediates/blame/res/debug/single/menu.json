@@ -1,14 +1,14 @@
 [
     {
-        "merged": "/Users/seohyemin/Blinkling-master/app/build/intermediates/res/merged/debug/menu/menu_main.xml",
-        "source": "/Users/seohyemin/Blinkling-master/app/src/main/res/menu/menu_main.xml"
+        "merged": "/Users/joorimun/Documents/Projects/Blinkling/app/build/intermediates/res/merged/debug/menu/floating_button.xml",
+        "source": "/Users/joorimun/Documents/Projects/Blinkling/app/src/main/res/menu/floating_button.xml"
     },
     {
-        "merged": "/Users/seohyemin/Blinkling-master/app/build/intermediates/res/merged/debug/menu/bottom_menu.xml",
-        "source": "/Users/seohyemin/Blinkling-master/app/src/main/res/menu/bottom_menu.xml"
+        "merged": "/Users/joorimun/Documents/Projects/Blinkling/app/build/intermediates/res/merged/debug/menu/bottom_menu.xml",
+        "source": "/Users/joorimun/Documents/Projects/Blinkling/app/src/main/res/menu/bottom_menu.xml"
     },
     {
-        "merged": "/Users/seohyemin/Blinkling-master/app/build/intermediates/res/merged/debug/menu/floating_button.xml",
-        "source": "/Users/seohyemin/Blinkling-master/app/src/main/res/menu/floating_button.xml"
+        "merged": "/Users/joorimun/Documents/Projects/Blinkling/app/build/intermediates/res/merged/debug/menu/menu_main.xml",
+        "source": "/Users/joorimun/Documents/Projects/Blinkling/app/src/main/res/menu/menu_main.xml"
     }
 ]

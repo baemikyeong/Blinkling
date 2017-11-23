@@ -175,9 +175,9 @@
     <color name="colorBorder">#a7a4a4</color>
     <color name="colorDivider">#2FE897</color>
     <color name="colorExtra">#fffac1</color>
-    <color name="colorGrey">#efefef</color>
-    <color name="colorPrimary">#8f694a</color>
-    <color name="colorPrimaryDark">#86664b</color>
+    <color name="colorGrey">#F4F4F6</color>
+    <color name="colorPrimary">#604440</color>
+    <color name="colorPrimaryDark">#604848</color>
     <color name="colorPrimaryLight">#8a3aaf</color>
     <color name="colorWhite">#ffffff</color>
     <color name="color_Back">#11fdf6bf</color>
@@ -211,8 +211,8 @@
     <color name="highlighted_text_material_dark">#6680cbc4</color>
     <color name="highlighted_text_material_light">#66009688</color>
     <color name="itemIconTint">#3b3838</color>
-    <color name="lvDividerColor">#E0E0E0</color>
-    <color name="lvHeaderDividerColor">#9FB4C7</color>
+    <color name="lvDividerColor">#d5dce5</color>
+    <color name="lvHeaderDividerColor">#d5dce5</color>
     <color name="lvHeaderTextColor">#9FB4C7</color>
     <color name="material_blue_500">#5677fc</color>
     <color name="material_blue_grey_800">#ff37474f</color>

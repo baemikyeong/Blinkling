@@ -1,46 +1,46 @@
 [
     {
-        "merged": "/Users/seohyemin/Blinkling-master/app/build/intermediates/res/merged/debug/color-v23/abc_color_highlight_material.xml",
-        "source": "/Users/seohyemin/.android/build-cache/c7bc4f7edfba7ff92a9519a276f8d2da7169785b/output/res/color-v23/abc_color_highlight_material.xml"
+        "merged": "/Users/joorimun/Documents/Projects/Blinkling/app/build/intermediates/res/merged/debug/color-v23/abc_tint_edittext.xml",
+        "source": "/Users/joorimun/.android/build-cache/5f5ed5ec4224808be8cfc7ecf9712aa9a2798fec/output/res/color-v23/abc_tint_edittext.xml"
     },
     {
-        "merged": "/Users/seohyemin/Blinkling-master/app/build/intermediates/res/merged/debug/color-v23/abc_tint_switch_track.xml",
-        "source": "/Users/seohyemin/.android/build-cache/c7bc4f7edfba7ff92a9519a276f8d2da7169785b/output/res/color-v23/abc_tint_switch_track.xml"
+        "merged": "/Users/joorimun/Documents/Projects/Blinkling/app/build/intermediates/res/merged/debug/color-v23/abc_tint_spinner.xml",
+        "source": "/Users/joorimun/.android/build-cache/5f5ed5ec4224808be8cfc7ecf9712aa9a2798fec/output/res/color-v23/abc_tint_spinner.xml"
     },
     {
-        "merged": "/Users/seohyemin/Blinkling-master/app/build/intermediates/res/merged/debug/color-v23/design_tint_password_toggle.xml",
-        "source": "/Users/seohyemin/.android/build-cache/b5526703288357c323e2e1ef12cac4fa78843af5/output/res/color-v23/design_tint_password_toggle.xml"
+        "merged": "/Users/joorimun/Documents/Projects/Blinkling/app/build/intermediates/res/merged/debug/color-v23/abc_btn_colored_text_material.xml",
+        "source": "/Users/joorimun/.android/build-cache/5f5ed5ec4224808be8cfc7ecf9712aa9a2798fec/output/res/color-v23/abc_btn_colored_text_material.xml"
     },
     {
-        "merged": "/Users/seohyemin/Blinkling-master/app/build/intermediates/res/merged/debug/color-v23/abc_tint_seek_thumb.xml",
-        "source": "/Users/seohyemin/.android/build-cache/c7bc4f7edfba7ff92a9519a276f8d2da7169785b/output/res/color-v23/abc_tint_seek_thumb.xml"
+        "merged": "/Users/joorimun/Documents/Projects/Blinkling/app/build/intermediates/res/merged/debug/color-v23/abc_color_highlight_material.xml",
+        "source": "/Users/joorimun/.android/build-cache/5f5ed5ec4224808be8cfc7ecf9712aa9a2798fec/output/res/color-v23/abc_color_highlight_material.xml"
     },
     {
-        "merged": "/Users/seohyemin/Blinkling-master/app/build/intermediates/res/merged/debug/color-v23/abc_tint_btn_checkable.xml",
-        "source": "/Users/seohyemin/.android/build-cache/c7bc4f7edfba7ff92a9519a276f8d2da7169785b/output/res/color-v23/abc_tint_btn_checkable.xml"
+        "merged": "/Users/joorimun/Documents/Projects/Blinkling/app/build/intermediates/res/merged/debug/color-v23/abc_tint_default.xml",
+        "source": "/Users/joorimun/.android/build-cache/5f5ed5ec4224808be8cfc7ecf9712aa9a2798fec/output/res/color-v23/abc_tint_default.xml"
     },
     {
-        "merged": "/Users/seohyemin/Blinkling-master/app/build/intermediates/res/merged/debug/color-v23/abc_btn_colored_borderless_text_material.xml",
-        "source": "/Users/seohyemin/.android/build-cache/c7bc4f7edfba7ff92a9519a276f8d2da7169785b/output/res/color-v23/abc_btn_colored_borderless_text_material.xml"
+        "merged": "/Users/joorimun/Documents/Projects/Blinkling/app/build/intermediates/res/merged/debug/color-v23/abc_tint_seek_thumb.xml",
+        "source": "/Users/joorimun/.android/build-cache/5f5ed5ec4224808be8cfc7ecf9712aa9a2798fec/output/res/color-v23/abc_tint_seek_thumb.xml"
     },
     {
-        "merged": "/Users/seohyemin/Blinkling-master/app/build/intermediates/res/merged/debug/color-v23/abc_tint_switch_thumb.xml",
-        "source": "/Users/seohyemin/.android/build-cache/c7bc4f7edfba7ff92a9519a276f8d2da7169785b/output/res/color-v23/abc_tint_switch_thumb.xml"
+        "merged": "/Users/joorimun/Documents/Projects/Blinkling/app/build/intermediates/res/merged/debug/color-v23/abc_btn_colored_borderless_text_material.xml",
+        "source": "/Users/joorimun/.android/build-cache/5f5ed5ec4224808be8cfc7ecf9712aa9a2798fec/output/res/color-v23/abc_btn_colored_borderless_text_material.xml"
     },
     {
-        "merged": "/Users/seohyemin/Blinkling-master/app/build/intermediates/res/merged/debug/color-v23/abc_tint_edittext.xml",
-        "source": "/Users/seohyemin/.android/build-cache/c7bc4f7edfba7ff92a9519a276f8d2da7169785b/output/res/color-v23/abc_tint_edittext.xml"
+        "merged": "/Users/joorimun/Documents/Projects/Blinkling/app/build/intermediates/res/merged/debug/color-v23/abc_tint_btn_checkable.xml",
+        "source": "/Users/joorimun/.android/build-cache/5f5ed5ec4224808be8cfc7ecf9712aa9a2798fec/output/res/color-v23/abc_tint_btn_checkable.xml"
     },
     {
-        "merged": "/Users/seohyemin/Blinkling-master/app/build/intermediates/res/merged/debug/color-v23/abc_tint_spinner.xml",
-        "source": "/Users/seohyemin/.android/build-cache/c7bc4f7edfba7ff92a9519a276f8d2da7169785b/output/res/color-v23/abc_tint_spinner.xml"
+        "merged": "/Users/joorimun/Documents/Projects/Blinkling/app/build/intermediates/res/merged/debug/color-v23/abc_tint_switch_track.xml",
+        "source": "/Users/joorimun/.android/build-cache/5f5ed5ec4224808be8cfc7ecf9712aa9a2798fec/output/res/color-v23/abc_tint_switch_track.xml"
     },
     {
-        "merged": "/Users/seohyemin/Blinkling-master/app/build/intermediates/res/merged/debug/color-v23/abc_btn_colored_text_material.xml",
-        "source": "/Users/seohyemin/.android/build-cache/c7bc4f7edfba7ff92a9519a276f8d2da7169785b/output/res/color-v23/abc_btn_colored_text_material.xml"
+        "merged": "/Users/joorimun/Documents/Projects/Blinkling/app/build/intermediates/res/merged/debug/color-v23/abc_tint_switch_thumb.xml",
+        "source": "/Users/joorimun/.android/build-cache/5f5ed5ec4224808be8cfc7ecf9712aa9a2798fec/output/res/color-v23/abc_tint_switch_thumb.xml"
     },
     {
-        "merged": "/Users/seohyemin/Blinkling-master/app/build/intermediates/res/merged/debug/color-v23/abc_tint_default.xml",
-        "source": "/Users/seohyemin/.android/build-cache/c7bc4f7edfba7ff92a9519a276f8d2da7169785b/output/res/color-v23/abc_tint_default.xml"
+        "merged": "/Users/joorimun/Documents/Projects/Blinkling/app/build/intermediates/res/merged/debug/color-v23/design_tint_password_toggle.xml",
+        "source": "/Users/joorimun/.android/build-cache/6548a6c37116c15e2b5334ddef809da009063b62/output/res/color-v23/design_tint_password_toggle.xml"
     }
 ]
