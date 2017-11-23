@@ -86,6 +86,7 @@ public class FaceTracker extends Tracker<Face> {
                     Log.d("check", pre_left+"예전1");
                     pre_left = cur_left;
                     a=1;
+
                 }
                 else leftClosed = false;
             }
@@ -125,9 +126,6 @@ public class FaceTracker extends Tracker<Face> {
             a++;
             Log.d("check", cur_left+"현재2");
             Log.d("check", pre_left+"예전2");
-        } else if (!leftClosed && !rightClosed) {
-            EventBus.getDefault().post(new NeutralFaceEvent());
-
         }
     }
 }

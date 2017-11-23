@@ -1,4 +1,5 @@
-package com.example.hyemin.blinkling;/*
+package com.example.hyemin.blinkling;
+/*
  * Copyright (C) The Android Open Source Project
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
@@ -24,6 +25,7 @@ import android.content.Intent;
 import android.content.SharedPreferences;
 import android.content.pm.PackageManager;
 import android.os.Bundle;
+import android.os.Handler;
 import android.support.design.widget.Snackbar;
 import android.support.v4.app.ActivityCompat;
 import android.util.Log;
@@ -69,8 +71,8 @@ public final class Face_Activity extends Activity {
 
 
     // 눈 감았을때의 오른쪽, 왼쪽 눈의 크기 저장
-    public static float right_thred1 = 0.8f;
-    public static float left_thred1 = 0.8f;
+    public static float right_thred1 = 0.7f;
+    public static float left_thred1 = 0.7f;
 
     // 초기화 여부 판단
     public static boolean initial_check;
@@ -96,6 +98,8 @@ public final class Face_Activity extends Activity {
     long startTime = 0, endTime = 0;
     static int time = 1000;
     public int auto_start=1;
+    Handler handler;
+    Handler handler2;
     //==============================================================================================
     // Activity Methods
     //==============================================================================================
@@ -135,33 +139,54 @@ public final class Face_Activity extends Activity {
         }
         auto_start = 2;
 
+        handler = new Handler();
+
     /*    if(checking == 0) {
             Intent intent = new Intent(Face_Activity.this, Popup_Information_Activity.class);
             startActivity(intent);
             checking = 1;
         }*/
 
+<<<<<<< HEAD
+=======
+//
+//        try {
+//            sleep(3000);
+//        } catch (InterruptedException e) {
+//            e.printStackTrace();
+//        }
+        Toast.makeText(this, "눈 크기 측정을 시작합니다. 눈을 감아주세요", Toast.LENGTH_SHORT).show();
+        handler.postDelayed(new Runnable() {
+            @Override
+            public void run() {
+                    start_init();
+            }
+        },3000);
+
+>>>>>>> 03c04762a9f87f7155052f1faa08cec8e7f5bba3
     }
 
     public void start_init(){
-        Toast.makeText(this, "눈 크기 측정을 3초 후에 시작합니다. 눈을 감아주세요", Toast.LENGTH_SHORT).show();
-
         try {
             onClickInit(getCurrentFocus());
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
-        Toast.makeText(this, "눈 크기 측정이 완료 되었습니다. 의식적으로 눈을 깜박여 보세요.", Toast.LENGTH_SHORT).show();
-        try {
-            sleep(3000);
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
-        try {
-            onClickInit_time(getCurrentFocus());
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
+        Toast.makeText(this, "눈 크기 측정을 완료했습니다. 3초 후 눈 깜빡임 시간을 측정합니다", Toast.LENGTH_SHORT).show();
+
+        handler.postDelayed(new Runnable() {
+            @Override
+            public void run() {
+                try {
+                    onClickInit_time(getCurrentFocus());
+
+                } catch (InterruptedException e) {
+                    e.printStackTrace();
+                }
+            }
+        },3000);
+      //  Toast.makeText(this, "눈 크기 측정이 완료 되었습니다. 의식적으로 눈을 깜박여 보세요.", Toast.LENGTH_SHORT).show();
+
 
     }
 
@@ -198,37 +223,30 @@ public final class Face_Activity extends Activity {
                 .show();
     }
 
-    @Subscribe(threadMode = ThreadMode.MAIN)
+    @Subscribe(threadMode = ThreadMode.POSTING)
     public void onEyeClosed(EyeClosedEvent e) {
         // change_up_location();
         if (starttimecheck == 1) {
             startTime = System.currentTimeMillis(); // 시간재기
-            Toast.makeText(this, "시간측정을 시작합니다", Toast.LENGTH_SHORT).show();
             startChecked = true;
             starttimecheck++;
-        }
-        if(auto_start == 2){
-            start_init();
-            auto_start = 3;
         }
 
     }
 
-    @Subscribe(threadMode = ThreadMode.MAIN)
+    @Subscribe(threadMode = ThreadMode.POSTING)
     public void onEyeOpened(EyeOpenEvent e) {
 
         if (starttimecheck == 2 && startChecked == true) {
             // 시간 멈추기
             endTime = System.currentTimeMillis();
-            Toast.makeText(this, "눈 뜸", Toast.LENGTH_SHORT).show();
             indivisual_blink_time = endTime - startTime;
-            Toast.makeText(this, "시간" + indivisual_blink_time, Toast.LENGTH_SHORT).show();
+            Toast.makeText(this, "시간" + (double)indivisual_blink_time/1000+"초", Toast.LENGTH_SHORT).show();
             editor1.putLong("time_blink", indivisual_blink_time);
             editor1.commit();
             starttimecheck++;
         }
         startChecked = false;
-        // starttimecheck++;
     }
 
     /**
@@ -284,7 +302,6 @@ public final class Face_Activity extends Activity {
     }
 
     public void onClickInit(View v) throws InterruptedException {
-//        face_check.onDone();
         check = 1;
         initial_check = true;
         face_check = new GraphicFaceTracker(mGraphicOverlay);
@@ -300,7 +317,6 @@ public final class Face_Activity extends Activity {
         face_check.onDone();
         face_check = new GraphicFaceTracker(mGraphicOverlay);
         face_check.mFaceGraphic.set_closed_size((double) left_thred1, (double) right_thred1);
-
         starttimecheck = 1;
     }
 
@@ -460,6 +476,11 @@ public final class Face_Activity extends Activity {
                 right_thred1 = (float) r;
             if (left_thred1 != 0 && (float) l <= left_thred1 && l > (-1))
                 left_thred1 = (float) l;
+
+            if(right_thred1 <0.3f)
+                right_thred1 = 0.3f;
+            if(left_thred1<0.3f)
+                left_thred1 = 0.3f;
 
             // 눈의크기가 저장이 되어있지 않은 경우, 비교 없이 값 자체 저장
             if (right_thred1 == 0)

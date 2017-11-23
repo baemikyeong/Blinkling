@@ -13,6 +13,8 @@ import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.v4.app.ActivityCompat;
 import android.support.v4.app.Fragment;
+import android.support.v4.app.FragmentManager;
+import android.support.v4.app.FragmentTransaction;
 import android.support.v7.app.AlertDialog;
 import android.util.Log;
 import android.view.KeyEvent;
@@ -385,7 +387,7 @@ public class WebviewFragment extends Fragment {
         }
     }
 
-    @Subscribe(threadMode = ThreadMode.MAIN)
+    @Subscribe(threadMode = ThreadMode.POSTING)
     public void onRightEyeClosed(RightEyeClosedEvent e) {
        if(eyesetting == true) {
            change_down_location();
@@ -398,12 +400,8 @@ public class WebviewFragment extends Fragment {
        }
     }
 
-    @Subscribe(threadMode = ThreadMode.MAIN)
-    public void onNeutralFace(NeutralFaceEvent e) {
 
-    }
-
-    @Subscribe(threadMode = ThreadMode.MAIN)
+    @Subscribe(threadMode = ThreadMode.POSTING)
     public void onEyeSetting(EyeSettingEvent e) {
         eyesetting = ((MainActivity)getActivity()).eyesetting;
     }
@@ -451,7 +449,7 @@ public class WebviewFragment extends Fragment {
         mCameraSource = new CameraSource.Builder(getActivity(), mFaceDetector)
                 .setRequestedPreviewSize(640, 480)
                 .setFacing(CameraSource.CAMERA_FACING_FRONT)
-                .setRequestedFps(40f)
+                .setRequestedFps(40.0f)
                 .build();
     }
 

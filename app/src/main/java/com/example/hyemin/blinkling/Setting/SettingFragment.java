@@ -14,6 +14,8 @@ import android.widget.ImageButton;
 import android.widget.ListView;
 import android.widget.TextView;
 import android.widget.Toast;
+import android.support.v4.app.FragmentManager;
+import android.support.v4.app.FragmentTransaction;
 
 import com.example.hyemin.blinkling.Face_Activity;
 import com.example.hyemin.blinkling.MainActivity;
@@ -21,7 +23,7 @@ import com.example.hyemin.blinkling.Popup_Information_Activity;
 import com.example.hyemin.blinkling.R;
 import com.google.android.gms.vision.CameraSource;
 
-public class SettingFragment extends Fragment {
+public class SettingFragment extends android.support.v4.app.Fragment {
 
     private CameraSource mCameraSource;
     public static final int HDR_POS1 = 0;
