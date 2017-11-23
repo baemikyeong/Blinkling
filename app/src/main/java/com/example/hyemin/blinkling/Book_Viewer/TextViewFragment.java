@@ -437,6 +437,10 @@ public class TextViewFragment extends Fragment {
             case 4:
                 range = 500;
                 break;
+            case 5:
+                scrollView.pageScroll(View.FOCUS_DOWN);
+                tv.getLocationOnScreen(location);
+                return;
         }
 
         // 위치 변경

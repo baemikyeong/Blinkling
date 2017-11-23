@@ -270,6 +270,9 @@ public class WebviewFragment extends Fragment {
             case 4:
                 range = 500;
                 break;
+            case 5:
+                range = 1000;
+                return;
         }
 
         // 위치 변경

@@ -361,6 +361,9 @@ public class MainActivity extends ActionBarActivity {
             case 4:
                 rg.check(R.id.radio_small4);
                 break;
+            case 5:
+                rg.check(R.id.radio_small5);
+                break;
         }
 
         builder.setPositiveButton("확인", new DialogInterface.OnClickListener() {

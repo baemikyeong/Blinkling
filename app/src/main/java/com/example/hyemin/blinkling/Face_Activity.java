@@ -147,20 +147,6 @@ public final class Face_Activity extends Activity {
             checking = 1;
         }*/
 
-//
-//        try {
-//            sleep(3000);
-//        } catch (InterruptedException e) {
-//            e.printStackTrace();
-//        }
-        Toast.makeText(this, "눈 크기 측정을 시작합니다. 눈을 감아주세요", Toast.LENGTH_SHORT).show();
-        handler.postDelayed(new Runnable() {
-            @Override
-            public void run() {
-                    start_init();
-            }
-        },3000);
-
     }
 
     public void start_init(){
