@@ -271,7 +271,7 @@ public class WebviewFragment extends Fragment {
                 range = 500;
                 break;
             case 5:
-          //      webView.scro
+                range = 1000;
                 return;
         }
 
