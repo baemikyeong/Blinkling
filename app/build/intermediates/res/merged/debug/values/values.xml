@@ -176,11 +176,12 @@
     <color name="colorDivider">#2FE897</color>
     <color name="colorExtra">#fffac1</color>
     <color name="colorGrey">#F4F4F6</color>
-    <color name="colorPrimary">#604440</color>
-    <color name="colorPrimaryDark">#604848</color>
+    <color name="colorPrimary">#8f694a</color>
+    <color name="colorPrimaryDark">#8f694a</color>
     <color name="colorPrimaryLight">#8a3aaf</color>
     <color name="colorWhite">#ffffff</color>
     <color name="color_Back">#11fdf6bf</color>
+    <color name="colorinfo">#F9F7F7</color>
     <color name="common_google_signin_btn_text_dark_default">@android:color/white</color>
     <color name="common_google_signin_btn_text_dark_disabled">#1F000000</color>
     <color name="common_google_signin_btn_text_dark_focused">@android:color/black</color>

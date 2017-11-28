@@ -3,8 +3,9 @@
 
     <!--Main-->
     <!--<color name="colorPrimary">#8f694a</color>--><!---->
-    <color name="colorPrimary">#604440</color><!--997759.-->
-    <color name="colorPrimaryDark">#604848</color><!---->
+    <color name="colorPrimary">#8f694a</color><!--997759.-->
+    <color name="colorPrimaryDark">#8f694a</color><!---->
+    <color name="colorinfo">#F9F7F7</color>
 
     <!--Selection-->
     <!--<color name="colorGrey">#efefef</color>--><!---->

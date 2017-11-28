@@ -492,6 +492,10 @@
         "source": "/Users/miso/.android/build-cache/f518a637222202e95c7ee16aa458e17e5c6c2ed1/output/res/drawable/abc_textfield_search_material.xml"
     },
     {
+        "merged": "/Users/miso/capstone/app/build/intermediates/res/merged/debug/drawable/initial.png",
+        "source": "/Users/miso/capstone/app/src/main/res/drawable/initial.png"
+    },
+    {
         "merged": "/Users/miso/capstone/app/build/intermediates/res/merged/debug/drawable/cast_ic_expanded_controller_play.xml",
         "source": "/Users/miso/.android/build-cache/347d0d4156e9f2449bb5d96c9ebf61d7db2d587c/output/res/drawable/cast_ic_expanded_controller_play.xml"
     },

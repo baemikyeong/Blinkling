@@ -37,9 +37,10 @@ import android.widget.Toast;
 
 import com.example.hyemin.blinkling.MainActivity;
 import com.example.hyemin.blinkling.R;
+import com.example.hyemin.blinkling.event.BlinkEvent;
 import com.example.hyemin.blinkling.event.EyeSettingEvent;
 import com.example.hyemin.blinkling.event.NeutralFaceEvent;
-import com.example.hyemin.blinkling.event.RightEyeClosedEvent;
+import com.example.hyemin.blinkling.event.OneEyeBlinkEvent;
 import com.example.hyemin.blinkling.tracker.FaceTracker;
 import com.example.hyemin.blinkling.util.PlayServicesUtil;
 import com.google.android.gms.vision.CameraSource;
@@ -283,12 +284,33 @@ public class WebviewFragment extends Fragment {
 
     // 눈깜박임에 따른 페이지 up 함수
     public void change_up_location(){
-        // 절대값을 통해 text뷰의 스크롤뷰에서의 위치 파악
         if(location[1] < 0)
             location[1] = (-1)*location[1];
-        // 기존의 위치에서 60 이동
-        webView.scrollTo(0, location[1]-200);
-        location[1] -= 200;
+
+        int range = 200;
+
+        text_scroll_range = intPref.getInt("scroll_range", 1);
+        switch (text_scroll_range) {
+            case 1:
+                range = 200;
+                break;
+            case 2:
+                range = 300;
+                break;
+            case 3:
+                range = 400;
+                break;
+            case 4:
+                range = 500;
+                break;
+            case 5:
+                range = 1000;
+                return;
+        }
+
+        // 위치 변경
+        webView.scrollTo(0, location[1]- range);
+        location[1] -= range;
     }
 
     /**
@@ -390,19 +412,19 @@ public class WebviewFragment extends Fragment {
         }
     }
 
-    @Subscribe(threadMode = ThreadMode.POSTING)
-    public void onRightEyeClosed(RightEyeClosedEvent e) {
-       if(eyesetting == true) {
-           change_down_location();
-
-//           try {
-//               sleep(100);
-//           } catch (InterruptedException e1) {
-//               e1.printStackTrace();
-//           }
-       }
+    @Subscribe(threadMode = ThreadMode.MAIN)
+    public void onBlink(BlinkEvent e) {
+        if (eyesetting == true) {
+            // change_up_location();
+            change_down_location();
+        }
     }
 
+    @Subscribe(threadMode = ThreadMode.MAIN)
+    public void onOneEyeBlink(OneEyeBlinkEvent e) {
+        change_up_location();
+
+    }
 
     @Subscribe(threadMode = ThreadMode.POSTING)
     public void onEyeSetting(EyeSettingEvent e) {

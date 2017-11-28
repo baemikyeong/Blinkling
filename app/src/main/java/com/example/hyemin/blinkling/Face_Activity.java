@@ -38,7 +38,6 @@ import com.example.hyemin.blinkling.camera.GraphicOverlay;
 import com.example.hyemin.blinkling.event.EyeClosedEvent;
 import com.example.hyemin.blinkling.event.EyeOpenEvent;
 import com.example.hyemin.blinkling.event.NeutralFaceEvent;
-import com.example.hyemin.blinkling.event.RightEyeClosedEvent;
 import com.example.hyemin.blinkling.util.PlayServicesUtil;
 import com.google.android.gms.common.ConnectionResult;
 import com.google.android.gms.common.GoogleApiAvailability;

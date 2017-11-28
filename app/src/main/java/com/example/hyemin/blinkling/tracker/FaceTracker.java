@@ -71,36 +71,35 @@ public class FaceTracker extends Tracker<Face> {
 
         cur_left = face.getIsLeftEyeOpenProbability();
 
-            if (leftClosed && cur_left > left_thres) {
-                leftClosed = false;
-            } else if (!leftClosed && cur_left < left_thres && cur_left != -1) {
-                try {
-                    sleep(user_time);
-                } catch (InterruptedException e) {
-                    e.printStackTrace();
-                }
-                if(cur_left != pre_left &&!leftClosed && cur_left < left_thres && cur_left != -1) {
-
-                    leftClosed = true;
-                    Log.d("check", cur_left+"현재1");
-                    Log.d("check", pre_left+"예전1");
-                    pre_left = cur_left;
-                    a=1;
-
-                }
-                else leftClosed = false;
+        if (leftClosed && cur_left > left_thres) {
+            leftClosed = false;
+        } else if (!leftClosed && cur_left < left_thres && cur_left != -1) {
+            try {
+                sleep(user_time);
+            } catch (InterruptedException e) {
+                e.printStackTrace();
             }
-            if (rightClosed && face.getIsRightEyeOpenProbability() > right_thres) {
-                rightClosed = false;
-            } else if (!rightClosed && face.getIsRightEyeOpenProbability() < right_thres && face.getIsRightEyeOpenProbability() != -1) {
-                try {
-                    sleep(user_time);
-                } catch (InterruptedException e) {
-                    e.printStackTrace();
-                }
-                if(!rightClosed && face.getIsRightEyeOpenProbability() < right_thres && face.getIsRightEyeOpenProbability() != -1)
+            if (cur_left != pre_left && !leftClosed && cur_left < left_thres && cur_left != -1) {
+
+                leftClosed = true;
+                Log.d("check", cur_left + "현재1");
+                Log.d("check", pre_left + "예전1");
+                pre_left = cur_left;
+                a = 1;
+
+            } else leftClosed = false;
+        }
+        if (rightClosed && face.getIsRightEyeOpenProbability() > right_thres) {
+            rightClosed = false;
+        } else if (!rightClosed && face.getIsRightEyeOpenProbability() < right_thres && face.getIsRightEyeOpenProbability() != -1) {
+            try {
+                sleep(user_time);
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
+            if (!rightClosed && face.getIsRightEyeOpenProbability() < right_thres && face.getIsRightEyeOpenProbability() != -1)
                 rightClosed = true;
-                else rightClosed = false;
+            else rightClosed = false;
 //            }
         }
 
@@ -114,8 +113,9 @@ public class FaceTracker extends Tracker<Face> {
 //        }
 
         // 오른쪽 왼쪽 눈감음 따로 인식 가능 (현재는 필요하지 않기 때문에 생략)
-        if (leftClosed && rightClosed && a==1) {
-           EventBus.getDefault().post(new RightEyeClosedEvent());
+        if (leftClosed && rightClosed && a == 1) {
+
+            EventBus.getDefault().post(new BlinkEvent());
 //            try {
 //                sleep(1300);
 //            } catch (InterruptedException e) {
@@ -124,8 +124,24 @@ public class FaceTracker extends Tracker<Face> {
 //            Log.d("check", face.getIsLeftEyeOpenProbability()+"왼쪽");
 //            Log.d("check", face.getIsRightEyeOpenProbability()+"오른쪽");
             a++;
-            Log.d("check", cur_left+"현재2");
-            Log.d("check", pre_left+"예전2");
+        } else if ((leftClosed && !rightClosed) || (!leftClosed && rightClosed)) {
+            EventBus.getDefault().post(new OneEyeBlinkEvent());
+            a++;
+        }
+        if (face.getIsSmilingProbability() > 0.5f) {
+            Log.d("smile1", face.getIsSmilingProbability() + "현재1");
+            try {
+                sleep(300);
+
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
+
+            if (face.getIsSmilingProbability() > 0.5f) {
+                Log.d("smile2", face.getIsSmilingProbability() + "현재2");
+
+                EventBus.getDefault().post(new NeutralFaceEvent());
+            }
         }
     }
 }
