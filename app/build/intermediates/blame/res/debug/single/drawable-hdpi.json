@@ -8,12 +8,12 @@
         "source": "/Users/miso/capstone/app/src/main/res/drawable-hdpi/ic_bookmark_default.png"
     },
     {
-        "merged": "/Users/miso/capstone/app/build/intermediates/res/merged/debug/drawable-hdpi/bookshlef3.png",
-        "source": "/Users/miso/capstone/app/src/main/res/drawable-hdpi/bookshlef3.png"
-    },
-    {
         "merged": "/Users/miso/capstone/app/build/intermediates/res/merged/debug/drawable-hdpi/ic_play_circle_filled_black_24dp.png",
         "source": "/Users/miso/capstone/app/src/main/res/drawable-hdpi/ic_play_circle_filled_black_24dp.png"
+    },
+    {
+        "merged": "/Users/miso/capstone/app/build/intermediates/res/merged/debug/drawable-hdpi/bookshlef3.png",
+        "source": "/Users/miso/capstone/app/src/main/res/drawable-hdpi/bookshlef3.png"
     },
     {
         "merged": "/Users/miso/capstone/app/build/intermediates/res/merged/debug/drawable-hdpi/ic_mic_black_24dp.png",

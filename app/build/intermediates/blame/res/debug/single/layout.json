@@ -128,20 +128,20 @@
         "source": "/Users/miso/capstone/app/src/main/res/layout/fragment_setting.xml"
     },
     {
-        "merged": "/Users/miso/capstone/app/build/intermediates/res/merged/debug/layout/abc_screen_simple.xml",
-        "source": "/Users/miso/.android/build-cache/f518a637222202e95c7ee16aa458e17e5c6c2ed1/output/res/layout/abc_screen_simple.xml"
-    },
-    {
         "merged": "/Users/miso/capstone/app/build/intermediates/res/merged/debug/layout/notification_template_lines_media.xml",
         "source": "/Users/miso/.android/build-cache/f518a637222202e95c7ee16aa458e17e5c6c2ed1/output/res/layout/notification_template_lines_media.xml"
     },
     {
-        "merged": "/Users/miso/capstone/app/build/intermediates/res/merged/debug/layout/select_dialog_item_material.xml",
-        "source": "/Users/miso/.android/build-cache/f518a637222202e95c7ee16aa458e17e5c6c2ed1/output/res/layout/select_dialog_item_material.xml"
+        "merged": "/Users/miso/capstone/app/build/intermediates/res/merged/debug/layout/abc_screen_simple.xml",
+        "source": "/Users/miso/.android/build-cache/f518a637222202e95c7ee16aa458e17e5c6c2ed1/output/res/layout/abc_screen_simple.xml"
     },
     {
         "merged": "/Users/miso/capstone/app/build/intermediates/res/merged/debug/layout/abc_list_menu_item_layout.xml",
         "source": "/Users/miso/.android/build-cache/f518a637222202e95c7ee16aa458e17e5c6c2ed1/output/res/layout/abc_list_menu_item_layout.xml"
+    },
+    {
+        "merged": "/Users/miso/capstone/app/build/intermediates/res/merged/debug/layout/select_dialog_item_material.xml",
+        "source": "/Users/miso/.android/build-cache/f518a637222202e95c7ee16aa458e17e5c6c2ed1/output/res/layout/select_dialog_item_material.xml"
     },
     {
         "merged": "/Users/miso/capstone/app/build/intermediates/res/merged/debug/layout/design_menu_item_action_area.xml",

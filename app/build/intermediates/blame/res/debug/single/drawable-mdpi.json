@@ -4,12 +4,12 @@
         "source": "/Users/miso/capstone/app/src/main/res/drawable-mdpi/ic_settings_pressed.png"
     },
     {
-        "merged": "/Users/miso/capstone/app/build/intermediates/res/merged/debug/drawable-mdpi/ic_web_default.png",
-        "source": "/Users/miso/capstone/app/src/main/res/drawable-mdpi/ic_web_default.png"
-    },
-    {
         "merged": "/Users/miso/capstone/app/build/intermediates/res/merged/debug/drawable-mdpi/ic_bluelight_default.png",
         "source": "/Users/miso/capstone/app/src/main/res/drawable-mdpi/ic_bluelight_default.png"
+    },
+    {
+        "merged": "/Users/miso/capstone/app/build/intermediates/res/merged/debug/drawable-mdpi/ic_web_default.png",
+        "source": "/Users/miso/capstone/app/src/main/res/drawable-mdpi/ic_web_default.png"
     },
     {
         "merged": "/Users/miso/capstone/app/build/intermediates/res/merged/debug/drawable-mdpi/ic_mic_pressed_on.png",

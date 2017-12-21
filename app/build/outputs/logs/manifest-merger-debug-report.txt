@@ -173,6 +173,7 @@ ADDED from /Users/miso/capstone/app/src/main/AndroidManifest.xml:47:9-73
 		ADDED from /Users/miso/capstone/app/src/main/AndroidManifest.xml:47:19-61
 uses-sdk
 INJECTED from /Users/miso/capstone/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.android.support:multidex:1.0.1] /Users/miso/.android/build-cache/ab48971f69f07b99bc2f9bbcf48d3fa5b64fb2d2/output/AndroidManifest.xml:18:5-42
 MERGED from [com.melnykov:floatingactionbutton:1.3.0] /Users/miso/.android/build-cache/1b44136318246ba7fa07303243e8d26b87e9bbbd/output/AndroidManifest.xml:8:5-10:41
 MERGED from [com.android.support:design:25.3.1] /Users/miso/.android/build-cache/1c1cbc250abfe847ccef1096cd2ade5ac239822b/output/AndroidManifest.xml:21:5-23:62
 MERGED from [com.android.support:recyclerview-v7:25.3.1] /Users/miso/.android/build-cache/2f95a6eb4dec171e52159ffbaabc0006ae6de9d4/output/AndroidManifest.xml:20:5-43

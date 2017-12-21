@@ -624,13 +624,13 @@ public class TextViewFragment extends Fragment {
         eyesetting = ((MainActivity) getActivity()).eyesetting;
     }
 
-    @Subscribe(threadMode = ThreadMode.MAIN)
+    @Subscribe(threadMode = ThreadMode.BACKGROUND)
     public void onOneEyeBlink(OneEyeBlinkEvent e) {
         change_up_location();
 
     }
 
-    @Subscribe(threadMode = ThreadMode.MAIN)
+    @Subscribe(threadMode = ThreadMode.BACKGROUND)
     public void onSmile(NeutralFaceEvent e){
         scrollView.scrollTo(0,0);
     }
